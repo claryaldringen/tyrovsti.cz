@@ -1,0 +1,1 @@
+# tyrovsti.cz
