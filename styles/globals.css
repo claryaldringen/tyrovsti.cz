@@ -1,0 +1,181 @@
+@font-face {
+  font-family: xiberonne;
+  src: url(/fonts/xiberon.ttf);
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Palatino !important;
+  background-color: #000000 !important;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+}
+
+.text {
+  padding: 100px 6% !important;
+  background: linear-gradient(90deg, #000000, #faebd7 4%, #faebd7 96%, #000000);
+  color: #333333;
+}
+
+.menu {
+  background: #000000;
+  box-shadow: 0px 0px 50px 50px #000000;
+  color: #cccccc;
+  padding: 8px 3%;
+  position: fixed;
+  width: 100%;
+  z-index: 1032;
+}
+
+.menu a {
+  display: inline-block;
+  color: #cccccc;
+}
+
+.menu a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.menu a::first-letter {
+  color: #cc0000;
+}
+
+.absolute {
+  position: fixed;
+}
+
+/*
+.menu-dropdown {
+  position: absolute;
+  top: 200px;
+  background: #000000;
+}
+*/
+
+.menu-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.menu-list a {
+  color: #cccccc;
+}
+
+.menu-list a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.menu-list div {
+  padding: 8px 0;
+}
+
+.menu-list div::first-letter {
+  color: #cc0000;
+}
+
+.nav-item button {
+  background: none;
+  border: none;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #cccccc;
+}
+
+.nav-item button::first-letter {
+  font-size: 20px;
+  color: #cc0000;
+}
+
+.nav-item button:hover {
+  background: none;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.brand {
+  float: right;
+  color: #cccccc;
+  font-family: xiberonne;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 50%;
+  text-overflow: ellipsis;
+  font-size: 24px;
+  text-transform: none;
+}
+
+.brand:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.brand::first-letter {
+  color: #cc0000;
+}
+
+.menu-button {
+  cursor: pointer;
+  color: #cccccc;
+  text-transform: uppercase;
+  width: 120px;
+}
+
+.menu-button:hover {
+  color: #ffffff;
+}
+
+.menu-button span {
+  display: inline-block;
+  padding-left: 6px;
+  font-size: 20px;
+}
+
+.menu-button span::first-letter {
+  color: #cc0000;
+  font-size: 28px;
+}
+
+.hamburger {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+}
+
+.hamburger hr {
+  border: solid 1px #cccccc;
+  margin: 6px 0 2px 0;
+}
+
+.container-fluid {
+  background: url('/images/background2.jpg') no-repeat center 50px;
+  background-size: cover;
+  height: 100vh;
+  /* min-height: 400px; */
+}
+
+.image-wrapper {
+  margin-bottom: 32px;
+}
+
+@media only screen and (max-width: 576px) {
+  .absolute {
+    position: absolute;
+  }
+}
