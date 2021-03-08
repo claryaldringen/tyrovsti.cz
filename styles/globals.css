@@ -172,6 +172,7 @@ a {
 
 .image-wrapper {
   margin-bottom: 32px;
+  text-align: center;
 }
 
 @media only screen and (max-width: 576px) {

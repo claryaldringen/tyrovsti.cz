@@ -65,7 +65,7 @@ export const Menu = () => {
               <p>
                 Zabýváme se rekonstrukcí (tzv. reenactment) dvora a
                 družiny&nbsp;
-                <a href="jost-z-ensiedle.html">Jošta z Einsiedle</a>, osobního
+                <Link href="/jost-z-einsiedle-a-na-tyrove">Jošta z Einsiedle</Link>, osobního
                 sekretáře krále Jiřího z Poděbrad, datačně přibližně mezi lety
                 1450 - 1470.
               </p>
