@@ -17,12 +17,60 @@ const Page = () => {
             <Row>
               <Col>
                 <h1>Historické pozadí</h1>
+              </Col>
+            </Row>
+            <Row>
+              <Col md={6}>
                 <p>
-                  Po smrti císaře Zikmunda <b>9.&nbsp;prosince&nbsp;1437</b> byl
-                  v zvolen českým králem jeho zeť Albrecht. Musel čelit silné
-                  opozici, která podporovala kandidaturu polského prince
-                  Kazimíra na český trůn.
+                  Po smrti císaře Zikmunda <b>9.&nbsp;prosince&nbsp;1437</b> se
+                  česká šlechta rozdělila na dvě strany. Jedna strana se
+                  vytvořila kolem královny-vdovy Barbory Celjské a její vedoucí
+                  osobností byl Hynce Ptáček z Pirkštejna následovaný Alešem
+                  Holickým ze Šternberka. Tato strana prosazovala kandidaturu
+                  polského prince Kazimíra Jagellonského a byla proto zvána
+                  stranou polskou.
                 </p>
+                <p>
+                  Druhá strana, v jejímž čele byli Oldřich II. z Rožmberka a
+                  Menhart z Hradce, prosazovala kandidaturu Zikmundova ze
+                  Albrechta Habsburského a byla proto zvána stranou rakouskou.
+                </p>
+                <p>
+                  Po oficiálním vyhlášení volby Kazimíra Jagellonského českým
+                  králem na sjezdu kališnické šlechty v Mělníce{' '}
+                  <b>29. května 1438</b> vytáhl Albrecht Habsburský podporovaný
+                  rakouskou stranou do Čech, čímž vypukla válka o nástupnictví.
+                  Praha byla v té době prorakouská, tak se zde nechal Albrecht{' '}
+                  <b>29. června 1438</b> korunovat českým králem a pokračoval se
+                  svými oddíly k Táboru, kde se v řadě menších šarvátek střetl s
+                  vojskem Ptáčkovy strany podpořeném oddíly z Polska. K
+                  rozhodujícímu střetnutí ani k obsazení Tábora však nedošlo a
+                  po pěti týdnech obléhání Albrechtova armáda{' '}
+                  <b>15. září 1438</b> odtáhla. Ani druhé straně se však
+                  nepodařilo situaci zvrátit a v únoru 1439 uzavřeli Albrecht s
+                  Kazimírem příměří. Na podzim 1439 vyrazil Albrech do Uher
+                  proti Turkům, na tažení se však nakazil úplavicí a{' '}
+                  <b>27. října 1439</b> zemřel.
+                </p>
+              </Col>
+              <Col md={6} className="image-wrapper">
+                <Link
+                  href="/images/Albrecht_II._von_Habsburg.jpg"
+                  target="_blank"
+                >
+                  <Image
+                    src="/images/Albrecht_II._von_Habsburg.jpg"
+                    width={578}
+                    height={800}
+                  />
+                </Link>
+                <br />
+                Portrét Albrechta II. Habsburského, kopie ze 16. století
+                namalovaná podle obrazu z let 1434 - 1439
+              </Col>
+            </Row>
+            <Row>
+              <Col>
                 <p>
                   Po Albrechtově smrti <b>27.&nbsp;října&nbsp;1439</b> se
                   situace zkomplikovala. Narodil se mu syn Ladislav, zvaný
@@ -70,7 +118,8 @@ const Page = () => {
                   />
                 </Link>
                 <br />
-                Vyobrazení Jiřího z Poděbrad na výřezu z Hodinek, které pro něj nechala zhotovit jeho manželka Johana z Rožmitálu, Praha, 1466
+                Vyobrazení Jiřího z Poděbrad na výřezu z Hodinek, které pro něj
+                nechala zhotovit jeho manželka Johana z Rožmitálu, Praha, 1466
               </Col>
             </Row>
             <Row>
