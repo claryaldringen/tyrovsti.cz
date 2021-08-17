@@ -34,10 +34,11 @@ const Page = () => (
             sousedními německými zeměmi postrádat. Takto např. omlouvá pan Jan z
             Házmburka svůj dopis městu Cheb sepsaný v českém jazyce tím, že
             momentálně nemá svého německého písaře po ruce. V této funkci se
-            také Jošt skutečně objevuje ve službách pánů Aleše a Petra ze
-            Šternberka. Protože ti často jezdili z Bečova do Chebu, byl tam Jošt
-            opakovaně posílán s různými příkazy, k čemuž se v chebském arcivu
-            zachovaly příslušné spisy, jako např. z<b>11. srpna 1450</b>:
+            také Jošt skutečně objevuje ve službách pánů Aleše a Petra Holických
+            ze Šternberka. Protože ti často jezdili z Bečova do Chebu, byl tam
+            Jošt opakovaně posílán s různými příkazy, k čemuž se v chebském
+            arcivu zachovaly příslušné spisy, jako např. z&nbsp;
+            <b>11.&nbsp;srpna&nbsp;1450</b>:
             <i>
               „... a posíláme - Jošta z Einsiedle, služebníka našeho a milého
               důvěrníka...”
@@ -46,29 +47,23 @@ const Page = () => (
           <p>
             Jeho první významnější výstup spadá do roku 1450, když Jiří z
             Poděbrad podniknul v čele své strany tažení proti vévodovi
-            Friedrichu Saskému, přičemž bylo dobyto město Gera a nato{' '}
-            <b>23. října 1450</b> uzavřeno příměří. Toto velké polní tažení
-            tvoří zajímavou epizodu stranických bojů v Čechách a lze ji chápat
-            jako příští následek převahy, kterou krátce získala poděbradská
-            strana nad Strakonickou jednotou.
+            Friedrichu Saskému, přičemž bylo dobyto město Gera a na to{' '}
+            <b>23. října 1450</b> uzavřeno příměří.
           </p>
           <p>
             Jošt z Einsiedle, který se účastnil tohoto tažení v družině pána
-            Petra ze Šternberka, napsal ještě z polního tábora první dosud
-            dochovaný dopis městu Cheb, aby je informoval o stavu jeho
-            záležitosti. Město Cheb bylo totiž ohrožováno vracejícím se českým
-            vojskem, neboť díky své přísné neutralitě si to pokazilo s oběma
-            stranami a, jak se zdá, odmítalo ještě nedávno přijmout poděbradské
-            vojsko. Výhružný dopis poděbradské strany, který se dosud dochoval v
-            chebském archivu, je datován z polního tábora u Salzu nedaleko
-            Plavna<b>25. října 1450</b>. Na ušetření ze strany vítězného vojska
-            nebylo ani pomyšlení, a tak se muselo město pokusit nějakým způsobem
-            o dohodu. Pan Petr ze Šternberka zastupoval jeho zájmy, a při
-            jednáních, které se o tom vedly, působil v popředí Jošt z Einsiedle.
-            V knize výdajů města Cheb z roku 1450 stojí:
+            Petra Holického ze Šternberka, napsal&nbsp;
+            <b>25.&nbsp;října&nbsp;1450</b> z polního tábora u Salzu, nedaleko
+            Plavna první, dosud dochovaný, dopis městu Cheb. Cheb byl totiž
+            ohrožován vracejícím se českým vojskem, neboť si to díky přísné
+            neutralitě pokazil u obou stran a jak se z dopisu zdá, ještě nedávno
+            odmítal přijmout poděbradské vojsko, které se nyní obrátilo proti
+            němu. V dopise Jošt měšťany varoval a nabádal je, aby se pokusili o
+            dohodu. Zájmy zemského správce Jiřího z Poděbrad zastupoval Petr ze
+            Šternberka a při jednáních působil v popředí Jošt z Einsidle.
             <i>
               „Dejte uvedenému 1 kopu 23 grošů pro Hanse z Kotzau a pro Jošta,
-              písaře Šternberků, když se podílel na jednání mezi radními a
+              písaře Šternberků, který se podílel na jednání mezi radními a
               Čechy.”
             </i>{' '}
             Město vyslalo k vojsku poselstvo se slušnými dary pro Jiřího z
@@ -82,20 +77,21 @@ const Page = () => (
           <p>
             Do konce roku 1453 či snad do počátku roku 1454 zůstal Jošt z
             Einsiedle u pánů ze Šternberka neboť <b>24. června 1453</b> píše
-            Jošt ještě z příkazu pána Aleše ze Šternberka. Nato vstoupil do
+            Jošt ještě z příkazu pána Aleše ze Šternberka. Poté vstoupil do
             služeb správce Jiřího z Poděbrad, k čemuž se v případě příbuzenských
             vztahů posledně jmenovaného k rodu Šternberků zřejmě nabízel popud
-            sám od sebe.
+            sám od sebe.&nbsp;
             <b>28. října 1454</b> adresuje již jako tajemník Jiřího zhořeleckému
             písaři dopis, ve kterém oznamuje blížící se příchod správce s králem
             Ladislavem a nabádá k zamluvení potřebných obydlí. S tím také
-            koresponduje, že reskript Jiřího starostovi a radě Chebu datovaný
+            koresponduje, že reskript Jiřího starostovi a radě Chebu
+            datovaný&nbsp;
             <b>30. ledna 1455</b> ve Vratislavi je již sepsán Joštem.
           </p>
           <p>
             Někdy v této době také Jošt získává od krále Ladislava Pohrobka k
-            užívání erb, který mu byl<b>23. listopadu 1455</b> povýšen císařem
-            Fridrichem III.
+            užívání erb, který mu byl&nbsp;<b>23. listopadu 1455</b>
+            &nbsp;povýšen císařem Fridrichem III.
           </p>
           <p>
             Ve službách správce se Joštovi otevřelo široké a významné pole
@@ -115,13 +111,14 @@ const Page = () => (
           </p>
           <p>
             Jeden takový případ nastal bezprostředně po zvolení Jiřího králem.
-            Když se totiž na velkém volebním sněmu v Praze<b>1. března 1458</b>{' '}
-            vyslanci vévody Viléma Saského z důvodu lepšího prokázání nároků
-            jeho choti na nástupnictví v Čechách odvolali na staré listiny,
-            které byly uchovávány na Karlštejně, vyslal správce ihned svého
-            komořího a Jošta z Einsiedle, svého písaře, s odpovídající družinou
-            na Karlštejn, aby vyzvedli příslušné listiny, které byly již
-            následujícího dne předloženy shromážděným stavům.
+            Když se totiž na velkém volebním sněmu v Praze&nbsp;
+            <b>1. března 1458</b>&nbsp; vyslanci vévody Viléma Saského z důvodu
+            lepšího prokázání nároků jeho choti na nástupnictví v Čechách
+            odvolali na staré listiny, které byly uchovávány na Karlštejně,
+            vyslal správce ihned svého komořího a Jošta z Einsiedle, svého
+            písaře, s odpovídající družinou na Karlštejn, aby vyzvedli příslušné
+            listiny, které byly již následujícího dne předloženy shromážděným
+            stavům.
           </p>
           <p>
             A když byl ještě téhož dne provolán Jiří z Poděbrad králem, přivítal
@@ -137,7 +134,7 @@ const Page = () => (
           <p>
             Pro Jošta samotného mělo zvolení Jiřího i další důsledek, a sice to,
             že ho nový král ještě v létě korunovačního roku pozvedl do
-            rytířského stavu, k čemuž chebští svému příteli
+            rytířského stavu, k čemuž chebští svému příteli &nbsp;
             <b>29. července 1458</b> gratulovali. Zároveň s povýšením do
             rytířského stavu dostává dědictví v hodnotě 500 kop grošů na statku
             makotřaském. Někdy v této době také získává vsi Skryje a Tytry.
@@ -150,7 +147,7 @@ const Page = () => (
             Týřovice, Broumy, Kouřimec, Újezdec, Hudlice se všemi požitky a
             berni v Novosedlech. Při tom bylo stanoveno, že Jošt nesmí býti do
             své smrti vyplacen a po jeho smrti může statky odkoupit zpět pouze
-            sám král a to za 600 kop grošů. Podle usnesení musí hrad týřov
+            sám král a to za 600 kop grošů. Podle usnesení musí hrad Týřov
             zůstat po všechny časy otevřen a kdyby král na něj kvůli válkám dal
             náklad, stane se tak Joštovi beze škody. S lesy nemá Jošt ani jeho
             dědici co činiti ani dříví prodávati, než toliko bez překážky bráti
@@ -165,6 +162,7 @@ const Page = () => (
             jsou králové povini mu pomoci dobýt hrad zpět nebo jej do dvou let
             vyplatit.
           </p>
+          <p>S hradem</p>
           <p>
             Jako královský tajemník měl Jošt příležitost prokázat městu Cheb
             mnohou službu radou nebo přímluvou u krále. To již vyplynulo z
@@ -206,15 +204,15 @@ const Page = () => (
             Zajímavou činnost vyvíjel Jošt na sněmu v Chebu na jaře roku 1459,
             kde, jak známo, měly být díky zprostředkování politicky bystrého
             markraběte Albrechta z Brandenburgu urovnány spory mezi Čechami a
-            Saskem. Již o Velikonocích<b>25. března 1459</b> přišel Jošt do
-            Chebu, aby oznámil příjezd krále o postní neděli 8. dubna. Na
-            konečně zahájených jednáních se Jošt objevuje jako mnohonásobně
-            zainteresován tím, že z příkazu a s pokyny krále se často stýkal s
-            markrabětem Albrechtem z Brandenburgu. Takto jednal s markrabětem 9.
-            dubna ještě pozdě večer a vyslovoval se při této příležitosti
-            horlivě pro vyrovnání se Saskem tím, že zastával správný názor, že
-            pokud by dotyčná záležitost byla postoupena císaři nebo kurfiřtům,
-            byl by
+            Saskem. Již o Velikonocích&nbsp;<b>25. března 1459</b> přišel Jošt
+            do Chebu, aby oznámil příjezd krále o postní neděli&nbsp;
+            <b>8. dubna 1459</b>. Na konečně zahájených jednáních se Jošt
+            objevuje jako mnohonásobně zainteresován tím, že z příkazu a s
+            pokyny krále se často stýkal s markrabětem Albrechtem z
+            Brandenburgu. Takto jednal s markrabětem&nbsp;<b>9. dubna 1459</b>{' '}
+            ještě pozdě večer a vyslovoval se při této příležitosti horlivě pro
+            vyrovnání se Saskem tím, že zastával správný názor, že pokud by
+            dotyčná záležitost byla postoupena císaři nebo kurfiřtům, byl by
             <i>„konec v nedohlednu”</i>. A když se příštího dne objevil markrabě
             se saskými poradci u krále v jeho obydlí u Kašpara Junkera ohledně
             bližšího jednání, fungoval Jošt z Einsiedle jako tlumočník. Když se
@@ -229,7 +227,8 @@ const Page = () => (
             Podobnou agendu také pravděpodobně zastával na sněmu pořádaném
             rovněž v Chebu na hromnice 1461. Joštovi byla také tentokrát
             přisouzena pravděpodobně významná role, což vyplývá z jeho dopisu ze
-            <b>14. prosince 1460</b> starostovi a radě Chebu, ve kterém prosí,
+            &nbsp;<b>14. prosince 1460</b> starostovi a radě Chebu, ve kterém
+            prosí,
             <i>
               „aby mu poskytl ubytování u svého bratra (Jorg Smidel), protože
               potřebuje pohodlné místo k odpočinku tím spíše, že beztoho nebude
@@ -251,8 +250,8 @@ const Page = () => (
               tak”
             </i>{' '}
             4). Také Jošt sděloval markraběti opakovaně zprávy z českého dvora
-            (dochoval se dopis z<b>4. července 1464</b> a tři dopisy z roku
-            1469).
+            (dochoval se dopis z&nbsp;<b>4. července 1464</b> a tři dopisy z
+            roku 1469).
           </p>
           <p>
             Vliv královského tajného písaře se projevoval při různých
@@ -270,17 +269,16 @@ const Page = () => (
             Jedním z příznaků stále více se vyostřujících sporů v církevní a
             politické oblasti byly naboženské zmatky, které vedly ke vzniku
             mnohých sekt. Jednu takovou má na mysli Jošt ve svém zajímavém
-            dopise ze
-            <b>17. září 1466</b>. Ten je spojen se jmény Liwina a Janka z
-            Wirsbergu, františkánských apokalyptických kazatelů působících na
-            Chebsku a ovlivněných kázáními Jana Kapistrána a kázáním Jana
-            Rokycany v Chebu roku 1451. Z obavy před interdiktem a také kvůli
-            tomu, že se proti učení Wirsbergů vymezil i král Jiří, zakázala
-            městská rada Wirsbergům vstup do města. Jošt se jeví ve svém dopise
-            jako horlivý katolík a z jeho zajímavých vyjádření v něm poznáváme
-            dogmatizujícího laika, jakých bylo tehdy, zvláště v Čechách, mnoho.
-            Úpadek víry si bere hluboce k srdci a nechává ho vyústit do
-            stížnosti,
+            dopise ze &nbsp;<b>17. září 1466</b>. Ten je spojen se jmény Liwina
+            a Janka z Wirsbergu, františkánských apokalyptických kazatelů
+            působících na Chebsku a ovlivněných kázáními Jana Kapistrána a
+            kázáním Jana Rokycany v Chebu roku 1451. Z obavy před interdiktem a
+            také kvůli tomu, že se proti učení Wirsbergů vymezil i král Jiří,
+            zakázala městská rada Wirsbergům vstup do města. Jošt se jeví ve
+            svém dopise jako horlivý katolík a z jeho zajímavých vyjádření v něm
+            poznáváme dogmatizujícího laika, jakých bylo tehdy, zvláště v
+            Čechách, mnoho. Úpadek víry si bere hluboce k srdci a nechává ho
+            vyústit do stížnosti,
             <i>„že svět je čím dál horší a nevidí obecně pravou víru”</i> -
             stížnost, kterou s ním sdílejí přemítající duše jeho doby.
           </p>
@@ -334,11 +332,10 @@ const Page = () => (
             právem odúmrtním dvůr v Hlinci a téhož roku mu potvrdil všechny
             výsady udělené mu klrálem Jiřím a mimo to mu dovolil ještě navíc 4
             jeleny nebo laně v lesích zabíti a na opravu hradu připsal ještě
-            zvlášť 50 kop grošů. Následující rok však Jošt umírá.
+            zvlášť 50 kop grošů. Následující rok však Jošt umírá. &nbsp;
             <b>11. července 1474</b> se ještě objevuje mezi přítomnými českého
             vrchního soudu, ale rok 1476 ho již nezastihnul mezi živými, jak
-            stojí v dopise ze
-            <b>17. dubna 1476</b>:
+            stojí v dopise ze &nbsp;<b>17. dubna 1476</b>:
             <i>„Jako pánu Joštu z Einsiedle buď mu bůh milostiv”</i>.
           </p>
           <h3>Použitá literatura:</h3>
