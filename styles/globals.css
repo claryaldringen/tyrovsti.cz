@@ -175,6 +175,12 @@ a {
   text-align: center;
 }
 
+.image-description {
+  text-align: left;
+  margin: auto;
+  width: 80%;
+}
+
 @media only screen and (max-width: 576px) {
   .absolute {
     position: absolute;

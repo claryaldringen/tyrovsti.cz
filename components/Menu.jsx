@@ -53,6 +53,13 @@ export const Menu = () => {
                 </li>
                 <li>
                   <div>
+                    <Link href="/obuv">
+                      Obuv
+                    </Link>
+                  </div>
+                </li>
+                <li>
+                  <div>
                     <Link href="/vaclav-vlcek-o-sikovani-vojska">
                       O šikování vojska
                     </Link>
