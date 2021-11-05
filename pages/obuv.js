@@ -339,7 +339,7 @@ const Page = () => {
                   />
                 </a>
                 <br />
-                Kotníková bota se zavazpváním na tkaničky neb na knoflíky s
+                Kotníková bota se zavazpváním na tkaničky nebo na knoflíky s
                 ocáskem, výřez z Jenského kodexu (1490-1510)
               </Col>
               <Col md={4} className="image-wrapper">
@@ -351,7 +351,7 @@ const Page = () => {
                   />
                 </a>
                 <br />
-                Kotníková bota se zavazpváním na tkaničky neb na knoflíky s
+                Kotníková bota se zavazpváním na tkaničky nebo na knoflíky s
                 ocáskem, výřez z Jenského kodexu (1490-1510)
               </Col>
               <Col md={4} className="image-wrapper">
@@ -363,7 +363,7 @@ const Page = () => {
                   />
                 </a>
                 <br />
-                Kotníková bota se zavazpváním na tkaničky neb na knoflíky s
+                Kotníková bota se zavazpváním na tkaničky nebo na knoflíky s
                 ocáskem, výřez z Jenského kodexu (1490-1510)
               </Col>
             </Row>
