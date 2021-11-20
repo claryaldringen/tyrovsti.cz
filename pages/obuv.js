@@ -21,13 +21,12 @@ const Page = () => {
                   nízkou, polovysokou a vysokou. Obuv byla nejčastěji zhotovena
                   z kůže tak, že se sešila podešev se svrškem a bota se
                   převrátila naruby (tzv. převracená obuv). Mezi podešev a
-                  svršek se vkládal pásek kůže, tzv. rám. Na tento rám se v
-                  západní Evropě zhruba od roku 1500 začala našívat druhá
-                  podešev a vznikla tak rámová obuv, což je konstrukce, která se
-                  u společenské obuvi používá dodnes. Cílem konstrukce
-                  středověkké boty bylo schovat všechny důležité švy uvnitř. V
-                  Čechách se až do začátku 16. století používala na obuvi
-                  umírněná špička.
+                  svršek se vkládal pásek kůže, tzv. okolek. Cílem konstrukce
+                  středověkké boty bylo schovat všechny důležité švy uvnitř.
+                  Zatímco v Německu již začíná móda bot s kulatou špičkou, která
+                  vyvrcholila v 1. polovině 16. století botami zvanými "kravská
+                  tlama", v Čechách se ještě na počátku 16. století drží na
+                  obuvi konzervativní mírná špička.
                 </p>
               </Col>
             </Row>
@@ -43,7 +42,7 @@ const Page = () => {
             <Row>
               <Col>
                 <p>
-                  Kromě svršku, podešve a rámu obsahovala bota zpravidla ještě
+                  Kromě svršku, podešve a okolku obsahovala bota zpravidla ještě
                   několik částí - opatek, obrubu a nějakou variantu zapínání či
                   šněrování.
                 </p>
@@ -51,7 +50,7 @@ const Page = () => {
                 <h4>Zapínání s přesahem</h4>
                 <p>
                   Zapínání s přesahem znamená, že část kůže na svršku překrývá
-                  otevřenou část boty a je sepnuta po straně kolíčkem nebo
+                  otevřenou část boty a je sepnuta po straně na knoflík nebo
                   přezkou. Funkce je velmi podobná jako u zapínání pomocí
                   chlopně, hlavním rozdílem však je, že chlopeň je k botě
                   přišitá zlvášť. Přesto není jednoduché tyto dva typy v
@@ -71,7 +70,7 @@ const Page = () => {
                 </a>
                 <br />
                 Criblet, Fribourg, Švýcarsko. Bota se zapínáním pomocí přesahu a
-                s přezkami. 14. až 15. století (Volgen & Bourgarel 2001)
+                s přezkami. 14. až 15. století (Volken & Bourgarel 2001)
               </Col>
             </Row>
             <Row>
@@ -167,7 +166,7 @@ const Page = () => {
                 <p>
                   Toto zapínání se vyskytuje u nízkých otevřených bot (střevíců)
                   od 14. do 16. století. Je charakteristické páskem, který vede
-                  přes nárt a spíná se na kolíček, přezku nebo se váže do
+                  přes nárt a spíná se na knoflík, přezku nebo se váže do
                   uzlíku.
                 </p>
               </Col>
