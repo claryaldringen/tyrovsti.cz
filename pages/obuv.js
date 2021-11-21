@@ -7,7 +7,7 @@ const Page = () => {
   return (
     <>
       <Head>
-        <title>Jošt z Einsiedle a na Týřově - Spodní oděv</title>
+        <title>Jošt z Einsiedle a na Týřově - Obuv</title>
       </Head>
       <Menu />
       <Container>
