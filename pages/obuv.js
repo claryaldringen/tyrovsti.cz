@@ -92,7 +92,7 @@ const Page = () => {
                 </a>
                 <br />
                 Dordrecht, Nizozemí. Kotníková bota se záhybem na zapínání,
-                zobrazená rozepnutá a zapnutá. 15. století.
+                zobrazená rozepnutá a zapnutá. 15. století. (Goubitz)
               </Col>
               <Col md={4} className="image-wrapper">
                 <a href="/images/fig7.png" target="_blank">
@@ -100,14 +100,14 @@ const Page = () => {
                 </a>
                 <br />
                 Vevey, Švýcarsko. Bota se zapínáním pomocí záhybu. 14. - 15.
-                století.
+                století. (Goubitz)
               </Col>
               <Col md={4} className="image-wrapper">
                 <a href="/images/fig14.png" target="_blank">
                   <Image src="/images/fig14.png" width={520} height={466} />
                 </a>
                 <br />
-                Coventry, Anglie, 15. století.
+                Coventry, Anglie, 15. století. (Goubitz)
               </Col>
             </Row>
             <Row>
@@ -180,11 +180,11 @@ const Page = () => {
                 Tři příklady střevíců s páskem přes nárt spínaným přezkou z 15.
                 století.
                 <br />
-                Nahoře: Dordrecht, Nizozemí.
+                Nahoře: Dordrecht, Nizozemí. (Goubitz, 2001)
                 <br />
-                Uprostřed: Šlesvik, Německo.
+                Uprostřed: Šlesvik, Německo. (Schnack, 1992)
                 <br />
-                Dole: Londýn, Anglie.
+                Dole: Londýn, Anglie. (Grew &amp; De&nbsp;Neergaard, 1988)
               </Col>
               <Col md={6} className="image-wrapper">
                 <a href="/images/reminek-nart-durer.jpg" target="_blank">
@@ -224,8 +224,10 @@ const Page = () => {
                 <br />
                 Nahoře: Dordrecht, Nizozemí. Velmi zvláštní model s bočním
                 šněrováním a páskem s přezkou přes nárt. Pozdní středověk.
+                (Goubitz)
                 <br />
                 Dole: Oslo, Norsko. Bota s potky na šněrování. Pozdní středověk.
+                (Schia, 1977)
               </Col>
               <Col md={4} className="image-wrapper">
                 <a href="/images/fig17.png" target="_blank">
@@ -233,7 +235,7 @@ const Page = () => {
                 </a>
                 <br />
                 Oud-Turnhout, Belgie. Bota s diagonálním bočním zavazováním. 15.
-                století.
+                století. (Goubitz)
               </Col>
               <Col md={4} className="image-wrapper">
                 <a href="/images/bocni-richental.jpg" target="_blank">
@@ -252,11 +254,11 @@ const Page = () => {
               <Col>
                 <h4>Zavazování na tkaničky</h4>
                 <p>
-                  Vypadá téměř stejně, jako zavazování současné obuvi, ovšem
-                  ovykle neobsahuje jazyk. Rovněž je možno botu zavazovat
-                  několika kratšími tkanicemi procházejícími dvěma páry dírek
-                  (podobně jako např. u doubletu) místo jedné dlouhé. Nalezené
-                  kusy jsou vesměs datovány mezi roky 1350 až 1530.
+                  Tento typ obuvi je na přední straně opatřen jednou, dvěma nebo
+                  třemi dvojcemi dírek, kterými se provlékala tkanice podobně
+                  jako u doubletu. Některé kusy však mohou být zavazovány jednou
+                  dlouhou tkanicí, což je obdobné jako u současné obuvi.
+                  Nalezené kusy jsou vesměs datovány mezi roky 1350 až 1530.
                 </p>
               </Col>
             </Row>
@@ -267,10 +269,10 @@ const Page = () => {
                 </a>
                 <br />
                 Nahoře: Dordrecht, Nizozemí. Bota s jazykem, jímž na obou
-                stranách prochází tkaničky. 14. století.
+                stranách prochází tkaničky. 14. století. (Goubitz)
                 <br />
                 Dole: Delft, Nizozemí. Bota se dvěma bočními a jedním zadním
-                švem. Jazyk chybí. 15. století.
+                švem. Jazyk chybí. 15. století. (Goubitz)
               </Col>
               <Col md={4} className="image-wrapper">
                 <a href="/images/fig7fig8.png" target="_blank">
@@ -278,10 +280,11 @@ const Page = () => {
                 </a>
                 <br />
                 Nahoře: Dordrecht, Nizozemí. Střevíc s páry tkaniček. Pozdní
-                středověk.
+                středověk. (Goubitz)
                 <br />
                 Dole: Dordrecht, Nizozemí. Střevíc se třemi páry dírek na jednu
                 průchozí tkaničku, tak jak známe dnes. Pozdní středověk.
+                (Goubitz)
               </Col>
               <Col md={4} className="image-wrapper">
                 <a href="/images/fig5ab.png" target="_blank">
@@ -289,9 +292,10 @@ const Page = () => {
                 </a>
                 <br />
                 Nahoře: Tiel, Nizozemí. Kotníková bota se zakřivenými bočními
-                švy. Pozdní středověk. <br />
+                švy. Pozdní středověk. (Goubitz)
+                <br />
                 Dole: Delft, Nizozemí. Střevíc s módní špičkou a šikmým švem na
-                patě. Pozdní středověk.
+                patě. Pozdní středověk. (Goubitz)
               </Col>
             </Row>
             <Row>
@@ -305,7 +309,7 @@ const Page = () => {
                 </a>
                 <br />
                 Bolsward, Nizozemí. Střevíc módního střihu s jedním párem dírek
-                na tkaničky. Pozdní středověk.
+                na tkaničky. Pozdní středověk. (Goubitz)
               </Col>
               <Col md={4} className="image-wrapper">
                 <a href="/images/fig8leiden.png" target="_blank">
@@ -317,7 +321,7 @@ const Page = () => {
                 </a>
                 <br />
                 Leiden, Nizozemí. Bota s tkaničkami vázanými po párech, podobně
-                jako u doubletů. 15. století.
+                jako u doubletů. 15. století. (Goubitz)
               </Col>
               <Col md={4} className="image-wrapper">
                 <a href="/images/fig9.png" target="_blank">
@@ -325,7 +329,7 @@ const Page = () => {
                 </a>
                 <br />
                 Dokkum, Nizozemí. Střevíc velmi módního střihu se třemi páry
-                dírek na tkaničky. Pozdní středověk.
+                dírek na tkaničky. Pozdní středověk. (Goubitz)
               </Col>
             </Row>
             <Row>
@@ -385,7 +389,7 @@ const Page = () => {
                   <Image src="/images/fig1.png" width={400} height={396} />
                 </a>
                 <br />
-                Konstrukce knoflíku s ocáskem.
+                Konstrukce knoflíku s ocáskem. (Goubitz)
               </Col>
               <Col md={4} className="image-wrapper">
                 <a href="/images/fig8ddt674.png" target="_blank">
@@ -398,7 +402,7 @@ const Page = () => {
                 <br />
                 Dordrecht, Nizozemí. Kotníková bota u které bylo nahrazeno
                 šněrování na tkaničky třemi knoflíky s ocáskem. 14. - 15.
-                století.
+                století. (Goubitz)
               </Col>
               <Col md={4} className="image-wrapper">
                 <a href="/images/fig4.png" target="_blank">
@@ -406,6 +410,7 @@ const Page = () => {
                 </a>
                 <br />
                 Dordrecht, Nizozemí. Kotníková bota. 14. - 15. století.
+                (Goubitz)
               </Col>
             </Row>
             <Row>
@@ -419,9 +424,10 @@ const Page = () => {
                 </a>
                 <br />
                 Nahoře: Gent, Belgie. Bota se dvěma knoflíky s ocáskem a
-                jazykem. 14. - 15. století. <br />
+                jazykem. 14. - 15. století. (Goubitz)
+                <br />
                 Dole: Dordrecht, Nizozemí. Dětská bota se čtyřmi knoflíky s
-                ocáskem. 14. - 15. století.
+                ocáskem. 14. - 15. století. (Goubitz)
               </Col>
               <Col md={4} className="image-wrapper">
                 <a href="/images/fig9a.png" target="_blank">
@@ -429,10 +435,12 @@ const Page = () => {
                 </a>
                 <br />
                 Nahoře: Dordrecht, Nizozemí. Bota se dvěma knoflíky s ocáskem a
-                dvěma knoflíky, vytvořenými rolováním. 14. - 15. století. <br />
+                dvěma knoflíky, vytvořenými rolováním. 14. - 15. století.
+                (Goubitz)
+                <br />
                 Dole: Bota s kombinovným zapínáním - první dvě dírky na nártu se
                 zavazují na tkaničku, zbytek se zapíná na knoflík s ocáskem. 14.
-                - 15. století.
+                - 15. století. (Goubitz)
               </Col>
               <Col md={4} className="image-wrapper">
                 <a href="/images/fig10ab.png" target="_blank">
@@ -441,10 +449,10 @@ const Page = () => {
                 <br />
                 Nahoře: Dordrecht, Nizozemí. Bota s pásky, jejichž jeden konec
                 je uvázán do knoflíku s ocáskem a ve druhém konci je díra na
-                sepnutí tohoto knoflíku. 14. - 15. století.
+                sepnutí tohoto knoflíku. 14. - 15. století. (Goubitz)
                 <br />
                 Dole: Nijkerk, Nizozemí. Bota s chlopní zapínanou na knoflíky s
-                ocáskem. 14. - 15. století.
+                ocáskem. 14. - 15. století. (Goubitz)
               </Col>
             </Row>
             <Row>
@@ -457,7 +465,8 @@ const Page = () => {
                   />
                 </a>
                 <br />
-                Dordrecht, Nizozemí. Dětské boty ze 14. - 15. století. <br />
+                Dordrecht, Nizozemí. Dětské boty ze 14. - 15. století. (Goubitz)
+                <br />
                 Nahoře: Dětská bota. <br />
                 Dole: Bota pro batole. <br />
               </Col>
@@ -480,7 +489,7 @@ const Page = () => {
                 </a>
                 <br />
                 Nijkerk, Nizozemí. Bota s chlopní zapínanou na knoflíky s
-                ocáskem. 14. - 15. století.
+                ocáskem. 14. - 15. století. (Goubitz)
               </Col>
             </Row>
             <Row></Row>
