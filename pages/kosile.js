@@ -2,6 +2,7 @@ import { Menu } from '../components/Menu'
 import { Col, Container, Row } from 'reactstrap'
 import Image from 'next/image'
 import Head from 'next/head'
+import React from 'react'
 
 const Page = () => {
   return (
