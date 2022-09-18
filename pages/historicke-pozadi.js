@@ -219,7 +219,7 @@ const Page = () => {
                   otci vzdát a po příjezdu Ladislava Pohrobka do Bělehradu jej
                   zajal a Ulricha Celjského nechal <b>9. listopadu 1456</b>{' '}
                   zabít svými vojáky. Ladislav Pohrobek byl zajatcem Ladislava
-                  Hunyadiho až do <b>14. března 1467</b>, kdy se mu za pomoci
+                  Hunyadiho až do <b>14. března 1457</b>, kdy se mu za pomoci
                   Jana Jiskry z Brandýsa, českého kondotiéra, který se svým
                   žoldnéřským vojskem operoval v horních Uhrách, podařilo lstí
                   zajmout bratry Ladislava i Matyáše Hunyadi. Ladislav Hunyadi

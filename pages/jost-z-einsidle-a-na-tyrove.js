@@ -1,3 +1,4 @@
+import React from 'react'
 import { Col, Container, Row } from 'reactstrap'
 import { Menu } from '../components/Menu'
 import Head from 'next/head'
@@ -35,9 +36,25 @@ const Page = () => (
             Házmburka svůj dopis městu Cheb sepsaný v českém jazyce tím, že
             momentálně nemá svého německého písaře po ruce. V této funkci se
             také Jošt skutečně objevuje ve službách pánů Aleše a Petra Holických
-            ze Šternberka. Protože ti často jezdili z Bečova do Chebu, byl tam
-            Jošt opakovaně posílán s různými příkazy, k čemuž se v chebském
-            arcivu zachovaly příslušné spisy, jako např. z&nbsp;
+            ze Šternberka, kteří v té době byli majiteli nedalekého Bečova nad
+            Teplou.
+          </p>
+          <p>
+            V únoru 1447 se vévoda Vilém Saský obrátil na Petra Holického ze
+            Šternberka, aby pro něj v Čechách naverboval vojsko do Saské
+            bratrovražedné války (1446 - 1451). Vojsko se mělo shromáždit u
+            Chebu, přičemž Joštovi byla svěřena administrativní a organizační
+            stránka toho shromažďování, když vévoda vilém píše:
+            <i>
+              „Potřebujeme bezpodmínečně asi jednoho sluhu, který umí německy a
+              česky, kterému budeme důvěřovat (…), k&nbsp;tomu by se nám asi
+              hodil Jošt, Váš služebník.”
+            </i>
+          </p>
+          <p>
+            Protože ti často jezdili z Bečova do Chebu, byl tam Jošt opakovaně
+            posílán s různými příkazy, k čemuž se v chebském arcivu zachovaly
+            příslušné spisy, jako např. z&nbsp;
             <b>11.&nbsp;srpna&nbsp;1450</b>:
             <i>
               „... a posíláme - Jošta z Einsiedle, služebníka našeho a milého
@@ -354,6 +371,14 @@ const Page = () => (
             <li>
               Jan Pelant:<i>Erby české, moravské a slezské šlechty</i>, Praha
               2013
+            </li>
+            <li>
+              Uwe Tresp:
+              <i>
+                Söldner aus Böhmen: im Dienst deutscher Fürsten: Kriegsgeschäft
+                und Heeresorganisation im 15. Jahrhundert
+              </i>
+              , Paderborn 2004
             </li>
           </ul>
         </Col>
