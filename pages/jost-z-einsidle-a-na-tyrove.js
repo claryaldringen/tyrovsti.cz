@@ -44,7 +44,8 @@ const Page = () => (
             Šternberka, aby pro něj v Čechách naverboval vojsko do Saské
             bratrovražedné války (1446 - 1451). Vojsko se mělo shromáždit u
             Chebu, přičemž Joštovi byla svěřena administrativní a organizační
-            stránka toho shromažďování, když vévoda vilém píše:
+            stránka toho shromažďování, když v dopise ze <b>13. února 1447</b>{' '}
+            vévoda Vilém píše:
             <i>
               „Potřebujeme bezpodmínečně asi jednoho sluhu, který umí německy a
               česky, kterému budeme důvěřovat (…), k&nbsp;tomu by se nám asi
@@ -52,19 +53,9 @@ const Page = () => (
             </i>
           </p>
           <p>
-            Protože ti často jezdili z Bečova do Chebu, byl tam Jošt opakovaně
-            posílán s různými příkazy, k čemuž se v chebském arcivu zachovaly
-            příslušné spisy, jako např. z&nbsp;
-            <b>11.&nbsp;srpna&nbsp;1450</b>:
-            <i>
-              „... a posíláme - Jošta z Einsiedle, služebníka našeho a milého
-              důvěrníka...”
-            </i>
-          </p>
-          <p>
-            Jeho první významnější výstup spadá do roku 1450, když Jiří z
-            Poděbrad podniknul v čele své strany tažení proti vévodovi
-            Friedrichu Saskému, přičemž bylo dobyto město Gera a na to{' '}
+            Jeho další významný výstup spadá do roku 1450, když Jiří z Poděbrad
+            podniknul v čele své strany tažení proti vévodovi Friedrichu
+            Saskému, přičemž bylo dobyto město Gera a na to&nbsp;
             <b>23. října 1450</b> uzavřeno příměří.
           </p>
           <p>
