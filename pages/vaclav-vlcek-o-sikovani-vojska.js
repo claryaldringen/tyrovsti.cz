@@ -28,8 +28,8 @@ const Page = () => {
                 <p>
                   Dvě stě koní takto máš šikovati: aby v posilcích bylo tomuto
                   prvníma haufci sto koní, dvoje stracence, v jedněch 25 koní, v
-                  druhých 35, a v baufě 140 koní. První stracence dya na špici,
-                  lii za nimi a po čtyřech at jedú; a v druhých stracencích ať
+                  druhých 35, a v baufě 140 koní. První stracence dva na špici,
+                  tři za nimi a po čtyřech ať jedú; a v druhých stracencích ať
                   jedú tři na špici, čtyři za nimi a po pěti ať jedú v šiku.
                 </p>
                 <p>
@@ -394,6 +394,37 @@ const Page = () => {
                   puojde. A když bude tak šikováno, jakož tuto stojí, shledáte
                   to bohdá, žeť proti vám nic neostojí.
                 </p>
+                <p>
+                  Když VMť potáhnete s vojskem velikým, jako na mocného pána
+                  sluší, mějte vojsko malé jedno, a v tom vojště mějte děla svá
+                  veliká, pušek čtyři anebo pět, srubnic, haufnic, tarasnic, což
+                  potřebí k tém věcem, a najméně sto vozuov, a tak bude k těm
+                  dělóm, a druhých sto vozov o k jiné potřebě, ať vezú totiž
+                  prachy, hakovnice, šípy ohnivé, kule ohnivé, řebříky, sekyry,
+                  motyky, rýče, aby mohli koše nasypovati a příkopy dělati a
+                  cesty k těm dělóm a tomu vojsku. A přidajte jim čtyři anebo
+                  šest řaduov vozuov, a (u) těch vozuov ať jest pět nebo šest
+                  tisíc pěších. A tomu malému vojsku dajte hejtmana k těm věcem
+                  rozumného, ať zřízeně táhnú; a k dělom druhého, aby kladl,
+                  kdežby toho potřebí bylo, a zase bral a klidil, kdyžby čas
+                  byl. A to vojsko malé ať napřed táhne, ať hledí toho hajtmané,
+                  ať se přiblíží vratami k městu skrze předměstí. A tu hned ať
+                  kladau děla a položí v těch miestech, kdežby mohli ke zdem
+                  biti, ať hned tepú, ať se práší prvé ještě než vojsko veliké
+                  za nimi se položí, ať se strojí k šturmu, ať haufové pohotově
+                  stojí, kdyžby se již zeď bořila, aby hned nemohli zase v městě
+                  tarasovati, přistúpiti hned s Bohem k šturmu, a tak dobudete
+                  buohdá beze vší obrany. Než když byšte z děl bili a nešli
+                  hned, oni by v noci hned se zatarasovali zase, a zdělali by
+                  snad lépe než jest první zeď byla. A vždy některých haufuov
+                  nechte u vojště při vozích, a některých, ať stojí nad šturmem,
+                  jest-li žeby nepřátelé jezdecky anebo pěšky s města doluov
+                  stekli na ty, kteříž přistúpí k šturmu, anebo na ty, kterých u
+                  vozuov necháte, aby ti haufové vaši těm odepřeli, a tito jiní
+                  ať před se šturmují. A když tak buohdá šturm zpravíte, uzříte
+                  bohdá, že všeho dobudete, a že proti vám nic neostojí. A tak
+                  se buohdá stane, Amen.
+                </p>
               </Col>
               <Col md={6}>
                 <h3>Co se pak týká šikování pěších, bez vozů</h3>
@@ -434,17 +465,137 @@ const Page = () => {
                   vypadat, že dojde ke střetu, ať pěší vystoupí před jízdní a na
                   nepřátele dotírají a střílejí. A ti jízdní střelci z obou
                   stran ať také táhnou na nepřítele neboť jim naruší pěší šiky a
-                  v tu chvíli ať na ně najede těžká jízda z obou stran.
+                  v tu chvíli ať na ně vpadne těžká jízda z obou stran.
                 </p>
                 <p>
                   A když pro své vojáky nebudete mít rozumné hejtmany, šikujte
-                  je sami nebo to rozkažte komukoli rozumnému.Když budete mít
-                  tento spis, tak každý, kdo si ho přečte, bude umět štakto
+                  je sami nebo to rozkažte komukoli rozumnému. Když budete mít
+                  tento spis, tak každý, kdo si ho přečte, bude umět takto
                   šikovat. A to je vše k tomuto šikování a Bůh dá, že vám bude k
                   užitku. A když bude šikováno tak, jak tu stojí, Bůh dá
                   shledáte, že proti vám nic neobstojí.
                 </p>
               </Col>
+            </Row>
+            <Row>
+              <Col md={6}>
+                <h3>Jiné šikování vuzuov</h3>
+                <p>
+                  Jest-li žeby VMti bylo potřebí k boji s nepřátely vašimi,
+                  takto se rač kázati připravili a boj postaviti, aby k tisíci
+                  vozuov dvadceti tisíc branných lidí bylo.
+                </p>
+                <p>
+                  Což bude vozuov v prostředních řadech počtem, aby
+                  puoldruhéhokrát v krajných řadech tolikéž bylo na pravé i na
+                  levé ruce, aby se zavříti mohl předek i zadek.
+                </p>
+                <p>
+                  Osm korúhví znamenitých neb zřetedlných k tomu má býti; a
+                  najlépe jest bílých a černých. Jedna korúhev aby byla na
+                  předním voze na pravé ruce, a druhá korúhev též má býti na
+                  předním voze na levé ruce. A to proto, ktož povede který ruku
+                  pravú nebo levú, aby jeden na druhého korúhev hleděl, aby
+                  vozuov nesužovali, aby lidé pro těsnost vozuov ven nebyli
+                  vytištění. It. pro zavření vozuov, aby jeden na druhého
+                  hleděl, aby rovně vozy zavřeli.
+                </p>
+                <p>
+                  Druhé dvě korúhve máte býti, kdež plac koňóm bude zuostaven
+                  prostřed vozuov, na krajních vozích na každém řadu jedna, a to
+                  proto, kdyžby již nepřátelé prchli, aby lidé mohli uhoditi k
+                  svým vozóm; a to lidem má býti oznámeno před bojem.
+                </p>
+                <p>
+                  Opět jiné dvě korúhvi mají býti na najkrajnějším řadu, jedna
+                  na pravé ruce a druhá na najkrajnějším řadu na levé ruce, a to
+                  na najzadnějším vozu, a to proto, aby viděl, které vozy nazad
+                  k zavření zastavíš, aby viděl, kterým řadem má přitrhnúti, aby
+                  pravě zadek zavřel.
+                </p>
+                <p>
+                  Ostatní dvě korúhvi mají býti na krajních vozích, kteříž nazad
+                  ostaveni k zavření budú, aby chutně uměl uhoditi k těm vouom,
+                  kterými zavříti má.
+                </p>
+                <p>
+                  Z těch tisíce vozuov má býti vybráno na pravú i na levú ruku
+                  najlepší vozové s fasunky, a šperlochové všichni mají býti
+                  sebráni s nich k boji; a v každém voze jedné čtyři vozníci
+                  mají býti a víc nic. A vozataji na ty koně mají vsazeni býti
+                  nestrašliví s lebkami a pavézami; a také má býti k každému
+                  vozu jiný šikován proto, jest-li žeby který zabit byl, aby
+                  miesto něho jiný na ty kone vsedl. A u desíti vozuov u
+                  krajních řaduov má býti jeden desátník, aby dorážeti kázal.
+                </p>
+                <p>
+                  Což bude na pravé i na levé ruce, má býti na krajnich řadech
+                  taras s berlú a s děrú ; a pod každým vozem má viseti prkno,
+                  aby lidí nemohli raniti a koní též. Což bude u vojště píšťal a
+                  šípuov, k každému vozu mají dvě píštadle býti šikovány, dvě
+                  libře prachu, kopa kulek a dvě kopě šípuov a dvoje cepy
+                  železné a dva háky železné.
+                </p>
+                <p>
+                  Do vozuov má býti, z čehož koně krmí, žlab na dél přivázán
+                  býti, a kameni do toho naklásti, jest-li žeby k vozóm
+                  prilnuli, aby přes vozy bili.
+                </p>
+                <p>
+                  K těm vozóm napřed haufnic deset; pakli víc, a lépe. It. nazad
+                  u vozuov haufnice čtyři, pakli víc, a lép.
+                </p>
+                <p>
+                  Na každém boce v krajních řadech vozích na pravé i na levé
+                  ruce po čtyřech haufnicích; a to právě dosti.
+                </p>
+                <p>
+                  Před každým řadem vozuov, což koli jich bude, aby bylo
+                  dvadceti pěších s motykami, s lopalami a s sekyrami, aby cesty
+                  opravovali.
+                </p>
+                <p>
+                  Pak takto mají lidé do těch vozuov šikováni býti: což bude
+                  jízdních, aby s koní ssedali, ostrohy vypínali, škorně zúvali,
+                  lehce se v své odění ubrali; a koni jejich maji na plac u
+                  prostřed vozuov uvedeni býli, k oněm dvěma korúhvem; a ty mají
+                  pacholata a lidé nebranní držeti.
+                </p>
+                <p>
+                  Lidé pak do vozuov takto rozděleni býti mají: což jich napřed
+                  šikuješ, aby polovice také tolikéž v zadek šikoval, a to
+                  proto, jest-li žeby se haufové jezdecky obořili a chtěli v
+                  zadek vskočiti.
+                </p>
+                <p>
+                  Pak na pravé ruce i na levé v krajních řadech mají býti haufci
+                  zděláni, jako po stu branných, uvedeni za ty řady, aby bránili
+                  vozuov jako zdí.
+                </p>
+                <p>
+                  Pak máta dva haufce zuostavena a rozdělena býti, a hauf má
+                  každý jmíti svého hajtmana a jeden praporec anebo jednu
+                  korúhev a více nic. A ti haufové mají býli uvedeni na ten
+                  plac, kdež koně stojí: jest-li žeby bylo těžko předku, aby
+                  jeden hauf posílil; pakli by v zadek vskočili, aby druhý hauf
+                  zadku posílil,
+                </p>
+                <p>
+                  Kdyžby k boji táhl, tohoto fortele aby hleděl, by se pak neměl
+                  den, dva nebo tři nebiti: vítr aby na ně šel; a to proto, že
+                  hluk, jek, prach z pušek, všecko na ne puojde, a tak že strach
+                  na ně přijde. A hleděti vždy fortele, aby (po) jedné ruce měl
+                  rokle nebo bahna nebo příkopy, kteréžby se ruce zdařily. Pakli
+                  by se událo, žeby s nimi boje neměl, ale polož se od nich
+                  čtvrt míle anebo puol; tak rozkáže svým lidem tajně a šikuje
+                  je, rozkažiž ať každý u svého vozu oheň což najvětší muože
+                  udělá; tiehniž k nim šiky, a stráž svú silně napřed jezdecky
+                  vyprav, aťby nemohli sezříti, by na ně s vozy táhl. A tak
+                  jest-li žeby se přihodilo, byť jměli dvadceti na jeden,
+                  nebudúť věděti, co mají činiti.
+                </p>
+              </Col>
+              <Col md={6}></Col>
             </Row>
           </Col>
         </Row>
