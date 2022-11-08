@@ -447,7 +447,7 @@ const Page = () => {
                 </p>
                 <p>
                   Válečné zkušenosti si však Češi přinášeli i ze zahraničí. V
-                  roce 1494 vyhlásil papež Bonifác IX. další křížovou výpravu
+                  roce 1394 vyhlásil papež Bonifác IX. další křížovou výpravu
                   proti Turkům. Křížová výprava měla hojnou mezinárodní účast
                   včetně Čechů, nejpočetnějšími národy v ní byli ovšem Francouzi
                   a Uhři. Spory mezi Francouzi a ostatními národy provázely
