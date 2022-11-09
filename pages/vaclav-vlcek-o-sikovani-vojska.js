@@ -27,7 +27,7 @@ const Page = () => {
                 </p>
                 <p>
                   Dvě stě koní takto máš šikovati: aby v posilcích bylo tomuto
-                  prvníma haufci sto koní, dvoje stracence, v jedněch 25 koní, v
+                  prvnímu haufci sto koní, dvoje stracence, v jedněch 25 koní, v
                   druhých 35, a v baufě 140 koní. První stracence dva na špici,
                   tři za nimi a po čtyřech ať jedú; a v druhých stracencích ať
                   jedú tři na špici, čtyři za nimi a po pěti ať jedú v šiku.
@@ -88,9 +88,9 @@ const Page = () => {
                 </p>
                 <p>
                   Tisíc pět set koní takto máš šikovati: dvoje stracence,
-                  každých 250 koní, 7 na špici, po 9 za nimi v šicích. V haufè
+                  každých 250 koní, 7 na špici, po 9 za nimi v šicích. V haufě
                   tisíc koní, 11 na špici, 13 za nimi, po 15 ať jedú v šicích za
-                  nimi. llauf af vedú dva, a každé stracence ať jeden vede.
+                  nimi. hauf ať vedú dva, a každé stracence ať jeden vede.
                 </p>
                 <p>
                   Dva tisíce koní takto máš šikovati : dvoje stracence po 400
@@ -343,7 +343,108 @@ const Page = () => {
                   Boha, at vám ráčí pomoci svítěziti. A tak se buohdá stane.
                 </p>
               </Col>
-              <Col md={6}>Překlad v procesu...</Col>
+              <Col md={6}>
+                <h3>Takto máš šikovati jízdné, pěší i vozy.</h3>
+                <p>
+                  Sto jezdců takto máš šikovati: 20 jezdců v prvním předvoji a
+                  30 ve druhém předvoji a 50 ve voji za nimi. Každý oddíl má mít
+                  jednoho staršího, aby jej vedl a v tom 50 členném šiku mají
+                  být z každé strany dva (jízdní) střelci, na špici dva (jízdní)
+                  kopiníci, tři za nimi a dále po čtyřech.
+                </p>
+                <p>Dvě stě jezdců takto máš šikovati:</p>
+                <p>
+                  Tři sta jezdců takto máš šikovati: Na jedné straně oddíl 32
+                  jezdců, na druhé straně oddíl 42 jezdců a ve voji 226 jezdců.
+                  Na jedné straně tři na špici, čtyři za nimi a pak ať jedou v
+                  šiku po pěti. Každý oddíl ať jeden vede a ve voji pět na
+                  špici, šest za nimi a pak ať jedou v šiku po sedmi.
+                </p>
+                <p>
+                  Čtyři sta jezdců takto máš šikovati: oddíl 50 jezdců na jedné
+                  straně - 3 na špici, 4 za nimi a dále po ať jedou v šiku po
+                  čtyřech. V druhém oddíle sto jezdců - 5 na špici, 6 za nimi a
+                  dále ať jedou v šiku po šesti. Ve voji ať je 250 koní - 5 na
+                  špici, 6 za nimi a dále ať jedou v šiku po osmi.
+                </p>
+                <p>
+                  Pět set jezdců takto máš šikovati: Po obou stranách oddíl 80
+                  jezdců - 4 na špici, 5 za nimi a dále ať jedou v šiku po
+                  šesti. Ve voji 350 jezdců, 5 na špici, 6 za nimi a dále ať
+                  jedou v šiku po 8.
+                </p>
+                <p>
+                  Šest set jezdců takto máš šikovati: Po 100 jezdcích v oddílech
+                  na každé straně - po 5 na špici, po 6 za nimi a dále ať jedou
+                  v šiku po 7. 400 jezdců ve voji, 7 na špici, 9 za nimi a dále
+                  ať jedou v šiku po 11.
+                </p>
+                <p>
+                  Sedm set jezdců takto máš šikovati: Po 125 jezdcích ve dvou
+                  krajních oddílech, po 5 na špici, po 6 za nimi a dále ať jedou
+                  v šiku po 7. 450 jezdců ve voji, 7 na špici, 9 za nimi a dále
+                  ať jedou v šiku po 11.
+                </p>
+                <p>
+                  Osm set jezdců takto máš šikovati: Dva krajní oddíly 150
+                  jezdcích, 5 na špicí, 6 za nimi a dále ať jedou v šiku po 7.
+                  500 jezdců ve voji, 9 na špici, 10 za nimi a dále ať jedou v
+                  šicích po 11.
+                </p>
+                <p>
+                  Devět set jezdců takto máš šikovati: Dva krajní oddíly po 150
+                  jezdcích, po 5 na špicích, 6 za nimi, a dále ať jedou v šicích
+                  po 7. Ve voji 600, 9 na špici, 11 za nimi a dále ať jedou v
+                  šicích po 14. Voje ať dva vedou, každý boční oddíl ať jeden
+                  vede.
+                </p>
+                <p>
+                  Tisíc jezdců takto máš šikovati: 150 v jednom krajním oddíle a
+                  200 v druhém krajním oddíle a ve voji 650. V jednom krajním
+                  oddílu 5 na špici, 6 za nimi a dále ať jedou v šicích po 7. V
+                  druhém krajním oddílu 7 na špici a dále ať jedou po 9. 650 ve
+                  voji, 10 na špici, 11 za nimi a dále ať jedou v šicích po 14.
+                  Voj ať vedou dva, každý krajní oddíl ať jeden vede.
+                </p>
+                <p>
+                  Tisíc pět set jezdců takto máš šikovati: Dva krajní oddíly, v
+                  každém 250 jezdců - 7 na špici, po v šicích 9 za nimi. Ve voji
+                  tisíc jezdců, 11 na špici, 13 za nimi a dále ať jedou v šicích
+                  po 15. Voj ať vedou dva a každý krajní oddíl ať jeden vede.
+                </p>
+                <p>
+                  Dva tisíce jezdců takto máš šikovati: Dva krajní oddíly po 400
+                  jezdcích, 7 na špicích, po 8 za nimi a dále ať jedou po 9. Ve
+                  voji 12 set jezdců, na špici 14 a dále ať jedou v šiku po 16.
+                  Voj ať vedou dva a každý krajní oddíl ať vede jeden.
+                </p>
+                <p>
+                  Tři tisíce jezdců takto máš šikovati: Dva krajní oddíly po 500
+                  jezdcích, po 9 na špici, po 10 za nimi a dále ať jedou v
+                  šicích po 12. Ve voji 2000 jezdů, 18 na špici, 20 za nimi a
+                  dále ať jedou v šicích po 22.
+                </p>
+                <p>
+                  Čtyři tisíce jezdců takto máš šikovati: Po 700 ve dvou
+                  krajních oddílech z každé strany voje, po 9 na špicích, po 10
+                  za nimi a dále ať jedou v šicích po 12. Ve voji 2600 (jezdů),
+                  20 na špicích, 23 za nimi a dále ať jedou v šicích po 25.
+                </p>
+                <p>
+                  Pět tisíc jezdců takto máš šikovati: Po tisíci ve dvou
+                  krajních oddílech vedle vojů - z každé strany. Po 9 na
+                  špicích, po 11 za nimi a dále ať jedou v šicích po 15. Ve voji
+                  3000 jezdců, po 25 na špici, 27 za nimi a dále ať jedou v
+                  šicích po 28.
+                </p>
+                <p>
+                  Šest tisíc jezdců takto máš šikovati: Po 12 stech v krajních
+                  oddílech z každé strany, 12 na špici, 14 za nimi a dále ať
+                  jedou v šicích po 16. Ve voji 3600 jezdců, 28 na špici, 31 za
+                  nimi a dále ať jedou v šicích po 33. Tři ať vedou voj a každý
+                  krajní oddíl ať vedou dva.
+                </p>
+              </Col>
             </Row>
             <Row>
               <Col md={6}>
