@@ -483,6 +483,25 @@ const Page = () => {
                   za potřebí a zvlášt proti Turkům. A tak má být vojsko
                   zorganizováno.
                 </p>
+                <p>
+                  Milý králi! Tato šikování jsou proti Turkům - proto mají být
+                  krajní oddíly veliké, aby mohly houfy procházet po třech. Z
+                  těch velkých krajních oddílů se pak mohou vyčlenit jiné krajní
+                  oddíly a tak může být pět oddílů vysláno proti těm silným
+                  Turkům. A pokud byste ve vojsku měli Srby a Valachy, tu
+                  sebranku, která se k šikování nehodí, vyšlete je všechny na
+                  harc a dejte je pod velení někoho rozumného, aby jimi tlačil
+                  na nepřítele a zase s nimi uměl ustupovat a to tak, že jim dá
+                  znamení k útoku po trubačích a znamení k ústupu po bubenících.
+                  A rozkažte jim, aby pečlivě poslouchali a jestliže uslyší
+                  troubení, aby rázně útočili a jestliže uslyší bunování aby se
+                  ihned zastavili a dále nepřítele nepronásledovali. A vždy za
+                  nimi postupujte s vozy i jinými oddíly a bůh dá, že j
+                  přemůžete i kdyby jich bylo sebevíc. Pokud byste se měli bít
+                  bez vozů, tak na ně vtrhněte s milým Bohem, šikujíce tak, jak
+                  tady stojí psáno. A do bitvy mějte heslo: „Pán Bůh s námi a
+                  svatý Michal!" bůh dá uvidíte, že proti vám nic neobstojí.
+                </p>
               </Col>
             </Row>
             <Row>
