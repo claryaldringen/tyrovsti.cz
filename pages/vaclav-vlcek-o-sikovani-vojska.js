@@ -344,7 +344,7 @@ const Page = () => {
                 </p>
               </Col>
               <Col md={6}>
-                <h3>Takto máš šikovati jízdné, pěší i vozy.</h3>
+                <h3>Takto máš šikovati jízdní, pěší i vozy.</h3>
                 <p>
                   Sto jezdců takto máš šikovati: 20 jezdců v prvním předvoji a
                   30 ve druhém předvoji a 50 ve voji za nimi. Každý oddíl má mít
@@ -352,7 +352,14 @@ const Page = () => {
                   být z každé strany dva (jízdní) střelci, na špici dva (jízdní)
                   kopiníci, tři za nimi a dále po čtyřech.
                 </p>
-                <p>Dvě stě jezdců takto máš šikovati:</p>
+                <p>
+                  Dvě stě jezdců takto máš šikovati: Aby 100 jezdců bylo určeno
+                  jako posila tomu prvnímu houfu, dva krajní šiky, v jednom 25
+                  jezdců a ve druhém 35 jezdců a ve voji 140 jezdců. V prvním
+                  krajním oddílu ať jsou dva na špici, tři za nimi a pak ať
+                  jedou po čtyřech. A v druhém krajním oddíle ať jedou tři na
+                  špici, čtyři za nimi a pak ať jedou v šiku po pěti.
+                </p>
                 <p>
                   Tři sta jezdců takto máš šikovati: Na jedné straně oddíl 32
                   jezdců, na druhé straně oddíl 42 jezdců a ve voji 226 jezdců.
@@ -444,6 +451,23 @@ const Page = () => {
                   nimi a dále ať jedou v šicích po 33. Tři ať vedou voj a každý
                   krajní oddíl ať vedou dva.
                 </p>
+                <p>
+                  Sedm tisíc jezdců takto máš šikovati: po 1500 v krajních
+                  oddílech z každé strany voje, po 11 na špicích, po 15 za nimi
+                  a dále ať jedou v šicích po 18. 3000 ve voji (pozn. zde je
+                  nejspíš chyba v přepisu, správné číslo má být pravděpodobně
+                  4000) 35 na špici, 37 za nimi a dále ať jedou v šicích po 39.
+                  Tři ať vedou voj a každý z těch dvou krajních oddílů ať vedou
+                  dva.
+                </p>
+                <p>
+                  Osm tisíc jezdců takto máš šikovati: po 1500 v krajních
+                  oddílech z každé strany (voje), 35 na špici, 37 za nimi, po 40
+                  v šicích. Pět tisíc ve voji, 38 na špici, 41 za nimi a dále ať
+                  jedou v šicích po 44. Ten ať vedou tři a každý krajní oddíl ať
+                  vedou dva.
+                </p>
+                <p>V těch všech houfech učiní suma 40 000 jezdců.</p>
               </Col>
             </Row>
             <Row>
