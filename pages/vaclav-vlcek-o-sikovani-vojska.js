@@ -156,7 +156,7 @@ const Page = () => {
                   Králi milý! Tato šikování jsú proti Turkóm; proto veliké
                   stracence mají býti, aby trojnásob haufové mohli jíti. Pak ti
                   velicí haufové v stracencích mohú sobě jiné stracence opět
-                  zdělati; a tak by mohli haufové zpraveni býli pateronásob,
+                  zdělati; a tak by mohli haufové zpraveni býti pateronásob,
                   proti těm silným Turkóm. A což byste Rácuov měli a Vlachuov,
                   té zběři, ježto by se k šikování nehodili, ty pusťte všecky na
                   harc, a jednomu je poručte rozumnému, aby jimi potiskal
@@ -186,7 +186,7 @@ const Page = () => {
                   se harcovníci znají.
                 </p>
                 <p>
-                  U valním haufě, v kterém král JMť bude, ráčí-li býli v tom
+                  U valním haufě, v kterém král JMť bude, ráčí-li býti v tom
                   šiku před korúhvemi, dajte jeden šik s nahými mečmi a palcáty,
                   a za nimi v ten šik, kdež korúhev bude. Pakli ráčí svuoj
                   haufec jmíti, padesát koní neb sto, aby ho hlédali při haufu,
@@ -196,7 +196,7 @@ const Page = () => {
                   kteříž před pacholaty pojedau, kdyžby k potkání bylo, mají
                   býti v stracencích z bokuov s obúch stran vedle špice; a mají
                   vystřeliti na nepřátely, než se hauf potká, a najlépe v koně,
-                  aby jim koni jsúc raněni šik jich zrušili; a ti střelci maji
+                  aby jim koni jsúc raněni šik jich zrušili; a ti střelci mají
                   (býti) vedle špice; a tak u všech haufuov aby jim rozkázáno
                   bylo. A jest-li žeby naši přední haufové potiskáni aneb
                   rozraženi byli, jehož Buože nedaj! má jim povědieno býti, aby
@@ -502,6 +502,55 @@ const Page = () => {
                   tady stojí psáno. A do bitvy mějte heslo: „Pán Bůh s námi a
                   svatý Michal!" bůh dá uvidíte, že proti vám nic neobstojí.
                 </p>
+                <p>
+                  Do hlavního houfu, kde je osm tisíc jezdců, dejte uherskou
+                  korouhev. Do houfu před hlavním houfem, kde je sedm tisíc
+                  jezdců, dejte českou korouhev. Do toho houfu, kde je šest
+                  tisíc jezdců, dejte moravskou korouhev. Do toho, kde je pět
+                  tisíc, slezskou korouhev, do toho houfu, kde jsou čtyři
+                  tisíce, dejte hončí korouhev. Do toho, kde jsou tři tisíce,
+                  dejte korouhev bosenského krále.Do toho houfu, kde jsou dva
+                  tisíce, dejte korouhev některého knížectví. A do toho houfu,
+                  kde je patnáct set jezdců, dejte korouhev toho pána, který má
+                  bitvu zahájit. Do toho houfu, který má tisíc koní, dejte
+                  korouhev některého hejtmana, ať je hned za harcovníky. Tomu,
+                  komu budou svěřeni do velení, dejte nějakou korouhev, kterou
+                  harcovníci poznají.
+                </p>
+                <p>
+                  Pokud by si král přál být v hlavním houfu, ať je v něm před
+                  korouhvem a umístěte k němu jednu řadu jezdců s tasenými meči
+                  a palcáty a druhou do té řady, kde bude i korouhev. Pokud by
+                  si přál mít svůj oddíl, tak ať ho střeží padesát nebo sto
+                  jezdců. I tak to může být. Pak však v jiných dvou oddílech
+                  před královským oddílem mají být dvě řady s tasenými meči a
+                  palcáty u korouhve a pěší z obou stran, jak psáno stojí. A
+                  pokud by se schylovalo ke střetu mají střelci, kteří pojedou
+                  před panoši, být v krajních oddílech po obou stranách špice a
+                  vystřelit na nepřátele ještě než se voje střetnou a nejlépe na
+                  koně, aby jim ti zranění koně porušili jejich šiky. A jestliže
+                  by naše přední oddíly byly zatlačeny nebo rozehnány, čehož
+                  Bože nedej!, mají být instruováni, aby neustupovali dále než k
+                  hlavnímu houfu a vedle něj se znovu postavili (nepříteli), jak
+                  se na dobré lidi sluší. A to má být řečeno každému houfu. A u
+                  každého hlavního houfu mají být vzadu ve dvaou krajních
+                  oddílech dvě řady kopiníků a tři řady zkušených střelců. Tak
+                  bůh dá budou houfy dobře zajištěny.
+                </p>
+                <p>
+                  Králi milý! Teď Vám posílám spis o šikování. Dej Bůh aby Vám i
+                  vší České koruně ke cti bylo. Jak máte zorganizovat mnoho
+                  svých lidí, i když jich bude tisíc, dva, tři, nebo jezdců
+                  sto,dvě stě, tady všechno najdete, od sta až do tisíce, od
+                  tisíce až do 40 tisíc.
+                </p>
+                <p>
+                  Králi milý! Jestliže proti vám nepřátelé vytáhnou a vojska se
+                  proti sobě položí, takto je bůh dá oklamete: Hleďte vždy najít
+                  výhodné místo, vrch nebo nevysokou stráň, abyste se mohl s
+                  vojskem položit tak, že krajní vozy budete mít na vrchu a
+                  zbytek vojska pak ze stráně dolů. Jestliže by proti vám táhli,
+                </p>
               </Col>
             </Row>
             <Row>
@@ -716,8 +765,8 @@ const Page = () => {
                 <p>
                   Pak takto mají lidé do těch vozuov šikováni býti: což bude
                   jízdních, aby s koní ssedali, ostrohy vypínali, škorně zúvali,
-                  lehce se v své odění ubrali; a koni jejich maji na plac u
-                  prostřed vozuov uvedeni býli, k oněm dvěma korúhvem; a ty mají
+                  lehce se v své odění ubrali; a koni jejich mají na plac u
+                  prostřed vozuov uvedeni býti, k oněm dvěma korúhvem; a ty mají
                   pacholata a lidé nebranní držeti.
                 </p>
                 <p>
@@ -734,7 +783,7 @@ const Page = () => {
                 <p>
                   Pak máta dva haufce zuostavena a rozdělena býti, a hauf má
                   každý jmíti svého hajtmana a jeden praporec anebo jednu
-                  korúhev a více nic. A ti haufové mají býli uvedeni na ten
+                  korúhev a více nic. A ti haufové mají býti uvedeni na ten
                   plac, kdež koně stojí: jest-li žeby bylo těžko předku, aby
                   jeden hauf posílil; pakli by v zadek vskočili, aby druhý hauf
                   zadku posílil,
