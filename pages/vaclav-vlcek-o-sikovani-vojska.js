@@ -550,6 +550,14 @@ const Page = () => {
                   výhodné místo, vrch nebo nevysokou stráň, abyste se mohl s
                   vojskem položit tak, že krajní vozy budete mít na vrchu a
                   zbytek vojska pak ze stráně dolů. Jestliže by proti vám táhli,
+                  poživte je dobře z děl (pozn. ten obrat se mi tak líbil, že
+                  jsem ho nechal téměř bez úpravy). Vy tak na ně můžete udeřiti,
+                  ale oni na vás ne. A v rovné dolině stejně. Jestliže by byli
+                  vůči vám početně silnější a chtěli vás obejít, tak můžete hned
+                  odtáhnout s vojskem kolem toho vrchu a položit se s vojskem
+                  jako prve, akorát na druhé straně, krajní vozy zase na vrchu.
+                  Opět na ně budete moci udeřit, ale oni na vás ne. Tak to
+                  proveďte tolikrát, kolikrát to bude zapotřebí.
                 </p>
               </Col>
             </Row>
