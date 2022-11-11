@@ -557,7 +557,47 @@ const Page = () => {
                   odtáhnout s vojskem kolem toho vrchu a položit se s vojskem
                   jako prve, akorát na druhé straně, krajní vozy zase na vrchu.
                   Opět na ně budete moci udeřit, ale oni na vás ne. Tak to
-                  proveďte tolikrát, kolikrát to bude zapotřebí.
+                  proveďte tolikrát, kolikrát bude zapotřebí.
+                </p>
+                <p>
+                  Králi milý! Toto je druhý kus: jestliže byste viděl, že velká
+                  část vojska vytáhla na spížování, vtrhněte se svým vojskem
+                  doprostřed mezi spížující a hlavní voj. Takto jedni nebudou
+                  moci druhým pomoci, některé vždy pobijete, buď ty, kteří budou
+                  chtít spížujícím pomoci nebo spížující, kteří se budou chtít k
+                  vojsku vrátit.
+                </p>
+                <p>
+                  Králi milý! Další výhodný kus, již třetí: Když proti vám
+                  vytáhnou do pole v několika houfech aby vás našli nebo
+                  harcovali, či aby před vámi strážili, šikujte se co nejtajněji
+                  budete moci za nějakým vrchem u bojiště. Bude-li jich tisíc,
+                  pošlete k nim 100 nebo 200 jezdců. Oni před vámi neutečou,
+                  protože se jich nebudou bát. Ať se ti (vaši) jezdci nedaleko
+                  před nimi zastaví, jako by s nimi rokovat chtěli. Pokud na ty
+                  vaše jezdce vytáhnou, tak ti je zavedou k vašemu vojsku. Pokud
+                  na ně nevytáhnou, pošlete svým houf po houfu na pomoc. Tak
+                  když nepřátelé uzří, že rychle táhnete se svými houfy na pomoc
+                  tomu svému oddílu, budou chtít před vámi utéct a obrátí se aby
+                  táhli domů. V tu chvíli jim ten váš oddíl vpadne do týla a vy
+                  zatím přijedete se svými posilami. A tak bůh dá, je rozčísnete
+                  a porazíte.
+                </p>
+                <p>
+                  A také ke každému menšímu houfu dejte jednoho, ať ten houf
+                  vede a ke každému velkému dejta dva. A ať jsou odvážní, aby
+                  stáli v čele houfu a udatně se střetli s nepřítelem. Pokud by
+                  se k tomu rotmistři nehodili, nahraďte je jinými, které
+                  vyberete z ostatních houfů. Také co se týká organizace vozů,
+                  máte mít početnou vozbu a ten, kdo je postavil, je také
+                  organizuje, ale hejtman rozkazuje, kde je má položit proti
+                  nepříteli ve výhodných místech aby vždy nějakou výhodu měly.
+                  Když vojsko proti vojsku leží, aby si hleděl vrchů a strání,
+                  abyste mohli své nepřátele postřelovat z děl a oni vás ne.
+                  Jsou-li na pláni nějaká údolí je to také dobře, aby nemohli
+                  vidět celé vojsko ani ho napadnout. Jen vždy hleď na to, abys
+                  měl jeden krajní řad nad tím údolím buď rovně nebo při vrchu a
+                  tak se nebudou moci beze ztrát položit blízko tebe.
                 </p>
               </Col>
             </Row>
