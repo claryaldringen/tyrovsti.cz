@@ -597,7 +597,79 @@ const Page = () => {
                   Jsou-li na pláni nějaká údolí je to také dobře, aby nemohli
                   vidět celé vojsko ani ho napadnout. Jen vždy hleď na to, abys
                   měl jeden krajní řad nad tím údolím buď rovně nebo při vrchu a
-                  tak se nebudou moci beze ztrát položit blízko tebe.
+                  tak se nebudou moci beze ztrát položit blízko tebe, protože vy
+                  po nich budete moci střílet a oni po vás ne. Pokud by byli
+                  početně silnější a chtěli se položit proti vám zdola, nakrmte
+                  je z děl a můžete se hned za vrch položiti, že opět na vás
+                  nebudou moci a vy na ně ano. Ale vždy dbejte, aby na vrchu
+                  byla jedna řada vozů a tolikrát, kolikrát by toho za potřebí
+                  bylo a jiní za vrchem. A pěší ať jsou všude okolo krajních
+                  vozů a jiní pěší u bran a další oddíly, jízdní i pěší, na
+                  placu u krále a odtuď ať posilují obranu, kde by toho bylo
+                  zapotřebí. A když bude 600 vozů a u každého vozu 16 lidí, tak
+                  to bude 9600 lidí. A když bude vozů dvakrát více, tak to bude
+                  19.200 lidí.
+                </p>
+                <p>
+                  Každému řadu (vozů) dejte jednoho rozumného, ať je přesně
+                  vedou, ani široce ani úzce, ještě a další dva, kteří budou
+                  jezdit podél řadu a udržovali jej pohromadě. A zavírku ať
+                  vedou dva, každý jeden řad. A napřed okřídlí aby vedl jeden z
+                  pravé a druhý z levé strany, aby se dívali jeden na druhého a
+                  nezužovali či nerozšiřovali více, pouze tak, aby se setkali. A
+                  u každého předního vozu ať jsou vrauhvice (?) aby vozy jely
+                  stejně. A pokud by vozy musely jet přes rokle, přes potoky,
+                  přes lesy ať z každého řadu přidělí 5 až 10 lidí, pokud by byl
+                  horší terén tak i více, s motykami, rýči a sekerami aby hned
+                  udělali cesty aby vozy nemeškaly. A jeden ať je každý den
+                  připraven jim velet a ať si buď zapamatuje nebo zapíše, kdo
+                  byl ten den vyčleněn na tyto práce, aby vždy další den jiným
+                  rozkázal, aby všem tato povinnost byla spravedlivě rozdělena.
+                  Na tažení rozdělte všechny pěší i jízdní, kteří nenáleží ke
+                  krajním vozům, na tři skupiny. Jedni ať jdou o den napřed,
+                  druzí druhý den a třetí třetí den. A tak ať je to vždy, ledaže
+                  by nepřátelé byli blízko, pak táhnětě jako když se šikujete k
+                  bitvě, jak stojí psáno výše. A měj děla vně vedle krajních
+                  vozů, kdyby jich bylo potřeba. Z obou stran vojska po několika
+                  houfnicích a k nim koně, aby mohli ta děla přesouvat a
+                  postavit tam, kde by jich zapotřebí bylo. A na krajních vozech
+                  ať jsou na každém dvě hákovnice, aby (nepřátelé) nemohli
+                  blízko přiharcovat.
+                </p>
+                <p>
+                  Jízdní oddíly ať táhnou na placu, jak se šikovalo a některé
+                  volné houfy ať táhnou uvnitř vedle krajnách vozů aby mohli být
+                  bokem vypouštěni a zase vpouštěni do řadů, když by to bylo
+                  potřeba.
+                </p>
+                <p>
+                  Pokud bys měl dost pěších a táhl do bitvy bez vozů, opatři
+                  jimi havní houf a houf před hlavním vojem a jiné (houfy) ne,
+                  ale ať táhnou podle nařízení před sebou.
+                </p>
+                <p>
+                  Když velké vojsko táhne, pusť dvě stě jezdců napřed a ti ať
+                  dělají koněberky, drží stráže a hlídají. Dále pusť za nimi 250
+                  jezdců jako honce a dále pusť za nimi 500 jezdců jako posilu,
+                  za těmi tisíc a za těmi dva tisíce a tak dále vyšli jeden po
+                  druhém, jak stojí psáno výše.
+                </p>
+                <p>
+                  Bude-li vojsko větší, vytvoř houfy větší a pokud bude vojsko
+                  menší, vytvoř menší houfy. A zformují-li se Švýcaři nebo Němci
+                  do svých pěších šiků, nech je tak stát, nikomu neublíží, když
+                  stojí na jednom místě. Vždy napřed napadněte jízdní, pokud
+                  jste silnější, a uvidíte, že je od pěších odeženete a dá-li
+                  bůh tak i pobijete. A potom na pěší svezte děla a naložte s
+                  nimi, jak chete. A jestliže na vás čekají v zákopech, položte
+                  se vedle nich, nepříliš blízko, ať vám z děl neuškodí. A když
+                  potáhnou na spížování nebo jinak se z toho místa pohnou,
+                  napadněte je a dá-li bůh uvidíte že bude dobře a vyhrajete a
+                  rozeženete je. Amen, tak dá-li bůh se stane.
+                </p>
+                <p>
+                  A když již do bitvy půjdete, poklekněte a proste milého pána
+                  Boha, ať vám ráčí pomoci zvítěziti. A tak se dá-li bůh stane.
                 </p>
               </Col>
             </Row>
