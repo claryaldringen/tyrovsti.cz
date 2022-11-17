@@ -984,7 +984,24 @@ const Page = () => {
                   Opět jné dvě korouhve mají být na nejkrajnějším řadu, jedna
                   pravé ruce a druhá na nejkrajnějším řadu na levé ruce a to na
                   nejzadnějším vozu a to proto, abys viděl, které vozy vzadu k
-                  zavření zastavíš a abys viděl, kterým řadem pohnout
+                  zavření zastavíš a abys viděl, kterým řadem pohnout abys rovně
+                  zadek zavřel.
+                </p>
+                <p>
+                  Zbylé dvě korouhve mají být na krajních vozech, které budou
+                  ponechány vzadu k zavření, abys rychle trefil k vozům, kterými
+                  má být zavřena (hradba).
+                </p>
+                <p>
+                  Z toho tisíce vozů mají být na levou i pravou stranu vybrány
+                  ty nejlepší vozy s bedněním a před bojem z nich mají být
+                  odstraněny plachty. V každém voze mají být zapřaženi čtyři
+                  koně a víc ne. A na ty koně mají být posazeni stateční
+                  vozatajové s přilbami a pavézami. A také má být ke každému
+                  vozu šikován ještě druhý (vozataj) aby nasedl na koně v
+                  případě, že by ten první padl. A u každých deseti vozů v
+                  krajních řadech má být jeden desátník, aby přikazoval vozům
+                  dojíždět (mezery).
                 </p>
               </Col>
             </Row>
