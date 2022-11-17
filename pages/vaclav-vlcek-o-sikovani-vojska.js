@@ -839,7 +839,7 @@ const Page = () => {
                 <h3>Jiné šikování vuzuov</h3>
                 <p>
                   Jest-li žeby VMti bylo potřebí k boji s nepřátely vašimi,
-                  takto se rač kázati připravili a boj postaviti, aby k tisíci
+                  takto se rač kázati připraviti a boj postaviti, aby k tisíci
                   vozuov dvadceti tisíc branných lidí bylo.
                 </p>
                 <p>
@@ -952,7 +952,41 @@ const Page = () => {
                   nebudúť věděti, co mají činiti.
                 </p>
               </Col>
-              <Col md={6}></Col>
+              <Col md={6}>
+                <h3>Jiné šikování vozů</h3>
+                <p>
+                  Jestliže by vám to bylo zapotřebí k boji s vašimi nepřáteli,
+                  račte takto rozákázat se připravit a k boji postavit: Aby k
+                  tisíci vozům bylo dvacet tisíc ozbrojenců.
+                </p>
+                <p>
+                  Aby v krajních řadech bylo jedenapůlkrát více vozů než v
+                  prostředních řadech aby se mohl zavřít předek i zadek.
+                </p>
+                <p>
+                  Osm nápadných a zřetelných korouhví, nejlépe černých a bílých,
+                  je k tomu určeno. Jedna korouhev aby byla na předním voze na
+                  pravé ruce a druhá korouhev má být také na předním voze na
+                  levé ruce. A to proto aby se ten, kdo povede řad, ať už na
+                  levé nebo pravé ruce, díval na korouhev toho druhého aby
+                  rozteč mezi vozy nezúžovali aby lidé nebyli vytlačeni ven z
+                  řadů a také pro zavření vozů, aby se jeden na druhého dívali a
+                  vozy rovně zavřeli.
+                </p>
+                <p>
+                  Druhé dvě korouhve mají být uprostřed vozů tam, kde bude
+                  zřízen plac pro koně, na každém krajním řadu jedna, a to
+                  proto, aby lidé našli cestu ke svým vozům když už by nepřátelé
+                  prchli. A toto (kdo kam patří) má být lidem oznámeno před
+                  bojem.
+                </p>
+                <p>
+                  Opět jné dvě korouhve mají být na nejkrajnějším řadu, jedna
+                  pravé ruce a druhá na nejkrajnějším řadu na levé ruce a to na
+                  nejzadnějším vozu a to proto, abys viděl, které vozy vzadu k
+                  zavření zastavíš a abys viděl, kterým řadem pohnout
+                </p>
+              </Col>
             </Row>
           </Col>
         </Row>
