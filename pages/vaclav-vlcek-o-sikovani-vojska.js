@@ -286,7 +286,7 @@ const Page = () => {
                   vedú, každý jeden řad. A napřed výkřídlí aby jeden vedl s
                   pravé strany, a druhý s levé, aby se ohlédaťi jeden na
                   druhého, aby nesužovali ani šířili, než cožby bylo v tref, aby
-                  zároveň vojsko táhlo. A vrauhvice at jsú při každém předním
+                  zároveň vojsko táhlo. A korouhvice at jsú při každém předním
                   voze, aby rovně zajedno šli vozové. A kdyžby rovno nebylo, a
                   musely by vozy jíti přes rokle, přes potoky, přes lesy, z
                   každého řadu ať dadí lidi s motykami a rýče s sekyrami, aby
@@ -617,7 +617,7 @@ const Page = () => {
                   vedou dva, každý jeden řad. A napřed okřídlí aby vedl jeden z
                   pravé a druhý z levé strany, aby se dívali jeden na druhého a
                   nezužovali či nerozšiřovali více, pouze tak, aby se setkali. A
-                  u každého předního vozu ať jsou vrauhvice (?) aby vozy jely
+                  u každého předního vozu ať jsou korouhvice aby vozy jely
                   stejně. A pokud by vozy musely jet přes rokle, přes potoky,
                   přes lesy ať z každého řadu přidělí 5 až 10 lidí, pokud by byl
                   horší terén tak i více, s motykami, rýči a sekerami aby hned
@@ -802,6 +802,35 @@ const Page = () => {
                   šikovat. A to je vše k tomuto šikování a Bůh dá, že vám bude k
                   užitku. A když bude šikováno tak, jak tu stojí, Bůh dá
                   shledáte, že proti vám nic neobstojí.
+                </p>
+                <p>
+                  Když potáhnete velkým vojskem, jak se na mocného pána sluší,
+                  mějte jedno malé vojsko a v tom mějte svá obléhací děla, čtyři
+                  nebo pět polních děl, srubnic, houfnic, tarasnic a vše, co je
+                  k nim zapotřebí. A nejmeně sto vozů a dalších sto vozů na jiné
+                  věci, totiž ať vezou prach, hákovnice, zápalné šípy, zápalné
+                  kule, žebříky, sekery, motyky, rýče, aby mohli nasypat koše,
+                  dělat příkopy a cesty k těm dělům a upravovat cesty pro to
+                  vojsko. A přidejte k nim čtyři nebo šest řadů vozů a s těmi
+                  vozy pět nebo šest tisíc pěších. A k tomuto malému vojsku
+                  přiřaďte hejtmana těch věcí znalého, ať spořádaně táhnou a k
+                  dělům druhého, aby je pokládal, kde bude zapotřebí a zase je
+                  sklízel až bude čas. A toto malé vojsko ať táhne napřed a ti
+                  hejtmané ať dbají na to, aby se přiblížili k městu vraty skrz
+                  předměstí. A hned ať položí děla tak aby mohla střílet do
+                  (hradebních) zdí, ještě dříve než dorazí hlavní vojsko, a ať
+                  okamžite zahájí palbu a pěší oddíly ať jsou připraveni s Bohem
+                  zaútočit hned jak se hradba zboří, aby se obránci nemohli ve
+                  městě zatarasit a tak je, dá-li bůh, dobudete ještě než
+                  zorganizují obranu. Ale kdybyste jen stříleli z děl a
+                  nezaútočili hned, oni by se v noci zatarasili a ty zátarasy by
+                  uděali ještě silnější, než byla původní zeď. A vždy některé
+                  oddíly nechte na bojišti u vozů a jiné ať stojí nad utočícími
+                  jednotkami, kdyby nepřátelé provedli výpad z města, ať už
+                  pěšky nebo na koních, ať už proti utočícím jednotkám nebo
+                  vozům, tak aby jim v tom zabránili. A když takto dá-li bůh
+                  útok zorganizujete, uvidíte da-li bůh, že všechno dobyjete a
+                  že proti vám nic neobstojí. A tak se, dí-li bůh, stane. Amen.
                 </p>
               </Col>
             </Row>
