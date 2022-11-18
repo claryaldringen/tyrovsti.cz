@@ -168,8 +168,8 @@ const Page = () => {
                   vždy za nimi potiskati i s jinými haufy, a bohdá je polomíte,
                   byť jich bylo najviec. Pakli byste se jměli biti bez vozuov,
                   tak na ně trhněte s milým Buohem, šikujíce tak jakož tuto
-                  psáno stojí. A k bitvě mievajle heslo: &ldquo;Pán Buoh s námi
-                  a svatý Michal!&rdquo; uzřite buohdá, žeť před vámi nic
+                  psáno stojí. A k bitvě mievajle heslo: &bdquo;Pán Buoh s námi
+                  a svatý Michal!&ldquo; uzřite buohdá, žeť před vámi nic
                   neostojí.
                 </p>
                 <p>
@@ -500,8 +500,8 @@ const Page = () => {
                   nimi postupujte s vozy i jinými oddíly a bůh dá, že j
                   přemůžete i kdyby jich bylo sebevíc. Pokud byste se měli bít
                   bez vozů, tak na ně vtrhněte s milým Bohem, šikujíce tak, jak
-                  tady stojí psáno. A do bitvy mějte heslo: &ldquo;Pán Bůh s
-                  námi a svatý Michal!&rdquo; bůh dá uvidíte, že proti vám nic
+                  tady stojí psáno. A do bitvy mějte heslo: &bdquo;Pán Bůh s
+                  námi a svatý Michal!&ldquo; bůh dá uvidíte, že proti vám nic
                   neobstojí.
                 </p>
                 <p>
