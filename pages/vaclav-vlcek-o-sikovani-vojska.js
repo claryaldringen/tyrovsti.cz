@@ -168,8 +168,9 @@ const Page = () => {
                   vždy za nimi potiskati i s jinými haufy, a bohdá je polomíte,
                   byť jich bylo najviec. Pakli byste se jměli biti bez vozuov,
                   tak na ně trhněte s milým Buohem, šikujíce tak jakož tuto
-                  psáno stojí. A k bitvě mievajle heslo: „Pán Buoh s námi a
-                  svatý Michal!" uzřite buohdá, žeť před vámi nic neostojí.
+                  psáno stojí. A k bitvě mievajle heslo: &ldquo;Pán Buoh s námi
+                  a svatý Michal!&rdquo; uzřite buohdá, žeť před vámi nic
+                  neostojí.
                 </p>
                 <p>
                   Do valního haufu dajte korúhev Uherskú, kdež osm tisíc koní;
@@ -499,8 +500,9 @@ const Page = () => {
                   nimi postupujte s vozy i jinými oddíly a bůh dá, že j
                   přemůžete i kdyby jich bylo sebevíc. Pokud byste se měli bít
                   bez vozů, tak na ně vtrhněte s milým Bohem, šikujíce tak, jak
-                  tady stojí psáno. A do bitvy mějte heslo: „Pán Bůh s námi a
-                  svatý Michal!" bůh dá uvidíte, že proti vám nic neobstojí.
+                  tady stojí psáno. A do bitvy mějte heslo: &ldquo;Pán Bůh s
+                  námi a svatý Michal!&rdquo; bůh dá uvidíte, že proti vám nic
+                  neobstojí.
                 </p>
                 <p>
                   Do hlavního houfu, kde je osm tisíc jezdců, dejte uherskou
@@ -1002,6 +1004,18 @@ const Page = () => {
                   případě, že by ten první padl. A u každých deseti vozů v
                   krajních řadech má být jeden desátník, aby přikazoval vozům
                   dojíždět (mezery).
+                </p>
+                <p>
+                  Co bude na pravé, bude i na levé ruce: Na každém krajním řadu
+                  má být kryt s podpěrou a dírou a pod každým vozem má viset
+                  prkno aby lidi ani koně nemohli být zraněni. Ke každému vozu
+                  mají být šikovány dvě píšťaly, dvě libry prachu, kopa kulek a
+                  dvě kopy šipek, dva okované cepy a dvoje kopí s hákem.
+                </p>
+                <p>
+                  Do vozů má být žlab, ze kterého koně krmí, podélně přivázán a
+                  naplněn kamením, jestliže by (nepřátelé) k vozům přilnuli
+                  abyste jej mohli přes vozy vrhat.
                 </p>
               </Col>
             </Row>
