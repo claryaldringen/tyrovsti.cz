@@ -1032,11 +1032,28 @@ const Page = () => {
                   a rovnali cesty.
                 </p>
                 <p>
-                  Oak k těm vozům mají být lidé takto šikováni: Všichni jízdní
-                  ať sesednou z koní, sundají si ostruhy, sabatony a obléknou se
-                  (do zbroje) na lehko. A jejich koně mají být přivedeni na plac
-                  uprostřed vozů k těm výše zmíněným korouhvím a zde je mají
-                  držet nevojáci a pacholata.
+                  Pak k těm vozům mají být ozbrojenci takto šikováni: Všichni
+                  jízdní ať sesednou z koní, sundají si ostruhy, sabatony a
+                  obléknou se (do zbroje) na lehko. A jejich koně mají být
+                  přivedeni na plac uprostřed vozů k těm výše zmíněným korouhvím
+                  a zde je mají držet neozbrojení a pacholata.
+                </p>
+                <p>
+                  Takto pak mají být ozbrojenci rozděleni k vozům: Stejný počet
+                  jako šikuješ na předek šikuj i na zadek a to proto, kdyby
+                  chtěl nepřítel náhle zaútočit jízdou na tvůj zadek.
+                </p>
+                <p>
+                  Pak na pravé i levé ruce mají v krajních řadech být vytvořeny
+                  oddíly po stu ozbrojencích, a přivedeni zaza ty řady aby
+                  bránili vozy jako zdi.
+                </p>
+                <p>
+                  Pak mají být postaveny dva oddíly, každý má mít svého hejtmana
+                  a jeden praporec nebo jednu korouhev. Tyto dva oddíly mají být
+                  přivedeny na ten plac, kde stojí koně. Pokud by byla situace
+                  špatná na předku, má jej jeden oddíly posílit a stejně tak
+                  kdyby nepřítel zaútočil na zadek, má jej druhý oddíl posílit.
                 </p>
               </Col>
             </Row>
