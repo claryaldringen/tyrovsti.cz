@@ -1017,6 +1017,27 @@ const Page = () => {
                   naplněn kamením, jestliže by (nepřátelé) k vozům přilnuli
                   abyste jej mohli přes vozy vrhat.
                 </p>
+                <p>
+                  K předním vozům dejte nejméně deset houfnic, čím více, tím
+                  lépe. K zadním vozům alespoň čtyři houfnice, čím více, tím
+                  lépe.
+                </p>
+                <p>
+                  Na každém boku v krajních řadech po čtyřech houfnicích. To je
+                  tak akorát.
+                </p>
+                <p>
+                  Před každým řadem vozů, a je jedno, kolik jich bude, ať je
+                  dvacet pěších s motykami, lopatami a sekerami, aby upravovali
+                  a rovnali cesty.
+                </p>
+                <p>
+                  Oak k těm vozům mají být lidé takto šikováni: Všichni jízdní
+                  ať sesednou z koní, sundají si ostruhy, sabatony a obléknou se
+                  (do zbroje) na lehko. A jejich koně mají být přivedeni na plac
+                  uprostřed vozů k těm výše zmíněným korouhvím a zde je mají
+                  držet nevojáci a pacholata.
+                </p>
               </Col>
             </Row>
           </Col>
