@@ -1055,6 +1055,15 @@ const Page = () => {
                   špatná na předku, má jej jeden oddíly posílit a stejně tak
                   kdyby nepřítel zaútočil na zadek, má jej druhý oddíl posílit.
                 </p>
+                <p>
+                  Pokud byste táhl do boje, do kterého by však zbýval den, dva
+                  nebo tři, užijte tohoto úskoku: Jděte (k nepříteli) po větru a
+                  to proto, že hluk, jekot a kouř z pušek a děl, všechno na ně
+                  půjde a tak na ně přijde strach. A také dbej abys měl po jedné
+                  ruce rokle, bažiny nebo uměle vybudvané příkopy. Pokud by se
+                  vyhýbali střetu, tak se od nich polož čtvrt nebo půl míle,
+                  rozkaž
+                </p>
               </Col>
             </Row>
           </Col>
