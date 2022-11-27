@@ -8,13 +8,23 @@ const Page = () => {
     <>
       <Head>
         <title>
-          Jošt z Einsiedle a na Týřově - Václav Vlček: O šikování vojska
+          Jošt z Einsiedle a na Týřově - Václava Vlčka z Čenova naučení ku králi
+          Vladislavovi, kterak se mají šikovati jízdní, pěší i vozy
         </title>
       </Head>
       <Menu />
       <Container>
         <Row>
           <Col className="text">
+            <Row>
+              <Col>
+                <h2>
+                  Václava Vlčka z Čenova naučení ku králi Vladislavovi, kterak
+                  se mají šikovati jízdní, pěší i vozy
+                </h2>
+                <p>&nbsp;</p>
+              </Col>
+            </Row>
             <Row>
               <Col md={6}>
                 <h3>Takto máš šikovati jízdné, pěší i vozy.</h3>
