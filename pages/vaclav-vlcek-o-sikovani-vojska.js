@@ -1061,8 +1061,12 @@ const Page = () => {
                   to proto, že hluk, jekot a kouř z pušek a děl, všechno na ně
                   půjde a tak na ně přijde strach. A také dbej abys měl po jedné
                   ruce rokle, bažiny nebo uměle vybudvané příkopy. Pokud by se
-                  vyhýbali střetu, tak se od nich polož čtvrt nebo půl míle,
-                  rozkaž
+                  vyhýbali střetu, tak se od nich polož čtvrt nebo půl míle, tak
+                  budeš moci rozkazovat a šikovat skrytě, a rozkaž, ať každý u
+                  svého vozu udělá co největší oheň. Táhni k nim se šiky a
+                  napřed pošli silnou jízdní stráž aby neviděli, jestli na ně
+                  táhneš s vozy. A tak i kdyby se stalo, že budou mít přesilu
+                  dvacet ku jedné, neboudou vědět, co mají dělat.
                 </p>
               </Col>
             </Row>
