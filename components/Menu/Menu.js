@@ -84,7 +84,7 @@ const En = () => (
       <ul className="menu-list">
         <li>
           <div>
-            <Link href="/military-order-of-vaclav-vlcek-from-cenov">
+            <Link href="/military-order-of-vaclav-vlcek-of-cenov">
               Military order of Václav Vlček from Čenov
             </Link>
           </div>
