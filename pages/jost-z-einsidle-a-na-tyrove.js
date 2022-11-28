@@ -1,6 +1,6 @@
 import React from 'react'
 import { Col, Container, Row } from 'reactstrap'
-import { Menu } from '../components/Menu'
+import { Menu } from '../components/Menu/Menu'
 import Head from 'next/head'
 
 const Page = () => (

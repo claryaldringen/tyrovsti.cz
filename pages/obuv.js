@@ -1,4 +1,4 @@
-import { Menu } from '../components/Menu'
+import { Menu } from '../components/Menu/Menu'
 import { Col, Container, Row } from 'reactstrap'
 import Image from 'next/image'
 import Head from 'next/head'
