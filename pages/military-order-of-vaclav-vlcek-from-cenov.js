@@ -8,8 +8,9 @@ const Page = () => {
     <>
       <Head>
         <title>
-          Jošt z Einsiedle a na Týřově - Václava Vlčka z Čenova naučení ku králi
-          Vladislavovi, kterak se mají šikovati jízdní, pěší i vozy
+          Jobst of Einsiedl and Tyrzow - Václav Vlček of Čenov&apos;s handbook
+          to king Vladislaus, how to make formations of cavalry, infantry and
+          wagons
         </title>
       </Head>
       <Menu />
@@ -19,8 +20,8 @@ const Page = () => {
             <Row>
               <Col>
                 <h2>
-                  Václava Vlčka z Čenova naučení ku králi Vladislavovi, kterak
-                  se mají šikovati jízdní, pěší i vozy
+                  Václav Vlček of Čenov&apos;s handbook to king Vladislaus, how
+                  to make formations of cavalry, infantry and wagons
                 </h2>
                 <p>&nbsp;</p>
               </Col>
