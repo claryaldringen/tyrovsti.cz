@@ -1,5 +1,5 @@
 import React from 'react'
-import { Menu } from '../components/Menu/Menu'
+import { Menu } from '../components/Menu'
 import { Col, Container, Row } from 'reactstrap'
 import Head from 'next/head'
 import Image from 'next/image'
@@ -307,31 +307,30 @@ const Page = () => {
                   zahraničí. Nejprve se na jednom dunajském ostrově před Vídní
                   sešel s císařem Fridrichem III., kterému <b>25. září 1458</b>{' '}
                   složil hold. České země byly totiž formálně stále součástí
-                  Svaté říše římské národa německého. Jiří také císaři slíbil
-                  vojenskou pomoc v boji s rakouskými stavy a získal od něj
-                  uznání své korunovace. Nyní byl čas ukončit spory se Saskem,
-                  což Jiří učinil na sjezdu v Chebu, který započal{' '}
-                  <b>7. dubna 1459</b>. V Chebu se sešly přední osobnosti Říše,
-                  mimojiné Fridrich Falcký, Ota Bavorský, Fridrich kurfiřt
-                  Braniborský, Albrecht Braniborský, magdeburský arcibiskup
-                  Fridrich a mnohá další hrabata a knížata se svými družinami.
-                  Nejdůležitějšími osobnostmi sjezdu byli však bratři Fridrich a
-                  Vilém Sasští. Král Jiří přijel do Chebu v doprovodu 900 jezdců
-                  a 100 vozů, s celou svou rodinou a v kruhu předního českého
-                  panstva. Trpělivé jednání nakonec přineslo ovoce. Vilém Saský
-                  se vzdal všech nároků na Český trůn a nabídl se, že bude dělat
-                  prostředníka mezi Jiřím a Slezany. Oba Sasští vévodové se pak
-                  vzdali nároků na území kolem Duchcova a Mostu a stáhli se za
-                  zemskou hranici. Král Jiří se naopak zřekl českých lén v
-                  Sasku. Tato hranice mezi Saskem a Čechami je platná dodnes a
-                  patří tedy k nejstarším dosud existujícím hranicím Evropy. V
-                  Chebu vznikla i přátelská smlouva česko-braniborská. V září
-                  1459 se z Vratislavi stává obležená pevnost a{' '}
-                  <b>1. října 1459</b> zaútočilo české vojsko na hradby aniž by
-                  se mu povedlo je prolomit. Jenže i papež Pius II. píše
-                  Vratislavským aby se poddali českému králi a tak Vratislav na
-                  konci roku 1459 požádala krále Jiřího o příměří a začala
-                  jednat o míru. V lednu 1460 Vratislav přijala Jiřího z
+                  Svaté říše římské. Jiří také císaři slíbil vojenskou pomoc v
+                  boji s rakouskými stavy a získal od něj uznání své korunovace.
+                  Nyní byl čas ukončit spory se Saskem, což Jiří učinil na
+                  sjezdu v Chebu, který započal <b>7. dubna 1459</b>. V Chebu se
+                  sešly přední osobnosti Říše, mimojiné Fridrich Falcký, Ota
+                  Bavorský, Fridrich kurfiřt Braniborský, Albrecht Braniborský,
+                  magdeburský arcibiskup Fridrich a mnohá další hrabata a
+                  knížata se svými družinami. Nejdůležitějšími osobnostmi sjezdu
+                  byli však bratři Fridrich a Vilém Sasští. Král Jiří přijel do
+                  Chebu v doprovodu 900 jezdců a 100 vozů, s celou svou rodinou
+                  a v kruhu předního českého panstva. Trpělivé jednání nakonec
+                  přineslo ovoce. Vilém Saský se vzdal všech nároků na Český
+                  trůn a nabídl se, že bude dělat prostředníka mezi Jiřím a
+                  Slezany. Oba Sasští vévodové se pak vzdali nároků na území
+                  kolem Duchcova a Mostu a stáhli se za zemskou hranici. Král
+                  Jiří se naopak zřekl českých lén v Sasku. Tato hranice mezi
+                  Saskem a Čechami je platná dodnes a patří tedy k nejstarším
+                  dosud existujícím hranicím Evropy. V Chebu vznikla i přátelská
+                  smlouva česko-braniborská. V září 1459 se z Vratislavi stává
+                  obležená pevnost a <b>1. října 1459</b> zaútočilo české vojsko
+                  na hradby aniž by se mu povedlo je prolomit. Jenže i papež
+                  Pius II. píše Vratislavským aby se poddali českému králi a tak
+                  Vratislav na konci roku 1459 požádala krále Jiřího o příměří a
+                  začala jednat o míru. V lednu 1460 Vratislav přijala Jiřího z
                   Poděbrad za krále.
                 </p>
               </Col>
