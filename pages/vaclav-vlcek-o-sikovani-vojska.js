@@ -219,7 +219,7 @@ const Page = () => {
                   haufové opatřeni dobře.
                 </p>
                 <p>
-                  Králi milý! Ted VMti posielám spis k šikování. Daj Buoh, aby
+                  Králi milý! Teď VMti posielám spis k šikování. Daj Buoh, aby
                   VMti i vší České koruně ke cti bylo. Jest-li že mnoho lidí
                   budete míti, tak máte zpraviti; pakli bude tisíc, dva, tři,
                   nebo koní sto, dvě stě, tu všecko najdete, od sta až do
@@ -491,7 +491,7 @@ const Page = () => {
                   hákovnice. A v čele před okřídlím ať je nejméně 10 houfnic a
                   10 harcovnic a nazad vojska rovně též. A na bocích po několika
                   houfnicích, zejména aby je vozili tam, kde by jich bylo zrovna
-                  za potřebí a zvlášt proti Turkům. A tak má být vojsko
+                  za potřebí a zvlášť proti Turkům. A tak má být vojsko
                   zorganizováno.
                 </p>
                 <p>
@@ -505,9 +505,9 @@ const Page = () => {
                   na nepřítele a zase s nimi uměl ustupovat a to tak, že jim dá
                   znamení k útoku po trubačích a znamení k ústupu po bubenících.
                   A rozkažte jim, aby pečlivě poslouchali a jestliže uslyší
-                  troubení, aby rázně útočili a jestliže uslyší bunování aby se
+                  troubení, aby rázně útočili a jestliže uslyší bubnování aby se
                   ihned zastavili a dále nepřítele nepronásledovali. A vždy za
-                  nimi postupujte s vozy i jinými oddíly a bůh dá, že j
+                  nimi postupujte s vozy i jinými oddíly a bůh dá, že je
                   přemůžete i kdyby jich bylo sebevíc. Pokud byste se měli bít
                   bez vozů, tak na ně vtrhněte s milým Bohem, šikujíce tak, jak
                   tady stojí psáno. A do bitvy mějte heslo: &bdquo;Pán Bůh s
@@ -531,7 +531,7 @@ const Page = () => {
                 </p>
                 <p>
                   Pokud by si král přál být v hlavním houfu, ať je v něm před
-                  korouhvem a umístěte k němu jednu řadu jezdců s tasenými meči
+                  korouhvemi a umístěte k němu jednu řadu jezdců s tasenými meči
                   a palcáty a druhou do té řady, kde bude i korouhev. Pokud by
                   si přál mít svůj oddíl, tak ať ho střeží padesát nebo sto
                   jezdců. I tak to může být. Pak však v jiných dvou oddílech
@@ -545,7 +545,7 @@ const Page = () => {
                   Bože nedej!, mají být instruováni, aby neustupovali dále než k
                   hlavnímu houfu a vedle něj se znovu postavili (nepříteli), jak
                   se na dobré lidi sluší. A to má být řečeno každému houfu. A u
-                  každého hlavního houfu mají být vzadu ve dvaou krajních
+                  každého hlavního houfu mají být vzadu ve dvou krajních
                   oddílech dvě řady kopiníků a tři řady zkušených střelců. Tak
                   bůh dá budou houfy dobře zajištěny.
                 </p>
@@ -563,7 +563,7 @@ const Page = () => {
                   vojskem položit tak, že krajní vozy budete mít na vrchu a
                   zbytek vojska pak ze stráně dolů. Jestliže by proti vám táhli,
                   poživte je dobře z děl (pozn. ten obrat se mi tak líbil, že
-                  jsem ho nechal téměř bez úpravy). Vy tak na ně můžete udeřiti,
+                  jsem ho nechal téměř bez úpravy). Vy tak na ně můžete udeřit,
                   ale oni na vás ne. A v rovné dolině stejně. Jestliže by byli
                   vůči vám početně silnější a chtěli vás obejít, tak můžete hned
                   odtáhnout s vojskem kolem toho vrchu a položit se s vojskem
@@ -612,12 +612,12 @@ const Page = () => {
                   tak se nebudou moci beze ztrát položit blízko tebe, protože vy
                   po nich budete moci střílet a oni po vás ne. Pokud by byli
                   početně silnější a chtěli se položit proti vám zdola, nakrmte
-                  je z děl a můžete se hned za vrch položiti, že opět na vás
+                  je z děl a můžete se hned za vrch položit, že opět na vás
                   nebudou moci a vy na ně ano. Ale vždy dbejte, aby na vrchu
                   byla jedna řada vozů a tolikrát, kolikrát by toho za potřebí
                   bylo a jiní za vrchem. A pěší ať jsou všude okolo krajních
                   vozů a jiní pěší u bran a další oddíly, jízdní i pěší, na
-                  placu u krále a odtuď ať posilují obranu, kde by toho bylo
+                  placu u krále a odtud ať posilují obranu, kde by toho bylo
                   zapotřebí. A když bude 600 vozů a u každého vozu 16 lidí, tak
                   to bude 9600 lidí. A když bude vozů dvakrát více, tak to bude
                   19.200 lidí.
@@ -640,7 +640,7 @@ const Page = () => {
                   Na tažení rozdělte všechny pěší i jízdní, kteří nenáleží ke
                   krajním vozům, na tři skupiny. Jedni ať jdou o den napřed,
                   druzí druhý den a třetí třetí den. A tak ať je to vždy, ledaže
-                  by nepřátelé byli blízko, pak táhnětě jako když se šikujete k
+                  by nepřátelé byli blízko, pak táhněte jako když se šikujete k
                   bitvě, jak stojí psáno výše. A měj děla vně vedle krajních
                   vozů, kdyby jich bylo potřeba. Z obou stran vojska po několika
                   houfnicích a k nim koně, aby mohli ta děla přesouvat a
@@ -650,13 +650,13 @@ const Page = () => {
                 </p>
                 <p>
                   Jízdní oddíly ať táhnou na placu, jak se šikovalo a některé
-                  volné houfy ať táhnou uvnitř vedle krajnách vozů aby mohli být
+                  volné houfy ať táhnou uvnitř vedle krajních vozů aby mohli být
                   bokem vypouštěni a zase vpouštěni do řadů, když by to bylo
                   potřeba.
                 </p>
                 <p>
                   Pokud bys měl dost pěších a táhl do bitvy bez vozů, opatři
-                  jimi havní houf a houf před hlavním vojem a jiné (houfy) ne,
+                  jimi hlavní houf a houf před hlavním vojem a jiné (houfy) ne,
                   ale ať táhnou podle nařízení před sebou.
                 </p>
                 <p>
@@ -673,7 +673,7 @@ const Page = () => {
                   stojí na jednom místě. Vždy napřed napadněte jízdní, pokud
                   jste silnější, a uvidíte, že je od pěších odeženete a dá-li
                   bůh tak i pobijete. A potom na pěší svezte děla a naložte s
-                  nimi, jak chete. A jestliže na vás čekají v zákopech, položte
+                  nimi, jak chcete. A jestliže na vás čekají v zákopech, položte
                   se vedle nich, nepříliš blízko, ať vám z děl neuškodí. A když
                   potáhnou na spížování nebo jinak se z toho místa pohnou,
                   napadněte je a dá-li bůh uvidíte že bude dobře a vyhrajete a
@@ -681,7 +681,7 @@ const Page = () => {
                 </p>
                 <p>
                   A když již do bitvy půjdete, poklekněte a proste milého pána
-                  Boha, ať vám ráčí pomoci zvítěziti. A tak se dá-li bůh stane.
+                  Boha, ať vám ráčí pomoci zvítězit. A tak se dá-li bůh stane.
                 </p>
               </Col>
             </Row>
@@ -769,7 +769,7 @@ const Page = () => {
               <Col md={6}>
                 <h3>Co se pak týká šikování pěších, bez vozů</h3>
                 <p>
-                  Když máš sešikovat sto pěších, nejprv umísti na boky šest
+                  Když máš sešikovat sto pěších, nejprve umísti na boky šest
                   pavézníků spolu se střelci z ručnic, popřípadě z kuší. Pak
                   umísti na hrot tři pavézníky a za ně tři sudličníky. Za ně pak
                   sedm pavézníků, ve vzdálenosti jako přes místnost. Za ně opět
@@ -800,7 +800,7 @@ const Page = () => {
                   byli uprostřed. A před nimi dva šiky střelců na koních, ty,
                   které mají být na bocích u jízdních aby jimi byli pěší
                   zakryti. A když se bude blížit střet, ať se ti jízdní
-                  shromáždí před pěšími, a na napřátele vystřelí. Pěší tak budou
+                  shromáždí před pěšími, a na nepřátele vystřelí. Pěší tak budou
                   odkryti. A tak se zastaví jízdní i pěší a když to bude
                   vypadat, že dojde ke střetu, ať pěší vystoupí před jízdní a na
                   nepřátele dotírají a střílejí. A ti jízdní střelci z obou
@@ -819,7 +819,7 @@ const Page = () => {
                   Když potáhnete velkým vojskem, jak se na mocného pána sluší,
                   mějte jedno malé vojsko a v tom mějte svá obléhací děla, čtyři
                   nebo pět polních děl, srubnic, houfnic, tarasnic a vše, co je
-                  k nim zapotřebí. A nejmeně sto vozů a dalších sto vozů na jiné
+                  k nim zapotřebí. A nejméně sto vozů a dalších sto vozů na jiné
                   věci, totiž ať vezou prach, hákovnice, zápalné šípy, zápalné
                   kule, žebříky, sekery, motyky, rýče, aby mohli nasypat koše,
                   dělat příkopy a cesty k těm dělům a upravovat cesty pro to
@@ -831,17 +831,17 @@ const Page = () => {
                   hejtmané ať dbají na to, aby se přiblížili k městu vraty skrz
                   předměstí. A hned ať položí děla tak aby mohla střílet do
                   (hradebních) zdí, ještě dříve než dorazí hlavní vojsko, a ať
-                  okamžite zahájí palbu a pěší oddíly ať jsou připraveni s Bohem
+                  okamžitě zahájí palbu a pěší oddíly ať jsou připraveni s Bohem
                   zaútočit hned jak se hradba zboří, aby se obránci nemohli ve
                   městě zatarasit a tak je, dá-li bůh, dobudete ještě než
                   zorganizují obranu. Ale kdybyste jen stříleli z děl a
                   nezaútočili hned, oni by se v noci zatarasili a ty zátarasy by
-                  uděali ještě silnější, než byla původní zeď. A vždy některé
+                  udělali ještě silnější, než byla původní zeď. A vždy některé
                   oddíly nechte na bojišti u vozů a jiné ať stojí nad utočícími
                   jednotkami, kdyby nepřátelé provedli výpad z města, ať už
-                  pěšky nebo na koních, ať už proti utočícím jednotkám nebo
+                  pěšky nebo na koních, ať už proti útočícím jednotkám nebo
                   vozům, tak aby jim v tom zabránili. A když takto dá-li bůh
-                  útok zorganizujete, uvidíte da-li bůh, že všechno dobyjete a
+                  útok zorganizujete, uvidíte dá-li bůh, že všechno dobyjete a
                   že proti vám nic neobstojí. A tak se, dí-li bůh, stane. Amen.
                 </p>
               </Col>
@@ -968,11 +968,11 @@ const Page = () => {
                 <h3>Jiné šikování vozů</h3>
                 <p>
                   Jestliže by vám to bylo zapotřebí k boji s vašimi nepřáteli,
-                  račte takto rozákázat se připravit a k boji postavit: Aby k
+                  račte takto rozkázat se připravit a k boji postavit: Aby k
                   tisíci vozům bylo dvacet tisíc ozbrojenců.
                 </p>
                 <p>
-                  Aby v krajních řadech bylo jedenapůlkrát více vozů než v
+                  Aby v krajních řadech bylo jeden a půlkrát více vozů než v
                   prostředních řadech aby se mohl zavřít předek i zadek.
                 </p>
                 <p>
@@ -981,7 +981,7 @@ const Page = () => {
                   pravé ruce a druhá korouhev má být také na předním voze na
                   levé ruce. A to proto aby se ten, kdo povede řad, ať už na
                   levé nebo pravé ruce, díval na korouhev toho druhého aby
-                  rozteč mezi vozy nezúžovali aby lidé nebyli vytlačeni ven z
+                  rozteč mezi vozy nezužovali aby lidé nebyli vytlačeni ven z
                   řadů a také pro zavření vozů, aby se jeden na druhého dívali a
                   vozy rovně zavřeli.
                 </p>
@@ -993,7 +993,7 @@ const Page = () => {
                   bojem.
                 </p>
                 <p>
-                  Opět jné dvě korouhve mají být na nejkrajnějším řadu, jedna
+                  Opět jiné dvě korouhve mají být na nejkrajnějším řadu, jedna
                   pravé ruce a druhá na nejkrajnějším řadu na levé ruce a to na
                   nejzadnějším vozu a to proto, abys viděl, které vozy vzadu k
                   zavření zastavíš a abys viděl, kterým řadem pohnout abys rovně
@@ -1055,8 +1055,8 @@ const Page = () => {
                 </p>
                 <p>
                   Pak na pravé i levé ruce mají v krajních řadech být vytvořeny
-                  oddíly po stu ozbrojencích, a přivedeni zaza ty řady aby
-                  bránili vozy jako zdi.
+                  oddíly po stu ozbrojencích, a přivedeni za ty řady aby bránili
+                  vozy jako zdi.
                 </p>
                 <p>
                   Pak mají být postaveny dva oddíly, každý má mít svého hejtmana
@@ -1070,13 +1070,13 @@ const Page = () => {
                   nebo tři, užijte tohoto úskoku: Jděte (k nepříteli) po větru a
                   to proto, že hluk, jekot a kouř z pušek a děl, všechno na ně
                   půjde a tak na ně přijde strach. A také dbej abys měl po jedné
-                  ruce rokle, bažiny nebo uměle vybudvané příkopy. Pokud by se
+                  ruce rokle, bažiny nebo uměle vybudované příkopy. Pokud by se
                   vyhýbali střetu, tak se od nich polož čtvrt nebo půl míle, tak
                   budeš moci rozkazovat a šikovat skrytě, a rozkaž, ať každý u
                   svého vozu udělá co největší oheň. Táhni k nim se šiky a
                   napřed pošli silnou jízdní stráž aby neviděli, jestli na ně
                   táhneš s vozy. A tak i kdyby se stalo, že budou mít přesilu
-                  dvacet ku jedné, neboudou vědět, co mají dělat.
+                  dvacet ku jedné, nebudou vědět, co mají dělat.
                 </p>
               </Col>
             </Row>
