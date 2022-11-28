@@ -1,3 +1,4 @@
+import React from 'react'
 import { Menu } from '../components/Menu/Menu'
 import { Col, Container, Row } from 'reactstrap'
 import Head from 'next/head'
@@ -64,7 +65,7 @@ const Page = () => {
                   Albrechtova armáda <b>15. září 1438</b> odtáhla. Ani druhé
                   straně se však nepodařilo situaci zvrátit a v únoru 1439
                   uzavřeli Albrecht s Kazimírem příměří. Na podzim 1439 vyrazil
-                  Albrech do Uher proti Turkům, na tažení se však nakazil
+                  Albrecht do Uher proti Turkům, na tažení se však nakazil
                   úplavicí a <b>27.&nbsp;října&nbsp;1439</b> zemřel.
                 </p>
               </Col>
@@ -81,7 +82,7 @@ const Page = () => {
                 </Link>
                 <br />
                 Portrét Albrechta II. Habsburského, kopie ze 16. století
-                namalovaná podle obrazu z let 1434 - 1439
+                namalovaný podle obrazu z let 1434 - 1439
               </Col>
             </Row>
             <Row>
@@ -91,34 +92,35 @@ const Page = () => {
                   straně prosadit svého kandidáta na trůn. Proti se však
                   postavila téměř všechna katolická šlechta a města. Ani Poláci
                   se však na uprázdněný trůn příliš nehrnuli. Hynce Ptáček,
-                  který byl zdatný politik, pochopil, že volba prince Kazimra je
-                  politicky neprůchozí a od prosazování jeho kandidatury
+                  který byl zdatný politik, pochopil, že volba prince Kazimíra
+                  je politicky neprůchozí a od prosazování jeho kandidatury
                   upustil. V lednu 1440 během pražského sněmu pak{' '}
                   <b>29. ledna 1440</b> uzavřeli Hynce Ptáček a Oldřich II. z
-                  Rožmberka spolu se členy svých stran dohodu zvanou "
-                  <i>List mierný všech stavů království českého</i>". Tato
+                  Rožmberka spolu se členy svých stran dohodu zvanou &ldquo;
+                  <i>List mierný všech stavů království českého</i>&bdquo;. Tato
                   dohoda zahrnovala dodržování Basilejských Kompaktát, požadavek
                   potvrzení volby Jana Rokycany arcibiskupem, obnovení činnosti
                   zemského soudu, kam obě strany vyslaly své zástupce,
                   zneplatnění Albrechtových zápisů ke škodě české koruny nebo
-                  jeho protivnků a ujednání o smírném řešení budoucích sporů.
+                  jeho protivníků a ujednání o smírném řešení budoucích sporů.
                 </p>
                 <p>
                   Aby mohla být opatření z <i>Listu mierného</i> reálně
                   vymáhána, byl uveden v činnost systém landfrýdů. Landfrýdy
                   byly bezpečnostně-branné spolky šlechty a královských měst,
                   které na určitém území suplovaly ústřední vládu. Zatímco na
-                  Moravě došlo již <b>28. ledna 1440</b> k vyhlášní celozemského
-                  landfrýdu, v Čechách se během roku 1440 konstituovalo 12
-                  krajských landfrýdů. <b>8. března 1440</b> vznikl boleslavský
-                  landfrýd, jehož hejtmany byli zvoleni Jan Smiřický ze Smiřic a
-                  Jiří z Kunštátu a Poděbrad, po Hynce Ptáčkovi a Aleši Holickém
-                  ze Šternberka třetí nejvýše postavený muž Ptáčkovy strany. Na
-                  sněmu v Čáslavi <b>17. března 1440</b> pak došlo k ustavení
-                  dalších čtyř východočeských landfrýdů: Hradeckého,
-                  Chrudimského, Čáslavského a Kouřimského, jehož hejtmanem byl
-                  zvolen sám Hynce Ptáček, který však měl faktickou moc nad
-                  celým svazem východočeských landfrýdů.
+                  Moravě došlo již <b>28. ledna 1440</b> k vyhlášení
+                  celozemského landfrýdu, v Čechách se během roku 1440
+                  konstituovalo 12 krajských landfrýdů. <b>8. března 1440</b>{' '}
+                  vznikl boleslavský landfrýd, jehož hejtmany byli zvoleni Jan
+                  Smiřický ze Smiřic a Jiří z Kunštátu a Poděbrad, po Hynce
+                  Ptáčkovi a Aleši Holickém ze Šternberka třetí nejvýše
+                  postavený muž Ptáčkovy strany. Na sněmu v Čáslavi{' '}
+                  <b>17. března 1440</b> pak došlo k ustavení dalších čtyř
+                  východočeských landfrýdů: Hradeckého, Chrudimského,
+                  Čáslavského a Kouřimského, jehož hejtmanem byl zvolen sám
+                  Hynce Ptáček, který však měl faktickou moc nad celým svazem
+                  východočeských landfrýdů.
                 </p>
                 <p>
                   Landfrýdy původně měly zabezpečit správu země pouze do zemské
@@ -141,33 +143,33 @@ const Page = () => {
                 <p>
                   Dne <b>27. srpna 1444</b> v Ratajích náhle umírá Hynce Ptáček
                   z Pirkštejna, pravděpodobně na mrtvici. Na jeho místo v čele
-                  východočeských landfrýdů je na kutnohorském sněmu v zaří 1444
+                  východočeských landfrýdů je na kutnohorském sněmu v září 1444
                   zvolen Jiří z Poděbrad. Na pelhřimovském sněmu v červnu 1446
                   padla myšlenka na jmenování zemského správce. Na dalším
                   kutnohorském sněmu <b>24. června 1448</b> vznikla z původního
                   svazu východočeských landfrýdů mohutná Poděbradská jednota,
                   jejíž součástí byli i mnozí katoličtí šlechtici. Také zde byl
-                  Jiří zvolen správcem "všech obcí českých příchylných k zákonu
-                  božímu". Aby se však stal skutečným pánem země, musel mít v
-                  moci Prahu. Pod záminkou vpádu do Saska sebral vojsko a náhlým
-                  přepadem obsadil v noci z <b>2. na 3. září 1448</b> Prahu
-                  včetně obou hradů. V reakci na obsazení Prahy se{' '}
-                  <b>8. února 1449</b> ve Strakonicích spojila rožmberská strana
-                  se zbytky Táborského svazu, vznikla Strakonická jednota a
-                  ihned zahájila vojenské akce proti jednotě poděbradské. Válka
-                  se Strakonickou jednotou plynule přešla ve válku proti
-                  Fridrichu II. Saskému a <b>27. října 1451</b> se mohl Jiří z
-                  Poděbrad vrátit do Prahy ověnčen vavříny vítězství. V
-                  listopadu 1451 odešel Oldřich II. z Rožmberka na odpočinek a
-                  tím de facto přestala Strakonická jednota existovat.
-                  Oldřichovi synové a dědici - Jindřich, Jan a Jošt potřebovali
-                  upevnit svou vládu nad rožmberským dominiem a raději uzavřeli
-                  s Jiřím z Poděbrad smír. Tím prakticky přestala existovat
-                  jakákoli opozice proti Poděbradské jednotě a Jiřímu z
-                  Poděbrad. <b>23. dubna 1452</b> se v Praze sešel svatojiřský
-                  zemský sněm, který <b>27. dubna 1452</b> zvolil Jiřího z
-                  Poděbrad zemským správcem na dva roky. Na konci srpna 1452
-                  sebral Jiří armádu o síle asi 17 000 mužů a{' '}
+                  Jiří zvolen správcem &bdquo;všech obcí českých příchylných k
+                  zákonu božímu&ldquo;. Aby se však stal skutečným pánem země,
+                  musel mít v moci Prahu. Pod záminkou vpádu do Saska sebral
+                  vojsko a náhlým přepadem obsadil v noci z{' '}
+                  <b>2. na 3. září 1448</b> Prahu včetně obou hradů. V reakci na
+                  obsazení Prahy se <b>8. února 1449</b> ve Strakonicích spojila
+                  rožmberská strana se zbytky Táborského svazu, vznikla
+                  Strakonická jednota a ihned zahájila vojenské akce proti
+                  jednotě poděbradské. Válka se Strakonickou jednotou plynule
+                  přešla ve válku proti Fridrichu II. Saskému a{' '}
+                  <b>27. října 1451</b> se mohl Jiří z Poděbrad vrátit do Prahy
+                  ověnčen vavříny vítězství. V listopadu 1451 odešel Oldřich II.
+                  z Rožmberka na odpočinek a tím de facto přestala Strakonická
+                  jednota existovat. Oldřichovi synové a dědici - Jindřich, Jan
+                  a Jošt potřebovali upevnit svou vládu nad rožmberským dominiem
+                  a raději uzavřeli s Jiřím z Poděbrad smír. Tím prakticky
+                  přestala existovat jakákoli opozice proti Poděbradské jednotě
+                  a Jiřímu z Poděbrad. <b>23. dubna 1452</b> se v Praze sešel
+                  svatojiřský zemský sněm, který <b>27. dubna 1452</b> zvolil
+                  Jiřího z Poděbrad zemským správcem na dva roky. Na konci srpna
+                  1452 sebral Jiří armádu o síle asi 17 000 mužů a{' '}
                   <b>30. srpna 1452</b> se s ní objevil u Tábora. Tábor se
                   Jiřímu poddal bez boje <b>1. září 1452</b>.{' '}
                   <b>18. září 1452</b> se Jiřímu poddali měšťané z Písku,
@@ -194,10 +196,10 @@ const Page = () => {
                   Jiřího zemským správcem na dalších šest let. V červenci 1453
                   odjel Ladislav Pohrobek do Brna, kde mu vzdaly hold moravské
                   stavy, a začal shánět peníze na okázalou korunovační jízdu do
-                  Čech. Na konci září má již dostatek financí a tak příjíždí{' '}
+                  Čech. Na konci září má již dostatek financí a tak přijíždí{' '}
                   <b>24. října 1453</b> se svým dvorem do Prahy, kde je{' '}
                   <b>28. října 1453</b> slavnostně korunován na českým králem. V
-                  Praze Ladislav zůstavá téměř do konce listopadu 1454, načež se
+                  Praze Ladislav zůstává téměř do konce listopadu 1454, načež se
                   vydává do Vratislavi přijmout hold od slezských stavů. Z
                   Vratislavi pokračuje do Vídně, kam přijíždí{' '}
                   <b>16. února 1455</b>. Po celou dobu je s ním i Jiří z
@@ -207,7 +209,7 @@ const Page = () => {
                   horlivý katolík, však návrat do kališnických Čech odmítá a tak
                   se Jiří vrací v květnu 1455 do Prahy sám. Počátkem července
                   1456 oblehl sultán Mehmed II. Bělehrad. Uherský regent János
-                  Hunyadi <b>22. července 1456</b> size ubránil Bělehrad, ale
+                  Hunyadi <b>22. července 1456</b> sice ubránil Bělehrad, ale
                   již <b>11. srpna 1456</b> umírá na mor, který se v obleženém
                   Bělehradě rozšířil. V září 1456 se proto Ladislav Pohrobek
                   vypravil do Uher čelit turecké expanzi a zároveň získat
@@ -237,13 +239,13 @@ const Page = () => {
               </Col>
               <Col md={6} className="image-wrapper">
                 <Link
-                    href="/images/Ladislas_the_Posthumous_001.jpg"
-                    target="_blank"
+                  href="/images/Ladislas_the_Posthumous_001.jpg"
+                  target="_blank"
                 >
                   <Image
-                      src="/images/Ladislas_the_Posthumous_001.jpg"
-                      width={1056}
-                      height={1466}
+                    src="/images/Ladislas_the_Posthumous_001.jpg"
+                    width={1056}
+                    height={1466}
                   />
                 </Link>
                 <br />
@@ -309,17 +311,17 @@ const Page = () => {
                   vojenskou pomoc v boji s rakouskými stavy a získal od něj
                   uznání své korunovace. Nyní byl čas ukončit spory se Saskem,
                   což Jiří učinil na sjezdu v Chebu, který započal{' '}
-                  <b>7. dubna 1459</b>. V Chebu se sešly přední osbnosti Říše,
+                  <b>7. dubna 1459</b>. V Chebu se sešly přední osobnosti Říše,
                   mimojiné Fridrich Falcký, Ota Bavorský, Fridrich kurfiřt
                   Braniborský, Albrecht Braniborský, magdeburský arcibiskup
-                  Fridrich a mnohá další hrabata a knižata se svými družinami.
+                  Fridrich a mnohá další hrabata a knížata se svými družinami.
                   Nejdůležitějšími osobnostmi sjezdu byli však bratři Fridrich a
                   Vilém Sasští. Král Jiří přijel do Chebu v doprovodu 900 jezdců
                   a 100 vozů, s celou svou rodinou a v kruhu předního českého
                   panstva. Trpělivé jednání nakonec přineslo ovoce. Vilém Saský
                   se vzdal všech nároků na Český trůn a nabídl se, že bude dělat
                   prostředníka mezi Jiřím a Slezany. Oba Sasští vévodové se pak
-                  vzdali nároků na uzemí kolem Duchcova a Mostu a stáhli se za
+                  vzdali nároků na území kolem Duchcova a Mostu a stáhli se za
                   zemskou hranici. Král Jiří se naopak zřekl českých lén v
                   Sasku. Tato hranice mezi Saskem a Čechami je platná dodnes a
                   patří tedy k nejstarším dosud existujícím hranicím Evropy. V
@@ -356,7 +358,7 @@ const Page = () => {
                   účelem dorazilo <b>13. března 1462</b> české poselstvo do
                   Říma. Jiří také chtěl u papeže dosáhnout toho, aby legitimoval
                   kalich a potvrdil Jana Rokycanu v úřadu arcibiskupa. K
-                  veřejnému slyšení českého poselstva před papežen došlo{' '}
+                  veřejnému slyšení českého poselstva před papežem došlo{' '}
                   <b>20. března 1462</b>. Český kancléř Prokop z Rabštejna v
                   úvodu složil papeži přísahu poslušnosti jménem krále Jiřího.
                   Poté se slova chopil Václav Koranda ml. a hájil platnost
@@ -400,10 +402,10 @@ const Page = () => {
                   postupně rozrostly o další katolické pány a města. V březnu
                   1467 potvrdil papež Zdeňka Konopišťského ze Šternberka ve
                   funkci hejtmana Zelenohorské jednoty a zároveň mu dával
-                  požehnátní pro boj s kacíři. Smírné řešení již nebylo možné a
+                  požehnání pro boj s kacíři. Smírné řešení již nebylo možné a
                   tak Jiří <b>19. dubna 1467</b> veřejně vyzval papeže k boji na
                   život a na smrt a odvolal se k budoucímu koncilu proti papeži
-                  Pavlu II. Hned po vydání Apleace vydal Jiří{' '}
+                  Pavlu II. Hned po vydání Apelace vydal Jiří{' '}
                   <b>20. dubna 1467</b> opovědné listy a zahájil proti
                   Zelenohorské jednotě válku. Jednota se dostala do hluboké
                   defenzivy a její naděje se upínaly k uspořádání křížové
@@ -413,9 +415,9 @@ const Page = () => {
                   vedení křížové výpravy. Zejména polský král a mnozí říští
                   vévodové se Jiřího nepokrytě zastávali. Na začátku roku 1468
                   však vtrhl Jiřího syn Viktorin do Rakous, kde poplenil statky
-                  císaře Friricha III. Ten se obrátil na uherského krále Matyáše
-                  Korvína, kterému se zrovna uvolnily ruce v boji s Turky. V
-                  březnu 1468 tak v Trnavě vyhlásil Matyáš Korvín válku
+                  císaře Fridricha III. Ten se obrátil na uherského krále
+                  Matyáše Korvína, kterému se zrovna uvolnily ruce v boji s
+                  Turky. V březnu 1468 tak v Trnavě vyhlásil Matyáš Korvín válku
                   Viktorinovi z Poděbrad a prakticky se tak stal vykonavatelem
                   papežské klatby. Započaly česko-uherské války, které trvaly
                   více než 10 let. Zprvu byl úspěšnější Matyáš Korvín, v průběhu
