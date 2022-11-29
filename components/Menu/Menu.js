@@ -3,6 +3,12 @@ import { Col, Row } from 'reactstrap'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 
+const LINKS = [
+  'https://www.rattenschwanz.cz/',
+  'https://www.facebook.com/PragaJagellonica1471/',
+  'https://slanskarota.cz/',
+]
+
 const Cs = () => (
   <Row>
     <Col md={6}>
@@ -65,14 +71,18 @@ const Cs = () => (
       <p>
         Spolupracujeme i s dalšími spolky, které jsou datačně stejně zaměřené.
         Namátkou jsou to&nbsp;
-        <a href="components/Menu/Menu" target="_blank" rel="noreferrer">
+        <a href={LINKS[0]} target="_blank" rel="noreferrer">
           Rattenschwanz
         </a>
         ,&nbsp;
-        <a rel="noreferrer" href="components/Menu/Menu" target="_blank">
+        <a rel="noreferrer" href={LINKS[1]} target="_blank">
           Praga Jagellonica 1471
         </a>
-        ,&nbsp;<a href="components/Menu/Menu">Slánská rota</a> a další.
+        ,&nbsp;
+        <a href={LINKS[2]} rel="noreferrer" target="_blank">
+          Slánská rota
+        </a>{' '}
+        a další.
       </p>
     </Col>
   </Row>
@@ -118,14 +128,18 @@ const En = () => (
       <p>
         We also cooperate with other societies that are similarly focused in
         terms of dates. Among them are&nbsp;
-        <a href="components/Menu/Menu" target="_blank" rel="noreferrer">
+        <a href={LINKS[0]} target="_blank" rel="noreferrer">
           Rattenschwanz
         </a>
         ,&nbsp;
-        <a rel="noreferrer" href="components/Menu/Menu" target="_blank">
+        <a rel="noreferrer" href={LINKS[1]} target="_blank">
           Praga Jagellonica 1471
         </a>
-        ,&nbsp;<a href="components/Menu/Menu">Slánská rota</a> et al.
+        ,&nbsp;
+        <a href={LINKS[2]} rel="noreferrer" target="_blank">
+          Slánská rota
+        </a>{' '}
+        et al.
       </p>
     </Col>
   </Row>
