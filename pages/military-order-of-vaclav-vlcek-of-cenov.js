@@ -2,6 +2,8 @@ import React from 'react'
 import { Menu } from '../components/Menu'
 import { Col, Container, Row } from 'reactstrap'
 import Head from 'next/head'
+import Image from 'next/image'
+import Link from 'next/link'
 
 const Page = () => {
   return (
@@ -87,6 +89,16 @@ const Page = () => {
                     Kryštof Šámal
                   </b>
                 </p>
+                <Link
+                  href="/images/Hausbuch_Wolfegg_51v_52r1_Heerzug.jpg"
+                  target="_blank"
+                >
+                  <Image
+                    src="/images/Hausbuch_Wolfegg_51v_52r1_Heerzug.jpg"
+                    width={8358}
+                    height={3007}
+                  />
+                </Link>
                 <p>&nbsp;</p>
               </Col>
             </Row>
@@ -796,6 +808,12 @@ const Page = () => {
                   he&apos;ll help you win. And so, God willing, it will happen.
                 </p>
               </Col>
+            </Row>
+            <Row>
+              <Link href="/images/battle_of_orsha.jpg" target="_blank">
+                <Image src="/images/orsha.jpg" width={1397} height={1124} />
+              </Link>
+              <p>&nbsp;</p>
             </Row>
             <Row>
               <Col md={6}>
