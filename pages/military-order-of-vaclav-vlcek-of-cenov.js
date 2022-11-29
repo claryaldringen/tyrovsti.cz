@@ -1,5 +1,5 @@
 import React from 'react'
-import { Menu } from '../components/Menu/Menu'
+import { Menu } from '../components/Menu'
 import { Col, Container, Row } from 'reactstrap'
 import Head from 'next/head'
 
@@ -23,6 +23,64 @@ const Page = () => {
                   Václav Vlček of Čenov&apos;s handbook to king Vladislaus, how
                   to make formations of cavalry, infantry and wagons
                 </h2>
+              </Col>
+            </Row>
+            <Row>
+              <Col>
+                <p>
+                  Václav Vlček of Čenov (1425? - 1501?) was a Bohemian mercenary
+                  - condottiero. He took part in numerous conflicts, like the
+                  clashes between emperor Friedrich III. of Habsburg and his
+                  younger brother, duke Albrecht, and later during the fights
+                  between Jiří z Podebrad and Matthias Corvinus, and he was in
+                  the 1470 named hauptmann of the forces of cities Žatec and
+                  Rakovník in north western Bohemia. In late 70s he owns the
+                  south bohemian castle of Helfenburg, an continues his raids
+                  against the supporters of Corvinus from there. In 1490 he
+                  wrote an extensive piece on military tactics, adressed to the
+                  current king of Bohemia, Vladislaus II. Jagiello. &ldquo;The
+                  learning for king Vladislaus, how to make formations of
+                  cavalry, infantry and wagons&rdquo; features various tactics,
+                  quite often to adress different kinds of enemies - The
+                  Germans, The Swiss, The Hungarians or The Turks.
+                </p>
+                <p>
+                  Here are some notes which you might find useful when reading
+                  the texts: <br />
+                  &ldquo;flag poles&rdquo; - Vlček mentions &ldquo;dříví
+                  praporečné&rdquo; (directly &ldquo;flag wood&rdquo;) on
+                  several occasions. They are not described in much detail, and
+                  from the context it is quite surely some sort of a long spear
+                  (probably somewhere in the range 3-4m). <br />
+                  pavisemen - we simply don&apos;t know if they only had
+                  pavises, or if they wielded another weapon in the other hand
+                  (at least from this source). However, when taking into
+                  consideration other sources (like the letter of Matthias
+                  Corvinus to the jager bishop Gabriel Rangon), it seems they
+                  are not supposed to get to the hand to close combat. <br />
+                  gunners / crossbowmen - for foot soldiers they are usually
+                  mentioned together, with the gunners being the primary or
+                  preferred option horse archers - the texts does not mention
+                  &ldquo;archers&rdquo; specifically, and talks about
+                  &ldquo;shooters&rdquo;, without specifying what are they
+                  shooting and how. With regards to the area and the rest of the
+                  text, it quite likely means some combination of the hungarian
+                  horse archers and mounted crossbowmen used in German areas
+                  including Bohemia.
+                  <br />
+                  halberdiers - the original term here used is
+                  &ldquo;sudličník&rdquo; ( =&ldquo;guy with a sudlice&rdquo;),
+                  which is a polearm of about 2-2,5 m long, similar to voulge,
+                  glaive, halberd and whatnot. I chose to use
+                  &ldquo;halberdier&rdquo;, however, you can also quite likely
+                  use the term &ldquo;voulgier&rdquo; as well.
+                  <br />
+                  Bohemia - when we talk about Bohemia, we mean the whole Lands
+                  of the Bohemian Crown - Bohemia, Moravia, Silesia and Lusatia.
+                </p>
+                <p className="text-right">
+                  <b>Credits for the translation to Kryštof Šámal.</b>
+                </p>
                 <p>&nbsp;</p>
               </Col>
             </Row>
