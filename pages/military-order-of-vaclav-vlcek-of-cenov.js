@@ -79,7 +79,13 @@ const Page = () => {
                   of the Bohemian Crown - Bohemia, Moravia, Silesia and Lusatia.
                 </p>
                 <p className="text-right">
-                  <b>Credits for the translation to Kryštof Šámal.</b>
+                  Credits for the trascription to modern Czech: Martin
+                  &ldquo;Clary Aldringen&rdquo;Zadražil
+                  <br />
+                  <b>
+                    Credits for the translation from modern Czech to English:
+                    Kryštof Šámal
+                  </b>
                 </p>
                 <p>&nbsp;</p>
               </Col>
