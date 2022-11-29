@@ -46,7 +46,7 @@ const Cs = () => (
       <h2>O projektu</h2>
       <p>
         Zabýváme se rekonstrukcí (tzv. reenactment) dvora a družiny&nbsp;
-        <Link href="/jost-z-einsiedle-a-na-tyrove">Jošta z Einsiedle</Link>,
+        <Link href="/jost-z-einsidle-a-na-tyrove">Jošta z Einsiedle</Link>,
         osobního sekretáře krále Jiřího z Poděbrad, datačně přibližně mezi lety
         1450 - 1470.
       </p>
@@ -94,6 +94,11 @@ const En = () => (
       <ul className="menu-list">
         <li>
           <div>
+            <Link href="/historical-background">Historical background</Link>
+          </div>
+        </li>
+        <li>
+          <div>
             <Link href="/military-order-of-vaclav-vlcek-of-cenov">
               Military order of Václav Vlček from Čenov
             </Link>
@@ -106,7 +111,7 @@ const En = () => (
       <p>
         We are engaged in the reconstruction (so-called reenactment) of the
         courtyard and the companion&nbsp;
-        <Link href="/jost-z-einsiedle-a-na-tyrove">Jobst of Einsiedl</Link>,
+        <Link href="/jost-z-einsidle-a-na-tyrove">Jobst of Einsiedl</Link>,
         personal secretary to King George of Poděbrady, dated approximately
         between the years 1450 - 1470.
       </p>
