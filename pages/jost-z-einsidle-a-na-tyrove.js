@@ -1,6 +1,6 @@
 import React from 'react'
 import { Col, Container, Row } from 'reactstrap'
-import { Menu } from '../components/Menu/Menu'
+import { Menu } from '../components/Menu'
 import Head from 'next/head'
 
 const Page = () => (
@@ -85,13 +85,14 @@ const Page = () => (
           </p>
           <p>
             Na základě vildštejnských jednání se město nakonec vykoupilo 1000
-            zlatými výpalného:
+            zlatými výpalného:&nbsp;
             <i>
               „Panu Girzikovi (Jiříkovi) jsme dali 1000 zlatých, které musí být
               dány radou jako výpalné. Pan Petr ze Šternberka obdržel 200 fl. za
               své zprostředkování.”
             </i>
-            Rovněž další zprostředkovatelé nezůstali bez odměny:
+            <br />
+            Rovněž další zprostředkovatelé nezůstali bez odměny:&nbsp;
             <i>
               „Dejte uvedenému 1 kopu 23 grošů pro Hanse z Kotzau a pro Jošta,
               písaře Šternberků, který se podílel na jednání mezi radními a
@@ -215,8 +216,9 @@ const Page = () => (
             Naproti tomu nechybělo městu uznání. Při různých příležitostech
             dávalo svému příteli peněžní dar, jak dokládá chebská kniha výdajů:
             <i>
-              „O vánocích 1458: "Tak jsme tehdy skrze Pavla Ruduschena předali
-              panu Joštovi z Einsiedle XII zlatých, aby ho rada uctila."”
+              „O vánocích 1458: &quot;Tak jsme tehdy skrze Pavla Ruduschena
+              předali panu Joštovi z Einsiedle XII zlatých, aby ho rada
+              uctila.&quot;”
             </i>{' '}
             Rovněž v následujícím roce:
             <i>„Dáváme panu Joštu z Einsiedle X zlatých ...”</i> A když městská
