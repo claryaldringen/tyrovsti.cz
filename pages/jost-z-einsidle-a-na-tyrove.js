@@ -16,24 +16,22 @@ const Page = () => (
           <h2>Životopis</h2>
           <p>
             Jošt se narodil do měšťanské rodiny v městečku Einsiedl, dnešním
-            Mnichově v okrese Cheb pravděpodobně v roce 1420. K městu Cheb je v
+            Mnichově v okrese Cheb, pravděpodobně v roce 1420. K městu Cheb je v
             blízkém vztahu a jeví se nám jako příbuzný vážených chebských rodin
             Schmidelů a Puchelbergerů tím, že nazývá Jorga Schmidela svým
             bratrem a Klementa Puchelbergera svým strýcem, avšak nic bližšího o
-            tomto příbuzenském vztahu nejsem schopen uvést. V blízké klášterní
-            škole v Teplé získal vyšší školní vzdělání a pravděpodobně se zde
-            naučil i česky.
+            tomto příbuzenském vztahu není známo. V blízké klášterní škole v
+            Teplé získal vyšší školní vzdělání a pravděpodobně se zde naučil i
+            česky.
           </p>
           <p>
-            Jelikož měl Jošt z Einsiedle vyšší školní vzdělání, které získal
-            zřejmě v blízké klášterní škole v Teplé, a přitom ovládal i český
-            jazyk, hodil se tím obzvláště za tajemníka a písaře, zejména v době,
-            kdy během neplnoletosti krále Ladislava Pohrobka prováděli čeští
-            velmožové politiku na vlastní pěst. Písaři, kteří rozuměli oběma
+            Díky svému vzdělání se obzvláště hodil za tajemníka a písaře,
+            zejména v době interregna (1439 - 1453), kdy čeští velmožové
+            prováděli politiku na vlastní pěst. Písaři, kteří rozuměli oběma
             zemským jazykům, se doporučovali především těm českým pánům, kteří
             neovládali němčinu, ačkoli ji nemohli při svém častém kontaktu se
-            sousedními německými zeměmi postrádat. Takto např. omlouvá pan Jan z
-            Házmburka svůj dopis městu Cheb sepsaný v českém jazyce tím, že
+            sousedními německými oblastmi postrádat. Takto např. omlouvá pan Jan
+            z Házmburka svůj dopis městu Cheb sepsaný v českém jazyce tím, že
             momentálně nemá svého německého písaře po ruce. V této funkci se
             také Jošt skutečně objevuje ve službách pánů Aleše a Petra Holických
             ze Šternberka, kteří v té době byli majiteli nedalekého Bečova nad
@@ -43,9 +41,9 @@ const Page = () => (
             V únoru 1447 se vévoda Vilém Saský obrátil na Petra Holického ze
             Šternberka, aby pro něj v Čechách naverboval vojsko do Saské
             bratrovražedné války (1446 - 1451). Vojsko se mělo shromáždit u
-            Chebu, přičemž Joštovi byla svěřena administrativní a organizační
-            stránka toho shromažďování, když v dopise ze <b>13. února 1447</b>{' '}
-            vévoda Vilém píše:
+            Chebu, přičemž Joštovi byly svěřeny administrativní a organizační
+            záležitosti, když v dopise ze <b>13. února 1447</b> vévoda Vilém
+            píše:
             <i>
               „Potřebujeme bezpodmínečně asi jednoho sluhu, který umí německy a
               česky, kterému budeme důvěřovat (…), k&nbsp;tomu by se nám asi
@@ -53,33 +51,51 @@ const Page = () => (
             </i>
           </p>
           <p>
-            Jeho další významný výstup spadá do roku 1450, když Jiří z Poděbrad
-            podniknul v čele své strany tažení proti vévodovi Friedrichu
-            Saskému, přičemž bylo dobyto město Gera a na to&nbsp;
-            <b>23. října 1450</b> uzavřeno příměří.
+            Tito čeští žoldnéři již kvůli nastalému příměří nestačili do Saské
+            bratrovražedné války zasáhnout a plynule přešli do služeb kolínského
+            arcibiskupa Dětřicha II. v tzv. Soestském sporu. Protože vrchnim
+            velitelem celého českého sboru byl Petr Holický ze Štrnberka, lze
+            předpokládat, že se Jošt zúčastnil celého soestského tažení jako
+            Petrova pravá ruka.
+          </p>
+          <p>
+            Joštův další významný výstup spadá do roku 1450, když Jiří z
+            Poděbrad podniknul po porážce Strakonické jednoty v bitvě u
+            Mýta&nbsp;<b>4.&nbsp;června&nbsp;1450</b> v čele své strany tažení
+            proti jejím spojencům, zejména vévodovi Friedrichu Saskému, přičemž
+            bylo dobyto město Gera a na to&nbsp;<b>23.&nbsp;října&nbsp;1450</b>{' '}
+            uzavřeno příměří.
           </p>
           <p>
             Jošt z Einsiedle, který se účastnil tohoto tažení v družině pána
             Petra Holického ze Šternberka, napsal&nbsp;
-            <b>25.&nbsp;října&nbsp;1450</b> z polního tábora u Salzu, nedaleko
-            Plavna první, dosud dochovaný, dopis městu Cheb. Cheb byl totiž
-            ohrožován vracejícím se českým vojskem, neboť si to díky přísné
-            neutralitě pokazil u obou stran a jak se z dopisu zdá, ještě nedávno
-            odmítal přijmout poděbradské vojsko, které se nyní obrátilo proti
-            němu. V dopise Jošt měšťany varoval a nabádal je, aby se pokusili o
-            dohodu. Zájmy zemského správce Jiřího z Poděbrad zastupoval Petr ze
-            Šternberka a při jednáních působil v popředí Jošt z Einsidle.
+            <b>25.&nbsp;října&nbsp;1450</b> z polního tábora u Salzy, nedaleko
+            Plavna, první, dosud dochovaný, dopis městu Cheb. Cheb byl totiž
+            ohrožován vracejícím se českým vojskem, neboť v březnu 1450 odmítla
+            chebská rada vpustit do města Jiřího z Poděbrad a jeho straníky na
+            jednání s německými knížaty, které se tak muselo konat ve
+            Wunsiedelu. V dopise Jošt měšťany varoval a nabádal je, aby se
+            pokusili o dohodu. Zprostředkování se ujali Aleš a Petr Holičtí ze
+            Šternberka, kteří se svým sekretářem Joštem z Einsidle zajistili
+            chebským poslům bezpečný glejt. Jednání se konalo na hradě Skalné
+            (Vildštejně). Cestou na schůzku však byli chebští diplomaté, nesoucí
+            mj. dary pro Jiřího z Poděbrad, přepadeni a oloupeni. S nimi byl
+            přepaden rovněž Jošt z Einsidle, který si zachránil život slibem, že
+            pachatele neprozradí.
+          </p>
+          <p>
+            Na základě vildštejnských jednání se město nakonec vykoupilo 1000
+            zlatými výpalného:
+            <i>
+              „Panu Girzikovi (Jiříkovi) jsme dali 1000 zlatých, které musí být
+              dány radou jako výpalné. Pan Petr ze Šternberka obdržel 200 fl. za
+              své zprostředkování.”
+            </i>
+            Rovněž další zprostředkovatelé nezůstali bez odměny:
             <i>
               „Dejte uvedenému 1 kopu 23 grošů pro Hanse z Kotzau a pro Jošta,
               písaře Šternberků, který se podílel na jednání mezi radními a
               Čechy.”
-            </i>{' '}
-            Město vyslalo k vojsku poselstvo se slušnými dary pro Jiřího z
-            Poděbrad a vykoupilo se 1000 zlatými výpalného:
-            <i>
-              „Panu Girzikovi jsme dali 1000 zlatých, které musí být dány radě
-              jako výpalné. Pan Petr ze Šternberka obdržel 200 fl. za své
-              zprostředkování.”
             </i>
           </p>
           <p>
@@ -370,6 +386,10 @@ const Page = () => (
                 und Heeresorganisation im 15. Jahrhundert
               </i>
               , Paderborn 2004
+            </li>
+            <li>
+              <i>Jiří Jánský: Kronika česko-bavorské hranice III</i>, Domažlice
+              2003
             </li>
           </ul>
         </Col>
