@@ -2,6 +2,8 @@ import React from 'react'
 import { Menu } from '../components/Menu'
 import { Col, Container, Row } from 'reactstrap'
 import Head from 'next/head'
+import Link from 'next/link'
+import Image from 'next/image'
 
 const Page = () => {
   return (
@@ -22,7 +24,16 @@ const Page = () => {
             </Row>
             <Row>
               <Col>
-                <h3>Řád vozový rytířů Německých ze dne 19. dubna 1433</h3>
+                <p>&nbsp;</p>
+                <Link href="/images/husite.jpg" target="_blank">
+                  <Image src="/images/husite.jpg" width={1994} height={1458} />
+                </Link>
+                <p>&nbsp;</p>
+              </Col>
+            </Row>
+            <Row>
+              <Col>
+                <h4>Řád vozový rytířů Německých ze dne 19. dubna 1433</h4>
                 <p>
                   Poznámky k překladu: Termín <i>&bdquo;fuhrweyn&ldquo;</i> jsem
                   po úvaze přeložil jako <i>&bdquo;válečný vůz&ldquo;</i>. Podle
