@@ -33,6 +33,76 @@ const Page = () => {
             </Row>
             <Row>
               <Col>
+                <h4>Usnesení norimberské ze dne 23. dubna 1428</h4>
+                <p>Přeložila PhDr. Zdeňka Kopková.</p>
+              </Col>
+            </Row>
+            <Row>
+              <Col md={6}>
+                <ol>
+                  <li>Item einen streitwagen zu bestellen.</li>
+                  <li>Item in den städten 10 mann zu einem wagen.</li>
+                  <li>Item auf den dörfern 20 mann zu einem wagen.</li>
+                  <li>
+                    Item zu iglichem wagen zween büchsenschützen mit pulver und
+                    bleis genug.
+                  </li>
+                  <li>
+                    Item zween schützen mit armbrust, iglicher schütz 2 schock
+                    pfeil.
+                  </li>
+                  <li>Item 2 mann mit drischeln.</li>
+                  <li>
+                    Item 2 mann mit spiessen, die hinden an der tülle ein eisen
+                    schneidende haken haben.
+                  </li>
+                  <li>Item 2 mann mit stabschleudern.</li>
+                  <li>Item vier starker pferde zu einem wagen.</li>
+                  <li>Item 2 stark fuhrmann, die ihre wehre haben.</li>
+                  <li>Item ein kurb uf den wagen, da man stein einlist.</li>
+                  <li>
+                    Item 1 eisene schaufeln, 1 hauen, 1 mulden, 1 axt, 1 stein-
+                    pickel.
+                  </li>
+                  <li>
+                    Item ein wagenketten, die als lang sei, als sunst ander drei
+                    sind.
+                  </li>
+                </ol>
+              </Col>
+              <Col md={6}>
+                <ol>
+                  <li>Vybavit válečný vůz.</li>
+                  <li>Ve městech 10 mužů k jednomu vozu.</li>
+                  <li>Na vesnicích 20 mužů k jednomu vozu.</li>
+                  <li>
+                    Ke každému vozu dva střelce z ručnic s dostatečným množstvím
+                    prachu a olova.
+                  </li>
+                  <li>Dva střelce z kuší, každý střelec 2 kopy šipek.</li>
+                  <li>Dva muži s cepy.</li>
+                  <li>
+                    Dva muži s kopími, která mají vzadu na tuleji želený řezný
+                    hák.
+                  </li>
+                  <li>Dva muži s praky na dřevěné násadě.</li>
+                  <li>Čtyři silné koně ke každému vozu.</li>
+                  <li>Dva silné vozataje, kteří mají své zbraně.</li>
+                  <li>Jeden koš na jeden vůz, aby se naložil kámen.</li>
+                  <li>
+                    Jedna železná lopata, 1 motyka, 1 díže, 1 sekyra, 1 krumpáč
+                    na kamení.
+                  </li>
+                  <li>
+                    Jeden vozový řetěz, který ať je tak dlouhý, jako jinak tři
+                    ostatní.
+                  </li>
+                </ol>
+              </Col>
+            </Row>
+
+            <Row>
+              <Col>
                 <h4>Řád vozový rytířů Německých ze dne 19. dubna 1433</h4>
                 <p>
                   Poznámky k překladu: Termín <i>&bdquo;fuhrweyn&ldquo;</i> jsem
@@ -116,12 +186,66 @@ const Page = () => {
                     dostačovala na šířku jedné pídě od země.
                   </li>
                   <li>
-                    Každý hejtman má nařídit svými lidem a poddaným, aby byl
+                    Každý hejtman musí nařídit svými lidem a poddaným, aby byl
                     každý takový válečný vůz vybaven dvěma nebo třemi vozy s
                     proviantem nebo vojenským materiálem a aby lidé společně
                     zapřahali a k tomu použili čtyři dobré koně.
                   </li>
                 </ol>
+              </Col>
+            </Row>
+            <Row>
+              <Col>
+                <h4>Vozový řád frankfurtský z roku 1444</h4>
+                <p>Přeložila PhDr. Zdeňka Kopková.</p>
+              </Col>
+            </Row>
+            <Row>
+              <Col md={6}>
+                <p>
+                  Ouch haben wir fürgenommen und lüte bestallt mit der
+                  wagenburge dem volk zu widerstehn, und sollen tusent wagen,
+                  iglicher mit zwein starken knechten, die wohl gefahren können,
+                  und vier starken wagen- hengsten, wohl gemähnet und gestallt,
+                  mit leitern, zäunen, starken lüssen [leisten], halb mit leinem
+                  tuch gedeckt, und unden zwischen den zwein achsen an der
+                  langwide ein stark brett an ketten hangen, gestalt, dass man
+                  das anhenken und abthun möge, wann man will; und sollen je
+                  zween wagen ein ketten haben, die acht ellen lang sei, mit
+                  einem ring und einem hacken, dass man die an und abthün möge,
+                  wann man will; und sollen zu iglichen wagen zwo handbüchsen,
+                  und zu iglicher handbüchsen zum minsten sechzig bleiklötz, und
+                  zu zwein wagen ein kammerbüchs und darzu zum minsten dreissig
+                  stein, als gross als ein haupt ist, und zu iglichem wagen
+                  zween flegel, die beslagen und mit ketten angehenkt sind, zwoo
+                  gleen [gleven] und hacken daran, drei setztartschen von borten
+                  mit stecken hinden daran, ein schufel, ein haue und ein bickel
+                  gehören, und darumb so wollent uwer wagen also zustellen, und
+                  auch stein, pulver, blei und pfeil, so ihr meiste mögent mit
+                  uch bringen. <br />
+                  Dat. ut supra.
+                </p>
+              </Col>
+              <Col md={6}>
+                <p>
+                  Také máme přijatou objednávku s vozovou hradbou, aby čelila
+                  lidem, a musí být postaveno tisíc vozů, každý s dvěma silnými
+                  pacholky, které mohou jet, a čtyřmi silnými tažnými hřebci, s
+                  žebřinami, bedněním, zesílenými líšněmi (vzpěry u vozu), z
+                  poloviny zakrytý lněným plátnem a dole mezi dvěma osami na
+                  podélné straně je třeba pověsit silnou desku na řetězy tak,
+                  aby se dala zavěsit a sundat, kdykoli člověk chce; a vždy dva
+                  vozy musí mít jeden řetěz, který je dlouhý dva lokte, s jedním
+                  kruhem a jedním hákem, které lze nasadit a sundat, kdykoli
+                  člověk chce; a ke každému vozu musí patřit dvě ručnice a ke
+                  každé ručnici nejméně šedesát olověných kulí a ke dvěma vozům
+                  jedna komorová puška (rychlice) a k tomu nejméně třicet kamenů
+                  velkých jako hlava, a ke každému vozu dva cepy, které jsou
+                  okované a ověšené řetězy, dvě glévy (kopí) a na nich háky, tři
+                  pavézy s řemeny a holemi vzadu, jedna lopata, jedna motyka,
+                  jeden krumpáč; tak tedy chcete svůj vůz vybavit také kameny,
+                  prachem, olovem a šipkami, to většinou chcete s sebou přinést.
+                </p>
               </Col>
             </Row>
             <Row>
