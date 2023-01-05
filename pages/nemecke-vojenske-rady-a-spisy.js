@@ -109,6 +109,15 @@ const Page = () => {
                   po úvaze přeložil jako <i>&bdquo;válečný vůz&ldquo;</i>. Podle
                   popisu se jedná o bytelný vůz, o něco větší než ostatní.
                   <br />
+                  Termín <i>&bdquo;lotbuchse&ldquo;</i> jsem zatím nalezl vždy
+                  jen v souvislostí s Řádem Německých rytířů. Mělo by se jednat
+                  o palnou zbraň, střílící olověnými kulemi bez další
+                  specifikace. Míchají se tak dohromady <i>lotbuschen</i>, které
+                  jsou ručními zbraněmi i <i>lotbuchsen</i>, které jsou
+                  lafetované. Zde jsem nakonec zvolil český ekvivalent{' '}
+                  <i>tarasnice</i>, čili malé lafetované dělo, ale klidně se
+                  může jednat i o hákovnice.
+                  <br />
                   Termín <i>&bdquo;warpen&ldquo;</i> je pravděpodobně
                   zkráceninou <i>&bdquo;warpenweyn&ldquo;</i>, což je v pruské
                   němčině vůz pro přepravu vojenského materiálu.
@@ -197,7 +206,9 @@ const Page = () => {
             <Row>
               <Col>
                 <h4>Vozový řád frankfurtský z roku 1444</h4>
-                <p>Přeložila PhDr. Zdeňka Kopková.</p>
+                <p>
+                  Přeložila PhDr. Zdeňka Kopková, korekce provedl Daniel Burger.
+                </p>
               </Col>
             </Row>
             <Row>
@@ -228,23 +239,24 @@ const Page = () => {
               </Col>
               <Col md={6}>
                 <p>
-                  Také máme přijatou objednávku s vozovou hradbou, aby čelila
-                  lidem, a musí být postaveno tisíc vozů, každý s dvěma silnými
-                  pacholky, které mohou jet, a čtyřmi silnými tažnými hřebci, s
-                  žebřinami, bedněním, zesílenými líšněmi (vzpěry u vozu), z
-                  poloviny zakrytý lněným plátnem a dole mezi dvěma osami na
-                  podélné straně je třeba pověsit silnou desku na řetězy tak,
-                  aby se dala zavěsit a sundat, kdykoli člověk chce; a vždy dva
-                  vozy musí mít jeden řetěz, který je dlouhý dva lokte, s jedním
-                  kruhem a jedním hákem, které lze nasadit a sundat, kdykoli
-                  člověk chce; a ke každému vozu musí patřit dvě ručnice a ke
-                  každé ručnici nejméně šedesát olověných kulí a ke dvěma vozům
-                  jedna komorová puška (rychlice) a k tomu nejméně třicet kamenů
-                  velkých jako hlava, a ke každému vozu dva cepy, které jsou
-                  okované a ověšené řetězy, dvě glévy (kopí) a na nich háky, tři
-                  pavézy s řemeny a holemi vzadu, jedna lopata, jedna motyka,
-                  jeden krumpáč; tak tedy chcete svůj vůz vybavit také kameny,
-                  prachem, olovem a šipkami, to většinou chcete s sebou přinést.
+                  A máme sjednány a postaveny do služby muže k vozové hradbě,
+                  aby čelila lidem, a musí být postaveno tisíc vozů, každý s
+                  dvěma silnými pacholky, které mohou jet, a čtyřmi silnými
+                  tažnými hřebci, s žebřinami, bedněním, zesílenými líšněmi
+                  (vzpěry u vozu), z poloviny zakrytý lněným plátnem a dole mezi
+                  dvěma osami na podélné straně je třeba pověsit silnou desku na
+                  řetězy tak, aby se dala zavěsit a sundat, kdykoli člověk chce;
+                  a vždy dva vozy musí mít jeden řetěz, který je dlouhý dva
+                  lokte, s jedním kruhem a jedním hákem, které lze nasadit a
+                  sundat, kdykoli člověk chce; a ke každému vozu musí patřit dvě
+                  ručnice a ke každé ručnici nejméně šedesát olověných kulí a ke
+                  dvěma vozům jedna komorová puška (rychlice) a k tomu nejméně
+                  třicet kamenů velkých jako hlava, a ke každému vozu dva cepy,
+                  které jsou okované a ověšené řetězy, dvě glévy (kopí) a na
+                  nich háky, tři pavézy s řemeny a holemi vzadu, jedna lopata,
+                  jedna motyka, jeden krumpáč; tak tedy chcete svůj vůz vybavit
+                  také kameny, prachem, olovem a šipkami, to většinou chcete s
+                  sebou přinést.
                 </p>
               </Col>
             </Row>
