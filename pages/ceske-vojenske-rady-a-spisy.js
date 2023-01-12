@@ -10,8 +10,7 @@ const Page = () => {
     <>
       <Head>
         <title>
-          Jošt z Einsiedle a na Týřově - Václava Vlčka z Čenova naučení ku králi
-          Vladislavovi, kterak se mají šikovati jízdní, pěší i vozy
+          Jošt z Einsiedle a na Týřově - České vojenské řády a spisy
         </title>
       </Head>
       <Menu />
