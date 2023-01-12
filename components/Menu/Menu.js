@@ -35,8 +35,15 @@ const Cs = () => (
         </li>
         <li>
           <div>
-            <Link href="/vaclav-vlcek-o-sikovani-vojska">
-              O šikování vojska
+            <Link href="/ceske-vojenske-rady-a-spisy">
+              České vojenské řády a spisy
+            </Link>
+          </div>
+        </li>
+        <li>
+          <div>
+            <Link href="/nemecke-vojenske-rady-a-spisy">
+              Německé vojenské řády a spisy
             </Link>
           </div>
         </li>
