@@ -4,6 +4,7 @@ import { Col, Container, Row } from 'reactstrap'
 import Head from 'next/head'
 import { KtozJsuBoziBojovnici } from '../components/Articles/KtozJsuBoziBojovnici'
 import { NauceniKuKraliVladislavovi } from '../components/Articles/NauceniKuKraliVladislavovi'
+import { SnemovniZapisOHotovostiVerejne } from '../components/Articles/SnemovniZapisOHotovostiVerejne'
 
 const Page = () => {
   return (
@@ -18,6 +19,7 @@ const Page = () => {
         <Row>
           <Col className="text">
             <KtozJsuBoziBojovnici />
+            <SnemovniZapisOHotovostiVerejne />
             <NauceniKuKraliVladislavovi />
             <Row>
               <Col>
