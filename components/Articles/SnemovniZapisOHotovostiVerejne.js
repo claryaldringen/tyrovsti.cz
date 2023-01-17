@@ -3,7 +3,7 @@ import React from 'react'
 
 export const SnemovniZapisOHotovostiVerejne = () => (
   <>
-    <Row id="ktoz-jsu-bozi-bojovnici">
+    <Row id="snemovni-zapis-o-hotovosti">
       <Col>
         <h4>
           Sněmovní zápis o hotovosti veřejné v krajích ze dne 14. března 1470

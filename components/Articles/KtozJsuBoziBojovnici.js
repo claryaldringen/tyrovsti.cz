@@ -8,7 +8,10 @@ export const KtozJsuBoziBojovnici = () => (
     <Row id="ktoz-jsu-bozi-bojovnici">
       <Col>
         <h4>Ktož jsú boží bojovníci</h4>
-        <p>Přepis z Jistebnického kancionálu pořídil Ing. Roman Vaverka.</p>
+        <p>
+          Přepis z Jistebnického kancionálu pořídil Ing. Roman Vaverka,
+          korekturu provedla Mgr. Markéta Poskočilová
+        </p>
         <div>
           <Link href="/images/ktozjsubozibojovnici.jpg" target="_blank">
             <Image
@@ -53,7 +56,7 @@ export const KtozJsuBoziBojovnici = () => (
           <br />
           a uffayte w nyeho
           <br />
-          ze konecnye wzdicki s nim swytьezite
+          ze konecnye wzdicki s nim swytiezite
         </p>
         <p>
           Kristus wam za skodi stoji
@@ -64,7 +67,7 @@ export const KtozJsuBoziBojovnici = () => (
           <br />
           wieczny źywot mieti bude
           <br />
-          blaze kazdemu ktoz na prawdye se(?)de
+          blaze kazdemu ktoz na prawdye sende
         </p>
         <p>
           Tent pan welit sse nebaty
@@ -89,7 +92,7 @@ export const KtozJsuBoziBojovnici = () => (
         <p>
           Neprzatel se nelekayte
           <br />
-          na mnozstwie nehledьe
+          na mnozstwie nehledie
           <br />
           pana sweho w srdci mieyte
           <br />
