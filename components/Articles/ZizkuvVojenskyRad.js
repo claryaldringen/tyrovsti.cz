@@ -14,14 +14,14 @@ export const ZizkuvVojenskyRad = () => (
           </Link>
         </p>
         <p>
-          Takzvaný Žižkův vojenský řád, který se dochoval v krasopisném, leč
-          velmi pozdním opisu, není bohužel datován. Ani jeho tradiční označení
-          není úplně přesné. Ve skutečnosti jde o ustavující zápis, programové
-          prohlášení a kázeňský řád Žižkova východočeského svazu, hlavně jeho
-          vojenské složky. Pravděpodobně vznikl v první polovině září 1423 i
-          když nelze zcela vyloučit jeho vznik v průběhu první poloviny
-          listopadu 1423. Začíná čtyřmi pražskými artikuly, pokračuje výčtem
-          signatářů a poté již následují organizační opatření, zejména
+          Takzvaný Žižkův vojenský řád, který se dochoval v krasopisném opisu z
+          2. poloviny 16. století, není bohužel datován. Ani jeho tradiční
+          označení není úplně přesné. Ve skutečnosti jde o ustavující zápis,
+          programové prohlášení a kázeňský řád Žižkova východočeského svazu,
+          hlavně jeho vojenské složky. Pravděpodobně vznikl v první polovině
+          září 1423 i když nelze zcela vyloučit jeho vznik v průběhu první
+          poloviny listopadu 1423. Začíná čtyřmi pražskými artikuly, pokračuje
+          výčtem signatářů a poté již následují organizační opatření, zejména
           kázeňského charakteru.
         </p>
         <p>&nbsp;</p>
