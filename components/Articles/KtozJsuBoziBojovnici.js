@@ -14,11 +14,13 @@ export const KtozJsuBoziBojovnici = () => (
         </p>
         <div>
           <Link href="/images/ktozjsubozibojovnici.jpg" target="_blank">
-            <Image
-              src="/images/ktozjsubozibojovnici-small.jpg"
-              width={1000}
-              height={734}
-            />
+            <a>
+              <Image
+                src="/images/ktozjsubozibojovnici-small.jpg"
+                width={1000}
+                height={734}
+              />
+            </a>
           </Link>
         </div>
         <p>

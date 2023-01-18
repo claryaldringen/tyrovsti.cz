@@ -25,22 +25,22 @@ const Page = () => {
               <Col>
                 <p>
                   Mezi středověké písemnosti, jež nám dávají nahlédnout do
-                  poměrů dobového válečnictví patří tzv. <i>vojenské řády</i>
-                  .&nbsp;Byly sepisovány zejména před konkrétním tažením a
-                  původně se v nich řešily zejména kázeňské a organizační
+                  poměrů dobového válečnictví, patří tzv. <i>vojenské řády</i>
+                  .&nbsp;Byly obvykle sepisovány před nejakým konkrétním tažením
+                  a původně se v nich řešily zejména kázeňské a organizační
                   záležitosti. Z doby před 15. stoletím se jich zachovalo
                   poměrně málo. Mezi nejznámější patří{' '}
                   <i>Řád vojenský Fridricha I. Barbarossy</i> z roku 1158.
                   Nejstarším vojenským řádem Švýcarů je pak tzv.{' '}
                   <i>Sempacherbrief</i>, jež byl sepsán v Curychu roku 1393.
-                  Tyto dva řády se staly základem a vzorem pro většinu pzdějších
-                  písemností podobného charakteru v německých oblastech. Pokud
-                  pomineme spornou dataci tzv. <i>Hodětínova řádu</i> (různými
-                  badateli je kladen mezi roky 1413 - 1431), pak první pokus o
-                  zavedení plnohodnotného vojenského řádu učinil Jan Hvězda z
-                  Vícemilic v říjnu 1421 v Praze. Ten řád se však nedochoval a
-                  zachycujeme jej pouze ve zmínce v Husitské kronice Vavřince z
-                  Březové:{' '}
+                  Tyto dva řády se staly základem a vzorem pro většinu
+                  pozdějších písemností tohoto charakteru v německých oblastech.
+                  Pokud pomineme spornou dataci tzv. <i>Hodětínova řádu</i>{' '}
+                  (různými badateli je kladen mezi roky 1413 až 1431), pak první
+                  pokus o zavedení plnohodnotného vojenského řádu učinil Jan
+                  Hvězda z Vícemilic v říjnu 1421 v Praze. Tento řád se však
+                  nedochoval a zachycujeme jej pouze ve zmínce v Husitské
+                  kronice Vavřince z Březové:{' '}
                   <i>
                     aby při výpravách vojenských nikdo bez vůle hejtmanů z
                     vojska se nevracel, aniž z boje, kdyby k němu přišlo, pod
@@ -59,6 +59,10 @@ const Page = () => {
                   </i>
                   , z německých řádů pak stojí za pozornost písemnosti Albrechta
                   III. Achilla.
+                </p>
+                <p>
+                  Zde jsem se pokusil předložit všechny české spisy a zápisy z
+                  15. století, týkající se soudobého vojenství.
                 </p>
               </Col>
             </Row>
