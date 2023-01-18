@@ -5,6 +5,8 @@ import Head from 'next/head'
 import { KtozJsuBoziBojovnici } from '../components/Articles/KtozJsuBoziBojovnici'
 import { NauceniKuKraliVladislavovi } from '../components/Articles/NauceniKuKraliVladislavovi'
 import { SnemovniZapisOHotovostiVerejne } from '../components/Articles/SnemovniZapisOHotovostiVerejne'
+import { HodetinuvRad } from '../components/Articles/HodetinuvRad'
+import { ZizkuvVojenskyRad } from '../components/Articles/ZizkuvVojenskyRad'
 
 const Page = () => {
   return (
@@ -18,7 +20,10 @@ const Page = () => {
       <Container>
         <Row>
           <Col className="text">
+            <h1>České vojenské řády a spisy</h1>
             <KtozJsuBoziBojovnici />
+            <ZizkuvVojenskyRad />
+            <HodetinuvRad />
             <SnemovniZapisOHotovostiVerejne />
             <NauceniKuKraliVladislavovi />
             <Row>
@@ -29,6 +34,11 @@ const Page = () => {
                     Hugo Toman:{' '}
                     <i>Husitské válečnictví za doby Žižkovy a Prokopovy</i>,
                     Praha 1898
+                  </li>
+                  <li>
+                    Petr Čornej:{' '}
+                    <i>Jan Žižka: Život a doba husitského válečníka</i>, Praha
+                    2019
                   </li>
                 </ul>
               </Col>
