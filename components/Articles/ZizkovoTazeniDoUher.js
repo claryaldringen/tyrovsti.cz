@@ -5,9 +5,42 @@ export const ZizkovoTazeniDoUher = () => (
   <>
     <Row id="jana-hajka-z-hodetina-rad-vojensky">
       <Col>
-        <h4>Žižkovo (fiktivní) vojenské tažení do Uher l. 1423</h4>
-        <p>...</p>
-        <p>....</p>
+        <h4>Žižkovo vojenské tažení do Uher l. 1423</h4>
+        <p>
+          Vyprávění o Žižkově tažení do Uher je obsaženo v rukopisu M{' '}
+          <i>Starých letopisů českých</i>. Tato pasáž se z charakteru Starých
+          letpisů vymyká a tvoří uzavřený a svým způsobem samostatný celek,
+          teprve dodatečně zařazený do kronikářského souboru, kde je však
+          začleněn mezi dobytí Německého Brodu v lednu 1422 a popravu Jana
+          Želivského v březnu 1422. František Palacký, který připravoval svou
+          edici Starých letopisů, správně usoudil, že takové datování je
+          nesmyslné, neboť Žižka se tehdy prokazatelně připomíná v Čechách, a
+          přesunul je na místo, které se mu zdálo logické, a to do podzimu 1423,
+          aniž upozornil na důvody svého přesunu, což však v době vrcholícího
+          romantismu nebylo nic neobvyklého.
+        </p>
+        <p>
+          Text M je nejmladším rukopisem Starých letopisů a byl pořízen až roku
+          1619 rukou kutnohorského měšťana Martina Brazidina (spíše Brázdy či
+          Brazidýma) a jeho druha, jehož jméno neznáme. Oba kronikářské texty
+          doplnili o opisy několika důležitých dokumentů. I když je podání o
+          Žižkově jízdě do Uher zaznamenáno převážně jazykem počátku 17.
+          století, prozrazuje na řadě míst starší původ, ukazující na sklonek
+          15. věku. To byl i důvod, proč Palacký celou pasáž, ve shodě s
+          tehdejší ediční praxí, usilující o rekonstrukci původního znění textu,
+          důsledně archaizoval, takže v jeho publikaci vyhlíží jako nesporná
+          památka z 15. století.
+        </p>
+        <p>
+          Historičnost zmíněné Žižkovy výpravy do Uher však nepotvrzují žádné
+          další prameny - české, maďarské, polské ani německé. Rovněž obsahově a
+          stylisticky je jasné, že se nejedná o kronikářský záznam, ale o tzv.
+          vojenské naučení, které poskytuje vzorové taktické ukázky v
+          rozmanitých situacích, spojené navíc s biblickou paralelou: Šest dní
+          Žižka tvrdě pracuje a odráží protivníky a sedmý den na moravském území
+          zaslouženě relaxuje. Vznik tohoto popisu je moderními historiky kladen
+          až za rok 1484.
+        </p>
         <p>&nbsp;</p>
       </Col>
     </Row>
