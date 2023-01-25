@@ -3,7 +3,7 @@ import React from 'react'
 
 export const ZizkovoTazeniDoUher = () => (
   <>
-    <Row id="jana-hajka-z-hodetina-rad-vojensky">
+    <Row id="zizkovo-tazeni-do-uher">
       <Col>
         <h4>Žižkovo vojenské tažení do Uher l. 1423</h4>
         <p>
@@ -55,9 +55,9 @@ export const ZizkovoTazeniDoUher = () => (
           ubezpečil i z řádu některak povystúpil, zdaby jej tak kde poraziti
           mohli. Neb sú se naň velmi silně jezdecky sebrali, a sebravše se naň
           sú táhli, i množstvie děl měli. A on porozuměv tomu, že dobře nenie,
-          obrátiv sobě k Moravské zemi zase vozy, i takto je zpravil najprvé
+          obrátiv sobě k Moravské zemi zase vozy, i takto je zpravil: najprvé
           sobě lidi u voziech zpravil, jiezdné i pěší, a táhl jest s zavřenými
-          vozy. A takto sobě krajní vozy zpra- vil: proti každým vozuom se dvěma
+          vozy. A takto sobě krajní vozy zpravil: proti každým vozuom se dvěma
           pavézama, a za ty pavézy po dvú neb po třech střelcích; a to z té
           příčiny udělal, jest-li žeby mu na tažení chtěli do vozuov skočiti,
           aby toho ti bránili. Neb ten den těžké mu taženie před nimi přišlo;
@@ -76,7 +76,7 @@ export const ZizkovoTazeniDoUher = () => (
           vrších ostati. A tak ten den bezpečně tu ležal i tu noc. Opět potom
           třetí den od toho jezera táhl jest k jedné vodě, kteráž teče k
           Narhedu, i položil se u té vody; i tu jest se velmi bál poraženie, aby
-          přepustíc mu něco lidí přes tu vodu, (do zadních Vozuov jemu
+          přepustíc mu něco lidí přes tu vodu, (do zadních vozuov jemu
           nevskočili. A protož) celú noc vkopával krajní vozy od jednoho břehu
           až k druhému; a z druhé strany vody přepravil sobě pícní vozy, i též
           je vkopával tak, aby na ně úprkem jiezdní nemohli. A všecky břehy
@@ -90,8 +90,8 @@ export const ZizkovoTazeniDoUher = () => (
           mezi zákutí; a to z té příčiny, aby k němu z děl biti nemohli. I tu
           jest přes noc zuostal. Čtvrtý den táhl jest k jezeruom jedněm, a
           neboli k stavuom, kdež jsú za Trnavú. A tu sobě zpravoval vozy,
-          vybieraje z placních řaduov, a to z té příčiny, kdež mu v krajních vo-
-          zích v řadích mnoho koní i vozuov polámali i pobili. A tehdáž ho
+          vybieraje z placních řaduov, a to z té příčiny, kdež mu v krajních
+          vozích v řadích mnoho koní i vozuov polámali i pobili. A tehdáž ho
           ponechali. A on položiv se u těch stavuov, zpraviv sobě ty všecky
           věci, v pátý den táhl jest k jedné stráni. Tu sú naň opět přitáhli
           jezdecky i s děly. A on jest táhl podlé té stráně, že měl jednú stranú
@@ -105,7 +105,7 @@ export const ZizkovoTazeniDoUher = () => (
           šturmovali, neb se s ním bili, že je vždycky porazil, aneb od něho
           velmi biti byli. Neb jináč se strojí jezdecky k bitvě a jináč pěšky,
           že jim to jest neobyčejná věc; neb kdež se mají čemu učiti, zvyknú,
-          žeby musil k tomu býti neb nějaká chvíle. než tomu nějaký čas.
+          žeby musil k tomu nějaký čas býti neb nějaká chvíle.
         </p>
         <p>
           Šesté taženie Žižkovo, když se hnul od té stráně, kdež se jemu dostalo
@@ -127,7 +127,7 @@ export const ZizkovoTazeniDoUher = () => (
           a vybil; jakož se jest pak stalo tak. I takto s oné strany lesuov vozy
           sobě zpravili: udělal sobě z těch čtyř řaduov, v kterýchž táhl, dva; a
           pojav sobě pícovní vozy, i protrhl sobě vozy, i udělal sobě z nich
-          řady čtyřmi jakožto zed, aneb jakožto baštu od jednoho konce lesu až k
+          řady čtyřmi jakožto zeď, aneb jakožto baštu od jednoho konce lesu až k
           druhému. A kázal je húžvemi svírati v hromadu, aby mu jich roztrhnúti
           aneb převraceli tak snadně nemohli. A to udělal proto, jest-li žeby
           chtěli jemu do vozuov skočiti, aneb děla z zadu pobrati, aby oni tu se
@@ -140,8 +140,8 @@ export const ZizkovoTazeniDoUher = () => (
           mezi ně pěší dával, pokudž ta potřeba kázala. A to z té příčiny,
           jest-li žeby mu chtěli na lesích vozataje zbíti, aneb vozy také
           vybrati, aby ti pěší, kteří jdú mezi vozy, toho bránili. Tehdy kdy
-          poslední vozy púštěl na zad, tehdy obořili se Uhři, chtiec mu děla po-
-          brati. Tehdy oni s toho vršku utáhli za ty pícovní vozy, kdež jest
+          poslední vozy púštěl na zad, tehdy obořili se Uhři, chtiec mu děla
+          pobrati. Tehdy oni s toho vršku utáhli za ty pícovní vozy, kdež jest
           sobě z nich řady zdělal; tu se v těch vozích zavřeli, a pěší se z nich
           bránili, tak až oni s děly do lesa ujeli, i pěší potom za nimi táhli.
           A tak se Uhruov nic nebáli; než sú se oni do těch vozuov dobyli, až
@@ -152,8 +152,8 @@ export const ZizkovoTazeniDoUher = () => (
           nám ničímž užiti nedá. I takto se jest z lesa vypravoval ven, kdež sú
           byla nějaká pole mezi nějakými stráněmi: když přitáhl k těm cestám,
           kdež sobě nové zdělal, najprvé těm padesáti vozuom kázal hnúti tú novú
-          cestu, kterú sobě novú udě- lal po pravé ruce; i když sú na pole vy-
-          táhli, podlé samé stráně, a to z té příčiny, že od pole měli pěší
+          cestu, kterú sobě novú udělal po pravé ruce; i když sú na pole
+          vytáhli, podlé samé stráně, a to z té příčiny, že od pole měli pěší
           vozy, a za sebú stráně, a tak tudy se jiezdných nebáli. A z druhého
           řadu po levé straně též kázal hnúti podlé druhé stráně; a tú starú
           cestú vypustil děla ven z lesa, i byl opanoval sobě to pole. A tak
@@ -163,6 +163,121 @@ export const ZizkovoTazeniDoUher = () => (
           vytiskl mocnú rukú. Neb tak jemu těch vozuov vždy přibývalo ven, až
           jimi všemi vytáhl ven. A tak jemu pán Buoh pomohl z Uher vytáhnúti.
           Ale jakž jest Žižka počal bojovati, najtěžší jemu přišlo.
+        </p>
+      </Col>
+      <Col md={6}>
+        <p>
+          Potom táhl Žižka na Moravu a podmaňoval si lidi. Přitáhl také ke
+          Kroměříži/Hranicím? a nějaký čas tu (s vojskem) ležel. A bratři ho
+          přemlouvali, aby někam vytáhl. On postavil čyři řady vozů a co nejvíce
+          děl mohl a táhl přes hory do Uher. Uhři mu v postupu nijak nebránili a
+          nikde nekladli odpor, chtíce aby polevil v ostražitosti a ztratil
+          pořádek (ve vojsku), aby jej pak mohli porazit, neboť na něj vytáhli
+          se silnou jízdou i množstvím děl. A on pochopil, že je zle, obrátil se
+          i s vozy zpět na Moravu a takto je zorganizoval: Nejprve přidělil lidi
+          k vozům, jízdní i pěší a táhl s uzavřenými řady (vozů). A takto
+          zorganizoval krajní vozy: Ke každému vozu dva muže se pavezama a za ně
+          dva nebo tři střelce a to proto, že kdyby mu chtěli během přesunu
+          (Uhři) vniknout do vozů, aby tomu dotyční zabránili. Ten den jej
+          čekalo náročné tažení, protože kdyby se jen na chvíli zastavil, hned
+          by na jeho vojsko zaútočili. A protože se jim nemohl ubránit jinak,
+          táhl až dlouho do noci, a to proto, aby (Uhři) neviděli, kde se (s
+          vojskem) položí a nemohli na něj zaútočit. Přikázal svému vojsku
+          nezapalovat žádné ohně a Uhři, kteří kolem něj ještě chvíli jezdili,
+          museli nakonec obsadit okolní vsi aby měli kde uvázat koně a také sami
+          se před ním zabezpečit. Tady zůstal jak uznal za vhodné a nazítří táhl
+          k jednomu jezeru, u kterého bylo návrší. A takto se u něj položil:
+          Jednu stranu k jezeru a druhou stranu pod vršek a to protože kdyb na
+          něj (Uhři) chtěli stříleti, aby jej přestřelovali. A takto to udělal:
+          vzal pícní vozy, vyjel s nimi na to návrší a udělal z nich u přední
+          brány baštu a u zadní brány druhou. Tam je zakopal a osadil do nich
+          děla. A tak nedovolil Uhrům obsadit okolní vrchy. Opět potom třetí den
+          od toho jezera táhl k jedné řece, která teče k Nyárhídu a položil se u
+          té řeky. A zde se velmi bál porážky, aby ho nenechali napředed pustit
+          část lidí přes řeku a pak aby mu nenapadli zadní vozy. A proto celou
+          noc zakopával krajní vozy od jednoho břehu až k druhému, a na druhý
+          břeh přepravil pícní vozy a také je tam zakopal, aby na ně nemohla
+          zaútočit jízda. A oba břehy nechal upravit tak, aby přes tu řeku mohl
+          táhnout se všemi čtyřmi řady vozů. Když jej (Uhři) nechali vejít s
+          vozy do řeky, zaútočili mu na zadní vozy, on je však od těch zákopů
+          odrazil i když na něj útočili pěšky i koňmo. Při tom jich mnoho pobil
+          a zranil a když je odrazil, přepravil se na druhý břeh řeky s vozy i
+          svými lidmi. A tak děkoval pánu Bohu, že mu pán Bůh ráčil pomoci přes
+          tu řeku se přepraviti. A hned odtamtud táhl mezi jedny lesy, kde jsou
+          bažiny a podmáčené louky. A položil se mezi zákoutí a to z toho
+          důvodu, aby na něj nemohli střílet z děl. A tady zůstal přes noc.
+          Čtvrtý den táhl k jedněm jezerům za Trnavou. A tam přeorganizoval
+          vozy, vybírajíc z placních řadů, a to z toho důvodu, protože mu v
+          krajních řadech mnoho vozů zničili a koní pobili. A tehdy ho nechali
+          na pokoji a on, když se položil u těch jezer, zařídil výše zmíněné
+          věci a pátý den táhl k jedné stráni. Tu na něj opět přitáhli s jízdou
+          i s děly. A on táhl podél té stráně tak, aby musel bránit pouze jednu
+          stranu místo obou. A oni vida, že mu nemohou ublížit, odtáhli od něj
+          pryč a on se položil na jednom vrchu. A lidé říkají, že zde na ně
+          (Čechy) přišly veliké útrapy a bída taková, že by za jedno čerstvé
+          zelí by dali spoustu peněz. A to z toho důvodu, že je (Uhři) z vozů
+          nikam nepustili a že nad ním měli velkou převahu v jízdě a nechtělo se
+          jim (Uhrům) na něj útočit pěšky. Jenže nakonec jim nic jíného nezbylo,
+          než z koní sesednout a útočit na něj pěšky, ale on je vždy porazil a
+          způsobil jim velké ztráty, protože jinak vede boj jízda a jinak
+          pěchota, což neuměli. Aby se naučili pořádně vést boj pěšky, museli by
+          k tomu mít nějaký čas.
+        </p>
+        <p>
+          Šesté tažení Žižkovo bylo, když se pohnul od té stráně, a věděl, že
+          musí táhnout k horám, i když to znamenalo, že bude muset táhnout všemi
+          vozy v jednom řadu, protože to jinak nešlo (byl před nim hustý les).
+          Když to viděli Uhři, vytáhli na něj s velkými silami, domnívajíc se,
+          že jeho organizace vozů ani jeho šiky mu nepomohou, protože se nemohou
+          uzavřít mezi vozy. A on se takto připravil k obraně: Položil se těsně
+          před lesem pod jedním vrškem a to z toho důvodu, že když na něj budou
+          střílet z děl, aby jej přestřelovali. Sám se svými děly úchýlil na ten
+          vršek. Potom přikázal vypřáhnout koně z vozů, posadit na ně lidi se
+          sekyrami, lopatami a rýči, aby našli boční cesty a zahradili je záseky
+          a to z toho důvodu aby jim ze stran nikdo nemohl na vozy zaútočit. A
+          také přikázal velmi dobře připravit a opravit hlavní cestu. A půl
+          druhého honu před koncem lesa (asi 200 m) přikázal z jedné strany
+          původní cesty udělat cestu novou a z druhé strany původní cesty také a
+          to z toho důvodu, že kdyby jej Uhři předešli, tak aby tou původní
+          cestou mohl táhnout s pěšími a děly. A to proto, že kdyby chtěli
+          bránit to pole, kam ústí cesta/y z lesa, tak aby je tudy vystřílel a
+          vybil, jak se nakonec i stalo. A takto z té první strany lesa vozy
+          zorganizovali: Udělal z původních čtyř řadů dva. Pak vzal pícní vozy,
+          projel s nimi mezi ostatními a postavil čtyři vedle sebe jako zeď od
+          jednoho konce lesa k druhému (tj. čtyři vozy podélně vedle sebe, tak,
+          že dohromady zabíraly šířku lesní cesty). A přikázal je silnými lany
+          svázat dohromady, aby mu je nemohli tak snadno roztrhnout nebo
+          převrátit. A udělal to proto, že kdyby mu chtěli vpadnout do vozů nebo
+          děla zezadu zajmout, aby oni (Češi) se bránili za vozy jako za zdí,
+          jak se pak i stalo. A tak pouštěl do lesa: Nejprve děla, pak něco málo
+          pěších a potom padesát vozů, co měl po pravé ruce. A když těch padesát
+          vozů vyrazilo, opět dal mezi ně něco málo pěších a pustil dalších
+          padesát vozů z levé strany a opět mezi ně dal něco málo pěších. A tak
+          vždycky posílal vozy po padesáti dokud nějaké měl a mezi ně pěší, jak
+          bylo potřeba. A to z toho důvodu, že kdyby mu v lese chtěli vozataje
+          zabít nebo vozy vykrást, aby ti pěší, kteří jsou mezi vozy, tomu
+          zabránili. Když posílal posledních vozy, tehdy naň zaútočili Uhři,
+          chtějíce mu děla pobrati. Tehdy oni (Češi) z toho vršku, kde si z nich
+          udělali řady, ty pícní vozy odtáhli a zavřeli s nimi vstup do lesa a
+          za nimi se bránili, dokud dále do lesa s děly neodjeli a potom se za
+          nimi i pěší vydali. A tak se Uhrů vůbec nebáli, protože než ti se přes
+          ty vozy probili, oni (Češi) už za sebou zahradili cestu záseky, aby se
+          za nimi nemohli vydat koňmo. Když Uhři viděli, že mu nemohli způsobit
+          žádnou škodu, táhli někteří z nich napřed, chtějíce mu zabránit ve
+          vyjetí z lesa. A někteří z nich táhli domů, pravíce, že není člověk,
+          ale čert že mu ty rozumy dává, neboť nám ničeho dosáhnout nedovolí. A
+          tak se chystal z lesa ven, kde byla nějaká pole mezi stráněmi: Když
+          přitáhl k těm dvěma novým cestám, co předtím přikázal udělat, tak
+          prvním padesáti vozům přikázal vydat se tou novou cestou, kterou měl
+          po pravé ruce, aby když vytáhnou na to pole, tak aby mohli rovnou
+          pokračovat podél té pravé stráně a to z toho důvodu, že směrem od pole
+          budou mít připravené pěší i vozy a za sebou stráň, odkud se nebudou
+          muset bát útoku jízdy. Druhému řadu rovněž kázal vydat se podél levé
+          stráně a původní cestou poslal ven děla a tak celé to pole opanoval. A
+          tak pomalu vždy s těmi (padesáti) vozy táhl, protože předtím z nich
+          udělal jeden řad, jako když se vije věnec a teď z nich chtěl zase dva
+          řady vytvořit, aby s nimi mohl současně vyjet z lesa. A tak mu pán Bůh
+          pomohl z Uher vytáhnout
         </p>
       </Col>
     </Row>

@@ -7,6 +7,7 @@ import { NauceniKuKraliVladislavovi } from '../components/Articles/NauceniKuKral
 import { SnemovniZapisOHotovostiVerejne } from '../components/Articles/SnemovniZapisOHotovostiVerejne'
 import { HodetinuvRad } from '../components/Articles/HodetinuvRad'
 import { ZizkuvVojenskyRad } from '../components/Articles/ZizkuvVojenskyRad'
+import { ZizkovoTazeniDoUher } from '../components/Articles/ZizkovoTazeniDoUher'
 
 const Page = () => {
   return (
@@ -70,6 +71,7 @@ const Page = () => {
             <ZizkuvVojenskyRad />
             <HodetinuvRad />
             <SnemovniZapisOHotovostiVerejne />
+            <ZizkovoTazeniDoUher />
             <NauceniKuKraliVladislavovi />
             <Row>
               <Col>
