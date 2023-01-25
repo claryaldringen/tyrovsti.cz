@@ -176,7 +176,7 @@ export const ZizkovoTazeniDoUher = () => (
           se silnou jízdou i množstvím děl. A on pochopil, že je zle, obrátil se
           i s vozy zpět na Moravu a takto je zorganizoval: Nejprve přidělil lidi
           k vozům, jízdní i pěší a táhl s uzavřenými řady (vozů). A takto
-          zorganizoval krajní vozy: Ke každému vozu dva muže se pavezama a za ně
+          zorganizoval krajní vozy: Ke každému vozu dva muže se pavézami a za ně
           dva nebo tři střelce a to proto, že kdyby mu chtěli během přesunu
           (Uhři) vniknout do vozů, aby tomu dotyční zabránili. Ten den jej
           čekalo náročné tažení, protože kdyby se jen na chvíli zastavil, hned
