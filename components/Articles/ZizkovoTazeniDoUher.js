@@ -9,7 +9,7 @@ export const ZizkovoTazeniDoUher = () => (
         <p>
           Vyprávění o Žižkově tažení do Uher je obsaženo v rukopisu M{' '}
           <i>Starých letopisů českých</i>. Tato pasáž se z charakteru Starých
-          letpisů vymyká a tvoří uzavřený a svým způsobem samostatný celek,
+          letopisů vymyká a tvoří uzavřený a svým způsobem samostatný celek,
           teprve dodatečně zařazený do kronikářského souboru, kde je však
           začleněn mezi dobytí Německého Brodu v lednu 1422 a popravu Jana
           Želivského v březnu 1422. František Palacký, který připravoval svou
@@ -217,7 +217,7 @@ export const ZizkovoTazeniDoUher = () => (
           (Čechy) přišly veliké útrapy a bída taková, že by za jedno čerstvé
           zelí by dali spoustu peněz. A to z toho důvodu, že je (Uhři) z vozů
           nikam nepustili a že nad ním měli velkou převahu v jízdě a nechtělo se
-          jim (Uhrům) na něj útočit pěšky. Jenže nakonec jim nic jíného nezbylo,
+          jim (Uhrům) na něj útočit pěšky. Jenže nakonec jim nic jiného nezbylo,
           než z koní sesednout a útočit na něj pěšky, ale on je vždy porazil a
           způsobil jim velké ztráty, protože jinak vede boj jízda a jinak
           pěchota, což neuměli. Aby se naučili pořádně vést boj pěšky, museli by

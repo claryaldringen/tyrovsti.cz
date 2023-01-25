@@ -90,6 +90,10 @@ const Page = () => {
                   <li>
                     Vavřinec z Březové: <i>Husitská kronika</i>, Praha 1979
                   </li>
+                  <li>
+                    Karel Jaromír Erben: <i>Wýbor z literatury české</i>, Praha
+                    1868
+                  </li>
                 </ul>
               </Col>
             </Row>
