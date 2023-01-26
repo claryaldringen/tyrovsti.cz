@@ -3,8 +3,9 @@ import React from 'react'
 
 export const ZizkovoTazeniDoUher = () => (
   <>
-    <Row id="zizkovo-tazeni-do-uher">
+    <Row>
       <Col>
+        <div className="anchor" id="zizkovo-tazeni-do-uher" />
         <h4>Žižkovo vojenské tažení do Uher l. 1423</h4>
         <p>
           Vyprávění o Žižkově tažení do Uher je obsaženo v rukopisu M{' '}

@@ -5,8 +5,9 @@ import Image from 'next/image'
 
 export const KtozJsuBoziBojovnici = () => (
   <>
-    <Row id="ktoz-jsu-bozi-bojovnici">
+    <Row>
       <Col>
+        <div className="anchor" id="ktoz-jsu-bozi-bojovnici" />
         <h4>Ktož jsú boží bojovníci</h4>
         <p>
           Přepis z Jistebnického kancionálu pořídil Ing. Roman Vaverka,

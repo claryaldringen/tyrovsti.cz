@@ -3,8 +3,9 @@ import React from 'react'
 
 export const SnemovniZapisOHotovostiVerejne = () => (
   <>
-    <Row id="snemovni-zapis-o-hotovosti">
+    <Row>
       <Col>
+        <div className="anchor" id="snemovni-zapis-o-hotovosti" />
         <h4>
           Sněmovní zápis o hotovosti veřejné v krajích ze dne 14. března 1470
         </h4>

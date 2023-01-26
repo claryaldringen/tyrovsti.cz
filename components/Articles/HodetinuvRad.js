@@ -4,8 +4,9 @@ import Link from 'next/link'
 
 export const HodetinuvRad = () => (
   <>
-    <Row id="jana-hajka-z-hodetina-rad-vojensky">
+    <Row>
       <Col>
+        <div className="anchor" id="jana-hajka-z-hodetina-rad-vojensky" />
         <h4>Tzv. Jana Hájka z Hodětína řád vojenský</h4>
         <p>
           Přepis byl převzat ze stránek školy{' '}

@@ -3,8 +3,12 @@ import React from 'react'
 
 export const NauceniKuKraliVladislavovi = () => (
   <>
-    <Row id="vaclava-vlcka-z-cenova-nauceni-ku-krali-vladislavi-kterak-se-maji-sikovati-jizdni-pesi-i-vozy">
+    <Row>
       <Col>
+        <div
+          className="anchor"
+          id="vaclava-vlcka-z-cenova-nauceni-ku-krali-vladislavi-kterak-se-maji-sikovati-jizdni-pesi-i-vozy"
+        />
         <h4>
           Václava Vlčka z Čenova naučení ku králi Vladislavovi, kterak se mají
           šikovati jízdní, pěší i vozy

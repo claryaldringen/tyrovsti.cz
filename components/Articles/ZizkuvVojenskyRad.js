@@ -4,8 +4,9 @@ import React from 'react'
 
 export const ZizkuvVojenskyRad = () => (
   <>
-    <Row id="zizkuv-vojensky-rad">
+    <Row>
       <Col>
+        <div className="anchor" id="zizkuv-vojensky-rad" />
         <h4>Tzv. Žižkův vojenský řád</h4>
         <p>
           Přepis byl převzat ze stránek školy{' '}
