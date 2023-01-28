@@ -8,6 +8,11 @@ export const NorimberskyRadVozovy = () => (
         <div className="anchor" id="norimbersky-rad-vozovy" />
         <h4>Norimberský řád vozový z roku 1450</h4>
         <p>Přeložila PhDr. Zdeňka Kopková</p>
+        <p>
+          Byl otištěn v <i>Chroniken der deutschen Städte</i>, Nürnberg, II, na
+          stranách 252 až 254. Je v něm zmiňována výprava na Spalt, která
+          skončila v červnu 1450.
+        </p>
         <p>&nbsp;</p>
       </Col>
     </Row>
@@ -24,8 +29,12 @@ export const NorimberskyRadVozovy = () => (
             <li>
               Item man hat zu dem ersten mitgenommen 2 wagenpüchsen, die
               Widersteinin genannt, darzu 50 stein, die hat man geladen auf 3
-              wägen, und darmseil **) darzu; und an die zween püchsenwägen 16
-              pferd, und an ein jeden steinwagen 4 pferd.
+              wägen, und{' '}
+              <span className="note" title="V originále tamsail">
+                darmseil
+              </span>{' '}
+              darzu; und an die zween püchsenwägen 16 pferd, und an ein jeden
+              steinwagen 4 pferd.
             </li>
             <li>
               Item mer hat mitgenommen 3 wägen, darauf da lagen 3 püchsen mit
@@ -55,7 +64,7 @@ export const NorimberskyRadVozovy = () => (
               Item wer aber, dass man her reisen wollt mit brennen oder feld zu
               slahen, so hat man nit als viel zeugs genommen als vor; sunder der
               püchsen soll man dester minner mit nehmen, ob es an ein treffen
-              gieng, als vor Spalt,***) aber der stein hat man am halbteil
+              gieng, als vor <i>Spalt</i>, aber der stein hat man am halbteil
               genug.
             </li>
             <li>
@@ -98,7 +107,6 @@ export const NorimberskyRadVozovy = () => (
               sie die bretter an die wägen hängen, und welcher sie nicht
               anhieng, dem gab man dieselben wochen kein sold.
             </li>
-            <li></li>
           </ol>
         </p>
       </Col>
