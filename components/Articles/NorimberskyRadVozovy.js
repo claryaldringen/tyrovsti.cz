@@ -189,7 +189,10 @@ export const NorimberskyRadVozovy = () => (
               musel ho velitel vozu naplnit vodou a naložit na vůz, neboť víno
               bylo příliš drahé; také byla u každého vozu motyka a lopata.
             </li>
-            <li>Tytéž vozy se shromažďovaly na trhu a ….</li>
+            <li>
+              Tytéž vozy se shromažďovaly na trhu a byly objednány (nevíme kým,
+              jmeno chybí)
+            </li>
             <li>
               Navíc se objednaly desky, a když se vyrazilo, musely se desky
               zavěsit na vozy, a kdo je nezavěsil, ten v&nbsp;příslušné týdny

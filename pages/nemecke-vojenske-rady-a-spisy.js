@@ -8,6 +8,12 @@ import { UsneseniNorimberske } from '../components/Articles/UsneseniNorimberske'
 import { RadVozovyRytiruNemeckych } from '../components/Articles/RadVozovyRytiruNemeckych'
 import { VozovyRadFrankfurtsky } from '../components/Articles/VozovyRadFrankfurtsky'
 import { NorimberskyRadVozovy } from '../components/Articles/NorimberskyRadVozovy'
+import {
+  InstrukceMarkrabiAlbrechtaOHajeniVozovehoSiku
+} from '../components/Articles/InstrukceMarkrabiAlbrechtaOHajeniVozovehoSiku'
+import { InstrukceMarkrabiAlbrechtaOSikovaniVozu } from '../components/Articles/InstrukceMarkrabiAlbrechtaOSikovaniVozu'
+import { RadMarkrabiAlbrechta } from '../components/Articles/RadMarkrabiAlbrechta'
+import { FilipaSeldeneckaRadVozovy } from '../components/Articles/FilipaSeldeneckaRadVozovy'
 
 const Page = () => {
   return (
@@ -39,6 +45,10 @@ const Page = () => {
             <RadVozovyRytiruNemeckych />
             <VozovyRadFrankfurtsky />
             <NorimberskyRadVozovy />
+            <InstrukceMarkrabiAlbrechtaOHajeniVozovehoSiku />
+            <InstrukceMarkrabiAlbrechtaOSikovaniVozu />
+            <RadMarkrabiAlbrechta />
+            <FilipaSeldeneckaRadVozovy />
             <Row>
               <Col>
                 <h3>Použitá literatura:</h3>
