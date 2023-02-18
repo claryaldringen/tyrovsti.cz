@@ -701,7 +701,9 @@ export const FilipaSeldeneckaRadVozovy = () => (
             <li>
               K&nbsp;tomu se musí vyrobit a uspořádat také několik set tyčových
               praků (Stabschlinge) k&nbsp;házení kamenů, což je nutné
-              k&nbsp;útoku a také k&nbsp;tlučení proti koním a mužům. Mosty
+              k&nbsp;útoku a také k&nbsp;tlučení proti koním a mužům.
+              <br />
+              <i>Mosty</i>
             </li>
             <li>
               Postaveny čtyři mosty s&nbsp;nosníky nebo trámy a s&nbsp;deskami,
@@ -714,8 +716,12 @@ export const FilipaSeldeneckaRadVozovy = () => (
             </li>
             <li>
               Také několik set šídel, která slouží k&nbsp;útoku ve vozové
-              hradbě. Jak se musí šikovat s&nbsp;vozovou hradbou přes příkopy a
-              bažiny s&nbsp;oněmi mosty, které jsou předepsány.
+              hradbě.
+              <br />
+              <i>
+                Jak se musí šikovat s&nbsp;vozovou hradbou přes příkopy a bažiny
+                s&nbsp;oněmi mosty, které jsou předepsány.
+              </i>
             </li>
             <li>
               Nejpřednější vozy musí nést mosty a položit je v&nbsp;případě
