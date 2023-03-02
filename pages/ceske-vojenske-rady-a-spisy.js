@@ -2,12 +2,12 @@ import React from 'react'
 import { Menu } from '../components/Menu/Menu'
 import { Col, Container, Row } from 'reactstrap'
 import Head from 'next/head'
-import { KtozJsuBoziBojovnici } from '../components/Articles/KtozJsuBoziBojovnici'
-import { NauceniKuKraliVladislavovi } from '../components/Articles/NauceniKuKraliVladislavovi'
-import { SnemovniZapisOHotovostiVerejne } from '../components/Articles/SnemovniZapisOHotovostiVerejne'
-import { HodetinuvRad } from '../components/Articles/HodetinuvRad'
-import { ZizkuvVojenskyRad } from '../components/Articles/ZizkuvVojenskyRad'
-import { ZizkovoTazeniDoUher } from '../components/Articles/ZizkovoTazeniDoUher'
+import { KtozJsuBoziBojovnici } from '../components/Articles/cz/KtozJsuBoziBojovnici'
+import { NauceniKuKraliVladislavovi } from '../components/Articles/cz/NauceniKuKraliVladislavovi'
+import { SnemovniZapisOHotovostiVerejne } from '../components/Articles/cz/SnemovniZapisOHotovostiVerejne'
+import { HodetinuvRad } from '../components/Articles/cz/HodetinuvRad'
+import { ZizkuvVojenskyRad } from '../components/Articles/cz/ZizkuvVojenskyRad'
+import { ZizkovoTazeniDoUher } from '../components/Articles/cz/ZizkovoTazeniDoUher'
 
 const Page = () => {
   return (

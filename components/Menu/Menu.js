@@ -106,8 +106,8 @@ const En = () => (
         </li>
         <li>
           <div>
-            <Link href="/military-order-of-vaclav-vlcek-of-cenov">
-              Military order of Václav Vlček from Čenov
+            <Link href="/czech-military-orders-and-writings">
+              Czech military orders and writing
             </Link>
           </div>
         </li>

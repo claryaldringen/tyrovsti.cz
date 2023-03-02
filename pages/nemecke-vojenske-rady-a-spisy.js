@@ -4,16 +4,16 @@ import { Col, Container, Row } from 'reactstrap'
 import Head from 'next/head'
 import Link from 'next/link'
 import Image from 'next/image'
-import { UsneseniNorimberske } from '../components/Articles/UsneseniNorimberske'
-import { RadVozovyRytiruNemeckych } from '../components/Articles/RadVozovyRytiruNemeckych'
-import { VozovyRadFrankfurtsky } from '../components/Articles/VozovyRadFrankfurtsky'
-import { NorimberskyRadVozovy } from '../components/Articles/NorimberskyRadVozovy'
+import { UsneseniNorimberske } from '../components/Articles/cz/UsneseniNorimberske'
+import { RadVozovyRytiruNemeckych } from '../components/Articles/cz/RadVozovyRytiruNemeckych'
+import { VozovyRadFrankfurtsky } from '../components/Articles/cz/VozovyRadFrankfurtsky'
+import { NorimberskyRadVozovy } from '../components/Articles/cz/NorimberskyRadVozovy'
 import {
   InstrukceMarkrabiAlbrechtaOHajeniVozovehoSiku
-} from '../components/Articles/InstrukceMarkrabiAlbrechtaOHajeniVozovehoSiku'
-import { InstrukceMarkrabiAlbrechtaOSikovaniVozu } from '../components/Articles/InstrukceMarkrabiAlbrechtaOSikovaniVozu'
-import { RadMarkrabiAlbrechta } from '../components/Articles/RadMarkrabiAlbrechta'
-import { FilipaSeldeneckaRadVozovy } from '../components/Articles/FilipaSeldeneckaRadVozovy'
+} from '../components/Articles/cz/InstrukceMarkrabiAlbrechtaOHajeniVozovehoSiku'
+import { InstrukceMarkrabiAlbrechtaOSikovaniVozu } from '../components/Articles/cz/InstrukceMarkrabiAlbrechtaOSikovaniVozu'
+import { RadMarkrabiAlbrechta } from '../components/Articles/cz/RadMarkrabiAlbrechta'
+import { FilipaSeldeneckaRadVozovy } from '../components/Articles/cz/FilipaSeldeneckaRadVozovy'
 
 const Page = () => {
   return (
