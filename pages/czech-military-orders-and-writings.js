@@ -13,6 +13,10 @@ const Page = () => {
         <title>
           Jošt z Einsiedle a na Týřově - České vojenské řády a spisy
         </title>
+        <meta
+          property="og:image"
+          content="/images/Hausbuch_Wolfegg_51v_52r1_Heerzug.jpg"
+        />
       </Head>
       <Menu />
       <Container>
