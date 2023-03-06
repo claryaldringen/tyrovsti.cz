@@ -11,11 +11,15 @@ const Page = () => {
     <>
       <Head>
         <title>
-          Jošt z Einsiedle a na Týřově - České vojenské řády a spisy
+          Jobst of Einsiedl and Tyrzow - Czech military orders and wrtings
         </title>
         <meta
+          property="og:title"
+          content="Jobst of Einsiedl and Tyrzow - Czech military orders and wrtings"
+        />
+        <meta
           property="og:image"
-          content="/images/Hausbuch_Wolfegg_51v_52r1_Heerzug.jpg"
+          content="https://tyrovsti.cz/images/Hausbuch_Wolfegg_51v_52r1_Heerzug.jpg"
         />
       </Head>
       <Menu />
