@@ -11,11 +11,11 @@ const Page = () => {
     <>
       <Head>
         <title>
-          Jobst of Einsiedl and Tyrzow - Czech military orders and wrtings
+          Jobst of Einsiedl and Tyrzow - Czech military orders and writings
         </title>
         <meta
           property="og:title"
-          content="Jobst of Einsiedl and Tyrzow - Czech military orders and wrtings"
+          content="Jobst of Einsiedl and Tyrzow - Czech military orders and writings"
         />
         <meta
           property="og:image"
