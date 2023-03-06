@@ -1,9 +1,10 @@
 import React from 'react'
-import { Menu } from '../components/Menu/Menu'
+import { Menu } from '../components/Menu'
 import { Col, Container, Row } from 'reactstrap'
 import Head from 'next/head'
 import { VaclavVlcekOfCenovHandbook } from '../components/Articles/en/VaclavVlcekOfCenovHandbook'
 import { YeWhoAreWarriorsOfGod } from '../components/Articles/en/YeWhoAreWarriorsOfGod'
+import { TheBohemianDietsProtocol } from '../components/Articles/en/TheBohemianDietsProtocol'
 
 const Page = () => {
   return (
@@ -66,10 +67,11 @@ const Page = () => {
               </Col>
             </Row>
             <YeWhoAreWarriorsOfGod />
+            <TheBohemianDietsProtocol />
             <VaclavVlcekOfCenovHandbook />
             <Row>
               <Col>
-                <h3>Použitá literatura:</h3>
+                <h3>References:</h3>
                 <ul>
                   <li>
                     Hugo Toman:{' '}

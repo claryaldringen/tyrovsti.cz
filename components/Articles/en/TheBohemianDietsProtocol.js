@@ -2,25 +2,30 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import Image from 'next/image'
 
-export const SnemovniZapisOHotovostiVerejne = () => (
+export const TheBohemianDietsProtocol = () => (
   <>
     <Row>
       <Col>
-        <div className="anchor" id="snemovni-zapis-o-hotovosti" />
+        <div
+          className="anchor"
+          id="the-bohemian-diets-protocol-about-soldiers-contingents-in-regions"
+        />
         <h4>
-          Sněmovní zápis o hotovosti veřejné v krajích ze dne 14. března 1470
+          The Bohemian Diet’s protocol about soldier’s contingents in regions
+          from 14th of March 1470
         </h4>
         <p>
-          Rozvrh na jednotlivé kraje u výtahu: Hradecko. Na Hradecký kraj jest
-          položeno: devět set pěších, sto koní jízdných, a mezi těmi aby bylo
-          dvanácte kopinnikův a padesáte vozûv; a k tomu každému vozu dostane se
-          18 pěších; z těch aby bylo 13 střelcův, 4 pavézníci a k tomu vozataj.
-          A ti všichni aby lebky měli, s kulkami a s prachem a kopu šípův, dvoje
-          cepy, dvě motyce, dvě lopatě, dvě sekeře, jedno kopí s hákem a řetěz
-          pod vozem. A tak se dostane také, že máta býti k každému vozu dva
-          jízdná. A tak ze všech krajův aby též spůsobeno bylo, vedle položení
-          již psaného; a vozové aby byli opatřeni obyčejem, jakož se o Hradeckém
-          kraji vypisuje.
+          Overview for individual regions at the table: Hradec Králové Region.
+          Nine hundred footmen, a hundred riders, and among them twelve lancers
+          and fifty wagoins; and to each wagon there shall be 18 footmen; of
+          these there shall be 13 gunners/crossbowmen, 4 footmen, and a
+          coachman. And they shall all have helmets, with bullets and powder,
+          and a sheaf of arrows, two flails, two hoes, two shovels, two axes,
+          one spear with a hook, and a chain under the wagon. And so it shall
+          come to pass that there shall be two riders to every wagon. And so of
+          all the regions shall be done, besides the laying down already
+          written; and the coachmen shall be provided by the custom as it is
+          written of the region of Hradec.
         </p>
       </Col>
     </Row>
@@ -30,65 +35,65 @@ export const SnemovniZapisOHotovostiVerejne = () => (
           <table>
             <thead>
               <tr>
-                <th>kraj</th>
-                <th className="text-right">pěší</th>
-                <th className="text-right">jízdní</th>
-                <th className="text-right">(kopiníci)</th>
-                <th className="text-right">vozy</th>
+                <th>region</th>
+                <th className="text-right">footmen</th>
+                <th className="text-right">riders</th>
+                <th className="text-right">(lancers)</th>
+                <th className="text-right">wagons</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td>Hradecko</td>
+                <td>Hradecký kraj</td>
                 <td className="text-right">900</td>
                 <td className="text-right">100</td>
                 <td className="text-right">(12)</td>
                 <td className="text-right">50</td>
               </tr>
               <tr>
-                <td>Kouřimsko</td>
+                <td>Kouřimský kraj</td>
                 <td className="text-right">630</td>
                 <td className="text-right">70</td>
                 <td className="text-right">(8)</td>
                 <td className="text-right">35</td>
               </tr>
               <tr>
-                <td>Chrudimsko</td>
+                <td>Chrudimský kraj</td>
                 <td className="text-right">450</td>
                 <td className="text-right">50</td>
                 <td className="text-right">(6)</td>
                 <td className="text-right">25</td>
               </tr>
               <tr>
-                <td>Čáslavsko</td>
+                <td>Čáslavský kraj</td>
                 <td className="text-right">300</td>
                 <td className="text-right">40</td>
                 <td className="text-right">(5)</td>
                 <td className="text-right">17</td>
               </tr>
               <tr>
-                <td>Slánsko</td>
+                <td>Slánský kraj</td>
                 <td className="text-right">500</td>
                 <td className="text-right">50</td>
                 <td className="text-right">(6)</td>
                 <td className="text-right">28</td>
               </tr>
               <tr>
-                <td>Žatecko a Rakovnicko</td>
+                <td>Žatecký kraj and Rakovnický kraj</td>
                 <td className="text-right">900</td>
                 <td className="text-right">100</td>
                 <td className="text-right">(12)</td>
                 <td className="text-right">50</td>
               </tr>
               <tr>
-                <td>Litoměřicko</td>
+                <td>Litoměřický kraj</td>
                 <td className="text-right">500</td>
                 <td className="text-right">50</td>
                 <td className="text-right">(6)</td>
                 <td className="text-right">27</td>
               </tr>
               <tr>
-                <td>Boleslavsko</td>
+                <td>Boleslavský kraj</td>
                 <td className="text-right">270</td>
                 <td className="text-right">30</td>
                 <td className="text-right">(4)</td>
@@ -103,19 +108,6 @@ export const SnemovniZapisOHotovostiVerejne = () => (
               </tr>
             </tbody>
           </table>
-        </p>
-        <p>
-          Poznámky:
-          <ol>
-            <li>
-              I když lebka je v dnešní terminologii specifický typ přilby, zde
-              je tím míněna jakákoli přilba. Vzhledem k době zápisu přichází v
-              úvahu nejčasteji klobouk nebo šalíř.
-            </li>
-            <li>
-              Šípy jsou v moderní terminologii míněny šipky - střely do kuše.
-            </li>
-          </ol>
         </p>
       </Col>
       <Col md={6}>
