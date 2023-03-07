@@ -2,12 +2,37 @@ import React, { useCallback, useState } from 'react'
 import { Col, Row } from 'reactstrap'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
+import Image from 'next/image'
+import styles from './Menu.module.scss'
 
 const LINKS = [
   'https://www.rattenschwanz.cz/',
   'https://www.facebook.com/PragaJagellonica1471/',
   'https://slanskarota.cz/',
 ]
+
+const LangToggler = () => (
+  <div className={styles.langToggler}>
+    <Link href="/cs">
+      <a>
+        <Image
+          src="/images/icons8-czech-republic-48.png"
+          width={48}
+          height={48}
+        />
+      </a>
+    </Link>
+    <Link href="/en">
+      <a>
+        <Image
+          src="/images/icons8-great-britain-48.png"
+          width={48}
+          height={48}
+        />
+      </a>
+    </Link>
+  </div>
+)
 
 const Cs = () => (
   <Row>
@@ -48,6 +73,7 @@ const Cs = () => (
           </div>
         </li>
       </ul>
+      <LangToggler />
     </Col>
     <Col md={6}>
       <h2>O projektu</h2>
@@ -112,6 +138,7 @@ const En = () => (
           </div>
         </li>
       </ul>
+      <LangToggler />
     </Col>
     <Col md={6}>
       <h2>About the project</h2>
@@ -169,12 +196,40 @@ export const Menu = () => {
     setIsOpen(!isOpen)
   }, [setIsOpen, isOpen])
 
+  const closeNavbar = useCallback(
+    (event) => {
+      if (event.key == 'Escape') {
+        setIsOpen(false)
+      }
+      if (event.key == 'Enter') {
+        setIsOpen(true)
+      }
+    },
+    [setIsOpen]
+  )
+
   return (
     <div className={`menu ${isOpen && 'absolute'}`}>
-      <a href="/" className="brand">
-        Jošt&nbsp;z&nbsp;Ensiedle&nbsp;a&nbsp;na&nbsp;Týřově
-      </a>
-      <div className="menu-button" onClick={toggleNavbar}>
+      {locale === 'en' ? (
+        <Link href="/en">
+          <a className="brand">
+            Jobst&nbsp;of&nbsp;Einsiedl&nbsp;and&nbsp;Tyrzow
+          </a>
+        </Link>
+      ) : (
+        <Link href="/">
+          <a className="brand">
+            Jošt&nbsp;z&nbsp;Ensiedle&nbsp;a&nbsp;na&nbsp;Týřově
+          </a>
+        </Link>
+      )}
+      <div
+        className="menu-button"
+        onClick={toggleNavbar}
+        onKeyDown={closeNavbar}
+        role="button"
+        tabIndex={0}
+      >
         <div className="hamburger">
           <hr />
           <hr />
