@@ -45,7 +45,7 @@ const Cs = () => (
         </li>
         <li>
           <div>
-            <Link href="/jost-z-einsidle-a-na-tyrove">Jošt z Einsidle</Link>
+            <Link href="/tyrovsti-z-einsiedlu">Týřovští z Einsiedlu</Link>
           </div>
         </li>
         <li>
@@ -219,7 +219,7 @@ export const Menu = () => {
       ) : (
         <Link href="/">
           <a className="brand">
-            Jošt&nbsp;z&nbsp;Ensiedle&nbsp;a&nbsp;na&nbsp;Týřově
+            Jošt&nbsp;z&nbsp;Einsiedlu&nbsp;a&nbsp;na&nbsp;Týřově
           </a>
         </Link>
       )}

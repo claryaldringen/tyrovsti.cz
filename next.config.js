@@ -17,6 +17,11 @@ module.exports = {
           '/en/czech-military-orders-and-writings#vaclav-vlcek-of-cenov-handbook-to-king-vladislaus-how-to-make-formations-of-cavalry-infantry-and-wagons',
         permanent: true,
       },
+      {
+        source: '/jost-z-einsidle-a-na-tyrove',
+        destination: '/tyrovsti-z-einsiedlu',
+        permanent: true,
+      },
     ]
   },
 }

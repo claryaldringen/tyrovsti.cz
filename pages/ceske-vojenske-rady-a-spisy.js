@@ -75,7 +75,7 @@ const Page = () => {
             <NauceniKuKraliVladislavovi />
             <Row>
               <Col>
-                <h3>Použitá literatura:</h3>
+                <h4>Použitá literatura:</h4>
                 <ul>
                   <li>
                     Hugo Toman:{' '}

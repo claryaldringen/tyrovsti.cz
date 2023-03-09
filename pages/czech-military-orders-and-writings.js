@@ -79,7 +79,7 @@ const Page = () => {
             <VaclavVlcekOfCenovHandbook />
             <Row>
               <Col>
-                <h3>References:</h3>
+                <h4>References:</h4>
                 <ul>
                   <li>
                     Hugo Toman:{' '}
