@@ -5,23 +5,15 @@ import Head from 'next/head'
 import { VaclavVlcekOfCenovHandbook } from '../components/Articles/en/VaclavVlcekOfCenovHandbook'
 import { YeWhoAreWarriorsOfGod } from '../components/Articles/en/YeWhoAreWarriorsOfGod'
 import { TheBohemianDietsProtocol } from '../components/Articles/en/TheBohemianDietsProtocol'
+import { HeadEn } from '../components/HeadEn/HeadEn'
 
 const Page = () => {
   return (
     <>
-      <Head>
-        <title>
-          Jobst of Einsiedl and Tyrzow - Czech military orders and writings
-        </title>
-        <meta
-          property="og:title"
-          content="Jobst of Einsiedl and Tyrzow - Czech military orders and writings"
-        />
-        <meta
-          property="og:image"
-          content="https://tyrovsti.cz/images/Hausbuch_Wolfegg_51v_52r1_Heerzug.jpg"
-        />
-      </Head>
+      <HeadEn
+        title="Czech military orders and writings"
+        image="Hausbuch_Wolfegg_51v_52r1_Heerzug.jpg"
+      />
       <Menu />
       <Container>
         <Row>

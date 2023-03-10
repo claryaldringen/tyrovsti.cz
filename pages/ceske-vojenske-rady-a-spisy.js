@@ -8,15 +8,12 @@ import { SnemovniZapisOHotovostiVerejne } from '../components/Articles/cz/Snemov
 import { HodetinuvRad } from '../components/Articles/cz/HodetinuvRad'
 import { ZizkuvVojenskyRad } from '../components/Articles/cz/ZizkuvVojenskyRad'
 import { ZizkovoTazeniDoUher } from '../components/Articles/cz/ZizkovoTazeniDoUher'
+import { HeadCs } from '../components/HeadCs'
 
 const Page = () => {
   return (
     <>
-      <Head>
-        <title>
-          Jošt z Einsiedle a na Týřově - České vojenské řády a spisy
-        </title>
-      </Head>
+      <HeadCs title="České vojenské řády a spisy" image="battle_of_orsha.jpg" />
       <Menu />
       <Container>
         <Row>

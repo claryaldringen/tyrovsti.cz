@@ -1,0 +1,1 @@
+export { HeadEn } from './HeadEn'

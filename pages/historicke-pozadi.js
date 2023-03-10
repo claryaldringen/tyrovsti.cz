@@ -4,13 +4,12 @@ import { Col, Container, Row } from 'reactstrap'
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
+import { HeadCs } from '../components/HeadCs'
 
 const Page = () => {
   return (
     <>
-      <Head>
-        <title>Jošt z Einsiedle a na Týřově - Historické pozadí</title>
-      </Head>
+      <HeadCs title="Historické pozadí" image="m921.033ra.jpg" />
       <Menu />
       <Container>
         <Row>

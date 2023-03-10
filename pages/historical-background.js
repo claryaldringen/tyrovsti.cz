@@ -4,10 +4,12 @@ import { Col, Container, Row } from 'reactstrap'
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
+import { HeadEn } from '../components/HeadEn/HeadEn'
 
 const Page = () => {
   return (
     <>
+      <HeadEn title="Historical background" image="m921.033ra.jpg" />
       <Head>
         <title>Jobst of Einsiedl and Tyrzow - Historical background</title>
       </Head>

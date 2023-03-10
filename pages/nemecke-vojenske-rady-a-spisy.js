@@ -8,21 +8,16 @@ import { UsneseniNorimberske } from '../components/Articles/cz/UsneseniNorimbers
 import { RadVozovyRytiruNemeckych } from '../components/Articles/cz/RadVozovyRytiruNemeckych'
 import { VozovyRadFrankfurtsky } from '../components/Articles/cz/VozovyRadFrankfurtsky'
 import { NorimberskyRadVozovy } from '../components/Articles/cz/NorimberskyRadVozovy'
-import {
-  InstrukceMarkrabiAlbrechtaOHajeniVozovehoSiku
-} from '../components/Articles/cz/InstrukceMarkrabiAlbrechtaOHajeniVozovehoSiku'
+import { InstrukceMarkrabiAlbrechtaOHajeniVozovehoSiku } from '../components/Articles/cz/InstrukceMarkrabiAlbrechtaOHajeniVozovehoSiku'
 import { InstrukceMarkrabiAlbrechtaOSikovaniVozu } from '../components/Articles/cz/InstrukceMarkrabiAlbrechtaOSikovaniVozu'
 import { RadMarkrabiAlbrechta } from '../components/Articles/cz/RadMarkrabiAlbrechta'
 import { FilipaSeldeneckaRadVozovy } from '../components/Articles/cz/FilipaSeldeneckaRadVozovy'
+import { HeadCs } from '../components/HeadCs'
 
 const Page = () => {
   return (
     <>
-      <Head>
-        <title>
-          Jošt z Einsiedle a na Týřově - Německé vojenské řády a spisy
-        </title>
-      </Head>
+      <HeadCs title="Německé vojenské řády a spisy" image="husite.jpg" />
       <Menu />
       <Container>
         <Row>

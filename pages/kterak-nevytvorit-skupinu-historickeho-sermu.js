@@ -2,13 +2,12 @@ import { Menu } from '../components/Menu/Menu'
 import { Col, Container, Row } from 'reactstrap'
 import Head from 'next/head'
 import React from 'react'
+import { HeadCs } from '../components/HeadCs'
 
 const Page = () => {
   return (
     <>
-      <Head>
-        <title>Jošt z Einsiedle a na Týřově - Spodní oděv</title>
-      </Head>
+      <HeadCs title="Kterak (ne)vytvořit skupinu historického šermu" />
       <Menu />
       <Container>
         <Row>
