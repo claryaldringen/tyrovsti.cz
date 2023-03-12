@@ -578,10 +578,10 @@ const Page = () => (
                   , Vídeň 1868
                 </li>
                 <li>
-                  Václav Kočka:<i>Dějiny Rakovnicka</i>, Rakovník 2009
+                  Václav Kočka: <i>Dějiny Rakovnicka</i>, Rakovník 2009
                 </li>
                 <li>
-                  Jan Pelant:<i>Erby české, moravské a slezské šlechty</i>,
+                  Jan Pelant: <i>Erby české, moravské a slezské šlechty</i>,
                   Praha 2013
                 </li>
                 <li>
@@ -593,7 +593,7 @@ const Page = () => (
                   , Paderborn 2004
                 </li>
                 <li>
-                  <i>Jiří Jánský: Kronika česko-bavorské hranice III</i>,
+                  Jiří Jánský: <i>Kronika česko-bavorské hranice III</i>,
                   Domažlice 2003
                 </li>
               </ul>
