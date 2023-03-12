@@ -283,7 +283,10 @@ const Page = () => (
                   beztoho nebude moci mnoho spát, jelikož má spoustu práce a
                   stále bude muset dlít v blízkosti krále”
                 </i>
-                .
+                . Během tohoto sněmu ještě poskytl advokátní službu ve sporu
+                Chebu s waldsasským opatem o Albenreuth. Za tuto a jiné služby
+                mu bylo kromě deseti zlatých věnována ještě jedna tarasnice a 4
+                ručnice, vše vyrobeno v Norimberku.
               </p>
               <p>
                 V důsledku této diplomatické činnosti získal Jošt z Eisiedle
@@ -374,20 +377,45 @@ const Page = () => (
                 jako spíše o kořist, chopí se meče a sjedná si klid.
               </p>
               <p>
-                Po smrti krále Jiřího se smíří s Matyášem a jeho přívrženci, jak
-                to učiní také město Cheb, a je rozhodnut uznat za krále toho,
-                kdo podle starého zvyku získá korunu. Proto ho vidíme také v
-                okolí Vladislava, který ho rovněž přijímá do svých služeb. Roku
+                Po smrti krále Jiřího z Poděbrad (<b>22. března 1471</b>) se na
+                počátku května 1471 Jošt úspěšně angažuje v urovnání sporu mezi
+                Chebem a nejvyšším pražským purkrabím Janem Jencem z Janovic na
+                Petršpurce. Méně úspěšný byl ve snaze smířit Cheb se svým
+                sousedem, Benešem Libštejnským z Kolovrat. Po nástupu Vladislava
+                II. Jagellonského na trůn <b>27.&nbsp;května&nbsp;1471</b>{' '}
+                setrval Jošt v úřadu sekretáře.
+              </p>
+              <p>
                 1472 získává od krále Vladislava pro Kožlany městská práva
                 stejná jako má Rakovník, erb a povolení vystavět v Kožlanech
-                pivovar. Roku 1473 postoupil mu král právem odúmrtním dvůr v
-                Hlinci a téhož roku mu potvrdil všechny výsady udělené mu
-                klrálem Jiřím a mimo to mu dovolil ještě navíc 4 jeleny nebo
-                laně v lesích zabíti a na opravu hradu připsal ještě zvlášť 50
-                kop grošů. Následující rok však Jošt umírá. &nbsp;
+                pivovar. Od června 1472 také projednával komorní soud spor mezi
+                Joštem a Fridrichem ze Šumburka. Jošt obvinil služebníky
+                Fridricha ze Šumburka z pobrání jeho krav, posléze nahnaných
+                &bdquo;na jeho páně Šumburkuov zámek&ldquo;. V případě, že by se
+                Šumburk k soudu s Joštem nedostavil, měl za pobrané krávy
+                Joštovi zaplatit.
+              </p>
+              <p>
+                K významným misím, jichž se Jošt ve službách Vladislava
+                účastnil, patřilo například jednání s Fridrichem III. v letech
+                1473- 1474, jehož se zúčastnil společně s Burianem II. z
+                Gutštejna a Benešem Libštejnským z Kolovrat. Jednáním, která se
+                odehrála v Augsburku, předcházelo ještě několik dalších jednání
+                s Albrechtem Braniborským, jejichž výsledkem bylo uznání
+                Vladislava jako právoplatného českého krále. Výsledkem jednání
+                dlouhého vyjednání s Fridrichem III. bylo dohodnutí se na
+                vojenských operacích v Rakousích za účelem bojů s Korvínem a
+                vzpurnou rakouskou šlechtou.
+              </p>
+              <p>
+                Roku 1473 postoupil mu král právem odúmrtním dvůr v Hlinci a
+                téhož roku mu potvrdil všechny výsady udělené mu klrálem Jiřím a
+                mimo to mu dovolil ještě navíc 4 jeleny nebo laně v lesích
+                zabíti a na opravu hradu připsal ještě zvlášť 50 kop grošů.
+                Následující rok však Jošt umírá. &nbsp;
                 <b>11. července 1474</b> se ještě objevuje mezi přítomnými
-                českého vrchního soudu, ale rok 1476 ho již nezastihnul mezi
-                živými, jak stojí v dopise ze &nbsp;<b>17. dubna 1476</b>:
+                komorního soudu, ale rok 1476 ho již nezastihnul mezi živými,
+                jak stojí v dopise ze &nbsp;<b>17. dubna 1476</b>:
                 <i>„Jako pánu Joštu z Einsiedle buď mu bůh milostiv”</i>.
               </p>
             </Col>
@@ -408,6 +436,11 @@ const Page = () => (
                 prodávat jen se svolením svého pána - držitelem Týřova.
               </p>
               <p>
+                V roce 1500 projednával komorní soud spor Jindřicha s Janem z
+                Gutštejna o dobývání rudy, na níž má údajně nárok Gutštenův
+                hutník Ota.
+              </p>
+              <p>
                 Jindřich byl znamenitým hospodářem. V krátké době přikoupil
                 dvory v Nezabudicích a Panoším Újezdě, vesnice Hřebečníky,
                 Skryje, Tytry, Novosedly a stavěl dvůr Myslice. Roku 1503 koupil
@@ -417,7 +450,13 @@ const Page = () => (
               </p>
               <p>
                 Za války roku 1505 vedené proti pánům Šlikům postavil 4 muže a 1
-                vůz.
+                vůz. Toho roku se také s Jindřichem soudil Ambrož Chodaur z
+                Lokte, jenž Jindřichovi zaplatil za obilí, které mu posléze
+                nebylo dodáno. V roce 1509 byl jedním z českých šlechticů, kteří
+                čekali v Brně na příjezd krále Vladislava z Trnavy, ale záhy
+                odsud zase odjeli, neboť král stále nepřijížděl. Jindřich pak v
+                roce 1513 řešil před komorním soudem spor svého služebníka
+                Rovného ze Zavidova s Jindřichem Tuchorským z Tuchořic
               </p>
               <p>
                 Nejvyšší kancléř království Českého, Adam z Hradce, dosáhl roku
@@ -426,13 +465,17 @@ const Page = () => (
                 Jindřich panství hned vydat. Jindřich, který se vykázal
                 majestátem krále Jiřího, že do své smrti nesmí být nikým
                 vyplacen, hrad nevydal a poněvadž Adam zemřel roku 1531 a
-                Jindřich ho tak přežil, zápis odumřel. Zatím stihla Jindřicha
-                těžká pohroma. S manželkou Kateřinou Řesanskou z Kadova měl 4
-                syny, totiž Jana, Albrechta, Jošta a Jiříka. Ten poslední se
-                účastnil tažení proti Turkům a roku 1526 u Moháče upadl do
-                zajetí. Otec, který ho chtěl vyplatit, musel v roce 1528
-                zastavit Týřov Jáchymovi z Malcanů, kam mu (Jáchymovi) Plzeňští
-                roku 1530 posílali list.
+                Jindřich ho tak přežil, zápis odumřel. Roku 1525 byl Jindřich
+                Týřovský předvoláván ke komornímu soudu Janem Pečkovským z
+                Pečkovic z příčiny nesvědčení u jiného soudu.
+              </p>
+              <p>
+                Zatím stihla Jindřicha těžká pohroma. S manželkou Kateřinou
+                Řesanskou z Kadova měl 4 syny, totiž Jana, Albrechta, Jošta a
+                Jiříka. Ten poslední se účastnil tažení proti Turkům a roku 1526
+                u Moháče upadl do zajetí. Otec, který ho chtěl vyplatit, musel v
+                roce 1528 zastavit Týřov Jáchymovi z Malcanů, kam mu (Jáchymovi)
+                Plzeňští roku 1530 posílali list.
               </p>
               <p>
                 Jindřichovy tísně využil Lorenc Šlik a vymohl si na králi
