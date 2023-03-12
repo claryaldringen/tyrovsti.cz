@@ -1,6 +1,7 @@
 import React from 'react'
 import { Col, Container, Row } from 'reactstrap'
 import { HeadExtended } from '../components/HeadExtended'
+import { ImageWithTitle } from '../components/ImageWithTitle/ImageWithTitle'
 
 const Page = () => (
   <>
@@ -19,7 +20,7 @@ const Page = () => (
                 Jejich původ je pak odvozen od obce Mnichov v okrese Cheb, který
                 se německy nazývá Einsiedl. Různým fonetickým přepisem pak
                 vznikly používané vyrianty z Einsiedlu/e, z Einsidlu/e, z
-                Ensiedlu/e, z Ensidlu/e, z Einzidlu/e či z Enzidlu/e
+                Ensiedlu/e, z Ensidlu/e, z Einzidlu/e či z Enzidlu/e.
               </p>
             </Col>
           </Row>
@@ -511,6 +512,15 @@ const Page = () => (
                 1556 v Jincích, kde je v kostele sv. Mikuláše i pochován.
               </p>
             </Col>
+          </Row>
+          <Row>
+            <ImageWithTitle
+              md={{ size: 6, offset: 3 }}
+              src="nahrobek.jpg"
+              width={1062}
+              height={1920}
+              title="Náhrobek Jindřicha Týřovského v kostele sv. Mikuláše v Jincích"
+            />
           </Row>
           <Row>
             <Col>
