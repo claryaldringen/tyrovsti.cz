@@ -1,7 +1,6 @@
 import React from 'react'
 import { Col, Container, Row } from 'reactstrap'
 import { Menu } from '../components/Menu'
-import Head from 'next/head'
 import { HeadCs } from '../components/HeadCs'
 
 const Page = () => (
@@ -14,6 +13,20 @@ const Page = () => (
           <Row>
             <Col>
               <h1>Týřovští z Einsiedlu</h1>
+              <p>
+                Odvozují své rodové jméno od hradu Týřova či jinak Tejřova,
+                takže se vyskytuje jak varianta Týřovští tak Tejřovští.
+              </p>
+              <p>
+                Jejich původ je pak odvozen od obce Mnichov v okrese Cheb, který
+                se německy nazývá Einsiedl. Různým fonetickým přepisem pak
+                vznikly používané vyrianty z Einsiedlu/e, z Einsidlu/e, z
+                Ensiedlu/e, z Ensidlu/e, z Einzidlu/e či z Enzidlu/e
+              </p>
+            </Col>
+          </Row>
+          <Row>
+            <Col>
               <h4>Jošt z Einsiedlu (asi 1420 - 1474)</h4>
               <p>
                 Jošt se narodil do měšťanské rodiny v městečku Einsiedl, dnešním
@@ -193,7 +206,6 @@ const Page = () => (
                 Joštovi dobyt, jsou králové povini mu pomoci dobýt hrad zpět
                 nebo jej do dvou let vyplatit.
               </p>
-              <p>S hradem</p>
               <p>
                 Jako královský tajemník měl Jošt příležitost prokázat městu Cheb
                 mnohou službu radou nebo přímluvou u krále. To již vyplynulo z
@@ -416,11 +428,12 @@ const Page = () => (
                 majestátem krále Jiřího, že do své smrti nesmí být nikým
                 vyplacen, hrad nevydal a poněvadž Adam zemřel roku 1531 a
                 Jindřich ho tak přežil, zápis odumřel. Zatím stihla Jindřicha
-                těžká pohroma. Měl 4 syny, totiž Jana, Albrechta, Jošta a
-                Jiříka. Ten poslední se účastnil tažení proti Turkům a roku 1526
-                u Moháče upadl do zajetí. Otec, který ho chtěl vyplatit, musel v
-                roce 1528 zastavit Týřov Jáchymovi z Malcanů, kam mu (Jáchymovi)
-                Plzeňští roku 1530 posílali list.
+                těžká pohroma. S manželkou Kateřinou Řesanskou z Kadova měl 4
+                syny, totiž Jana, Albrechta, Jošta a Jiříka. Ten poslední se
+                účastnil tažení proti Turkům a roku 1526 u Moháče upadl do
+                zajetí. Otec, který ho chtěl vyplatit, musel v roce 1528
+                zastavit Týřov Jáchymovi z Malcanů, kam mu (Jáchymovi) Plzeňští
+                roku 1530 posílali list.
               </p>
               <p>
                 Jindřichovy tísně využil Lorenc Šlik a vymohl si na králi
@@ -496,8 +509,8 @@ const Page = () => (
               </p>
               <p>
                 Jindřich byl roku 1546 krajským hejtmanem, roku 1545 prodal
-                Slabce se Sadlnem a roku 1555 dvůr Myslice. Zemřel v Jincích rou
-                1556, kde je v kostele sv. Mikuláše i pochován.
+                Slabce se Sadlnem a roku 1555 dvůr Myslice. Zemřel 19. února
+                1556 v Jincích, kde je v kostele sv. Mikuláše i pochován.
               </p>
             </Col>
           </Row>
