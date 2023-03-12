@@ -1,20 +1,20 @@
 import React from 'react'
-import { Menu } from '../components/Menu'
 import { Col, Container, Row } from 'reactstrap'
-import Head from 'next/head'
 import { VaclavVlcekOfCenovHandbook } from '../components/Articles/en/VaclavVlcekOfCenovHandbook'
 import { YeWhoAreWarriorsOfGod } from '../components/Articles/en/YeWhoAreWarriorsOfGod'
 import { TheBohemianDietsProtocol } from '../components/Articles/en/TheBohemianDietsProtocol'
-import { HeadEn } from '../components/HeadEn/HeadEn'
+import { HeadExtended } from '../components/HeadExtended'
+import { LANG_EN } from '../shared/constants'
 
 const Page = () => {
   return (
     <>
-      <HeadEn
+      <HeadExtended
+        lang={LANG_EN}
         title="Czech military orders and writings"
         image="Hausbuch_Wolfegg_51v_52r1_Heerzug.jpg"
       />
-      <Menu />
+
       <Container>
         <Row>
           <Col className="text">

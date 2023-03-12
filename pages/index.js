@@ -1,14 +1,16 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import React from 'react'
 import { Container } from 'reactstrap'
-import { Menu } from '../components/Menu/Menu'
+import { HeadExtended } from '../components/HeadExtended'
+import { useRouter } from 'next/router'
 
-export default () => (
-  <>
-    <Head>
-      <title>Jošt z Einsiedle a na Týřově</title>
-    </Head>
-    <Menu />
-    <Container fluid />
-  </>
-)
+const Page = () => {
+  const { locale } = useRouter()
+  return (
+    <>
+      <HeadExtended lang={locale} />
+      <Container fluid />
+    </>
+  )
+}
+
+export default Page

@@ -1,12 +1,10 @@
 import React from 'react'
 import { Col, Container, Row } from 'reactstrap'
-import { Menu } from '../components/Menu'
-import { HeadCs } from '../components/HeadCs'
+import { HeadExtended } from '../components/HeadExtended'
 
 const Page = () => (
   <>
-    <HeadCs title="Týřovští z Einsiedlu" />
-    <Menu />
+    <HeadExtended title="Týřovští z Einsiedlu" />
     <Container>
       <Row>
         <Col className="text">

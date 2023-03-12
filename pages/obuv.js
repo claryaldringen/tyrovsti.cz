@@ -1,15 +1,13 @@
-import { Menu } from '../components/Menu/Menu'
+import React from 'react'
 import { Col, Container, Row } from 'reactstrap'
 import Image from 'next/image'
-import Head from 'next/head'
+import { HeadExtended } from '../components/HeadExtended'
+import { LANG_CS } from '../shared/constants'
 
 const Page = () => {
   return (
     <>
-      <Head>
-        <title>Jošt z Einsiedle a na Týřově - Obuv</title>
-      </Head>
-      <Menu />
+      <HeadExtended lang={LANG_CS} title="Obuv" />
       <Container>
         <Row>
           <Col className="text">
@@ -24,9 +22,9 @@ const Page = () => {
                   svršek se vkládal pásek kůže, tzv. okolek. Cílem konstrukce
                   středověkké boty bylo schovat všechny důležité švy uvnitř.
                   Zatímco v Německu již začíná móda bot s kulatou špičkou, která
-                  vyvrcholila v 1. polovině 16. století botami zvanými "kravská
-                  tlama", v Čechách se ještě na počátku 16. století drží na
-                  obuvi konzervativní mírná špička.
+                  vyvrcholila v 1. polovině 16. století botami zvanými
+                  &quot;kravská tlama&quot;, v Čechách se ještě na počátku 16.
+                  století drží na obuvi konzervativní mírná špička.
                 </p>
               </Col>
             </Row>

@@ -1,1 +1,0 @@
-export { HeadCs } from './HeadCs'

@@ -1,7 +1,6 @@
 import React from 'react'
 import { Menu } from '../components/Menu'
 import { Col, Container, Row } from 'reactstrap'
-import Head from 'next/head'
 import Link from 'next/link'
 import Image from 'next/image'
 import { UsneseniNorimberske } from '../components/Articles/cz/UsneseniNorimberske'
@@ -12,12 +11,12 @@ import { InstrukceMarkrabiAlbrechtaOHajeniVozovehoSiku } from '../components/Art
 import { InstrukceMarkrabiAlbrechtaOSikovaniVozu } from '../components/Articles/cz/InstrukceMarkrabiAlbrechtaOSikovaniVozu'
 import { RadMarkrabiAlbrechta } from '../components/Articles/cz/RadMarkrabiAlbrechta'
 import { FilipaSeldeneckaRadVozovy } from '../components/Articles/cz/FilipaSeldeneckaRadVozovy'
-import { HeadCs } from '../components/HeadCs'
+import { HeadExtended } from '../components/HeadExtended'
 
 const Page = () => {
   return (
     <>
-      <HeadCs title="Německé vojenské řády a spisy" image="husite.jpg" />
+      <HeadExtended title="Německé vojenské řády a spisy" image="husite.jpg" />
       <Menu />
       <Container>
         <Row>

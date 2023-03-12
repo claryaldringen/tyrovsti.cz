@@ -1,14 +1,15 @@
-import { Menu } from '../components/Menu/Menu'
 import { Col, Container, Row } from 'reactstrap'
-import Head from 'next/head'
 import React from 'react'
-import { HeadCs } from '../components/HeadCs'
+import { HeadExtended } from '../components/HeadExtended'
+import { LANG_CS } from '../shared/constants'
 
 const Page = () => {
   return (
     <>
-      <HeadCs title="Kterak (ne)vytvořit skupinu historického šermu" />
-      <Menu />
+      <HeadExtended
+        lang={LANG_CS}
+        title="Kterak (ne)vytvořit skupinu historického šermu"
+      />
       <Container>
         <Row>
           <Col className="text">
@@ -21,6 +22,7 @@ const Page = () => {
                     <a
                       href="https://www.ceskyserm.cz/NewsDetail-477?fbclid=IwAR21axYXKWeY0euBjaOLDvRNwE6Qc_eqthode3u03WkcrtlT11MAAFtS4F4"
                       target="_blank"
+                      rel="noreferrer"
                     >
                       Český Šerm
                     </a>

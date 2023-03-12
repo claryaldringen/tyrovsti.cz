@@ -1,20 +1,22 @@
 import React from 'react'
-import { Menu } from '../components/Menu/Menu'
 import { Col, Container, Row } from 'reactstrap'
-import Head from 'next/head'
 import { KtozJsuBoziBojovnici } from '../components/Articles/cz/KtozJsuBoziBojovnici'
 import { NauceniKuKraliVladislavovi } from '../components/Articles/cz/NauceniKuKraliVladislavovi'
 import { SnemovniZapisOHotovostiVerejne } from '../components/Articles/cz/SnemovniZapisOHotovostiVerejne'
 import { HodetinuvRad } from '../components/Articles/cz/HodetinuvRad'
 import { ZizkuvVojenskyRad } from '../components/Articles/cz/ZizkuvVojenskyRad'
 import { ZizkovoTazeniDoUher } from '../components/Articles/cz/ZizkovoTazeniDoUher'
-import { HeadCs } from '../components/HeadCs'
+import { HeadExtended } from '../components/HeadExtended'
+import { LANG_CS } from '../shared/constants'
 
 const Page = () => {
   return (
     <>
-      <HeadCs title="České vojenské řády a spisy" image="battle_of_orsha.jpg" />
-      <Menu />
+      <HeadExtended
+        lang={LANG_CS}
+        title="České vojenské řády a spisy"
+        image="battle_of_orsha.jpg"
+      />
       <Container>
         <Row>
           <Col className="text">

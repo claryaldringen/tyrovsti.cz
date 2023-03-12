@@ -1,16 +1,19 @@
 import React from 'react'
-import { Menu } from '../components/Menu'
 import { Col, Container, Row } from 'reactstrap'
-import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
-import { HeadCs } from '../components/HeadCs'
+import { HeadExtended } from '../components/HeadExtended'
+import { LANG_CS } from '../shared/constants'
 
 const Page = () => {
   return (
     <>
-      <HeadCs title="Historické pozadí" image="m921.033ra.jpg" />
-      <Menu />
+      <HeadExtended
+        lang={LANG_CS}
+        title="Historické pozadí"
+        image="m921.033ra.jpg"
+      />
+
       <Container>
         <Row>
           <Col className="text">
