@@ -390,10 +390,10 @@ const Page = () => (
                 stejná jako má Rakovník, erb a povolení vystavět v Kožlanech
                 pivovar. Od června 1472 také projednával komorní soud spor mezi
                 Joštem a Fridrichem ze Šumburka. Jošt obvinil služebníky
-                Fridricha ze Šumburka z pobrání jeho krav, posléze nahnaných
-                &bdquo;na jeho páně Šumburkuov zámek&ldquo;. V případě, že by se
-                Šumburk k soudu s Joštem nedostavil, měl za pobrané krávy
-                Joštovi zaplatit.
+                Fridricha ze Šumburka z pobrání jeho krav, posléze nahnaných{' '}
+                <i>&bdquo;na jeho páně Šumburkuov zámek&ldquo;</i>. V případě,
+                že by se Šumburk k soudu s Joštem nedostavil, měl za pobrané
+                krávy Joštovi zaplatit.
               </p>
               <p>
                 K významným misím, jichž se Jošt ve službách Vladislava
