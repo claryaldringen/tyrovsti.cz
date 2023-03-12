@@ -386,7 +386,7 @@ const Page = () => (
                 setrval Jošt v úřadu sekretáře.
               </p>
               <p>
-                1472 získává od krále Vladislava pro Kožlany městská práva
+                Roku 1472 získává od krále Vladislava pro Kožlany městská práva
                 stejná jako má Rakovník, erb a povolení vystavět v Kožlanech
                 pivovar. Od června 1472 také projednával komorní soud spor mezi
                 Joštem a Fridrichem ze Šumburka. Jošt obvinil služebníky
