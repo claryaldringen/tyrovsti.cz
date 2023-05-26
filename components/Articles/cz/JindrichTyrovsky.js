@@ -109,12 +109,14 @@ export const JindrichTyrovsky = () => (
         <p>
           Také otec Jindřich měl co do činění se soudy. Roku 1536 ho obeslal
           Erhart Kfelíř kvůli škodě 100 kop grošů, protože prý jeho (Jidřichovi)
-          lidé chodili po lesích s ručnicemi a zvěř okolo Týřova stříleli.
-          Mikuláš Pešík z Komárova pohnal Jindřicha o 3 zvířecí tenata a
-          tisovatého koně, které si vypůjčil a nevrátil.
+          lidé chodili po lesích s ručnicemi a zvěř okolo Týřova stříleli. Roku
+          1544 pohnal Mikuláš Pešík z Komárova Jindřicha o 3 zvířecí tenata a
+          tisovatého koně, které si vypůjčil od Mikulášova zesnulého bratra Jana
+          a nevrátil je. Zajímavé je, že Mikuláš a Jindřich byli nějakým
+          způsobem příbuzensky spřízněni.
         </p>
         <p>
-          Když Lorenc Šlik viděl, že Jindřicha nepřežije týřovského panství se
+          Když Lorenc Šlik viděl, že Jindřicha nepřežije a týřovského panství se
           nedočká, roku 1545 se svolením krále Ferdinanda převedl své právo na
           Týřov Václavovi Mašťovskému na Strojeticích, který se hned vzdal všeho
           práva na honitbu a král mu za to připsal 100 kop grošů na Týřov a
@@ -131,8 +133,10 @@ export const JindrichTyrovsky = () => (
         </p>
         <p>
           Jindřich byl roku 1546 krajským hejtmanem, roku 1545 prodal Slabce se
-          Sadlnem a roku 1555 dvůr Myslice. Zemřel 19. února 1556 v Jincích, kde
-          je v kostele sv. Mikuláše i pochován.
+          Sadlnem a roku 1555 dvůr Myslice. Po rozdělení svého zboží mezi své
+          syny se v roce 1556 odstěhoval do Jinců, které náležely Mikuláši
+          Pešíkovi z Komárova, kde 19. února 1556 zemřel a je ve zdejším kostele
+          sv. Mikuláše i pochován.
         </p>
       </Col>
     </Row>

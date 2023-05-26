@@ -181,6 +181,7 @@ h4 {
 .image-wrapper {
   margin-bottom: 32px;
   text-align: center;
+  cursor: pointer;
 }
 
 .image-description {

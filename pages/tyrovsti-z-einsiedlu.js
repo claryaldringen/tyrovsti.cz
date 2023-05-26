@@ -26,6 +26,7 @@ const Page = () => (
           </Row>
           <Row>
             <Col>
+              <div className="anchor" id="jost-tyrovsky-z-einsiedlu" />
               <h4>Jošt z Einsiedlu (asi 1420 - 1474)</h4>
               <p>
                 Jošt se narodil do měšťanské rodiny v městečku Einsiedl, dnešním
@@ -272,6 +273,7 @@ const Page = () => (
                 </i>
               </p>
               <p>
+                <div className="anchor" id="1" />
                 Podobnou agendu také pravděpodobně zastával na sněmu pořádaném
                 rovněž v Chebu na hromnice 1461. Joštovi byla také tentokrát
                 přisouzena pravděpodobně významná role, což vyplývá z jeho
@@ -302,7 +304,7 @@ const Page = () => (
                 </i>{' '}
                 4). Také Jošt sděloval markraběti opakovaně zprávy z českého
                 dvora (dochoval se dopis z&nbsp;<b>4. července 1464</b> a tři
-                dopisy z roku 1469).
+                dopisy z roku 1469).m
               </p>
               <p>
                 Vliv královského tajného písaře se projevoval při různých
