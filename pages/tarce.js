@@ -1,6 +1,5 @@
 import React from 'react'
 import { Col, Container, Row } from 'reactstrap'
-import Image from 'next/image'
 import Link from 'next/link'
 import { HeadExtended } from '../components/HeadExtended'
 import { LANG_CS } from '../shared/constants'
@@ -75,17 +74,45 @@ const Page = () => {
                 skryta pod vrstvami pozdějšího nátěru. Na kůží potažené zadní
                 straně štítu jsou stopy po namalované postavě svatého Kryštofa,
                 jehož obraz měl chránit před náhlou smrtí.
+                <table>
+                  <tbody>
+                    <tr>
+                      <th>Výška:&nbsp;</th>
+                      <td>55,88 cm</td>
+                    </tr>
+                    <tr>
+                      <th>Šířka:&nbsp;</th>
+                      <td>40,64 cm</td>
+                    </tr>
+                  </tbody>
+                </table>
               </Col>
               <Col md={4}>
                 Přestože je prostřední tarče poškozená používáním a stářím, je
                 jedním z nejkrásněji malovaných příkladů tarčí patnáctého
                 století. Na dochované ploše zobrazuje ženu v opeřeném turbanu,
-                která drží banderolu (svitek, stuhu) s nápisem v němčině "FAHR
-                MIT FREUDEN" (jdi s radostí). Na heraldickém štítě vpravo byl
-                dříve zobrazen erb majitele, který je dnes nečitelný. Okolní
-                plochy jsou jemně malované dekorem zavinutých listů a "pásy
-                mraků" v neprůhledných barvách a průsvitných glazurách na
-                leštěném stříbrnolistém podkladu.
+                která drží banderolu (svitek, stuhu) s nápisem v němčině
+                &bdquo;FAHR MIT FREUDEN&ldquo; (jdi s radostí). Na heraldickém
+                štítě vpravo byl dříve zobrazen erb majitele, který je dnes
+                nečitelný. Okolní plochy jsou jemně malované dekorem zavinutých
+                listů a &bdquo;pásy mraků&ldquo; v neprůhledných barvách a
+                průsvitných glazurách na leštěném stříbrnolistém podkladu.
+                <table>
+                  <tbody>
+                    <tr>
+                      <th>Výška:&nbsp;</th>
+                      <td>48,3 cm</td>
+                    </tr>
+                    <tr>
+                      <th>Šířka:&nbsp;</th>
+                      <td>42,5 cm</td>
+                    </tr>
+                    <tr>
+                      <th>Hmotnost:&nbsp;</th>
+                      <td>1704 g</td>
+                    </tr>
+                  </tbody>
+                </table>
               </Col>
               <Col md={4}>
                 Povrch tarče vpravo je malován jemným stříbrným dekorem
@@ -99,14 +126,26 @@ const Page = () => {
                 (zemřel 1438), norimberského měšťana v letech 1435-36, a jeho
                 manželku Annu Igelbrechtovou, která se za něj provdala v roce
                 1391.
+                <table>
+                  <tbody>
+                    <tr>
+                      <th>Výška:&nbsp;</th>
+                      <td>53,3 cm</td>
+                    </tr>
+                    <tr>
+                      <th>Šířka:&nbsp;</th>
+                      <td>45,7 cm</td>
+                    </tr>
+                  </tbody>
+                </table>
               </Col>
             </Row>
             <Row>
               <Col>
                 <h4>Rekonstrukce</h4>
                 <p>
-                  Protože se mi nepodařilo najít žádnou dochovanou tarči z
-                  Českého území, vybral jsem si pro rekonstrukci následující
+                  Protože se nám nepodařilo najít žádnou dochovanou tarči z
+                  českého území, vybral jsem si pro rekonstrukci následující
                   tarči z let 1440 - 1460, pravděpodobně z Norimberka, která se
                   nyní nachází v Muzeu umění ve Filadelfii. Jak víme, Čechy byly
                   s Norimberkem v čilém obchodním vztahu a sám{' '}
@@ -114,12 +153,14 @@ const Page = () => {
                     Jošt vlastnil palné zbraně vyrobené v Norimberku.
                   </Link>
                   Tarči s podobně stylizovanými okraji do tvaru srolovaných
-                  svitků zobrazuje i Jan van Eyck na obraze "Kristovi rytíři",
-                  který je součástí levého panelu Gentského oltáře z roku 1432.
-                  Tarče byla poprvé přemalována kolem roku 1500 a její současná
-                  podoba je výsledkem barokní přemalby ze 17. století, kdy byla
-                  vymalována pro pohřební účely a opatřena erby norimberských
-                  patricijských rodů Hallerů a Imhofů.
+                  svitků zobrazuje i Jan van Eyck na obraze &bdquo;Kristovi
+                  rytíři&ldquo;, který je součástí levého panelu Gentského
+                  oltáře z roku 1432. Tarče byla poprvé přemalována kolem roku
+                  1500 a její současná podoba je výsledkem barokní přemalby ze
+                  17. století, kdy byla vymalována pro pohřební účely a opatřena
+                  erby norimberských patricijských rodů Hallerů a Imhofů.
+                  Orignál tarče je 55,6 cm vysoký, 52 cm široký a jeho prohnutí
+                  činí 23 cm. Váží 2880 gramů.
                 </p>
               </Col>
             </Row>
@@ -149,13 +190,8 @@ const Page = () => {
             <Row>
               <Col>
                 <p>
-                  Protože se původní malba tarče nedochovala a také protože
-                  hodlám používat repliku pro reprezentaci mnou představované
-                  postavy{' '}
-                  <Link href="/tyrovsti-z-einsiedlu#jost-tyrovsky-z-einsiedlu">
-                    Jošta z Einsiedlu
-                  </Link>
-                  , rozhodl jsem se pro ni vytvořit originální, dobově
+                  Vzhledem k tomu, že se původní malba tarče nedochovala,
+                  rozhodli jsme se pro ni vytvořit originální avšak dobově
                   odpovídající motiv. Pozadí tarče je černé, s dekorem
                   stříbrných zavinutých listů stejně, jako na německé tarči z
                   obr. 3. Černá barva reprezentuje střídmý a neokázalý
@@ -180,9 +216,10 @@ const Page = () => {
                   pravém červený tatarský klobouk se stříbrnou podšívkou a
                   černými pery. Přikryvadla na levé přílbě jsou modrá se
                   stříbrnou podšívkou a přikryvadla na pravé přilbě jsou červená
-                  se stříbrnou podšívkou. Banderola s nápisem "Protyw
-                  neprzáteluom" je umístěna stejně jako na tarči z obr. 2. Na
-                  vnitřní straně je pak analogický nápis "Protyw ʃobye".
+                  se stříbrnou podšívkou. Banderola s nápisem &bdquo;Protyw
+                  neprzáteluom&ldquo; je umístěna stejně jako na tarči z obr. 2.
+                  Na vnitřní straně je pak analogický nápis &bdquo;Protyw
+                  ʃobye&ldquo;.
                 </p>
               </Col>
             </Row>
