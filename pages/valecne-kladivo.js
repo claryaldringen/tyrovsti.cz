@@ -124,8 +124,8 @@ const Page = () => {
                   Pro rekonstrukci jsme vzhledem k jeho dataci vybrali kladivo z
                   Worcestru. Zajimavostí tohoto kladiva je, že jeho hlavice je k
                   řapu připevněna nikoli nýty, ale dvojcemi šroubů s hranatou
-                  hlavou. Hmotnost repliky je 2847 g. Repliku zhotovil Vojtěch
-                  Jelínek.
+                  hlavou. Délka repliky je 220 cm a hmotnost 2847 g. Repliku
+                  zhotovil Vojtěch Jelínek.
                 </p>
               </Col>
               <Row>
