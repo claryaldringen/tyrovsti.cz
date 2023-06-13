@@ -11,6 +11,10 @@ export const menuCs = [
     href: '/nemecke-vojenske-rady-a-spisy',
     title: 'Německé vojenské řády a spisy',
   },
+  {
+    href: '/jezdecky-serm',
+    title: 'Jezdecký šerm',
+  },
 ]
 
 export const menuEn = [
