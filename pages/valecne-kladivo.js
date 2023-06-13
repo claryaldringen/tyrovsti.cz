@@ -78,6 +78,8 @@ const Page = () => {
                     </tr>
                   </tbody>
                 </table>
+                <br />
+                <br />
               </Col>
               <Col md={4}>
                 Obrázek 2: Jednoruční kladivo z Metropolitního muzea umění v New
@@ -94,9 +96,12 @@ const Page = () => {
                     </tr>
                   </tbody>
                 </table>
+                <br />
+                <br />
               </Col>
               <Col md={4}>
-                Lucernské kladivo z Filadelfského muzea umění, Švýcarsko, 1500.
+                Obrázek 3: Lucernské kladivo z Filadelfského muzea umění,
+                Švýcarsko, 1500.
                 <table>
                   <tbody>
                     <tr>
@@ -109,6 +114,8 @@ const Page = () => {
                     </tr>
                   </tbody>
                 </table>
+                <br />
+                <br />
               </Col>
             </Row>
             <Row>
