@@ -33,9 +33,8 @@ const Page = () => {
                   Válečná kladiva poloviny kolem poloviny 15. století jsou
                   relativně jednoduchého tvaru, s krátkým mohutným zobanem
                   (bec-de-corbin) a také krátkým mohutným hrotem ve srovnání s
-                  pozdějšími kladivy, například lucernského. Rovněž středový nýt
-                  ještě nebývá vytažen do hrotů. Zajímavé u těchto ranných
-                  variant
+                  pozdějšími kladivy, například lucernským. Rovněž středový nýt
+                  ještě nebývá vytažen do hrotů.
                 </p>
               </Col>
             </Row>
@@ -125,7 +124,8 @@ const Page = () => {
                   Pro rekonstrukci jsme vzhledem k jeho dataci vybrali kladivo z
                   Worcestru. Zajimavostí tohoto kladiva je, že jeho hlavice je k
                   řapu připevněna nikoli nýty, ale dvojcemi šroubů s hranatou
-                  hlavou. Repliku zhotovil Vojtěch Jelínek.
+                  hlavou. Hmotnost repliky je 2847 g. Repliku zhotovil Vojtěch
+                  Jelínek.
                 </p>
               </Col>
               <Row>
