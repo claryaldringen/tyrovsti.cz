@@ -7,7 +7,11 @@ import { ImageWithTitle } from '../components/ImageWithTitle/ImageWithTitle'
 const Page = () => {
   return (
     <>
-      <HeadExtended lang={LANG_CS} title="Válečné kladivo" />
+      <HeadExtended
+        lang={LANG_CS}
+        title="Válečné kladivo"
+        image="145159907_2454233381550561_6076649610687634798_n.jpg"
+      />
       <Container>
         <Row>
           <Col className="text">
