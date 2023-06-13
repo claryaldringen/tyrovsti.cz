@@ -9,7 +9,6 @@ const Page = () => {
   return (
     <>
       <HeadExtended lang={LANG_CS} title="Tarče" />
-
       <Container>
         <Row>
           <Col className="text">

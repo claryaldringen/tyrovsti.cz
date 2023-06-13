@@ -12,8 +12,8 @@ export const menuCs = [
     title: 'Německé vojenské řády a spisy',
   },
   {
-    href: '/jezdecky-serm',
-    title: 'Jezdecký šerm',
+    href: '/valecne-kladivo',
+    title: 'Válečné kladivo',
   },
 ]
 

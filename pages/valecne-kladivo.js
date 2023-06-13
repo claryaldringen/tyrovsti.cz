@@ -1,47 +1,182 @@
 import React from 'react'
-import { Menu } from '../components/Menu'
 import { Col, Container, Row } from 'reactstrap'
-import Image from 'next/image'
-import Head from 'next/head'
+import { LANG_CS } from '../shared/constants'
+import { HeadExtended } from '../components/HeadExtended'
+import { ImageWithTitle } from '../components/ImageWithTitle/ImageWithTitle'
 
 const Page = () => {
   return (
     <>
-      <Head>
-        <title>Jošt z Einsiedle a na Týřově - Válečné kladivo</title>
-      </Head>
-      <Menu />
+      <HeadExtended lang={LANG_CS} title="Válečné kladivo" />
       <Container>
         <Row>
           <Col className="text">
             <Row>
               <Col>
-                <h3>Válečné kladivo</h3>
+                <h1>Válečné kladivo</h1>
+              </Col>
+            </Row>
+            <Row>
+              <Col>
+                <h4>Úvod</h4>
                 <p>
-                  Sekera, oštěp/kopí a kladivo byly nejčasnějšími zbraněmi
-                  lidstva. Tyto nejstarší válečné nástroje byly vyrobeny z
-                  kamene nebo ze dřeva. Oštěp byl navržen k bodání, sekera k
-                  sekání a kladivo k drcení. Jak se lidská civilizace vyvíjela a
-                  zlepšovala se její schopnost pracovat s kovy, zlepšovaly se i
-                  zbraně. V průběhu věků prošly kopí, sekera i kladivo mnoha
-                  změnami stylu a tvaru, diktovanými potřebou, módou a
-                  metalurgickými inovacemi. Někdy se kombinovalo několik těchto
-                  specializovaných zbraní, aby se diverzifikoval a zvýšil jejich
-                  potenciál. Například hlava kladiva by byla přidána na zadní
-                  stranu sekery, čímž se zbraň stala hybridem mezi sekerou a
-                  kladivem, nebo by byl přidán hrot na horní straně kladiva, což
-                  zase znamenalo hybrid mezi kopím a kladivem . Zdá se, že
-                  takové zbraně s více schopnostmi byly používány přinejmenším
-                  již v době Vikingů, protože existuje několik dobových
-                  literárních odkazů na sečná kopí, kterými bylo možné sekat i
-                  bodat. I když toho mohlo být dosaženo jednoduchým rozšířením a
-                  prodloužením hrotu kopí, trend směrem k přidávání dalších
-                  funkcí k vytvoření specializované zbraně je jasný. Vypadá to,
-                  že v průběhu 13. a 14. století se tyto hybridní zbraně staly
-                  populárnějšími a v průběhu 15. a 16. století byly široce
-                  používány.
+                  S vývojem plátové zbroje a nástupem pěchoty coby hlavní bojové
+                  síly v průběhu 14. a 15. století se také vyvíjel design
+                  pěchotních dřevcových zbraní, v českém prostředí zvaných kúsy,
+                  různě kombinující možnost bodných, sečných či drtivých úderů.
+                </p>
+                <p>
+                  Válečná kladiva poloviny kolem poloviny 15. století jsou
+                  relativně jednoduchého tvaru, s krátkým mohutným zobanem
+                  (bec-de-corbin) a také krátkým mohutným hrotem ve srovnání s
+                  pozdějšími kladivy, například lucernského. Rovněž středový nýt
+                  ještě nebývá vytažen do hrotů. Zajímavé u těchto ranných
+                  variant
                 </p>
               </Col>
+            </Row>
+            <Row>
+              <ImageWithTitle
+                md={4}
+                src="DP7063.jpeg"
+                width={665}
+                height={1130}
+                title="Obr. 1: Obouruční válečné kladivo pro pěší boj, Německo, kolem roku 1440"
+              />
+              <ImageWithTitle
+                md={4}
+                src="DP-15647-026.jpg"
+                width={1376}
+                height={1920}
+                title="Obr. 2: Jednoruční válečné kladivo, Francie, kolem roku 1450"
+              />
+              <ImageWithTitle
+                md={4}
+                src="1977-167-466-pma2017.jpg"
+                width={3072}
+                height={4096}
+                title="Obr. 3: Lucernské kladivo, Svýcarsko, 1500"
+              />
+            </Row>
+            <Row>
+              <Col md={4}>
+                Obrázek 1: Obouruční kladivo z muzea umění ve Worcestru,
+                Německo, kolem roku 1440.
+                <table>
+                  <tbody>
+                    <tr>
+                      <th>Délka dochované části:&nbsp;</th>
+                      <td>105,4 cm</td>
+                    </tr>
+                    <tr>
+                      <th>Hmotnost:&nbsp;</th>
+                      <td>2041,1 g</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </Col>
+              <Col md={4}>
+                Obrázek 2: Jednoruční kladivo z Metropolitního muzea umění v New
+                Yorku, Francie, kolem roku 1450.
+                <table>
+                  <tbody>
+                    <tr>
+                      <th>Délka:&nbsp;</th>
+                      <td>65,5 cm</td>
+                    </tr>
+                    <tr>
+                      <th>Hmotnost:&nbsp;</th>
+                      <td>1474,2 g</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </Col>
+              <Col md={4}>
+                Lucernské kladivo z Filadelfského muzea umění, Švýcarsko, 1500.
+                <table>
+                  <tbody>
+                    <tr>
+                      <th>Výška hlavice:&nbsp;</th>
+                      <td>48,6 cm</td>
+                    </tr>
+                    <tr>
+                      <th>Délka hlavice:&nbsp;</th>
+                      <td>21,3 cm</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </Col>
+            </Row>
+            <Row>
+              <Col>
+                <h4>Rekonstrukce</h4>
+                <p>
+                  Pro rekonstrukci jsme vzhledem k jeho dataci vybrali kladivo z
+                  Worcestru. Zajimavostí tohoto kladiva je, že jeho hlavice je k
+                  řapu připevněna nikoli nýty, ale dvojcemi šroubů s hranatou
+                  hlavou. Repliku zhotovil Vojtěch Jelínek.
+                </p>
+              </Col>
+              <Row>
+                <ImageWithTitle
+                  src="145352114_2454233218217244_1239154704725255175_n.jpg"
+                  width={1885}
+                  height={1414}
+                  title=""
+                />
+                <ImageWithTitle
+                  src="144900516_2454233258217240_4835566531118336875_n.jpg"
+                  width={2016}
+                  height={1512}
+                  title=""
+                />
+                <ImageWithTitle
+                  src="144989261_2454233191550580_7533405486375892515_n.jpg"
+                  width={1724}
+                  height={1293}
+                  title=""
+                />
+              </Row>
+              <Row>
+                <ImageWithTitle
+                  src="145095620_2454233278217238_3303663509323734164_n.jpg"
+                  width={2016}
+                  height={1512}
+                  title=""
+                />
+                <ImageWithTitle
+                  src="145159907_2454233381550561_6076649610687634798_n.jpg"
+                  width={2016}
+                  height={1512}
+                  title=""
+                />
+                <ImageWithTitle
+                  src="145234376_2454233334883899_8417551400168761453_n.jpg"
+                  width={2016}
+                  height={1512}
+                  title=""
+                />
+              </Row>
+              <Row>
+                <ImageWithTitle
+                  src="145239776_2454233311550568_8570324239103713777_n.jpg"
+                  width={2016}
+                  height={1512}
+                  title=""
+                />
+                <ImageWithTitle
+                  src="145323233_2454233174883915_8456973728614592166_n.jpg"
+                  width={2016}
+                  height={1512}
+                  title=""
+                />
+                <ImageWithTitle
+                  src="145347606_2454233238217242_4854487319947455893_n.jpg"
+                  width={2016}
+                  height={1512}
+                  title=""
+                />
+              </Row>
             </Row>
           </Col>
         </Row>
