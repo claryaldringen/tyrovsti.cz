@@ -202,23 +202,22 @@ const Page = () => {
                   <Link href="/images/nahrobek.jpg">
                     nejstaršího známého vyobrazení erbu Týřovských z náhrobku
                     kostela v Jincích
-                  </Link>{' '}
-                  a je stylizován podle Knihy erbů (<i>Wappenbuch</i>), kterou
-                  roku 1483 vytvořil a věnoval císaři Fridrichu III. kostnický
-                  patricij Konrád Grünenberg. Na heraldickém štítu, děleném na
-                  čtvrtiny, je v 1. a 4. poli na stříbrném pozadí černý císařský
-                  orel (tj. se dvěma hlavami) se zlatou zbrojí (spáry a
-                  zobákem), zatímco ve 2. a 3. poli jsou na modrém poli tři bílé
-                  brky spojené hroty k sobě. Štít je opatřen dvěma přílbami
-                  opatřenými zlatými korunkami s klenoty a přikryvadly, přičemž
-                  v levém klenotu je dáma v černém a se zlatou korunkou a v
-                  pravém červený tatarský klobouk se stříbrnou podšívkou a
-                  černými pery. Přikryvadla na levé přílbě jsou modrá se
-                  stříbrnou podšívkou a přikryvadla na pravé přilbě jsou červená
-                  se stříbrnou podšívkou. Banderola s nápisem &bdquo;Protyw
-                  neprzáteluom&ldquo; je umístěna stejně jako na tarči z obr. 2.
-                  Na vnitřní straně je pak analogický nápis &bdquo;Protyw
-                  ʃobye&ldquo;.
+                  </Link>
+                  . Erbovní figury, přikryvadla a korunky jsou stylizovány podle
+                  Knihy erbů (<i>Wappenbuch</i>), kterou roku 1483 vytvořil a
+                  věnoval císaři Fridrichu III. kostnický patricij Konrád
+                  Grünenberg. Na heraldickém štítu, děleném na čtvrtiny, je v 1.
+                  a 4. poli na stříbrném pozadí černý císařský orel (tj. se
+                  dvěma hlavami) se zlatou zbrojí (spáry a zobákem), zatímco ve
+                  2. a 3. poli jsou na modrém poli tři bílé brky spojené hroty k
+                  sobě. Nalevo nakloněný štít je nad pravým rohem opatřen kolčí
+                  přilbou, stejnou jako je na tarči na obr. 1. a opatřenou kromě
+                  klenotu a červených přikryvadel se stříbrnou podšívkou též
+                  zlatou korunkou. V klenotu je červený tatarský klobouk se
+                  stříbrnou podšívkou a černými pery. Banderola s nápisem
+                  &bdquo;Protyw neprzáteluom&ldquo; je umístěna stejně jako na
+                  tarči z obr. 2. Na vnitřní straně je pak analogický nápis
+                  &bdquo;Protyw ʃobye&ldquo;.
                 </p>
               </Col>
             </Row>
@@ -232,10 +231,10 @@ const Page = () => {
               />
               <ImageWithTitle
                 md={7}
-                src="wappenbuch.jpg"
-                width={1410}
-                height={1416}
-                title="Erb se dvěma přilbami z knihy Wappenbuch, Kostnice, 1483"
+                src="reichswappen.jpg"
+                width={1712}
+                height={1330}
+                title="Erb císaře Fridricha III. z knihy Wappenbuch, Kostnice, 1483. Orlice (jednohlavá) symbolizuje Germánii, (dvojhlavý) orel Svatou říši římskou a trojhlavý orel Řím."
               />
             </Row>
             <Row>
@@ -286,6 +285,43 @@ const Page = () => {
                 src="korpus6.jpg"
                 width={2048}
                 height={1531}
+                title=""
+              />
+            </Row>
+            <Row>
+              <Col>
+                <h5>Potažení</h5>
+                <p>
+                  Korpus je potažen lněným plátnem za použití kostního klihu.
+                  Před potažením bylo potřeba jej ještě finálně dobrousit.
+                  Dobroušení a potažení korpusu provedli pánové Zdeněk Sedláček
+                  a Daniel Richter.
+                </p>
+              </Col>
+            </Row>
+            <Row>
+              <ImageWithTitle
+                src="IMG_3066.jpg"
+                width={960}
+                height={1289}
+                title=""
+              />
+              <ImageWithTitle
+                src="IMG_3076.jpg"
+                width={960}
+                height={1289}
+                title=""
+              />
+              <ImageWithTitle
+                src="IMG_3130.jpg"
+                width={960}
+                height={1289}
+                title=""
+              />
+              <ImageWithTitle
+                src="IMG_3139.jpg"
+                width={960}
+                height={1289}
                 title=""
               />
             </Row>
