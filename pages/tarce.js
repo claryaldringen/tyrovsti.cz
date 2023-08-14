@@ -30,6 +30,25 @@ const Page = () => {
                   klihu), které vytvářelo podklad pro malbu temperovými barvami.
                 </p>
                 <p>
+                  Tarče, stejně jako ostatní štíty, zhotovovali nejčastěji
+                  specializovaní řemeslníci zvaní štítaři, kteří měli blízko k
+                  malířům. Roku 1348 si malíři a štítaři pražských měst založili
+                  bratrstvo a přibírali do něj i příbuzné řemeslníky jako
+                  sklenáře, knihvazače, řezbáře, pergameníky, zlatotepce,
+                  illuminátory, cuprejtýře a jiné. Toto bratrstvo se někdy po
+                  roce 1380 rozštěpilo na staroměstský cech{' '}
+                  <i>malířů a sklenářů</i> a novoměstský cech{' '}
+                  <i>malířů a štítařů</i>, jehož existence je však bezpečně
+                  prokázána až roku 1455. Na Novém městě pražském se štítaři
+                  usazovali u hradeb a roku 1365 jim Karel IV. udělil
+                  privilegium malovat a prodávat štíty a tarče pod věžemi. Toto
+                  privilegium bylo obnoveno ještě v letech 1380 a 1392. V roce
+                  1458 bylo stanoveno, že novoměstští štítaři budou odvádět
+                  jednu pavézu ročně, vždy po Vánocích{' '}
+                  <i>&bdquo;pánům a městu ku potřebě ke cti i k kráse&ldquo;</i>
+                  .
+                </p>
+                <p>
                   Častým motivem na tarčích z německého prostoru je dáma, která
                   přidržuje úplný erb, tj. heraldický štít s přilbou, klenotem a
                   přikryvadly, jak je vidět na následujícíh příkladech z
@@ -64,15 +83,15 @@ const Page = () => {
             </Row>
             <Row>
               <Col md={4}>
-                Na levé tarči je namalován erb patřící buď rodu Gottsmannů nebo
-                příbuznému rodu Türriegelů, oba z Franků. Ženská postava po
-                straně drží banderolu (svitek, stuhu) s částečně německy psaným
-                heslem: HAB MYCH ALS ICH BIN... (Vezmi mě takovou, jaká
-                jsem...). Výzdoba se zářivými barvami na stříbřitě fóliovém
-                podkladu je pozoruhodně zachovalá, protože byla po staletí
-                skryta pod vrstvami pozdějšího nátěru. Na kůží potažené zadní
-                straně štítu jsou stopy po namalované postavě svatého Kryštofa,
-                jehož obraz měl chránit před náhlou smrtí.
+                Na první tarči (Obr. 1)je namalován erb patřící buď rodu
+                Gottsmannů nebo příbuznému rodu Türriegelů, oba z Franků. Ženská
+                postava po straně drží banderolu (svitek, stuhu) s částečně
+                německy psaným heslem: HAB MYCH ALS ICH BIN... (Vezmi mě
+                takovou, jaká jsem...). Výzdoba se zářivými barvami na stříbřitě
+                fóliovém podkladu je pozoruhodně zachovalá, protože byla po
+                staletí skryta pod vrstvami pozdějšího nátěru. Na kůží potažené
+                zadní straně štítu jsou stopy po namalované postavě svatého
+                Kryštofa, jehož obraz měl chránit před náhlou smrtí.
                 <table>
                   <tbody>
                     <tr>
@@ -87,15 +106,16 @@ const Page = () => {
                 </table>
               </Col>
               <Col md={4}>
-                Přestože je prostřední tarče poškozená používáním a stářím, je
-                jedním z nejkrásněji malovaných příkladů tarčí patnáctého
-                století. Na dochované ploše zobrazuje ženu v opeřeném turbanu,
-                která drží banderolu (svitek, stuhu) s nápisem v němčině
-                &bdquo;FAHR MIT FREUDEN&ldquo; (jdi s radostí). Na heraldickém
-                štítě vpravo byl dříve zobrazen erb majitele, který je dnes
-                nečitelný. Okolní plochy jsou jemně malované dekorem zavinutých
-                listů a &bdquo;pásy mraků&ldquo; v neprůhledných barvách a
-                průsvitných glazurách na leštěném stříbrnolistém podkladu.
+                Přestože je prostřední tarče (Obr. 2) poškozená používáním a
+                stářím, je jedním z nejkrásněji malovaných příkladů tarčí
+                patnáctého století. Na dochované ploše zobrazuje ženu v opeřeném
+                turbanu, která drží banderolu (svitek, stuhu) s nápisem v
+                němčině &bdquo;FAHR MIT FREUDEN&ldquo; (jdi s radostí). Na
+                heraldickém štítě vpravo byl dříve zobrazen erb majitele, který
+                je dnes nečitelný. Okolní plochy jsou jemně malované dekorem
+                zavinutých listů a &bdquo;pásy mraků&ldquo; v neprůhledných
+                barvách a průsvitných glazurách na leštěném stříbrnolistém
+                podkladu.
                 <table>
                   <tbody>
                     <tr>
@@ -114,7 +134,7 @@ const Page = () => {
                 </table>
               </Col>
               <Col md={4}>
-                Povrch tarče vpravo je malován jemným stříbrným dekorem
+                Povrch třetí tarče (Obr 3.) je malován jemným stříbrným dekorem
                 zavinutých listů (nyní zašlých) na černém podkladu. Během své
                 pracovní životnosti byl štít sekundárně pomalován dvěma štíty se
                 znaky norimberských patricijských rodů Ketzelů (na černém
@@ -193,31 +213,29 @@ const Page = () => {
                   rozhodli jsme se pro ni vytvořit originální avšak dobově
                   odpovídající motiv. Pozadí tarče je černé, s dekorem
                   stříbrných zavinutých listů stejně, jako na německé tarči z
-                  obr. 3. Černá barva reprezentuje střídmý a neokázalý
-                  katolicismus majitele, stříbrný dekor pak odkazuje na tradiční
-                  sepjetí českých zemí s tímto drahým kovem. Jako předloha pro
-                  dámu byla vybrána sv. Dorota z levého křídla oltáře z
-                  Jeníkova, datovanéhok roku 1460. Erb, který drží, vychází
-                  z&nbsp;
+                  obr. 3. Jako předloha pro dámu byla vybrána sv. Dorota z
+                  levého křídla oltáře z Jeníkova, datovaného k roku 1460. Erb,
+                  který na tarči drží, vychází z&nbsp;
                   <Link href="/images/nahrobek.jpg">
                     nejstaršího známého vyobrazení erbu Týřovských z náhrobku
                     kostela v Jincích
                   </Link>
-                  . Erbovní figury, přikryvadla a korunky jsou stylizovány podle
-                  Knihy erbů (<i>Wappenbuch</i>), kterou roku 1483 vytvořil a
-                  věnoval císaři Fridrichu III. kostnický patricij Konrád
-                  Grünenberg. Na heraldickém štítu, děleném na čtvrtiny, je v 1.
-                  a 4. poli na stříbrném pozadí černý císařský orel (tj. se
-                  dvěma hlavami) se zlatou zbrojí (spáry a zobákem), zatímco ve
-                  2. a 3. poli jsou na modrém poli tři bílé brky spojené hroty k
-                  sobě. Nalevo nakloněný štít je nad pravým rohem opatřen kolčí
-                  přilbou, stejnou jako je na tarči na obr. 1. a opatřenou kromě
-                  klenotu a červených přikryvadel se stříbrnou podšívkou též
-                  zlatou korunkou. V klenotu je červený tatarský klobouk se
-                  stříbrnou podšívkou a černými pery. Banderola s nápisem
-                  &bdquo;Protyw neprzáteluom&ldquo; je umístěna stejně jako na
-                  tarči z obr. 2. Na vnitřní straně je pak analogický nápis
-                  &bdquo;Protyw ʃobye&ldquo;.
+                  . Erbovní figury jsou stylizovány podle Knihy erbů (
+                  <i>Wappenbuch</i>), kterou roku 1483 vytvořil a věnoval císaři
+                  Fridrichu III. kostnický patricij Konrád Grünenberg. Na
+                  heraldickém štítu, děleném na čtvrtiny, je v 1. a 4. poli na
+                  stříbrném pozadí černý císařský orel (tj. se dvěma hlavami) se
+                  zlatou zbrojí (spáry a zobákem), zatímco ve 2. a 3. poli jsou
+                  na modrém poli tři bílé brky spojené hroty k sobě. Nalevo
+                  nakloněný štít je nad pravým rohem opatřen kolčí přilbou,
+                  stejnou jako je na tarči na obr. 1. a opatřenou kromě klenotu
+                  a červených přikryvadel se stříbrnou podšívkou též zlatou
+                  korunkou. V klenotu je červený tatarský klobouk se stříbrnou
+                  podšívkou a černými pery. Banderola s nápisem{' '}
+                  <i>&bdquo;Pomny na mye ma myla vyerna pany&ldquo;</i> (Pamatuj
+                  na mě má milá věrná paní), který je převzat ze soudobé
+                  ostruhy, je umístěna stejně jako na tarči z obr. 2. Na vnitřní
+                  straně je neuměle namalovaný svatý Kryštof.
                 </p>
               </Col>
             </Row>
