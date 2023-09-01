@@ -1,6 +1,5 @@
-import { Menu } from '../components/Menu/Menu'
+import { Menu } from '../components/Menu'
 import { Col, Container, Row } from 'reactstrap'
-import Image from 'next/image'
 import Head from 'next/head'
 import React from 'react'
 
@@ -128,17 +127,17 @@ const Page = () => {
                   zatlačil jej asi o 9 metrů vzad. Skotové se však nechali ve
                   spěchu usměrnit terénem a ocitli se tak na dně mělkého údolí v
                   křížové palbě anglických střelců na křídlech. Současníci
-                  uvádějí že angličtí lukostřelci "oslepili a zranili obličeje"
-                  těch, kteří byli na čele schiltronu. Toto je velmi zajímavá
-                  informace, neboť z ní vyplývá, že angličtí lukostřelci vedli
-                  mířenou a přímou střelbu na krátkou vzdálenost. Střelba a
-                  náraz druhého schiltronu do týla prvního vytvořil chaos, při
-                  kterém došlo ve středu skotské masy k udušní více než tisíce
-                  bojovníků, aniž by do boje vůbec nějak zasáhli. Boj trval od
-                  rozednění do poledních hodin, kd se skotský nápor zhroutil a
-                  Skotové se dali na útěk. Angličtí zbrojnoši poté nasedli na
-                  vlastní koně a pronásledovali prchající Skoty až do západu
-                  slunce.
+                  uvádějí že angličtí lukostřelci &bdquo;oslepili a zranili
+                  obličeje&ldquo; těch, kteří byli na čele schiltronu. Toto je
+                  velmi zajímavá informace, neboť z ní vyplývá, že angličtí
+                  lukostřelci vedli mířenou a přímou střelbu na krátkou
+                  vzdálenost. Střelba a náraz druhého schiltronu do týla prvního
+                  vytvořil chaos, při kterém došlo ve středu skotské masy k
+                  udušní více než tisíce bojovníků, aniž by do boje vůbec nějak
+                  zasáhli. Boj trval od rozednění do poledních hodin, kd se
+                  skotský nápor zhroutil a Skotové se dali na útěk. Angličtí
+                  zbrojnoši poté nasedli na vlastní koně a pronásledovali
+                  prchající Skoty až do západu slunce.
                 </p>
                 <p>
                   O rok později, 19. července 1333 se odehrála bitva na
@@ -159,13 +158,13 @@ const Page = () => {
                   jak sjou schiltrony proti lukům zranitelné, proto Skoti
                   postupovali přes bažinatou oblast tak rychle, jak jen mohli.
                   Přesto si luky začaly vybírat svou daň. Současníci uvádějí, že
-                  "Skotové, kteří pochodovali vpředu, byli tak zraněni v
+                  &bdquo;Skotové, kteří pochodovali vpředu, byli tak zraněni v
                   obličeji a oslepeni množstvím anglických šípů, že si nemohli
-                  pomoci a brzy začali odvracet tváře od úderů šípů a padat."
-                  Přesto se skotům podařilo dostat až k anglickým šikům, ale
-                  jejich schiltrony se brzy poté rozpadly a Skotové se dali na
-                  útěk. Angličané opět nasedli na koně, které měli vzadu a
-                  pronásledovali prchající Skoty.
+                  pomoci a brzy začali odvracet tváře od úderů šípů a
+                  padat.&ldquo; Přesto se skotům podařilo dostat až k anglickým
+                  šikům, ale jejich schiltrony se brzy poté rozpadly a Skotové
+                  se dali na útěk. Angličané opět nasedli na koně, které měli
+                  vzadu a pronásledovali prchající Skoty.
                 </p>
                 <h3>Stoletá válka</h3>
                 <p>
@@ -480,9 +479,7 @@ const Page = () => {
                   byla poražena a sám Zíkmund unikl jen tak tak na rybářském
                   člunu k benátským lodím na Dunaji.
                 </p>
-                <p>
-                  I přesto že 
-                </p>
+                <p>I přesto že</p>
               </Col>
             </Row>
           </Col>

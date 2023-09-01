@@ -332,7 +332,7 @@ export const FilipaSeldeneckaRadVozovy = () => (
               schicken, dieselben wagen sollt du von allen zeilen von jeglicher
               ein theil nehmen, und dieselbigen lücken, da du die wägen
               ausgenommen hast, mach wieder zu und ganz. Und also ruck
-              dieselbigen zeilen hinter sich und für sich, also machst du's
+              dieselbigen zeilen hinter sich und für sich, also machst du&apos;s
               wieder ganz; und so dann die wägen wieder kommen, so ruck
               dieselben zeil, dahin sie gehoren, wieder, wie vor- geschrieben
               steht, so kommen auch dieselbigen wägen wieder an ihren ort.
@@ -608,7 +608,7 @@ export const FilipaSeldeneckaRadVozovy = () => (
         <p>
           <i>
             K zapamatování potřeby, uspořádání a obratnost vozové hradby
-            v jednom poli k nepřátelům a od nepřátel.
+            v&nbsp;jednom poli k&nbsp;nepřátelům a od nepřátel.
           </i>
           <br />
           Za prvé.
