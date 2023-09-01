@@ -15,13 +15,11 @@ export const YeWhoAreWarriorsOfGod = () => (
         </p>
         <div>
           <Link href="/images/ktozjsubozibojovnici.jpg" target="_blank">
-            <a>
-              <Image
-                src="/images/ktozjsubozibojovnici-small.jpg"
-                width={1000}
-                height={734}
-              />
-            </a>
+            <Image
+              src="/images/ktozjsubozibojovnici-small.jpg"
+              width={1000}
+              height={734}
+            />
           </Link>
         </div>
         <p>

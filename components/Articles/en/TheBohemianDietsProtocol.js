@@ -31,84 +31,82 @@ export const TheBohemianDietsProtocol = () => (
     </Row>
     <Row>
       <Col md={6}>
-        <p>
-          <table>
-            <thead>
-              <tr>
-                <th>region</th>
-                <th className="text-right">footmen</th>
-                <th className="text-right">riders</th>
-                <th className="text-right">(lancers)</th>
-                <th className="text-right">wagons</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Hradecký kraj</td>
-                <td className="text-right">900</td>
-                <td className="text-right">100</td>
-                <td className="text-right">(12)</td>
-                <td className="text-right">50</td>
-              </tr>
-              <tr>
-                <td>Kouřimský kraj</td>
-                <td className="text-right">630</td>
-                <td className="text-right">70</td>
-                <td className="text-right">(8)</td>
-                <td className="text-right">35</td>
-              </tr>
-              <tr>
-                <td>Chrudimský kraj</td>
-                <td className="text-right">450</td>
-                <td className="text-right">50</td>
-                <td className="text-right">(6)</td>
-                <td className="text-right">25</td>
-              </tr>
-              <tr>
-                <td>Čáslavský kraj</td>
-                <td className="text-right">300</td>
-                <td className="text-right">40</td>
-                <td className="text-right">(5)</td>
-                <td className="text-right">17</td>
-              </tr>
-              <tr>
-                <td>Slánský kraj</td>
-                <td className="text-right">500</td>
-                <td className="text-right">50</td>
-                <td className="text-right">(6)</td>
-                <td className="text-right">28</td>
-              </tr>
-              <tr>
-                <td>Žatecký kraj and Rakovnický kraj</td>
-                <td className="text-right">900</td>
-                <td className="text-right">100</td>
-                <td className="text-right">(12)</td>
-                <td className="text-right">50</td>
-              </tr>
-              <tr>
-                <td>Litoměřický kraj</td>
-                <td className="text-right">500</td>
-                <td className="text-right">50</td>
-                <td className="text-right">(6)</td>
-                <td className="text-right">27</td>
-              </tr>
-              <tr>
-                <td>Boleslavský kraj</td>
-                <td className="text-right">270</td>
-                <td className="text-right">30</td>
-                <td className="text-right">(4)</td>
-                <td className="text-right">15</td>
-              </tr>
-              <tr>
-                <td>&nbsp;</td>
-                <td className="text-right">4450</td>
-                <td className="text-right">490</td>
-                <td className="text-right">(49)</td>
-                <td className="text-right">247</td>
-              </tr>
-            </tbody>
-          </table>
-        </p>
+        <table>
+          <thead>
+            <tr>
+              <th>region</th>
+              <th className="text-right">footmen</th>
+              <th className="text-right">riders</th>
+              <th className="text-right">(lancers)</th>
+              <th className="text-right">wagons</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Hradecký kraj</td>
+              <td className="text-right">900</td>
+              <td className="text-right">100</td>
+              <td className="text-right">(12)</td>
+              <td className="text-right">50</td>
+            </tr>
+            <tr>
+              <td>Kouřimský kraj</td>
+              <td className="text-right">630</td>
+              <td className="text-right">70</td>
+              <td className="text-right">(8)</td>
+              <td className="text-right">35</td>
+            </tr>
+            <tr>
+              <td>Chrudimský kraj</td>
+              <td className="text-right">450</td>
+              <td className="text-right">50</td>
+              <td className="text-right">(6)</td>
+              <td className="text-right">25</td>
+            </tr>
+            <tr>
+              <td>Čáslavský kraj</td>
+              <td className="text-right">300</td>
+              <td className="text-right">40</td>
+              <td className="text-right">(5)</td>
+              <td className="text-right">17</td>
+            </tr>
+            <tr>
+              <td>Slánský kraj</td>
+              <td className="text-right">500</td>
+              <td className="text-right">50</td>
+              <td className="text-right">(6)</td>
+              <td className="text-right">28</td>
+            </tr>
+            <tr>
+              <td>Žatecký kraj and Rakovnický kraj</td>
+              <td className="text-right">900</td>
+              <td className="text-right">100</td>
+              <td className="text-right">(12)</td>
+              <td className="text-right">50</td>
+            </tr>
+            <tr>
+              <td>Litoměřický kraj</td>
+              <td className="text-right">500</td>
+              <td className="text-right">50</td>
+              <td className="text-right">(6)</td>
+              <td className="text-right">27</td>
+            </tr>
+            <tr>
+              <td>Boleslavský kraj</td>
+              <td className="text-right">270</td>
+              <td className="text-right">30</td>
+              <td className="text-right">(4)</td>
+              <td className="text-right">15</td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td className="text-right">4450</td>
+              <td className="text-right">490</td>
+              <td className="text-right">(49)</td>
+              <td className="text-right">247</td>
+            </tr>
+          </tbody>
+        </table>
       </Col>
       <Col md={6}>
         <Image src="/images/mapa.jpg" width={2662} height={1838} />

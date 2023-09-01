@@ -15,22 +15,14 @@ const LINKS = [
 const LangToggler = () => (
   <div className={styles.langToggler}>
     <Link href="/cs">
-      <a>
-        <Image
-          src="/images/icons8-czech-republic-48.png"
-          width={48}
-          height={48}
-        />
-      </a>
+      <Image
+        src="/images/icons8-czech-republic-48.png"
+        width={48}
+        height={48}
+      />
     </Link>
     <Link href="/en">
-      <a>
-        <Image
-          src="/images/icons8-great-britain-48.png"
-          width={48}
-          height={48}
-        />
-      </a>
+      <Image src="/images/icons8-great-britain-48.png" width={48} height={48} />
     </Link>
   </div>
 )
@@ -150,16 +142,12 @@ export const Menu = ({ lang }) => {
   return (
     <div className={`menu ${isOpen && 'absolute'}`}>
       {lang === 'en' ? (
-        <Link href="/en">
-          <a className="brand">
-            Jobst&nbsp;of&nbsp;Einsiedl&nbsp;and&nbsp;Tyrzow
-          </a>
+        <Link href="/en" className="brand">
+          Jobst&nbsp;of&nbsp;Einsiedl&nbsp;and&nbsp;Tyrzow
         </Link>
       ) : (
-        <Link href="/">
-          <a className="brand">
-            Jošt&nbsp;z&nbsp;Einsiedlu&nbsp;a&nbsp;na&nbsp;Týřově
-          </a>
+        <Link href="/" className="brand">
+          Jošt&nbsp;z&nbsp;Einsiedlu&nbsp;a&nbsp;na&nbsp;Týřově
         </Link>
       )}
       <div
