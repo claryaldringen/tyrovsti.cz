@@ -1,13 +1,13 @@
 import React from 'react'
 import { Col, Container, Row } from 'reactstrap'
 import { HeadExtended } from '../components/HeadExtended'
-import { LANG_CS } from '../shared/constants'
+import { LANG_EN } from '../shared/constants'
 import { ImageWithTitle } from '../components/ImageWithTitle/ImageWithTitle'
 
 const Page = () => {
   return (
     <>
-      <HeadExtended lang={LANG_CS} title="Tarče" />
+      <HeadExtended lang={LANG_EN} title="Targe" />
       <Container>
         <Row>
           <Col className="text">
