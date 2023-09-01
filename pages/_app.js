@@ -5,10 +5,6 @@ import { IntlProvider } from 'react-intl'
 import { useRouter } from 'next/router'
 import en from '../locales/en.json'
 
-const messages = {
-  en,
-}
-
 function MyApp({ Component, pageProps }) {
   const { locale } = useRouter()
 
