@@ -88,6 +88,7 @@ const Page = () => {
                     src="/images/Albrecht_II._von_Habsburg.jpg"
                     width={578}
                     height={800}
+                    className="fit"
                   />
                 </Link>
                 <br />
@@ -282,6 +283,7 @@ const Page = () => {
                     src="/images/Ladislas_the_Posthumous_001.jpg"
                     width={1056}
                     height={1466}
+                    className="fit"
                   />
                 </Link>
                 <br />
@@ -395,6 +397,7 @@ const Page = () => {
                     src="/images/m921.033ra.jpg"
                     width={915}
                     height={600}
+                    className="fit"
                   />
                 </Link>
                 <br />

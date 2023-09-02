@@ -681,7 +681,12 @@ export const VaclavVlcekOfCenovHandbook = () => (
     </Row>
     <Row>
       <Link href="/images/battle_of_orsha.jpg" target="_blank">
-        <Image src="/images/orsha.jpg" width={1397} height={1124} />
+        <Image
+          src="/images/orsha.jpg"
+          width={1397}
+          height={1124}
+          className="fit"
+        />
       </Link>
       <p>&nbsp;</p>
     </Row>

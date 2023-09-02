@@ -204,3 +204,8 @@ h4 {
     position: absolute;
   }
 }
+
+.fit {
+  width: 100%;
+  height: auto;
+}

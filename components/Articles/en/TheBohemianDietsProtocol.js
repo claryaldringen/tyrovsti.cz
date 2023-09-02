@@ -109,7 +109,12 @@ export const TheBohemianDietsProtocol = () => (
         </table>
       </Col>
       <Col md={6}>
-        <Image src="/images/mapa.jpg" width={2662} height={1838} />
+        <Image
+          src="/images/mapa.jpg"
+          width={2662}
+          height={1838}
+          className="fit"
+        />
       </Col>
     </Row>
   </>
