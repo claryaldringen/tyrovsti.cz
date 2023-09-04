@@ -3,6 +3,7 @@ import { Col, Container, Row } from 'reactstrap'
 import Image from 'next/image'
 import { HeadExtended } from '../components/HeadExtended'
 import { LANG_CS } from '../shared/constants'
+import { ImageWithTitle } from '../components/ImageWithTitle/ImageWithTitle'
 
 const Page = () => {
   return (
@@ -62,14 +63,13 @@ const Page = () => {
               </Col>
             </Row>
             <Row>
-              <Col className="image-wrapper">
-                <a href="/images/fig16.png" target="_blank">
-                  <Image src="/images/fig16.png" width={400} height={360} />
-                </a>
-                <br />
-                Criblet, Fribourg, Švýcarsko. Bota se zapínáním pomocí přesahu a
-                s přezkami. 14. až 15. století (Volken & Bourgarel 2001)
-              </Col>
+              <ImageWithTitle
+                src="fig16.png"
+                width={400}
+                height={360}
+                title="Criblet, Fribourg, Švýcarsko. Bota se zapínáním pomocí přesahu a
+                s přezkami. 14. až 15. století (Volken & Bourgarel 2001)"
+              />
             </Row>
             <Row>
               <Col>
@@ -84,79 +84,63 @@ const Page = () => {
               </Col>
             </Row>
             <Row>
-              <Col md={4} className="image-wrapper">
-                <a href="/images/fig6.png" target="_blank">
-                  <Image src="/images/fig6.png" width={540} height={800} />
-                </a>
-                <br />
-                Dordrecht, Nizozemí. Kotníková bota se záhybem na zapínání,
-                zobrazená rozepnutá a zapnutá. 15. století. (Goubitz)
-              </Col>
-              <Col md={4} className="image-wrapper">
-                <a href="/images/fig7.png" target="_blank">
-                  <Image src="/images/fig7.png" width={520} height={466} />
-                </a>
-                <br />
-                Vevey, Švýcarsko. Bota se zapínáním pomocí záhybu. 14. - 15.
-                století. (Goubitz)
-              </Col>
-              <Col md={4} className="image-wrapper">
-                <a href="/images/fig14.png" target="_blank">
-                  <Image src="/images/fig14.png" width={520} height={466} />
-                </a>
-                <br />
-                Coventry, Anglie, 15. století. (Goubitz)
-              </Col>
+              <ImageWithTitle
+                md={4}
+                src="fig6.png"
+                width={540}
+                height={800}
+                title="Dordrecht, Nizozemí. Kotníková bota se záhybem na zapínání,
+                zobrazená rozepnutá a zapnutá. 15. století. (Goubitz)"
+              />
+              <ImageWithTitle
+                md={4}
+                src="fig7.png"
+                width={520}
+                height={466}
+                title="Vevey, Švýcarsko. Bota se zapínáním pomocí záhybu. 14. - 15.
+                století. (Goubitz)"
+              />
+              <ImageWithTitle
+                md={4}
+                src="fig14.png"
+                width={520}
+                height={466}
+                title="Coventry, Anglie, 15. století. (Goubitz)"
+              />
             </Row>
             <Row>
-              <Col md={3} className="image-wrapper">
-                <a href="/images/zahyb-jensky.jpg" target="_blank">
-                  <Image
-                    src="/images/zahyb-jensky.jpg"
-                    width={600}
-                    height={800}
-                  />
-                </a>
-                <br />
-                Vysoká jezdecká bota se zapínáním na záhyb, výřez z Jenského
-                kodexu (1490-1510)
-              </Col>
-              <Col md={3} className="image-wrapper">
-                <a href="/images/zahyb-richental1.jpg" target="_blank">
-                  <Image
-                    src="/images/zahyb-richental1.jpg"
-                    width={600}
-                    height={800}
-                  />
-                </a>
-                <br />
-                Vysoká jezdecká bota se zapínáním na záhyb, výřez z Richentalovy
-                kroniky (1470-1480)
-              </Col>
-              <Col md={3} className="image-wrapper">
-                <a href="/images/zahyb-richental2.jpg" target="_blank">
-                  <Image
-                    src="/images/zahyb-richental2.jpg"
-                    width={600}
-                    height={800}
-                  />
-                </a>
-                <br />
-                Kotníková bota se zapínáním na záhyb, výřez z Richentalovy
-                kroniky (1470-1480)
-              </Col>
-              <Col md={3} className="image-wrapper">
-                <a href="/images/zahyb-durer.jpg" target="_blank">
-                  <Image
-                    src="/images/zahyb-durer.jpg"
-                    width={600}
-                    height={800}
-                  />
-                </a>
-                <br />
-                Vysoká jezdecká bota se zapínáním na záhyb, výřez z
-                Paumgartnerova oltáře (1500)
-              </Col>
+              <ImageWithTitle
+                md={3}
+                src="zahyb-jensky.jpg"
+                width={600}
+                height={800}
+                title="Vysoká jezdecká bota se zapínáním na záhyb, výřez z Jenského
+                kodexu (1490-1510)"
+              />
+              <ImageWithTitle
+                md={3}
+                src="zahyb-richental1.jpg"
+                width={600}
+                height={800}
+                title="Vysoká jezdecká bota se zapínáním na záhyb, výřez z Richentalovy
+                kroniky (1470-1480)"
+              />
+              <ImageWithTitle
+                md={3}
+                src="zahyb-richental2.jpg"
+                width={600}
+                height={800}
+                title="Kotníková bota se zapínáním na záhyb, výřez z Richentalovy
+                      kroniky (1470-1480)"
+              />
+              <ImageWithTitle
+                md={3}
+                src="zahyb-durer.jpg"
+                width={600}
+                height={800}
+                title="Vysoká jezdecká bota se zapínáním na záhyb, výřez z
+                Paumgartnerova oltáře (1500)"
+              />
             </Row>
             <Row>
               <Col>
@@ -170,34 +154,35 @@ const Page = () => {
               </Col>
             </Row>
             <Row>
-              <Col md={6} className="image-wrapper">
-                <a href="/images/fig5abc.png" target="_blank">
-                  <Image src="/images/fig5abc.png" width={400} height={720} />
-                </a>
-                <br />
-                Tři příklady střevíců s páskem přes nárt spínaným přezkou z 15.
-                století.
-                <br />
-                Nahoře: Dordrecht, Nizozemí. (Goubitz, 2001)
-                <br />
-                Uprostřed: Šlesvik, Německo. (Schnack, 1992)
-                <br />
-                Dole: Londýn, Anglie. (Grew &amp; De&nbsp;Neergaard, 1988)
-              </Col>
-              <Col md={6} className="image-wrapper">
-                <a href="/images/reminek-nart-durer.jpg" target="_blank">
-                  <Image
-                    src="/images/reminek-nart-durer.jpg"
-                    width={1200}
-                    height={1600}
-                  />
-                </a>
-                <br />
-                Tato kotníková bota, sice přesně neodpovídá popsanému typu,
+              <ImageWithTitle
+                md={6}
+                src="fig5abc.png"
+                width={400}
+                height={720}
+                title={
+                  <>
+                    <br />
+                    Tři příklady střevíců s páskem přes nárt spínaným přezkou z
+                    15. století.
+                    <br />
+                    Nahoře: Dordrecht, Nizozemí. (Goubitz, 2001)
+                    <br />
+                    Uprostřed: Šlesvik, Německo. (Schnack, 1992)
+                    <br />
+                    Dole: Londýn, Anglie. (Grew &amp; De&nbsp;Neergaard, 1988)
+                  </>
+                }
+              />
+              <ImageWithTitle
+                md={6}
+                src="reminek-nart-durer.jpg"
+                width={1200}
+                height={1600}
+                title="Tato kotníková bota, sice přesně neodpovídá popsanému typu,
                 neboť se nejedná o otevřený střevíc, ale princip zapínání na
                 nártový řemínek s přezkou je zde dobře patrný. Výřez pochází z
-                obrazu Albrechta Dürera Lot a jeho dcery (1496-1499).
-              </Col>
+                obrazu Albrechta Dürera Lot a jeho dcery (1496-1499)."
+              />
             </Row>
             <Row>
               <Col>
@@ -211,42 +196,39 @@ const Page = () => {
               </Col>
             </Row>
             <Row>
-              <Col md={4} className="image-wrapper">
-                <a href="/images/fig11fig12.png" target="_blank">
-                  <Image
-                    src="/images/fig11fig12.png"
-                    width={480}
-                    height={864}
-                  />
-                </a>
-                <br />
-                Nahoře: Dordrecht, Nizozemí. Velmi zvláštní model s bočním
-                šněrováním a páskem s přezkou přes nárt. Pozdní středověk.
-                (Goubitz)
-                <br />
-                Dole: Oslo, Norsko. Bota s potky na šněrování. Pozdní středověk.
-                (Schia, 1977)
-              </Col>
-              <Col md={4} className="image-wrapper">
-                <a href="/images/fig17.png" target="_blank">
-                  <Image src="/images/fig17.png" width={520} height={468} />
-                </a>
-                <br />
-                Oud-Turnhout, Belgie. Bota s diagonálním bočním zavazováním. 15.
-                století. (Goubitz)
-              </Col>
-              <Col md={4} className="image-wrapper">
-                <a href="/images/bocni-richental.jpg" target="_blank">
-                  <Image
-                    src="/images/bocni-richental.jpg"
-                    width={390}
-                    height={520}
-                  />
-                </a>
-                <br />
-                Střevíc s bočním zavazováním na výřezu z Richentalovy kroniky
-                (1470-1480)
-              </Col>
+              <ImageWithTitle
+                md={4}
+                src="fig11fig12.png"
+                width={480}
+                height={864}
+                title={
+                  <>
+                    {' '}
+                    Nahoře: Dordrecht, Nizozemí. Velmi zvláštní model s bočním
+                    šněrováním a páskem s přezkou přes nárt. Pozdní středověk.
+                    (Goubitz)
+                    <br />
+                    Dole: Oslo, Norsko. Bota s potky na šněrování. Pozdní
+                    středověk. (Schia, 1977)
+                  </>
+                }
+              />
+              <ImageWithTitle
+                md={4}
+                src="fig17.png"
+                width={520}
+                height={468}
+                title="Oud-Turnhout, Belgie. Bota s diagonálním bočním zavazováním. 15.
+                století. (Goubitz)"
+              />
+              <ImageWithTitle
+                md={4}
+                src="bocni-richental.jpg"
+                width={390}
+                height={520}
+                title="Střevíc s bočním zavazováním na výřezu z Richentalovy kroniky
+                (1470-1480)"
+              />
             </Row>
             <Row>
               <Col>
@@ -261,112 +243,107 @@ const Page = () => {
               </Col>
             </Row>
             <Row>
-              <Col md={4} className="image-wrapper">
-                <a href="/images/fig7a.png" target="_blank">
-                  <Image src="/images/fig7a.png" width={520} height={720} />
-                </a>
-                <br />
-                Nahoře: Dordrecht, Nizozemí. Bota s jazykem, jímž na obou
-                stranách prochází tkaničky. 14. století. (Goubitz)
-                <br />
-                Dole: Delft, Nizozemí. Bota se dvěma bočními a jedním zadním
-                švem. Jazyk chybí. 15. století. (Goubitz)
-              </Col>
-              <Col md={4} className="image-wrapper">
-                <a href="/images/fig7fig8.png" target="_blank">
-                  <Image src="/images/fig7fig8.png" width={480} height={540} />
-                </a>
-                <br />
-                Nahoře: Dordrecht, Nizozemí. Střevíc s páry tkaniček. Pozdní
-                středověk. (Goubitz)
-                <br />
-                Dole: Dordrecht, Nizozemí. Střevíc se třemi páry dírek na jednu
-                průchozí tkaničku, tak jak známe dnes. Pozdní středověk.
-                (Goubitz)
-              </Col>
-              <Col md={4} className="image-wrapper">
-                <a href="/images/fig5ab.png" target="_blank">
-                  <Image src="/images/fig5ab.png" width={520} height={540} />
-                </a>
-                <br />
-                Nahoře: Tiel, Nizozemí. Kotníková bota se zakřivenými bočními
-                švy. Pozdní středověk. (Goubitz)
-                <br />
-                Dole: Delft, Nizozemí. Střevíc s módní špičkou a šikmým švem na
-                patě. Pozdní středověk. (Goubitz)
-              </Col>
+              <ImageWithTitle
+                md={4}
+                src="fig7a.png"
+                width={520}
+                height={720}
+                title={
+                  <>
+                    {' '}
+                    Nahoře: Dordrecht, Nizozemí. Bota s jazykem, jímž na obou
+                    stranách prochází tkaničky. 14. století. (Goubitz)
+                    <br />
+                    Dole: Delft, Nizozemí. Bota se dvěma bočními a jedním zadním
+                    švem. Jazyk chybí. 15. století. (Goubitz)
+                  </>
+                }
+              />
+              <ImageWithTitle
+                md={4}
+                src="fig7fig8.png"
+                width={480}
+                height={540}
+                title={
+                  <>
+                    {' '}
+                    Nahoře: Dordrecht, Nizozemí. Střevíc s páry tkaniček. Pozdní
+                    středověk. (Goubitz)
+                    <br />
+                    Dole: Dordrecht, Nizozemí. Střevíc se třemi páry dírek na
+                    jednu průchozí tkaničku, tak jak známe dnes. Pozdní
+                    středověk. (Goubitz)
+                  </>
+                }
+              />
+              <ImageWithTitle
+                md={4}
+                src="fig5ab.png"
+                width={520}
+                height={540}
+                title={
+                  <>
+                    {' '}
+                    Nahoře: Tiel, Nizozemí. Kotníková bota se zakřivenými
+                    bočními švy. Pozdní středověk. (Goubitz)
+                    <br />
+                    Dole: Delft, Nizozemí. Střevíc s módní špičkou a šikmým švem
+                    na patě. Pozdní středověk. (Goubitz)
+                  </>
+                }
+              />
             </Row>
             <Row>
-              <Col md={4} className="image-wrapper">
-                <a href="/images/fig6bolsward.png" target="_blank">
-                  <Image
-                    src="/images/fig6bolsward.png"
-                    width={480}
-                    height={360}
-                  />
-                </a>
-                <br />
-                Bolsward, Nizozemí. Střevíc módního střihu s jedním párem dírek
-                na tkaničky. Pozdní středověk. (Goubitz)
-              </Col>
-              <Col md={4} className="image-wrapper">
-                <a href="/images/fig8leiden.png" target="_blank">
-                  <Image
-                    src="/images/fig8leiden.png"
-                    width={600}
-                    height={540}
-                  />
-                </a>
-                <br />
-                Leiden, Nizozemí. Bota s tkaničkami vázanými po párech, podobně
-                jako u doubletů. 15. století. (Goubitz)
-              </Col>
-              <Col md={4} className="image-wrapper">
-                <a href="/images/fig9.png" target="_blank">
-                  <Image src="/images/fig9.png" width={400} height={360} />
-                </a>
-                <br />
-                Dokkum, Nizozemí. Střevíc velmi módního střihu se třemi páry
-                dírek na tkaničky. Pozdní středověk. (Goubitz)
-              </Col>
+              <ImageWithTitle
+                md={4}
+                src="fig6bolsward.png"
+                width={480}
+                height={360}
+                title="Bolsward, Nizozemí. Střevíc módního střihu s jedním párem dírek
+                na tkaničky. Pozdní středověk. (Goubitz)"
+              />
+              <ImageWithTitle
+                md={4}
+                src="fig8leiden.png"
+                width={600}
+                height={540}
+                title="Leiden, Nizozemí. Bota s tkaničkami vázanými po párech, podobně
+                jako u doubletů. 15. století. (Goubitz)"
+              />
+              <ImageWithTitle
+                md={4}
+                src="fig9.png"
+                width={400}
+                height={360}
+                title="Dokkum, Nizozemí. Střevíc velmi módního střihu se třemi páry
+                dírek na tkaničky. Pozdní středověk. (Goubitz)"
+              />
             </Row>
             <Row>
-              <Col md={4} className="image-wrapper">
-                <a href="/images/tkanicky-jensky1.jpg" target="_blank">
-                  <Image
-                    src="/images/tkanicky-jensky1.jpg"
-                    width={600}
-                    height={800}
-                  />
-                </a>
-                <br />
-                Kotníková bota se zavazováním na tkaničky nebo na knoflíky s
-                ocáskem, výřez z Jenského kodexu (1490-1510)
-              </Col>
-              <Col md={4} className="image-wrapper">
-                <a href="/images/tkanicky-jensky2.jpg" target="_blank">
-                  <Image
-                    src="/images/tkanicky-jensky2.jpg"
-                    width={600}
-                    height={800}
-                  />
-                </a>
-                <br />
-                Kotníková bota se zavazováním na tkaničky nebo na knoflíky s
-                ocáskem, výřez z Jenského kodexu (1490-1510)
-              </Col>
-              <Col md={4} className="image-wrapper">
-                <a href="/images/tkanicky-jensky3.jpg" target="_blank">
-                  <Image
-                    src="/images/tkanicky-jensky3.jpg"
-                    width={600}
-                    height={800}
-                  />
-                </a>
-                <br />
-                Kotníková bota se zavazováním na tkaničky nebo na knoflíky s
-                ocáskem, výřez z Jenského kodexu (1490-1510)
-              </Col>
+              <ImageWithTitle
+                md={4}
+                src="tkanicky-jensky1.jpg"
+                width={600}
+                height={800}
+                title="Kotníková bota se zavazováním na tkaničky nebo na knoflíky s
+                ocáskem, výřez z Jenského kodexu (1490-1510)"
+              />
+              <ImageWithTitle
+                md={4}
+                src="tkanicky-jensky2.jpg"
+                width={600}
+                height={800}
+                title="Kotníková bota se zavazováním na tkaničky nebo na knoflíky s
+                ocáskem, výřez z Jenského kodexu (1490-1510)"
+              />
+              <ImageWithTitle
+                md={4}
+                src="tkanicky-jensky3.jpg"
+                width={600}
+                height={800}
+                title="Kotníková bota se zavazováním na tkaničky nebo na knoflíky s
+                ocáskem, výřez z Jenského kodexu (1490-1510)"
+              />
             </Row>
             <Row>
               <Col>
@@ -382,76 +359,82 @@ const Page = () => {
               </Col>
             </Row>
             <Row>
-              <Col md={4} className="image-wrapper">
-                <a href="/images/fig1.png" target="_blank">
-                  <Image src="/images/fig1.png" width={400} height={396} />
-                </a>
-                <br />
-                Konstrukce knoflíku s ocáskem. (Goubitz)
-              </Col>
-              <Col md={4} className="image-wrapper">
-                <a href="/images/fig8ddt674.png" target="_blank">
-                  <Image
-                    src="/images/fig8ddt674.png"
-                    width={520}
-                    height={396}
-                  />
-                </a>
-                <br />
-                Dordrecht, Nizozemí. Kotníková bota u které bylo nahrazeno
+              <ImageWithTitle
+                md={4}
+                src="fig1.png"
+                width={400}
+                height={396}
+                title="Konstrukce knoflíku s ocáskem. (Goubitz)"
+              />
+              <ImageWithTitle
+                md={4}
+                src="fig8ddt674.png"
+                width={520}
+                height={396}
+                title="Dordrecht, Nizozemí. Kotníková bota u které bylo nahrazeno
                 šněrování na tkaničky třemi knoflíky s ocáskem. 14. - 15.
-                století. (Goubitz)
-              </Col>
-              <Col md={4} className="image-wrapper">
-                <a href="/images/fig4.png" target="_blank">
-                  <Image src="/images/fig4.png" width={400} height={360} />
-                </a>
-                <br />
-                Dordrecht, Nizozemí. Kotníková bota. 14. - 15. století.
-                (Goubitz)
-              </Col>
+                století. (Goubitz)"
+              />
+
+              <ImageWithTitle
+                md={4}
+                src="fig4.png"
+                width={400}
+                height={360}
+                title="Dordrecht, Nizozemí. Kotníková bota. 14. - 15. století.
+                      (Goubitz)"
+              />
             </Row>
             <Row>
-              <Col md={4} className="image-wrapper">
-                <a href="/images/fig7addt1031.png" target="_blank">
-                  <Image
-                    src="/images/fig7addt1031.png"
-                    width={400}
-                    height={602}
-                  />
-                </a>
-                <br />
-                Nahoře: Gent, Belgie. Bota se dvěma knoflíky s ocáskem a
-                jazykem. 14. - 15. století. (Goubitz)
-                <br />
-                Dole: Dordrecht, Nizozemí. Dětská bota se čtyřmi knoflíky s
-                ocáskem. 14. - 15. století. (Goubitz)
-              </Col>
-              <Col md={4} className="image-wrapper">
-                <a href="/images/fig9a.png" target="_blank">
-                  <Image src="/images/fig9a.png" width={400} height={648} />
-                </a>
-                <br />
-                Nahoře: Dordrecht, Nizozemí. Bota se dvěma knoflíky s ocáskem a
-                dvěma knoflíky, vytvořenými rolováním. 14. - 15. století.
-                (Goubitz)
-                <br />
-                Dole: Bota s kombinovným zapínáním - první dvě dírky na nártu se
-                zavazují na tkaničku, zbytek se zapíná na knoflík s ocáskem. 14.
-                - 15. století. (Goubitz)
-              </Col>
-              <Col md={4} className="image-wrapper">
-                <a href="/images/fig10ab.png" target="_blank">
-                  <Image src="/images/fig10ab.png" width={440} height={648} />
-                </a>
-                <br />
-                Nahoře: Dordrecht, Nizozemí. Bota s pásky, jejichž jeden konec
-                je uvázán do knoflíku s ocáskem a ve druhém konci je díra na
-                sepnutí tohoto knoflíku. 14. - 15. století. (Goubitz)
-                <br />
-                Dole: Nijkerk, Nizozemí. Bota s chlopní zapínanou na knoflíky s
-                ocáskem. 14. - 15. století. (Goubitz)
-              </Col>
+              <ImageWithTitle
+                md={4}
+                src="fig7addt1031.png"
+                width={400}
+                height={602}
+                title={
+                  <>
+                    Nahoře: Gent, Belgie. Bota se dvěma knoflíky s ocáskem a
+                    jazykem. 14. - 15. století. (Goubitz)
+                    <br />
+                    Dole: Dordrecht, Nizozemí. Dětská bota se čtyřmi knoflíky s
+                    ocáskem. 14. - 15. století. (Goubitz)
+                  </>
+                }
+              />
+              <ImageWithTitle
+                md={4}
+                src="fig9a.png"
+                width={400}
+                height={648}
+                title={
+                  <>
+                    Nahoře: Dordrecht, Nizozemí. Bota se dvěma knoflíky s
+                    ocáskem a dvěma knoflíky, vytvořenými rolováním. 14. - 15.
+                    století. (Goubitz)
+                    <br />
+                    Dole: Bota s kombinovným zapínáním - první dvě dírky na
+                    nártu se zavazují na tkaničku, zbytek se zapíná na knoflík s
+                    ocáskem. 14. - 15. století. (Goubitz)
+                  </>
+                }
+              />
+              <ImageWithTitle
+                md={4}
+                src="fig10ab.png"
+                width={440}
+                height={648}
+                title={
+                  <>
+                    Nahoře: Dordrecht, Nizozemí. Bota s pásky, jejichž jeden
+                    konec je uvázán do knoflíku s ocáskem a ve druhém konci je
+                    díra na sepnutí tohoto knoflíku. 14. - 15. století.
+                    (Goubitz)
+                    <br />
+                    Dole: Nijkerk, Nizozemí. Bota s chlopní zapínanou na
+                    knoflíky s ocáskem. 14. - 15. století. (Goubitz)
+                  </>
+                }
+              />
             </Row>
             <Row>
               <Col className="image-wrapper">
@@ -490,7 +473,6 @@ const Page = () => {
                 ocáskem. 14. - 15. století. (Goubitz)
               </Col>
             </Row>
-            <Row></Row>
             <Row>
               <Col>
                 <h4>Střevíce s límcem</h4>
@@ -502,48 +484,36 @@ const Page = () => {
               </Col>
             </Row>
             <Row>
-              <Col md={3} className="image-wrapper">
-                <a href="/images/fig18.png" target="_blank">
-                  <Image src="/images/fig18.png" width={480} height={360} />
-                </a>
-                <br />
-                Edam, Nizozemí. Střevíc s límcem. Asi 1480. (Van Heeringen &
-                Meffert 1996)
-              </Col>
-              <Col md={3} className="image-wrapper">
-                <a href="/images/limec-jensky.jpg" target="_blank">
-                  <Image
-                    src="/images/limec-jensky.jpg"
-                    width={300}
-                    height={400}
-                  />
-                </a>
-                <br />
-                Střevíce s límcem, výřez z Jenského kodexu (1490-1510)
-              </Col>
-              <Col md={3} className="image-wrapper">
-                <a href="/images/limec-hasplirska.jpg" target="_blank">
-                  <Image
-                    src="/images/limec-hasplirska.jpg"
-                    width={600}
-                    height={800}
-                  />
-                </a>
-                <br />
-                Střevíce s límcem, freska v Hašplířské kapli v chrámu sv.
-                Barbory v Kutné Hoře. (konec 15. století)
-              </Col>
-              <Col md={3} className="image-wrapper">
-                <a href="/images/limec-richental.jpg" target="_blank">
-                  <Image
-                    src="/images/limec-richental.jpg"
-                    width={600}
-                    height={800}
-                  />
-                </a>
-                <br />
-                Střevíce s límcem na výřezu z Richentalovy kroniky (1470-1480)
-              </Col>
+              <ImageWithTitle
+                md={3}
+                src="fig18.png"
+                width={480}
+                height={360}
+                title="Edam, Nizozemí. Střevíc s límcem. Asi 1480. (Van Heeringen &
+                Meffert 1996)"
+              />
+              <ImageWithTitle
+                md={3}
+                src="limec-jensky.jpg"
+                width={300}
+                height={400}
+                title="Střevíce s límcem, výřez z Jenského kodexu (1490-1510)"
+              />
+              <ImageWithTitle
+                md={3}
+                src="limec-hasplirska.jpg"
+                width={600}
+                height={800}
+                title="Střevíce s límcem, freska v Hašplířské kapli v chrámu sv.
+                Barbory v Kutné Hoře. (konec 15. století)"
+              />
+              <ImageWithTitle
+                md={3}
+                src="limec-richental.jpg"
+                width={600}
+                height={800}
+                title="Střevíce s límcem na výřezu z Richentalovy kroniky (1470-1480)"
+              />
             </Row>
             <Row>
               <Col>
