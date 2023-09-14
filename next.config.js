@@ -22,6 +22,16 @@ module.exports = {
         destination: '/tyrovsti-z-einsiedlu',
         permanent: true,
       },
+      {
+        source: '/panske-pokryvky-hlavy',
+        destination: '/muzsky-odev#pokryvky-hlavy',
+        permanent: true,
+      },
+      {
+        source: '/obuv',
+        destination: '/muzsky-odev#obuv',
+        permanent: true,
+      },
     ]
   },
 }

@@ -1,8 +1,7 @@
 export const menuCs = [
   { href: '/historicke-pozadi', title: 'Historické pozadí' },
   { href: '/tyrovsti-z-einsiedlu', title: 'Týřovští z Einsiedlu' },
-  { href: '/panske-pokryvky-hlavy', title: 'Pánské pokrývky hlavy' },
-  { href: '/obuv', title: 'Obuv' },
+  { href: '/muzsky-odev', title: 'Mužský oděv' },
   {
     href: '/ceske-vojenske-rady-a-spisy',
     title: 'České vojenské řády a spisy',
