@@ -24,7 +24,6 @@ const Page = () => {
             <Plast />
             <Obuv />
             <PokryvkyHlavy />
-
             <Sources>
               <Source
                 name="Proměna stylu odívání v průběhu husitských válek"
