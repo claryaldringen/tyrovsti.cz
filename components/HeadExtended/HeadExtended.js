@@ -10,7 +10,8 @@ export const HeadExtended = ({ lang, title, image }) => (
   <>
     <Head>
       <title>
-        {title} - {lang === LANG_EN ? TITLE_EN : TITLE_CS}
+        {title ? `${title} - ` : ''}
+        {lang === LANG_EN ? TITLE_EN : TITLE_CS}
       </title>
       <meta
         property="og:title"
