@@ -1,7 +1,6 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
-import Link from 'next/link'
-import Image from 'next/image'
+import { ImageWithTitle } from '../../ImageWithTitle/ImageWithTitle'
 
 export const YeWhoAreWarriorsOfGod = () => (
   <>
@@ -13,15 +12,17 @@ export const YeWhoAreWarriorsOfGod = () => (
           Transcription from Hymnal of Jistebnice was done by Ing. Roman
           Vaverka, proofreading by Mgr. Markéta Poskočilová
         </p>
-        <div>
-          <Link href="/images/ktozjsubozibojovnici.jpg" target="_blank">
-            <Image
-              src="/images/ktozjsubozibojovnici-small.jpg"
-              width={1000}
-              height={734}
-            />
-          </Link>
-        </div>
+      </Col>
+    </Row>
+    <Row>
+      <ImageWithTitle
+        src="ktozjsubozibojovnici-small.jpg"
+        width={1000}
+        height={734}
+      />
+    </Row>
+    <Row>
+      <Col>
         <p>
           The most famous Hussite battle chant, whose authorship is attributed
           to to the Tabor priest Jan Čapek from Klatovy, can also be considered

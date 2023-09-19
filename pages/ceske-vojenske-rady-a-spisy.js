@@ -1,6 +1,6 @@
 import React from 'react'
 import { Col, Container, Row } from 'reactstrap'
-import { KtozJsuBoziBojovnici } from '../components/Articles/cz/KtozJsuBoziBojovnici'
+import { KtozJsuBoziBojovnici } from '../components/Articles/cz/rady/KtozJsuBoziBojovnici'
 import { NauceniKuKraliVladislavovi } from '../components/Articles/cz/NauceniKuKraliVladislavovi'
 import { SnemovniZapisOHotovostiVerejne } from '../components/Articles/cz/SnemovniZapisOHotovostiVerejne'
 import { HodetinuvRad } from '../components/Articles/cz/HodetinuvRad'

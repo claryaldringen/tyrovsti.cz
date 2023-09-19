@@ -1,7 +1,6 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
-import Link from 'next/link'
-import Image from 'next/image'
+import { ImageWithTitle } from '../../../ImageWithTitle/ImageWithTitle'
 
 export const KtozJsuBoziBojovnici = () => (
   <>
@@ -13,15 +12,17 @@ export const KtozJsuBoziBojovnici = () => (
           Přepis z Jistebnického kancionálu pořídil Ing. Roman Vaverka,
           korekturu provedla Mgr. Markéta Poskočilová
         </p>
-        <div>
-          <Link href="/images/ktozjsubozibojovnici.jpg" target="_blank">
-            <Image
-              src="/images/ktozjsubozibojovnici-small.jpg"
-              width={1000}
-              height={734}
-            />
-          </Link>
-        </div>
+      </Col>
+    </Row>
+    <Row>
+      <ImageWithTitle
+        width={1000}
+        height={734}
+        src="ktozjsubozibojovnici-small.jpg"
+      />
+    </Row>
+    <Row>
+      <Col>
         <p>
           Nejznámější husitský bojový chorál, jehož autorství je připisováno
           táborskému knězi Janu Čapkovi z Klatov, lze zároveň považovat za první

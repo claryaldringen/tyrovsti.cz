@@ -1,5 +1,4 @@
 import { Col, Row } from 'reactstrap'
-import Image from 'next/image'
 import { ImageWithTitle } from '../../../ImageWithTitle/ImageWithTitle'
 import React from 'react'
 
@@ -23,13 +22,12 @@ export const Obuv = () => (
       </Col>
     </Row>
     <Row>
-      <Col className="image-wrapper">
-        <a href="/images/fig5g.png" target="_blank">
-          <Image src="/images/fig5g.png" width={400} height={360} />
-        </a>
-        <br />
-        Způsob přišití svršku a podešve v 15. století (Goubitz)
-      </Col>
+      <ImageWithTitle
+        src="fig5g.png"
+        width={400}
+        height={360}
+        title="Způsob přišití svršku a podešve v 15. století (Goubitz)"
+      />
     </Row>
     <Row>
       <Col>
@@ -419,16 +417,19 @@ export const Obuv = () => (
       />
     </Row>
     <Row>
-      <Col className="image-wrapper">
-        <a href="/images/fig5abddt535.png" target="_blank">
-          <Image src="/images/fig5abddt535.png" width={400} height={466} />
-        </a>
-        <br />
-        Dordrecht, Nizozemí. Dětské boty ze 14. - 15. století. (Goubitz)
-        <br />
-        Nahoře: Dětská bota. <br />
-        Dole: Bota pro batole. <br />
-      </Col>
+      <ImageWithTitle
+        src="fig5abddt535.png"
+        width={400}
+        height={466}
+        title={
+          <>
+            Dordrecht, Nizozemí. Dětské boty ze 14. - 15. století. (Goubitz)
+            <br />
+            Nahoře: Dětská bota. <br />
+            Dole: Bota pro batole. <br />
+          </>
+        }
+      />
     </Row>
     <Row>
       <Col>
@@ -441,14 +442,13 @@ export const Obuv = () => (
       </Col>
     </Row>
     <Row>
-      <Col className="image-wrapper">
-        <a href="/images/fig10b.png" target="_blank">
-          <Image src="/images/fig10b.png" width={400} height={360} />
-        </a>
-        <br />
-        Nijkerk, Nizozemí. Bota s chlopní zapínanou na knoflíky s ocáskem. 14. -
-        15. století. (Goubitz)
-      </Col>
+      <ImageWithTitle
+        src="fig10b.png"
+        width={400}
+        height={360}
+        title="Nijkerk, Nizozemí. Bota s chlopní zapínanou na knoflíky s ocáskem. 14. -
+        15. století. (Goubitz)"
+      />
     </Row>
     <Row>
       <Col>
@@ -516,20 +516,23 @@ export const Obuv = () => (
       </Col>
     </Row>
     <Row>
-      <Col className="image-wrapper">
-        <a href="/images/all-richental.jpg" target="_blank">
-          <Image src="/images/all-richental.jpg" width={900} height={1200} />
-        </a>
-        <div className="image-description">
-          Několik typů obuvi. Z popředí do pozadí:
-          <ul>
-            <li>Boty se zapínáním na řemínky obtočené nad kotníky.</li>
-            <li>Střevíce s ohrnovacím límcem.</li>
-            <li>Nohavice s koženou podrážkou.</li>
-            <li>Vysoké jezdecké boty se zapínáním pomocí záhybu.</li>
-          </ul>
-        </div>
-      </Col>
+      <ImageWithTitle
+        src="all-richental.jpg"
+        width={900}
+        height={1200}
+        title={
+          <>
+            {' '}
+            Několik typů obuvi. Z popředí do pozadí:
+            <ul>
+              <li>Boty se zapínáním na řemínky obtočené nad kotníky.</li>
+              <li>Střevíce s ohrnovacím límcem.</li>
+              <li>Nohavice s koženou podrážkou.</li>
+              <li>Vysoké jezdecké boty se zapínáním pomocí záhybu.</li>
+            </ul>
+          </>
+        }
+      />
     </Row>
   </>
 )
