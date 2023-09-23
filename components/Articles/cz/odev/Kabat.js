@@ -35,18 +35,21 @@ export const Kabat = () => (
     </Row>
     <Row>
       <ImageWithTitle
+        md={4}
         src="kabat1.jpg"
         width={375}
         height={323}
         title="Ranný kabát se širokými rukávy, nošený jako svrchní oděv, na výřezu z Bible Václava IV. (1389-1395)."
       />
       <ImageWithTitle
+        md={4}
         src="kabat2.jpg"
         width={500}
         height={500}
         title="Pregéř, který je při práci svlečen pouze do nohavic a kabátu. Druhý pregéř na stejné fresce má přes kabát oblečenou sukni typu vestina. Výřez z fresky v Mincířské kapli katedrály sv. Barbory v Kutné Hoře(1460-1470)."
       />
       <ImageWithTitle
+        md={4}
         src="kabat3.jpg"
         width={1643}
         height={1643}
@@ -70,18 +73,21 @@ export const Kabat = () => (
     </Row>
     <Row>
       <ImageWithTitle
+        md={4}
         src="kabat4.jpg"
         width={1920}
         height={1579}
         title="Kabát s nebarveným trupem na illuminaci z fechtbuchu Hanse Talhofera, Německo, 1459."
       />
       <ImageWithTitle
+        md={4}
         src="vaclav-z-jihlavy.jpg"
         width={249}
         height={320}
         title="Kabát a nohavice ve stejné (černé) barvě. Výřez z Brněnské právní knihy Václava z Jihlavy (1446)."
       />
       <ImageWithTitle
+        md={4}
         src="tkanicky-jensky2.jpg"
         width={600}
         height={800}
@@ -103,18 +109,21 @@ export const Kabat = () => (
     </Row>
     <Row>
       <ImageWithTitle
+        md={3}
         src="kabat5.jpg"
         width={466}
         height={512}
         title="Pregéř v kabátu s úzkými rukávy. Výřez z fresky v Mincířské kapli katedrály sv. Barbory v Kutné Hoře(1460-1470)."
       />
       <ImageWithTitle
+        md={3}
         src="kabat6.jpg"
         width={600}
         height={600}
         title="Kněz v kabátu se širokými rukávy, staženými manžetou na zápěstí. Výřez z Jenského kodexu (1490-1510)."
       />
       <ImageWithTitle
+        md={3}
         src="kabat7.jpg"
         width={230}
         height={273}
@@ -127,6 +136,7 @@ export const Kabat = () => (
         }
       />
       <ImageWithTitle
+        md={3}
         src="kabat8.jpg"
         width={667}
         height={864}
@@ -148,18 +158,21 @@ export const Kabat = () => (
     </Row>
     <Row>
       <ImageWithTitle
+        md={4}
         src="kabat9.jpg"
         width={464}
         height={692}
         title="Kabát s dlouhým šorcem pevně utaženým na jednu tkanici. Hrudník již nemusí být tak pevně stažen a je sepnut několika tkanicemi procházejícími proti sobě postavenými dvojcemi dírek. Výřez z Königsegg Treatise, Německo, (1446-1459)."
       />
       <ImageWithTitle
+        md={4}
         src="kabat2.jpg"
         width={500}
         height={500}
         title="Ačkoli by měl být tento kabát vzhledem ke své dataci podobný německému kabátu na následujícím obrázku, zachovává si archaický tvar s pevně utaženým šorcem na jednu tkanici a volnějším hrudníkem spínaným na knoflíky. Výřez z fresky v Mincířské kapli katedrály sv. Barbory v Kutné Hoře(1460-1470)."
       />
       <ImageWithTitle
+        md={4}
         src="kabat10.jpg"
         width={1780}
         height={1678}
