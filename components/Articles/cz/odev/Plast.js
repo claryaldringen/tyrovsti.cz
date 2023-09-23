@@ -40,18 +40,21 @@ export const Plast = () => (
     </Row>
     <Row>
       <ImageWithTitle
+        md={4}
         src="agrafa.jpg"
         width={234}
         height={558}
         title="Dlouhý plášť sepnutý agrafou na výřezu z Ukřižování z Nových Sadů, 1440."
       />
       <ImageWithTitle
+        md={4}
         src="plastspruhem.jpg"
         width={408}
         height={840}
         title="Dlouhé pláště sepnuté pruhem látky, Křivoklátský oltář, pravděpodobně 1483."
       />
       <ImageWithTitle
+        md={4}
         src="plast-knofliky.jpg"
         width={487}
         height={423}
@@ -61,18 +64,21 @@ export const Plast = () => (
     </Row>
     <Row>
       <ImageWithTitle
+        md={4}
         src="plast-rameno-jensky1.jpg"
         width={414}
         height={738}
         title="Kratší plášť sepnutý na rameni, výřez z Jenského kodexu (1490-1510)."
       />
       <ImageWithTitle
+        md={4}
         src="plast-rameno-jensky2.jpg"
         width={342}
         height={742}
         title="Kratší plášť sepnutý na rameni, výřez z Jenského kodexu (1490-1510)."
       />
       <ImageWithTitle
+        md={4}
         src="plast-rameno-richental.jpg"
         width={386}
         height={756}
@@ -92,6 +98,7 @@ export const Plast = () => (
     </Row>
     <Row>
       <ImageWithTitle
+        md={3}
         src="giornea1.jpg"
         width={1400}
         height={1908}
@@ -104,6 +111,7 @@ export const Plast = () => (
         }
       />
       <ImageWithTitle
+        md={3}
         src="bocni-richental.jpg"
         width={390}
         height={520}
@@ -114,12 +122,14 @@ export const Plast = () => (
         }
       />
       <ImageWithTitle
+        md={3}
         src="pltunika2.jpg"
         width={626}
         height={1048}
         title="Plášť s průstřihy na ruce, výřez z Jenského kodexu (1490-1510)"
       />
       <ImageWithTitle
+        md={3}
         src="pltunika1.jpg"
         width={420}
         height={1008}
