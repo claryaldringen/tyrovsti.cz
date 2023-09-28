@@ -7,7 +7,7 @@ export const Obuv = () => (
     <Row>
       <Col>
         <div className="anchor" id="obuv" />
-        <h4>Obuv</h4>
+        <h3>Obuv</h3>
         <p>
           Obuv v Čechách ve 2. polovině 15. století můžeme rozdělit na nízkou,
           polovysokou a vysokou. Obuv byla nejčastěji zhotovena z kůže tak, že
@@ -35,7 +35,7 @@ export const Obuv = () => (
           Kromě svršku, podešve a okolku obsahovala bota zpravidla ještě několik
           částí - opatek, obrubu a nějakou variantu zapínání či šněrování.
         </p>
-        <h5>Zapínání s přesahem</h5>
+        <h4>Zapínání s přesahem</h4>
         <p>
           Zapínání s přesahem znamená, že část kůže na svršku překrývá otevřenou
           část boty a je sepnuta po straně na knoflík nebo přezkou. Funkce je
@@ -60,7 +60,7 @@ export const Obuv = () => (
     </Row>
     <Row>
       <Col>
-        <h5>Zapínání pomocí záhybu</h5>
+        <h4>Zapínání pomocí záhybu</h4>
         <p>
           Princip zapínání je velmi podobný, jako u zapínání s přesahem, ale
           botě úplně chybí otevřená část na nártu. Místo ní je zde velký záhyb,
@@ -131,7 +131,7 @@ export const Obuv = () => (
     </Row>
     <Row>
       <Col>
-        <h5>Zapínání na nártový pásek u otevřených bot</h5>
+        <h4>Zapínání na nártový pásek u otevřených bot</h4>
         <p>
           Toto zapínání se vyskytuje u nízkých otevřených bot (střevíců) od 14.
           do 16. století. Je charakteristické páskem, který vede přes nárt a
@@ -172,7 +172,7 @@ export const Obuv = () => (
     </Row>
     <Row>
       <Col>
-        <h5>Zapínání s bočním šněrováním</h5>
+        <h4>Zapínání s bočním šněrováním</h4>
         <p>
           Tento typ má rozparek na boku boty, který se šněruje pomocí tkanice či
           koženého pásku. Vyskytuje se u nízkých a kotníkových bot v průběhu 13.
@@ -216,7 +216,7 @@ export const Obuv = () => (
     </Row>
     <Row>
       <Col>
-        <h5>Zavazování na tkaničky</h5>
+        <h4>Zavazování na tkaničky</h4>
         <p>
           Tento typ obuvi je na přední straně opatřen jednou, dvěma nebo třemi
           dvojcemi dírek, kterými se provlékala tkanice podobně jako u doubletu.
@@ -330,7 +330,105 @@ export const Obuv = () => (
     </Row>
     <Row>
       <Col>
-        <h5>Zapínání na knoflíky s ocáskem</h5>
+        <h5>Rekonstrukce</h5>
+        <p>
+          Pro rekonstrukci byly vybrány kotníkové boty se zavazováním na jednu
+          tkanici, podobně, jako je tomu u moderních bot, protože požadavkem
+          byla robustní bota, kterou její majitel může nosit k plátovým nohám
+          (tzn. část od kotníku nahoru bude překryta plátovým lýtkem) a zároveň
+          v ní absolvovat dlouhé pochody. Tento typ bot se široce uplatňje na
+          českých dobových vyobrazeních, viz níže.
+        </p>
+      </Col>
+    </Row>
+    <Row>
+      <ImageWithTitle
+        md={4}
+        src="kabat5.jpg"
+        width={466}
+        height={512}
+        title="Pregéř. Zde není možné určit ty zapínání, ale je patrné, že obuv je kotníková. Výřez z fresky v Mincířské kapli katedrály sv. Barbory v Kutné Hoře(1460-1470)."
+      />
+      <ImageWithTitle
+        md={4}
+        src="vaclav-z-jihlavy.jpg"
+        width={249}
+        height={320}
+        title="Písař má tmavé kotníkové boty. Typ zapínání nelze určit. Výřez z Brněnské právní knihy Václava z Jihlavy (1446)."
+      />
+      <ImageWithTitle
+        md={4}
+        src="tkanicky-jensky2.jpg"
+        width={600}
+        height={800}
+        title="Kotníková bota se zavazováním na tkaničky nebo na knoflíky s
+                ocáskem, výřez z Jenského kodexu (1490-1510)"
+      />
+    </Row>
+    <Row>
+      <p>
+        Při konstrukci repliky byly uplatněny všechny prvky, které se
+        uplatňovaly při konstrukci bot v 15. století, tj. obruba, okolek i
+        opatek. Bota je ručně šitá a následně převracená, tal aby všechny stehy
+        byly schovány uvnitř. Rekonstrukci provedl Josef
+        &bdquo;Halflung&ldquo;Novák.
+      </p>
+    </Row>
+    <Row>
+      <ImageWithTitle
+        md={4}
+        src="bota0.jpg"
+        width={720}
+        height={960}
+        title="Našitý opatek"
+      />
+      <ImageWithTitle
+        md={4}
+        src="bota1.jpg"
+        width={720}
+        height={960}
+        title="Našitá obruba"
+      />
+      <ImageWithTitle
+        md={4}
+        src="bota4.jpg"
+        width={960}
+        height={720}
+        title="Svršek a podešev jsou připraveny na sešití"
+      />
+    </Row>
+    <Row>
+      <ImageWithTitle
+        md={4}
+        src="bota2.jpg"
+        width={960}
+        height={720}
+        title="Sešití svrchních dílů boty"
+      />
+      <ImageWithTitle
+        md={4}
+        src="bota5.jpg"
+        width={960}
+        height={720}
+        title="Našití podešve na svršek"
+      />
+      <ImageWithTitle
+        md={4}
+        src="bota9.jpg"
+        width={960}
+        height={720}
+        title="Kompletní sešitá bota"
+      />
+    </Row>
+    <Row>
+      <ImageWithTitle md={4} src="bota6.jpg" width={720} height={960} />
+      <ImageWithTitle md={4} src="bota7.jpg" width={720} height={960} />
+      <ImageWithTitle md={4} src="bota8.jpg" width={720} height={960} />
+    </Row>
+
+    <Row>
+      <Col>
+        <h4>Zapínání na knoflíky s ocáskem</h4>
         <p>
           U tohoto typu je rozparek zapínání vepředu na nártu. Z jedné strany
           jsou tzv. knoflíky s ocáskem. Ty jsou vytvořeny tak, že se na kožené
@@ -433,7 +531,7 @@ export const Obuv = () => (
     </Row>
     <Row>
       <Col>
-        <h5>Zapínání na chlopeň</h5>
+        <h4>Zapínání na chlopeň</h4>
         <p>
           Je principiálně stejně jako výše popsané zapínání s přesahem, ale
           chlopeň není integrální součástí boty, nýbrž je našitá dodatečně. Toto
@@ -452,7 +550,7 @@ export const Obuv = () => (
     </Row>
     <Row>
       <Col>
-        <h5>Střevíce s límcem</h5>
+        <h4>Střevíce s límcem</h4>
         <p>
           Tyto střevíce mají místo obruby kožený límec. Ten se po nazutí ohrne
           dolů, čímž se bota kolem kotníku mírně uzavře. Tento typ střevíců byl
@@ -494,7 +592,7 @@ export const Obuv = () => (
     </Row>
     <Row>
       <Col>
-        <h5>Zapínání na řemínky</h5>
+        <h4>Zapínání na řemínky</h4>
         <p>
           Velice archaické zapínání, kdy noha byla nad kotníkem kolem dokola
           obvázaná jedním nebo více řemínky. Tento typ můžeme rozdělit na dva

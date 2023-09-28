@@ -7,12 +7,12 @@ export const PokryvkyHlavy = () => (
     <Row>
       <Col>
         <div className="anchor" id="pokryvky-hlavy" />
-        <h4>Pokrývky hlavy</h4>
+        <h3>Pokrývky hlavy</h3>
       </Col>
     </Row>
     <Row>
       <Col>
-        <h5>Kápě</h5>
+        <h4>Kápě</h4>
         <p>
           <i>Kápě</i>,&nbsp;<i>kapicě</i>,&nbsp;<i>kapicze</i> pochází stejně
           jako<i> čepice</i> ze středolatinského slova
@@ -30,7 +30,7 @@ export const PokryvkyHlavy = () => (
     </Row>
     <Row>
       <Col>
-        <h6>Kápě s cípem</h6>
+        <h5>Kápě s cípem</h5>
         <p>
           Tyto kápě byly v oblibě především před Husitskými válkami, jak je
           možné vidět v<i> Gelnhausenově kodexu</i> (1400 - 1408) nebo
@@ -73,7 +73,7 @@ export const PokryvkyHlavy = () => (
     </Row>
     <Row>
       <Col>
-        <h6>Kápě bez cípu</h6>
+        <h5>Kápě bez cípu</h5>
         <p>
           Jednoduchá kápě bez cípu byla nejrozšířenějším typem kápě v
           pohusitských Čechách. Bylo možno ji nosit pod přílbu nebo spolu s
@@ -121,7 +121,7 @@ export const PokryvkyHlavy = () => (
     </Row>
     <Row>
       <Col>
-        <h6>Kápě se střapci</h6>
+        <h5>Kápě se střapci</h5>
         <p>
           Byla oblíbena v německých zemích, včetně tehdejších Čech. Rovněž se
           mohla nosit pod přílbu, jak ukazují kresbya malby slavného malíře
@@ -170,7 +170,7 @@ export const PokryvkyHlavy = () => (
     </Row>
     <Row>
       <Col>
-        <h5>Klobouk</h5>
+        <h4>Klobouk</h4>
         <p>
           <i>Klobúk</i>,<i> klouček</i>,<i> koblúček</i>,<i> kobek</i>,
           <i> kobek</i>,<i> klouček</i>,<i> koláče</i>. Označoval kromě pokrývky
@@ -190,7 +190,7 @@ export const PokryvkyHlavy = () => (
     </Row>
     <Row>
       <Col>
-        <h6>Klobouk s kulatým dýnkem a srolovanou krempou</h6>
+        <h5>Klobouk s kulatým dýnkem a srolovanou krempou</h5>
       </Col>
     </Row>
     <Row>
@@ -246,7 +246,7 @@ export const PokryvkyHlavy = () => (
     </Row>
     <Row>
       <Col>
-        <h6>Klobouk s nahoru ohnutou krempou bez průstřihu</h6>
+        <h5>Klobouk s nahoru ohnutou krempou bez průstřihu</h5>
         <p>
           Většina těchto klobouků má v ikonografii rovné dýnko, ovšem lze
           narazit i na výjimky, jako je ta v Jenském kodexu, viz obrázek níže.
@@ -289,7 +289,7 @@ export const PokryvkyHlavy = () => (
     </Row>
     <Row>
       <Col>
-        <h6>Klobouk s nahoru ohnutou krempou s průstřihy</h6>
+        <h5>Klobouk s nahoru ohnutou krempou s průstřihy</h5>
         <p>
           Za povšimnutí stojí, že i když má klobouk pouze jeden průstřich, tento
           průstřih není nikdy uprostřed čela, ale spíše po straně hlavy.
@@ -332,7 +332,7 @@ export const PokryvkyHlavy = () => (
     </Row>
     <Row>
       <Col>
-        <h6>Další typy klobouků</h6>
+        <h5>Další typy klobouků</h5>
       </Col>
     </Row>
     <Row>
@@ -399,7 +399,7 @@ export const PokryvkyHlavy = () => (
     </Row>
     <Row>
       <Col>
-        <h5>Barety</h5>
+        <h4>Barety</h4>
         <p>
           Jednou z nejčastějších pokrývek hlavy je baret, který tvořil přibližně
           čtvrtinu všech pokrývek hlavy.
