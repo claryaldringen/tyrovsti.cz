@@ -23,13 +23,14 @@ export const Kabat = () => (
           byla těsně vypracovaná v oblasti hrudníku a pasu a nošena od 2.
           poloviny 14. století. I když kabát sloužil k přivazování nohavic i
           dříve, jak je patrné z úvazů nohavic na pourpointu Charlese de Blois,
-          široce se tento způsob přivazování nohavic rozšířil až kolem poloviny
-          15. století, čímž se z kabátu stala funkční část oděvu na pomezí mezi
-          spodním a svrchním oděvem, čemuž by odpovídalo také ustavení
-          samostatného kabátnického cechu roku 1441. S tím, jak se z nohavic
-          postupně stávají kalhoty a zvyšuje se jim pas, zkracují se i kabátce a
-          koncem 15. století se z nich opět stává plnohodnotný svrchní oděv.
-          Zběžný nástin vývoje kabátu lze vidět ná následujících obrázcích.
+          kombinace kabátu a k němu přivázaných nohavic se v Čechách široce
+          rozšířila až kolem poloviny 15. století, čímž se z kabátu stala
+          funkční část oděvu na pomezí mezi spodním a svrchním oděvem, čemuž by
+          odpovídalo také ustavení samostatného kabátnického cechu roku 1441. S
+          tím, jak se z nohavic postupně stávají kalhoty a zvyšuje se jim pas,
+          zkracují se i kabátce a koncem 15. století se z nich opět stává
+          plnohodnotný svrchní oděv. Zběžný nástin vývoje kabátu lze vidět ná
+          následujících obrázcích.
         </p>
       </Col>
     </Row>
@@ -204,6 +205,47 @@ export const Kabat = () => (
           </i>
         </p>
       </Col>
+    </Row>
+    <Row>
+      <Col>
+        <p>
+          Zatímco v západní Evropě byly tkanice, kterými byly nohavice přivázány
+          ke kabátu, vázány viditelně na jednu kličku, ve střední Evropě bylo
+          zvykem nosit tyto tkanice skrytě, jak je patrno z následujících
+          obrázků.
+        </p>
+      </Col>
+    </Row>
+    <Row>
+      <ImageWithTitle
+        md={3}
+        width={564}
+        height={988}
+        src="memling.jpg"
+        title="Kabát přivázaný ke kalhotám s viditelnými uzlíky na tkanicích. Výřez z oltáře sv. Jana od Hanse Memlinga, 1479."
+      />
+      <ImageWithTitle
+        md={3}
+        width={373}
+        height={480}
+        src="stetisvjiri.jpg"
+        title="Kabát přivázaný ke kalhotám s viditelnými uzlíky na tkanicích. Stětí sv. Jiří, Friedrich Herlin, 1462 - 1465."
+      />
+      <ImageWithTitle
+        md={3}
+        width={978}
+        height={1188}
+        src="talhofer1.jpg"
+        title="Tkanice mezi nohavicemi a kabátem jsou zde pouze naznačeny, protože uzlík je skryt na vnitřní straně. Stránka z fechtbuchu Hanse Talhofera, Německo, (1459)."
+        href="talhofer2.jpg"
+      />
+      <ImageWithTitle
+        md={3}
+        src="kabat2.jpg"
+        width={500}
+        height={500}
+        title="V českém prostředí jsou tkanice, kterými je spojen kabát s nohavicemi, skryté natolik, že na rozdíl od tkanice na břiše, nejsou ani naznačeny. Výřez z fresky v Mincířské kapli katedrály sv. Barbory v Kutné Hoře(1460-1470)."
+      />
     </Row>
   </>
 )

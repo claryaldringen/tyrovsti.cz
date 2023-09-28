@@ -20,6 +20,11 @@ const Page = () => {
           <Col className="text">
             <h1>Mužský oděv</h1>
             <SpodniOdev />
+            <Row>
+              <Col>
+                <h3>Svrchní oděv</h3>
+              </Col>
+            </Row>
             <Kabat />
             <Plast />
             <Obuv />
