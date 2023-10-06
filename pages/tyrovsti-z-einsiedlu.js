@@ -68,8 +68,8 @@ const Page = () => (
                 Tito čeští žoldnéři již kvůli nastalému příměří nestačili do
                 Saské bratrovražedné války zasáhnout a plynule přešli do služeb
                 kolínského arcibiskupa Dětřicha II. v tzv. Soestském sporu.
-                Protože vrchnim velitelem celého českého sboru byl Petr Holický
-                ze Štrnberka, lze předpokládat, že se Jošt zúčastnil celého
+                Protože vrchním velitelem celého českého sboru byl Petr Holický
+                ze Šternberka, lze předpokládat, že se Jošt zúčastnil celého
                 soestského tažení jako Petrova pravá ruka.
               </p>
               <p>

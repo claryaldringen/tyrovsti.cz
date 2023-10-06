@@ -234,7 +234,6 @@ export const Obuv = () => (
         height={720}
         title={
           <>
-            {' '}
             Nahoře: Dordrecht, Nizozemí. Bota s jazykem, jímž na obou stranách
             prochází tkaničky. 14. století. (Goubitz)
             <br />
@@ -250,7 +249,6 @@ export const Obuv = () => (
         height={540}
         title={
           <>
-            {' '}
             Nahoře: Dordrecht, Nizozemí. Střevíc s páry tkaniček. Pozdní
             středověk. (Goubitz)
             <br />
