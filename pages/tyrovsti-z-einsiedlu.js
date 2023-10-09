@@ -77,8 +77,9 @@ const Page = () => (
                 Poděbrad podniknul po porážce Strakonické jednoty v bitvě u
                 Mýta&nbsp;<b>4.&nbsp;června&nbsp;1450</b> v čele své strany
                 tažení proti jejím spojencům, zejména vévodovi Friedrichu
-                Saskému, přičemž bylo dobyto město Gera a na to&nbsp;
-                <b>23.&nbsp;října&nbsp;1450</b> uzavřeno příměří.
+                Saskému, přičemž bylo dobyto město Gera a den na to&nbsp;
+                <b>23.&nbsp;října&nbsp;1450</b>(některé zdroje uvádějí&nbsp;
+                <b>16. října 1450</b>) uzavřeno příměří.
               </p>
               <p>
                 Jošt z Einsiedle, který se účastnil tohoto tažení v družině pána
@@ -274,8 +275,8 @@ const Page = () => (
               </p>
               <p>
                 <div className="anchor" id="1" />
-                Podobnou agendu také pravděpodobně zastával na sněmu pořádaném
-                rovněž v Chebu na hromnice 1461. Joštovi byla také tentokrát
+                Podobnou agendu nejspíš také zastával na sněmu pořádaném rovněž
+                v Chebu na hromnice roku 1461. Joštovi byla i tentokrát
                 přisouzena pravděpodobně významná role, což vyplývá z jeho
                 dopisu ze &nbsp;<b>14. prosince 1460</b> starostovi a radě
                 Chebu, ve kterém prosí,
@@ -291,7 +292,7 @@ const Page = () => (
                 ručnice, vše vyrobeno v Norimberku.
               </p>
               <p>
-                V důsledku této diplomatické činnosti získal Jošt z Eisiedle
+                V důsledku této diplomatické činnosti získal Jošt z Einsiedlu
                 široký vliv a udržoval písemný styk s cizími knížaty. To platí
                 zejména o markraběti Albrechtu z Brandenburgu, a zde je třeba
                 vzít na vědomí především ono důvěrné psaní, které poslal
