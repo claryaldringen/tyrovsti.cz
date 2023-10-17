@@ -1,14 +1,14 @@
-import { Menu } from '../components/Menu'
+import { Menu } from '../../components/Menu'
 import { Col, Container, Row } from 'reactstrap'
 import React from 'react'
-import { HeadExtended } from '../components/HeadExtended'
-import { LANG_CS } from '../shared/constants'
-import { SpodniOdev } from '../components/Articles/cz/odev/SpodniOdev'
-import { Source, Sources } from '../components/Sources'
-import { Obuv } from '../components/Articles/cz/odev/Obuv'
-import { PokryvkyHlavy } from '../components/Articles/cz/odev/PokryvkyHlavy'
-import { Plast } from '../components/Articles/cz/odev/Plast'
-import { Kabat } from '../components/Articles/cz/odev/Kabat'
+import { HeadExtended } from '../../components/HeadExtended'
+import { LANG_CS } from '../../shared/constants'
+import { SpodniOdev } from '../../components/Articles/cz/odev/SpodniOdev'
+import { Source, Sources } from '../../components/Sources'
+import { Obuv } from '../../components/Articles/cz/odev/Obuv'
+import { PokryvkyHlavy } from '../../components/Articles/cz/odev/PokryvkyHlavy'
+import { Plast } from '../../components/Articles/cz/odev/Plast'
+import { Kabat } from '../../components/Articles/cz/odev/Kabat'
 
 const Page = () => {
   return (

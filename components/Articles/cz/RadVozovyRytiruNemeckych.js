@@ -1,5 +1,6 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
+import { Cit } from '../../Citation'
 
 export const RadVozovyRytiruNemeckych = () => (
   <>
@@ -8,21 +9,21 @@ export const RadVozovyRytiruNemeckych = () => (
         <div className="anchor" id="rad-vozovy-rytiru-nemeckych" />
         <h4>Řád vozový rytířů Německých ze dne 19. dubna 1433</h4>
         <p>
-          Poznámky k překladu: Termín <i>&bdquo;fuhrweyn&ldquo;</i> jsem po
-          úvaze přeložil jako <i>&bdquo;válečný vůz&ldquo;</i>. Podle popisu se
-          jedná o bytelný vůz, o něco větší než ostatní.
+          Poznámky k překladu: Termín <Cit>fuhrweyn</Cit> jsem po úvaze přeložil
+          jako <Cit>válečný vůz</Cit>. Podle popisu se jedná o bytelný vůz, o
+          něco větší než ostatní.
           <br />
-          Termín <i>&bdquo;lotbuchse&ldquo;</i> jsem zatím nalezl vždy jen v
-          souvislostí s Řádem Německých rytířů. Mělo by se jednat o palnou
-          zbraň, střílící olověnými kulemi bez další specifikace. Míchají se tak
-          dohromady <i>lotbuschen</i>, které jsou ručními zbraněmi i{' '}
-          <i>lotbuchsen</i>, které jsou lafetované. Zde jsem nakonec zvolil
-          český ekvivalent <i>tarasnice</i>, čili malé lafetované dělo, ale
-          klidně se může jednat i o hákovnice.
+          Termín <Cit>lotbuchse</Cit> jsem zatím nalezl vždy jen v souvislostí s
+          Řádem Německých rytířů. Mělo by se jednat o palnou zbraň, střílící
+          olověnými kulemi bez další specifikace. Míchají se tak dohromady{' '}
+          <i>lotbuschen</i>, které jsou ručními zbraněmi i <i>lotbuchsen</i>,
+          které jsou lafetované. Zde jsem nakonec zvolil český ekvivalent{' '}
+          <i>tarasnice</i>, čili malé lafetované dělo, ale klidně se může jednat
+          i o hákovnice.
           <br />
-          Termín <i>&bdquo;warpen&ldquo;</i> je pravděpodobně zkráceninou{' '}
-          <i>&bdquo;warpenweyn&ldquo;</i>, což je v pruské němčině vůz pro
-          přepravu vojenského materiálu.
+          Termín <Cit>warpen</Cit> je pravděpodobně zkráceninou{' '}
+          <Cit>warpenweyn</Cit>, což je v pruské němčině vůz pro přepravu
+          vojenského materiálu.
         </p>
         <p>Přeložila PhDr. Zdeňka Kopková, korekce provedl Daniel Burger.</p>
         <p>&nbsp;</p>

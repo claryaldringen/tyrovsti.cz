@@ -1,5 +1,5 @@
 import { Col, Row } from 'reactstrap'
-import { ImageWithTitle } from '../../ImageWithTitle/ImageWithTitle'
+import { ImageWithTitle } from '../../../ImageWithTitle'
 import React from 'react'
 
 export const JindrichTyrovsky = () => (

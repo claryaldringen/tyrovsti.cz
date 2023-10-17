@@ -1,6 +1,7 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
-import { ImageWithTitle } from '../../../ImageWithTitle/ImageWithTitle'
+import { ImageWithTitle } from '../../../ImageWithTitle'
+import { Cit } from '../../../Citation'
 
 export const SpodniOdev = () => (
   <>
@@ -37,15 +38,15 @@ export const SpodniOdev = () => (
         <p>
           Zdá se, že rozdíl mezi košilí a rubášem spočíval zejména v délce, když
           v jednom dědictví litomyšlském z roku 1510 se odkazují{' '}
-          <i>&bdquo;košile tři a rubáč dlouhý&ldquo;</i>. Tím by se rubáš řadil
-          spíše, nikoliv však výhradně, do ženského šatníku. To by naznačovaly i
-          další testamenty litomyšlských měšťanek: Rychtářka Tisovská má roku
-          1497 2 rubáče lněné, Marta, sestra purkrabové, odkazuje roku 1499{' '}
+          <Cit>košile tři a rubáč dlouhý</Cit>. Tím by se rubáš řadil spíše,
+          nikoliv však výhradně, do ženského šatníku. To by naznačovaly i další
+          testamenty litomyšlských měšťanek: Rychtářka Tisovská má roku 1497 2
+          rubáče lněné, Marta, sestra purkrabové, odkazuje roku 1499{' '}
           <i>
             &bdquo;Mandě písařce dva rubáče, jeden žemniový a druhý lněný&ldquo;
           </i>
           . Kateřina, měšťanska z Nového Města pražského, odkazuje roku 1483{' '}
-          <i>&bdquo;tři rubáše sváteční a tři košile všední&ldquo;</i>.
+          <Cit>tři rubáše sváteční a tři košile všední</Cit>.
         </p>
       </Col>
     </Row>

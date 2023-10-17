@@ -1,6 +1,7 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
-import { ImageWithTitle } from '../../../ImageWithTitle/ImageWithTitle'
+import { ImageWithTitle } from '../../../ImageWithTitle'
+import { Cit } from '../../../Citation'
 
 export const Kabat = () => (
   <>
@@ -65,9 +66,9 @@ export const Kabat = () => (
           kabátu tak mohlo být zhotoveno z levnější, např. nebarvené látky. Tomu
           by také odpovídal testament kotláře Martina z nynější Spálené ulice v
           Praze, který roku 1477 zanechává{' '}
-          <i>&bdquo;dva rukávy aksamitové od kabáta&ldquo;</i>. Vzhledem k tomu,
-          že kabát tvořil s nohavicemi jeden celek, bylo módní mít nohavice i
-          kabát, popřípadě jen jeho viditelné části, ve stejné barvě, nejlépe
+          <Cit>dva rukávy aksamitové od kabáta</Cit>. Vzhledem k tomu, že kabát
+          tvořil s nohavicemi jeden celek, bylo módní mít nohavice i kabát,
+          popřípadě jen jeho viditelné části, ve stejné barvě, nejlépe
           kontrastní ke svrchní sukni či plášti.
         </p>
       </Col>

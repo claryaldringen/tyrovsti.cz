@@ -26,6 +26,7 @@ export const menuEn = [
 
 export const otherCs = [
   { href: '/kterak-nevytvorit-skupinu-historickeho-sermu' },
+  { href: '/zdroje' },
 ]
 
 export const otherEn = []

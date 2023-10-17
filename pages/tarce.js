@@ -3,7 +3,7 @@ import { Col, Container, Row } from 'reactstrap'
 import Link from 'next/link'
 import { HeadExtended } from '../components/HeadExtended'
 import { LANG_CS } from '../shared/constants'
-import { ImageWithTitle } from '../components/ImageWithTitle/ImageWithTitle'
+import { ImageWithTitle } from '../components/ImageWithTitle'
 
 const Page = () => {
   return (
@@ -168,7 +168,7 @@ const Page = () => {
                   tarči z let 1440 - 1460, pravděpodobně z Norimberka, která se
                   nyní nachází v Muzeu umění ve Filadelfii. Jak víme, Čechy byly
                   s Norimberkem v čilém obchodním vztahu a sám{' '}
-                  <Link href="tyrovsti-z-einsiedlu#1">
+                  <Link href="pages/tyrovsti-z-einsiedlu/jost-z-einsiedlu#1">
                     Jošt vlastnil palné zbraně vyrobené v Norimberku.
                   </Link>
                   Tarči s podobně stylizovanými okraji do tvaru srolovaných
