@@ -254,19 +254,25 @@ export const JostTyrovsky = () => (
           vyrobeno v Norimberku.
         </p>
         <p>
+          Protože císař Fridrich III. povýšil <b>7. prosince 1462</b> v
+          Korneuburgu Jiřího syny Viktorina, Jindřicha a Hynka do stavu říšských
+          knížat, byli Jošt, Zdeněk ze Šternberka a Prokop z Rabštejna vysláni k
+          císaři aby přivezli knížecí pláště a klobouky, které{' '}
+          <b>21. února 1463</b> slavnostně odevzdali v Králově dvoře v Praze.
+        </p>
+        <p>
           V důsledku této diplomatické činnosti získal Jošt z Einsiedlu široký
-          vliv a udržoval písemný styk s cizími knížaty. To platí zejména o
-          markraběti Albrechtu z Brandenburgu, a zde je třeba vzít na vědomí
-          především ono důvěrné psaní, které poslal markrabě Joštovi v roce
-          1463, aby ho informoval o snahách papežského legáta zaměřených proti
-          králi.
+          vliv a udržoval písemný styk s cizími knížaty. To platí hlavně o
+          markraběti Albrechtu z Brandenburgu. Zde máme na mysli zejména důvěrné
+          psaní, které poslal markrabě Joštovi v roce 1463, aby ho informoval o
+          snahách papežského legáta zaměřených proti králi.
           <i>„To můžete”</i> , pokračuje dopis,
           <i>
             „ve velké tajnosti říci našemu pánu králi, neboť je to skutečně tak”
           </i>{' '}
-          4). Také Jošt sděloval markraběti opakovaně zprávy z českého dvora
+          Také Jošt sděloval markraběti opakovaně zprávy z českého dvora
           (dochoval se dopis z&nbsp;<b>4. července 1464</b> a tři dopisy z roku
-          1469).m
+          1469).
         </p>
         <p>
           Vliv královského tajného písaře se projevoval při různých
@@ -360,13 +366,13 @@ export const JostTyrovsky = () => (
           Libštejnským z Kolovrat. Jednáním, která se odehrála v Augsburku,
           předcházelo ještě několik dalších jednání s Albrechtem Braniborským,
           jejichž výsledkem bylo uznání Vladislava jako právoplatného českého
-          krále. Výsledkem jednání dlouhého vyjednání s Fridrichem III. bylo
-          dohodnutí se na vojenských operacích v Rakousích za účelem bojů s
-          Korvínem a vzpurnou rakouskou šlechtou.
+          krále. Výsledkem dlouhého vyjednvání s Fridrichem III. bylo dohodnutí
+          se na vojenských operacích v Rakousích za účelem bojů s Korvínem a
+          vzpurnou rakouskou šlechtou.
         </p>
         <p>
-          Roku 1473 postoupil mu král právem odúmrtním dvůr v Hlinci a téhož
-          roku mu potvrdil všechny výsady udělené mu klrálem Jiřím a mimo to mu
+          Roku 1473 postoupil mu král právem odúmrtním dvůr v Hlincích a téhož
+          roku mu potvrdil všechny výsady udělené mu králem Jiřím a mimo to mu
           dovolil ještě navíc 4 jeleny nebo laně v lesích zabíti a na opravu
           hradu připsal ještě zvlášť 50 kop grošů. Následující rok však Jošt
           umírá. &nbsp;

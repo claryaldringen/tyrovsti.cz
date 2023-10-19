@@ -65,6 +65,12 @@ const Page = () => (
               city="Domažlice"
               year={2003}
             />
+            <Source
+              name="PODĚBRADOVÉ Rod českomoravských pánů, kladských hrabat a slezských knížat"
+              author="Ondřej Felcman, Radek Fukala, Vladimír Hrubý, Jarosław Malicki, Karel Müller, František Musil, Miroslav Plaček, Jaroslav Šůla, Martin Šandera, Marek Vařeka"
+              city="Praha"
+              year={2008}
+            />
           </Sources>
         </Col>
       </Row>
