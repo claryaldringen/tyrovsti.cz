@@ -2,7 +2,7 @@ import { HeadExtended } from '../../components/HeadExtended'
 import { LANG_CS } from '../../shared/constants'
 import React from 'react'
 import { Col, Container, Row } from 'reactstrap'
-import JindrichTyrovskyZEinsiedlu from './jindrich-tyrovsky-z-einsiedlu'
+import { JindrichTyrovsky } from '../../components/Articles/cz/tyrovsti/JindrichTyrovsky'
 
 const Page = () => (
   <>
@@ -10,7 +10,7 @@ const Page = () => (
     <Container>
       <Row>
         <Col className="text">
-          <JindrichTyrovskyZEinsiedlu />
+          <JindrichTyrovsky />
         </Col>
       </Row>
     </Container>
