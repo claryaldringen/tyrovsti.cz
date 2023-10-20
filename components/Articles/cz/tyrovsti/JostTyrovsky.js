@@ -1,5 +1,6 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
+import { Cit } from '../../../Citation'
 
 export const JostTyrovsky = () => (
   <>
@@ -76,18 +77,17 @@ export const JostTyrovsky = () => (
         <p>
           Na základě vildštejnských jednání se město nakonec vykoupilo 1000
           zlatými výpalného:&nbsp;
-          <i>
-            „Panu Girzikovi (Jiříkovi) jsme dali 1000 zlatých, které musí být
+          <Cit>
+            Panu Girzikovi (Jiříkovi) jsme dali 1000 zlatých, které musí být
             dány radou jako výpalné. Pan Petr ze Šternberka obdržel 200 fl. za
-            své zprostředkování.”
-          </i>
+            své zprostředkování.
+          </Cit>
           <br />
           Rovněž další zprostředkovatelé nezůstali bez odměny:&nbsp;
-          <i>
-            „Dejte uvedenému 1 kopu 23 grošů pro Hanse z Kotzau a pro Jošta,
-            písaře Šternberků, který se podílel na jednání mezi radními a
-            Čechy.”
-          </i>
+          <Cit>
+            Dejte uvedenému 1 kopu 23 grošů pro Hanse z Kotzau a pro Jošta,
+            písaře Šternberků, který se podílel na jednání mezi radními a Čechy.
+          </Cit>
         </p>
         <p>
           Do konce roku 1453 či snad do počátku roku 1454 zůstal Jošt z
@@ -225,29 +225,29 @@ export const JostTyrovsky = () => (
           <b>9. dubna 1459</b> ještě pozdě večer a vyslovoval se při této
           příležitosti horlivě pro vyrovnání se Saskem tím, že zastával správný
           názor, že pokud by dotyčná záležitost byla postoupena císaři nebo
-          kurfiřtům, byl by
-          <i>„konec v nedohlednu”</i>. A když se příštího dne objevil markrabě
-          se saskými poradci u krále v jeho obydlí u Kašpara Junkera ohledně
-          bližšího jednání, fungoval Jošt z Einsiedle jako tlumočník. Když se po
-          ukončení jednání odcházelo z Chebu, převzal dar 100 kop grošů od města
-          pro krále:
-          <i>
-            „Tím jsme poukázali našemu panu králi opět 1 kopu grošů, aby ho rada
-            uctila - předáno pánu Joštu z Einsiedle”
-          </i>
+          kurfiřtům, byl by <Cit>konec v nedohlednu</Cit>. A když se příštího
+          dne objevil markrabě se saskými poradci u krále v jeho obydlí u
+          Kašpara Junkera ohledně bližšího jednání, fungoval Jošt z Einsiedle
+          jako tlumočník. Když se po ukončení jednání odcházelo z Chebu, převzal
+          dar 100 kop grošů od města pro krále:{' '}
+          <Cit>
+            Tím jsme poukázali našemu panu králi opět 1 kopu grošů, aby ho rada
+            uctila - předáno pánu Joštu z Einsiedle
+          </Cit>
+          .
         </p>
         <p>
           <div className="anchor" id="1" />
           Podobnou agendu nejspíš také zastával na sněmu pořádaném rovněž v
           Chebu na hromnice roku 1461. Joštovi byla i tentokrát přisouzena
           pravděpodobně významná role, což vyplývá z jeho dopisu ze &nbsp;
-          <b>14. prosince 1460</b> starostovi a radě Chebu, ve kterém prosí,
-          <i>
-            „aby mu poskytl ubytování u svého bratra (Jorg Smidel), protože
+          <b>14. prosince 1460</b> starostovi a radě Chebu, ve kterém prosí,{' '}
+          <Cit>
+            aby mu poskytl ubytování u svého bratra (Jorg Smidel), protože
             potřebuje pohodlné místo k odpočinku tím spíše, že beztoho nebude
             moci mnoho spát, jelikož má spoustu práce a stále bude muset dlít v
-            blízkosti krále”
-          </i>
+            blízkosti krále
+          </Cit>
           . Během tohoto sněmu ještě poskytl advokátní službu ve sporu Chebu s
           waldsasským opatem o Albenreuth. Za tuto a jiné služby mu bylo kromě
           deseti zlatých věnována ještě jedna tarasnice a 4 ručnice, vše
@@ -266,11 +266,11 @@ export const JostTyrovsky = () => (
           markraběti Albrechtu z Brandenburgu. Zde máme na mysli zejména důvěrné
           psaní, které poslal markrabě Joštovi v roce 1463, aby ho informoval o
           snahách papežského legáta zaměřených proti králi.
-          <i>„To můžete”</i> , pokračuje dopis,
-          <i>
-            „ve velké tajnosti říci našemu pánu králi, neboť je to skutečně tak”
-          </i>{' '}
-          Také Jošt sděloval markraběti opakovaně zprávy z českého dvora
+          <Cit>To můžete</Cit> , pokračuje dopis,{' '}
+          <Cit>
+            ve velké tajnosti říci našemu pánu králi, neboť je to skutečně tak
+          </Cit>
+          . Také Jošt sděloval markraběti opakovaně zprávy z českého dvora
           (dochoval se dopis z&nbsp;<b>4. července 1464</b> a tři dopisy z roku
           1469).
         </p>
@@ -308,15 +308,15 @@ export const JostTyrovsky = () => (
           také jeho věrné, a celé kraje úpěly pod tíží interdiktu. Také město
           Cheb, které svému králi zachovalo chvályhodnou věrnost, propadlo
           církevnímu trestu. Nehledě na sympatie, které mělo k osobě krále (již
-          4. září 1461 mu přísahalo věrnost), převážily zde rozhodně politické
-          důvody. Od roku 1315 bylo město Cheb se svou oblastí zástavním
-          majetkem české koruny. Opíraje se o svá privilegia, která mu vymezila
-          výhodné zvláštní postavení, drželo se stranou všech hnutí v Čechách a
-          skládalo přísahu a vzdávalo hold pouze korunovanému králi. Vzdát hold
-          králi, který jako Matyáš neměl korunu, by mohlo mít lehce za následek
-          nebezpečný precedens. Proto město, bez ohledu na opakovaná napomenutí,
-          odepřelo vzdorokráli hold a nechalo spíše nad sebou vyhlásit
-          interdikt.
+          <b>4. září 1461</b> mu přísahalo věrnost), převážily zde rozhodně
+          politické důvody. Od roku 1315 bylo město Cheb se svou oblastí
+          zástavním majetkem české koruny. Opíraje se o svá privilegia, která mu
+          vymezila výhodné zvláštní postavení, drželo se stranou všech hnutí v
+          Čechách a skládalo přísahu a vzdávalo hold pouze korunovanému králi.
+          Vzdát hold králi, který jako Matyáš neměl korunu, by mohlo mít lehce
+          za následek nebezpečný precedens. Proto město, bez ohledu na opakovaná
+          napomenutí, odepřelo vzdorokráli hold a nechalo spíše nad sebou
+          vyhlásit interdikt.
         </p>
         <p>
           Že ani Jošt nezakolísal, je po všem, co bylo již řečeno, snadno
@@ -335,11 +335,11 @@ export const JostTyrovsky = () => (
           přestání v konfliktu: ostrý boj, který hýbal celou dobou, se odráží v
           prsou tohoto muže, který se s rozhodností přidržuje toho, co ve své
           prosté duši považuje za správné a dobré. Nakonec se rozhodne pro
-          trpící poslušnost, protože mu jde o víru, kterou nechce vzdorovitostí
-          <i>„pomoci oslabit”</i>. Takto sdílí stejný osud se spřáteleným městem
-          Cheb, které se snaží utěšovat a posilovat v poslušnosti. Teprve když
-          vidí, že jeho protivníkům nejde ani tolik o víru jako spíše o kořist,
-          chopí se meče a sjedná si klid.
+          trpící poslušnost, protože mu jde o víru, kterou nechce vzdorovitostí{' '}
+          <Cit>pomoci oslabit</Cit>. Takto sdílí stejný osud se spřáteleným
+          městem Cheb, které se snaží utěšovat a posilovat v poslušnosti. Teprve
+          když vidí, že jeho protivníkům nejde ani tolik o víru jako spíše o
+          kořist, chopí se meče a sjedná si klid.
         </p>
         <p>
           Po smrti krále Jiřího z Poděbrad (<b>22. března 1471</b>) se na
