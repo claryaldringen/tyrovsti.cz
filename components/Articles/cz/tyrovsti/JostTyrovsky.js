@@ -307,7 +307,7 @@ export const JostTyrovsky = () => (
           vyhasla klesající hvězda Jiřího. Klatba, která ho potkala, zachvátila
           také jeho věrné, a celé kraje úpěly pod tíží interdiktu. Také město
           Cheb, které svému králi zachovalo chvályhodnou věrnost, propadlo
-          církevnímu trestu. Nehledě na sympatie, které mělo k osobě krále (již
+          církevnímu trestu. Nehledě na sympatie, které mělo k osobě krále (již{' '}
           <b>4. září 1461</b> mu přísahalo věrnost), převážily zde rozhodně
           politické důvody. Od roku 1315 bylo město Cheb se svou oblastí
           zástavním majetkem české koruny. Opíraje se o svá privilegia, která mu
