@@ -17,6 +17,22 @@ const Page = () => {
                 <ul>
                   <li>
                     <a
+                      href="https://www.trinity-art.cz/_pracovni/mestske_knihy_kodex_VJ.pdf"
+                      target="_blank"
+                    >
+                      Památná kniha olomoucká
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://upload.wikimedia.org/wikipedia/commons/d/d9/Freska_v_chr%C3%A1mu_sv._Barbory%28Kutn%C3%A1_Hora%29_1.JPG"
+                      target="_blank"
+                    >
+                      Freska z Mincířské kaple, chrám sv. Barbory, Kutná Hora
+                    </a>
+                  </li>
+                  <li>
+                    <a
                       href="https://www.manuscriptorium.com/apps/index.php?direct=record&pid=AIPDIG-MJ____S_2746______1PETHXE-cs"
                       target="_blank"
                     >

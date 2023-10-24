@@ -9,6 +9,7 @@ import { Obuv } from '../../components/Articles/cz/odev/Obuv'
 import { PokryvkyHlavy } from '../../components/Articles/cz/odev/PokryvkyHlavy'
 import { Plast } from '../../components/Articles/cz/odev/Plast'
 import { Kabat } from '../../components/Articles/cz/odev/Kabat'
+import { Sukne } from '../../components/Articles/cz/odev/Sukne'
 
 const Page = () => {
   return (
@@ -26,6 +27,7 @@ const Page = () => {
               </Col>
             </Row>
             <Kabat />
+            <Sukne />
             <Plast />
             <Obuv />
             <PokryvkyHlavy />
