@@ -13,7 +13,8 @@ const Page = () => {
             <Row>
               <Col>
                 <h1>Zdroje</h1>
-                <h2>České</h2>
+                <h2>Původní</h2>
+                <h3>České</h3>
                 <ul>
                   <li>
                     <a
@@ -52,7 +53,7 @@ const Page = () => {
             </Row>
             <Row>
               <Col>
-                <h2>Německé</h2>
+                <h3>Německé</h3>
                 <ul>
                   <li>
                     <a
@@ -69,6 +70,53 @@ const Page = () => {
                       target="_blank"
                     >
                       Die Hausbücher der Nürnberger Zwölfbrüderstiftungen
+                    </a>
+                  </li>
+                </ul>
+              </Col>
+            </Row>
+            <Row>
+              <Col>
+                <h2>Nepůvodní</h2>
+                <ul>
+                  <li>
+                    <a
+                      href="https://is.muni.cz/th/lch5n/disertace_text.pdf"
+                      target="_blank"
+                    >
+                      Kožedělná výroba v českých zemích ve středověku
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://dspace.cuni.cz/bitstream/handle/20.500.11956/92944/DPTX_2014_2_11210_0_436502_0_166872.pdf?sequence=1&isAllowed=y"
+                      target="_blank"
+                    >
+                      Proměna stylu odívání v průběhu husitských válek
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://dspace.cuni.cz/bitstream/handle/20.500.11956/44950/BPTX_2011_1__0_286060_0_115140.pdf?sequence=1&isAllowed=y"
+                      target="_blank"
+                    >
+                      Rakovnický oltář
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://sources.cms.flu.cas.cz/src/index.php?s=v&cat=10&bookid=821&page=438"
+                      target="_blank"
+                    >
+                      Artikule cechů pražských
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://theses.cz/id/x0mt06/Bakalsk_prce_Severov.pdf"
+                      target="_blank"
+                    >
+                      Fresková výmalba zámku v Žirovnici
                     </a>
                   </li>
                 </ul>

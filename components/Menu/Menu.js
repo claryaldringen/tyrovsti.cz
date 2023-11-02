@@ -1,10 +1,11 @@
-import React, { useCallback, useState } from 'react'
+import React, { useCallback, useRef, useState } from 'react'
 import { Col, Row } from 'reactstrap'
 import Link from 'next/link'
 import Image from 'next/image'
 import styles from './Menu.module.scss'
 import { menuCs, menuEn } from '../../shared/sitemap'
 import { LANG_EN } from '../../shared/constants'
+import { useOutsideClickHandler } from '../../hooks/useOutsideClickHandler'
 
 const LINKS = [
   'https://www.rattenschwanz.cz/',
@@ -19,10 +20,16 @@ const LangToggler = () => (
         src="/images/icons8-czech-republic-48.png"
         width={48}
         height={48}
+        alt="Czech language"
       />
     </Link>
     <Link href="/en">
-      <Image src="/images/icons8-great-britain-48.png" width={48} height={48} />
+      <Image
+        src="/images/icons8-great-britain-48.png"
+        width={48}
+        height={48}
+        alt="English language"
+      />
     </Link>
   </div>
 )
@@ -32,8 +39,10 @@ const Cs = () => (
     <h2>O projektu</h2>
     <p>
       Zabýváme se rekonstrukcí (tzv. reenactment) dvora a družiny&nbsp;
-      <Link href="/jost-z-einsidle-a-na-tyrove">Jošta z Einsiedle</Link>,
-      osobního sekretáře krále Jiřího z Poděbrad, datačně přibližně mezi lety
+      <Link href="/tyrovsti-z-einsiedlu/jost-z-einsiedlu">
+        Jošta z Einsiedle
+      </Link>
+      , osobního sekretáře krále Jiřího z Poděbrad, datačně přibližně mezi lety
       1450 - 1470.
     </p>
     <p>
@@ -78,8 +87,10 @@ const En = () => (
     <p>
       We are engaged in the reconstruction (so-called reenactment) of the
       courtyard and the companion&nbsp;
-      <Link href="/jost-z-einsidle-a-na-tyrove">Jobst of Einsiedl</Link>,
-      personal secretary to King George of Poděbrady, dated approximately
+      <Link href="/tyrovsti-z-einsiedlu/jost-z-einsiedlu">
+        Jobst of Einsiedl
+      </Link>
+      , personal secretary to King George of Poděbrady, dated approximately
       between the years 1450 - 1470.
     </p>
     <p>
@@ -129,18 +140,21 @@ export const Menu = ({ lang }) => {
 
   const closeNavbar = useCallback(
     (event) => {
-      if (event.key == 'Escape') {
+      if (event.key === 'Escape') {
         setIsOpen(false)
       }
-      if (event.key == 'Enter') {
+      if (event.key === 'Enter') {
         setIsOpen(true)
       }
     },
     [setIsOpen]
   )
 
+  const ref = useRef(null)
+  useOutsideClickHandler(ref, () => setIsOpen(false))
+
   return (
-    <div className={`menu ${isOpen && 'absolute'}`}>
+    <div ref={ref} className={`menu ${isOpen && 'absolute'}`}>
       {lang === 'en' ? (
         <Link href="/en" className="brand">
           Jobst&nbsp;of&nbsp;Einsiedl&nbsp;and&nbsp;Tyrzow

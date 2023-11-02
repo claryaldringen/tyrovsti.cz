@@ -2,7 +2,8 @@ import React from 'react'
 import { Col, Container, Row } from 'reactstrap'
 import { HeadExtended } from '../components/HeadExtended'
 import { LANG_EN } from '../shared/constants'
-import { ImageWithTitle } from '../components/ImageWithTitle/ImageWithTitle'
+import { ImageWithTitle } from '../components/ImageWithTitle'
+import { Cit } from '../components/Citation'
 
 const Page = () => {
   return (
@@ -234,11 +235,10 @@ const Page = () => {
                   coverts with silver lining, also a gold crown. In the jewel is
                   a red Tartar hat with silver lining and black lips. The
                   banderole with the inscription{' '}
-                  <i>&ldquo;Pomny na mye ma myla vyerna pany&rdquo;</i>{' '}
-                  (Remember me my dear faithful lady), which is taken from a
-                  contemporary spur, is placed in the same way as on the tarche
-                  of Fig. 2. On the inner side is an inartistic painting of St.
-                  Christopher.
+                  <Cit>Pomny na mye ma myla wyerna pany</Cit> (Remember me my
+                  dear faithful lady), which is taken from a contemporary spur,
+                  is placed in the same way as on the tarche of Fig. 2. On the
+                  inner side is an inartistic painting of St. Christopher.
                 </p>
               </Col>
             </Row>

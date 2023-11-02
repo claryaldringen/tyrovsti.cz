@@ -1,4 +1,3 @@
-import { Menu } from '../../components/Menu'
 import { Col, Container, Row } from 'reactstrap'
 import React from 'react'
 import { HeadExtended } from '../../components/HeadExtended'
@@ -15,7 +14,6 @@ const Page = () => {
   return (
     <>
       <HeadExtended lang={LANG_CS} title="Mužský oděv" />
-      <Menu />
       <Container>
         <Row>
           <Col className="text">

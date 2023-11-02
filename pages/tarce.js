@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { HeadExtended } from '../components/HeadExtended'
 import { LANG_CS } from '../shared/constants'
 import { ImageWithTitle } from '../components/ImageWithTitle'
+import { Cit } from '../components/Citation'
 
 const Page = () => {
   return (
@@ -232,10 +233,10 @@ const Page = () => {
                   a červených přikryvadel se stříbrnou podšívkou též zlatou
                   korunkou. V klenotu je červený tatarský klobouk se stříbrnou
                   podšívkou a černými pery. Banderola s nápisem{' '}
-                  <i>&bdquo;Pomny na mye ma myla vyerna pany&ldquo;</i> (Pamatuj
-                  na mě má milá věrná paní), který je převzat ze soudobé
-                  ostruhy, je umístěna stejně jako na tarči z obr. 2. Na vnitřní
-                  straně je neuměle namalovaný svatý Kryštof.
+                  <Cit>Pomny na mye ma myla wyerna pany</Cit> (Pamatuj na mě má
+                  milá věrná paní), který je převzat ze soudobé ostruhy, je
+                  umístěna stejně jako na tarči z obr. 2. Na vnitřní straně je
+                  neuměle namalovaný svatý Kryštof.
                 </p>
               </Col>
             </Row>
