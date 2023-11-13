@@ -124,6 +124,13 @@ export const Erb = () => (
         height={589}
         title="Erb Doroty Polyxeny Kateřiny Kokořovské z Kokořova, rozené Týřovské z Einsidlu, na reliéfu na kostele sv. Vojtěcha ve Šťáhlavech, mezi lety 1637 - 1640"
       />
+      <ImageWithTitle
+        md={4}
+        src="erb-oltar-milicov.jpg"
+        width={640}
+        height={480}
+        title="Erb Týřovských na kartuši z oltáře kostela sv. Petra v Okovech v Milíčově. Pravděpodobně 2. polovina 17. století."
+      />
     </Row>
   </>
 )
