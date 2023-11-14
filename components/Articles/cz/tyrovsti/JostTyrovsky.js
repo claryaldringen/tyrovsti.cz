@@ -1,6 +1,7 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Cit } from '../../../Citation'
+import { ImageWithTitle } from '../../../ImageWithTitle'
 
 export const JostTyrovsky = () => (
   <>
@@ -108,6 +109,18 @@ export const JostTyrovsky = () => (
           užívání erb, který mu byl&nbsp;<b>23. listopadu 1455</b>
           &nbsp;povýšen císařem Fridrichem III.
         </p>
+      </Col>
+    </Row>
+    <Row>
+      <ImageWithTitle
+        src="polepseni.jpg"
+        width={3141}
+        height={2048}
+        title="Originální latinský zápis o polepšení Joštova erbu učiněný 23. listopadu 1455 v Gratzu."
+      />
+    </Row>
+    <Row>
+      <Col>
         <p>
           Ve službách správce se Joštovi otevřelo široké a významné pole
           působnosti. Protože Jiří rozuměl, jak známo, jen málo německy, byl pro
@@ -146,11 +159,13 @@ export const JostTyrovsky = () => (
           sousedů, nýbrž zůstali pevní a neochvějní.
         </p>
         <p>
-          Pro Jošta samotného mělo zvolení Jiřího i další důsledek, a sice to,
+          Pro Jošta samotného mělo zvolení Jiřího i další důsledek, a sice ten,
           že ho nový král ještě v létě korunovačního roku pozvedl do rytířského
-          stavu, k čemuž chebští svému příteli &nbsp;
-          <b>29. července 1458</b> gratulovali. Zároveň s povýšením do
-          rytířského stavu dostává dědictví v hodnotě 500 kop grošů na statku
+          stavu, jak dokládá gratulace Chebských z&nbsp;
+          <b>29. července 1458</b> nebo nebo transumpt buly papeže Pia II. z
+          března 1459, v němž je Jošt jmenován jako{' '}
+          <Cit>Jodocus de Eynsedil, milites Pragensis</Cit>. Zároveň s povýšením
+          do rytířského stavu dostává dědictví v hodnotě 500 kop grošů na statku
           makotřaském. Někdy v této době také získává vsi Skryje a Tytry.
         </p>
         <p>
@@ -371,11 +386,11 @@ export const JostTyrovsky = () => (
           vzpurnou rakouskou šlechtou.
         </p>
         <p>
-          Roku 1473 postoupil mu král právem odúmrtním dvůr v Hlincích a téhož
-          roku mu potvrdil všechny výsady udělené mu králem Jiřím a mimo to mu
-          dovolil ještě navíc 4 jeleny nebo laně v lesích zabíti a na opravu
-          hradu připsal ještě zvlášť 50 kop grošů. Následující rok však Jošt
-          umírá. &nbsp;
+          Roku 1473 postoupil mu král Vladislav právem odúmrtním dvůr v Hlincích
+          a téhož roku mu potvrdil všechny výsady udělené mu králem Jiřím a mimo
+          to mu dovolil ještě navíc 4 jeleny nebo laně v lesích zabíti a na
+          opravu hradu připsal ještě zvlášť 50 kop grošů. Následující rok však
+          Jošt umírá. &nbsp;
           <b>11. července 1474</b> se ještě objevuje mezi přítomnými komorního
           soudu, ale rok 1476 ho již nezastihnul mezi živými, jak stojí v dopise
           ze &nbsp;<b>17. dubna 1476</b>:

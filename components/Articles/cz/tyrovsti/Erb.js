@@ -129,7 +129,7 @@ export const Erb = () => (
         src="erb-oltar-milicov.jpg"
         width={640}
         height={480}
-        title="Erb Týřovských na kartuši z oltáře kostela sv. Petra v Okovech v Milíčově. Pravděpodobně 2. polovina 17. století."
+        title="Erb Týřovských na kartuši z oltáře kostela sv. Petra v Okovech v Milíčově z roku 1665."
       />
     </Row>
   </>
