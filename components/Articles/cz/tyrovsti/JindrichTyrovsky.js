@@ -1,6 +1,8 @@
 import { Col, Row } from 'reactstrap'
 import { ImageWithTitle } from '../../../ImageWithTitle'
 import React from 'react'
+import { PUBLICATIONS } from '../../../../shared/constants'
+import { Qt } from '../../../Quote/Qt'
 
 export const JindrichTyrovsky = () => (
   <>
@@ -137,6 +139,7 @@ export const JindrichTyrovsky = () => (
           syny se v roce 1556 odstěhoval do Jinců, které náležely Mikuláši
           Pešíkovi z Komárova, kde 19. února 1556 zemřel a je ve zdejším kostele
           sv. Mikuláše i pochován.
+          <Qt publication={PUBLICATIONS.KOCKA} />
         </p>
       </Col>
     </Row>

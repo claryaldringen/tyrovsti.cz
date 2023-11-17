@@ -62,4 +62,39 @@ export const PUBLICATIONS = {
     city: 'Praha',
     year: 1967,
   },
+  FEYFRLIKOVA: {
+    name: 'Proměna stylu odívání v průběhu husitských válek',
+    author: 'Monika Feyfrlíková',
+    city: 'Praha',
+    year: 2017,
+    href:
+      'https://dspace.cuni.cz/bitstream/handle/20.500.11956/92944/DPTX_2014_2_11210_0_436502_0_166872.pdf',
+  },
+  GOUBITZ: {
+    name:
+      'Stepping Through Time: Archaeological Footwear from Prehistoric Times until 1800',
+    author: 'Olaf Goubitz',
+    city: 'Zwolle',
+    year: 2007,
+  },
+  WINTER: {
+    name:
+      'Dějiny kroje v zemích českých od počátku století 15. až po dobu Bělohorské bitvy',
+    author: 'Zikmund Winter',
+    city: 'Praha',
+    year: 1893,
+  },
+  PILNA: {
+    name: 'Oděv v západních Čechách 15. až 17. století',
+    author: 'Veronika Pilná',
+    city: 'Plzeň',
+    year: 2018,
+  },
+  EMBLETON: {
+    name:
+      'Europa Militaria Special No 8 - Medieval Military Costume Recreated in Colour Photographs',
+    author: 'Gerry Embleton',
+    city: 'Ramsbury',
+    year: 2000,
+  },
 }

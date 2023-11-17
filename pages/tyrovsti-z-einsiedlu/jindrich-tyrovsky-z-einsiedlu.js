@@ -3,6 +3,7 @@ import { LANG_CS } from '../../shared/constants'
 import React from 'react'
 import { Col, Container, Row } from 'reactstrap'
 import { JindrichTyrovsky } from '../../components/Articles/cz/tyrovsti/JindrichTyrovsky'
+import { Sources } from '../../components/Quote/Sources'
 
 const Page = () => (
   <>
@@ -11,6 +12,7 @@ const Page = () => (
       <Row>
         <Col className="text">
           <JindrichTyrovsky />
+          <Sources />
         </Col>
       </Row>
     </Container>

@@ -3,6 +3,7 @@ import React, {
   useCallback,
   useContext,
   useEffect,
+  useLayoutEffect,
   useMemo,
   useRef,
   useState,
@@ -15,7 +16,7 @@ export const Qt = ({ publication, href }) => {
   const { setPublication, usedPublications } = useContext(QuoteContext)
   const ref = useRef(null)
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     setPublication(publication)
   }, [setPublication, publication])
 
@@ -41,11 +42,25 @@ export const Qt = ({ publication, href }) => {
     [publication, usedPublications]
   )
 
+  const closeQuote = useCallback(
+    (event) => {
+      if (event.key === 'Escape') {
+        setOpen(false)
+      }
+    },
+    [setOpen]
+  )
+
   if (!index) return null
 
   return (
     <span className={styles.wrapper}>
-      <sup className={styles.quote} onClick={handleToggle} role="contentinfo">
+      <sup
+        className={styles.quote}
+        onClick={handleToggle}
+        role="presentation"
+        onKeyDown={closeQuote}
+      >
         {index}
       </sup>
       {open && (
