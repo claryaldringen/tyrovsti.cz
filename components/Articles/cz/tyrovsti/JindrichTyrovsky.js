@@ -91,7 +91,7 @@ export const JindrichTyrovsky = () => (
           byli před soudem pro rvačky. Albrecht a Jiřík přišli roku 1536 do
           hospody Jiříka Čapka v Rakovníce, kdež zastihli Jiříka z Bobrovic,
           pána na Děkově. Když Bobrovec mluvil na pavlači s krčmářem, Albrecht
-          shodil ze sebe suknici, popadl kord a bodl Bob- rovce do boku. Krčmář
+          shodil ze sebe suknici, popadl kord a bodl Bobrovce do boku. Krčmář
           okřikl Albrechta a on přestal. V tom Petr Krašovský a Jiřík Týřovský
           pobodali Bobrovce tesáky po straně a chtěli ho zamordovat. Bobrovec
           byl tak zřízen, že ani nemohl sejít dolů ze schodů.
