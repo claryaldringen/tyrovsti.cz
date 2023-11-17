@@ -164,13 +164,14 @@ export const JostTyrovsky = () => (
         <p>
           Po smrti krále Ladislava Pohrobka <b>23.&nbsp;listopadu&nbsp;1457</b>{' '}
           se začaly šířit pomluvy, dle nichž měl být mladý král otráven Jiřím z
-          Poděbrad. Jošt z Einsidle v lednu roku 1458 Jiříka na sněmu ve Vídni
-          obhajoval. Prý se nikdy v dějinách nestalo, že by Češi některého ze
-          svých králů otrávili. Češi byli dle něj královými věrnými poddanými a
-          dobrovolně se mu podvolili ve všem, čeho chtěli králové Zikmund a
-          Albrecht dobýt násilím. Sněm nakonec na základě Joštových argumentů
-          uznal, že král sešel ze světa z Boží vůle.
-          <Qt publication={PUBLICATIONS.BOUKAL} />
+          Poděbrad. Proti tomuto nařčení se Jošt z Einsidle na sněmu ve Vídni{' '}
+          <b>21.&nbsp;ledna&nbsp;1458</b> ostře ohradil. Jošt tvrdil, že se
+          nikdy v dějinách nestalo, aby Češi otrávili krále. Češi byli dle něj
+          královými věrnými poddanými a dobrovolně se mu podvolili ve všem, čeho
+          chtěli králové Zikmund a Albrecht dobýt násilím (restituce královských
+          statků, berně, pomoc proti Turkům). Sněm nakonec na základě Joštových
+          argumentů uznal, že král sešel ze světa z Boží vůle.
+          <Qt publication={PUBLICATIONS.PAPAJIK} note="str. 224" />
         </p>
         <p>
           Jak bylo řečeno výše, Jošt byl často pověřován příkazy, které

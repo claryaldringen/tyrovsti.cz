@@ -97,4 +97,10 @@ export const PUBLICATIONS = {
     city: 'Ramsbury',
     year: 2000,
   },
+  PAPAJIK: {
+    name: 'Ladislav Pohrobek (1440 - 1457) uherský a český král',
+    author: 'David Papajík',
+    city: 'České Budějovice',
+    year: 2016,
+  },
 }

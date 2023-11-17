@@ -10,8 +10,9 @@ import React, {
 } from 'react'
 import styles from './Qt.module.scss'
 import Link from 'next/link'
+import { useOutsideClickHandler } from '../../hooks/useOutsideClickHandler'
 
-export const Qt = ({ publication, href }) => {
+export const Qt = ({ publication, href, note }) => {
   const [open, setOpen] = useState(false)
   const { setPublication, usedPublications } = useContext(QuoteContext)
   const ref = useRef(null)
@@ -51,6 +52,8 @@ export const Qt = ({ publication, href }) => {
     [setOpen]
   )
 
+  useOutsideClickHandler(ref, () => setOpen(false))
+
   if (!index) return null
 
   return (
@@ -77,6 +80,7 @@ export const Qt = ({ publication, href }) => {
               {publication.city} {publication.year}
             </span>
           )}
+          {note && <p>{note}</p>}
         </span>
       )}
     </span>
