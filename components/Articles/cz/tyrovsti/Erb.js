@@ -2,6 +2,8 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { ImageWithTitle } from '../../../ImageWithTitle'
 import { Cit } from '../../../Citation'
+import { PUBLICATIONS } from '../../../../shared/constants'
+import { Qt } from '../../../Quote/Qt'
 
 export const Erb = () => (
   <>
@@ -25,24 +27,6 @@ export const Erb = () => (
             levou s přikr. červenými a bílými s vysokým červeným kloboukem s
             bílou ohnutou střechou a (černou) kytou.
           </Cit>
-          {/*
-          &nbsp; Jiná literatura uvádí, že{' '}
-          <Cit>
-            měli jednou polcený a dvakrát dělený štít, takže byl štít rozdělen
-            na šest polí. V 1. a 4. stříbrném poli měli černého dvouhlavého
-            orla, ve 2. a 5. modrém poli byla tři stříbrná pera špicemi k sobě a
-            na tři strany se rozbíhající, ve 3. a 6. stříbrném poli byla dvě
-            šikmá červená břevna. Týřovští měli dva klenoty, a to pravý nad
-            modro-stříbrnými přikryvadly s poprsím muže v modrém oděvu se zlatým
-            lemováním držící nad hlavou zlatou korunu a dále levý klenot nad
-            červeno-stříbrnými přikryvadly, který tvořil vysoký červený klobouk
-            se stříbrnou ohnutou střechou a černou kytou.
-          </Cit>{' '}
-          a další, že Týřovští měli v pravém klenotu vyrůstající černě oděnou
-          pannu, která držela nad hlavou zlatou korunu. Rovněž se v literatuře
-          lze setkat s tvrzením, že zmíněné šikmé pruhy byly černé.
-        </p>
-        */}
         </p>
         <p>Rudolf Jan Meraviglia-Crivelli zase v Der Böhmische Adel uvádí:</p>
       </Col>
@@ -79,10 +63,58 @@ export const Erb = () => (
     <Row>
       <Col>
         <p>
-          Zdá se, že zmíněné pruhy se časem osamostatnily do vlastního pole a
-          tak se z původního čtvrceného štítu stal štít dělený na šest polí. Z
-          dochovaných vyhotovení erbu je také jasné, že v levém klenotu se
-          nachází korunovaná panna.
+          Z pečetě Jošta z Einsidle i většiny dochovaných erbů Týřovských je
+          jasné, že zobrazení šikmých břeven v samostatném poli je spíše invencí
+          toho jenž erb zobrazoval. Objevuje se totiž pouze na jediném
+          vyobrazení erbu Týřovských a to na erbu Doroty Polyxeny Kateřiny
+          Kokořovské, roz. Týřovské a dále až na vyobrazeních, která vznikla po
+          vymření rodu. I A. Sedláček ve svím blasonu uvádí, že erb je dělený
+          pouze na 4 pole a zároveň že 1. a 4. je druhotně dělené napříč.
+        </p>
+        <p>
+          Orlové nikdy nejsou zobrazení celí, ale spíš než o úmysl jde o
+          praktickou věc - celý orel se prostě do pole nevejde. Tak je různě
+          zobrazen buď téměř celý jen bez pařátů (náhrobek Jindřicha, pečeť a
+          náhrobek Jakuba Jindřicha, reliéf Doroty Polyxeny Kateřiny Kokořovské
+          z Kokořova, rozené Týřovské) či pouze jeho poprsí (pečeť Jošta z
+          Einsiedlu, erbovník Lucase Cranacha ml., erb na kartuši v kostele v
+          Milíčově).
+        </p>
+        <p>
+          Vzhledem k minimu dochovaných barevných zobrazení přímo z doby před
+          vymřením Týřovských je určení erbovních barev poněkud složitější.
+          Začněmě u levé přilby a příslušného klenotu, kterým je tatarský
+          klobouk, v jehož barvě se shodují blason od Sedláčka i
+          Meraviglia-Crivelliho a zároveň vyobrazení od Cranacha ml. i z oltáře
+          v Milíčově. Z vyobrazení od Cranacha, z oltáře z Milíčova a z reliéfu
+          Doroty Polyxeny Kateřiny Kokořovské můžme soudit, že klobouk byl navíc
+          podélně dělený a červená byla jenom jedna polovina, zatímco ta druhá
+          byla stříbrná, což by zároveň korespondovalo s barvou příslušných
+          přikryvadel, jejichž barvy se rovněž shodují v blasonech i na
+          vyobrazeních. Blasony i vyobrazení od Cranacha se rovněž shodují v
+          bílo-stříbrné barvě přikryvadel na pravé přilbě. V čem se však blasony
+          (a moderní vyobrazení erbu) s dobovými vyobrazeními neschodují, jsou
+          barvy figur na štítu. Zdá se, že problém nastal až při spárování barev
+          z přikryvadel s figurami na štítu, kdy bylo nejspíš nesprávně
+          přiřazeno modro-stříbrné provedení perům ve 2. a 3. poli a
+          červeno-stříbrné provedení břevnům (pruhům) v 1. a 4. poli. Záměrně
+          jsem se nezmínil o klenotu v na pravé přílbě, kterým je muž v modrém
+          oděvu podle A. Sedláčka nebo černě oděná panna, která si na hlavu
+          klade korunu podle Meraviglia-Crivelli. Z barevných i nebarevných
+          vyobrazení je jasné, že muže lze rovnou zavrhnout. Cranach ml. správně
+          přiřadil panu k břevnům, čili jeho panna, břevna i příslušná
+          přikryvadla jsou shodné modré barvy. Je možné, že Cranach modrou barvu
+          převzal z břeven erbu Kožlan, pro které jej vyprosil Jošt z Einsiedlu
+          roku 1472
+          <Qt
+            publication={PUBLICATIONS.KOCKA1}
+            href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:85055638-c5cd-4b57-bd54-93a437e6ce73&fulltext=1472"
+          />
+          , a které svá břevna údajně převzalo právě z erbu své vrchnosti.{' '}
+          <Qt publication={PUBLICATIONS.PELANT} /> Správnější však bude varianta
+          z Milíčova, kdy jsou panna, příslušná přikryvadla i břevna černé
+          barvy. Zajímavé je, že to je rovněž jediné soudobé vyobrazení, kde si
+          panna klade na hlavu korunu.
         </p>
       </Col>
     </Row>
@@ -92,7 +124,7 @@ export const Erb = () => (
         src="nahrobek.jpg"
         width={1062}
         height={1920}
-        title="Nejstarší vyobrazení erbu Týřovských z roku 1556 je na náhrobku Jindřicha Týřovského v kostele sv. Mikuláše v Jincích."
+        title="Vyobrazení erbu Týřovských z roku 1556 je na náhrobku Jindřicha Týřovského v kostele sv. Mikuláše v Jincích."
       />
       <ImageWithTitle
         md={4}
@@ -106,7 +138,7 @@ export const Erb = () => (
         src="erb-pecet.jpg"
         width={655}
         height={652}
-        title="Erb Týřovských na pečeti z roku 1616."
+        title="Erb Týřovských na pečeti Jakuba (Jindřicha) Týřovského z 25. dubna 1616."
       />
     </Row>
     <Row>

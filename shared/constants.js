@@ -15,6 +15,12 @@ export const PUBLICATIONS = {
     city: 'Rakovník',
     year: 2009,
   },
+  KOCKA1: {
+    name: 'Dějiny politického okresu kralovického, ',
+    author: 'Václav Kočka',
+    city: 'Kralovice',
+    year: 1930,
+  },
   TRESP: {
     name:
       'Söldner aus Böhmen: im Dienst deutscher Fürsten: Kriegsgeschäft und Heeresorganisation im 15. Jahrhundert',

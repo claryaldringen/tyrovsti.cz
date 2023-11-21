@@ -212,31 +212,18 @@ const Page = () => {
                 <p>
                   Vzhledem k tomu, že se původní malba tarče nedochovala,
                   rozhodli jsme se pro ni vytvořit originální avšak dobově
-                  odpovídající motiv. Pozadí tarče je černé, s dekorem
-                  stříbrných zavinutých listů stejně, jako na německé tarči z
-                  obr. 3. Jako předloha pro dámu byla vybrána sv. Dorota z
-                  levého křídla oltáře z Jeníkova, datovaného k roku 1460. Erb,
-                  který na tarči drží, vychází z&nbsp;
-                  <Link href="/images/nahrobek.jpg">
-                    nejstaršího známého vyobrazení erbu Týřovských z náhrobku
-                    kostela v Jincích
-                  </Link>
-                  . Erbovní figury jsou stylizovány podle Knihy erbů (
-                  <i>Wappenbuch</i>), kterou roku 1483 vytvořil a věnoval císaři
-                  Fridrichu III. kostnický patricij Konrád Grünenberg. Na
-                  heraldickém štítu, děleném na čtvrtiny, je v 1. a 4. poli na
-                  stříbrném pozadí černý císařský orel (tj. se dvěma hlavami) se
-                  zlatou zbrojí (spáry a zobákem), zatímco ve 2. a 3. poli jsou
-                  na modrém poli tři bílé brky spojené hroty k sobě. Nalevo
-                  nakloněný štít je nad pravým rohem opatřen kolčí přilbou,
-                  stejnou jako je na tarči na obr. 1. a opatřenou kromě klenotu
-                  a červených přikryvadel se stříbrnou podšívkou též zlatou
-                  korunkou. V klenotu je červený tatarský klobouk se stříbrnou
-                  podšívkou a černými pery. Banderola s nápisem{' '}
+                  odpovídající motiv. Vycházeli jsme z tarče na obr. 1, avšak
+                  jsme použili pozadí z tarče na obr. 3 s dekorem stříbrných
+                  mraků a zavinutých listů na černém pozadí. Rovněž byl původní
+                  erb zaměněn za{' '}
+                  <Link href="/tyrovsti-z-einsiedlu/erb">erb Týřovských</Link>,
+                  byl však použita pouze pravá helma s tatarským kloboukem, aby
+                  štít mohl zůstat naklopený a hlavně aby panna v levém klenotu
+                  vizuálně nerušila ženu držící erb. Motiv dále obsahuje
+                  banderolu s nápisem
                   <Cit>Pomny na mye ma myla wyerna pany</Cit> (Pamatuj na mě má
-                  milá věrná paní), který je převzat ze soudobé ostruhy, je
-                  umístěna stejně jako na tarči z obr. 2. Na vnitřní straně je
-                  neuměle namalovaný svatý Kryštof.
+                  milá věrná paní), který je převzat ze soudobé ostruhy. Na
+                  vnitřní straně je neuměle namalovaný svatý Kryštof.
                 </p>
               </Col>
             </Row>
