@@ -16,6 +16,10 @@ export const Erb = () => (
     <Row>
       <Col>
         <p>
+          Chtěl bych poděkovat Michalu Kaclovi, Janu Škvrňákovi, Janu Boukalovi
+          a Markétě Poskočilové za pomoc při výzkumu.
+        </p>
+        <p>
           Popis erbu Týřovských se u jednotlivých autorů značně liší. August
           Sedláček v Českomoravské heraldice píše, že{' '}
           <Cit>
@@ -115,6 +119,20 @@ export const Erb = () => (
           z Milíčova, kdy jsou panna, příslušná přikryvadla i břevna černé
           barvy. Zajímavé je, že to je rovněž jediné soudobé vyobrazení, kde si
           panna klade na hlavu korunu.
+        </p>
+        <p>
+          Správný blason tedy nejspíše zní:
+          <br />
+          Čtvrcený štít kde je 1. a 4. pole dělené a v něm je nahoře vyrůstající
+          nebo vyskakující černý orel na zlatém pozadí a dole dvě černá šikmá
+          břevna na stříbrném pozadí. Ve 2. a 3. červeném poli jsou tři střbrná
+          pštrosí pera špičkami k sobě a od sebe se rozbíhající. Nad štítem jsou
+          dvě helmy s korunkami, levá s červenostříbrnými přikryvadly ze které
+          vystupuje polcený vysoký tatarský klobouk s černou nebo stříbrnou
+          kytou, jehož levá polovina je stříbrná a pravá červená. Pravá helma je
+          opatřena černostříbrnými přikryvadly a v klenotu má černě oděnou panu,
+          buď korunovanou nebo si kladoucí na hlavu zlatou korunu.
+          <Qt publication={PUBLICATIONS.BUBEN} />
         </p>
       </Col>
     </Row>

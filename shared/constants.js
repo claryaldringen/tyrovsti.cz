@@ -109,4 +109,10 @@ export const PUBLICATIONS = {
     city: 'České Budějovice',
     year: 2016,
   },
+  BUBEN: {
+    name: 'Encyklopedie heraldiky',
+    author: 'Milan Buben',
+    city: 'Praha',
+    year: 1999,
+  },
 }
