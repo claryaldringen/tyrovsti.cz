@@ -4,6 +4,7 @@ import { HeadExtended } from '../../components/HeadExtended'
 import { JindrichTyrovsky } from '../../components/Articles/cz/tyrovsti/JindrichTyrovsky'
 import { JostTyrovsky } from '../../components/Articles/cz/tyrovsti/JostTyrovsky'
 import { Sources } from '../../components/Quote/Sources'
+import { Erb } from '../../components/Articles/cz/tyrovsti/Erb'
 
 const Page = () => (
   <>
@@ -28,6 +29,7 @@ const Page = () => (
           </Row>
           <JostTyrovsky />
           <JindrichTyrovsky />
+          <Erb />
           <Sources />
         </Col>
       </Row>

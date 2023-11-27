@@ -2,6 +2,8 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Cit } from '../../../Citation'
 import { ImageWithTitle } from '../../../ImageWithTitle'
+import { PUBLICATIONS } from '../../../../shared/constants'
+import { Qt } from '../../../Quote/Qt'
 
 export const Sukne = () => (
   <>
@@ -16,21 +18,36 @@ export const Sukne = () => (
         <p>
           Sukně byla základním typem svrchního oděvu. Byla ušita nejčastěji z
           vlněného sukna, odtud pak její název. Mohla být různých délek. Dlouhá
-          varianta se nejspíš mohla nzývat <i>reverenda</i>, jak ukazuje zápis z
-          roku 1478, že pražský sladovník Rameš chodil v{' '}
-          <Cit>reverendě nové barvy</Cit>. Sukně mohly být podšité látkou,
-          kožešinou nebo i nepodšité. Tak roku 1425 odkazuje Tomášek z Hlohovic
-          svému bratru <Cit>sukni s beránčím kožichem</Cit> a{' '}
+          varianta se nejspíš mohla nazývat <i>reverenda</i>, jak ukazuje zápis
+          z roku 1478, že pražský sladovník Rameš chodil v{' '}
+          <Cit>reverendě nové barvy</Cit>.
+          <Qt
+            publication={PUBLICATIONS.WINTER}
+            href="https://kramerius5.nkp.cz/view/uuid:4405cb90-ee14-11dd-bfdc-000d606f5dc6?page=uuid:6a7087a0-fe2a-11e6-97b4-5ef3fc9ae867"
+          />{' '}
+          Sukně mohly být podšité látkou, kožešinou nebo i nepodšité. Tak roku
+          1425 odkazuje Tomášek z Hlohovic svému bratru{' '}
+          <Cit>sukni s beránčím kožichem</Cit> a{' '}
           <Cit>sukni parvířku s liščím kožichem</Cit>. Týž Tomášek měl však i{' '}
-          <Cit>sukni modrú nepodšitú</Cit>. Plzeňský měšťan Jan Chudoba odkázal
-          v roce 1432 ze svého šatníku{' '}
-          <Cit>knězi Šimanovi sukni černú svú s liščím kožichem</Cit> a mistr
+          <Cit>sukni modrú nepodšitú</Cit>.
+          <Qt
+            publication={PUBLICATIONS.WINTER}
+            href="https://kramerius5.nkp.cz/view/uuid:4405cb90-ee14-11dd-bfdc-000d606f5dc6?page=uuid:6b7d8ad0-fe2a-11e6-97b4-5ef3fc9ae867"
+          />{' '}
+          Plzeňský měšťan Jan Chudoba odkázal v roce 1432 ze svého šatníku{' '}
+          <Cit>knězi Šimanovi sukni černú svú s liščím kožichem</Cit>a mistr
           Petr, rovněž z Plzně, zmiňuje v roce 1492{' '}
-          <Cit>harasovú suknici krátkú podšitú</Cit>. Pražský sladovník Duchek,
-          jenž zemřel roku 1437, měl kromě jiného tři sukně, jednu{' '}
-          <Cit>šerú s beránčím kožichem črným</Cit>, jinou <Cit>s liškami</Cit>{' '}
-          a jinou <Cit>s plátnem</Cit>, tj. podšitou lněnou tkaninou (plátno v
-          této době nutně neznamená plátnovou vazbu, ale označuje lněnou látku).
+          <Cit>harasovú suknici krátkú podšitú</Cit>.
+          <Qt publication={PUBLICATIONS.PILNA} note="Str. 67" /> Pražský
+          sladovník Duchek, jenž zemřel roku 1437, měl kromě jiného tři sukně,
+          jednu <Cit>šerú s beránčím kožichem črným</Cit>, jinou{' '}
+          <Cit>s liškami</Cit> a jinou <Cit>s plátnem</Cit>
+          <Qt
+            publication={PUBLICATIONS.WINTER}
+            href="https://kramerius5.nkp.cz/view/uuid:4405cb90-ee14-11dd-bfdc-000d606f5dc6?page=uuid:6b7d8ad0-fe2a-11e6-97b4-5ef3fc9ae867"
+          />
+          , tj. podšitou lněnou tkaninou (plátno v této době nutně neznamená
+          plátnovou vazbu, ale označuje lněnou látku).
         </p>
         <p>
           Ke konci 15. a začátkem 16. století zachycujeme v písemných pramenech
@@ -42,6 +59,10 @@ export const Sukne = () => (
             sukni atlasovou zelenou, kožichem podšitou a lasičkami opremovanou
           </Cit>
           .
+          <Qt
+            publication={PUBLICATIONS.WINTER}
+            href="https://kramerius5.nkp.cz/view/uuid:4405cb90-ee14-11dd-bfdc-000d606f5dc6?page=uuid:657e33f0-fe2a-11e6-97b4-5ef3fc9ae867"
+          />
         </p>
         <p>V Českých zemích můžeme vysledovat tři nejčastější varianty:</p>
       </Col>
@@ -175,15 +196,18 @@ export const Sukne = () => (
           loketní jamky. Tuto konstrukci rukávu lze nepřímo potvrdit i některými
           písemnými prameny. Tak lze v jedné rakovnické soudní knize číst k roku
           1486 zápis:
-          <i>
-            &bdquo;Poručil jsem, aby kladl peníze do truhly, a on kladl do
-            rukáva sukně své.&ldquo;
-          </i>{' '}
+          <Cit>
+            Poručil jsem, aby kladl peníze do truhly, a on kladl do rukáva sukně
+            své.
+          </Cit>
           Jinde zase lze číst:{' '}
-          <i>
-            &bdquo;Vyňal peníze s měchýřem, dosti pěkný uzlík, a vložil je do
-            rukáva.&ldquo;
-          </i>
+          <Cit>
+            Vyňal peníze s měchýřem, dosti pěkný uzlík, a vložil je do rukáva.
+          </Cit>
+          <Qt
+            publication={PUBLICATIONS.WINTER}
+            href="https://kramerius5.nkp.cz/view/uuid:4405cb90-ee14-11dd-bfdc-000d606f5dc6?page=uuid:6b068610-fe2a-11e6-97b4-5ef3fc9ae867"
+          />
         </p>
         <p>Tento typ sukně byl nejčastěji podšitý kožešinou.</p>
       </Col>
