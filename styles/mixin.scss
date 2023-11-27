@@ -1,0 +1,22 @@
+// Definice breakpointů
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+);
+
+// Mixin pro generování media queries na základě definovaných breakpointů
+@mixin breakpoint($point) {
+  $point-value: map-get($grid-breakpoints, $point);
+
+  @if $point-value {
+    @media (min-width: $point-value) {
+      @content;
+    }
+  } @else {
+    @content;
+  }
+}

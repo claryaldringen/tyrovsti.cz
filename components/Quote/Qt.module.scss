@@ -1,5 +1,9 @@
+@import '/styles/mixin';
+
 .wrapper {
-  position: relative;
+  @include breakpoint(md) {
+    position: relative;
+  }
 }
 
 .quote {
@@ -10,11 +14,16 @@
 .box {
   position: absolute;
   display: inline-block;
-  left: 100%;
-  top: 50%;
   border: solid 1px black;
   background: white;
   padding: 16px;
   z-index: 5;
-  width: 25vw;
+  left: 0;
+  width: 100vw;
+
+  @include breakpoint(md) {
+    left: 100%;
+    top: 50%;
+    width: 25vw;
+  }
 }

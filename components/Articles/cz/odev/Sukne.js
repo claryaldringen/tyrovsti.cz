@@ -141,6 +141,7 @@ export const Sukne = () => (
     </Row>
     <Row>
       <ImageWithTitle
+        md={4}
         src="kabat5.jpg"
         width={466}
         height={512}
@@ -152,6 +153,7 @@ export const Sukne = () => (
         }
       />
       <ImageWithTitle
+        md={4}
         src="Zasedani.jpg"
         width={399}
         height={356}
@@ -165,6 +167,7 @@ export const Sukne = () => (
         }
       />
       <ImageWithTitle
+        md={4}
         src="vestina3.jpg"
         width={649}
         height={475}
@@ -257,7 +260,7 @@ export const Sukne = () => (
         src="zasedaniradyolomouc.jpg"
         width={974}
         height={1622}
-        title="Zasedání městské rady na vyobrazení z Památné knihy Olomoucké (1430 - 1492). Písař Václav z Jihlavy (vlevo dole) má modrou sukni, podšitou kožešinou, s hranatým pytlovitým rukávem a pouze jedním otvorem pro ruku. Konšel v modrém nad ním má sukni s pytlovitým, ale na onci volným rukávem, anologicky s mužem v zeleném z illuminace ze Tkrácených kronik od Davida Auberta. Rovněž je zde vidět, jak české sukně působí proti svým západním vzorům poněkud splihle."
+        title="Zasedání městské rady na vyobrazení z Památné knihy Olomoucké (1430 - 1492). Písař Václav z Jihlavy (vlevo dole) má modrou sukni, podšitou kožešinou, s hranatým pytlovitým rukávem a pouze jedním otvorem pro ruku. Konšel v modrém nad ním má sukni s pytlovitým, ale na konci volným rukávem, anologicky s mužem v zeleném z iluminace ze Zkrácených kronik od Davida Auberta. Rovněž je zde vidět, jak české sukně působí proti svým západním vzorům poněkud splihle."
       />
       <ImageWithTitle
         md={4}

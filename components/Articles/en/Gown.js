@@ -118,7 +118,7 @@ export const Gown = () => (
         src="andel-kutna-hora.jpg"
         width={499}
         height={548}
-        title="Anděl v dlouhé prosté sukni se zužujícími se rukávy a stojáčkem na fresce z Mincířské kaple, chrám sv. Barbory, Kutná Hora, (1460-1470)"
+        title="An angel in a long simple skirt with tapering sleeves and a stand-up collar on the fresco from the Mintmaster's Chapel, St. Barbara's Church, Kutná Hora (1460-1470)"
       />
       <ImageWithTitle
         md={4}
@@ -149,6 +149,7 @@ export const Gown = () => (
     </Row>
     <Row>
       <ImageWithTitle
+        md={4}
         src="kabat5.jpg"
         width={466}
         height={512}
@@ -161,6 +162,7 @@ export const Gown = () => (
         }
       />
       <ImageWithTitle
+        md={4}
         src="Zasedani.jpg"
         width={399}
         height={356}
@@ -174,6 +176,7 @@ export const Gown = () => (
         }
       />
       <ImageWithTitle
+        md={4}
         src="vestina3.jpg"
         width={649}
         height={475}
@@ -269,14 +272,14 @@ export const Gown = () => (
         src="zasedaniradyolomouc.jpg"
         width={974}
         height={1622}
-        title="Zasedání městské rady na vyobrazení z Památné knihy Olomoucké (1430 - 1492). Písař Václav z Jihlavy (vlevo dole) má modrou sukni, podšitou kožešinou, s hranatým pytlovitým rukávem a pouze jedním otvorem pro ruku. Konšel v modrém nad ním má sukni s pytlovitým, ale na onci volným rukávem, anologicky s mužem v zeleném z illuminace ze Tkrácených kronik od Davida Auberta. Rovněž je zde vidět, jak české sukně působí proti svým západním vzorům poněkud splihle."
+        title="Meeting of the municipal council in the depiction from the Memorial Book of Olomouc (1430-1492). Scribe Václav from Jihlava (bottom left) wears a blue skirt, lined with fur, with a square baggy sleeve and only one opening for the hand. The councilor in blue above him has a skirt with a baggy sleeve, but with a free end, similarly to the man in green from the illumination in the Shortened Chronicles by David Aubert. It also shows how Czech skirts appear somewhat flattened compared to their Western counterparts."
       />
       <ImageWithTitle
         md={4}
         src="vaclav-z-jihlavy.jpg"
         width={240}
         height={320}
-        title="Václav z Jihavy ve fialové, kožešinou podšité sukni s pytlovitými rukávy. Výřez z Brněnské právní knihy Václava z Jihlavy (1446)."
+        title="Václav of Jihlava in a purple skirt lined with fur and baggy sleeves. Excerpt from the Brno Legal Book of Václav of Jihlava (1446)."
       />
     </Row>
     <Row>
