@@ -2,6 +2,8 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { ImageWithTitle } from '../../../ImageWithTitle'
 import { Cit } from '../../../Citation'
+import { Qt } from '../../../Quote/Qt'
+import { PUBLICATIONS } from '../../../../shared/constants'
 
 export const Kabat = () => (
   <>
@@ -15,20 +17,54 @@ export const Kabat = () => (
       <Col>
         <p>
           Kabát či kabátec se od 14. století používal pro označení kratšího a
-          vypasovaného oděvu a jako synonymum německého <i>wams</i> ,
-          <i>jacke</i>, <i>schecke</i>, <i>rock</i> francouzského{' '}
+          vypasovaného oděvu a jako synonymum německého <i>wams</i>,{' '}
+          <i>jacke</i>, <i>schecke</i> či <i>rock</i>, francouzského{' '}
           <i>pourpoint</i>, <i>rochet</i>, <i>roquette</i> či anglického{' '}
-          <i>jacket</i>, <i>rocket</i> a <i>doublet</i>, z italského{' '}
-          <i>giubbetta</i>. Aby byla situace ještě nepřehlednější, může se pod
-          označením kabát skrývat ještě suknice typu <i>cottehardie</i>, která
-          byla těsně vypracovaná v oblasti hrudníku a pasu a nošena od 2.
-          poloviny 14. století. I když kabát sloužil k přivazování nohavic i
-          dříve, jak je patrné z úvazů nohavic na pourpointu Charlese de Blois,
-          kombinace kabátu a k němu přivázaných nohavic se v Čechách široce
-          rozšířila až kolem poloviny 15. století, čímž se z kabátu stala
-          funkční část oděvu na pomezí mezi spodním a svrchním oděvem, čemuž by
-          odpovídalo také ustavení samostatného kabátnického cechu roku 1441. S
-          tím, jak se z nohavic postupně stávají kalhoty a zvyšuje se jim pas,
+          <i>jacket</i>, <i>rocket</i>
+          <Qt
+            publication={PUBLICATIONS.WINTER}
+            href="https://kramerius5.nkp.cz/view/uuid:4405cb90-ee14-11dd-bfdc-000d606f5dc6?page=uuid:50711a90-fe2a-11e6-97b4-5ef3fc9ae867"
+          />{' '}
+          a <i>doublet</i>, z italského <i>giubbetta</i>.
+          <Qt
+            publication={PUBLICATIONS.WEDGWOOD}
+            href="https://babel.hathitrust.org/cgi/pt?id=uc1.b3924121&view=1up&seq=82"
+          />
+        </p>
+        <p>
+          Slova <i>kabát</i>, <i>rock (waffenrock)</i>,{' '}
+          <i>doublet (arming doublet)</i> či <i>pourpoint</i> označovala rovněž
+          typ prošívanice a v i češtině je první užití slova <i>kabát</i> na
+          přelomu 13. a 14. století spojeno právě s označením prošívanice v
+          Alexandreidě <Qt publication={PUBLICATIONS.ALEX} note="Str. 43" /> a
+          udrželo se minimálně po celé 15. století, když v{' '}
+          <i>Kronice velmi pěkné o Janu Žižkovi</i> můžeme číst:{' '}
+          <Cit>
+            Tiem jest polniem vojskem vládl kněz Prokop Holý. Pak ten jest býval
+            k bitvě na špici v tlustém kabátě.
+          </Cit>
+          <Qt publication={PUBLICATIONS.KRONIKAPEKNA} /> Je otázkou, zda české
+          slovo <i>kabát</i> vzniklo ze staroněmeckého <i>gewæte</i>
+          <Qt publication={PUBLICATIONS.GEBAUER} /> či je rovněž odvozeno z
+          italského <i>giubbetta</i>.
+        </p>
+        <p>
+          Aby byla situace ještě nepřehlednější, může se pod označením kabát
+          skrývat ještě suknice typu <i>cottehardie</i>, která byla těsně
+          vypracovaná v oblasti hrudníku a pasu a nošena od 2. poloviny 14.
+          století.
+          <Qt publication={PUBLICATIONS.PILNA} /> I když kabát sloužil k
+          přivazování nohavic i dříve, jak je patrné z úvazů nohavic na
+          pourpointu Charlese de Blois, kombinace kabátu a k němu přivázaných
+          nohavic se v Čechách široce rozšířila až kolem poloviny 15. století,
+          čímž se z kabátu stala funkční část oděvu na pomezí mezi spodním a
+          svrchním oděvem, čemuž by odpovídalo také ustavení samostatného
+          kabátnického cechu roku 1441.
+          <Qt
+            publication={PUBLICATIONS.WINTER}
+            href="https://kramerius5.nkp.cz/view/uuid:4405cb90-ee14-11dd-bfdc-000d606f5dc6?page=uuid:5988fc10-fe2a-11e6-97b4-5ef3fc9ae867"
+          />{' '}
+          S tím, jak se z nohavic postupně stávají kalhoty a zvyšuje se jim pas,
           zkracují se i kabátce a koncem 15. století se z nich opět stává
           plnohodnotný svrchní oděv. Zběžný nástin vývoje kabátu lze vidět ná
           následujících obrázcích.
@@ -66,10 +102,14 @@ export const Kabat = () => (
           kabátu tak mohlo být zhotoveno z levnější, např. nebarvené látky. Tomu
           by také odpovídal testament kotláře Martina z nynější Spálené ulice v
           Praze, který roku 1477 zanechává{' '}
-          <Cit>dva rukávy aksamitové od kabáta</Cit>. Vzhledem k tomu, že kabát
-          tvořil s nohavicemi jeden celek, bylo módní mít nohavice i kabát,
-          popřípadě jen jeho viditelné části, ve stejné barvě, nejlépe
-          kontrastní ke svrchní sukni či plášti.
+          <Cit>dva rukávy aksamitové od kabáta</Cit>
+          <Qt
+            publication={PUBLICATIONS.WINTER}
+            href="https://kramerius5.nkp.cz/view/uuid:4405cb90-ee14-11dd-bfdc-000d606f5dc6?page=uuid:6c9674e0-fe2a-11e6-97b4-5ef3fc9ae867"
+          />
+          . Vzhledem k tomu, že kabát tvořil s nohavicemi jeden celek, bylo
+          módní mít nohavice i kabát, popřípadě jen jeho viditelné části, ve
+          stejné barvě, nejlépe kontrastní ke svrchní sukni či plášti.
         </p>
       </Col>
     </Row>
@@ -188,22 +228,25 @@ export const Kabat = () => (
           kabátnického cechu, které byly potvrzeny 16. srpna 1448:
         </p>
         <p>
-          <i>
-            &bdquo;Třetie, aby byly dělány barchanové kabáty v prostředku
-            plátnem novým, a bavlna aby byla v prsy, a vespod aby bylo plátno
-            nové nebo cvilink bez přimiešenie vetchého; a v kožené kabáty aby
-            bylo vetché plátno v prostředek, a vespod nové bez přimiešenie
-            vetchého. Také aby vetché plátno nebylo děláno pod barchanové kabáty
-            ani kožené ani cvilinkové, nebo pod rukávy aby žádného vetchého
-            mandlovaného na trh nedělali.&ldquo;
-          </i>
+          <Cit>
+            Třetie, aby byly dělány barchanové kabáty v prostředku plátnem
+            novým, a bavlna aby byla v prsy, a vespod aby bylo plátno nové nebo
+            cvilink bez přimiešenie vetchého; a v kožené kabáty aby bylo vetché
+            plátno v prostředek, a vespod nové bez přimiešenie vetchého. Také
+            aby vetché plátno nebylo děláno pod barchanové kabáty ani kožené ani
+            cvilinkové, nebo pod rukávy aby žádného vetchého mandlovaného na trh
+            nedělali.
+          </Cit>
         </p>
         <p>
-          <i>
-            &bdquo;Desáté a poslednie, v harasové kabáty aby bylo děláno dvuoje
-            plátno v prsy svrchnie, a v pokošinové též, pod pokutami
-            svrchupsanými.&ldquo;
-          </i>
+          <Cit>
+            Desáté a poslednie, v harasové kabáty aby bylo děláno dvuoje plátno
+            v prsy svrchnie, a v pokošinové též, pod pokutami svrchupsanými.
+          </Cit>
+          <Qt
+            publication={PUBLICATIONS.ARCHIV14}
+            href="https://sources.cms.flu.cas.cz/src/index.php?s=v&cat=10&bookid=821&page=458"
+          />
         </p>
       </Col>
     </Row>

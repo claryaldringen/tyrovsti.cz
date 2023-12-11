@@ -56,6 +56,8 @@ export const Qt = ({ publication, href, note }) => {
 
   if (!index) return null
 
+  const _href = href || publication.href
+
   return (
     <span className={styles.wrapper}>
       <sup
@@ -68,15 +70,18 @@ export const Qt = ({ publication, href, note }) => {
       </sup>
       {open && (
         <span className={styles.box} ref={ref}>
-          {href ? (
-            <Link href={href} target="_blank">
-              {' '}
-              {publication.author}: <i>{publication.name}</i>,{' '}
+          {_href ? (
+            <Link href={_href} target="_blank">
+              {publication.author ? `${publication.author}: ` : null}
+              <i>{publication.name}</i>
+              {(publication.city || publication.year) && ', '}
               {publication.city} {publication.year}
             </Link>
           ) : (
             <span>
-              {publication.author}: <i>{publication.name}</i>,{' '}
+              {publication.author ? `${publication.author}: ` : null}
+              <i>{publication.name}</i>
+              {(publication.city || publication.year) && ', '}
               {publication.city} {publication.year}
             </span>
           )}

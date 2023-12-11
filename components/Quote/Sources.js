@@ -10,19 +10,24 @@ export const Sources = ({ lang = LANG_CS }) => {
   return (
     <Row>
       <Col>
-        <h4>{lang == LANG_CS ? 'Použitá literatura' : 'Sources'}:</h4>
+        <h4>{lang === LANG_CS ? 'Použitá literatura' : 'Sources'}:</h4>
         <ol>
           {usedPublications.map(({ author, name, city, year, href }) => (
             <li key={`${author}: ${name}`}>
-              {href ? (
-                <Link href={href} target="_blank">
-                  {author}: <i>{name}</i>, {city} {year}
-                </Link>
-              ) : (
-                <span>
-                  {author}: <i>{name}</i>, {city} {year}
-                </span>
-              )}
+              <span>
+                {author ? `${author}: ` : null}
+                <i>
+                  {href ? (
+                    <Link href={href} target="_blank">
+                      {name}
+                    </Link>
+                  ) : (
+                    name
+                  )}
+                </i>
+                {(city || year) && ', '}
+                {city} {year}
+              </span>
             </li>
           ))}
         </ol>

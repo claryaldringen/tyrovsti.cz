@@ -9,8 +9,9 @@ const reducer = (state, action) => {
     case ACTIONS.ADD_PUBLICATION:
       if (
         !state.some(
-          ({ author, name }) =>
-            action.payload.author === author && action.payload.name === name
+          (state) =>
+            action.payload.name === state.name &&
+            action.payload.author === state.author
         )
       ) {
         return [...state, action.payload]

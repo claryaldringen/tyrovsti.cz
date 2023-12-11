@@ -115,4 +115,39 @@ export const PUBLICATIONS = {
     city: 'Praha',
     year: 1999,
   },
+  ARCHIV14: {
+    name: 'Archiv český čili staré písemné památky české i moravské XIV',
+    author:
+      'Josef Kalousek, František Dvorský, Vácslav Vladivoj Tomek, Josef Emler', //Hensleigh Wedgwood
+    city: 'Praha',
+    year: 1895,
+  },
+  WEDGWOOD: {
+    name: 'On False Etymologies',
+    author: 'Hensleigh Wedgwood',
+    city: 'Londýn',
+    year: 1855,
+  },
+  ALEX: {
+    name: 'Alexandreida',
+    author: '',
+    city: 'Praha',
+    year: 1963,
+    href:
+      'https://dl1.cuni.cz/pluginfile.php/1094538/mod_resource/content/1/Alexandreida%20%281963%29.pdf',
+  },
+  KRONIKAPEKNA: {
+    name: 'Kronika velmi pěkná o Janu Žižkovi',
+    author: '',
+    city: '',
+    year: undefined,
+    href:
+      'https://husitstvi.cz/historie/dobove-dokumenty/kronika-velmi-pekna-o-janu-zizkovi-1434-1436/',
+  },
+  GEBAUER: {
+    name: 'Slovník staročeský',
+    author: 'Jan Gebauer',
+    city: 'Praha',
+    year: 1970,
+  },
 }
