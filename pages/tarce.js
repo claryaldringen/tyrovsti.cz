@@ -2,9 +2,11 @@ import React from 'react'
 import { Col, Container, Row } from 'reactstrap'
 import Link from 'next/link'
 import { HeadExtended } from '../components/HeadExtended'
-import { LANG_CS } from '../shared/constants'
+import { LANG_CS, PUBLICATIONS } from '../shared/constants'
 import { ImageWithTitle } from '../components/ImageWithTitle'
 import { Cit } from '../components/Citation'
+import { Qt } from '../components/Quote/Qt'
+import { Sources } from '../components/Quote/Sources'
 
 const Page = () => {
   return (
@@ -22,40 +24,282 @@ const Page = () => {
               <Col>
                 <h4>Úvod</h4>
                 <p>
-                  Tarče (z německého <i>Tartsche</i>) je pozdní vývojovou fází
-                  jezdeckého štítu, užívanou po celé 15. století. V zásadě lze
-                  říci, že čím komplikovanější a prolamovanější tvar, tím
-                  pozdější je datace tarče. Typicky byla vyrobena z lipového
-                  dřeva, potaženého pergamenem, plátnem nebo kombinací obojího.
-                  Na potahu bylo naneseno gesso (směs jemně mleté křídy a
-                  klihu), které vytvářelo podklad pro malbu temperovými barvami.
+                  Tarče (z německého <i>Tartsche</i>), původně staročesky{' '}
+                  <i>terče</i>, <i>tercze</i>, <i>tercže</i>
+                  <Qt publication={PUBLICATIONS.DENKSTEIN3} note="Str. 38" />,
+                  je pozdní vývojovou fází jezdeckého štítu, užívanou po celé
+                  15. století. V zásadě lze říci, že čím komplikovanější a
+                  prolamovanější tvar, tím pozdější je datace tarče. Typicky
+                  byla vyrobena z lipového dřeva, potaženého pergamenem, plátnem
+                  nebo kombinací obojího. Na potahu bylo naneseno gesso (směs
+                  jemně mleté křídy a klihu), které vytvářelo podklad pro malbu
+                  temperovými barvami.
                 </p>
                 <p>
                   Tarče, stejně jako ostatní štíty, zhotovovali nejčastěji
                   specializovaní řemeslníci zvaní štítaři, kteří měli blízko k
                   malířům. Roku 1348 si malíři a štítaři pražských měst založili
-                  bratrstvo a přibírali do něj i příbuzné řemeslníky jako
-                  sklenáře, knihvazače, řezbáře, pergameníky, zlatotepce,
-                  illuminátory, cuprejtýře a jiné. Toto bratrstvo se někdy po
-                  roce 1380 rozštěpilo na staroměstský cech{' '}
-                  <i>malířů a sklenářů</i> a novoměstský cech{' '}
-                  <i>malířů a štítařů</i>, jehož existence je však bezpečně
-                  prokázána až roku 1455. Na Novém městě pražském se štítaři
-                  usazovali u hradeb a roku 1365 jim Karel IV. udělil
-                  privilegium malovat a prodávat štíty a tarče pod věžemi. Toto
-                  privilegium bylo obnoveno ještě v letech 1380 a 1392. V roce
-                  1458 bylo stanoveno, že novoměstští štítaři budou odvádět
-                  jednu pavézu ročně, vždy po Vánocích{' '}
-                  <i>&bdquo;pánům a městu ku potřebě ke cti i k kráse&ldquo;</i>
-                  .
+                  bratrstvo sv. Lukáše
+                  <Qt publication={PUBLICATIONS.DENKSTEIN3} note="Str. 20" /> a
+                  přibírali do něj i příbuzné řemeslníky jako sklenáře,
+                  knihvazače, řezbáře, pergameníky, zlatotepce, illuminátory,
+                  cuprejtýře a jiné.
+                  <Qt
+                    publication={PUBLICATIONS.WINTER2}
+                    href="https://kramerius5.nkp.cz/view/uuid:660b7500-029f-11e4-9789-005056827e52?page=uuid:6e11f0e0-1d56-11e4-8413-5ef3fc9ae867"
+                  />{' '}
+                  Uvnitř bratrstva však od počátku docházelo k rozepřím mezi
+                  malíři a štítaři, jak o tom svědčí, jak o tom svědčí
+                  privilegia Karla IV. a Václava IV. Štítaři vyráběli jednak
+                  štíty, jednak některé kusy sedlářské a vývěsní štíty domovní
+                  včetně jejich malované výzdoby. Malíři (magistri pictoriae
+                  artis, malíři duchovní, geistliche Maler) malovali obrazy a
+                  oltáře, ale někdy přebírali dílo štítařům a nadto jim
+                  zabraňovali, aby své výrobky vystavovali a prodávali na trzích
+                  na Starém Městě, poněvadž štítaři byli usazeni pod
+                  novoměstskými hradbami a věžemi a tady také měli provozovat
+                  své řemeslo i prodávat své výrobky.
+                  <Qt publication={PUBLICATIONS.DENKSTEIN3} note="Str. 20" />
                 </p>
                 <p>
-                  Častým motivem na tarčích z německého prostoru je dáma, která
-                  přidržuje úplný erb, tj. heraldický štít s přilbou, klenotem a
-                  přikryvadly, jak je vidět na následujícíh příkladech z
-                  Metropolitního muzea umění. Ve dvou případech je dáma doplněna
-                  stuhou s heslem, které však nemá heraldický význam a jedná se
-                  spíše o vtipnou slovní hříčku.
+                  Spory rozhodlo privilegium Karla IV., vydané{' '}
+                  <b>16. ledna 1365</b>: štítaři, usedlí na věžích novoměstských
+                  hradeb, byli - podobně jako střelci - spolu se svou čeledí
+                  osvobození od všech berní, služeb a daní, ale byli povinni na
+                  výzvu krále nebo jeho maršálka službou v případě potřeby (tj.
+                  k obraně města). Proto také jim bylo dovoleno nosit meč, nůž a
+                  odění (harnisch) jako střelcům, aby mohli bránit městské
+                  hradby. Ve sporu s <Cit>duchovními malíři</Cit>, kteří
+                  nechtěli se štítaři trpěti (tj. nésti jejich povinnosti k
+                  městu), bylo rozhodnuto, že malíři nesmí malovat štíty. Terče
+                  a štíty (tarczschen und stechschilt) nesmí vyrábět nikdo jiný
+                  než štítaři. Kdo však štítařské dílo (schiltwerk) vyrábí a
+                  bydlí ve věži, nemá svou práci prodávat jinde než pod věžemi.
+                  Privilegium bylo opětovně potvrzené Václavem IV.{' '}
+                  <b>6. ledna 1380</b>.
+                  <Qt publication={PUBLICATIONS.DENKSTEIN3} note="Str. 21" />
+                </p>
+                <p>
+                  Dohody však zřejmě nebyly dodržovány a tak roku 1392
+                  předstoupili štítaři před krále znovu se stížností, že
+                  duchovní malíři jim stále přebírají práci a malují štítařské
+                  dílo (schiltwerk), které přísluší štítařům a nikoli malířům.
+                  Václav IV. privilegiem z <b>30. března 1392</b> potvrdil
+                  výsady štítařů a rozhodl, že malíři nesmějí malovat štíty a že
+                  štítaři mohou na trzích Velkého Města pražského prodávat své
+                  obrazy (ire bylde] a také domovní štíty (ire helme und schilte
+                  an den hewsern in derselben stat zu Prage). Tím byly vleklé
+                  neshody jednoznačně rozhodnuty ve prospěch štítařů, kteří byli
+                  nyní nejen ve svém oboru ochráněni před konkurencí malířů, ale
+                  navíc dosáhli volnosti v prodeji svých výrobků na veřejném
+                  trhu.
+                  <Qt publication={PUBLICATIONS.DENKSTEIN3} note="Str. 22" />
+                </p>
+                <p>
+                  V průběhu 15. století se původní bratrstvo rozdělilo na cech
+                  staroměstský (k němuž patřil i Hrad, Hradčany a Malá Strana) a
+                  novoměstský. Některé společné věci se vyřizovaly v{' '}
+                  <Cit>plném cechu</Cit>, v němž byli zastoupeni mistři{' '}
+                  <Cit>obou měst pražských</Cit>. Nehledě k vnitřním neshodám
+                  mezi štítaři a malíři, patřily do zájmové oblasti cechu
+                  všechny práce, jež souvisely s malbou. Jejich výčet nejlépe
+                  charakterizuje privilegium krále Ludvíka z roku 1523, obsažené
+                  v potvrzovací listině Rudolfa II. z roku 1595: aby žádný cizí
+                  mistr nesměl dělati věci, jež patří pražskému cechu malířů a
+                  sklenářů, to jest{' '}
+                  <Cit>
+                    tabulí, arch, korouhví, praporcův, dekův, svíc pozlacených a
+                    dřevěných, dříví jezdeckého malého neb velkého, pavez, terčí
+                    i jiných věcí všech, kteréž se barvami dělají
+                  </Cit>
+                  .<Qt publication={PUBLICATIONS.DENKSTEIN3} note="Str. 22" />
+                </p>
+                <p>
+                  O tom, že tomu tak bylo už ve 14. století, svědčí zápisy v
+                  první knize pražského malířského bratrstva, jednak jména a
+                  účty štítařů, jednak zápis o <Cit>malovaném dříví</Cit>, i
+                  když nedokončený.
+                  <Cit>Malovaným dřívím</Cit> je třeba rozumět jezdecké dříví,
+                  tj. jezdecké kopí (dřevce) určené pro kolbu, o němž mluví
+                  privilegium jak Karla IV. (stechgezewge), tak krále Ludvíka
+                  (dříví jezdecké malé nebo velké) a které pro náročnost
+                  zpracování nebylo obyčejným dílem sedlářským a patřilo k zboží
+                  malovanému. Uvnitř cechu bylo ve 14. století asi spíše prací
+                  štítařů než mistrů
+                  <Cit>pictoriae artis</Cit>.
+                  <Qt publication={PUBLICATIONS.DENKSTEIN3} note="Str. 22" />
+                </p>
+                <p>
+                  V dalším průběhu 15. století došlo uvnitř společného cechu k
+                  úplnému splynutí štítařů a malířů. Svědčí o tom mj. úmluva z
+                  roku 1445 mezi mistrem Šíchou a Janem, synem mistra Štefánka,
+                  v níž se Šícha zavazuje, že jej bude učit v umění malířském,
+                  nejen v štítařství, ale i v malování obrazů. Učňové byli tedy
+                  uváděni do znalostí obou odvětví řemesla. Přitom štítařství
+                  jako samostatné řemeslo postupně zanikalo. Svou malířskou
+                  stránkou se stávalo záležitostí malířů - ti převzali uměleckou
+                  složku jejich živnosti, malování pavéz, terčů a jezdeckého
+                  dříví, zatímco řemeslnická součást starého štítařství zůstala
+                  jiným řemeslům, zejména sedlářům a uzdařům. Proto také štítaři
+                  už koncem 14. století (např. v privilegiích Václava IV. z r.
+                  1380 a 1392) mizejí z titulu cechu a napříště se v něm vedle
+                  malířů uvádějí nikoli štítaři, ale sklenáři, jejichž význam s
+                  rozvojem středověké výroby a kultury stále více vzrůstal.
+                  Přitom ovšem jak ukazují zápisy v knize bratrstva i nadále
+                  byli mezi malíři mnozí, kteří se více než druzí vyznali ve
+                  výrobě malovaných pavéz. Dokladem toho je tzv. terčovné a
+                  způsob, jakým malíři plnili svou povinnost odvádět městu ročně
+                  určitý počet štítů. Tato povinnost má svou zajímavou historii.
+                  <Qt publication={PUBLICATIONS.DENKSTEIN3} note="Str. 22" />
+                </p>
+                <p>
+                  Podle preambule v privilegiu z roku 1458 byli dříve
+                  staroměstští mistři řemesel malířského a sklenářského{' '}
+                  <Cit>
+                    listy a právy starodávnými vyňati a zproštěni z vojen i ze
+                    všech lozunkuov a poplatkuov městských
+                  </Cit>
+                  , zato však{' '}
+                  <Cit>
+                    povinni byli každý rok tři štíty nebo pláště branné stojaté
+                    veliké k městu udělati ... a k tomu oděncuov branných devět
+                    na věže městské nebo k městským branám vydávati.
+                  </Cit>
+                  <Qt publication={PUBLICATIONS.DENKSTEIN3} note="Str. 22" />
+                </p>
+                <p>
+                  Tyto <Cit>starodávné listy</Cit> jsou přesněji datovány v
+                  další větě této preambule:{' '}
+                  <Cit>
+                    To my važiece a rozumějíce, že město Nové tehdáž nebylo
+                    ještě ohrazeno, a skrze to oděnci takoví byli sú, již toho
+                    se potřebie nezdá; a místo plášťov již každý rok dělají k
+                    městu pavézy.
+                  </Cit>{' '}
+                  Pro opevnění Nového Města dávala již zakládací listina z roku
+                  1348 směrnice, pokud jde o půdorys, komunikační síť města a
+                  tím i situaci bran. Opevnění samo bylo vybudováno v letech
+                  1348-1350. Tehdy také ztratily na významu hradby mezi Starým a
+                  Novým Městem a s nimi povinnost malířů stavět k věžím a bra-
+                  nám devět oděnců podle starodávných listů, které tedy musely
+                  být vydány někdy před polovinou 14. století.
+                  <Qt publication={PUBLICATIONS.DENKSTEIN3} note="Str. 23" />
+                </p>
+                <p>
+                  Tři veliké štíty neboli branné pláště stojaté odváděli však
+                  staroměstští mistři jen ve 14. století. Neznámo kdy,
+                  nejpozději však před husitskými válkami, došlo k té změně, že
+                  místo tří velkých branných plášťů musili městu odvádět 10
+                  pavéz. Vysvítá to ze zápisu v gruntovních knihách
+                  staroměstských ze <b>7. února 1430</b>, kdy došlo k další
+                  změně. Tehdy se mistři obrátili na konšely Starého Města s
+                  žádostí, aby se jim dostalo úlevy v této povinnosti, vzhledem
+                  k nedostatku a chudobě, do níž prý upadli v oněch válečných a
+                  neklidných letech. Jejich žádosti o snížení počtu povinně
+                  odváděných <Cit>štítů alias pavéz</Cit> městská rada roku 1430
+                  vyhověla a slevila jim dva štíty, takže napříště byli povinni
+                  odvádět ročně jen osm štítů. Mělo to však být jen přechodné
+                  opatření do doby, než zase budou mít ze svého umění hojnější
+                  užitek.
+                  <Qt publication={PUBLICATIONS.DENKSTEIN3} note="Str. 23" />
+                </p>
+                <p>
+                  Přes tuto výhradu zůstala úleva staroměstským mistrům dlouho
+                  zachována. Když roku 1458 předkládali městu všechny své výsady
+                  s žádostí o potvrzení, byly v nich kromě zmíněných již
+                  <Cit>starodávných práv</Cit> z první poloviny 14. století také{' '}
+                  <Cit>
+                    jiné kusy popsané, jim a řemeslóm jich příhodné a potřebné
+                  </Cit>
+                  . Mezi těmito jinými kusy, které konšelé měli roku 1458
+                  potvrdit <Cit>k dřevním připíšíc</Cit>, byla jistě i tato
+                  úleva z roku 1430. Usnesení staroměstské rady z roku 1458 bylo
+                  tedy potvrzením souhrnu dosavadních privilegií, starších i
+                  novějších. Tak je třeba rozumět usnesení staroměstských
+                  konšelů z <b>13. listopadu 1458</b>:
+                  <Cit>
+                    {' '}
+                    ... protož my při těch milostech a práviech i svobodách je
+                    zuostavujíc, oděncuov těch je zprošťujem, tak aby miesto
+                    plášťuov těch velikých, o nichžto svrchu zmienka jest, každý
+                    rok vždy o svatém Havle osm pavez malovaných a dobře
+                    žilovaných a s obú stranú kožovaných i připravených k městu
+                    udělajíc, na rathúz přinesli.
+                  </Cit>
+                  <Qt publication={PUBLICATIONS.DENKSTEIN3} note="Str. 23" />
+                </p>
+                <p>
+                  Podobnou povinnost vůči městu měli také štítaři a malíři
+                  novoměstští. O jejich cechu jsou sice zprávy až z 15. století,
+                  ale je možné, že existoval hned po založení Nového Města a že
+                  byl nadán výsadami již za Karla IV. Ve sporu střelce Jana
+                  Božků, jenž byl r. 1454 nařčen novoměstskými malíři a štítaři,
+                  že zasahuje do jejich řemesla, konšelé Nového Města při roz
+                  soudili tak, aby nebyla dotčena práva malířů a štítařů, která
+                  mají <Cit>od slavné paměti císaře Karla a krále Václava</Cit>.
+                  Není však jisté, jsou-li těmito právy zmíněné již výsady
+                  štítařů a malířů z roku 1365, 1380 a 1392, vztahující se na
+                  společný snad cech mistrů staroměstských a novoměstských, nebo
+                  zda novoměstští mistři měli již ve 14. století svá vlastní
+                  privilegia. V každém případě byli však štítaři na Novém Městě
+                  usedlí již ve 14. století, jak ostatně vyplývá také z citované
+                  již dohody staroměstských a novoměstských štítařů a malířů z
+                  roku 1387. Velikost jejich cechu na počátku 16. století
+                  nezůstávala pozadu za staroměstským cechem, neboť při smíru,
+                  uzavřeném mezi nimi r. 1511, jmenuje se osm mistrů
+                  staroměstských a sedm novoměstských.
+                  <Qt publication={PUBLICATIONS.DENKSTEIN3} note="Str. 25" />
+                </p>
+                <p>
+                  Ve 14. století byla však výrobní síla novoměstských štítařů a
+                  malířů podstatně slabší než rozsah výroby na Starém Městě.
+                  Dosvědčují to údaje o jejich povinné roční dodávce městu. V
+                  osmdesátých letech 14. století došlo mezi nimi a novoměstskými
+                  konšely k narovnání, které ukončilo dlouhé spory o lozunky a
+                  poplatky, stanovíc, aby štítaři,{' '}
+                  <Cit>kteříž pod věžemi sedí</Cit>, bez pohoršení svých práv{' '}
+                  <Cit>
+                    každé léto po vánocech k novému letu dávali počty, jednu
+                    pavézu pánuom a městu ku potřebě a ke cti i k kráse, tak
+                    dlúho, jakožby jim a nám se líbilo a dobré zdálo a jim a
+                    městu našemu líbezné se bude zdáti
+                  </Cit>
+                  . Pavéza novoměstskými malíři a štítaři odevzdávaná měla být
+                  tedy na přední straně opatřena stejně pěknou malířskou
+                  výzdobou jako osm{' '}
+                  <Cit>malovaných, dobře žilovaných a kožovaných</Cit> pavéz
+                  staroměstských.
+                  <Qt publication={PUBLICATIONS.DENKSTEIN3} note="Str. 25" />
+                </p>
+                <p>
+                  Odvádění povinné dodávky pavéz na staroměstskou i novoměstskou
+                  radnici patřilo tedy k velmi starým povinnostem pražských
+                  malířů a štítařů a udrželo se až do počátku 16. století. Tato
+                  povinnost byla na členy cechu rozvržena tak, že pavézy byly
+                  objednány od některého z členů bratrstva; ostatní členové
+                  cechu se pak na ně skládali, platíce poplatek zvaný{' '}
+                  <Cit>terčovní</Cit>. Takové příspěvky na štíty najdeme již v
+                  citované nejstarší knize bratrstva. V zápisu z konce 14.
+                  století se mluví o{' '}
+                  <Cit>polovině kopy za štíty (nebo na štíty)</Cit>. V seznamu
+                  členů, pocházejícím asi z let 1410-1420, je přípisek:{' '}
+                  <Cit>Mykesch ostawa dluzen u pawessy</Cit>, což se vykládá
+                  jako záznam nedoplatku <Cit>terčovního</Cit> na pavézy.
+                  <Qt publication={PUBLICATIONS.DENKSTEIN3} note="Str. 26" />
+                </p>
+                <p>
+                  Jak je patrné, česká historická věda se soustředila z
+                  pochopitelných důvodů zejména na pavézy zatímco tarče
+                  zůstávají stranou zájmu a pokud už se jimi zabývá, tak hlavně
+                  jejich možným vlivem na vývoj pavéz. Lze však předpokládat, že
+                  české tarče z 2. poloviny 15. století se výrazně nelišily od
+                  jiných tarčí ze sousedních oblastí Říše. Častým motivem na
+                  tarčích z německého prostoru je dáma, která přidržuje úplný
+                  erb, tj. heraldický štít s přilbou, klenotem a přikryvadly,
+                  jak je vidět na následujícíh příkladech z Metropolitního muzea
+                  umění. Ve dvou případech je dáma doplněna stuhou s heslem,
+                  které však nemá heraldický význam a jedná se spíše o vtipnou
+                  slovní hříčku.
                 </p>
               </Col>
             </Row>
@@ -331,6 +575,7 @@ const Page = () => {
                 title=""
               />
             </Row>
+            <Sources lang={LANG_CS} />
           </Col>
         </Row>
       </Container>

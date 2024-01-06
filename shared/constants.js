@@ -90,6 +90,12 @@ export const PUBLICATIONS = {
     city: 'Praha',
     year: 1893,
   },
+  WINTER2: {
+    name: 'Dějiny řemesel a obchodu v Čechách v XIV. a v XV. století',
+    author: 'Zikmund Winter',
+    city: 'Praha',
+    year: 1906,
+  },
   PILNA: {
     name: 'Oděv v západních Čechách 15. až 17. století',
     author: 'Veronika Pilná',
@@ -118,7 +124,7 @@ export const PUBLICATIONS = {
   ARCHIV14: {
     name: 'Archiv český čili staré písemné památky české i moravské XIV',
     author:
-      'Josef Kalousek, František Dvorský, Vácslav Vladivoj Tomek, Josef Emler', //Hensleigh Wedgwood
+      'Josef Kalousek, František Dvorský, Vácslav Vladivoj Tomek, Josef Emler',
     city: 'Praha',
     year: 1895,
   },
@@ -149,5 +155,18 @@ export const PUBLICATIONS = {
     author: 'Jan Gebauer',
     city: 'Praha',
     year: 1970,
+  },
+  PATALA: {
+    name:
+      'Pod znakiem świętego Sebalda. Rola Norymbergi w kształtowaniu późnogotyckiego malarstwa tablicowego na Śląsku',
+    author: 'Agnieszka Patała',
+    city: 'Wrocław',
+    year: 2018,
+  },
+  DENKSTEIN3: {
+    name: 'Pavézy českého typu. III. Pavézy v českých historických pramenech',
+    author: 'Vladimír Denkstein',
+    city: 'Praha',
+    year: 1965,
   },
 }

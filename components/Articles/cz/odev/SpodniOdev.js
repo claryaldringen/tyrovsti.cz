@@ -2,6 +2,8 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { ImageWithTitle } from '../../../ImageWithTitle'
 import { Cit } from '../../../Citation'
+import { Qt } from '../../../Quote/Qt'
+import { PUBLICATIONS } from '../../../../shared/constants'
 
 export const SpodniOdev = () => (
   <>
@@ -21,6 +23,7 @@ export const SpodniOdev = () => (
           znečištění, nebyly náklady na zhotovení dalšího kusu oděvu, který
           sloužil na převlečení, tolik nákladné, jako by tomu bylo u oděvu
           zhotoveného z vlny.
+          <Qt publication={PUBLICATIONS.FEYFRLIKOVA} />
         </p>
       </Col>
     </Row>
@@ -34,19 +37,34 @@ export const SpodniOdev = () => (
           této době ještě zhotovovaly bez plisování. Košile mohla mít jednoduchý
           oválný výstřih, rozhalení na hrudi do tvaru V nebo rozparek po celé
           délce.
+          <Qt publication={PUBLICATIONS.FEYFRLIKOVA} />
         </p>
         <p>
           Zdá se, že rozdíl mezi košilí a rubášem spočíval zejména v délce, když
           v jednom dědictví litomyšlském z roku 1510 se odkazují{' '}
-          <Cit>košile tři a rubáč dlouhý</Cit>. Tím by se rubáš řadil spíše,
-          nikoliv však výhradně, do ženského šatníku. To by naznačovaly i další
-          testamenty litomyšlských měšťanek: Rychtářka Tisovská má roku 1497 2
-          rubáče lněné, Marta, sestra purkrabové, odkazuje roku 1499{' '}
+          <Cit>košile tři a rubáč dlouhý</Cit>.
+          <Qt
+            publication={PUBLICATIONS.WINTER}
+            href="https://kramerius5.nkp.cz/view/uuid:4405cb90-ee14-11dd-bfdc-000d606f5dc6?page=uuid:72e460f0-fe2a-11e6-97b4-5ef3fc9ae867"
+          />{' '}
+          Tím by se rubáš řadil spíše, nikoliv však výhradně, do ženského
+          šatníku. To by naznačovaly i další testamenty litomyšlských měšťanek:
+          Rychtářka Tisovská má roku 1497 dva rubáče lněné, Marta, sestra
+          purkrabové, odkazuje roku 1499{' '}
           <i>
             &bdquo;Mandě písařce dva rubáče, jeden žemniový a druhý lněný&ldquo;
           </i>
-          . Kateřina, měšťanska z Nového Města pražského, odkazuje roku 1483{' '}
+          .
+          <Qt
+            publication={PUBLICATIONS.WINTER}
+            href="https://kramerius5.nkp.cz/view/uuid:4405cb90-ee14-11dd-bfdc-000d606f5dc6?page=uuid:724e6280-fe2a-11e6-97b4-5ef3fc9ae867"
+          />{' '}
+          Kateřina, měšťanska z Nového Města pražského, odkazuje roku 1483{' '}
           <Cit>tři rubáše sváteční a tři košile všední</Cit>.
+          <Qt
+            publication={PUBLICATIONS.WINTER}
+            href="https://kramerius5.nkp.cz/view/uuid:4405cb90-ee14-11dd-bfdc-000d606f5dc6?page=uuid:7212e020-fe2a-11e6-97b4-5ef3fc9ae867"
+          />
         </p>
       </Col>
     </Row>
@@ -88,6 +106,7 @@ export const SpodniOdev = () => (
           starší době dosahovaly až do oblasti kolen, případně pod ně. Tyto
           střihově delší hace postupně mizí a po polovině 15. století se s nimi
           již nesetkáváme.
+          <Qt publication={PUBLICATIONS.FEYFRLIKOVA} />
         </p>
         <p>
           Později byly spodky v písemných pramenech uváděny spíše v novém
@@ -95,19 +114,19 @@ export const SpodniOdev = () => (
           <i>nábedrnie</i>. Takto je také nazývá Vavřinec z Březové ve své
           kronice, při popisu bitvy pod Vyšehradem. Po ní měli být padlí rytíři
           vysvléknuti ze zbroje, až byli obnaženi pouze ve spodkách:{' '}
-          <i>
-            &bdquo;... baronibus et militibus sunt velut porci crudeliter
-            interempti et statim omnibus armis et vestibus usque femoralia
-            denudaci.&ldquo;
-          </i>
+          <Cit>
+            ... baronibus et militibus sunt velut porci crudeliter interempti et
+            statim omnibus armis et vestibus usque femoralia denudaci.
+          </Cit>
+          <Qt publication={PUBLICATIONS.FEYFRLIKOVA} />
         </p>
         <p>
           Na zhotovení spodků se užívalo tenkého lněného plátna, jak dokládá
           Bible kladrubská z roku 1471:{' '}
-          <i>
-            &bdquo;Učiníš i rúčce lněné, aby přikryly mrzkosti tvé od ledví až
-            po bedr.&ldquo;
-          </i>
+          <Cit>
+            Učiníš i rúčce lněné, aby přikryly mrzkosti tvé od ledví až po bedr.
+          </Cit>
+          <Qt publication={PUBLICATIONS.FEYFRLIKOVA} />
         </p>
       </Col>
     </Row>
@@ -145,6 +164,10 @@ export const SpodniOdev = () => (
             modré košile obnaženi&ldquo;
           </i>
           , tak ikonograficky v miniaturách Života sv. Františka z roku 1500.
+          <Qt
+            publication={PUBLICATIONS.WINTER}
+            href="https://kramerius5.nkp.cz/view/uuid:4405cb90-ee14-11dd-bfdc-000d606f5dc6?page=uuid:71b15f30-fe2a-11e6-97b4-5ef3fc9ae867"
+          />
           Modré spodky jsou pak doloženy ikonograficky např. v Jenském kodexu
           (1490 - 1510).
         </p>

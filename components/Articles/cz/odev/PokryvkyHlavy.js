@@ -1,6 +1,9 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { ImageWithTitle } from '../../../ImageWithTitle/ImageWithTitle'
+import { PUBLICATIONS } from '../../../../shared/constants'
+import { Qt } from '../../../Quote/Qt'
+import { Cit } from '../../../Citation'
 
 export const PokryvkyHlavy = () => (
   <>
@@ -39,9 +42,11 @@ export const PokryvkyHlavy = () => (
           dobré postavení svého majitele. Tomu by i odpovídala zaznamenaná
           událost v kronice Vavřince z Březové, kdy táborité stříhali dlouhé
           cípy kápí pražským řemeslníkům a měšťanům, které tak symbolizovaly
-          nestřídmost a přepych, které odsuzovali. Rovněž v<i>Jenském kodexu</i>{' '}
-          (1490 - 1510) je zobrazen kněz v honosné šubě, mnoha prsteny a botách
-          s dlouhými špicemi, který má kápi s dlouhým masivním cípem.
+          nestřídmost a přepych, které odsuzovali.
+          <Qt publication={PUBLICATIONS.FEYFRLIKOVA} /> Rovněž v{' '}
+          <i>Jenském kodexu</i> (1490 - 1510) je zobrazen kněz v honosné šubě,
+          mnoha prsteny a botách s dlouhými špicemi, který má kápi s dlouhým
+          masivním cípem.
         </p>
       </Col>
     </Row>
@@ -77,8 +82,15 @@ export const PokryvkyHlavy = () => (
         <p>
           Jednoduchá kápě bez cípu byla nejrozšířenějším typem kápě v
           pohusitských Čechách. Bylo možno ji nosit pod přílbu nebo spolu s
-          kloboukem. Vyobrazení těchto kápí máme velmi mnoho ať už z českých či
-          německých pramenů.
+          kloboukem. Jednu takovou{' '}
+          <Cit>kuklu modrou, kterou míval do vojny</Cit> po sobě zanechal
+          Zikmund Jirconis z Poříče roku 1455.
+          <Qt
+            publication={PUBLICATIONS.WINTER}
+            href="https://kramerius5.nkp.cz/view/uuid:4405cb90-ee14-11dd-bfdc-000d606f5dc6?page=uuid:68f3aba0-fe2a-11e6-97b4-5ef3fc9ae867"
+          />{' '}
+          Vyobrazení těchto kápí máme velmi mnoho ať už z českých či německých
+          pramenů.
         </p>
       </Col>
     </Row>
@@ -124,12 +136,13 @@ export const PokryvkyHlavy = () => (
         <h5>Kápě se střapci</h5>
         <p>
           Byla oblíbena v německých zemích, včetně tehdejších Čech. Rovněž se
-          mohla nosit pod přílbu, jak ukazují kresbya malby slavného malíře
+          mohla nosit pod přílbu, jak ukazují kresby a malby slavného malíře
           Albrechta Dürera (1471 - 1528). Na krku mohla být spínací na knoflíky
           aby měla více anatomický tvar. Rovněž její střapce mohly být ozdobně
           vykrajované, jak je vidět např. na portrétu kutnohorského mincmistra
           Hanse Harsdorffera z roku 1484. Není bez zajímavosti, že Albrecht
           Dürer a Hans Harsdorffer byli přátelé.
+          <Qt publication={PUBLICATIONS.PATALA} />
         </p>
       </Col>
     </Row>
@@ -176,15 +189,35 @@ export const PokryvkyHlavy = () => (
           <i> kobek</i>,<i> klouček</i>,<i> koláče</i>. Označoval kromě pokrývky
           hlavy také přilbu. Nejrozšířenějším tvarem byl ten, kdy dýnko
           přirozeně kopíruje hlavu a krempa je zahnutá či srolovaná nahoru.
-          Vyobrazení takového klobouku nacházím jak např. v
-          <i> Krumlovském sborníku</i> (1420) tak i o 70 let později v
+          Vyobrazení takového klobouku nacházíme jak např. v
+          <i> Krumlovském sborníku</i> (1420)
+          <Qt publication={PUBLICATIONS.FEYFRLIKOVA} /> tak i o 70 let později v
           <i> Jenském kodexu</i> (1490 - 1510), a archeologicky potvrzené
-          nálezem z Irska. Dýnko mohlo být i zploštělé, kónicky tvarované nebo
-          kuželovité. Rovněž krempa mohla být různě tvarovaná: rovná a kulatá,
-          jako u současných klobouků, srolovaná, jak bylo řečeno výše, zahnutá
-          nahoru s jedním nebo více prostřihy, popřípadě úplně chyběla. Na
-          rozdíl od kápí se zdá, že klobouky byly často podšité jinou látkou, či
-          kožešinou.
+          nálezem z Irska.
+          <Qt publication={PUBLICATIONS.FEYFRLIKOVA} /> Dýnko mohlo být i
+          zploštělé, kónicky tvarované nebo kuželovité. Rovněž krempa mohla být
+          různě tvarovaná: rovná a kulatá, jako u současných klobouků,
+          srolovaná, jak bylo řečeno výše, zahnutá nahoru s jedním nebo více
+          prostřihy, popřípadě úplně chyběla. Na rozdíl od kápí se zdá, že
+          klobouky byly často podšité jinou látkou, či kožešinou.
+        </p>
+        <p>
+          Samostatný kloboučnický cech byl na Novém městě pražském ustaven{' '}
+          <b>2. dubna 1446</b>. Z jejich řádu lze vyčíst, že vyráběli klobouky
+          bobrové a plstěné.
+          <Qt
+            publication={PUBLICATIONS.ARCHIV14}
+            href="https://sources.cms.flu.cas.cz/src/index.php?s=v&cat=10&bookid=821&page=453"
+          />{' '}
+          Z potvrzení artikulí kloboučnického cechu na Starém městě z{' '}
+          <b>11. srpna 1489</b> lze vyčíst, že kromě bobrových klobouků musel
+          mistr umět vyrobit ještě klobouk zaječí s{' '}
+          <Cit>obú stranú vlasitý</Cit>, klobouk kadeřavý a kromě klobouků též
+          ševcovskou plsť a bot, předpokládám že plstěné na způsob válenek.
+          <Qt
+            publication={PUBLICATIONS.ARCHIV14}
+            href="https://sources.cms.flu.cas.cz/src/index.php?s=v&cat=10&bookid=821&page=488"
+          />
         </p>
       </Col>
     </Row>
@@ -402,7 +435,9 @@ export const PokryvkyHlavy = () => (
         <h4>Barety</h4>
         <p>
           Jednou z nejčastějších pokrývek hlavy je baret, který tvořil přibližně
-          čtvrtinu všech pokrývek hlavy.
+          čtvrtinu všech pokrývek hlavy
+          <Qt publication={PUBLICATIONS.FEYFRLIKOVA} /> a skrývá se patrně pod
+          dobovým názvem <i>čepice</i>.
         </p>
       </Col>
     </Row>
