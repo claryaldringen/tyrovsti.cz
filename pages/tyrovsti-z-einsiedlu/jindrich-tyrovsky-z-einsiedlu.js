@@ -7,7 +7,7 @@ import { Sources } from '../../components/Quote/Sources'
 
 const Page = () => (
   <>
-    <HeadExtended lang={LANG_CS} title="Jošt z Einsiedlu" />
+    <HeadExtended lang={LANG_CS} title="Jošt z Einsiedlu" image="erb.png" />
     <Container>
       <Row>
         <Col className="text">

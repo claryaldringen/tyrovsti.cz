@@ -130,7 +130,7 @@ export const Erb = () => (
           dvě helmy s korunkami, levá s červenostříbrnými přikryvadly ze které
           vystupuje polcený vysoký tatarský klobouk s černou nebo stříbrnou
           kytou, jehož levá polovina je stříbrná a pravá červená. Pravá helma je
-          opatřena černostříbrnými přikryvadly a v klenotu má černě oděnou panu,
+          opatřena černozlatými přikryvadly a v klenotu má černě oděnou panu,
           buď korunovanou nebo si kladoucí na hlavu zlatou korunu.
           <Qt publication={PUBLICATIONS.BUBEN} />
         </p>

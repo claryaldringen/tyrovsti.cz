@@ -169,4 +169,23 @@ export const PUBLICATIONS = {
     city: 'Praha',
     year: 1965,
   },
+  BROZEK: {
+    name: 'Platnéřství',
+    author: 'Petr Brožek',
+    city: 'Praha',
+    year: 2021,
+  },
+  ACADEMIA: {
+    name: 'Staročeský slovník',
+    author: 'Academia',
+    city: 'Praha',
+    year: 2008,
+  },
+  HALADA: {
+    name:
+      'Lexikon české šlechty II erby, fakta, osobnosti, sídla a zajímavosti',
+    author: 'Jan Halada',
+    city: 'Praha',
+    year: 1993,
+  },
 }

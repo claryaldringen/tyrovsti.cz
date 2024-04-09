@@ -3,6 +3,7 @@ import { ImageWithTitle } from '../../../ImageWithTitle'
 import React from 'react'
 import { PUBLICATIONS } from '../../../../shared/constants'
 import { Qt } from '../../../Quote/Qt'
+import { Cit } from '../../../Citation'
 
 export const JindrichTyrovsky = () => (
   <>
@@ -19,7 +20,7 @@ export const JindrichTyrovsky = () => (
           již Jindřich sám povolení k prodeji manských dědin v Mlečicích. Pozn.:
           Robotní manové v Mlečicích a Zavidově byli vždy povinni službou ke
           Křivoklátu, avšak jako poddaní na Týřovskom panství mohli své statky
-          prodávat jen se svolením svého pána - držitelem Týřova.
+          prodávat jen se svolením svého pána - držitele Týřova.
         </p>
         <p>
           V roce 1500 projednával komorní soud spor Jindřicha s Janem z
@@ -29,10 +30,18 @@ export const JindrichTyrovsky = () => (
         <p>
           Jindřich byl znamenitým hospodářem. V krátké době přikoupil dvory v
           Nezabudicích a Panoším Újezdě, vesnice Hřebečníky, Skryje, Tytry,
-          Novosedly a stavěl dvůr Myslice. Roku 1503 koupil pustinu Sadlno a
-          statek Slabce, se kterými byla spojena i manská povinnost vůči
-          Křivoklátu a Jindřich tak musel v případě potřeby{' '}
-          <i>sám druhý na hrad přijeti ve všem holým železe.</i>
+          Novosedly a stavěl dvůr Myslice. V Kožlanech obnovil kostel, jenž byl
+          pobořen od husitských válek a koupil zde dva pusté kmetcí dvory s
+          platem, které již mnoho let náležely ke Krakovci, od Jindřicha
+          Albrechta z Kolovrat.
+          <Qt
+            publication={PUBLICATIONS.KOCKA1}
+            href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:2aeaba53-5238-4dde-bdff-90260eb8a2d2"
+          />{' '}
+          Roku 1503 koupil pustinu Sadlno a statek Slabce, se kterými byla
+          spojena i manská povinnost vůči Křivoklátu a Jindřich tak musel v
+          případě potřeby{' '}
+          <Cit>sám druhý na hrad přijeti ve všem holým železe.</Cit>
         </p>
         <p>
           Za války roku 1505 vedené proti pánům Šlikům postavil 4 muže a 1 vůz.

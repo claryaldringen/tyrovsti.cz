@@ -405,9 +405,8 @@ export const JostTyrovsky = () => (
           června 1472 také projednával komorní soud spor mezi Joštem a
           Fridrichem ze Šumburka. Jošt obvinil služebníky Fridricha ze Šumburka
           z pobrání jeho krav, posléze nahnaných{' '}
-          <i>&bdquo;na jeho páně Šumburkuov zámek&ldquo;</i>. V případě, že by
-          se Šumburk k soudu s Joštem nedostavil, měl za pobrané krávy Joštovi
-          zaplatit.
+          <Cit>na jeho páně Šumburkuov zámek</Cit>. V případě, že by se Šumburk
+          k soudu s Joštem nedostavil, měl za pobrané krávy Joštovi zaplatit.
           <Qt publication={PUBLICATIONS.KOCKA} />
         </p>
         <p>
@@ -431,7 +430,7 @@ export const JostTyrovsky = () => (
           <b>11. července 1474</b> se ještě objevuje mezi přítomnými komorního
           soudu, ale rok 1476 ho již nezastihnul mezi živými, jak stojí v dopise
           ze &nbsp;<b>17. dubna 1476</b>:
-          <i>„Jako pánu Joštu z Einsiedle buď mu bůh milostiv”</i>.
+          <Cit>Jako pánu Joštu z Einsiedle buď mu bůh milostiv</Cit>.
           <Qt publication={PUBLICATIONS.KOCKA} />
         </p>
       </Col>

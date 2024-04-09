@@ -9,6 +9,7 @@ const TITLE_EN = 'Jobst of Einsiedl and Tyrzow'
 export const HeadExtended = ({ lang, title, image }) => (
   <>
     <Head>
+      <link rel="icon" href="/favicon.svg" />
       <title>
         {title ? `${title} - ` : ''}
         {lang === LANG_EN ? TITLE_EN : TITLE_CS}
