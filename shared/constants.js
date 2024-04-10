@@ -188,4 +188,12 @@ export const PUBLICATIONS = {
     city: 'Praha',
     year: 1993,
   },
+  POSPISIL: {
+    name: 'Festivity v době pobytů Jiřího z Poděbrad v Chebu',
+    author: 'Přemysl Pospíšil',
+    city: 'Praha',
+    year: 2010,
+    href:
+      'http://encyklopedie.cheb.cz/administrace/soubory_varia/1526546827_cz_19__festivity_v_dobe_pobytu_jiriho_z_podebrad_v_chebu.pdf',
+  },
 }

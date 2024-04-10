@@ -232,8 +232,8 @@ export const JostTyrovsky = () => (
           <i>„ad relationem Jodoci de Eynsedel secr.”</i> Město potřebovalo asi
           také ohledy krále, protože v důsledku své exponované polohy bylo
           osočováno jednou z té, podruhé z oné strany. Takže mělo kromě častých
-          přespolních sporů také hádky s vlastními zemědělskými usedlíky, kteří
-          chtěli uvolnit právní svazek s městem, jakož i problémy s opatem z
+          přespolních sporů také hádky s vlastními poddanými, kteří chtěli
+          uvolnit právní svazek s městem, jakož i problémy s opatem z
           Waldsassenu kvůli soudní pravomoci v několika vesnicích, které byly
           stejně jako Albenreuth (dnes Mýtina, část obce Lipová) obydleny
           klášterními i městskými poddanými. Jošt byl tedy často žádán o
@@ -257,15 +257,84 @@ export const JostTyrovsky = () => (
           <Cit>Dáváme panu Joštu z Einsiedle X zlatých ...</Cit> A když městská
           rada uctila krále několika sudy tehdy oblíbené chebské medoviny,
           připadl jeden soudek také Joštovi s přáním, aby
-          <Cit>ho vypil se svou chotí v radosti a zdraví</Cit>. Zajímavou
-          činnost vyvíjel Jošt na sněmu v Chebu na jaře roku 1459, kde, jak
-          známo, měly být díky zprostředkování politicky bystrého markraběte
-          Albrechta z Brandenburgu urovnány spory mezi Čechami a Saskem. Již o
-          Velikonocích&nbsp;<b>25. března 1459</b> přišel Jošt do Chebu, aby
-          oznámil příjezd krále o postní neděli&nbsp;
-          <b>8. dubna 1459</b>. Na konečně zahájených jednáních se Jošt objevuje
-          jako mnohonásobně zainteresován tím, že z příkazu a s pokyny krále se
-          často stýkal s markrabětem Albrechtem z Brandenburgu. Takto jednal s
+          <Cit>ho vypil se svou chotí v radosti a zdraví</Cit>.
+          <Qt
+            publication={PUBLICATIONS.KURSCHNER}
+            href="https://sources.cms.flu.cas.cz/src/index.php?s=v&cat=50&bookid=488&page=8"
+          />
+        </p>
+      </Col>
+    </Row>
+    <Row>
+      <Col>
+        <p>
+          Intenzivní organizační činnost vyvíjel Jošt ohledně sněmu v Chebu na
+          jaře roku 1459, kde, jak známo, měly být díky zprostředkování
+          politicky bystrého markraběte Albrechta z Brandenburgu urovnány spory
+          mezi Čechami a Saskem. Již o Velikonocích&nbsp;<b>25. března 1459</b>{' '}
+          přišel Jošt do Chebu, aby oznámil příjezd krále o postní neděli&nbsp;
+          <b>8. dubna 1459</b> a informoval radní o všech podrobnostech,
+          požadavcích a dalších záležitostech ohledně návštěvy. Město tak mělo
+          mít dostatek času, aby se mohlo na vše dopředu připravit. Král Jiří
+          přijel do Chebu <b>7. dubna 1459</b> s manželkou Johanou z Rožmitálu,
+          synem Viktorinem a dcerou Zdenou. Kromě rodinných příslušníků
+          doprovázel krále i početný doprovod, který netvořilo jen velmi hojně
+          zastoupené služebnictvo starající se o pohodlí a bezpečnost krále, ale
+          i významní zástupci české a moravské šlechty. Celkem čítal jeho
+          doprovod 43 šlechticů a 16 rytířů. Jeho družina celkem čítala na 900
+          jezdců a 100 vozů. Mimo jiné jej doprovázeli: Jan II. z Rožmberka,
+          Zdeněk ze Šternberka, Zdeněk Zajíc z Hazmburka, Jindřich ze Stráže,
+          Jindřich z Lipé, Jan Zajíc, Lev z Rožmitálu, Vilém mladší z Ryzmberka,
+          Dětřich z Janovic, Jan z Vartenberka, Jindřich z Plavna, Jindřich z
+          Gery, Bohuslav ze Švamberka, Bohuslav ze Žeberka, Jan z Cimburka, Jan,
+          Jindřich a Albrecht z Kolovrat, Ješek z Boskovic, Jan z Valdštejna,
+          Jindřich z Roštoku, dále rytíři Jan Calta, Vílém z Krásného Dvora,
+          Hynek z Kroupova, Burkhard Kamaret z Žirovnic a Beneš z Veitmile.2
+          Všichni přirozeně přijeli, stejně jako král, s bohatým doprovodem.
+          <Qt publication={PUBLICATIONS.POSPISIL} />
+        </p>
+      </Col>
+      <ImageWithTitle
+        src="spalicek.jpg"
+        width={516}
+        height={568}
+        title="Chebské náměstí na vyobrazení z roku 1472"
+      />
+    </Row>
+    <Row>
+      <Col>
+        <p>
+          Při vjezdu do města připravili měšťané králi slavnostní uvítání a
+          doprovodili ho, s baldachýnem nad hlavou, až do domu přímo na náměstí,
+          kde jej ubytovali. Majitelem domu na náměstí, ve kterém byl král
+          ubytován, byl radní Kašpar Junker, který byl jedním z nejvýznamnějších
+          osob tehdejšího patriciátu města a několikrát za sebou byl zvolen i
+          jako starosta obce. Vzhledem k tomu, že byl Jiří z Poděbrad ubytován
+          právě v jeho domě, dá se předpokládat, že tento dům patřil k těm vůbec
+          nejlépe zařízeným ve městě.
+          <Qt publication={PUBLICATIONS.POSPISIL} />
+        </p>
+        <p>
+          <b>8. dubna 1459</b> přijeli do Chebu i zástupci říšské šlechty:
+          Albrecht Braniborský přijel den po Jiřím tedy 8. dubna a kurfiřt
+          Fridrich Falcký 9. dubna. Dále je doprovázeli další urození páni a
+          také různí rádci. (Mezi rádci je třeba bezpodmínečně zmínit v té době
+          mezinárodně uznávaného diplomata Martina Mayera.) Později se dostavili
+          také čtyři vévodové ze Saska, jmenovitě sasko-míšeňský kurfiřt
+          Fridrich s oběma svými syny Ernstem a Albrechtem a také se svým
+          bratrem Vilémem Saským. Společně s nimi přijelo dalších 13 říšských
+          hrabat i se svými ženami. Dále přijel bavorský vévoda Oto, arcibiskup
+          magdeburský, rádci vévody Ludvíka Landshutského, vyslanci biskupa
+          würzburgského, rádci mnichovského vévody Albrechta a rádci rakouského
+          vévody Albrechta. Opět každý z nich přijel s velmi početným
+          doprovodem, který čítal desítky až stovky členů.
+          <Qt publication={PUBLICATIONS.POSPISIL} />
+        </p>
+        <p>
+          Na jednáních, která byla oficiálně zahájena <b>10. dubna 1459</b>
+          <Qt publication={PUBLICATIONS.POSPISIL} /> se Jošt objevuje jako
+          mnohonásobně zainteresován tím, že z příkazu a s pokyny krále se často
+          stýkal s markrabětem Albrechtem z Brandenburgu. Takto jednal s
           markrabětem&nbsp;
           <b>9. dubna 1459</b> ještě pozdě večer a vyslovoval se při této
           příležitosti horlivě pro vyrovnání se Saskem tím, že zastával správný
