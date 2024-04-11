@@ -37,7 +37,7 @@ export const Rozrod = () => (
               <td colSpan={4}>Jošt na Skryjích (&dagger;1574)</td>
               <td colSpan={4}>Albrecht na Týřově (&dagger;1571)</td>
               <td colSpan={4}>Jan na Broumech (&dagger;1574)</td>
-              <td colSpan={6}>Jiřík na Hřebečnících</td>
+              <td colSpan={6}>Jiřík na Hřebečnících (&dagger;1583)</td>
             </tr>
             <tr>
               <td colSpan={2}>Jan na Skryjích (&dagger;1609)</td>

@@ -225,6 +225,18 @@ export const JostTyrovsky = () => (
           povini mu pomoci dobýt hrad zpět nebo jej do dvou let vyplatit.
           <Qt publication={PUBLICATIONS.KOCKA} />
         </p>
+      </Col>
+    </Row>
+    <Row>
+      <ImageWithTitle
+        src="tyrov.jpg"
+        width={797}
+        height={600}
+        title="Zřícenina Týřova, rytina Václava A. Bergera (1800) podle kresby F. K. Wolfa (1797)"
+      />
+    </Row>
+    <Row>
+      <Col>
         <p>
           Jako královský tajemník měl Jošt příležitost prokázat městu Cheb
           mnohou službu radou nebo přímluvou u krále. To již vyplynulo z
