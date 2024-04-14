@@ -41,11 +41,14 @@ export const JostTyrovsky = () => (
           přičemž Joštovi byly svěřeny administrativní a organizační
           záležitosti, když v dopise ze <b>13. února 1447</b> vévoda Vilém
           píše:&nbsp;
-          <i>
-            „Potřebujeme bezpodmínečně asi jednoho sluhu, který umí německy a
-            česky, kterému budeme důvěřovat (…), k&nbsp;tomu by se nám asi hodil
-            Jošt, Váš služebník.”
-          </i>
+          <Cit>
+            Wir bedorffen wol eins endlichen diners, der dutschs und behemisch
+            kan, uff den wir glauben gesetzen (...), dorzu uns Jobst, uwer
+            diener, wol fuglich were.
+          </Cit>{' '}
+          (Potřebujeme bezpodmínečně asi jednoho sluhu, který umí německy a
+          česky, kterému budeme důvěřovat (…), k&nbsp;tomu by se nám asi hodil
+          Jošt, Váš služebník.)
           <Qt
             publication={PUBLICATIONS.TRESP}
             href="https://digi20.digitale-sammlungen.de/en/fs1/object/display/bsb00045259_00258.html?context=%22Jobst+von+Einsiedel%22&leftTab=PER_ent"
@@ -70,7 +73,7 @@ export const JostTyrovsky = () => (
           v čele své strany tažení proti jejím spojencům, zejména vévodovi
           Friedrichu Saskému, přičemž bylo dobyto město Gera a den na to&nbsp;
           <b>23.&nbsp;října&nbsp;1450</b> (některé zdroje uvádějí&nbsp;
-          <b>16. října 1450</b>) uzavřeno příměří. Jošt z Einsiedle, který se
+          <b>16. října 1450</b>) uzavřeno příměří. Jošt z Einsiedlu, který se
           účastnil tohoto tažení v družině pána Petra Holického ze Šternberka,
           napsal&nbsp;
           <b>25.&nbsp;října&nbsp;1450</b> z polního tábora u Salzy, nedaleko
@@ -96,18 +99,29 @@ export const JostTyrovsky = () => (
           Na základě vildštejnských jednání se město nakonec vykoupilo 1000
           zlatými výpalného:&nbsp;
           <Cit>
-            Panu Girzikovi (Jiříkovi) jsme dali 1000 zlatých, které musí být
-            dány radou jako výpalné. Pan Petr ze Šternberka obdržel 200 fl. za
-            své zprostředkování.
-          </Cit>
+            Item wir haben geben vnd ausgerichthern Girziken tousent guldein,
+            die jn der rat zu pranttschaczgeben musst.
+          </Cit>{' '}
+          (Panu Jiříkovi jsme dali 1000 zlatých, které musí být dány radou jako
+          výpalné.)
           <br />
-          Rovněž další zprostředkovatelé nezůstali bez odměny:&nbsp;
+          Petr ze Šternberka obdržel za zprostředkování dohody 200 zlatých a
+          rovněž další zprostředkovatelé nezůstali bez odměny:&nbsp;
           <Cit>
-            Dejte uvedenému 1 kopu 23 grošů pro Hanse z Kotzau a pro Jošta,
-            písaře Šternberků, který se podílel na jednání mezi radními a Čechy.
-          </Cit>
+            Geben dem Endresen I schock XXIII gr. zerung fur Hans von Kocza vnd
+            fur den Jobst des von Sternbergs schreiber, als er zwischen eyn rat
+            vnd den Behmen teidigat.
+          </Cit>{' '}
+          (Dejte uvedenému 1 kopu 23 grošů pro Hanse z Kotzau a pro Jošta,
+          písaře Šternberků, který se podílel na jednání mezi radními a Čechy.)
+          <Qt
+            publication={PUBLICATIONS.KURSCHNER}
+            href="https://sources.cms.flu.cas.cz/src/index.php?s=v&cat=50&bookid=488&page=5"
+          />
+        </p>
+        <p>
           Do konce roku 1453 či snad do počátku roku 1454 zůstal Jošt z
-          Einsiedle u pánů ze Šternberka neboť <b>24. června 1453</b> píše Jošt
+          Einsiedlu u pánů ze Šternberka neboť <b>24. června 1453</b> píše Jošt
           ještě z příkazu pána Aleše ze Šternberka. Poté vstoupil do služeb
           správce Jiřího z Poděbrad, k čemuž se v případě příbuzenských vztahů
           posledně jmenovaného k rodu Šternberků zřejmě nabízel popud sám od
@@ -181,7 +195,7 @@ export const JostTyrovsky = () => (
           <b>1. března 1458</b>&nbsp; vyslanci vévody Viléma Saského z důvodu
           lepšího prokázání nároků jeho choti na nástupnictví v Čechách odvolali
           na staré listiny, které byly uchovávány na Karlštejně, vyslal správce
-          ihned svého komořího a Jošta z Einsiedle, svého písaře, s odpovídající
+          ihned svého komořího a Jošta z Einsiedlu, svého písaře, s odpovídající
           družinou na Karlštejn, aby vyzvedli příslušné listiny, které byly již
           následujícího dne předloženy shromážděným stavům. A když byl ještě
           téhož dne provolán Jiří z Poděbrad králem, přivítal Jošt tuto
@@ -241,8 +255,8 @@ export const JostTyrovsky = () => (
           Jako královský tajemník měl Jošt příležitost prokázat městu Cheb
           mnohou službu radou nebo přímluvou u krále. To již vyplynulo z
           královských reskriptů městu Cheb, z nichž je mnoho označeno dodatkem
-          <i>„ad relationem Jodoci de Eynsedel secr.”</i> Město potřebovalo asi
-          také ohledy krále, protože v důsledku své exponované polohy bylo
+          <Cit>ad relationem Jodoci de Eynsedel secr.</Cit> Město potřebovalo
+          asi také ohledy krále, protože v důsledku své exponované polohy bylo
           osočováno jednou z té, podruhé z oné strany. Takže mělo kromě častých
           přespolních sporů také hádky s vlastními poddanými, kteří chtěli
           uvolnit právní svazek s městem, jakož i problémy s opatem z
@@ -255,21 +269,36 @@ export const JostTyrovsky = () => (
           nepříjemně čtenáře, když např. uprostřed zajímavého dopisu
           stojí:&nbsp;
           <Cit>
-            A jakkoli se sami chcete dovědět důvod téže záležitosti, můžete sem
-            poslat jednoho z přátel rady, který je mi znám, a dozvíte se celou
-            věc důkladně.
-          </Cit>
-          Naproti tomu nechybělo městu uznání. Při různých příležitostech dávalo
-          svému příteli peněžní dar, jak dokládá chebská kniha výdajů:&nbsp;
-          <Cit>
-            O vánocích 1458: &quot;Tak jsme tehdy skrze Pavla Ruduschena předali
-            panu Joštovi z Einsiedle XII zlatých, aby ho rada uctila.&quot;
+            Vnd so ir der selben sachen allen wolt ein grunt erfaren, so müget
+            ir ewr rats frewnden einen, damit ich bekant pin, herein schiken da
+            wurdt ir gruntlich all sache erfaren.
           </Cit>{' '}
-          Rovněž v následujícím roce:&nbsp;
-          <Cit>Dáváme panu Joštu z Einsiedle X zlatých ...</Cit> A když městská
-          rada uctila krále několika sudy tehdy oblíbené chebské medoviny,
-          připadl jeden soudek také Joštovi s přáním, aby
-          <Cit>ho vypil se svou chotí v radosti a zdraví</Cit>.
+          (A jakkoli se sami chcete dovědět důvod téže záležitosti, můžete sem
+          poslat jednoho z přátel rady, který je mi znám, a dozvíte se celou věc
+          důkladně.) Naproti tomu nechybělo městu uznání. Při různých
+          příležitostech dávalo svému příteli peněžní dar, jak dokládá chebská
+          kniha výdajů. Například o Vánocích 1458:&nbsp;
+          <Cit>
+            Item so haben wir desmals durch Paul Ruduschen hern Jobst von
+            Aynsidel awszgericht XII guldein, damit jn der rat vereret.
+          </Cit>{' '}
+          (Tak jsme tehdy skrze Pavla Ruduschena předali panu Joštovi z
+          Einsiedlu 12 zlatých, aby ho rada uctila.) Rovněž v následujícím
+          roce:&nbsp;
+          <Cit>
+            Item geben hern Jobsten von Aynsidel X gulde. r. damit jn unser hern
+            verereten, als er jn das wortt redt ken vnsern hern konig von des
+            abtes von Waltsassen wegen.
+          </Cit>{' '}
+          (Také jsme dali panu Joštu z Einsiedlu deset zlatých, aby ho naši páni
+          poctili, protože mluvil za našeho pána krále ohledně záležitostí s
+          opatem z Waldsassenu.) A když městská rada uctila krále několika sudy
+          tehdy oblíbené chebské medoviny, připadl jeden soudek také Joštovi s
+          přáním, aby{' '}
+          <Cit>
+            es mit seiner Gemalin in Fröhlichkeit und Gesundheit auszutrinken
+          </Cit>{' '}
+          (ho vypil se svou chotí v radosti a zdraví).
           <Qt
             publication={PUBLICATIONS.KURSCHNER}
             href="https://sources.cms.flu.cas.cz/src/index.php?s=v&cat=50&bookid=488&page=8"
@@ -353,14 +382,16 @@ export const JostTyrovsky = () => (
           názor, že pokud by dotyčná záležitost byla postoupena císaři nebo
           kurfiřtům, byl by <Cit>konec v nedohlednu</Cit>. A když se příštího
           dne objevil markrabě se saskými poradci u krále v jeho obydlí u
-          Kašpara Junkera ohledně bližšího jednání, fungoval Jošt z Einsiedle
+          Kašpara Junkera ohledně bližšího jednání, fungoval Jošt z Einsiedlu
           jako tlumočník. Když se po ukončení jednání odcházelo z Chebu, převzal
           dar 100 kop grošů od města pro krále:{' '}
           <Cit>
-            Tím jsme poukázali našemu panu králi opět 1 kopu grošů, aby ho rada
-            uctila - předáno pánu Joštu z Einsiedle
-          </Cit>
-          .
+            Item wir haben awszgericht vnserm hern konygk au newen groschen 1
+            <sup>e</sup>
+            schok gr., domit jn der rat vererat - hub auf her Jobst von Aynsidel
+          </Cit>{' '}
+          (Tím jsme poukázali našemu panu králi opět 100 kop grošů, aby ho rada
+          uctila - předáno pánu Joštu z Einsiedlu) .
           <Qt
             publication={PUBLICATIONS.KURSCHNER}
             href="https://sources.cms.flu.cas.cz/src/index.php?s=v&cat=50&bookid=488&page=9"
@@ -402,13 +433,22 @@ export const JostTyrovsky = () => (
           markraběti Albrechtu z Brandenburgu. Zde máme na mysli zejména důvěrné
           psaní, které poslal markrabě Joštovi v roce 1463, aby ho informoval o
           snahách papežského legáta zaměřených proti králi.
-          <Cit>To můžete</Cit> , pokračuje dopis,{' '}
+          <Cit>Dast wollest</Cit> (To můžete), pokračuje dopis,{' '}
           <Cit>
-            ve velké tajnosti říci našemu pánu králi, neboť je to skutečně tak
-          </Cit>
-          . Také Jošt sděloval markraběti opakovaně zprávy z českého dvora
+            in grosser geheim vnnsern herrn dem konig sagen, dann es warlich
+            also ist
+          </Cit>{' '}
+          (ve velké tajnosti říci našemu pánu králi, neboť je to skutečně tak).
+          Také Jošt sděloval markraběti opakovaně zprávy z českého dvora.{' '}
           (dochoval se dopis z&nbsp;<b>4. července 1464</b> a tři dopisy z roku
-          1469). Vliv královského tajného písaře se projevoval při různých
+          1469).
+          <Qt
+            publication={PUBLICATIONS.KURSCHNER}
+            href="https://sources.cms.flu.cas.cz/src/index.php?s=v&cat=50&bookid=488&page=10"
+          />
+        </p>
+        <p>
+          Vliv královského tajného písaře se projevoval při různých
           příležitostech. Z velké dálky vyhledávali jeho přímluvu, jako
           například počátkem roku 1463 město Zhořelec. V roce 1464 vystupoval
           Jošt spolu s kancléřem Prokopem z Rabštejna a Jindřichem, pánem z
@@ -416,7 +456,7 @@ export const JostTyrovsky = () => (
           Plavna a Günterem z Bünau. Když mezitím založený panský spolek
           opakovaně nastolil otázku, komu vlastně přísluší dohled nad říšskými
           insigniemi, bylo nakonec pověřeno několik pánů a rytířů, mezi nimi
-          také Jošt z Einsiedle na Týřově, přenosem státních listin uchovávaných
+          také Jošt z Einsiedlu na Týřově, přenosem státních listin uchovávaných
           na Karlštejně do Prahy a jejich kontrolou. Jedním z příznaků stále
           více se vyostřujících sporů v církevní a politické oblasti byly
           naboženské zmatky, které vedly ke vzniku mnohých sekt. Jednu takovou
@@ -430,40 +470,44 @@ export const JostTyrovsky = () => (
           katolík a z jeho zajímavých vyjádření v něm poznáváme dogmatizujícího
           laika, jakých bylo tehdy, zvláště v Čechách, mnoho. Úpadek víry si
           bere hluboce k srdci a nechává ho vyústit do stížnosti,
-          <i>„že svět je čím dál horší a nevidí obecně pravou víru”</i> -
-          stížnost, kterou s ním sdílejí přemítající duše jeho doby. Nakonec
-          však propukly v nezadržitelném sledu události, kvůli kterým vyhasla
-          klesající hvězda Jiřího. Klatba, která ho potkala, zachvátila také
-          jeho věrné, a celé kraje úpěly pod tíží interdiktu. Také město Cheb,
-          které svému králi zachovalo chvályhodnou věrnost, propadlo církevnímu
-          trestu. Nehledě na sympatie, které mělo k osobě krále (již{' '}
-          <b>4. září 1461</b> mu přísahalo věrnost), převážily zde rozhodně
-          politické důvody. Od roku 1315 bylo město Cheb se svou oblastí
-          zástavním majetkem české koruny. Opíraje se o svá privilegia, která mu
-          vymezila výhodné zvláštní postavení, drželo se stranou všech hnutí v
-          Čechách a skládalo přísahu a vzdávalo hold pouze korunovanému králi.
-          Vzdát hold králi, který jako Matyáš neměl korunu, by mohlo mít lehce
-          za následek nebezpečný precedens. Proto město, bez ohledu na opakovaná
-          napomenutí, odepřelo vzdorokráli hold a nechalo spíše nad sebou
-          vyhlásit interdikt. Že ani Jošt nezakolísal, je po všem, co bylo již
-          řečeno, snadno pochopitelné. Jako muž se svědomím a charakterem
-          zachoval věrnost svému králi, aniž by také jen v nejmenším porušil
-          ponižující poslušnost vůči trestající církvi. Přes jeho rty neprojde
-          ani slovo výčitky, přesto musí vytrpět všechny obtíže; neboť jako
-          katolík má za nepřátele utrakvisty a jako přívrženec exkomunikovaného
-          krále vlastní souvěrce, z jejichž společenství ho přece církev
-          vyloučila. Jeho statky jsou pustošeny, jeho poddané vesnice páleny a
-          ničeny (svou škodu vyčísluje na 300 kop grošů). Král Jiří škodu uznává
-          a a roku 1466 mu připisuje 100 kop grošů na stavbu rybníků a uděluje
-          milost, že jeho syn Jindřich nebude moci být do své smrti z Týřova
-          vyplacen. Tváří v tvář této devastaci svádí Jošt těžký boj sám se
-          sebou; neboť svědomí a víra, církevní přikázání a přísahaná věrnost
-          jsou bez přestání v konfliktu: ostrý boj, který hýbal celou dobou, se
-          odráží v prsou tohoto muže, který se s rozhodností přidržuje toho, co
-          ve své prosté duši považuje za správné a dobré. Nakonec se rozhodne
-          pro trpící poslušnost, protože mu jde o víru, kterou nechce
-          vzdorovitostí <Cit>pomoci oslabit</Cit>. Takto sdílí stejný osud se
-          spřáteleným městem Cheb, které se snaží utěšovat a posilovat v
+          <Cit>
+            das die werlt so falscher list ime mer ist, vnd nicht ansicht vnd
+            betracht den gemein rechten cristen glawben
+          </Cit>{' '}
+          (že svět je čím dál horší a nevidí obecně pravou víru) - stížnost,
+          kterou s ním sdílejí přemítající duše jeho doby. Nakonec však propukly
+          v nezadržitelném sledu události, kvůli kterým vyhasla klesající hvězda
+          Jiřího. Klatba, která ho potkala, zachvátila také jeho věrné, a celé
+          kraje úpěly pod tíží interdiktu. Také město Cheb, které svému králi
+          zachovalo chvályhodnou věrnost, propadlo církevnímu trestu. Nehledě na
+          sympatie, které mělo k osobě krále (již <b>4. září 1461</b> mu
+          přísahalo věrnost), převážily zde rozhodně politické důvody. Od roku
+          1315 bylo město Cheb se svou oblastí zástavním majetkem české koruny.
+          Opíraje se o svá privilegia, která mu vymezila výhodné zvláštní
+          postavení, drželo se stranou všech hnutí v Čechách a skládalo přísahu
+          a vzdávalo hold pouze korunovanému králi. Vzdát hold králi, který jako
+          Matyáš neměl korunu, by mohlo mít lehce za následek nebezpečný
+          precedens. Proto město, bez ohledu na opakovaná napomenutí, odepřelo
+          vzdorokráli hold a nechalo spíše nad sebou vyhlásit interdikt. Že ani
+          Jošt nezakolísal, je po všem, co bylo již řečeno, snadno pochopitelné.
+          Jako muž se svědomím a charakterem zachoval věrnost svému králi, aniž
+          by také jen v nejmenším porušil ponižující poslušnost vůči trestající
+          církvi. Přes jeho rty neprojde ani slovo výčitky, přesto musí vytrpět
+          všechny obtíže; neboť jako katolík má za nepřátele utrakvisty a jako
+          přívrženec exkomunikovaného krále vlastní souvěrce, z jejichž
+          společenství ho přece církev vyloučila. Jeho statky jsou pustošeny,
+          jeho poddané vesnice páleny a ničeny (svou škodu vyčísluje na 300 kop
+          grošů). Král Jiří škodu uznává a a roku 1466 mu připisuje 100 kop
+          grošů na stavbu rybníků a uděluje milost, že jeho syn Jindřich nebude
+          moci být do své smrti z Týřova vyplacen. Tváří v tvář této devastaci
+          svádí Jošt těžký boj sám se sebou; neboť svědomí a víra, církevní
+          přikázání a přísahaná věrnost jsou bez přestání v konfliktu: ostrý
+          boj, který hýbal celou dobou, se odráží v prsou tohoto muže, který se
+          s rozhodností přidržuje toho, co ve své prosté duši považuje za
+          správné a dobré. Nakonec se rozhodne pro trpící poslušnost, protože mu
+          jde o víru, kterou nechce vzdorovitostí{' '}
+          <Cit>nicht schwächen helfen</Cit> (pomoci oslabit). Takto sdílí stejný
+          osud se spřáteleným městem Cheb, které se snaží utěšovat a posilovat v
           poslušnosti. Teprve když vidí, že jeho protivníkům nejde ani tolik o
           víru jako spíše o kořist, chopí se meče a sjedná si klid.
           <Qt
@@ -511,7 +555,12 @@ export const JostTyrovsky = () => (
           <b>11. července 1474</b> se ještě objevuje mezi přítomnými komorního
           soudu, ale rok 1476 ho již nezastihnul mezi živými, jak stojí v dopise
           ze &nbsp;<b>17. dubna 1476</b>:
-          <Cit>Jako pánu Joštu z Einsiedle buď mu bůh milostiv</Cit>.
+          <Cit>Wie etwen herre Jobst vom Eynsidel, demegot gnade</Cit> (Jako
+          pánu Joštu z Einsiedlu buď mu bůh milostiv).
+          <Qt
+            publication={PUBLICATIONS.KURSCHNER}
+            href="https://sources.cms.flu.cas.cz/src/index.php?s=v&cat=50&bookid=488&page=12"
+          />
           <Qt publication={PUBLICATIONS.KOCKA} />
         </p>
       </Col>
