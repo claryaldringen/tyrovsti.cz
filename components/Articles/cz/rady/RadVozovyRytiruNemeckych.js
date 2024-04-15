@@ -1,6 +1,6 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
-import { Cit } from '../../Citation'
+import { Cit } from '../../../Citation'
 
 export const RadVozovyRytiruNemeckych = () => (
   <>
