@@ -13,7 +13,6 @@ const Page = () => {
   return (
     <>
       <HeadExtended
-        lang={LANG_CS}
         title="České vojenské řády a spisy"
         image="battle_of_orsha.jpg"
       />
@@ -102,5 +101,12 @@ const Page = () => {
     </>
   )
 }
+
+export const getStaticProps = () => ({
+  props: {
+    lang: LANG_CS,
+    dest: '/czech-military-orders-and-writings',
+  },
+})
 
 export default Page

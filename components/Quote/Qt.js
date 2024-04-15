@@ -11,10 +11,13 @@ import React, {
 import styles from './Qt.module.scss'
 import Link from 'next/link'
 import { useOutsideClickHandler } from '../../hooks/useOutsideClickHandler'
+import { getCity } from './utils'
+import { useLanguage } from '../Language'
 
 export const Qt = ({ publication, href, note }) => {
   const [open, setOpen] = useState(false)
   const { setPublication, usedPublications } = useContext(QuoteContext)
+  const { lang } = useLanguage()
   const ref = useRef(null)
 
   useLayoutEffect(() => {
@@ -74,15 +77,15 @@ export const Qt = ({ publication, href, note }) => {
             <Link href={_href} target="_blank">
               {publication.author ? `${publication.author}: ` : null}
               <i>{publication.name}</i>
-              {(publication.city || publication.year) && ', '}
-              {publication.city} {publication.year}
+              {(getCity(publication.city, lang) || publication.year) && ', '}
+              {getCity(publication.city, lang)} {publication.year}
             </Link>
           ) : (
             <span>
               {publication.author ? `${publication.author}: ` : null}
               <i>{publication.name}</i>
-              {(publication.city || publication.year) && ', '}
-              {publication.city} {publication.year}
+              {(getCity(publication.city, lang) || publication.year) && ', '}
+              {getCity(publication.city, lang)} {publication.year}
             </span>
           )}
           {note && <p>{note}</p>}

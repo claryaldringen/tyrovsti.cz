@@ -1,20 +1,19 @@
 import React from 'react'
 import '../styles/globals.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import { IntlProvider } from 'react-intl'
-import { useRouter } from 'next/router'
-import en from '../locales/en.json'
 import { QuoteProvider } from '../components/Quote/QuoteProvider'
+import { LanguageProvider } from '../components/Language'
+import { LANG_CS } from '../shared/constants'
 
 function MyApp({ Component, pageProps }) {
-  const { locale } = useRouter()
+  const { lang, dest, ...otherProps } = pageProps
 
   return (
-    <IntlProvider locale={locale} messages={en}>
+    <LanguageProvider lang={lang || LANG_CS} dest={dest || '/'}>
       <QuoteProvider>
-        <Component {...pageProps} />
+        <Component {...otherProps} />
       </QuoteProvider>
-    </IntlProvider>
+    </LanguageProvider>
   )
 }
 

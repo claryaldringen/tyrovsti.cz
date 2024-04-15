@@ -10,10 +10,6 @@ export const menuCs = [
     href: '/nemecke-vojenske-rady-a-spisy',
     title: 'Německé vojenské řády a spisy',
   },
-  {
-    href: '/valecne-kladivo',
-    title: 'Válečné kladivo',
-  },
 ]
 
 export const menuEn = [

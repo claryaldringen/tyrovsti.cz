@@ -7,7 +7,7 @@ import { JobstOfEinsiedl } from '../../components/Articles/en/houseOfTeyrzow/Job
 
 const Page = () => (
   <>
-    <HeadExtended lang={LANG_EN} title="Jobst of Einsiedl" image="erb.png" />
+    <HeadExtended title="Jobst of Einsiedl" image="erb.png" />
     <Container>
       <Row>
         <Col className="text">
@@ -18,5 +18,12 @@ const Page = () => (
     </Container>
   </>
 )
+
+export const getStaticProps = () => ({
+  props: {
+    lang: LANG_EN,
+    dest: '/tyrovsti-z-einsiedlu/jost-z-einsiedlu',
+  },
+})
 
 export default Page

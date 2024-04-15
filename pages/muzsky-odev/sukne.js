@@ -7,11 +7,7 @@ import { Sources } from '../../components/Quote/Sources'
 
 const Page = () => (
   <>
-    <HeadExtended
-      lang={LANG_CS}
-      title="Mužský oděv - Sukně"
-      image="kabat5.jpg"
-    />
+    <HeadExtended title="Mužský oděv - Sukně" image="kabat5.jpg" />
     <Container>
       <Row>
         <Col className="text">
@@ -22,5 +18,12 @@ const Page = () => (
     </Container>
   </>
 )
+
+export const getStaticProps = () => ({
+  props: {
+    lang: LANG_CS,
+    dest: '/mens-clothing/gown',
+  },
+})
 
 export default Page

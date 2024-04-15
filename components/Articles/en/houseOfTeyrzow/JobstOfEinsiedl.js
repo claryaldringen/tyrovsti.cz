@@ -563,6 +563,7 @@ export const JobstOfEinsiedl = () => (
             publication={PUBLICATIONS.KURSCHNER}
             href="https://sources.cms.flu.cas.cz/src/index.php?s=v&cat=50&bookid=488&page=12"
           />
+          &nbsp;
           <Qt publication={PUBLICATIONS.KOCKA} />
         </p>
       </Col>

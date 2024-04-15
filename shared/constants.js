@@ -6,7 +6,7 @@ export const PUBLICATIONS = {
     name:
       'Jobst von Einsiedel und seine Correspondenz mit der Stadt Eger. Aus dem Archive der Stadt Eger',
     author: 'Franz Kürschner',
-    city: 'Vídeň',
+    city: { cs: 'Vídeň', en: 'Vien' },
     year: 1868,
   },
   KOCKA: {
@@ -37,13 +37,13 @@ export const PUBLICATIONS = {
   SEDLACEK1: {
     name: 'Zbytky register králů římských a českých z let 1361-1480',
     author: 'August Sedláček',
-    city: 'Praha',
+    city: { cs: 'Praha', en: 'Prague' },
     year: 1914,
   },
   BOUKAL: {
     name: 'Vztahy města Cheb a české šlechty v pozdním středověku',
     author: 'Jan Boukal',
-    city: 'Praha',
+    city: { cs: 'Praha', en: 'Prague' },
     year: 2021,
     href:
       'https://dspace.cuni.cz/bitstream/handle/20.500.11956/171445/140096911.pdf',
@@ -51,7 +51,7 @@ export const PUBLICATIONS = {
   PELANT: {
     name: 'Erby české, moravské a slezské šlechty',
     author: 'Jan Pelant',
-    city: 'Praha',
+    city: { cs: 'Praha', en: 'Prague' },
     year: 2013,
   },
   FELCMAN: {
@@ -59,19 +59,19 @@ export const PUBLICATIONS = {
       'PODĚBRADOVÉ Rod českomoravských pánů, kladských hrabat a slezských knížat',
     author:
       'Ondřej Felcman, Radek Fukala, Vladimír Hrubý, Jarosław Malicki, Karel Müller, František Musil, Miroslav Plaček, Jaroslav Šůla, Martin Šandera, Marek Vařeka',
-    city: 'Praha',
+    city: { cs: 'Praha', en: 'Prague' },
     year: 2008,
   },
   MACEK: {
     name: 'Jiří z Poděbrad',
     author: 'Josef Macek',
-    city: 'Praha',
+    city: { cs: 'Praha', en: 'Prague' },
     year: 1967,
   },
   FEYFRLIKOVA: {
     name: 'Proměna stylu odívání v průběhu husitských válek',
     author: 'Monika Feyfrlíková',
-    city: 'Praha',
+    city: { cs: 'Praha', en: 'Prague' },
     year: 2017,
     href:
       'https://dspace.cuni.cz/bitstream/handle/20.500.11956/92944/DPTX_2014_2_11210_0_436502_0_166872.pdf',
@@ -87,13 +87,13 @@ export const PUBLICATIONS = {
     name:
       'Dějiny kroje v zemích českých od počátku století 15. až po dobu Bělohorské bitvy',
     author: 'Zikmund Winter',
-    city: 'Praha',
+    city: { cs: 'Praha', en: 'Prague' },
     year: 1893,
   },
   WINTER2: {
     name: 'Dějiny řemesel a obchodu v Čechách v XIV. a v XV. století',
     author: 'Zikmund Winter',
-    city: 'Praha',
+    city: { cs: 'Praha', en: 'Prague' },
     year: 1906,
   },
   PILNA: {
@@ -118,26 +118,26 @@ export const PUBLICATIONS = {
   BUBEN: {
     name: 'Encyklopedie heraldiky',
     author: 'Milan Buben',
-    city: 'Praha',
+    city: { cs: 'Praha', en: 'Prague' },
     year: 1999,
   },
   ARCHIV14: {
     name: 'Archiv český čili staré písemné památky české i moravské XIV',
     author:
       'Josef Kalousek, František Dvorský, Vácslav Vladivoj Tomek, Josef Emler',
-    city: 'Praha',
+    city: { cs: 'Praha', en: 'Prague' },
     year: 1895,
   },
   WEDGWOOD: {
     name: 'On False Etymologies',
     author: 'Hensleigh Wedgwood',
-    city: 'Londýn',
+    city: { cs: 'Londýn', en: 'London' },
     year: 1855,
   },
   ALEX: {
     name: 'Alexandreida',
     author: '',
-    city: 'Praha',
+    city: { cs: 'Praha', en: 'Prague' },
     year: 1963,
     href:
       'https://dl1.cuni.cz/pluginfile.php/1094538/mod_resource/content/1/Alexandreida%20%281963%29.pdf',
@@ -153,7 +153,7 @@ export const PUBLICATIONS = {
   GEBAUER: {
     name: 'Slovník staročeský',
     author: 'Jan Gebauer',
-    city: 'Praha',
+    city: { cs: 'Praha', en: 'Prague' },
     year: 1970,
   },
   PATALA: {
@@ -166,32 +166,32 @@ export const PUBLICATIONS = {
   DENKSTEIN3: {
     name: 'Pavézy českého typu. III. Pavézy v českých historických pramenech',
     author: 'Vladimír Denkstein',
-    city: 'Praha',
+    city: { cs: 'Praha', en: 'Prague' },
     year: 1965,
   },
   BROZEK: {
     name: 'Platnéřství',
     author: 'Petr Brožek',
-    city: 'Praha',
+    city: { cs: 'Praha', en: 'Prague' },
     year: 2021,
   },
   ACADEMIA: {
     name: 'Staročeský slovník',
     author: 'Academia',
-    city: 'Praha',
+    city: { cs: 'Praha', en: 'Prague' },
     year: 2008,
   },
   HALADA: {
     name:
       'Lexikon české šlechty II erby, fakta, osobnosti, sídla a zajímavosti',
     author: 'Jan Halada',
-    city: 'Praha',
+    city: { cs: 'Praha', en: 'Prague' },
     year: 1993,
   },
   POSPISIL: {
     name: 'Festivity v době pobytů Jiřího z Poděbrad v Chebu',
     author: 'Přemysl Pospíšil',
-    city: 'Praha',
+    city: { cs: 'Praha', en: 'Prague' },
     year: 2010,
     href:
       'http://encyklopedie.cheb.cz/administrace/soubory_varia/1526546827_cz_19__festivity_v_dobe_pobytu_jiriho_z_podebrad_v_chebu.pdf',

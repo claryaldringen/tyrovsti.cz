@@ -7,20 +7,23 @@ import { Sources } from '../../components/Quote/Sources'
 
 const Page = () => (
   <>
-    <HeadExtended
-      lang={LANG_EN}
-      title="Men's clothing - Gown"
-      image="kabat5.jpg"
-    />
+    <HeadExtended title="Men's clothing - Gown" image="kabat5.jpg" />
     <Container>
       <Row>
         <Col className="text">
           <Gown />
-          <Sources lang={LANG_EN} />
+          <Sources />
         </Col>
       </Row>
     </Container>
   </>
 )
+
+export const getStaticProps = () => ({
+  props: {
+    lang: LANG_EN,
+    dest: '/muzsky-odev/sukne',
+  },
+})
 
 export default Page

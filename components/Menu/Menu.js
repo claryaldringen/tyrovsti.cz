@@ -4,8 +4,10 @@ import Link from 'next/link'
 import Image from 'next/image'
 import styles from './Menu.module.scss'
 import { menuCs, menuEn } from '../../shared/sitemap'
-import { LANG_EN } from '../../shared/constants'
+import { LANG_CS, LANG_EN } from '../../shared/constants'
 import { useOutsideClickHandler } from '../../hooks/useOutsideClickHandler'
+import { useLanguage } from '../Language'
+import { useRouter } from 'next/router'
 
 const LINKS = [
   'https://www.rattenschwanz.cz/',
@@ -13,26 +15,30 @@ const LINKS = [
   'https://slanskarota.cz/',
 ]
 
-const LangToggler = () => (
-  <div className={styles.langToggler}>
-    <Link href="/cs">
-      <Image
-        src="/images/icons8-czech-republic-48.png"
-        width={48}
-        height={48}
-        alt="Czech language"
-      />
-    </Link>
-    <Link href="/en">
-      <Image
-        src="/images/icons8-great-britain-48.png"
-        width={48}
-        height={48}
-        alt="English language"
-      />
-    </Link>
-  </div>
-)
+const LangToggler = ({ lang, destination }) => {
+  const router = useRouter()
+
+  return (
+    <div className={styles.langToggler}>
+      <Link href={lang === LANG_CS ? router.asPath : destination}>
+        <Image
+          src="/images/icons8-czech-republic-48.png"
+          width={48}
+          height={48}
+          alt="Czech language"
+        />
+      </Link>
+      <Link href={lang === LANG_EN ? router.asPath : destination}>
+        <Image
+          src="/images/icons8-great-britain-48.png"
+          width={48}
+          height={48}
+          alt="English language"
+        />
+      </Link>
+    </div>
+  )
+}
 
 const Cs = () => (
   <>
@@ -127,7 +133,8 @@ const En = () => (
   </>
 )
 
-export const Menu = ({ lang }) => {
+export const Menu = () => {
+  const { lang, dest } = useLanguage()
   const [isOpen, setIsOpen] = useState(false)
 
   const toggleNavbar = useCallback(() => {
@@ -191,7 +198,7 @@ export const Menu = ({ lang }) => {
                   </li>
                 ))}
               </ul>
-              <LangToggler />
+              <LangToggler destination={dest} lang={lang} />
             </Col>
             <Col md={6}>{lang === LANG_EN ? <En /> : <Cs />}</Col>
           </Row>

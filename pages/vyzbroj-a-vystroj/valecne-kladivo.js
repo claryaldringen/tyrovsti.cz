@@ -1,14 +1,13 @@
 import React from 'react'
 import { Col, Container, Row } from 'reactstrap'
-import { LANG_CS } from '../shared/constants'
-import { HeadExtended } from '../components/HeadExtended'
-import { ImageWithTitle } from '../components/ImageWithTitle/ImageWithTitle'
+import { LANG_CS } from '../../shared/constants'
+import { HeadExtended } from '../../components/HeadExtended'
+import { ImageWithTitle } from '../../components/ImageWithTitle'
 
 const Page = () => {
   return (
     <>
       <HeadExtended
-        lang={LANG_CS}
         title="Válečné kladivo"
         image="145159907_2454233381550561_6076649610687634798_n.jpg"
       />
@@ -195,5 +194,12 @@ const Page = () => {
     </>
   )
 }
+
+export const getStaticProps = () => ({
+  props: {
+    lang: LANG_CS,
+    dest: '/en',
+  },
+})
 
 export default Page

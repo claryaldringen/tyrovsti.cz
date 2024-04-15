@@ -3,9 +3,12 @@ import { QuoteContext } from './QuoteProvider'
 import { Col, Row } from 'reactstrap'
 import { LANG_CS } from '../../shared/constants'
 import Link from 'next/link'
+import { useLanguage } from '../Language'
+import { getCity } from './utils'
 
-export const Sources = ({ lang = LANG_CS }) => {
+export const Sources = () => {
   const { usedPublications } = useContext(QuoteContext)
+  const { lang } = useLanguage()
 
   return (
     <Row>
@@ -25,8 +28,8 @@ export const Sources = ({ lang = LANG_CS }) => {
                     name
                   )}
                 </i>
-                {(city || year) && ', '}
-                {city} {year}
+                {(getCity(city, lang) || year) && ', '}
+                {getCity(city, lang)} {year}
               </span>
             </li>
           ))}

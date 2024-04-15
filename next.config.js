@@ -1,8 +1,4 @@
 module.exports = {
-  i18n: {
-    locales: ['cs', 'en'],
-    defaultLocale: 'cs',
-  },
   async redirects() {
     return [
       {
@@ -30,6 +26,11 @@ module.exports = {
       {
         source: '/obuv',
         destination: '/muzsky-odev#obuv',
+        permanent: true,
+      },
+      {
+        source: '/valecne-kladivo',
+        destination: '/vyzbroj-a-vystroj/valecne-kladivo',
         permanent: true,
       },
     ]

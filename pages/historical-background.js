@@ -8,11 +8,7 @@ import { LANG_EN } from '../shared/constants'
 const Page = () => {
   return (
     <>
-      <HeadExtended
-        lang={LANG_EN}
-        title="Historical background"
-        image="m921.033ra.jpg"
-      />
+      <HeadExtended title="Historical background" image="m921.033ra.jpg" />
       <Container>
         <Row>
           <Col className="text">
@@ -507,5 +503,12 @@ const Page = () => {
     </>
   )
 }
+
+export const getStaticProps = () => ({
+  props: {
+    lang: LANG_EN,
+    dest: '/historicke-pozadi',
+  },
+})
 
 export default Page

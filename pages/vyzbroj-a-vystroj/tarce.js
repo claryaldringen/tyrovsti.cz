@@ -1,17 +1,17 @@
 import React from 'react'
 import { Col, Container, Row } from 'reactstrap'
 import Link from 'next/link'
-import { HeadExtended } from '../components/HeadExtended'
-import { LANG_CS, PUBLICATIONS } from '../shared/constants'
-import { ImageWithTitle } from '../components/ImageWithTitle'
-import { Cit } from '../components/Citation'
-import { Qt } from '../components/Quote/Qt'
-import { Sources } from '../components/Quote/Sources'
+import { HeadExtended } from '../../components/HeadExtended'
+import { LANG_CS, PUBLICATIONS } from '../../shared/constants'
+import { ImageWithTitle } from '../../components/ImageWithTitle'
+import { Cit } from '../../components/Citation'
+import { Qt } from '../../components/Quote/Qt'
+import { Sources } from '../../components/Quote/Sources'
 
 const Page = () => {
   return (
     <>
-      <HeadExtended lang={LANG_CS} title="Tarče" />
+      <HeadExtended title="Tarče" />
       <Container>
         <Row>
           <Col className="text">
@@ -582,5 +582,12 @@ const Page = () => {
     </>
   )
 }
+
+export const getStaticProps = () => ({
+  props: {
+    lang: LANG_CS,
+    dest: '/weapons-and-equipment/targe',
+  },
+})
 
 export default Page

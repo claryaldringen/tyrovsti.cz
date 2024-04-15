@@ -10,11 +10,9 @@ const Page = () => {
   return (
     <>
       <HeadExtended
-        lang={LANG_EN}
         title="Czech military orders and writings"
         image="Hausbuch_Wolfegg_51v_52r1_Heerzug.jpg"
       />
-
       <Container>
         <Row>
           <Col className="text">
@@ -99,5 +97,12 @@ const Page = () => {
     </>
   )
 }
+
+export const getStaticProps = () => ({
+  props: {
+    lang: LANG_EN,
+    dest: '/ceske-vojenske-rady-a-spisy',
+  },
+})
 
 export default Page
