@@ -42,6 +42,12 @@ const Page = () => (
                 ani kdy zemřel.
                 <Qt publication={PUBLICATIONS.HALADA} note="Str. 156" />
               </p>
+              <p>
+                Příbuzenskými svazky byli spojeni s Krakovskými z Kolovrat,
+                Kokořovci z Kokořova, Malovci z Chýnova, Sporcky, s Klenovskými
+                z Janovic a dalšími českými rody.
+                <Qt publication={PUBLICATIONS.HALADA} note="Str. 156" />
+              </p>
             </Col>
             <ImageWithTitle
               md={6}

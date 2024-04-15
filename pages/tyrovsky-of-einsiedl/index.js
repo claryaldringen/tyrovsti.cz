@@ -39,6 +39,12 @@ const Page = () => (
                 know when he died.
                 <Qt publication={PUBLICATIONS.HALADA} note="Page 156" />
               </p>
+              <p>
+                They were connected by family ties with the Krakovský of
+                Kolovrat, Kokořovec of Kokořov, Malovec of Chýnov, Sporck, and
+                with Klenovský of Janovice, among other Czech families.
+                <Qt publication={PUBLICATIONS.HALADA} note="Page 156" />
+              </p>
             </Col>
             <ImageWithTitle
               md={6}
