@@ -14,6 +14,7 @@ export const menuCs = [
 
 export const menuEn = [
   { href: '/historical-background', title: 'Historical background' },
+  { href: '/tyrovsky-of-einsiedl', title: 'Týřovský of Einsiedl' },
   {
     href: '/czech-military-orders-and-writings',
     title: 'Czech military orders and writings',

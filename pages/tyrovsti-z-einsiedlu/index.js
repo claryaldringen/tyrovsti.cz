@@ -6,7 +6,7 @@ import { JostTyrovsky } from '../../components/Articles/cz/tyrovsti/JostTyrovsky
 import { Sources } from '../../components/Quote/Sources'
 import { Erb } from '../../components/Articles/cz/tyrovsti/Erb'
 import { ImageWithTitle } from '../../components/ImageWithTitle'
-import { PUBLICATIONS } from '../../shared/constants'
+import { LANG_CS, PUBLICATIONS } from '../../shared/constants'
 import { Qt } from '../../components/Quote/Qt'
 import { Rozrod } from '../../components/Articles/cz/tyrovsti/Rozrod'
 
@@ -63,5 +63,11 @@ const Page = () => (
   </>
 )
 
+export const getStaticProps = () => ({
+  props: {
+    lang: LANG_CS,
+    dest: '/tyrovsky-of-einsiedl',
+  },
+})
+
 export default Page
-7403
