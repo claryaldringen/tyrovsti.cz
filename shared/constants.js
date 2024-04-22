@@ -121,6 +121,12 @@ export const PUBLICATIONS = {
     city: { cs: 'Praha', en: 'Prague' },
     year: 1999,
   },
+  ARCHIV8: {
+    name: 'Archiv český čili staré písemné památky české i moravské VIII',
+    author: 'Josef Kalousek, Královská česká společnost nauk',
+    city: { cs: 'Praha', en: 'Prague' },
+    year: 1888,
+  },
   ARCHIV14: {
     name: 'Archiv český čili staré písemné památky české i moravské XIV',
     author:

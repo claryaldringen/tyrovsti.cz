@@ -2,6 +2,7 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
+import { Cit } from '../../../Citation'
 
 export const Zbroj = () => (
   <>
@@ -127,7 +128,45 @@ export const Zbroj = () => (
           , zvaných <i>plechowicze</i> (v listině z roku 1447).
           <Qt publication={PUBLICATIONS.ACADEMIA} />
         </p>
-        <p></p>
+      </Col>
+    </Row>
+    <Row>
+      <Col>
+        <h4>Ochrana hlavy a krku</h4>
+        <p>
+          Na krk nasazoval ozbrojenec zpravidla kroužkový límec zvaný{' '}
+          <i>obojček</i> či <i>oboječek</i>.
+          <Qt
+            publication={PUBLICATIONS.ARCHIV8}
+            href="https://www.ndk.cz/view/uuid:264e7b10-8dd8-11e8-9588-5ef3fc9bb22f?page=uuid:dc8ba9a0-9b8b-11e8-a1e1-005056827e51&fulltext=obojček"
+          />
+          Obvykle pak násleovala textilní kápě, na konci 15. století obvykle
+          opatřená střapci, přes kterou se nasazovala přilba. Z přileb převažuje
+          v českých zemích jednoznačně železný klobouk, dobově zvaný{' '}
+          <i>kapalín</i> a z něho odvozený šalíř, česky dobově zvaný <i>leb</i>{' '}
+          či <i>lebka</i>. Pro přilbu se ještě používal výraz <i>peklhaub</i>,{' '}
+          <i>peklhúbl</i> či <i>piklhaub</i>, což byla zkomolenina z{' '}
+          <i>beckenhaube</i>, německého označení přilby typu{' '}
+          <i>šlap (bascinet)</i>, ovšem po svém počeštění se tento výraz
+          používal pro jakoukoliv kovovou přilbu. Protože klobouk ani šalíř
+          nechránil spodní část obličeje, mohl být doplněn o plátové podbradí,
+          dobově zvané <i>bart</i> nebo <i>barth</i>.{' '}
+          <Qt
+            publication={PUBLICATIONS.ARCHIV8}
+            href="https://www.ndk.cz/view/uuid:264e7b10-8dd8-11e8-9588-5ef3fc9bb22f?page=uuid:dc8ba9a0-9b8b-11e8-a1e1-005056827e51&fulltext=barth"
+          />
+        </p>
+      </Col>
+    </Row>
+    <Row>
+      <Col>
+        <h4>Ochrana trupu</h4>
+        <p>
+          Ochranu trupu zajišťoval přední a zadní plech, které dohromady tvořily
+          kyrys. V Čechách se přední plech nazýval <i>prustplech</i> nebo{' '}
+          <i>prusplech</i> z německého <i>brustblech</i>, doslova{' '}
+          <Cit>plech na prsa</Cit>.
+        </p>
       </Col>
     </Row>
   </>
