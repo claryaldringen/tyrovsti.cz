@@ -57,7 +57,7 @@ export const Estok = () => (
         src="estoc15.jpg"
         width={960}
         height={1200}
-        title="Končíř s jednoručním úchopem z Metropolitního muzea v New Yourku, konec 16. století."
+        title="Končíř s jednoručním úchopem z Metropolitního muzea v New Yorku, konec 16. století."
       />
       <ImageWithTitle
         md={3}
