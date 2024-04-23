@@ -9,11 +9,78 @@ export const Zbroj = () => (
     <Row>
       <Col>
         <div className="anchor" id="uvod" />
-        <h4>Zbroj</h4>
+        <h3>Zbroj</h3>
       </Col>
     </Row>
     <Row>
       <Col>
+        <h4>Vývoj zbroje</h4>
+        <p>
+          Nejstarší doklady zbrojí našich předků přináší vedle sporých
+          archeologických nálezů tradičně písemné prameny. Zmínky o zbrojích
+          můžeme najít např. v arabských pramenech – Ibn Rusta uvádí o knížeti
+          Svatoplukovi, že: <Cit>Má dobrá, pevná, drahocenná brnění</Cit>.
+          Fuldské anály popisují jak roku 849 při německém vpádu stahovali Češi
+          zbroje poraženým Němcům{' '}
+          <Cit>
+            …Nepřátelé totiž nabyvše převahy, vraždíce pronásledovali je až do
+            tábora a stahujíce před jejich očima bezstarostně zbroj ze zabitých,
+            naplnili je takovým strachem, že úplně ztratili naději na uniknutí…
+          </Cit>
+          . Roku 936 pak pro změnu popisuje Widukind jak stahovali Němci zbroje
+          padlým Čechům. Což dobře dokumentuje jeden z oblíbených způsobů
+          nabývání výstroje a výzbroje. V Kristiánově legendě z 10. století se
+          hovoří o zbrojích v souvislosti s připravovanou vzpourou proti knížeti
+          Bořivojovi – jeho protivníci se dostavili na sněm oděni{' '}
+          <Cit>v krunýře pod šatem</Cit> ovšem stejně tak i jeho lidé. Zbroje
+          zmiňuje i Kosmas v 11. století nebo Mnich Sázavský ve 12. století.
+          Kanovník Vyšehradský popisuje jak v bitvě u Chlumce roku 1126 knížecí
+          kaplan Vít <Cit>oděn jsa v brnění a přilbu jako Achilles…</Cit> dělal
+          korouhevníka českému vojsku. Zbroje zmiňují Vincencius a další autoři
+          z 12. století. Z uvedených pramenů a zpráv je celkem zřejmé všeobecné
+          rozšíření kvalitní výzbroje a výstroje přinejmenším v prostředí
+          profesionálních válečníků knížecích družin.
+          <Qt
+            publication={PUBLICATIONS.TOMIC}
+            href="https://curiavitkov.cz/2004/07/20/cas-valky-vystroj-zbroje/"
+          />
+        </p>
+        <p>
+          Tyto nejstarší zbroje byly nejčastěji kroužkové, (tzv. brněné, brň),
+          předpokládají se však i zbroje šupinové, lamelové a falérové (kroužky
+          našité na nějakém podkladu). Od konce 12. století se však užívá již
+          jen výhradně kroužková zbroj. Její princip – vzájemně zřetězené
+          kroužky – byl znám již starým Keltům, od nich jej převzali Římané a
+          jako kořist se dostala často i daleko za hranice impéria (např. do
+          Dánska odkud je nález zbroje z Vimosy datovaný do 2.-3. st. n. l.). Po
+          pádu Říma byla technologie výroby těchto zbrojí na západě prakticky
+          zapomenuta a přežívala jen v Byzanci a okruhu byzantského vlivu,
+          následně i v arabském světě. Díky obchodním stykům nebo jako válečná
+          kořist se později dostává do Skandinávie, Franské říše, Británie i k
+          nám. Po importu hotových zbrojí následovala pak postupně i sama
+          brnířská technologie.{' '}
+          <Qt
+            publication={PUBLICATIONS.TOMIC}
+            href="https://curiavitkov.cz/2004/07/20/cas-valky-vystroj-zbroje/"
+          />
+        </p>
+        <p>
+          V této době byly jedinou platnéřskou prací přilby. Nejstarší kónické
+          přilby byly snýtovány ze čtyř a později ze dvou kusů. V 9. století se
+          objevují kónické přilby vykované z jednoho kusu, což bylo náročnější
+          na technologii, protože na takovou přilbu byl potřeba větší celistvý
+          kus plechu. Obecně byli platnéři v historii omezeni ponejvíce rozměrem
+          výchozího plechového materiálu. Nejznámější takvou přilbou je tzv.{' '}
+          <i>Svatováclavská přilba</i>.{' '}
+          <Qt
+            publication={PUBLICATIONS.TOMIC}
+            href="https://curiavitkov.cz/2004/12/19/cas-valky-vystroj-prilby/"
+          />
+        </p>
+        <p>
+          V průběhu 13. století dochází k zakrývání kloubů anatomicky
+          tvarovanými pláty kovu.
+        </p>
         <p>
           V průběhu 15. století krytí všech částí těla anatomickými Přilby pláty
           u těžkooděnců definitivně převážilo nad kroužkovým pletivem

@@ -202,4 +202,33 @@ export const PUBLICATIONS = {
     href:
       'http://encyklopedie.cheb.cz/administrace/soubory_varia/1526546827_cz_19__festivity_v_dobe_pobytu_jiriho_z_podebrad_v_chebu.pdf',
   },
+  TOMIC: {
+    name: 'curiavitkov.cz',
+    author: 'Ladislav Tomič',
+    city: '',
+    year: 2004,
+    href: 'https://curiavitkov.cz/',
+  },
+  TALAGA: {
+    name: `A Kampfschwert from the 15th century a reinterpretation of the so called 'Teutonic estoc' from the Princes Czartoryski Collection in Cracow, Poland`,
+    author: 'Maciej Talaga',
+    city: { cs: 'Varšava', en: 'Warsaw' },
+    year: 2013,
+    href:
+      "https://www.researchgate.net/publication/290777603_A_Kampfschwert_from_the_15th_century_-_a_reinterpretation_of_the_so_called_'Teutonic_estoc'_from_the_Princes_Czartoryski_Collection_in_Cracow_Poland",
+  },
+  RA: {
+    name: 'royalarmouries.org',
+    author: '',
+    city: { cs: 'Londýn', en: 'London' },
+    year: undefined,
+    href: 'https://royalarmouries.org/',
+  },
+  WIKI: {
+    name: 'wikipedia.org',
+    author: '',
+    city: '',
+    year: undefined,
+    href: 'https://www.wikipedia.org/',
+  },
 }
