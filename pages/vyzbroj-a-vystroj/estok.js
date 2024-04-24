@@ -6,7 +6,7 @@ import { Estok } from '../../components/Articles/cz/zbroj/Estok'
 
 const Page = () => (
   <>
-    <HeadExtended title="Výzbroj a výstroj - Estok" image="estoc1.png" />
+    <HeadExtended title="Výzbroj a výstroj - Estok" image="estoc0.jpg" />
     <Container>
       <Row>
         <Col className="text">

@@ -586,7 +586,7 @@ const Page = () => {
 export const getStaticProps = () => ({
   props: {
     lang: LANG_CS,
-    dest: '/weapons-and-equipment/targe',
+    dest: '/arms-and-armour/targe',
   },
 })
 
