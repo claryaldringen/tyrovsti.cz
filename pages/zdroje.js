@@ -34,6 +34,30 @@ const Page = () => {
                   </li>
                   <li>
                     <a
+                      href="https://cs.wikipedia.org/wiki/Svatoji%C5%99sk%C3%BD_olt%C3%A1%C5%99"
+                      target="_blank"
+                    >
+                      Svatojiřský oltář
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://cs.wikipedia.org/wiki/Puchnerova_archa"
+                      target="_blank"
+                    >
+                      Puchnerova archa
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://cs.wikipedia.org/wiki/Olt%C3%A1%C5%99n%C3%AD_k%C5%99%C3%ADdla_z_Roudn%C3%ADk"
+                      target="_blank"
+                    >
+                      Oltářní křídla z Roudník
+                    </a>
+                  </li>
+                  <li>
+                    <a
                       href="https://www.manuscriptorium.com/apps/index.php?direct=record&pid=AIPDIG-MJ____S_2746______1PETHXE-cs"
                       target="_blank"
                     >
