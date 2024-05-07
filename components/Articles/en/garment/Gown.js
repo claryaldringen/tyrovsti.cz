@@ -1,8 +1,8 @@
 import { Col, Row } from 'reactstrap'
-import { Cit } from '../../Citation'
-import { PUBLICATIONS } from '../../../shared/constants'
-import { Qt } from '../../Quote/Qt'
-import { ImageWithTitle } from '../../ImageWithTitle'
+import { Cit } from '../../../Citation'
+import { PUBLICATIONS } from '../../../../shared/constants'
+import { Qt } from '../../../Quote/Qt'
+import { ImageWithTitle } from '../../../ImageWithTitle'
 
 export const Gown = () => (
   <>

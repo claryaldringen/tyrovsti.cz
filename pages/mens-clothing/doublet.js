@@ -1,21 +1,17 @@
 import { HeadExtended } from '../../components/HeadExtended'
-import { LANG_CS } from '../../shared/constants'
+import { LANG_EN } from '../../shared/constants'
 import React from 'react'
 import { Col, Container, Row } from 'reactstrap'
 import { Sources } from '../../components/Quote/Sources'
-import { Kabat } from '../../components/Articles/cz/odev/Kabat'
+import { Doublet } from '../../components/Articles/en/garment/Doublet'
 
 const Page = () => (
   <>
-    <HeadExtended
-      lang={LANG_CS}
-      title="Mužský oděv - Kabát"
-      image="kabat2.jpg"
-    />
+    <HeadExtended title="Men's clothing - Doublet" image="kabat2.jpg" />
     <Container>
       <Row>
         <Col className="text">
-          <Kabat />
+          <Doublet />
           <Sources />
         </Col>
       </Row>
@@ -25,8 +21,8 @@ const Page = () => (
 
 export const getStaticProps = () => ({
   props: {
-    lang: LANG_CS,
-    dest: '/mens-clothing/doublet',
+    lang: LANG_EN,
+    dest: '/muzsky-odev/kabat',
   },
 })
 

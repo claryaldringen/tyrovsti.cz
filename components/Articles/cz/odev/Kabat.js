@@ -84,7 +84,7 @@ export const Kabat = () => (
         src="kabat2.jpg"
         width={500}
         height={500}
-        title="Pregéř, který je při práci svlečen pouze do nohavic a kabátu. Druhý pregéř na stejné fresce má přes kabát oblečenou sukni typu vestina. Výřez z fresky v Mincířské kapli katedrály sv. Barbory v Kutné Hoře(1460-1470)."
+        title="Pregéř, který je při práci svlečen pouze do nohavic a kabátu. Druhý pregéř na stejné fresce má přes kabát oblečenou sukni typu vestina. Výřez z fresky v Mincířské kapli katedrály sv. Barbory v Kutné Hoře (1460-1470)."
       />
       <ImageWithTitle
         md={4}
@@ -225,7 +225,7 @@ export const Kabat = () => (
       <Col>
         <p>
           Do konstrukce kabátů dávají nahlédnout některé artikuly novoměstského
-          kabátnického cechu, které byly potvrzeny 16. srpna 1448:
+          kabátnického cechu, které byly potvrzeny <b>16. srpna 1448</b>:
         </p>
         <p>
           <Cit>
