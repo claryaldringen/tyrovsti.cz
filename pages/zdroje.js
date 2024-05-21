@@ -146,6 +146,109 @@ const Page = () => {
                 </ul>
               </Col>
             </Row>
+            <Row>
+              <Col>
+                <h3>Zbroje</h3>
+                <ul>
+                  <li>
+                    <a
+                      href="https://www.esbirky.cz/predmet/4570704"
+                      target="_blank"
+                    >
+                      Pavéza s Davidem a Goliášem, pol. 15. stol.
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.esbirky.cz/predmet/6174123"
+                      target="_blank"
+                    >
+                      Pavéza se sv. Jiřím, po pol. 15. stol.
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.esbirky.cz/predmet/30448024"
+                      target="_blank"
+                    >
+                      Oltář z Jeníkova, okolo 1460
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.esbirky.cz/predmet/3511007"
+                      target="_blank"
+                    >
+                      Pavéza se sv. Václavem, 1470 - 1480
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.esbirky.cz/predmet/10078847"
+                      target="_blank"
+                    >
+                      Plastika sv. Jiří, 70.-80. léta 15. stol.
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.esbirky.cz/predmet/10078861"
+                      target="_blank"
+                    >
+                      Plastika sv. Michala, 70.-80. léta 15. stol.
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.esbirky.cz/predmet/19629807"
+                      target="_blank"
+                    >
+                      Epitaf s výjevem Ukřižování, 1480 - 1490
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.esbirky.cz/predmet/6174106"
+                      target="_blank"
+                    >
+                      Pavéza se sv. Jiřím, po r. 1480
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.esbirky.cz/predmet/125421"
+                      target="_blank"
+                    >
+                      Epitaf Jiříka ze Sudoměře, 1495
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.esbirky.cz/predmet/7507557"
+                      target="_blank"
+                    >
+                      Šalíř, konec 15. stol.
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.esbirky.cz/predmet/7507941"
+                      target="_blank"
+                    >
+                      Kolčí helm, konec 15. stol.
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.esbirky.cz/predmet/7592512"
+                      target="_blank"
+                    >
+                      Oboustranný deskový obraz Zajetí Krista, kolem 1500
+                    </a>
+                  </li>
+                </ul>
+              </Col>
+            </Row>
           </Col>
         </Row>
       </Container>

@@ -91,7 +91,7 @@ export const SpodniOdev = () => (
         width={640}
         height={480}
         title="Lazar v košili s rozparkem po celé délce na výřezu z Jenského kodexu
-        (1490-1510) (1430-1492)"
+        (1490-1510)"
       />
     </Row>
     <Row>
