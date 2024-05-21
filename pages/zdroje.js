@@ -246,6 +246,14 @@ const Page = () => {
                       Oboustranný deskový obraz Zajetí Krista, kolem 1500
                     </a>
                   </li>
+                  <li>
+                    <a
+                      href="https://www.esbirky.cz/predmet/3510952"
+                      target="_blank"
+                    >
+                      Epitaf Půty Švihovského z Rýzmberka, 1504
+                    </a>
+                  </li>
                 </ul>
               </Col>
             </Row>
