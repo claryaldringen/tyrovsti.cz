@@ -16,7 +16,7 @@ export const HodetinuvRad = () => (
         </p>
         <p>
           Datace a autorství toho to díla je obtížná. V úvodu řádu je sice
-          uvedeno vročení 1431 a jako autor je uveden Jan Háje z Hodětína,
+          uvedeno vročení 1431 a jako autor je uveden Jan Hájek z Hodětína,
           podkomoří krále Václava IV., ale vznik tohoto řádu v roce 1413
           zpochybňoval již Palacký a Toman. Jan Durdík se přikláněl k názoru, že
           původní text vznikl v tomto roce, ale nám se do dnešních dnů dochovala

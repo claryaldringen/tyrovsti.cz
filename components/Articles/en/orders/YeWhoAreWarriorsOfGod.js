@@ -1,6 +1,6 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
-import { ImageWithTitle } from '../../ImageWithTitle/ImageWithTitle'
+import { ImageWithTitle } from '../../../ImageWithTitle'
 
 export const YeWhoAreWarriorsOfGod = () => (
   <>

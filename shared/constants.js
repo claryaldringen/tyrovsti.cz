@@ -76,6 +76,12 @@ export const PUBLICATIONS = {
     href:
       'https://dspace.cuni.cz/bitstream/handle/20.500.11956/92944/DPTX_2014_2_11210_0_436502_0_166872.pdf',
   },
+  FEYFRLIKOVA2: {
+    name: 'Móda a odívání v husitské době',
+    author: 'Monika Feyfrlíková Černá',
+    city: { cs: 'Praha', en: 'Prague' },
+    year: 2020,
+  },
   GOUBITZ: {
     name:
       'Stepping Through Time: Archaeological Footwear from Prehistoric Times until 1800',

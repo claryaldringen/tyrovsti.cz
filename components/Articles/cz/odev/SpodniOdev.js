@@ -29,7 +29,7 @@ export const SpodniOdev = () => (
     </Row>
     <Row>
       <Col>
-        <h4>Košile</h4>
+        <h4>Mužská košile</h4>
         <p>
           Košile, <i>rubáš</i> či <i>rubáč</i>, byla základním kusem mužského
           spodního prádla. Košile byly jednoduchého střihu, připomínajícího
@@ -66,6 +66,21 @@ export const SpodniOdev = () => (
             href="https://kramerius5.nkp.cz/view/uuid:4405cb90-ee14-11dd-bfdc-000d606f5dc6?page=uuid:7212e020-fe2a-11e6-97b4-5ef3fc9ae867"
           />
         </p>
+        <p>
+          Spodní prádlo bylo většinou bílé či v přírodní barvě materiálu, ale
+          pokud již máme doložené barevné spodní prádlo, z nějakého důvodu se
+          nejčastěji jedná o modré. Pro košile tak máme doloženo jak písemně ze
+          Starých letopisů českých, kde se uvádí, že v bitvě na Vyšehradě{' '}
+          <i>
+            &bdquo;čeští a moravští páni byli zbiti a všeho odění a rúcha až do
+            modré košile obnaženi&ldquo;
+          </i>
+          , tak ikonograficky v miniaturách Života sv. Františka z roku 1500.
+          <Qt
+            publication={PUBLICATIONS.WINTER}
+            href="https://kramerius5.nkp.cz/view/uuid:4405cb90-ee14-11dd-bfdc-000d606f5dc6?page=uuid:71b15f30-fe2a-11e6-97b4-5ef3fc9ae867"
+          />
+        </p>
       </Col>
     </Row>
     <Row>
@@ -92,6 +107,54 @@ export const SpodniOdev = () => (
         height={480}
         title="Lazar v košili s rozparkem po celé délce na výřezu z Jenského kodexu
         (1490-1510)"
+      />
+    </Row>
+    <Row>
+      <Col>
+        <h4>Ženská košilka</h4>
+        <p>
+          Ve srovnání s mužskými kusy spodního oděvu je dokladů o jeho podobě u
+          žen podstatně méně. Ženy nosily pod svrchní šaty jednoduché dlouhé
+          košilky na ramínka. Setkáváme se s nimi nejčastěji na iluminacích
+          zobrazujících lazebnice, které je dokonce nosily jako pracovní oděv a
+          vyobrazeny v nich jsou také pracující ženy. Dále je nalezneme také na
+          intimních scénách zobrazujících interiéry ložnice. Jeden z nejstarších
+          archeologických nálezů ženské košilky je ze 14. století z hradu Ranis
+          v Německu.
+          <Qt publication={PUBLICATIONS.FEYFRLIKOVA} />
+          Tato košilka je ušita ze dvou dílů, předního a zadního. Dalším typem
+          je košilka, která se skládá ze tří dílů. První dva tvoří v podstatě
+          přední a zadní díl živůtku, třetí je na ně v pase vsazen tak, že tvoří
+          skládanou sukni. Na boku pak míval tento typ košilky šněrování pro
+          lepší vypasování,
+          <Qt publication={PUBLICATIONS.FEYFRLIKOVA} /> později mohl být střih
+          živůtku rozšířen o košíčky na prsa, jak je patrné ze 4 nálezů z hradu
+          Lengberg ve východním Tyrolsku, jež jsou datovány do 80. let 15.
+          století.
+        </p>
+      </Col>
+    </Row>
+    <Row>
+      <ImageWithTitle
+        md={4}
+        src="lazebnice.jpg"
+        width={764}
+        height={1200}
+        title="Lazebnice v košilkách, Jenský kodex, 1490 - 1510."
+      />
+      <ImageWithTitle
+        md={4}
+        src="Die_Hefneryn.jpg"
+        width={327}
+        height={460}
+        title="Česká hrnčířka v košilce při práci, hrací karta z karetní sady Hofämterspiel, kterou si bojednal Ladislav Pohrobek. 50. léta 15. století."
+      />
+      <ImageWithTitle
+        md={4}
+        src="lengbergshirt.jpg"
+        width={564}
+        height={743}
+        title="Nález košilky z hradu Lengberg ve východním Tyrolsku s košíčky na prsa. 70. až 80. léta 15. století"
       />
     </Row>
     <Row>
@@ -126,7 +189,18 @@ export const SpodniOdev = () => (
           <Cit>
             Učiníš i rúčce lněné, aby přikryly mrzkosti tvé od ledví až po bedr.
           </Cit>
-          <Qt publication={PUBLICATIONS.FEYFRLIKOVA} />
+          <Qt publication={PUBLICATIONS.FEYFRLIKOVA} />U nejjednodušších z nich
+          se střihově jednalo o více či méně tvarovaný pruh látky, který
+          procházel mezi nohama a na bocích byl přidržován šňůrkou, která se na
+          jednom či na obou bocích svazovala. Takové známe kromě nejrůznějších
+          dobových vyobrazení i z archeologických nálezů na hradě Lengberg ve
+          východním Tyrolsku. Další variantou mohl být střih, kde šňůrku na
+          bocích nahrazoval tunýlek se šňůrkou, jejíž konce byly vyvedeny
+          vpředu. Po stažení a zavázání se v přední části spodků vytvořila
+          jakási kapsa na genitál. I když starší hace (s nohavičkami) nalézáme
+          ve vyobrazeních pouze bílé, u spodků slipového střihu můžeme nalézt i
+          modrá či dokonce černá vyobrazení.
+          <Qt publication={PUBLICATIONS.PILNA} note="Str. 26" />
         </p>
       </Col>
     </Row>
@@ -135,7 +209,7 @@ export const SpodniOdev = () => (
         src="spodky-dlouhe.jpg"
         width={556}
         height={784}
-        title="Spodky ještě s krátkými nohavičkami, Brněnská právní kniha Václava z Jihlavy, 1446."
+        title="Hace (ještě s krátkými nohavičkami), Brněnská právní kniha Václava z Jihlavy, 1446."
       />
       <ImageWithTitle
         md={6}
@@ -148,29 +222,53 @@ export const SpodniOdev = () => (
         src="svroch-detail.jpg"
         width={489}
         height={488}
-        title="Na obraze sv. Rocha z roku 1480 italské provenience je vidět, že spodky slipového střihu byly prakticky stejné v celé tehdejší Evropě."
+        title="Na obraze sv. Rocha z roku 1480 italské provenience je vidět, že spodky slipového střihu byly prakticky stejné v celé tehdejší Evropě. V tomto případě se jedná o druhý typ s tkanicí zavazovanou uprostřed."
         href="svroch.jpeg"
+      />
+    </Row>
+    <Row>
+      <ImageWithTitle
+        md={6}
+        src="lengberg_underpants.gif"
+        width={709}
+        height={543}
+        title="Spodky z hradu Lengberg ve východním Tyrolsku, které jsou datovány do 80. let 15. století."
+      />
+      <ImageWithTitle
+        md={6}
+        src="boj_o_kalhoty.jpg"
+        width={1920}
+        height={1375}
+        title={
+          <>
+            Různé typy spodků na rytině <Cit>Boj o kalhoty</Cit> od Monogramisty
+            E.S., Německo, 1440 - 1467
+          </>
+        }
       />
     </Row>
     <Row>
       <Col>
         <p>
-          Spodní prádlo bylo většinou bílé či v přírodní barvě materiálu, ale
-          pokud již máme doložené barevné spodní prádlo, z nějakého důvodu se
-          jedná o modré. Pro košile tak máme doloženo jak písemně ze Starých
-          letopisů českých, kde se uvádí, že v bitvě na Vyšehradě{' '}
-          <i>
-            &bdquo;čeští a moravští páni byli zbiti a všeho odění a rúcha až do
-            modré košile obnaženi&ldquo;
-          </i>
-          , tak ikonograficky v miniaturách Života sv. Františka z roku 1500.
-          <Qt
-            publication={PUBLICATIONS.WINTER}
-            href="https://kramerius5.nkp.cz/view/uuid:4405cb90-ee14-11dd-bfdc-000d606f5dc6?page=uuid:71b15f30-fe2a-11e6-97b4-5ef3fc9ae867"
-          />
-          Modré spodky jsou pak doloženy ikonograficky např. v Jenském kodexu
-          (1490 - 1510).
+          Zatímco u muže v 15. století se považovalo za hrubou urážku měl-li{' '}
+          <Cit>bez hacz choditi</Cit>
+          <Qt publication={PUBLICATIONS.PILNA} note="Str. 27" />, o tom, zda
+          spodky (<i>femoralia</i>) nosily i ženy, panuje v současnosti živá
+          diskuze, kterou rozpoutal zmiňovaný nález textilií na hradě Lengberg.
+          Není totiž možné zcela jasně prokázat, že výše zmíněné a zobrazené
+          spodky patřily muži nebo ženě. Zajímavý je však fakt, že je máme pro
+          české prostředí názvově doloženy k roku 1455 v{' '}
+          <i>Klementinském slovníku</i>, a to jako jejich ženskou variantu{' '}
+          <i>feminale</i>.
+          <Qt publication={PUBLICATIONS.FEYFRLIKOVA2} note="Str. 69" />
+          Pro italské prostředí máme spodky u žen bezpečně doložené k přelomu
+          16. a 17. století.
+          <Qt publication={PUBLICATIONS.PILNA} note="Str. 28" />
         </p>
+      </Col>
+    </Row>
+    <Row>
+      <Col>
         <p>
           Spodky i košile byly považovány za intimní oděv, který se neslušelo
           ukazovat na veřejnosti. K postupnému odhalování košile začalo docházet

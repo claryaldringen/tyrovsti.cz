@@ -1,10 +1,13 @@
 import React from 'react'
 import { Col, Container, Row } from 'reactstrap'
-import { VaclavVlcekOfCenovHandbook } from '../components/Articles/en/VaclavVlcekOfCenovHandbook'
-import { YeWhoAreWarriorsOfGod } from '../components/Articles/en/YeWhoAreWarriorsOfGod'
-import { TheBohemianDietsProtocol } from '../components/Articles/en/TheBohemianDietsProtocol'
+import { VaclavVlcekOfCenovHandbook } from '../components/Articles/en/orders/VaclavVlcekOfCenovHandbook'
+import { YeWhoAreWarriorsOfGod } from '../components/Articles/en/orders/YeWhoAreWarriorsOfGod'
+import { TheBohemianDietsProtocol } from '../components/Articles/en/orders/TheBohemianDietsProtocol'
 import { HeadExtended } from '../components/HeadExtended'
 import { LANG_EN } from '../shared/constants'
+import { HodetinsOrder } from '../components/Articles/en/orders/HodetinsOrder'
+import { ZizkasOrder } from '../components/Articles/en/orders/ZizkasOrder'
+import { ZizkasMilitaryCampaignToHungary } from '../components/Articles/en/orders/ZizkasMilitaryCampaignToHungary'
 
 const Page = () => {
   return (
@@ -27,7 +30,7 @@ const Page = () => {
                   organisational matters. Relatively few of them survive from
                   before the 15th century. Among the best known is the{' '}
                   <i>Military Order of Frederick I Barbarossa</i> from 1158. The
-                  oldest military order of the Swiss is the so-called
+                  oldest military order of the Swiss is the so-called{' '}
                   <i>Sempacherbrief</i>, which was written in Zurich in 1393.
                   These two orders became the basis and model for most later
                   writings of this nature in the German areas. Leaving aside the
@@ -65,7 +68,10 @@ const Page = () => {
               </Col>
             </Row>
             <YeWhoAreWarriorsOfGod />
+            <ZizkasOrder />
+            <HodetinsOrder />
             <TheBohemianDietsProtocol />
+            <ZizkasMilitaryCampaignToHungary />
             <VaclavVlcekOfCenovHandbook />
             <Row>
               <Col>
