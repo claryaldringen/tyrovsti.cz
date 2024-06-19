@@ -62,12 +62,12 @@ const Page = () => {
                   organizovaní a také vybavení - všichni měli ochranu hlavy a
                   většina z nich byla vybavena kroužkovou zbrojí. V rukou
                   třímali kopí a godendagy - specifickou vlámskou zbraň. Obě
-                  vojska se setkala 11. června 1302 u Kortrijku (Courtrai).
-                  Okolí Kortrijku bylo bažinaté a navíc protkané četnými kanály
-                  a příkopy, které tam Vlámové vyhloubili než se sešlo
-                  francouzské vojsko. Vlámské vojsko se rozestavilo do značně
-                  hlubokých liniových formací a vyplnilo zhruba čtvercový
-                  prostor, jehož týl byl krytý zákrutem řeky Leie a čelo a boj
+                  vojska se setkala <b>11. června 1302</b> u Kortrijku
+                  (Courtrai). Okolí Kortrijku bylo bažinaté a navíc protkané
+                  četnými kanály a příkopy, které tam Vlámové vyhloubili než se
+                  sešlo francouzské vojsko. Vlámské vojsko se rozestavilo do
+                  značně hlubokých liniových formací a vyplnilo zhruba čtvercový
+                  prostor, jehož týl byl krytý zákrutem řeky Leie a čelo a bok
                   kryty menšími říčkami a kanály. Francouzi vyslali pěšáky, aby
                   se pokusili příkopy zasypat a umožnit tak útok francouzské
                   jízdě, ti ale byli zahnáni vlámskými střelci z kuší. Na
@@ -79,7 +79,7 @@ const Page = () => {
                   bojovat na březích potoků a kanálů s vlámským nepřítelem a
                   obával se, že by takový boj znemožnil nástup jeho těžké jízdy.
                   Proto pěšáky odvolal aby uvolnili cestu 2300 těžkooděných
-                  jezdců uspořádaných do dvou formací. I přesto jich bylo koňmi
+                  jezdců uspořádaných do dvou formací. I tak jich bylo koňmi
                   několik ušlapáno. I přes potíže se francouské jízdě nakonec
                   povedlo vodní toky překonat, před vlámskými formacemi se znovu
                   zformovali a vyrazili do útoku. Většině jezdců se však
@@ -252,8 +252,8 @@ const Page = () => {
                 </p>
                 <p>
                   Pod kopec se přesunuly čerstvé francouzské síly a zopakovaly
-                  útok, měl stejné problémy, jako ten předchozí a navíc byl
-                  ztížen tím, že trén byl již posetý mrtvolami mužů a koní.
+                  útok, který měl stejné problémy, jako ten předchozí a navíc
+                  byl ztížen tím, že terén byl již posetý mrtvolami mužů a koní.
                   Přesto se Francouzi dostali k anglickým pozicím a rozpoutal se
                   boj zblízka. Král Eduard dokonce musel vyslat oddíl záloh aby
                   situaci zachránil. Francouzské útoky pokračovaly se stejnými
@@ -422,7 +422,7 @@ const Page = () => {
                   královským městům nařizuje uchovávat stanovený počet výzbroje,
                   přičemž část této výzbroje pocházela od panovníka a , zatímco
                   zbytek měla města dokoupit na vlastní náklady. Zbroj, kterou
-                  král pořídil v Norimberku a Sulsbachu, byla dovezena do Čech a
+                  král pořídil v Norimberku a Sulzbachu, byla dovezena do Čech a
                   následně v byla průběhu roku 1362 a 1363 rozvezena do
                   královských měst. Z 27 až 28 měst, která obdržela zbroj, lze
                   jmenovat např. Hradec Králové, Plzeň, Kolín, Polička, Vysoké
@@ -457,7 +457,7 @@ const Page = () => {
                   dokud jeho zvědové nezjistí velikost turecké armády, ale
                   nedisciplinovaní Francouzi jej obvinili, že se je snaží
                   připravit o slávu a vyrazili do útoku, zatímco Uhři a další
-                  národy zůstali u města pod Zikmundovým velením. Francouzský
+                  národy zůstaly u města pod Zikmundovým velením. Francouzský
                   útok rozdrtil nevycvičenou pěchotu, kterou Turci poslali v
                   první linii a udeřil na elitní janičáry, jejichž postavení
                   bylo chráněno nostřenými kůly zaraženými do země a hroty
