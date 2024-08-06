@@ -143,6 +143,14 @@ const Page = () => {
                       Fresková výmalba zámku v Žirovnici
                     </a>
                   </li>
+                  <li>
+                    <a
+                      href="https://rukovet.cms.flu.cas.cz/static/Odkazy_upload/HT_16_2009.pdf"
+                      target="_blank"
+                    >
+                      Sborník husitského muzea Tábor (bitva u Schönbergu 1504)
+                    </a>
+                  </li>
                 </ul>
               </Col>
             </Row>
