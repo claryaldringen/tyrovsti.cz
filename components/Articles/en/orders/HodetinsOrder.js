@@ -20,9 +20,9 @@ export const HodetinsOrder = () => (
         </p>
         <p>
           Dating and authorship of this work are difficult. Although the
-          introduction of the order states the year 1431 and names Jan Hájek of
+          introduction of the order states the year 1413 and names Jan Hájek of
           Hodětín, the chamberlain of King Wenceslas IV, as the author, the
-          creation of this order in 1431 was already questioned by Palacký and
+          creation of this order in 1413 was already questioned by Palacký and
           Toman. Jan Durdík leaned towards the opinion that the original text
           was created in that year, but only its revised version has survived to
           this day, which according to him is proven by the article prohibiting
