@@ -474,10 +474,10 @@ export const Tarce = () => (
           Potažený korpus byl následně natřen gessem, což je směs klihu a drcené
           boloňské křídy, jež bylo nutné důkladně zbrousit. Vznikl tak hladký
           bílý povrch, na který na který bylo možné v místech budoucího
-          stříbření a zlacení nanést tzv. bolus, přičemž pod zlato se nanáší
-          bolus červený a pod stříbro bolus černý. Zde byl kvůli malému rozsahu
-          zlacených ploch použit pouze černý bolus. Následně bylo na bolus
-          naneseno plátkové zlato a stříbro. Finální malba byla provedena
+          stříbření a zlacení nanést tzv. arménský bolus, přičemž pod zlato se
+          nanáší bolus červený a pod stříbro bolus černý. Zde byl kvůli malému
+          rozsahu zlacených ploch použit pouze černý bolus. Následně bylo na
+          bolus naneseno plátkové zlato a stříbro. Finální malba byla provedena
           vaječnou temperou. Malbu provedla Mgr. Markéta Poskočilová.
         </p>
       </Col>
@@ -499,7 +499,7 @@ export const Tarce = () => (
         src="bolus.jpg"
         width={1900}
         height={1658}
-        title="Korpus s naneseným bolusem a opět vyleštěný"
+        title="Korpus po aplikaci arménského bolusu a opět vyleštěný"
       />
     </Row>
     <Row>

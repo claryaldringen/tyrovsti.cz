@@ -534,19 +534,19 @@ export const Targe = () => (
         src="Potah.jpg"
         width={2917}
         height={3239}
-        title="Coated Corpus"
+        title="Coated corpus"
       />
       <ImageWithTitle
         src="Gesso.JPG"
         width={3374}
         height={3374}
-        title="Corpus Painted with Gesso and Polished"
+        title="Corpus painted with gesso and polished"
       />
       <ImageWithTitle
         src="bolus.jpg"
         width={1900}
         height={1658}
-        title="Corpus with Applied Bolus and Polished Again"
+        title="Corpus after application of Armenian bolus and polished again"
       />
     </Row>
     <Row>
@@ -554,19 +554,19 @@ export const Targe = () => (
         src="Stribro.JPG"
         width={1946}
         height={2048}
-        title="Corpus after Application of Leaf Silver and Gold"
+        title="Corpus after application of leaf silver and gold"
       />
       <ImageWithTitle
         src="SvKrystof.JPG"
         width={1866}
         height={2048}
-        title="Drawing of St. Christopher on the Back"
+        title="Drawing of St. Christopher on the back"
       />
       <ImageWithTitle
         src="Malba.JPG"
         width={1978}
         height={2048}
-        title="Finished Targe"
+        title="Finished targe"
       />
     </Row>
   </>
