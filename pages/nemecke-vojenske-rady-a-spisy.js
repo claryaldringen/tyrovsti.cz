@@ -11,6 +11,7 @@ import { RadMarkrabiAlbrechta } from '../components/Articles/cz/rady/RadMarkrabi
 import { FilipaSeldeneckaRadVozovy } from '../components/Articles/cz/rady/FilipaSeldeneckaRadVozovy'
 import { HeadExtended } from '../components/HeadExtended'
 import { ImageWithTitle } from '../components/ImageWithTitle/ImageWithTitle'
+import { Payment } from '../components/Payment'
 
 const Page = () => {
   return (
@@ -48,6 +49,7 @@ const Page = () => {
                 </ul>
               </Col>
             </Row>
+            <Payment />
           </Col>
         </Row>
       </Container>

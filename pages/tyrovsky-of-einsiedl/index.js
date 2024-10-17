@@ -6,6 +6,7 @@ import { ImageWithTitle } from '../../components/ImageWithTitle'
 import { LANG_EN, PUBLICATIONS } from '../../shared/constants'
 import { Qt } from '../../components/Quote/Qt'
 import { JobstOfEinsiedl } from '../../components/Articles/en/houseOfTeyrzow/JobstOfEinsiedl'
+import { Payment } from '../../components/Payment'
 
 const Page = () => (
   <>
@@ -57,6 +58,7 @@ const Page = () => (
           </Row>
           <JobstOfEinsiedl />
           <Sources />
+          <Payment />
         </Col>
       </Row>
     </Container>

@@ -108,8 +108,7 @@ export const Tarce = () => (
           Karla IV. (stechgezewge), tak krále Ludvíka (dříví jezdecké malé nebo
           velké) a které pro náročnost zpracování nebylo obyčejným dílem
           sedlářským a patřilo k zboží malovanému. Uvnitř cechu bylo ve 14.
-          století asi spíše prací štítařů než mistrů
-          <Cit>pictoriae artis</Cit>.
+          století asi spíše prací štítařů než mistrů <Cit>pictoriae artis</Cit>.
           <Qt publication={PUBLICATIONS.DENKSTEIN3} note="Str. 22" />
         </p>
         <p>
@@ -193,7 +192,6 @@ export const Tarce = () => (
           dosavadních privilegií, starších i novějších. Tak je třeba rozumět
           usnesení staroměstských konšelů z <b>13. listopadu 1458</b>:
           <Cit>
-            {' '}
             ... protož my při těch milostech a práviech i svobodách je
             zuostavujíc, oděncuov těch je zprošťujem, tak aby miesto plášťuov
             těch velikých, o nichžto svrchu zmienka jest, každý rok vždy o
@@ -473,13 +471,13 @@ export const Tarce = () => (
       <Col>
         <h5>Malba</h5>
         <p>
-          Potažený korpus byl následně natřen gessem, což je směs klihu, drcené
-          křídy a dalších ingrediencí, jež bylo nutné důkladně zbrousit. Vznikl
-          tak hladký bílý povrch, na který na který bylo možné v místech
-          budoucího stříbření a zlacení nanést tzv. bolus, přičemž pod zlato se
-          nanáší bolus červený a pod stříbro bolus černý. Zde byl kvůli malému
-          rozsahu zlacených ploch použit pouze černý bolus. Následně bylo na
-          bolus naneseno plátkové zlato a stříbro. Finální malba byla provedena
+          Potažený korpus byl následně natřen gessem, což je směs klihu a drcené
+          boloňské křídy, jež bylo nutné důkladně zbrousit. Vznikl tak hladký
+          bílý povrch, na který na který bylo možné v místech budoucího
+          stříbření a zlacení nanést tzv. bolus, přičemž pod zlato se nanáší
+          bolus červený a pod stříbro bolus černý. Zde byl kvůli malému rozsahu
+          zlacených ploch použit pouze černý bolus. Následně bylo na bolus
+          naneseno plátkové zlato a stříbro. Finální malba byla provedena
           vaječnou temperou. Malbu provedla Mgr. Markéta Poskočilová.
         </p>
       </Col>

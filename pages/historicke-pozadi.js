@@ -4,6 +4,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { HeadExtended } from '../components/HeadExtended'
 import { LANG_CS } from '../shared/constants'
+import { Payment } from '../components/Payment'
 
 const Page = () => {
   return (
@@ -431,6 +432,7 @@ const Page = () => {
                 </p>
               </Col>
             </Row>
+            <Payment />
           </Col>
         </Row>
       </Container>

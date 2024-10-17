@@ -9,6 +9,7 @@ import { Plast } from '../../components/Articles/cz/odev/Plast'
 import { Kabat } from '../../components/Articles/cz/odev/Kabat'
 import { Sukne } from '../../components/Articles/cz/odev/Sukne'
 import { Sources } from '../../components/Quote/Sources'
+import { Payment } from '../../components/Payment'
 
 const Page = () => {
   return (
@@ -30,6 +31,7 @@ const Page = () => {
             <Obuv />
             <PokryvkyHlavy />
             <Sources />
+            <Payment />
           </Col>
         </Row>
       </Container>

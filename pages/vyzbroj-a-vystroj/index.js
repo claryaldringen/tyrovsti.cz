@@ -5,11 +5,12 @@ import { LANG_CS } from '../../shared/constants'
 import { Zbroj } from '../../components/Articles/cz/zbroj/uvod'
 import { Sources } from '../../components/Quote/Sources'
 import { Tarce } from '../../components/Articles/cz/zbroj/Tarce'
+import { Payment } from '../../components/Payment'
 
 const Page = () => {
   return (
     <>
-      <HeadExtended lang={LANG_CS} title="Výzbroj a vástroj" />
+      <HeadExtended title="Výzbroj a výstroj" />
       <Container>
         <Row>
           <Col className="text">
@@ -17,11 +18,19 @@ const Page = () => {
             <Tarce />
             <Zbroj />
             <Sources />
+            <Payment />
           </Col>
         </Row>
       </Container>
     </>
   )
 }
+
+export const getStaticProps = () => ({
+  props: {
+    lang: LANG_CS,
+    dest: '/arms-and-armour',
+  },
+})
 
 export default Page

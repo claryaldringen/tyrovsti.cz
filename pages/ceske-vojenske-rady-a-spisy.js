@@ -8,6 +8,7 @@ import { ZizkuvVojenskyRad } from '../components/Articles/cz/rady/ZizkuvVojensky
 import { ZizkovoTazeniDoUher } from '../components/Articles/cz/rady/ZizkovoTazeniDoUher'
 import { HeadExtended } from '../components/HeadExtended'
 import { LANG_CS } from '../shared/constants'
+import { Payment } from '../components/Payment'
 
 const Page = () => {
   return (
@@ -95,6 +96,7 @@ const Page = () => {
                 </ul>
               </Col>
             </Row>
+            <Payment />
           </Col>
         </Row>
       </Container>

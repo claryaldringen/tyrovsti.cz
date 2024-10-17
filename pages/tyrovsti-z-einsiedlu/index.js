@@ -9,6 +9,7 @@ import { ImageWithTitle } from '../../components/ImageWithTitle'
 import { LANG_CS, PUBLICATIONS } from '../../shared/constants'
 import { Qt } from '../../components/Quote/Qt'
 import { Rozrod } from '../../components/Articles/cz/tyrovsti/Rozrod'
+import { Payment } from '../../components/Payment'
 
 const Page = () => (
   <>
@@ -63,6 +64,7 @@ const Page = () => (
           <JindrichTyrovsky />
           <Erb />
           <Sources />
+          <Payment />
         </Col>
       </Row>
     </Container>

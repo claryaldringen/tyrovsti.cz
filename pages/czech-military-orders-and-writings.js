@@ -8,6 +8,7 @@ import { LANG_EN } from '../shared/constants'
 import { HodetinsOrder } from '../components/Articles/en/orders/HodetinsOrder'
 import { ZizkasOrder } from '../components/Articles/en/orders/ZizkasOrder'
 import { ZizkasMilitaryCampaignToHungary } from '../components/Articles/en/orders/ZizkasMilitaryCampaignToHungary'
+import { Payment } from '../components/Payment'
 
 const Page = () => {
   return (
@@ -97,6 +98,7 @@ const Page = () => {
                 </ul>
               </Col>
             </Row>
+            <Payment />
           </Col>
         </Row>
       </Container>

@@ -4,6 +4,7 @@ import React from 'react'
 import { Col, Container, Row } from 'reactstrap'
 import { Sources } from '../../components/Quote/Sources'
 import { JobstOfEinsiedl } from '../../components/Articles/en/houseOfTeyrzow/JobstOfEinsiedl'
+import { Payment } from '../../components/Payment'
 
 const Page = () => (
   <>
@@ -13,6 +14,7 @@ const Page = () => (
         <Col className="text">
           <JobstOfEinsiedl />
           <Sources />
+          <Payment />
         </Col>
       </Row>
     </Container>

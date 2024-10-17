@@ -5,6 +5,7 @@ import { LANG_EN } from '../../shared/constants'
 import { Sources } from '../../components/Quote/Sources'
 import { Doublet } from '../../components/Articles/en/garment/Doublet'
 import { Gown } from '../../components/Articles/en/garment/Gown'
+import { Payment } from '../../components/Payment'
 
 const Page = () => {
   return (
@@ -22,6 +23,7 @@ const Page = () => {
             <Doublet />
             <Gown />
             <Sources />
+            <Payment />
           </Col>
         </Row>
       </Container>

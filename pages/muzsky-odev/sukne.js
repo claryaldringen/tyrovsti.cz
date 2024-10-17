@@ -4,6 +4,7 @@ import { LANG_CS } from '../../shared/constants'
 import React from 'react'
 import { Col, Container, Row } from 'reactstrap'
 import { Sources } from '../../components/Quote/Sources'
+import { Payment } from '../../components/Payment'
 
 const Page = () => (
   <>
@@ -13,6 +14,7 @@ const Page = () => (
         <Col className="text">
           <Sukne />
           <Sources />
+          <Payment />
         </Col>
       </Row>
     </Container>
