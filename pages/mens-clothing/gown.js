@@ -4,7 +4,7 @@ import React from 'react'
 import { Col, Container, Row } from 'reactstrap'
 import { Gown } from '../../components/Articles/en/garment/Gown'
 import { Sources } from '../../components/Quote/Sources'
-import {Payment} from '../../components/Payment'
+import { Payment } from '../../components/Payment'
 
 const Page = () => (
   <>
