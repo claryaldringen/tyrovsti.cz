@@ -9,7 +9,7 @@ import { Payment } from '../../components/Payment'
 const Page = () => {
   return (
     <>
-      <HeadExtended title="Tarče" image="Malba.JPG" />
+      <HeadExtended title="Targe" image="Malba.JPG" />
       <Container>
         <Row>
           <Col className="text">
