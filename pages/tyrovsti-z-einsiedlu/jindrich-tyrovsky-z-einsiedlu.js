@@ -8,7 +8,11 @@ import { Payment } from '../../components/Payment'
 
 const Page = () => (
   <>
-    <HeadExtended lang={LANG_CS} title="Jošt z Einsiedlu" image="erb.png" />
+    <HeadExtended
+      lang={LANG_CS}
+      title="Jindřich Týřovský z Einsiedlu"
+      image="erb.png"
+    />
     <Container>
       <Row>
         <Col className="text">

@@ -230,11 +230,35 @@ export const PUBLICATIONS = {
     year: undefined,
     href: 'https://royalarmouries.org/',
   },
+  VONHARSDORF: {
+    name: 'vonharsdorf.de',
+    author: '',
+    city: '',
+    year: undefined,
+    href: 'http://vonharsdorf.de/',
+  },
+  ENCYKLOPEDIEPLZEN: {
+    name: 'encyklopedie.plzen.eu',
+    author: '',
+    city: '',
+    year: undefined,
+  },
   WIKI: {
     name: 'wikipedia.org',
     author: '',
     city: '',
     year: undefined,
-    href: 'https://www.wikipedia.org/',
+  },
+  NOVINKY: {
+    name: 'novinky.cz',
+    author: '',
+    city: '',
+    year: undefined,
+  },
+  CMSKH: {
+    name: 'cms-kh.cz',
+    author: '',
+    city: '',
+    year: undefined,
   },
 }
