@@ -1,6 +1,6 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
-import { ImageWithTitle } from '../../../ImageWithTitle/ImageWithTitle'
+import { ImageWithTitle } from '../../../ImageWithTitle'
 
 export const KtozJsuBoziBojovnici = () => (
   <>
@@ -26,7 +26,7 @@ export const KtozJsuBoziBojovnici = () => (
         <p>
           Nejznámější husitský bojový chorál, jehož autorství je připisováno
           táborskému knězi Janu Čapkovi z Klatov, lze zároveň považovat za první
-          zaopsaný český vojenský řád. Prostřednictvím písně se tak vojákům,
+          zapsaný český vojenský řád. Prostřednictvím písně se tak vojákům,
           mnohdy negramotným, vštěpují válečnické zásady, jež se pak objevují i
           v řádech pozdějších:
           <br />
