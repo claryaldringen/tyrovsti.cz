@@ -23,7 +23,7 @@ const Page = () => {
             <Row>
               <Col>
                 <h4>Pěší boj ve zbroji (folio 101r - 112r)</h4>
-                <ul>
+                <ol>
                   <li>
                     Vstupuj tak, aby tvá levá noha byla neustále vpředu. Nebuď
                     příliš zbrklý a sleduj, zda dosáhneš na jeho přední nohu.
@@ -127,7 +127,7 @@ const Page = () => {
                     pevně ji drž a pokračuj v boji s bojovým mečem, jak bude
                     popsáno dále.
                   </li>
-                </ul>
+                </ol>
                 <h4>Jak používat tři výše zmíněné zbraně</h4>
                 <p>
                   Poznámka: při prvním přístupu jdi do horního střehu (Oberhut)
