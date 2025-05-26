@@ -248,6 +248,14 @@ const Page = () => {
                   </li>
                   <li>
                     <a
+                      href="https://upload.wikimedia.org/wikipedia/commons/9/95/Kostel_Charvatce_-_N%C3%A1hrobek_Vil%C3%A9ma_z_Ilburku.JPG"
+                      target="_blank"
+                    >
+                      Náhrobek Viléma z Ilburka, po roce 1489
+                    </a>
+                  </li>
+                  <li>
+                    <a
                       href="https://www.esbirky.cz/predmet/7592512"
                       target="_blank"
                     >
