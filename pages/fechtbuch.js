@@ -188,18 +188,17 @@ const Page = () => {
                   meč a bojový tesák nebo dýka, případně také štít. Při útoku se
                   používá štít a kopí a pracuje se s kopím – například jestli se
                   jednomu podaří druhého srazit mezi nohy nebo se mu vyhnout,
-                  nebo jestli se s kopím střílí a pak následuje kryt, protože v
-                  dřívějších časech bylo velkým uměním střílet z kopí. Poté, co
-                  kopí vystříleli, sáhli po meči a dále po dýce nebo bojovém
-                  tesáku.
+                  nebo jestli se s kopím hází a pak následuje kryt, protože v
+                  dřívějších časech bylo velkým uměním házet kopí. Poté, co kopí
+                  odhodili, sáhli po meči a dále po dýce nebo bojovém tesáku.
                   <br />
                   Já však chci pro sebe vzít jiné uspořádání, abych ukázal, jak
                   se má bojovat pěšky, a chci také jmenovat tři výhodné, uměle
                   vyrobené zbraně. První z nich je meč, který má mít nahoře
-                  hlavici se čtyřmi háčky po stranách a pátým nahoře, který nemá
-                  být dlouhý, ale kulatý, aby vydržel nárazy. Křížová záštita má
-                  být jako zednické kladivo, špička a čepel mají být hranaté. A
-                  to vše má být vykováno z jednoho kusu železa a hrot dobře
+                  hlavici se čtyřmi hroty po stranách a pátým nahoře, který nemá
+                  být dlouhý, ale spíše kompaktní, aby vydržel nárazy. Záštita
+                  má být jako zednické kladivo, špička a čepel mají být hranaté.
+                  A to vše má být vykováno z jednoho kusu železa a hrot dobře
                   zakalený.
                 </p>
               </Col>
@@ -302,32 +301,22 @@ const Page = () => {
               </Col>
               <Col>
                 <p>
-                  Aby to protivník nemohl snadno poznat, i kdyby mu už byly
-                  pružiny v dýce ukázány, jsou stále tak upraveny, aby mu to
-                  nedalo hned výhodu a aby je hned nedokázal uchopit.
+                  Dbej na to, aby tě nepřekvapil drtivým úderem, a nech ho
+                  nejprve udeřit naprázdno. Pamatuj si, že když on udeří, máš mu
+                  to zachytit mezi svýma rukama – a sleduj, zda mu můžeš zasadit
+                  úder.
                   <br />
-                  Nejdříve si musíš dobře všímat, zda tě protivník chce rychle a
-                  silně přemoci nebo jestli na tebe útočí s velkou silou. Musíš
-                  být opatrný, aby tě nepřekvapil mocným úderem – nech ho, ať se
-                  unaví, a sleduj, když provede úder, jestli mu dokážeš zasadit
-                  protiúder mezi své ruce, a dívej se, zda mu můžeš zasadit
-                  vlastní úder.
-                  <br />
-                  Za druhé si dej pozor, aby tě nezasáhl, a když tě už zasáhne
-                  na levé straně, ustup levou nohou dozadu nebo přitiskni
-                  hlavici zbraně k hrudi, uchop mu hrot a také mu ho zasaď a
-                  vytlač ho od sebe.
-                  <br />
-                  Také když protivník kolem sebe zuřivě seká, následuj ho
-                  špičkou zbraně a zasáhni jeho odkrytá místa. Dávej pozor, kde
-                  jsou tato odkrytá místa – kde můžeš stát nebo kam zasadit
-                  úder: hledí, pod podpaží, kolena, ruce, mezi nohy, zvenku na
-                  rukavici nebo tam, kde má zbroj klouby. Pamatuj, aby ses
-                  nesnažil zasáhnout příliš vzdálené místo, když máš po ruce
-                  bližší odkrytí.
-                  <br />
-                  Nakonec: pokud tě někdo chytí za prsty, dívej se, abys mu mohl
-                  chytit jeden prst a otočit ho.
+                  Dále dávej pozor, aby tě nezaskočil nasazením hrotu. Pokud
+                  však už ti byl hrot nasazen na tvou levou stranu, ustup levou
+                  nohou vzad nebo přilož hlavici meče na svou hruď a umísti hrot
+                  proti soupeři. Potom mu ho také nasaď a tlač ho od sebe.
+                  <br />A když on kolem sebe prudce seká, pohybuj hrotem meče
+                  proti jeho odkrytým místům. Pamatuj, že odkrytá místa jsou
+                  tato: hledí, pod podpažím, kolena, ruce, mezi nohama, zvenčí
+                  do rukavice a tam, kde má zbroj klouby. Pamatuj, abys neútočil
+                  po vzdálenějších odkrytích, když můžeš zasáhnout blíž. A
+                  nakonec: uvolni jeho prsty, totiž tam, kde tě někdo uchopí,
+                  tak se dívej, zda mu můžeš vzít jeden prst a sevření rozlomit
                 </p>
               </Col>
             </Row>
@@ -365,29 +354,28 @@ const Page = () => {
               </Col>
               <Col>
                 <p>
-                  Uvolni mu to a pak mu to zlom přes něj. Také mu přeraz nohu
-                  nebo kloub.
+                  Osvoboď se a případně mu zlom postoj. Také do něj vejdi úderem
+                  do slabin, prolomením nohy nebo kloubu.
                   <br />
-                  Za prvé chci projít příkladem boje v brnění a poté popíšu
-                  výhody dříve zmíněných zbraní.
+                  Za prvé chci projít příklady boje ve zbroji a poté popíšu
+                  výhody výše zmíněných zbraní.
                   <br />
-                  Při vstupu do boje vezmi svůj meč do horního střehového
-                  postavení, obě ruce vedle hlavy, a levou rukou uchop čepel
-                  uprostřed tak, aby hrot mířil protivníkovi do obličeje.
-                  Přistup k němu tak, aby levá noha byla vždy vpředu, a nedělej
-                  ji příliš krátkou. Podívej se, jestli dosáhneš na jeho přední
-                  nohu – udělej, jako bys chtěl mířit do jeho obličeje.
+                  Při vstupu do boje vezmi svůj meč do horního střehu (Oberhut)
+                  , obě ruce vedle hlavy, a levou rukou uchop čepel uprostřed
+                  tak, aby hrot mířil protivníkovi do obličeje. Takto postupuj k
+                  němu, aby tvá levá noha byla vždy vepředu – ne příliš daleko.
+                  A dívej se, zda můžeš dosáhnout na jeho přední nohu. Tak se
+                  tvař, jako bys chtěl zasáhnout jeho obličej, pak uvolni pravou
+                  ruku z jílce a přidej ji levé ruce ku pomoci a udeř ho hlavicí
+                  meče do hlavy nebo do jeho levé paže. Pokud zachytí tvůj úder
+                  mezi svýma rukama, nech (meč) projet kolem hlavy a udeř ho z
+                  tvé pravé strany na jeho koleno nebo kotník.
                   <br />
-                  Pak uvolni pravou ruku z jílce a levou mu pomoz a udeř ho
-                  hlavicí do hlavy nebo do jeho levé paže. Když on odrazí tvůj
-                  úder mezi oběma rukama, nech úder projet kolem jeho hlavy a
-                  udeř ho z pravé strany do kolena nebo kotníku.
-                  <br />
-                  Dále jdi k němu v horním střehovém postavení jako předtím a
-                  sleduj, zda se brání nebo stojí pevně – pak ho odtlač levou
-                  rukou. Když on pak udeří shora, odraž jeho úder mezi oběma
-                  rukama a přitom bodni zvenčí přes jeho paži a zasáhni ho
-                  ihned, jakmile zjistíš, kde je slabé místo.
+                  Dále jdi k němu v horním střehu (Oberhut) jako předtím a dávej
+                  pozor, zda chce zasadit úder nebo bodnout – pak mu jej odtlač
+                  levou rukou. Pokud pak udeří shora, zachyť jeho úder mezi
+                  oběma rukama a přitom bodni zvenčí přes jeho paži na jeho
+                  hrdlo.
                   <br />
                 </p>
               </Col>
