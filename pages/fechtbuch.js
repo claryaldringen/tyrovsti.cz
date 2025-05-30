@@ -419,26 +419,27 @@ const Page = () => {
                 <p>
                   Když tvůj hrot drží pevně, udeř oběma rukama pod svou pravou
                   paži a nenech ho odtáhnout, ale tlač proti němu. Také z
-                  horního střehového postavení jdi k němu a bodni ho do hledí.
-                  Když se brání, zasaď mu úder na jeho levé podpaží a tlač ho od
-                  sebe pryč. Dávej pozor, jakmile se bude chtít vyprostit, abys
-                  ho ihned zastihl svým těžištěm – zápasem, stržením nebo úderem
-                  – přímo do jeho hledí. Pamatuj: když někoho zasáhneš, nenech
-                  ho uniknout, pak nebude moci pracovat.
+                  horního střehu jdi k němu a bodni ho do hledí. Pokud ti to
+                  kryje, tak mu přilož (hrot) na jeho levé podpaží a tlač proti
+                  němu. Dávej pozor, jakmile se bude chtít vyprostit, abys na
+                  něj ihned zatlačil svou vahou - zápasem, hozením nebo strčením
+                  přímo do jeho hledí. Pamatuj: když někomu nasadíš (Anngesezt),
+                  nenech ho z toho uniknout, pak nebude moci dále pracovat.
                   <br />
                   Další střehové postavení: drž svůj meč s jílcem vedle své
                   pravé kyčle a levou rukou uchop čepel uprostřed, aby hrot
                   směřoval proti protivníkovi. Levá noha vždy vpředu. Přistup k
                   němu tak, aby když bodá, odrazil jsi to rukou, a když seká,
-                  zachyť jeho úder mezi své ruce do čepele. Dávej pozor, když se
-                  odtahuje a dělá krok pravou nohou – odraž podle naučeného a
-                  zasáhni ho hlavicí do jeho kolenního kloubu.
+                  zachyť jeho úder mezi své ruce do čepele. Zároveň dávej pozor,
+                  když sekne a udělá krok pravou nohou, odraž to tak jak ses
+                  naučil a zasáhni ho hlavicí meče do jeho kolenního kloubu
+                  (jamky).
                   <br />
-                  Když pak ucukne nohou, zasaď ho pod jeho pravé rameno nebo
-                  tam, kam můžeš, a tlač ho od sebe pryč. Nebo hlavicí obejmi
-                  jeho krk, krokni pravou nohou za něj a sraz ho k zemi. Také
-                  odraž jeho úder ze střehu a rychle zvedni rukojeť a bodni ho
-                  do hrdla nebo do odkrytých míst u
+                  Pokud chce tou nohou couvnout, tak mu to nasaď na stehno nebo
+                  tam kam můžeš a tlač proti němu. Nebo jdi hlavicí meče kolem
+                  jeho krku, ukroč pravou nohou za něj a převrať ho na zem. Také
+                  zachyť jeho úder z horního střehu a bodni ho se zvednutým
+                  jílcem do hrdla nebo do odkrytých míst u
                 </p>
               </Col>
             </Row>
@@ -480,17 +481,19 @@ const Page = () => {
               </Col>
               <Col>
                 <p>
-                  kloubů. Také odraž jeho bodnutí a ty udělej totéž. A tak
-                  často, jak mu zasadíš úder, udeř hlavicí pod podpaží, když
-                  vidíš svou výhodu. Cíle jsou čtyři: jeden do obličeje, druhý
-                  do hrdla, třetí do levého podpaží a čtvrtý pod pravé rameno.
+                  kloubů. Také odraž jeho bodnutí a udeř hlavicí svého meče pod
+                  jeho podpaží tak často jakmile v tom vidíš svou výhodu. Cíle
+                  pro zasazení úderu (Annsezenn) jsou čtyři: jeden do obličeje,
+                  druhý do hrdla, třetí do levého podpaží a čtvrtý pod pravé
+                  rameno.
                   <br />
-                  Pamatuj: když mu zasadíš úder z levé strany, přistup levou
-                  nohou dopředu a zasáhni ho pod pravé rameno, pak pravou nohou
-                  zase vpřed. Dále – kdykoliv zasadíš úder, vždy tlač přes něj,
-                  a jestliže je menší než ty, spusť rukojeť dolů k jeho boku a
-                  tlač přes něj a pryč od sebe. Když se ale stáhne do boku, udeř
-                  ho do helmy, tam je nejzranitelnější.
+                  Pamatuj: když mu zasazuješ úder z levé strany, takm přistup s
+                  levou nohou vepředu a zasáhni ho pod pravé rameno a pak udělej
+                  pravou nohou krok vpřed. Dále bys měl vždy, když zasazuješ,
+                  tlačit přes jeho těžiště. , a jestliže je menší než ty, spusť
+                  rukojeť dolů k jeho boku a tlač přes něj a pryč od sebe. Když
+                  se ale stáhne do boku, udeř ho do helmy, tam je
+                  nejzranitelnější.
                   <br />
                   A tak často, jak mu zasadíš úder, dívej se, abys ho dobře
                   zasadil do sevření, protože když to provedeš správně a pevně,
