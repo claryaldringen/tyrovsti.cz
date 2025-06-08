@@ -10,6 +10,7 @@ const Page = () => {
       <HeadExtended
         lang={LANG_EN}
         title="Joachim Meyer, fechtbuch (MS Bibl. 2465)"
+        image="fechtbuch/MS_Bibl._2465_108v.jpg"
       />
       <Container>
         <Row>
