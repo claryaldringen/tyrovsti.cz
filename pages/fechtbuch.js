@@ -487,25 +487,26 @@ const Page = () => {
                   druhý do hrdla, třetí do levého podpaží a čtvrtý pod pravé
                   rameno.
                   <br />
-                  Pamatuj: když mu zasazuješ úder z levé strany, takm přistup s
+                  Pamatuj: když mu zasazuješ úder z levé strany, tak přistup s
                   levou nohou vepředu a zasáhni ho pod pravé rameno a pak udělej
                   pravou nohou krok vpřed. Dále bys měl vždy, když zasazuješ,
-                  tlačit přes jeho těžiště. , a jestliže je menší než ty, spusť
+                  tlačit přes jeho těžiště. Když je však menší než ty, spusť
                   rukojeť dolů k jeho boku a tlač přes něj a pryč od sebe. Když
                   se ale stáhne do boku, udeř ho do helmy, tam je
                   nejzranitelnější.
                   <br />
-                  A tak často, jak mu zasadíš úder, dívej se, abys ho dobře
-                  zasadil do sevření, protože když to provedeš správně a pevně,
-                  nemůže dobře bojovat. Když ti ale zasadí úder on, bodni mu
-                  přes jeho pravou paži pod jeho meč, tlač hlavicí dolů k zemi a
-                  jakmile se uvolní, prostrč svůj meč vpřed pod jeho pravou paži
-                  a pravou nohou mu vklouzni za jeho levou nohu, levou rukou
-                  uchop jeho helmu a hoď ho rychle za sebe.
+                  A kdykoli mu zasadíš úder (ansezest), dbej, abys ho dobře
+                  zavázal, protože když mu správně zasadíš (úder) a správně jej
+                  tlačíš, tak nemůže dobře pracovat. <br />
+                  Protiakce: Když tě však takto zaváže on tak bodni shora přes
+                  jeho pravou paži pod jeho meč skrz, zatlač svou hlavici dolů k
+                  zemi a jakmile (soupeř) povolí, protlač svůj meč vpřed pod
+                  jeho pravicí skrz a se svou pravou nohou za jeho levý bok a
+                  uchop levou rukou za jeho přilbu a hoď ho rychle za sebe.
                   <br />
-                  Také bodni ho do rukavice na jeho méně chráněné ruce a otoč ho
-                  nebo bodni pod jeho levé rameno přes jeho meč, tlač hlavicí
-                  přes něj a zasaď mu úder.
+                  Také jej bodni do rukavice na jeho předsazené ruce a veď ho
+                  dokola nebo ho bodni pod jeho levou paži nahoru přes jeho meč,
+                  tlač hlavicí přes něj a zavaž ho. Také si
                 </p>
               </Col>
             </Row>
@@ -530,7 +531,7 @@ const Page = () => {
                   vnnd fahr mit deim knopff vnnden durch beidt Arm / vnnd schlag
                   übersich so mus Er laßenn Ittem hab Acht welche henndt du Im
                   Erwischen megest die Ruck zu dür / vnnd mit der Anndern hanndt
-                  greiff Im seinen Elenpogenn / vnnd Him48 Im das gewicht / vnnd
+                  greiff Im seinen Elenpogenn / vnnd Him Im das gewicht / vnnd
                   Inn Allen thrits bis nit zu goch / Auff das du Ein sattenn
                   stanndt habest / Ittem so du einen geworffenn hast / fellt Er
                   so fall mit zu seiner Rechtenn vnnd müt dem Rechtten Knie
@@ -544,30 +545,31 @@ const Page = () => {
               </Col>
               <Col>
                 <p>
-                  Při zápasu si všímej, ze které strany na tebe zaútočil – pak
-                  uchop jeho čepel svou levou rukou, tlač od sebe a přitom ho
-                  stáhni k sobě a chyť ho pravou rukou za jeho pravou ruku.
-                  Přitáhni ho k sobě, uchop ho kolem těla a zvedni ho přes sebe.
-                  Když ho zvedneš, udeř mu nohy zespodu a shoď ho pryč od sebe.
+                  při zápasu všímej, ze které strany tě zavázal, pak uchop jeho
+                  čepel svou levou rukou, tlač takto od sebe a současně trhni
+                  pryč (zuzcken ab) a stáhni ho k sobě, chyť pravou rukou jeho
+                  pravou ruku a přitáhni si ho a uchop ho kolem těla a zvedni
+                  přes něj. Když ho zvedneš, udeř mu do nohou zespodu a hoď ho
+                  od sebe.
                   <br />
-                  Když někdo bodá proti tobě, bodni s ním současně dovnitř na
-                  jeho levé straně a při jeho bodnutí zachyť jeho čepel svou
-                  čepelí. Potom hlavicí zespodu mezi oběma pažemi udeř a zasáhni
-                  přes něj – tak ho donutíš to pustit.
+                  Dále, když někdo bodá proti tobě, bodni s ním současně dovnitř
+                  na jeho levou stranu a při bodu chyť jeho čepel ke své a veď
+                  svou hlavici zdola skrz obě paže a udeř přes něj, takže musí
+                  pustit.
                   <br />
-                  Také si všímej, kterou rukou ho můžeš nejlépe uchopit a
-                  stáhnout k sobě. Druhou rukou uchop jeho loket a získej nad
-                  ním kontrolu. Při všech těchto krocích nenechávej své nohy
-                  příliš úzké, abys měl pevný postoj.
+                  Také: dávej pozor, kterou ruku mu můžeš zachytit, tu přitáhni
+                  k sobě, druhou ho chyť za loket a vezmi mu rovnováhu a ve
+                  všech těchto krocích nestoupej příliš vysoko abys měl pevný
+                  postoj.
                   <br />
-                  Když už ho srazíš, padne-li, padni s ním na jeho pravou
-                  stranu, s pravým kolenem mezi jeho nohama a s levou rukou
-                  kolem jeho krku – jakmile ho máš pevně sevřeného, vytáhni svou
-                  dýku. Když on sáhne po své dýce, bodni ho do ruky a strhni mu
-                  ji, dokud nezískáš lepší výhodu.
+                  Dále: pokud jsi někoho srazil, padne-li, pak padni spolu ním
+                  na jeho pravou stranu, s pravým kolenem mezi jeho nohama a s
+                  levou rukou kolem jeho krku. Když ho pevně držíš tak vytáhni
+                  dýku. Pokud po téí dýce sahá, bodni ho do ruky a stáhni ji
+                  zpět, dokud nevidíš lepší výhodu.
                   <br />
                   Další způsob: uchop jeho pravou paži mezi jeho nohama, polož
-                  se na něj napříč a drž svou nohu pevně u něj.
+                  se na něj napříč a drž své nohy pevně sevřené
                 </p>
               </Col>
             </Row>
@@ -606,28 +608,27 @@ const Page = () => {
               </Col>
               <Col>
                 <p>
-                  Přitiskni se k němu a napni se pevně a uchop jeho levou paži
-                  svou levou rukou a drž ji pevně. A potom pracuj s tesákem
-                  (nebo mečem), jak bude dále popsáno.
+                  a napni se pevně a uchop jeho levou paži svou levou rukou a
+                  drž ji pevně a pracuj s dýkou, jak bude dále popsáno.
                 </p>
                 <h4>Jak se mají používat ty tři dříve zmíněné zbraně</h4>
                 <p>
-                  Pamatuj: při prvním útoku jdi k němu z horního střehu a dělej,
-                  jako bys mu chtěl mířit do obličeje – ale neudělej to, místo
-                  toho ho udeř nebo sekej shora dolů na jeho kolenní kloub. Ať
-                  už se trefíš nebo ne, pohybuj se rychle rukama přes něj a udeř
-                  ho hlavicí do hlavy, zvenčí přes jeho pravou paži, nebo ho
-                  udeř na kloub, který se ti nejvíc nabídne.
+                  Pamatuj: při prvním útoku jdi k němu v horním střehu a nastav
+                  se s gestem jako bys mu chtěl zaútočit na obličej, ale nečiň
+                  to, místo toho ho udeř nebo sekej shora dolů na jeho kolenní
+                  kloub. Ať už zasháhneš nebo ne, tak pokračuj hbitě rukama přes
+                  něj a udeř ho záštitou do hlavy, zvenčí přes jeho pravou paži,
+                  nebo ho udeř na nejbližšé kloub, který se naskytne.
                   <br />
-                  Potom stáhni prudce ruce zpět kolem své hlavy a nech pravou
-                  ruku projet před levou rukou, uchop levou rukou zezadu jeho
-                  čepel a udeř pravou rukou střední úder na jeho helmu – buď
-                  hlavicí, čepelí nebo křížem záštity.
+                  Trhni prudce kolem své hlavy a nech pravou (ruku) sklouznout
+                  před tu levou ruku, chyť za tvou levou (rukouú tu čepel a udeř
+                  z tvé pravé jeden střední úder (mittelschlag) na jeho helmu ať
+                  už záštitou, jílcem nebo hlavicí.
                   <br />
-                  Když on tvůj úder zachytí, odpověz pravou rukou a ustup zpět,
-                  abys získal znovu rovnováhu. Dávej si velký pozor, aby ti
-                  nemohl zasadit úder, a nepouštěj se hned do protiútoku, ale
-                  ustupuj do kruhu tolik, kolik je potřeba.
+                  On uchopil tvou vazbu, opět s tvou pravou rukou a ustup opět
+                  zpátky abys znovu získal rovnováhu a dávej si velký pozor aby
+                  ti nemohl zasadti žádný úder. Také se nesnaž o útok
+                  (Annsezenn), nýbrž ustup v kruhu jak je to jen možné.
                 </p>
               </Col>
             </Row>
@@ -667,27 +668,28 @@ const Page = () => {
               <Col>
                 <h4>Druhý kus</h4>
                 <p>
-                  Pamatuj: při vstupu do horního střehu přistup k němu a uchop
-                  svůj meč těsně u hlavice a levou rukou uchop čepel u kříže.
-                  Bodni ho prudce do hledí. Pak rychle stáhni meč zpět k sobě a
-                  bodni silně zdola do jeho slabin, aby se ti nedostal příliš
+                  Pamatuj: Přistup k němu v horním střehu, chyť sevření blízko u
+                  hlavice a uchop levou rukou čepel u záštity a bodni mu tvrdě
+                  (knefftiglich) do jeho hledí, cukni zpět k sobě a bodni silně
+                  odspodu do jeho přirození tak aby se neodvážil přijít příliš
                   blízko.
                   <br />
                   Poté stáhni zbraň zpět a levou rukou uchop první třetinu
-                  čepele. Když se na tebe tlačí, ustup zpět – tím ho odradíš a
-                  donutíš ho brzy k úderu. Nedovol mu, aby tě zasáhl, ale uhýbej
-                  stranou.
+                  čepele. Když se na tebe tlačí, ustup dozadu – tím ho přivedeš
+                  do koncového tlaku a brzy na tebe udeří. Nedovol mu, aby tě
+                  zasáhl, ale uhni stranou pokud zaútočí a pak dávej pozor, kdy
+                  mine. Pak pusť pravou ruku a přijď s ní na pomoc levé ruce a
+                  udeř ho do přilby nebo na nejbližší končetinu.
                   <br />
-                  Když on zasáhne a přitom se vychýlí, uvolni pravou ruku a
-                  pomoz si levou rukou a udeř ho do helmy nebo do nejbližšího
-                  odkrytého místa.
+                  Jestliže však neudeřil, tak ho udeř na koleno nebo kotník.
+                  Vykrije-li se, tak jdi rukama nahoru, udeř ho na horní kloub a
+                  uchop znovu oběma rukama.
                   <br />
-                  Když však on neudeří, udeř ho do kolena nebo kotníku. Když se
-                  brání, pokračuj a udeř ho do horního kloubu. A znovu uchop obě
-                  ruce, ale když se nemůžeš úderu vyhnout, odraž ho nahoře mezi
-                  oběma rukama do čepele a přehoď hlavici přes své levé rameno.
-                  Přitom levou rukou zvedej a pravou jí pomáhej – tak ho
-                  zasáhneš dřív, než se vzpamatuje.
+                  Jestliže se však tomu úderu vážně nemůžeš vyhnout, tak jej
+                  vykryj nahoře do čepele mezi oběma rukama a současně hoď
+                  hlavici meče přes tvé levé rameno a zvedni levou ruku nahoru a
+                  přijď s pravou rukou na pomoc levé. Tak dosáhneš úderu dříve,
+                  než se vzpamatuje (znovu zaujme postoj).
                 </p>
               </Col>
             </Row>
@@ -711,9 +713,10 @@ const Page = () => {
               <Col>
                 <p>
                   Pamatuj: když proti tobě přistupuje z horního střehu a bodá
-                  nebo seče, odraž to levou rukou. A při tom odražení uchop jeho
-                  čepel proti své a protlač ji spodem a přistup pravou nohou za
-                  jeho levou a shoď ho.
+                  nebo seká, odraž to levou rukou. A při tom odražení uchop jeho
+                  čepel ke své čepeli veď ji s vazbou (míněno držení soupeřovy
+                  čepele) spodem skrz a vykroč pravou (nohou) za jeho levou
+                  (nohu) a shoď ho.
                 </p>
               </Col>
             </Row>
@@ -750,24 +753,24 @@ const Page = () => {
               </Col>
               <Col>
                 <p>
-                  A když on seče zespoda, spusť svou hlavici dolů k zemi a odraž
-                  jeho úder mezi oběma rukama. Když se znovu zvedne, udeř svou
-                  hlavicí zdola vzhůru do jeho slabin a přitom levou rukou odraž
-                  jeho přicházející úder. Potom odraž jeho úder a rychle zvedni
-                  rukojeť a bodni ho přes jeho pravou paži do obličeje a zasaď
-                  ho.
+                  Dále: A když seká zespodu, pak spusť hlavici pod sebe a zachyť
+                  (úder) mezi své ruce. Když znovu zdvihá svůj meč, tak veď svou
+                  hlavici zdola nahoru k jeho genitáliím a současně obrať levou
+                  ruku přes sebe proti jeho přicházejícímu seku a nastav proti
+                  němu kryt a poté vyjeď vzhůru s jílcem a bodni jej přes jeho
+                  pravou ruku do obličeje a zasaď mu ránu.
                   <br />
-                  Dále přistup k protivníkovi z dolního střehu a bodni ho zdola
-                  do obličeje. Když on seká nebo bodá, odraž to a uvolni pravou
-                  ruku z úchopu a hoď ho za sebe. Přitom pravou rukou pomoz levé
-                  a udeř zdola hlavicí mezi jeho nohy do slabin. Potom ihned
-                  oběma rukama obejmi jeho hlavu a udeř ho do horních odkrytých
-                  míst.
+                  Dále jdi k pánovi ve spodním střehu (vnder hutt) a bodni jej
+                  zdola do obličeje. Když seká nebo bodá, odraž to a pusť pravou
+                  ruku z úchopu a hoď to za sebe. Přiveď pravou rukou na pomoc
+                  levé a udeř zdola vzhůru záštitou na spravedlivé místo
+                  (genitálie), ihned zatáhni oběma rukama přes sebe kolem hlavy
+                  a udeř na horní odkrytá místa.
                   <br />
-                  Také přistup k němu z dolního střehu, stáhni se a lákej ho k
-                  bodnutí. Přitom uvolni úchop a přistup za jeho levý bok.
-                  Obejmni ho oběma rukama a vhoď mu svůj loket do boku pod jeho
-                  brnění a silou ho vtáhni do sevření.
+                  Také přistup k němu v dolním střehu, cukni a lákej ho k
+                  bodnutí. Současně uvolni úchop, vykroič kolem jeho levé
+                  (nohy), uchop oběma rukama čepel svého meče a vhoď mu záštitu
+                  do kyčle pod jeho trup vržen silně do zápasu.
                 </p>
               </Col>
             </Row>
@@ -803,23 +806,25 @@ const Page = () => {
               </Col>
               <Col>
                 <p>
-                  Dále ho bodni z dolního střehu do slabin, pak rychle stáhni
-                  zpět a uvolni úchop pravou rukou a uchop jeho čepel. Když on
-                  seká, použij svou rukojeť z pravé strany proti jeho levé a při
-                  vyražení nech rukojeť projet kolem jeho hlavy a udeř ho do
-                  jeho předního kolenního kloubu. Rychle udělej krok zpět, abys
-                  získal rovnováhu a znovu pevně uchopil svou zbraň.
+                  Také ho bodni ze spodního střehu do rozkroku, cukni zpět a
+                  pravou rukou pusť své sevření a uchop s ní čepel. Seká-li on,
+                  tak vezmi svůj jílec z tvé pravé (strany) na jeho levou
+                  (stranu) abys mu jej vyvedl/odebral (Im außnemen), nech svůj
+                  jílec projet kolem hlavy a udeř jej do kolene přední nohy,
+                  udělej jeden rychlý krok zpět a tím se udržíš (zachováš
+                  rovnováhu) a znovu uchopíš meč (na jílci).
                   <br />
-                  Z těchto dosud popsaných částí je dostatečně jasné, jak je
-                  třeba údery provádět. A je třeba si pamatovat, že se máš co
-                  nejvíce vyhýbat přímému úderu nebo zápasu, dokud ho nejprve
-                  neoslabíš silnými ranami – například do kotníků, kolen, kloubů
-                  paží a jiných odkrytých míst. Když je takto otřesen a oslaben
-                  údery, pak ho teprve přistupuj uchopit a zasáhnout.
+                  Z těchto dosud popsaných kusů je dostatečně jasné, jakým
+                  způsobem má pán údery provádět a je třeba si povšimnout, že
+                  někdo se má mít na pozoru, jak jen může, před nasazením (páky)
+                  nebo zápasem dokud ho nejdříve silně neoslabil drtivými údery
+                  jako (např.) na kotník, na koleno, na klouby, na loket a jiná
+                  odkrytá místa. Když je tedy takto vyčerpán a oslaben údery,
+                  pak teprve přistup s nasazením (páky)
                   <br />
-                  Předtím však nestůj proti němu přímo, ale vždy se trochu
-                  odchyluj a nech ho znejistit, ale zároveň sleduj každou
-                  příležitost, aby nebyla zbytečně promarněna.
+                  Nejdříve byses mu neměl postavit, ale stále klidně ustupovat a
+                  nechat ho vyčerpat se; nicméně, když uvidíš nějakou výhodu, ať
+                  není promarněna bez užitku.
                 </p>
               </Col>
             </Row>
