@@ -30,7 +30,7 @@ export const HeadExtended = ({ title, image, description }) => {
         {image && (
           <meta
             name="twitter:image"
-            content="https://www.yourwebsite.com/path/to/image.jpg"
+            content={`https://tyrovsti.cz/images/${image}`}
           />
         )}
 
