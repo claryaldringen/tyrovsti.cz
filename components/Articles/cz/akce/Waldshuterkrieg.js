@@ -73,13 +73,13 @@ export const Waldshuterkrieg = () => (
         <p>
           Dne <b>25. června 1468</b> vpadli Bernští a Solothurnští do oblasti
           Sundgau ze směru od Basileje, postupovali přes Blotzheim, Bartenheim a
-          Habsheim směrem k Mülhausenu a zanechali za sebou spoušť. Tuto první
-          kolonu následovali vojáci z Curychu a Schwyzu. Jednotky z
+          Habsheim směrem k Mülhausenu a zanechali za sebou spoušť. Tento první
+          sled následovali vojáci z Curychu a Schwyzu. Jednotky z
           vnitrošvýcarských kantonů pak táhly vesnicemi na levém břehu Rýna
           směrem na Mülhausen.
         </p>
         <p>
-          Dne <b>6. července 1468</b> se tři švýcarské kolony setkaly mezi
+          Dne <b>6. července 1468</b> se tři švýcarské sledy setkaly mezi
           Thannem a Mülhausenem na planině zvané Ochsenfeld a očekávaly, že se s
           nimi vojska Předních Rakous střetnou v otevřené bitvě, k čemuž však
           nedošlo.
@@ -95,6 +95,13 @@ export const Waldshuterkrieg = () => (
           válka a válečné dění se přesunulo dále na východ.
         </p>
       </Col>
+      <ImageWithTitle
+        md={4}
+        src="Schilling_Ochsenfeld.jpg"
+        width={1500}
+        height={2300}
+        title="Zásobovací vůz Švýcarů (Eidgenossen) je napaden rytíři Předních Rakous. Zobrazení, Luzerner Chronik (1513)"
+      />
     </Row>
     <Row>
       <Col>
@@ -208,7 +215,7 @@ export const Waldshuterkrieg = () => (
       </Col>
     </Row>
     <Row>
-      <Col>
+      <Col md={6}>
         <h6>Obléhání Waldshutu</h6>
         <p>
           <b>19. července 1468 </b> se hlavní oddíly Spříseženců, které se
@@ -252,6 +259,17 @@ export const Waldshuterkrieg = () => (
             protože Švýcaři mezitím posílili obranu této oblasti na 400 mužů.
           </li>
         </ol>
+      </Col>
+      <ImageWithTitle
+        md={6}
+        src="Burgunderchronik_Waldshuterkrieg_1468.png"
+        width={1203}
+        height={1566}
+        title="Příchod posílených bernských jednotek před obležené město Waldshut, Amtliche Berner Chronik (1478 - 1483)"
+      />
+    </Row>
+    <Row>
+      <Col>
         <p>
           Také samotní obránci města nezůstali pasivní – podnikli několik
           výpadů, při nichž způsobili obléhatelům ztráty.
@@ -301,6 +319,13 @@ export const Waldshuterkrieg = () => (
           Spříseženců nakonec vedly k ukončení obléhání.
         </p>
       </Col>
+      <ImageWithTitle
+        md={6}
+        src="Tschachtlan_Waldshut_1468_1.jpg"
+        width={913}
+        height={788}
+        title="Spříseženci obléhají Waldshut, Tschachtlanchronik (1470)"
+      />
     </Row>
     <Row>
       <Col>
@@ -359,8 +384,19 @@ export const Waldshuterkrieg = () => (
           padl roku 1477 v bitvě u Nancy, vévoda Zikmund znovu převzal do držení
           zastavené Přední Rakousy, aniž by vrátil oněch 50 000 zlatých, které
           si vypůjčil.
+          <Qt
+            publication={PUBLICATIONS.WIKI}
+            href="https://de.wikipedia.org/wiki/Waldshuterkrieg"
+          />
         </p>
       </Col>
+      <ImageWithTitle
+        md={6}
+        src="162Sigmund_verpfändet_BSE_an_Karl_v_Burgund.jpg"
+        width={3066}
+        height={4088}
+        title="Zastavení Breisgau, Sundgau a Alsaska ze strany rakouského vévody Zikmunda ve prospěch burgundského vévody Karla Smělého dne 9. května 1469, Luzerner Chronik (1513)"
+      />
     </Row>
     <Row>
       <Col>
@@ -389,12 +425,28 @@ export const Waldshuterkrieg = () => (
           Zdá se, že české žoldnéře poslal Zikmundovi bavorský vévoda Ludvík IX.
           v rámci spojenecké smlouvy, kterou se Zikmundem měl. Ludvík se o české
           žoldnéře opíral dlouhodobě, zejména pak během tzv. Bavorské války
-          (1459 - 1463). Není proto s podivem, že je využil i v tomto konfliktu,
-          o který však příliš nestál a poskytl tedy jen takovou účast, aby
-          nemohl být obviněn z nedodržování spojeneckých smluv.
+          (1459 - 1463).
+          <Qt
+            publication={PUBLICATIONS.TRESP}
+            href="https://digi20.digitale-sammlungen.de/en/fs1/object/display/bsb00045259_00156.html"
+          />{' '}
+          Není proto s podivem, že je využil i v tomto konfliktu, o který však
+          příliš nestál a poskytl tedy jen takovou účast, aby nemohl být obviněn
+          z nedodržování spojeneckých smluv.
         </p>
         <p>
-
+          Čechy pravděpodobně předcházela vojenská jejich pověst, když i přes
+          svůj nízký počet stáli Schillingovi nejen za to, aby je zmínil, ale
+          aby vypíchl, že jeich přítomnost neměla žádný vojenský efekt.
+          Formulací, že{' '}
+          <Cit>způsobili více škody přátelům než Spříseženectví</Cit> narážel
+          Schilling nejspíše na rozšířený nešvar českých vojáků, kteří čím dále
+          byli od Čech, tím více rabovali.
+        </p>
+        <p>
+          Na doporovdné iluminaci jsou pak vyobrazení jako pohané a orientálci s
+          dlouhými vlasy, což je zjevně narážka na veřejné mínění o Češích coby
+          kacířích.
         </p>
       </Col>
     </Row>
