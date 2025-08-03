@@ -261,4 +261,10 @@ export const PUBLICATIONS = {
     city: '',
     year: undefined,
   },
+  SECKENHEIM: {
+    name: 'historisches-seckenheim.de',
+    author: '',
+    city: '',
+    year: undefined,
+  },
 }
