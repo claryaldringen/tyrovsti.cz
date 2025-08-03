@@ -9,11 +9,7 @@ import { BavorskaValka } from '../../components/Articles/cz/akce/BavorskaValka'
 
 const Page = () => (
   <>
-    <HeadExtended
-      lang={LANG_CS}
-      title="Waldshuterkrieg"
-      image="cesi-waldshuterkrieg.jpg"
-    />
+    <HeadExtended lang={LANG_CS} title="Bavorská válka" image="LudvikIX.jpg" />
     <Container>
       <Row>
         <Col className="text">

@@ -4,30 +4,49 @@ import { ImageWithTitle } from '../../../ImageWithTitle'
 import { Cit } from '../../../Citation'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
+import styles from './BavorskaValka.module.scss'
+import Link from 'next/link'
+import Image from 'next/image'
 
 export const BavorskaValka = () => (
   <>
     <Row>
       <Col>
-        <div className="anchor" id="waldshuterkrieg" />
+        <div className="anchor" id="bavorska-valka" />
         <h4>Bavorská válka</h4>
       </Col>
     </Row>
     <Row>
-      <ImageWithTitle
-        src="cesi-waldshuterkrieg.jpg"
-        width={4872}
-        height={6496}
-        title="České vojsko přichází roku 1468 na pomoc obleženému Waldshutu, Amtliche Berner Chronik (1478 - 1483)"
-      />
-      <Col>
+      <Col md={4}>
         <p>
-          Bavorská válka v letech 1459 až 1463, známá také jako knížecí válka ,
-          byla důsledkem expanzivních snah knížectví. Markrabě Albrecht Achilles
-          z rodu Hohenzollernů, který v té době již sjednotil Bayreuthské a
-          Ansbašské knížectví, se postavil bavorsko-landshutskému vévodovi
-          Ludvíkovi IX. Bohatému.
+          Bavorská válka v letech 1459 až 1463, známá také jako knížecí válka,
+          byla důsledkem expanzivních snah knížectví. Braniborský markrabě
+          Albrecht III. Achilles z rodu Hohenzollernů, který v té době již
+          sjednotil Bayreuthské a Ansbašské knížectví, se postavil
+          bavorsko-landshutskému vévodovi Ludvíkovi IX. zvanému Bohatý.
+          <Qt
+            publication={PUBLICATIONS.WIKI}
+            href="https://de.wikipedia.org/wiki/Bayerischer_Krieg_(1459%E2%80%931463)"
+          />{' '}
+          Za součásto tohoto konfliktu se někdy považuje i tzv.{' '}
+          <i>Diecézní spor v Mohuči</i>, známý také jako{' '}
+          <i>bádensko - falcká válka</i>, vojenský konflikt o stolec arcibiskupa
+          v Mohuči.
+          <Qt
+            publication={PUBLICATIONS.WIKI}
+            href="https://de.wikipedia.org/wiki/Mainzer_Stiftsfehde"
+          />
         </p>
+      </Col>
+      <ImageWithTitle
+        src="LudvikIX.jpg"
+        width={1200}
+        height={747}
+        title="Vítězství v bitvě u Giengenu 1462, obraz Hanse Werla, okolo roku 1603"
+      />
+    </Row>
+    <Row>
+      <Col>
         <h5>Předehra</h5>
         <p>
           Bavorsko-landshutský vévoda Ludvík IX. Bohatý (1450 - 1479), byl vedle
@@ -53,6 +72,32 @@ export const BavorskaValka = () => (
             href="https://digi20.digitale-sammlungen.de/en/fs1/object/display/bsb00045259_00159.html"
           />
         </p>
+      </Col>
+    </Row>
+    <Row>
+      <ImageWithTitle
+        md={3}
+        src="Julius_Zimmermann_-_Ludwig_IX._der_Reiche_(geb._1417,_reg._1450-1479),_Herzog_von_Bayern-Landshut_-_4541_-_Bavarian_State_Painting_Collections.jpg"
+        width={574}
+        height={768}
+        title="Ludvík IX. Bavorský, obraz německého malíře Julia Zimmermana (1824 - 1906)"
+      />
+      <ImageWithTitle
+        src="Albrecht_Achilles_auf_der_Predella_des_von_ihm_gestifteten_Schwanenordensaltars.jpg"
+        width={2592}
+        height={1944}
+        title="Vyobrazení Albrechta Achilla na predelle jím darovaného oltáře Labutího řádu (1484) v kostele sv. Gumberta."
+      />
+      <ImageWithTitle
+        md={3}
+        src="Friedrich_der_Siegreiche_von_Albrecht_Altdorfer.jpg"
+        width={882}
+        height={1203}
+        title="Fridrich I. Falcký, obraz Albrechta Altdorfera (1480 - 1538)"
+      />
+    </Row>
+    <Row>
+      <Col>
         <p>
           Ale obzvláště vztah kurfiřta Friedricha I. Falckého k&nbsp;císaři
           Fridrichovi III. skrýval vysoký potenciál konfliktů, protože císař
@@ -92,12 +137,13 @@ export const BavorskaValka = () => (
           Na druhé straně se k&nbsp;markraběcí politice připojila knížata
           v&nbsp;jihozápadním Německu, která se rovněž cítila ohrožena
           expansivní teritoriální politikou falckraběte Friedricha I. Vítězného.
-          Svazek mezi markrabětem braniborským, vévodou Vilémem Saským,
-          markrabětem Karlem Bádenským, hrabětem Ulrichem
-          Würtembersko-stuttgartským a arcibiskupem Dietherem Míšeňským byl,
-          stejně jako obnovený wittelsbašský spolek, uzavřen roku 1458. Tím byla
-          připravena půda pro rozhodující střetnutí. A příslušný podnět pro
-          vypuknutí konfliktů na sebe skutečně nenechal dlouho čekat.
+          Tzv. protifalcká aliance mezi markrabětem braniborským, vévodou
+          Vilémem Saským, markrabětem Karlem Bádenským, hrabětem Ulrichem
+          Würtembersko-stuttgartským a mohučským arcibiskupem Dietherem von
+          Isenburg byla, stejně jako obnovený wittelsbašský spolek, uzavřena
+          roku 1458. Tím byla připravena půda pro rozhodující střetnutí. A
+          příslušný podnět pro vypuknutí konfliktů na sebe skutečně nenechal
+          dlouho čekat.
           <Qt
             publication={PUBLICATIONS.TRESP}
             href="https://digi20.digitale-sammlungen.de/en/fs1/object/display/bsb00045259_00159.html"
@@ -147,14 +193,14 @@ export const BavorskaValka = () => (
           />
         </p>
         <p>
-          Takzvané „slepé verdikty“ rozhodčího soudu, který zasedal ještě
-          v&nbsp;červenci 1459 v&nbsp;Norimberku, byly jednostranným úspěchem
-          diplomacie markraběte Braniborského (127). V&nbsp;podstatných bodech
-          se rozhodlo proti zájmům Wittelsbachů a také v&nbsp;důležité otázce na
-          oblast příslušnosti norimberského soudu dovolovala nejasná formulace
-          rozhodčího soudu výklad ve smyslu markraběte Albrechta. Napětí mezi
-          stranami v&nbsp;Říši tedy stále trvalo, takže nové vypuknutí
-          otevřených nepřátelství bylo nadále jen otázkou času.
+          Takzvané &bdquo;slepé verdikty&ldquo; rozhodčího soudu, který zasedal
+          ještě v&nbsp;červenci 1459 v&nbsp;Norimberku, byly jednostranným
+          úspěchem diplomacie markraběte Braniborského (127). V&nbsp;podstatných
+          bodech se rozhodlo proti zájmům Wittelsbachů a také v&nbsp;důležité
+          otázce na oblast příslušnosti norimberského soudu dovolovala nejasná
+          formulace rozhodčího soudu výklad ve smyslu markraběte Albrechta.
+          Napětí mezi stranami v&nbsp;Říši tedy stále trvalo, takže nové
+          vypuknutí otevřených nepřátelství bylo nadále jen otázkou času.
           <Qt
             publication={PUBLICATIONS.TRESP}
             href="https://digi20.digitale-sammlungen.de/en/fs1/object/display/bsb00045259_00160.html"
@@ -207,8 +253,9 @@ export const BavorskaValka = () => (
           V březnu 1460 vypukl otevřeně ozbrojený konflikt, vedený podle
           tradičních forem sváru. Když hrabě Oldřich V. Württemberský (vládl
           1433–1480) a falcký hrabě Ludvík Falcký-Zweibrückenský, spojenci
-          Albrechta III. Achilla, zaútočili na kurfiřtství Falcké, Ludvík Bohatý
-          se postavil na stranu kurfiřta Fridricha Falckého
+          Albrechta III. Achilla, zaútočili na kurfiřtství Falcké v rámci
+          bádensko-falcké války, Ludvík Bohatý se postavil na stranu kurfiřta
+          Fridricha Falckého
           <Qt
             publication={PUBLICATIONS.WIKI}
             href="https://de.wikipedia.org/wiki/Bayerischer_Krieg_(1459%E2%80%931463)"
@@ -240,33 +287,34 @@ export const BavorskaValka = () => (
         <p>
           <b>5. května 1460</b> se před Rothem objevil markrabě Albrecht s
           vojskem o síle asi 10&nbsp;000 mužů a utábořil se s&nbsp;ním ve
-          „vzdálenosti na dostřel z&nbsp;kulovnice“ od bavorského vojenského
-          tábora. Během následujících sedmi týdnů nedošlo k&nbsp;větším, pro
-          průběh války případně rozhodujícím bojům i když soupeři leželi tak
-          blízko proti sobě. Místo toho docházelo skoro denně k&nbsp;menším
-          potyčkám mezi tábory nebo ke vzájemnému ostřelování z&nbsp;vozové
-          hradby. Zároveň dorazily před Roth další posily, takže vojska dále
-          rostla. Vévoda Ludvík měl mít nakonec ve svém vojsku asi 30&nbsp;000
-          mužů, markrabě o několik tisíc méně. Vzhledem k&nbsp;dramaticky
-          napjaté situaci před obleženým Rothem, ve které nebyla žádná strana
-          ochotna ustoupit, mohla rozhodující bitva vypuknout každým okamžikem.
-          Mezitím však opět stoupaly na obou stranách diplomatické snahy o
-          mírové vyřešení konfliktu a přinesly brzy první úspěchy, i když oba
-          hlavní soupeři byli sotva nakloněni míru. Vévoda Ludvík se považoval
-          za vojenského vítěze války, zatímco markrabě Albrecht požadoval
-          stažení bavorského vojska dříve, než chtěl vůbec jednat. Teprve
-          hrozící rozpad jeho vojska odchodem saských spojenců donutil
-          markraběte Albrechta nakonec ustoupit. Výsledkem smírčích vyjednávání
-          byla tzv. <i>Rothská směrnice</i> z&nbsp;<b>24. června 1460</b>, která
-          se jeví jako naprostý úspěch wittelsbašské politiky. „Slepé verdikty“
-          z&nbsp;Norimberku byly anulovány, příslušnost norimberského soudu byla
-          značně omezena, biskupství Eichstätt zůstalo pod bavorským vlivem a
-          vévoda Ludvík nemusel vyklidit obsazená markraběcí území. Ohledně
-          dalších sporných otázek, jako odškodné za válečné náklady nebo
-          vyklizení obsazených oblastí, měl být rozhodčím soudcem český král
-          Jiří z Poděbrad. Když <b>4. července 1460</b> porazil také falckrabě
-          Friedrich své protivníky v&nbsp;bitvě u Pfeddersheimu, zdálo se, že
-          Wittelsbachové a jejich spojenci triumfují na celé čáře.
+          &bdquo;vzdálenosti na dostřel z&nbsp;kulovnice&ldquo; od bavorského
+          vojenského tábora. Během následujících sedmi týdnů nedošlo
+          k&nbsp;větším, pro průběh války případně rozhodujícím bojům i když
+          soupeři leželi tak blízko proti sobě. Místo toho docházelo skoro denně
+          k&nbsp;menším potyčkám mezi tábory nebo ke vzájemnému ostřelování
+          z&nbsp;vozové hradby. Zároveň dorazily před Roth další posily, takže
+          vojska dále rostla. Vévoda Ludvík měl mít nakonec ve svém vojsku asi
+          30&nbsp;000 mužů, markrabě o několik tisíc méně. Vzhledem
+          k&nbsp;dramaticky napjaté situaci před obleženým Rothem, ve které
+          nebyla žádná strana ochotna ustoupit, mohla rozhodující bitva
+          vypuknout každým okamžikem. Mezitím však opět stoupaly na obou
+          stranách diplomatické snahy o mírové vyřešení konfliktu a přinesly
+          brzy první úspěchy, i když oba hlavní soupeři byli sotva nakloněni
+          míru. Vévoda Ludvík se považoval za vojenského vítěze války, zatímco
+          markrabě Albrecht požadoval stažení bavorského vojska dříve, než chtěl
+          vůbec jednat. Teprve hrozící rozpad jeho vojska odchodem saských
+          spojenců donutil markraběte Albrechta nakonec ustoupit. Výsledkem
+          smírčích vyjednávání byla tzv. <i>Rothská směrnice</i> z&nbsp;
+          <b>24. června 1460</b>, která se jeví jako naprostý úspěch
+          wittelsbašské politiky. &bdquo;Slepé verdikty&ldquo; z&nbsp;Norimberku
+          byly anulovány, příslušnost norimberského soudu byla značně omezena,
+          biskupství Eichstätt zůstalo pod bavorským vlivem a vévoda Ludvík
+          nemusel vyklidit obsazená markraběcí území. Ohledně dalších sporných
+          otázek, jako odškodné za válečné náklady nebo vyklizení obsazených
+          oblastí, měl být rozhodčím soudcem český král Jiří z Poděbrad. Když{' '}
+          <b>4. července 1460</b> porazil také falckrabě Friedrich své
+          protivníky v&nbsp;bitvě u Pfeddersheimu, zdálo se, že Wittelsbachové a
+          jejich spojenci triumfují na celé čáře.
           <Qt
             publication={PUBLICATIONS.TRESP}
             href="https://digi20.digitale-sammlungen.de/en/fs1/object/display/bsb00045259_00162.html"
@@ -396,6 +444,159 @@ export const BavorskaValka = () => (
             href="https://digi20.digitale-sammlungen.de/en/fs1/object/display/bsb00045259_00165.html"
           />
         </p>
+      </Col>
+    </Row>
+    <Row>
+      <Col>
+        <div className={styles.factbox}>
+          <h6>Bádensko-falcká válka a Bitva u Seckenheimu</h6>
+          <p>
+            Byla součástí arcibiskupského sporu o obsazení mohučské arcidiecéze,
+            známého také jako bádensko-falcká válka. V roce 1459 byl těsnou
+            většinou proti Adolfu von Nassau zvolen novým arcibiskupem v Mohuči
+            správce katedrály Diether von Isenburg. Cenou za toto zvolení bylo
+            připojení se k protifalcké alianci a Diether tak byl nucen výthanout
+            proti falckraběti Fridrichu I., ale <b>4. července 1460</b> prohrál
+            rozhodující bitvu u Pfeddersheimu. V roce 1461 svolal Diether v
+            Norimberku knížecí sněm, kde se zasazoval o císařské a církevní
+            reformy. Důrazně požadoval zrušení požadavků na papežský annát
+            prostřednictvím všeobecného koncilu. Tento jeho kritický postoj vůči
+            papeži Piovi II. a císaři Fridrichu III. vedl k tmu, že byl{' '}
+            <b>21. srpna 1461</b> papežem sesazen a exkomunikován.
+            <Qt
+              publication={PUBLICATIONS.WIKI}
+              href="https://de.wikipedia.org/wiki/Diether_von_Isenburg"
+            />{' '}
+            Papež pak <b>1. října 1461</b> dosadil na arcibiskupský stolec v
+            Mohuči jeho protivníka Adolfa von Nassau. Diether se však odmítl
+            arcibiskupství vzdát, přičemž ho podporovaly město Mohuč, jeho bratr
+            Ludvík a nově také jeho bývalý nepřítel Fridrich I. Falcký, který za
+            svou pomoc obdržel města Lorsch, Heppenheim a Bensheim. Adolf se
+            spojil s trevírským arcibiskupem Janem II. z Bádenska, biskupem
+            Jiřím z Met, biskupem Janem II. z Hohenecku ze Špýru a hrabětem
+            Oldřichem V. z Württembergu . Markrabě Karel I. z Bádenska se
+            zpočátku pokusil o zprostředkování mezi válčícími frakcemi, ale poté
+            se po boku svého bratra, biskupa Jiřího z Met, postavil na Adolfovu
+            stranu, což vedlo k bádensko-falcké válce, pokusu o násilné dobytí
+            diecéze.
+            <Qt
+              publication={PUBLICATIONS.WIKI}
+              href="https://de.wikipedia.org/wiki/Mainzer_Stiftsfehde"
+            />
+          </p>
+          <p>
+            Odpůrci Fridricha I. měli v úmyslu vpadnout do Falce z jihu, protože
+            se domnívali, že kurfiřt je se svými vojsky v Bavorsku, aby pomohli
+            vévodovi Ludvíkovi IX. proti Albrechtu III. Achillovi a proto
+            shromáždili poblíž Pforzheimu armádu o síle 10 000 mužů. Mezi Rothem
+            a St. Leonem byl zřízen vojenský tábor a jízda složená z knížat a
+            rytířů vypálila okolní pole a vesnice a zmasakrovali obyvatele.
+            Fridrich I. nařídil svým vazalům a jejich ozbrojencům dorazit se do
+            Leimenu, kde mohl nepozorovaně shromáždit svá vojska. Sám dorazil až
+            29. června a odtud pozoroval noční aktivity svých nepřátel. Kurýři
+            se vydali k mohučskému arcibiskupovi Dietrichovi von Isenburg,
+            hrabatům z Leiningenu a Katzenelnbogenu, kteří byli na levém břehu
+            Rýna a byli připraveni pochodovat přes Altrip do Dolního
+            Dossenwaldu. Počet bojovníků, kteří si na oděv připnuli ořechové
+            listy, identifikačná znamení falckých, se zvýšil kvůli velkému
+            přílivu rolníků z regionu. Bádenští naopak si na oděv připnuli trsy
+            ovsa.
+            <Qt
+              publication={PUBLICATIONS.SECKENHEIM}
+              href="https://www.historisches-seckenheim.de/index.php/ortsgeschichte/123-schlacht-bei-seckenheim"
+            />
+          </p>
+          <p>
+            V noci na 30. června pochodoval s asi 300 jezdci a dalšími pěšáky
+            přes Schwetzingenský les k „Frohnholzu“ (dnešní Dossenwald) jižně od
+            Seckenheimu, který císařská vojska hodlala následující den vypálit.
+            Během pochodu byla falcká vojska byla posílena dalšími asi 300
+            jezdci a dalšími pěšáky z kontingentů mohučského arcibiskupa
+            Diethera von Isenburga a hraběte Philippa von Katzenelnbogen.
+            <Qt
+              publication={PUBLICATIONS.SECKENHEIM}
+              href="https://www.historisches-seckenheim.de/index.php/ortsgeschichte/123-schlacht-bei-seckenheim"
+            />
+          </p>
+          <p>
+            Když císařští útočníci následujícího rána vyrazili ze svého
+            opevněného tabora a postupovali na Seckenheim s 700 až 800 jezdci
+            aby jej vypálili, nečekaně je zezadu napadlo 600 jezdců falcké
+            strany, s bojovým pokřikem hraběte Falckého:{' '}
+            <Cit>Hut Palatzgraff oder nimmer mee!</Cit> (Vydrž, falckrabě, nebo
+            už nikdy!)
+            <Qt
+              publication={PUBLICATIONS.SECKENHEIM}
+              href="https://www.historisches-seckenheim.de/index.php/ortsgeschichte/123-schlacht-bei-seckenheim"
+            />
+            , přičemž pěchotu o síle asi 2000 mužů udržoval Fridrich I. mimo
+            dohled v nedalekém lese. Fridrichova méně početná jízda zaujala
+            echelonovou formaci s těžkooděnci uprostřed a dvěma řadami jízdních
+            střelců na křídlech. Po krátké úvodní přestřelce se na sebe vrhla
+            těžká jízda obou armád a Fridrichovi rytíři jen s obtíženi zabránili
+            spojenckým těžkooděncům v průniku. Zatímco spolu jezdci bojovali,
+            Fridrichova pěchota se vynořila ze svého úkrytu a obklíčila císařské
+            spojence.Skupina asi 300 spojeneckých jezdců si sice prorazila cestu
+            ven a poté zaútočila na falcké podkoní, kteří čekali na své
+            ozbrojence, a pobila je, ale na výsledku bitvy to již nic nezměnilo.
+            <Qt
+              publication={PUBLICATIONS.WIKI}
+              href="https://en.wikipedia.org/wiki/Battle_of_Seckenheim"
+            />
+            Oldřich z Württembergu sice odmítl přijmout porážku, byl však vyzván
+            k souboji Hansem von Gemmingenem, který křičel:{' '}
+            <Cit>Zkusím štěstí s Vaší Milostí!</Cit> a byl poražen. Bylo zabito
+            45 spojeneckých rytířů a přibližně 400 dalších jezdců zajato. Zbytek
+            se rozptýlil po okolí a donesl hroznou zprávu do tábora v St. Leon.
+            Tam se v panice vydali na zpáteční cestu, obávajíc se pomsty hraběte
+            Falckého a jeho rozzuřených poddaných. Falcká armáda dosáhla
+            rozhodujícího vítězství, když zabila 45 rytířů a zajala 124
+            šlechticů a 204 panošů, přičemž sama jich přišla o 12 mrtvých
+            rytířů. Mezi zajatými byli tři nepřátelští vůdci, markrabě Karel I.
+            Bádenský se 40 šlechtici a 79 panoši, hrabě Oldřich z Württembergu
+            se 45 šlechtici a 71 panoši a biskup Jiří z Met se 39 šlechtici a 53
+            panoši. Pouze Ludvík ze Zweibrückenu se zajetí vyhnul. Do
+            následujícího roku byla knížata vykoupena za velké částky a významná
+            území.
+            <Qt
+              publication={PUBLICATIONS.SECKENHEIM}
+              href="https://www.historisches-seckenheim.de/index.php/ortsgeschichte/123-schlacht-bei-seckenheim"
+            />
+          </p>
+          <Link href="/images/Feldplan960.jpg" target="_blank">
+            <Image
+              src="/images/Feldplan960.jpg"
+              width={734}
+              height={960}
+              alt="Plánek polního tažení z července 1462"
+              className="fit"
+            />
+          </Link>
+          <p>
+            <br />
+            Diecézní spor však ještě neskončil. Další boje si vyžádaly mnoho
+            obětí a způsobily všude zkázu a samotné město Mohuč utrpělo vážné
+            škody. V noci <b>28. října 1462</b> se Adolfovi von Nassau podařilo
+            zradou mohučských občanů proniknout do města s 500 muži přes Gautor
+            a po 12 hodinách pouličních bojů se ho zmocnil. 400 lidí přišlo o
+            život a Adolfovi muži město vyplenili a vypálili, včetně
+            dominikánského kláštera . Jako „trest“ za podporu Diethera Adolf
+            zbavil město jeho výsad svobody a tím i jeho statusu svobodného
+            města; město se dostalo pod správu vicedoma jmenovaného arcibiskupem
+            . Následujícího dne byli občané svoláni na Dietmarkt . Všech 800
+            občanů, kteří se dostavili, bylo z města vyhnáno; asi 400 z nich
+            bylo o něco později znovu přijato a bylo jim dovoleno zůstat v
+            Mohuči.
+            <Qt
+              publication={PUBLICATIONS.WIKI}
+              href="https://de.wikipedia.org/wiki/Mainzer_Stiftsfehde"
+            />
+          </p>
+        </div>
+      </Col>
+    </Row>
+    <Row>
+      <Col>
         <p>
           Ani tyto úspěchy Wittelsbachů však neukončily válku. Místo toho se
           projevilo vysoké zatížení bavorských financí vedením války, především
@@ -441,360 +642,6 @@ export const BavorskaValka = () => (
             publication={PUBLICATIONS.TRESP}
             href="https://digi20.digitale-sammlungen.de/en/fs1/object/display/bsb00045259_00166.html"
           />
-        </p>
-      </Col>
-      <ImageWithTitle
-        md={4}
-        src="Schilling_Ochsenfeld.jpg"
-        width={1500}
-        height={2300}
-        title="Zásobovací vůz Švýcarů (Eidgenossen) je napaden rytíři Předních Rakous. Zobrazení, Luzerner Chronik (1513)"
-      />
-    </Row>
-    <Row>
-      <Col>
-        <h5>Habsburkové, šlechta a říšské stavy</h5>
-        <p>
-          K obraně města Waldshut bylo k dispozici přibližně 800 mužů. Velení
-          měl Werner von Schienen (1410–1496). Mezi obránce patřili také Wilhelm
-          Herter von Hertneck a Bilgeri von Heudorf. Místní šlechta se již při
-          prvním vpádu Spříseženců do oblasti Klettgau uchýlila do Waldshutu.
-          Předněrakouská města Breisach, Neuenburg am Rhein a Freiburg im
-          Breisgau vyslala pomocné oddíly.
-        </p>
-        <p>
-          Waldshut byl chráněn kruhovou hradbou s pěti věžemi, před níž se
-          nacházel hluboký příkop a místy také řeka Rýn.
-        </p>
-        <p>
-          Breisgauské rytířstvo obsadilo úsek Horního Rýna mezi Rheinfeldenem a
-          Laufenburgem a odvedenci z předněrakouského Breisgau obsadili
-          Schwarzwald, aby zabránili jeho obyvatelům připojit se ke Švýcarům. V
-          této oblasti nasadil vévoda Zikmund také české oddíly. Přesný počet
-          jednotek, které Zikmund během Waldshutské války nasadil, není
-          spolehlivě znám, avšak značně převyšoval počet samotných obránců přímo
-          ve Waldshutu.
-        </p>
-        <p>
-          Markrabě Karel I. z Bádenu se obával, že by Spříseženci mohli z
-          oblasti Mülhausenu zaútočit na markrabství Baden-Hachberg, které se v
-          roce 1415 vrátilo k hlavní větvi rodu Bádenských, a proto také vyslal
-          vojska k obsazení dalších tzv. lesních měst (Waldstädte). Hrabě Ulrich
-          V. z Württemberska rovněž zahájil přípravy poté, co se rozšířila
-          zpráva, že Spříseženci hodlají oblehnout město Villingen. Bavorský
-          vévoda Ludvík Bohatý nabídl vévodovi Zikmundovi pomoc a
-          zprostředkování.
-        </p>
-        <p>
-          Větší vpád Spříseženců a obsazení Schwarzwaldu by pravděpodobně přiměl
-          jihoněmecká knížata k zásahu, avšak v případě ohrožení pohraničního
-          města Waldshut projevovala jen malou ochotu k rozhodné pomoci.
-        </p>
-      </Col>
-    </Row>
-    <Row>
-      <Col>
-        <h5>Spříseženectví</h5>
-        <p>
-          I když spojenecké smlouvy s Mülhausenem a Schaffhausenem uzavřelo
-          pouze několik kantonů ze staré osmičlenné švýcarské konfederace (VIII
-          Orte), do války proti vévodovi Zikmundovi se jich zapojilo všech osm a
-          navíc i několik tzv. přidružených kantonů (zugewandte Orte) a dokonce
-          i opat z kláštera sv. Havla (St. Gallen) vyslal vojáky.
-        </p>
-        <p>
-          Spříseženci neměli žádného vrchního velitele; rozhodnutí činila rada
-          hlavních kapitánů. Ti byli zároveň v písemném spojení se svými
-          domovskými kantony a mnohdy si museli vyžádat zpětné schválení pro
-          další kroky. Za prvního kapitána, který svolával porady, byl považován
-          velitel curyšského kontingentu.
-        </p>
-        <p>
-          Curyšskému vojsku velel Eberhard Ottikon. Jedním z hlavních velitelů
-          curyšského oddílu byl i pozdější starosta a vojevůdce Hans Waldmann.
-          Mezi luzernskými jednotkami se nacházel i letopisec Petermann
-          Etterlin. Bernští byli vedeni Petermannem von Wabern, Niklausem von
-          Scharnachthal a Niklausem von Diesbach.
-        </p>
-        <p>
-          Celková velikost obléhajícího vojska dosáhla 16 000 mužů až ke konci
-          obléhání, kdy dorazily dodatečné posily z domovských kantonů. Část sil
-          byla zároveň vázána loupeživými výpravami do Schwarzwaldu a zajištěním
-          obléhání proti případnému osvobození města.
-        </p>
-        <p>
-          Na řece Rýn před Waldshutem měla bernská vojska dvě lodě a Lucern
-          jednu, z nichž bylo ostřelováno městské opevnění.
-        </p>
-      </Col>
-    </Row>
-    <Row>
-      <Col>
-        <h5>Průběh</h5>
-        <p>
-          Zatímco hlavní síly Eidgenossen se stále nacházely v oblasti Sundgau,
-          vyslali také 2 000 mužů jako posily do Schaffhausenu. Odtud pak od 27.
-          června 1468 táhli pod velením curyšského kapitána Felixe Kellera
-          pustošícím tažením oblastí Klettgau a 29. června dobyli městečko
-          Erzingen.
-        </p>
-        <h6>Vpád do Schwarzwaldu</h6>
-        <p>
-          <b>6. července 1468</b> podnikli Spříseženci další loupeživé tažení do
-          Schwarzwaldu, přičemž cílem se stal klášter St. Blasien, známý svou
-          věrností Habsburkům. V obcích Bürglen a Indlekofen byly vyrabovány
-          majetky patřící tomuto klášteru. U Remetschwielu narazili na opevnění
-          (Letze), které bránili rolníci z oblasti Hauenstein.
-        </p>
-        <p>
-          Po dobytí této obranné linie <b>7. července 1468</b> za pomoci dvou
-          oddílů, jednoho ze Schaffhausenu a druhého ze Sundgau, měli
-          Spříseženci volnou cestu ke klášteru St. Blasien. U obce Häusern jim
-          vyšel vstříc opat Christoph von Greuth a podařilo se mu je přimět k
-          ústupu výměnou za platbu 1500 zlatých.
-        </p>
-        <p>
-          Při zpáteční cestě Spřiseženci vypálili město Waldkirch, obsadili
-          Tiengen, léno kostnického biskupství, které měl v zásatavě Bilgeri von
-          Heudorf a ponechali zde 600 mužů. Rakouský dvorní maršálek Jakob Trapp
-          požádal z kláštera St. Blasien město Freiburg o další posily a
-          vyjádřil obavu, že se celý Schwarzwald chce stát švýcarským.
-        </p>
-      </Col>
-    </Row>
-    <Row>
-      <Col md={6}>
-        <h6>Obléhání Waldshutu</h6>
-        <p>
-          <b>19. července 1468 </b> se hlavní oddíly Spříseženců, které se
-          účastnily tažení v Sundgau, shromáždily na Rafzerfeldu.{' '}
-          <b> 20. července 1468</b> pak Spříseženci na sněmu v Lucernu – hlasy
-          kantonů Uri, Schwyz, Unterwalden, Zug, Glarus a Schaffhausen –
-          rozhodli o vojenském tažení proti Waldshutu.
-        </p>
-        <p>
-          Jako první dorazili <b>22. července 1468</b> Luzernští spolu s
-          jednotkami z Glarusu, Schwyzu a Zugu k jižnímu břehu Rýna před
-          Waldshut. Curyšští a Schaffhausenští, kteří se už od{' '}
-          <b>20. července 1468</b> nacházeli v Tiengenu, vyrazili směrem k
-          městu. Zbylé jednotky – především těžké bombardy z Curychu a Bernu
-          určené k ostřelování městských hradeb – přicházely postupně, takže se
-          první kanonáda na město odhaduje na <b>29. července 1468</b>.
-        </p>
-        <p>
-          Během obléhání mělo být na město a jeho opevnění vystřeleno asi 280
-          těžkých kamenných koulí a dalších 248 menších střel z moždířů.
-          Ostřelování mimo jiné zničilo městské mlýny, což obyvatelé nahradili
-          stavbou a používáním šlapacích kol. Jelikož obléhatelé také odklonili
-          přívod vody do města a čerpání vody z Rýna bylo kvůli nepřátelské
-          palbě nebezpečné, vykopali obránci studnu u Rýnské brány.
-        </p>
-        <p>
-          Vévodský dvorní maršálek Jakob Trapp zorganizoval dva pokusy o
-          zásobení města municí a potravinami:
-        </p>
-        <ol>
-          <li>
-            V noci z 3. na 4. srpna byl v Laufenburgu shromážděn oddíl o 1200
-            mužích, který postupoval po levém břehu Rýna až k obci Full a
-            pokusil se odtud dostat přes řeku do města. Ačkoli byl v tomto úseku
-            obléhací prstenec Spříseženstva jen slabě osazen, pokus byl z větší
-            části neúspěšný – do města se s menším množstvím zásob dostalo pouze
-            asi 200 mužů.
-          </li>
-          <li>
-            Druhý pokus, uskutečněný v noci z 8. na 9. srpna, zcela selhal,
-            protože Švýcaři mezitím posílili obranu této oblasti na 400 mužů.
-          </li>
-        </ol>
-      </Col>
-      <ImageWithTitle
-        md={6}
-        src="Burgunderchronik_Waldshuterkrieg_1468.png"
-        width={1203}
-        height={1566}
-        title="Příchod posílených bernských jednotek před obležené město Waldshut, Amtliche Berner Chronik (1478 - 1483)"
-      />
-    </Row>
-    <Row>
-      <Col>
-        <p>
-          Také samotní obránci města nezůstali pasivní – podnikli několik
-          výpadů, při nichž způsobili obléhatelům ztráty.
-        </p>
-        <p>
-          Zemský fojt Thüring III. von Hallwyl zřídil svůj hlavní stan v
-          Laufenburgu a mezi Albbruckem a Dogernem byla zřízena opevněná pozice
-          s 1300 muži. V oblasti St. Blasien shromáždil vévoda Zikmund asi 1600
-          českých žoldnéřů, kteří se však nikdy účinně nezapojili do bojů.
-        </p>
-        <p>
-          Kvůli zprávám o předněrakouských jednotkách a pověstem o chystaných
-          posilách pod vedením vévody Zikmunda požádali Spříseženci{' '}
-          <b>10. srpna 1468</b> své domovské kantony o další vojáky. Ti skutečně
-          dorazili a celkový počet obléhatelů vzrostl na 16 000 mužů.
-        </p>
-        <p>
-          Situace uvnitř města se stále více zhoršovala — zásobování kolabovalo,
-          městské hradby byly silně poškozeny neustálým ostřelováním a
-          Habsburkové ani šlechta nebyli ochotni ani schopni podniknout rozhodný
-          pokus o osvobození města.
-        </p>
-        <p>
-          <b>17. srpna 1468</b> naplánovali Spříseženci přímý útok na město,
-          který se měl uskutečnit o dva dny později. Zároveň však již probíhala
-          mírová jednání, a proto byl útok odložen. V táboře Spříseženců navíc
-          došlo k vážným rozporům mezi kantony Curych a Bern.
-        </p>
-        <p>
-          <b>21. srpna 1468</b> podnikli Luzernští s podporou kantonů Schwyz,
-          Glarus a Appenzell loupeživý vpád do Bonndorfu ve Schwarzwaldu, který
-          byl při tom vypálen. Při ústupu byl tento oddíl napaden jednotkami
-          Zikmunda a dokázal svou kořist (mimo jiné 400 kusů dobytka) dopravit
-          do tábora jen s pomocí vojsk z Curychu a Zugu. Dne 24. srpna pak došlo
-          k dalším bojům u opevnění u Albbrucku.
-        </p>
-        <p>
-          Zájmy curyšských obchodníků sahaly až do Waldshutu a existovaly také
-          rodinné vazby. Formálně Curyšští argumentovali tím, že útok na město
-          by byl možný jen za cenu vysokých vlastních ztrát. Politicky však
-          neměl Curych zájem na tom, aby si Bern prostřednictvím dobytého
-          Waldshutu zajistil vliv v této oblasti.
-        </p>
-        <p>
-          Curych byl podporován východo- a vnitrošvýcarskými kantony, zatímco
-          Bern měl na své straně Solothurn a Lucern. Tyto rivality uvnitř tábora
-          Spříseženců nakonec vedly k ukončení obléhání.
-        </p>
-      </Col>
-      <ImageWithTitle
-        md={6}
-        src="Tschachtlan_Waldshut_1468_1.jpg"
-        width={913}
-        height={788}
-        title="Spříseženci obléhají Waldshut, Tschachtlanchronik (1470)"
-      />
-    </Row>
-    <Row>
-      <Col>
-        <h5>Mírová smlouva a důsledky</h5>
-        <p>
-          Zejména město Basilej se prostřednictvím svého starosty Petera Rota a
-          knížecích biskupů Johanna V. von Venningen (biskup basilejský) a
-          Hermanna III. von Breitenlandenberg (biskup kostnický) snažilo
-          zprostředkovat mírové urovnání mezi Spříseženectvím a Habsburky. Do
-          jednání se zapojili také rádci vévody Ludvíka Bavorského a markraběte
-          Rudolfa z Hachberg-Sausenbergu, za něhož u jednacího stolu vystupoval
-          Hans von Flachslanden.
-          <b>14. srpna 1468</b> navázali prostředníci kontakt s hlavními
-          veliteli Spříseženců a 16. srpna začala v Dogernu mírová jednání,
-          která vyústila 27. srpna v podpis mírové smlouvy, známé jako
-          Waldshuter Richtung. Podle této smlouvy se vévoda Zikmund zavázal do{' '}
-          <b>24. června 1469</b> vyplatit válečné odškodnění ve výši 10 000
-          zlatých. Jako záruku poskytl Spřísežencům město Waldshut a
-          předněrakouskou část Schwarzwaldu. Waldshutská válka vedla jen k
-          minimálním územním změnám. Jedinou výjimkou bylo panství Wessenberg
-          jižně od Rýna s vesnicemi Hottwil a Mandach, které dobyl Bern a
-          připojil je ke své zemské správě Schenkenberg.
-        </p>
-        <p>
-          Obléhání Waldshutu bylo ukončeno <b>28. srpna 1468</b>. Vévoda Zikmund
-          si poté vypůjčil od vévody Burgundského Karla Smělého částku 50 000
-          zlatých prostřednictvím smlouvy ze Saint-Omer, za což mu zastavil
-          předněrakouská území v Breisgau a Horním Alsasku. Správu těchto
-          zastavených území nejprve převzala komise pod vedením markraběte
-          Rudolfa z Hachberg-Sausenbergu, která vyhotovila zprávu o jejich
-          stavu. Následně Karel Smělý jmenoval Petera von Hagenbacha zemským
-          fojtem, který svůj úřad převzal v listopadu 1468. Zikmund vyplatil
-          Spřísežencům válečné odškodnění ve výši 10 000 zlatých dne{' '}
-          <b>23. června 1469</b>. Starosta Schaffhausenu však musel na vrácení
-          svého výkupného ve výši 1 800 zlatých, které mu dle smlouvy také
-          náleželo, čekat až do roku 1476. Císař Fridrich III., bratranec vévody
-          Zikmunda, prohlásil <b>26. května 1469</b> mírovou smlouvu za
-          neplatnou a 31. srpna uvalil na Spříseženectví říšskou klatbu
-          (Reichsacht). Ani jedno z těchto rozhodnutí však nemělo žádné reálné
-          následky.
-        </p>
-        <p>
-          Waldshut sice během obléhání utrpěl značné škody, nicméně císař
-          Fridrich III. dne 21. listopadu 1468 obnovil městská privilegia, a
-          navíc <b>24. února 1469</b> udělil městu právo vybírat vodní clo na
-          všechny dovozní zboží po řekách Aare, Reuss a Limmat. Vévoda Zikmund
-          vystavil městu <b>8. září 1468</b> tzv. <Cit>Schadlosbrief</Cit>{' '}
-          (listina o náhradě škody), v níž se zavázal nahradit škody vzniklé
-          obléháním. Tento závazek splnil tím, že městu zastavil právo vybírat
-          silniční clo, díky čemuž se město brzy hospodářsky zotavilo.
-        </p>
-        <p>
-          Francouzský král Ludvík XI. se pokusil získat jak Spříseženectví, tak
-          vévodu Zikmunda jako spojence proti Burgundsku a zprostředkoval mezi
-          nimi mír – tzv. Věčnou směrnici (Ewige Richtung). Poté, co Karel Smělý
-          padl roku 1477 v bitvě u Nancy, vévoda Zikmund znovu převzal do držení
-          zastavené Přední Rakousy, aniž by vrátil oněch 50 000 zlatých, které
-          si vypůjčil.
-          <Qt
-            publication={PUBLICATIONS.WIKI}
-            href="https://de.wikipedia.org/wiki/Waldshuterkrieg"
-          />
-        </p>
-      </Col>
-      <ImageWithTitle
-        md={6}
-        src="162Sigmund_verpfändet_BSE_an_Karl_v_Burgund.jpg"
-        width={3066}
-        height={4088}
-        title="Zastavení Breisgau, Sundgau a Alsaska ze strany rakouského vévody Zikmunda ve prospěch burgundského vévody Karla Smělého dne 9. května 1469, Luzerner Chronik (1513)"
-      />
-    </Row>
-    <Row>
-      <Col>
-        <h5>Účast českých žoldnéřů</h5>
-        <p>
-          Diebold Schilling ve své Die Berner-Chronik píše o účasti českých
-          žoldnéřů toto:
-          <Cit>
-            Bylo tehdy, když se tábořilo před Waldshutem, z říše od vévody
-            posláno asi šestnáct set Čechů na pomoc panstvu; a když přišli,
-            přesto se z jejich strany proti Spříseženectví nejednalo válečně,
-            neboť způsobili více škody přátelům než Spříseženectví. Přesto však
-            dal říšský vévoda prostřednictvím svého poselství Spříseženectví
-            vysvětlit, že je s vévodou Zikmundem Rakouským v dohodě, podle níž
-            mu musel poslat lidi, a i kdyby ti, které mu poslal, zůstali někde
-            cestou a nevrátili se domů, příliš mu na tom nezáleželo, neboť mu je
-            kvůli cti a na základě své dřívější písemné dohody, kterou spolu
-            ještě před touto válkou učinili, musel poslat; co by však jinak mohl
-            pro mír a dobro v této věci učinit a vyjednat, to chtěl učinit s
-            dobrou vůlí, tak jak to činil on i jeho předkové za oněch dřívějších
-            patnáctiletých mírů a v jiných záležitostech.
-          </Cit>
-          Tento zápis je doplněn velmi svérázným vyobrazením českých vojáků.
-        </p>
-        <p>
-          Zdá se, že české žoldnéře poslal Zikmundovi bavorský vévoda Ludvík IX.
-          v rámci spojenecké smlouvy, kterou se Zikmundem měl. Ludvík se o české
-          žoldnéře opíral dlouhodobě, zejména pak během tzv. Bavorské války
-          (1459 - 1463).
-          <Qt
-            publication={PUBLICATIONS.TRESP}
-            href="https://digi20.digitale-sammlungen.de/en/fs1/object/display/bsb00045259_00156.html"
-          />{' '}
-          Není proto s podivem, že je využil i v tomto konfliktu, o který však
-          příliš nestál a poskytl tedy jen takovou účast, aby nemohl být obviněn
-          z nedodržování spojeneckých smluv.
-        </p>
-        <p>
-          Čechy pravděpodobně předcházela vojenská jejich pověst, když i přes
-          svůj nízký počet stáli Schillingovi nejen za to, aby je zmínil, ale
-          aby vypíchl, že jeich přítomnost neměla žádný vojenský efekt.
-          Formulací, že{' '}
-          <Cit>způsobili více škody přátelům než Spříseženectví</Cit> narážel
-          Schilling nejspíše na rozšířený nešvar českých vojáků, kteří čím dále
-          byli od Čech, tím více rabovali.
-        </p>
-        <p>
-          Na doporovdné iluminaci jsou pak vyobrazení jako pohané a orientálci s
-          dlouhými vlasy, což je zjevně narážka na veřejné mínění o Češích coby
-          kacířích.
         </p>
       </Col>
     </Row>

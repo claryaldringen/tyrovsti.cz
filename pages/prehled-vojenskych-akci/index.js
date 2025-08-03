@@ -4,6 +4,7 @@ import { HeadExtended } from '../../components/HeadExtended'
 import { Sources } from '../../components/Quote/Sources'
 import { Payment } from '../../components/Payment'
 import { Waldshuterkrieg } from '../../components/Articles/cz/akce/Waldshuterkrieg'
+import { BavorskaValka } from '../../components/Articles/cz/akce/BavorskaValka'
 
 const Page = () => {
   return (
@@ -16,6 +17,7 @@ const Page = () => {
         <Row>
           <Col className="text">
             <h1>Přehled vojenských akcí 1434 - 1525</h1>
+            <BavorskaValka />
             <Waldshuterkrieg />
             <Sources />
             <Payment />
