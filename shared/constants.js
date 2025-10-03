@@ -267,4 +267,10 @@ export const PUBLICATIONS = {
     city: '',
     year: undefined,
   },
+  RAZIM1: {
+    name: 'Přemyslovské Křivoklátsko. 900 let hradu Křivoklátu',
+    author: 'Vladislav Razím',
+    city: 'Praha',
+    year: 2010,
+  },
 }
