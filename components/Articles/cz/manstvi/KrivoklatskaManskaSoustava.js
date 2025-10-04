@@ -33,7 +33,7 @@ export const KrivoklatskaManskaSoustava = () => (
         </p>
         <p>
           Po manově smrti dědili manství synové a vnuci, kteří museli zapatit
-          poplatek zvaný <i>laudemium</i>, do roka se ohlásti u purkrabího (nebo
+          poplatek zvaný <i>laudemium</i>, do roka se ohlásit u purkrabího (nebo
           hejtmana, pokud purkrabí nebyl k dispozici) a složit manskou přísahu.
           Byla-li tato lhůta promeškána, spadlo manství zpět na krále jako
           promlčené. To se stalo Majírkovi ze Sence roku 1389 a Valentovi z
