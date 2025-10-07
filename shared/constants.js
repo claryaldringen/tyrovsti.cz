@@ -273,4 +273,10 @@ export const PUBLICATIONS = {
     city: 'Praha',
     year: 2010,
   },
+  VILMOS: {
+    name: 'MÁTYÁS KIRÁLY LEVELEI. KÜLÜGYI OSZTÁLY. MÁSODIK KÖTET. 1480–1490.',
+    author: 'Fraknói Vilmos',
+    city: 'Budapešť',
+    year: 1895,
+  },
 }
