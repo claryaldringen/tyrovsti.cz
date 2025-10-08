@@ -14,12 +14,6 @@ export const CernaArmada = () => (
       </Col>
     </Row>
     <Row>
-      <ImageWithTitle
-        src="cesi-waldshuterkrieg.jpg"
-        width={4872}
-        height={6496}
-        title="České vojsko přichází roku 1468 na pomoc obleženému Waldshutu, Amtliche Berner Chronik (1478 - 1483)"
-      />
       <Col>
         <p>
           Černá armáda (maďarsky Fekete sereg), často nazývaná také jako Černá
@@ -160,12 +154,76 @@ export const CernaArmada = () => (
             kteří jsou uvnitř, bojují jako z bašt a opevnění a při vhodné
             příležitosti vyrazí ven;)
           </Cit>
-          <p className="text-right">
-            <br />
-            - Matyáš Korvín, v dopise vému tchánovi Ferdinandu I. Neapolskému,
-            10. března 1481, Záhřeb
-            <Qt publication={PUBLICATIONS.VILMOS} note="Str. 107" />
-          </p>
+        </p>
+        <p className="text-right">
+          <br />
+          - Matyáš Korvín, v dopise vému tchánovi Ferdinandu I. Neapolskému, 10.
+          března 1481, Záhřeb
+          <Qt publication={PUBLICATIONS.VILMOS} note="Str. 107" />
+        </p>
+      </Col>
+    </Row>
+    <Row>
+      <Col>
+        <h5>Velitelé a kapitáni</h5>
+        <p>
+          <b>Jan Jiskra z Brandýsa</b> Mírová smlouva z Vídeňského Nového Města
+          z <b>19. července 1463</b> obsahovala mj. tajnou klauzuli, která
+          zbavila císaře Fridricha III. konroly nad Janem Jiskrou a jeho
+          žoldnéři. Janu Jiskrovi, který od smrti Ladislava Pohrobka s krátkými
+          přestávkami bojoval proti Matyáši Korvínovi, byla udělena královská
+          milost, byly mu dány dva hrady ( Şoimuş a Lipova ) a jeho vojáci
+          obdrželi platbu 25 000 dukátů. Následně jej Matyáš přijal i s jeho
+          muži do svých služeb, čímž bylo dokončeno formování jádra Černé
+          armády. Dalo mu to také příležitost zbourat husitskou pevnost
+          Katzenstein (nedaleko Šoproně) a přesvědčit tak jejího českého
+          hejtmana Františka z Háje, aby se přidal na jeho stranu v Černé
+          armádě.
+        </p>
+        <p>
+          <b>Jan Hanuš Haugvic z Biskupic</b>
+        </p>
+        <p>
+          <b>Jindřich Hynek Haugvic z Biskupic</b>
+        </p>
+        <p>
+          <b>Petr Haugvic z Biskupic</b>
+        </p>
+        <p>
+          <b>Mikuláš Haugvic z Biskupic</b>
+        </p>
+        <p>
+          <b>František z Háje</b>
+        </p>
+        <p>
+          <b>Dobeš Černohorský z Boskovic</b>
+        </p>
+        <p>
+          <b>Vilém Tetour z Tetova</b>
+        </p>
+        <p>
+          <b>Blažej Maďar</b>
+        </p>
+        <p>
+          <b>Pál Kinizsi</b>
+        </p>
+        <p>
+          <b>Imrich Zápolský</b>
+        </p>
+        <p>
+          <b>Štěpán V. Báthory</b>
+        </p>
+        <p>
+          <b>Monoszlói Csupor Miklós</b>
+        </p>
+        <p>
+          <b>Demeter Jaksics</b>
+        </p>
+        <p>
+          <b>Mikuláš z Iloku</b>
+        </p>
+        <p>
+          <b>Melchior Löbel</b>
         </p>
       </Col>
     </Row>
