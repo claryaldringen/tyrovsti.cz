@@ -45,7 +45,7 @@ h6 {
   background: #000000;
   box-shadow: 0 0 50px 50px #000000;
   color: #cccccc;
-  padding: 8px 3%;
+  padding: 8px 3% 0 3%;
   position: fixed;
   width: 100%;
   z-index: 1032;
@@ -66,7 +66,7 @@ h6 {
 }
 
 .absolute {
-  position: fixed;
+  position: absolute;
 }
 
 .menu-list {
@@ -113,31 +113,9 @@ h6 {
   text-decoration: none;
 }
 
-.brand {
-  float: right;
-  color: #cccccc;
-  font-family: xiberonne;
-  white-space: nowrap;
-  overflow: hidden;
-  max-width: 50%;
-  text-overflow: ellipsis;
-  font-size: 24px;
-  text-transform: none;
-}
-
-.brand:hover {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-.brand::first-letter {
-  color: #cc0000;
-}
-
 .menu-button {
   cursor: pointer;
   color: #cccccc;
-  text-transform: uppercase;
   width: 120px;
 }
 
@@ -149,11 +127,19 @@ h6 {
   display: inline-block;
   padding-left: 6px;
   font-size: 20px;
+
+  @media (max-width: 575.98px) {
+    font-size: 18px;
+  }
 }
 
 .menu-button span::first-letter {
   color: #cc0000;
   font-size: 28px;
+
+  @media (max-width: 575.98px) {
+    font-size: 24px;
+  }
 }
 
 .hamburger {
@@ -204,4 +190,8 @@ h6 {
 .fit {
   width: 100%;
   height: auto;
+}
+
+.xiberonne {
+  font-family: xiberonne;
 }

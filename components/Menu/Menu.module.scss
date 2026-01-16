@@ -1,4 +1,21 @@
 .langToggler {
-  position: absolute;
   bottom: 0;
+}
+
+.brand {
+  color: #cccccc;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 28px;
+  text-transform: none;
+}
+
+.brand:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.brand::first-letter {
+  color: #cc0000;
 }

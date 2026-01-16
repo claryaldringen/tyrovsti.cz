@@ -46,6 +46,7 @@
   },
   "dependencies": {
     "bootstrap": "^4.6.0",
+    "classnames": "^2.5.1",
     "eslint-config-next": "^13.4.19",
     "next": "^13.4.19",
     "qrcode.react": "^4.0.1",
