@@ -1,7 +1,8 @@
 import React from 'react'
 import Link from 'next/link'
-import { LINKS } from '../cz/OProjektu'
+import { LINKS, SOCIALS } from '../cz/OProjektu'
 import { Col, Row } from 'reactstrap'
+import { SocialLinks } from '../../SocialLinks/SocialLinks'
 
 export const AboutProject = () => (
   <>
@@ -97,5 +98,23 @@ export const AboutProject = () => (
     If necessary, it is possible to focus on only one of the points of the
     lecture and elaborate on it, for example, the role of infantry, maneuvers
     with a wagon fortification, military orders, etc.
+    <h3>Contact</h3>
+    <Row>
+      <Col>
+        <p>
+          Týřovští z.s.
+          <br />
+          Karla Čapka 1393 <br />
+          266 01 Beroun
+          <br />
+          Czechia <br />
+          IN: 24090956 <br />
+          Email: <a href="mailto:info@tyrovsti.cz">info@tyrovsti.cz</a>
+        </p>
+      </Col>
+      <Col>
+        <SocialLinks items={SOCIALS} iconSize={24} />
+      </Col>
+    </Row>
   </>
 )

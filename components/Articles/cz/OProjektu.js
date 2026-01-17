@@ -184,8 +184,11 @@ export const OProjektu = () => (
       </Col>
     </Row>
     <p>
-      Na požádání je možné rovněž připravit prezentaci na jakékoli téma, kterým
-      se zabývá tento web. Dotazy
+      Z prezentací lze vypíchnout některé body, odprezentovat je samostatně a
+      jít více do hloubky, např. role pěchoty, manévrování s vozovou hradbou,
+      vojenské řády atd. Také je možné rovněž připravit prezentaci na jakékoli
+      téma, kterým se zabývá tento web. Dotazy a poptávky k prezentacím směřujte
+      prosím na email <a href="mailto:info@tyrovsti.cz">info@tyrovsti.cz</a>.
     </p>
     <h4>Zápůjčky replik</h4>
     <p>
