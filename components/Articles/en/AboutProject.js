@@ -53,7 +53,7 @@ export const AboutProject = () => (
       length and content to the audience requirements, usually 45 - 90 minutes.
     </p>
     <Row>
-      <Col>
+      <Col xs={12} md={6}>
         <p>
           <h6>From Nekmíř to Lipany: Hussite Warfare in Context</h6>
           In the 15th century, the Hussites terrorized Central Europe.
@@ -71,7 +71,7 @@ export const AboutProject = () => (
           </ul>
         </p>
       </Col>
-      <Col>
+      <Col xs={12} md={6}>
         <p>
           <h6>
             From Lipany to Mohács: Czech-Style Warfare after the Hussite Wars

@@ -79,7 +79,7 @@ export const OProjektu = () => (
       školních dětí až po poučenou veřejnost.
     </p>
     <Row>
-      <Col>
+      <Col xs={12} md={6}>
         <p>
           <h6>Od Nekmíře k Lipanům</h6>
           Prezentace o husitském vojenství.
@@ -94,7 +94,7 @@ export const OProjektu = () => (
           Možnost ukázky některých kusů zbroje, zbraní oděvů a doplňků.
         </p>
       </Col>
-      <Col>
+      <Col xs={12} md={6}>
         <p>
           <h6>Od Lipan k Moháči</h6>
           Prezentace o pohusitském vojenství.
@@ -113,7 +113,7 @@ export const OProjektu = () => (
       </Col>
     </Row>
     <Row>
-      <Col>
+      <Col xs={12} md={6}>
         <p>
           <h6>Vývoj zbroje v průběhu středověku a raného novověku</h6>
           <ul>
@@ -126,7 +126,7 @@ export const OProjektu = () => (
           Prezentace je doprovázena ukázkou repliky plátové zbroje z roku 1480.
         </p>
       </Col>
-      <Col>
+      <Col xs={12} md={6}>
         <p>
           <h6>Zbroj ve 2. polovině 15. století</h6>
           <ul>
@@ -140,7 +140,7 @@ export const OProjektu = () => (
       </Col>
     </Row>
     <Row>
-      <Col>
+      <Col xs={12} md={6}>
         <p>
           <h6>Oděv v Čechách ve 2. polovině 15. století</h6>
           <ul>
@@ -152,7 +152,7 @@ export const OProjektu = () => (
         </p>
         Prezentace může být doprovázena ukázkami replik některých oděvů.
       </Col>
-      <Col>
+      <Col xs={12} md={6}>
         <p>
           <h6>Vývoj středověkého oděvu</h6>
           <ul>
@@ -168,7 +168,7 @@ export const OProjektu = () => (
       </Col>
     </Row>
     <Row>
-      <Col>
+      <Col xs={12} md={6}>
         <p>
           <h6>Koně a rytíři</h6>
           Prezentace o vývoji jezdectví ve středověku.
