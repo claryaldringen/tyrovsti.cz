@@ -32,9 +32,6 @@ h6 {
   font-weight: bold !important;
 }
 
-.container {
-}
-
 .text {
   padding: 120px 6% !important;
   background: linear-gradient(90deg, #000000, #faebd7 4%, #faebd7 96%, #000000);
@@ -151,13 +148,6 @@ h6 {
 .hamburger hr {
   border: solid 1px #cccccc;
   margin: 6px 0 2px 0;
-}
-
-.container-fluid {
-  background: url('/images/background2.jpg') no-repeat center 50px;
-  background-size: cover;
-  height: 100vh;
-  /* min-height: 400px; */
 }
 
 .image-wrapper {
