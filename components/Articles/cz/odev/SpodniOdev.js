@@ -111,6 +111,55 @@ export const SpodniOdev = () => (
     </Row>
     <Row>
       <Col>
+        <h5>Rekonstrukce</h5>K rekonstrukci jsme vybrali košile z deskového
+        obrazu Ukřižování z Nových Sadů na Rajhradském oltáři. Jednu jsme
+        ponechali s rozparkem tak, jak je na předloze, druhou jsme
+        zrekonstruovali bez rozparku. Obě košile jsou ručně šité z jemného
+        lněného plátna. Rekonstrukci provedla Daria Litvinova.
+      </Col>
+    </Row>
+    <Row>
+      <ImageWithTitle
+        src="shirt/kosile1.jpeg"
+        width={2048}
+        height={1536}
+        title=""
+      />
+      <ImageWithTitle
+        src="shirt/kosile2.jpeg"
+        width={2048}
+        height={1536}
+        title=""
+      />
+      <ImageWithTitle
+        src="shirt/kosile3.jpeg"
+        width={2048}
+        height={1536}
+        title=""
+      />
+    </Row>
+    <Row>
+      <ImageWithTitle
+        src="shirt/kosile4.jpeg"
+        width={2048}
+        height={1536}
+        title=""
+      />
+      <ImageWithTitle
+        src="shirt/kosile5.jpeg"
+        width={2048}
+        height={1536}
+        title=""
+      />
+      <ImageWithTitle
+        src="shirt/kosile7.jpeg"
+        width={2048}
+        height={1536}
+        title=""
+      />
+    </Row>
+    <Row>
+      <Col>
         <h4>Ženská košilka</h4>
         <p>
           Ve srovnání s mužskými kusy spodního oděvu je dokladů o jeho podobě u
