@@ -2,6 +2,110 @@
   bottom: 0;
 }
 
+.menu {
+  background: #000000;
+  color: #cccccc;
+  padding: 8px 3% 0 3%;
+  position: fixed;
+  width: 100%;
+  z-index: 1032;
+
+  a {
+    display: inline-block;
+    color: #cccccc;
+
+    &:hover {
+      color: #ffffff;
+      text-decoration: none;
+    }
+
+    &::first-letter {
+      color: #cc0000;
+    }
+  }
+}
+
+.menuShadow {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 57px;
+  height: 1px;
+  box-shadow: 0 0 50px 50px #000000;
+
+  pointer-events: none;
+  z-index: 1020;
+}
+
+.menuList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 0 48px 0;
+  text-transform: uppercase;
+  font-size: 16px;
+
+  a {
+    color: #cccccc;
+
+    &:hover {
+      color: #ffffff;
+      text-decoration: none;
+    }
+  }
+
+  div {
+    padding: 8px 0;
+
+    &::first-letter {
+      color: #cc0000;
+    }
+  }
+}
+
+.menuButton {
+  cursor: pointer;
+  color: #cccccc;
+  width: 120px;
+
+  &:hover {
+    color: #ffffff;
+  }
+
+  span {
+    display: inline-block;
+    padding-left: 6px;
+    font-size: 20px;
+
+    @media (max-width: 575.98px) {
+      font-size: 18px;
+    }
+
+    &::first-letter {
+      color: #cc0000;
+      font-size: 28px;
+
+      @media (max-width: 575.98px) {
+        font-size: 24px;
+      }
+    }
+  }
+}
+
+.hamburger {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+
+  hr {
+    border: solid 1px #cccccc;
+    margin: 6px 0 2px 0;
+  }
+}
+
+.absolute {
+  position: fixed;
+}
+
 .brand {
   color: #cccccc;
   white-space: nowrap;
@@ -18,4 +122,47 @@
 
 .brand::first-letter {
   color: #cc0000;
+}
+
+.menuContent {
+  max-height: calc(100vh - 50px);
+  overflow-y: auto;
+}
+
+.overlayRoot {
+  position: fixed;
+  inset: 0;
+  z-index: 1030;
+}
+
+/* panel */
+.overlayPanel {
+  color: #cccccc;
+  position: relative;
+  height: 100%;
+  margin: auto 3%;
+  padding-top: 58px;
+  background: black;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+
+  a {
+    display: inline-block;
+    color: #cccccc;
+
+    &:hover {
+      color: #ffffff;
+      text-decoration: none;
+    }
+
+    &::first-letter {
+      color: #cc0000;
+    }
+  }
+}
+
+.leftCol {
+  position: sticky;
+  top: 0;
+  align-self: flex-start;
 }

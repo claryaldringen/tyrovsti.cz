@@ -4,6 +4,7 @@ import { ImageWithTitle } from '../../../ImageWithTitle'
 import { Cit } from '../../../Citation'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
+import Link from 'next/link'
 
 export const Kabat = () => (
   <>
@@ -289,6 +290,112 @@ export const Kabat = () => (
         width={500}
         height={500}
         title="V českém prostředí jsou tkanice, kterými je spojen kabát s nohavicemi, skryté natolik, že na rozdíl od tkanice na břiše, nejsou ani naznačeny. Výřez z fresky v Mincířské kapli katedrály sv. Barbory v Kutné Hoře(1460-1470)."
+      />
+    </Row>
+    <Row>
+      <Col>
+        <h5>Rekonstrukce</h5>
+        <p>
+          Volnou inspirací k této rekonstrukci bylo vyobrazení z{' '}
+          <Link
+            href="https://digital.slub-dresden.de/werkansicht/dlf/14388%2F95%2F"
+            target="_blank"
+          >
+            Bayerische Fürstengenealogie
+          </Link>
+          , avšak snažili jsme se zároveň držet artikulů novoměstského
+          kabátnického cechu. Tělo kabátu je tak zhotovené z černého barchetu (
+          <Cit>... aby byly dělány barchanové kabáty</Cit>) a hrudník je vycpaný
+          surovou bavlnou (<Cit>... a bavlna aby byla v prsy</Cit>). Tvar včetně
+          zapínání je převzatý z vyobrazení kabátu v Mincířské kapli v katedrále
+          sv. Barbory v Kutné Hoře.
+        </p>
+        <p>
+          Rukávy jsou zhotoveny z výrazně dražší látky, jak je vidět na mnohých
+          dobových vyobrazeních a je zmíněno v testamentu kotláře Martina z roku
+          1477: <Cit>dva rukávy aksamitové od kabáta</Cit>. Místo zmíněného
+          hedvábného sametu (aksamitu) jsme použili ručně tkaný, zlatem
+          vytkávaný hedvábný brokát s motivem Pelikána, jehož předlohou byl
+          fragment textilie nalezený v Německu.{' '}
+        </p>
+        <p>
+          Celý kabát je kompletně šitý ručně. Rekonstrukci provedl Pavel Houfek.
+        </p>
+      </Col>
+    </Row>
+    <Row>
+      <ImageWithTitle src="doublet/1.jpg" width={1600} height={1200} title="" />
+      <ImageWithTitle src="doublet/3.jpg" width={1600} height={1200} title="" />
+      <ImageWithTitle src="doublet/4.jpg" width={1600} height={1200} title="" />
+    </Row>
+    <Row>
+      <ImageWithTitle src="doublet/2.jpg" width={1600} height={1200} title="" />
+      <ImageWithTitle
+        src="doublet/4a.jpg"
+        width={1600}
+        height={1200}
+        title=""
+      />
+      <ImageWithTitle src="doublet/5.jpg" width={1600} height={1200} title="" />
+    </Row>
+    <Row>
+      <ImageWithTitle
+        src="doublet/5a.jpg"
+        width={1600}
+        height={1200}
+        title=""
+      />
+      <ImageWithTitle src="doublet/6.jpg" width={1600} height={1200} title="" />
+      <ImageWithTitle src="doublet/7.jpg" width={1600} height={1200} title="" />
+    </Row>
+    <Row>
+      <ImageWithTitle src="doublet/8.jpg" width={1600} height={1200} title="" />
+      <ImageWithTitle src="doublet/9.jpg" width={1600} height={1200} title="" />
+      <ImageWithTitle
+        src="doublet/10.jpg"
+        width={1600}
+        height={1200}
+        title=""
+      />
+    </Row>
+    <Row>
+      <ImageWithTitle
+        src="doublet/11.jpg"
+        width={1600}
+        height={1200}
+        title=""
+      />
+      <ImageWithTitle
+        src="doublet/12.jpg"
+        width={1600}
+        height={1200}
+        title=""
+      />
+      <ImageWithTitle
+        src="doublet/14.jpg"
+        width={1600}
+        height={1200}
+        title=""
+      />
+    </Row>
+    <Row>
+      <ImageWithTitle
+        src="doublet/13.jpg"
+        width={1200}
+        height={1600}
+        title=""
+      />
+      <ImageWithTitle
+        src="doublet/15.jpg"
+        width={1200}
+        height={1600}
+        title=""
+      />
+      <ImageWithTitle
+        src="doublet/16.jpg"
+        width={1200}
+        height={1600}
+        title=""
       />
     </Row>
   </>
