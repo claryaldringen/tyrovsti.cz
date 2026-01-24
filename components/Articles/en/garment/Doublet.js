@@ -4,6 +4,7 @@ import { ImageWithTitle } from '../../../ImageWithTitle'
 import { Cit } from '../../../Citation'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
+import Link from 'next/link'
 
 export const Doublet = () => (
   <>
@@ -308,6 +309,116 @@ export const Doublet = () => (
         width={500}
         height={500}
         title="In the Czech environment, the laces that connect the doublet to the hose are so hidden that they are not even hinted at, unlike the laces on the belly. A cut-out from a fresco in the Coinmakers' Chapel of St. Barbara's Cathedral in Kutná Hora (1460-1470)."
+      />
+    </Row>
+    <Row>
+      <Col>
+        <h5>Reconstruction</h5>
+        <p>
+          The free inspiration for this reconstruction was an illustration from
+          the{' '}
+          <Link
+            href="https://digital.slub-dresden.de/werkansicht/dlf/14388%2F95%2F"
+            target="_blank"
+          >
+            Bayerische Fürstengenealogie
+          </Link>
+          ; at the same time, we sought to adhere to the articles of the New
+          Town doubletmakers&apos; guild. The body of the doublet is therefore
+          made of black fustian (<Cit>… that fustian doublet shall be made</Cit>
+          ), and the chest is padded with raw cotton (
+          <Cit>… and cotton shall be in the chest</Cit>). The cut, including the
+          fastening, is based on the depiction of a doublet in the
+          Coinmakers&apos; Chapel of St. Barbara’s Cathedral in Kutná Hora.
+        </p>
+        <p>
+          The sleeves are made from a markedly more expensive fabric, as can be
+          seen in many contemporary depictions and as mentioned in the will of
+          the cauldron-maker Martin from 1477:{' '}
+          <Cit>two velvet sleeves of the doublet.</Cit> In place of the
+          mentioned silk velvet, we used a hand-woven silk brocade interwoven
+          with gold, featuring a Pelican motif, based on a fragment of textile
+          found in Germany.
+        </p>
+        <p>
+          The entire coat is sewn completely by hand. The reconstruction was
+          carried out by Pavel Houfek.
+        </p>
+      </Col>
+    </Row>
+    <Row>
+      <ImageWithTitle src="doublet/1.jpg" width={1600} height={1200} title="" />
+      <ImageWithTitle src="doublet/3.jpg" width={1600} height={1200} title="" />
+      <ImageWithTitle src="doublet/4.jpg" width={1600} height={1200} title="" />
+    </Row>
+    <Row>
+      <ImageWithTitle src="doublet/2.jpg" width={1600} height={1200} title="" />
+      <ImageWithTitle
+        src="doublet/4a.jpg"
+        width={1600}
+        height={1200}
+        title=""
+      />
+      <ImageWithTitle src="doublet/5.jpg" width={1600} height={1200} title="" />
+    </Row>
+    <Row>
+      <ImageWithTitle
+        src="doublet/5a.jpg"
+        width={1600}
+        height={1200}
+        title=""
+      />
+      <ImageWithTitle src="doublet/6.jpg" width={1600} height={1200} title="" />
+      <ImageWithTitle src="doublet/7.jpg" width={1600} height={1200} title="" />
+    </Row>
+    <Row>
+      <ImageWithTitle src="doublet/8.jpg" width={1600} height={1200} title="" />
+      <ImageWithTitle src="doublet/9.jpg" width={1600} height={1200} title="" />
+      <ImageWithTitle
+        src="doublet/10.jpg"
+        width={1600}
+        height={1200}
+        title=""
+      />
+    </Row>
+    <Row>
+      <ImageWithTitle
+        src="doublet/11.jpg"
+        width={1600}
+        height={1200}
+        title=""
+      />
+      <ImageWithTitle
+        src="doublet/12.jpg"
+        width={1600}
+        height={1200}
+        title=""
+      />
+      <ImageWithTitle
+        src="doublet/14.jpg"
+        width={1600}
+        height={1200}
+        title=""
+      />
+    </Row>
+    <Row>
+      <ImageWithTitle
+        src="doublet/13.jpg"
+        width={1200}
+        height={1600}
+        title=""
+      />
+      <ImageWithTitle
+        src="doublet/15.jpg"
+        width={1200}
+        height={1600}
+        title=""
+      />
+      <ImageWithTitle
+        src="doublet/16.jpg"
+        width={1200}
+        height={1600}
+        title=""
       />
     </Row>
   </>

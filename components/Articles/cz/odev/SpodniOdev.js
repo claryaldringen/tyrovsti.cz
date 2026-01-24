@@ -111,11 +111,14 @@ export const SpodniOdev = () => (
     </Row>
     <Row>
       <Col>
-        <h5>Rekonstrukce</h5>K rekonstrukci jsme vybrali košile z deskového
-        obrazu Ukřižování z Nových Sadů na Rajhradském oltáři. Jednu jsme
-        ponechali s rozparkem tak, jak je na předloze, druhou jsme
-        zrekonstruovali bez rozparku. Obě košile jsou ručně šité z jemného
-        lněného plátna. Rekonstrukci provedla Daria Litvinova.
+        <h5>Rekonstrukce</h5>
+        <p>
+          K rekonstrukci jsme vybrali košile z deskového obrazu Ukřižování z
+          Nových Sadů na Rajhradském oltáři. Jednu jsme ponechali s rozparkem
+          tak, jak je na předloze, druhou jsme zrekonstruovali bez rozparku. Obě
+          košile jsou ručně šité z jemného lněného plátna. Rekonstrukci provedla
+          Daria Litvinova.
+        </p>
       </Col>
     </Row>
     <Row>
