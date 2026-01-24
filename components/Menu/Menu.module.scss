@@ -31,6 +31,7 @@
   right: 0;
   top: 57px;
   height: 1px;
+  background: #000000;
   box-shadow: 0 0 50px 50px #000000;
 
   pointer-events: none;
@@ -125,7 +126,7 @@
 }
 
 .menuContent {
-  max-height: calc(100vh - 50px);
+  max-height: calc(100vh - 58px);
   overflow-y: auto;
 }
 
@@ -140,7 +141,7 @@
   color: #cccccc;
   position: relative;
   height: 100%;
-  margin: auto 3%;
+  padding: 0 3%;
   padding-top: 58px;
   background: black;
   overflow-y: auto;
@@ -165,4 +166,8 @@
   position: sticky;
   top: 0;
   align-self: flex-start;
+
+  @media (max-width: 575.98px) {
+    position: relative;
+  }
 }
