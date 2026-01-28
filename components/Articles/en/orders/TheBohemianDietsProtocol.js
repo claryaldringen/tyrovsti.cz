@@ -114,6 +114,7 @@ export const TheBohemianDietsProtocol = () => (
           width={2662}
           height={1838}
           className="fit"
+          alt="Map of the medieval Bohemian regions"
         />
       </Col>
     </Row>

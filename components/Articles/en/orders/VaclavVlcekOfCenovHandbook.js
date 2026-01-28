@@ -686,6 +686,7 @@ export const VaclavVlcekOfCenovHandbook = () => (
           width={1397}
           height={1124}
           className="fit"
+          alt="Battle of Orsha"
         />
       </Link>
       <p>&nbsp;</p>

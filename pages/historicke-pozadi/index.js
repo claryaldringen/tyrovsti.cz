@@ -79,6 +79,8 @@ const Page = () => {
                     width={578}
                     height={800}
                     className="fit"
+                    alt="Portrét Albrechta II. Habsburského, kopie ze 16. století
+                namalovaný podle obrazu z let 1434 - 1439"
                   />
                 </Link>
                 <br />
@@ -248,6 +250,7 @@ const Page = () => {
                     width={1056}
                     height={1466}
                     className="fit"
+                    alt="Portrét Ladislava Pohrobka od neznámého autora z roku 1457"
                   />
                 </Link>
                 <br />
@@ -345,6 +348,8 @@ const Page = () => {
                     width={915}
                     height={600}
                     className="fit"
+                    alt="Vyobrazení Jiřího z Poděbrad na výřezu z Hodinek, které pro něj
+                nechala zhotovit jeho manželka Johana z Rožmitálu, Praha, 1466"
                   />
                 </Link>
                 <br />
