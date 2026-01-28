@@ -5,18 +5,18 @@ import { LANG_EN } from '../../shared/constants'
 import { useLanguage } from '../Language'
 
 const TITLE_CS = 'Jošt z Einsiedlu a na Týřově'
-const TITLE_EN = 'Jobst of Einsiedl and Tyrzow'
+const TITLE_EN = 'Jobst von Einsiedl of Tyrzow'
 
 export const HeadExtended = ({ title, image, description }) => {
   const { lang } = useLanguage()
+
+  const titleSuffix = lang === LANG_EN ? TITLE_EN : TITLE_CS
 
   return (
     <>
       <Head>
         <link rel="icon" href="/favicon.svg" />
-        <title>
-          {title ? `${title} - ${lang === LANG_EN ? TITLE_EN : TITLE_CS}` : ''}
-        </title>
+        <title>{title ? `${title} - ${titleSuffix}` : titleSuffix}</title>
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@ClaryAldringen" />
         <meta
