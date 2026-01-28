@@ -5,10 +5,10 @@ import { LANG_CS } from '../shared/constants'
 import { HeroBackground } from '../components/HeroBackground'
 
 const BACKGROUND_IMAGES = [
-  '/images/background/background1.jpg',
-  '/images/background/background2.jpeg',
-  '/images/background/background3.jpg',
-  '/images/background/background4.jpg',
+  '/images/background/background1.webp',
+  '/images/background/background2.webp',
+  '/images/background/background3.webp',
+  '/images/background/background4.webp',
 ]
 
 const Page = () => {

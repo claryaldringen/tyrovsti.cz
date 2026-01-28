@@ -1,4 +1,8 @@
 module.exports = {
+  images: {
+    formats: ['image/avif', 'image/webp'],
+  },
+
   async redirects() {
     return [
       {
