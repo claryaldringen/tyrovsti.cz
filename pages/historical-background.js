@@ -86,6 +86,7 @@ const Page = () => {
                     width={578}
                     height={800}
                     className="fit"
+                    alt="Portrait of Albrecht II Habsburg"
                   />
                 </Link>
                 <br />
@@ -281,10 +282,12 @@ const Page = () => {
                     width={1056}
                     height={1466}
                     className="fit"
+                    alt="Portrait of Ladislav Posthumous by an unknown author from 1457"
                   />
                 </Link>
                 <br />
-                Portrait of Ladislav Pohrobek by an unknown author from 1457
+                Portrait of Ladislav the Posthumous by an unknown author from
+                1457
               </Col>
             </Row>
             <Row>
@@ -395,6 +398,9 @@ const Page = () => {
                     width={915}
                     height={600}
                     className="fit"
+                    alt="The depiction of George of Poděbrady on a cut-out from the book
+                of hours that was made for him made by his wife Johana of
+                Rožmital, Prague, 1466"
                   />
                 </Link>
                 <br />
