@@ -1,5 +1,8 @@
 .langToggler {
   bottom: 0;
+  display: flex;
+  gap: 6px;
+  justify-content: flex-end;
 }
 
 .menu {
