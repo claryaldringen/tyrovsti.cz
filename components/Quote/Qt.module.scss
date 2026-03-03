@@ -1,7 +1,7 @@
-@import '/styles/mixin';
+@use '/styles/mixin';
 
 .wrapper {
-  @include breakpoint(md) {
+  @include mixin.breakpoint(md) {
     position: relative;
   }
 }
@@ -21,7 +21,7 @@
   left: 0;
   width: 100vw;
 
-  @include breakpoint(md) {
+  @include mixin.breakpoint(md) {
     left: 100%;
     top: 50%;
     width: 25vw;

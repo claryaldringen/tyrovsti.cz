@@ -1,0 +1,38 @@
+import { ReactNode } from 'react'
+
+export type Language = 'cs' | 'en'
+
+export type LocalizedString = { cs: string; en: string }
+
+export interface Publication {
+  name: string
+  author: string
+  city: string | LocalizedString
+  year: number | undefined
+  href?: string
+}
+
+export interface MenuItem {
+  href: string
+  title?: string
+}
+
+export interface QuoteContextValue {
+  usedPublications: Publication[]
+  setPublication: (publication: Publication) => void
+}
+
+export interface LanguageContextValue {
+  lang: Language
+  dest?: string
+}
+
+export interface PageProps {
+  lang: Language
+  dest: string
+}
+
+export type QuoteAction = {
+  type: 'ADD_PUBLICATION'
+  payload: Publication
+}

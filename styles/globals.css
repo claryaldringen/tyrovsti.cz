@@ -1,6 +1,7 @@
 @font-face {
   font-family: xiberonne;
-  src: url(/fonts/xiberon.ttf);
+  src: url(/fonts/xiberon.woff2) format('woff2');
+  font-display: swap;
 }
 
 html,

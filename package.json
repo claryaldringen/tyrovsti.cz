@@ -10,6 +10,7 @@
   },
   "eslintConfig": {
     "root": true,
+    "parser": "@typescript-eslint/parser",
     "parserOptions": {
       "ecmaVersion": 2020,
       "sourceType": "module",
@@ -29,6 +30,7 @@
     },
     "extends": [
       "eslint:recommended",
+      "plugin:@typescript-eslint/recommended",
       "plugin:react/recommended",
       "plugin:jsx-a11y/recommended",
       "plugin:prettier/recommended",
@@ -36,7 +38,14 @@
     ],
     "rules": {
       "prettier/prettier": "error",
-      "react/prop-types": "off"
+      "react/prop-types": "off",
+      "@typescript-eslint/no-unused-vars": [
+        "error",
+        {
+          "argsIgnorePattern": "^_"
+        }
+      ],
+      "no-unused-vars": "off"
     }
   },
   "prettier": {
@@ -46,24 +55,31 @@
     "singleQuote": true
   },
   "dependencies": {
-    "bootstrap": "^4.6.0",
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.8",
     "classnames": "^2.5.1",
-    "eslint-config-next": "^13.4.19",
-    "next": "^13.4.19",
-    "qrcode.react": "^4.0.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "reactstrap": "^8.9.0",
-    "sass": "^1.58.3"
+    "eslint-config-next": "^15.5.12",
+    "next": "^15.5.12",
+    "qrcode.react": "^4.2.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "reactstrap": "^9.2.3",
+    "sass": "^1.97.3"
   },
   "devDependencies": {
-    "eslint": "^7.20.0",
-    "eslint-config-prettier": "^8.0.0",
-    "eslint-plugin-jsx-a11y": "^6.4.1",
-    "eslint-plugin-prettier": "^3.3.1",
-    "eslint-plugin-react": "^7.22.0",
-    "eslint-plugin-react-hooks": "^4.2.0",
+    "@types/node": "^22.15.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@typescript-eslint/eslint-plugin": "^7.18.0",
+    "@typescript-eslint/parser": "^7.18.0",
+    "eslint": "^8.57.1",
+    "eslint-config-prettier": "^9.1.2",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-prettier": "^5.5.5",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^4.6.2",
     "next-sitemap": "^4.2.3",
-    "prettier": "^2.2.1"
+    "prettier": "^3.8.1",
+    "typescript": "^5.9.3"
   }
 }

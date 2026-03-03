@@ -1,6 +1,7 @@
 module.exports = {
   images: {
     formats: ['image/avif', 'image/webp'],
+    minimumCacheTTL: 31536000,
   },
 
   async redirects() {
@@ -24,12 +25,12 @@ module.exports = {
       },
       {
         source: '/panske-pokryvky-hlavy',
-        destination: '/muzsky-odev#pokryvky-hlavy',
+        destination: '/muzsky-odev/pokryvky-hlavy',
         permanent: true,
       },
       {
         source: '/obuv',
-        destination: '/muzsky-odev#obuv',
+        destination: '/muzsky-odev/obuv',
         permanent: true,
       },
       {
