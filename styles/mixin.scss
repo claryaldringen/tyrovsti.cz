@@ -1,3 +1,5 @@
+@use 'sass:map';
+
 // Definice breakpointů
 $grid-breakpoints: (
   xs: 0,
@@ -10,7 +12,7 @@ $grid-breakpoints: (
 
 // Mixin pro generování media queries na základě definovaných breakpointů
 @mixin breakpoint($point) {
-  $point-value: map-get($grid-breakpoints, $point);
+  $point-value: map.get($grid-breakpoints, $point);
 
   @if $point-value {
     @media (min-width: $point-value) {

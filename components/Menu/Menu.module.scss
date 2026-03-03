@@ -98,7 +98,9 @@
   height: 24px;
 
   hr {
-    border: solid 1px #cccccc;
+    border: 0;
+    border-top: solid 1px #cccccc;
+    opacity: 1;
     margin: 6px 0 2px 0;
   }
 }
