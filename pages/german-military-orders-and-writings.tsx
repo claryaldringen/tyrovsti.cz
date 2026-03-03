@@ -65,6 +65,9 @@ export default Page
 export const getStaticProps = () => ({
   props: {
     lang: LANG_EN,
-    dest: '/nemecke-vojenske-rady-a-spisy',
+    dest: {
+      cs: '/nemecke-vojenske-rady-a-spisy',
+      de: '/deutsche-militaerordnungen',
+    },
   },
 })

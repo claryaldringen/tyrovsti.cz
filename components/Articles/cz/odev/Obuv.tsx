@@ -13,9 +13,9 @@ export const Obuv = () => (
           polovysokou a vysokou. Obuv byla nejčastěji zhotovena z kůže tak, že
           se sešila podešev se svrškem a bota se převrátila naruby (tzv.
           převracená obuv). Mezi podešev a svršek se vkládal pásek kůže, tzv.
-          okolek. Cílem konstrukce středověkké boty bylo schovat všechny
-          důležité švy uvnitř. Zatímco v Německu již začíná móda bot s kulatou
-          špičkou, která vyvrcholila v 1. polovině 16. století botami zvanými
+          okolek. Cílem konstrukce středověké boty bylo schovat všechny důležité
+          švy uvnitř. Zatímco v Německu již začíná móda bot s kulatou špičkou,
+          která vyvrcholila v 1. polovině 16. století botami zvanými
           &quot;kravská tlama&quot;, v Čechách se ještě na počátku 16. století
           drží na obuvi konzervativní mírná špička.
         </p>
@@ -40,9 +40,9 @@ export const Obuv = () => (
           Zapínání s přesahem znamená, že část kůže na svršku překrývá otevřenou
           část boty a je sepnuta po straně na knoflík nebo přezkou. Funkce je
           velmi podobná jako u zapínání pomocí chlopně, hlavním rozdílem však
-          je, že chlopeň je k botě přišitá zlvášť. Přesto není jednoduché tyto
+          je, že chlopeň je k botě přišitá zvlášť. Přesto není jednoduché tyto
           dva typy v nálezech a na vyobrazeních rozlišit a často splývají
-          dohromady. Tento typ zpínání byl nejpopulárnější mezi 8. a 13.
+          dohromady. Tento typ spínání byl nejpopulárnější mezi 8. a 13.
           stoletím, v 15. století se již vyskytuje velmi sporadicky (např. nález
           z Fribourgu ve Švýcarsku, kde je přesah opatřen dvěma pásky, které se
           v oblasti kotníků spínají pomocí dvou přezek).
@@ -334,7 +334,7 @@ export const Obuv = () => (
           tkanici, podobně, jako je tomu u moderních bot, protože požadavkem
           byla robustní bota, kterou její majitel může nosit k plátovým nohám
           (tzn. část od kotníku nahoru bude překryta plátovým lýtkem) a zároveň
-          v ní absolvovat dlouhé pochody. Tento typ bot se široce uplatňje na
+          v ní absolvovat dlouhé pochody. Tento typ bot se široce uplatňuje na
           českých dobových vyobrazeních, viz níže.
         </p>
       </Col>
@@ -345,7 +345,7 @@ export const Obuv = () => (
         src="kabat5.jpg"
         width={466}
         height={512}
-        title="Pregéř. Zde není možné určit ty zapínání, ale je patrné, že obuv je kotníková. Výřez z fresky v Mincířské kapli katedrály sv. Barbory v Kutné Hoře(1460-1470)."
+        title="Pregéř. Zde není možné určit typ zapínání, ale je patrné, že obuv je kotníková. Výřez z fresky v Mincířské kapli katedrály sv. Barbory v Kutné Hoře(1460-1470)."
       />
       <ImageWithTitle
         md={4}
@@ -367,7 +367,7 @@ export const Obuv = () => (
       <p>
         Při konstrukci repliky byly uplatněny všechny prvky, které se
         uplatňovaly při konstrukci bot v 15. století, tj. obruba, okolek i
-        opatek. Bota je ručně šitá a následně převracená, tal aby všechny stehy
+        opatek. Bota je ručně šitá a následně převracená, tak aby všechny stehy
         byly schovány uvnitř. Rekonstrukci provedl Josef
         &bdquo;Halflung&ldquo;Novák.
       </p>
@@ -430,7 +430,7 @@ export const Obuv = () => (
         <p>
           U tohoto typu je rozparek zapínání vepředu na nártu. Z jedné strany
           jsou tzv. knoflíky s ocáskem. Ty jsou vytvořeny tak, že se na kožené
-          tkanici udělá uzlík. Ten potoom slouží jako knoflík a provléká se
+          tkanici udělá uzlík. Ten potom slouží jako knoflík a provléká se
           protijdoucími otvory. Tento typ zapínání se používal ve 14. a 15.
           století a vrcholu dosáhl mezi lety 1350 až 1450.
         </p>
@@ -489,7 +489,7 @@ export const Obuv = () => (
             Nahoře: Dordrecht, Nizozemí. Bota se dvěma knoflíky s ocáskem a
             dvěma knoflíky, vytvořenými rolováním. 14. - 15. století. (Goubitz)
             <br />
-            Dole: Bota s kombinovným zapínáním - první dvě dírky na nártu se
+            Dole: Bota s kombinovaným zapínáním - první dvě dírky na nártu se
             zavazují na tkaničku, zbytek se zapíná na knoflík s ocáskem. 14. -
             15. století. (Goubitz)
           </>
@@ -598,12 +598,12 @@ export const Obuv = () => (
         </p>
         <ol>
           <li>
-            Řemínek, který obepíná nohu, je veden vodorvně a protažen několika
+            Řemínek, který obepíná nohu, je veden vodorovně a protažen několika
             dvojcemi svislých průřezů vytvořenými přímo ve svršku boty. Užíváno
             zejména mezi lety 600 - 1000.
           </li>
           <li>
-            Řemínek, který obepíná nohu, je veden vodorvně a protažen očky,
+            Řemínek, který obepíná nohu, je veden vodorovně a protažen očky,
             která jsou vytvořena protažením jiného řemínku svisle dvojcemi
             vodorovných průřezů ve svršku boty. Užíváno zejména mezi lety 1000 -
             1300.

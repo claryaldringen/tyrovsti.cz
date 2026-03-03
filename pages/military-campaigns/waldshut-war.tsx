@@ -28,7 +28,10 @@ const Page = () => (
 export const getStaticProps = () => ({
   props: {
     lang: LANG_EN,
-    dest: '/prehled-vojenskych-akci/waldshuterkrieg',
+    dest: {
+      cs: '/prehled-vojenskych-akci/waldshuterkrieg',
+      de: '/feldzuege/waldshuterkrieg',
+    },
   },
 })
 

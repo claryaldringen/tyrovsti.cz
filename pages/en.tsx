@@ -25,7 +25,7 @@ const Page = () => {
 export const getStaticProps = () => ({
   props: {
     lang: LANG_EN,
-    dest: '/',
+    dest: { cs: '/', de: '/de' },
   },
 })
 

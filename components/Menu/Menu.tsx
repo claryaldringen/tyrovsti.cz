@@ -3,43 +3,49 @@ import { Col, Row } from 'reactstrap'
 import Link from 'next/link'
 import Image from 'next/image'
 import styles from './Menu.module.scss'
-import { menuCs, menuEn } from '../../shared/sitemap'
-import { LANG_CS, LANG_EN } from '../../shared/constants'
+import { menuCs, menuDe, menuEn } from '../../shared/sitemap'
+import { LANG_DE, LANG_EN } from '../../shared/constants'
 import { useLanguage } from '../Language'
-import { useRouter } from 'next/router'
 import { AboutProject } from '../Articles/en/AboutProject'
 import { OProjektu } from '../Articles/cz/OProjektu'
+import { UeberDasProjekt } from '../Articles/de/UeberDasProjekt'
 import classNames from 'classnames'
 import { MenuOverlay } from './MenuOverlay'
-import { Language } from '../../types'
+import { LanguageDest } from '../../types'
 
-const LangToggler = ({
-  lang,
-  destination,
-}: {
-  lang: Language
-  destination?: string
-}) => {
-  const router = useRouter()
-
+const LangToggler = ({ dest }: { dest?: LanguageDest }) => {
   return (
     <div className={styles.langToggler}>
-      <Link href={lang === LANG_CS ? router.asPath : destination || '/'}>
-        <Image
-          src="/images/icons8-czech-republic-48.png"
-          width={32}
-          height={32}
-          alt="Czech language"
-        />
-      </Link>
-      <Link href={lang === LANG_EN ? router.asPath : destination || '/'}>
-        <Image
-          src="/images/icons8-great-britain-48.png"
-          width={32}
-          height={32}
-          alt="English language"
-        />
-      </Link>
+      {dest?.cs && (
+        <Link href={dest.cs}>
+          <Image
+            src="/images/icons8-czech-republic-48.png"
+            width={32}
+            height={32}
+            alt="Czech language"
+          />
+        </Link>
+      )}
+      {dest?.en && (
+        <Link href={dest.en}>
+          <Image
+            src="/images/icons8-great-britain-48.png"
+            width={32}
+            height={32}
+            alt="English language"
+          />
+        </Link>
+      )}
+      {dest?.de && (
+        <Link href={dest.de}>
+          <Image
+            src="/images/icons8-germany-48.png"
+            width={32}
+            height={32}
+            alt="German language"
+          />
+        </Link>
+      )}
     </div>
   )
 }
@@ -73,7 +79,11 @@ export const Menu = () => {
                 <hr />
               </div>
               <span className="d-none d-md-inline-block">MENU</span>
-              {lang === 'en' ? (
+              {lang === LANG_DE ? (
+                <span className="d-md-none xiberonne">
+                  Jobst&nbsp;von&nbsp;Einsiedl&nbsp;auf&nbsp;Burg&nbsp;Tyrzow
+                </span>
+              ) : lang === LANG_EN ? (
                 <span className="d-md-none xiberonne">
                   Jobst&nbsp;von&nbsp;Einsiedl&nbsp;and&nbsp;Tyrzow
                 </span>
@@ -85,7 +95,14 @@ export const Menu = () => {
             </div>
           </Col>
           <Col md={8} className="d-none d-md-block text-center">
-            {lang === 'en' ? (
+            {lang === LANG_DE ? (
+              <Link
+                href="/de"
+                className={classNames(styles.brand, 'xiberonne')}
+              >
+                Jobst&nbsp;von&nbsp;Einsiedl&nbsp;auf&nbsp;Burg&nbsp;Tyrzow
+              </Link>
+            ) : lang === LANG_EN ? (
               <Link
                 href="/en"
                 className={classNames(styles.brand, 'xiberonne')}
@@ -99,7 +116,7 @@ export const Menu = () => {
             )}
           </Col>
           <Col xs={3} md={2} className="text-end">
-            <LangToggler destination={dest} lang={lang} />
+            <LangToggler dest={dest} />
           </Col>
         </Row>
       </div>
@@ -108,7 +125,12 @@ export const Menu = () => {
         <Row className={styles.menuContent}>
           <Col md={4} className={styles.leftCol}>
             <ul className={styles.menuList}>
-              {(lang === LANG_EN ? menuEn : menuCs).map(({ href, title }) => (
+              {(lang === LANG_DE
+                ? menuDe
+                : lang === LANG_EN
+                  ? menuEn
+                  : menuCs
+              ).map(({ href, title }) => (
                 <li key={`menu_${href}`}>
                   <div>
                     <Link href={href} onClick={close}>
@@ -121,7 +143,13 @@ export const Menu = () => {
           </Col>
 
           <Col md={8}>
-            {lang === LANG_EN ? <AboutProject /> : <OProjektu />}
+            {lang === LANG_DE ? (
+              <UeberDasProjekt />
+            ) : lang === LANG_EN ? (
+              <AboutProject />
+            ) : (
+              <OProjektu />
+            )}
           </Col>
         </Row>
       </MenuOverlay>

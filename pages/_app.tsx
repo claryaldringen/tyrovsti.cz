@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }: AppProps<PageProps>) {
   const { lang, dest, ...otherProps } = pageProps
 
   return (
-    <LanguageProvider lang={lang || LANG_CS} dest={dest || '/'}>
+    <LanguageProvider lang={lang || LANG_CS} dest={dest || {}}>
       <QuoteProvider>
         <Component {...otherProps} />
       </QuoteProvider>

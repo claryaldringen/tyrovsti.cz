@@ -66,6 +66,25 @@ export const otherCs: MenuItem[] = [
   { href: '/zdroje' },
 ]
 
+export const menuDe: MenuItem[] = [
+  { href: '/historischer-hintergrund', title: 'Historischer Hintergrund' },
+  { href: '/tyrovsky-von-einsiedl', title: 'Tyrovsky von Einsiedl' },
+  { href: '/herrenkleidung', title: 'Herrenkleidung' },
+  { href: '/waffen-und-ruestung', title: 'Waffen und Rüstung' },
+  {
+    href: '/boehmische-militaerordnungen',
+    title: 'Böhmische Militärordnungen',
+  },
+  {
+    href: '/deutsche-militaerordnungen',
+    title: 'Deutsche Militärordnungen',
+  },
+  {
+    href: '/feldzuege',
+    title: 'Feldzüge',
+  },
+]
+
 export const otherEn: MenuItem[] = [
   { href: '/en' },
   { href: '/historical-background/hans-harsdorfer' },
@@ -93,4 +112,33 @@ export const otherEn: MenuItem[] = [
   { href: '/how-not-to-create-a-hema-group' },
   { href: '/bibliography' },
   { href: '/saddle' },
+]
+
+export const otherDe: MenuItem[] = [
+  { href: '/de' },
+  { href: '/historischer-hintergrund/hans-harsdorfer' },
+  { href: '/historischer-hintergrund/lehnswesen' },
+  { href: '/historischer-hintergrund/krivoklater-lehnswesen' },
+  { href: '/tyrovsky-von-einsiedl/jobst-von-einsiedl' },
+  { href: '/tyrovsky-von-einsiedl/heinrich-von-einsiedl' },
+  { href: '/tyrovsky-von-einsiedl/wappen' },
+  { href: '/tyrovsky-von-einsiedl/stammbaum' },
+  { href: '/herrenkleidung/wams' },
+  { href: '/herrenkleidung/rock' },
+  { href: '/herrenkleidung/unterkleidung' },
+  { href: '/herrenkleidung/mantel' },
+  { href: '/herrenkleidung/schuhwerk' },
+  { href: '/herrenkleidung/kopfbedeckungen' },
+  { href: '/waffen-und-ruestung/panzerstecher' },
+  { href: '/waffen-und-ruestung/tartsche' },
+  { href: '/waffen-und-ruestung/streithammer' },
+  { href: '/waffen-und-ruestung/ruestung' },
+  { href: '/feldzuege/bayerischer-krieg' },
+  { href: '/feldzuege/waldshuterkrieg' },
+  { href: '/taktik' },
+  { href: '/fechthandbuch' },
+  { href: '/reiterkampf' },
+  { href: '/fechtgruppen-leitfaden' },
+  { href: '/bibliographie' },
+  { href: '/sattel' },
 ]

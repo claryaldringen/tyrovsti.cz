@@ -35,7 +35,7 @@ export const HistorickePozadi = () => (
           polského prince Kazimíra Jagellonského a byla proto zvána stranou
           polskou. Druhá strana, převážně katolická, v jejímž čele byli Oldřich
           II. z Rožmberka a Menhart z Hradce, prosazovala kandidaturu Zikmundova
-          ze Albrechta Habsburského a byla proto zvána stranou rakouskou.
+          zetě Albrechta Habsburského a byla proto zvána stranou rakouskou.
         </p>
         <p>
           Po oficiálním vyhlášení volby Kazimíra Jagellonského českým králem na
@@ -102,7 +102,7 @@ export const HistorickePozadi = () => (
           měl faktickou moc nad celým svazem východočeských landfrýdů.
         </p>
         <p>
-          Landfrýdy původně měly zabezpečit správu země pouze do zemské sněmu,
+          Landfrýdy původně měly zabezpečit správu země pouze do zemského sněmu,
           který se měl konat v červnu 1440 v Praze, kde měl být zvolen nový
           český král. Sbor volitelů (18 pánů, 14 rytířů a 14 měšťanů) se rozhodl
           nabídnout českou korunu vévodovi Albrechtu Bavorskému, který ji však{' '}
@@ -171,7 +171,7 @@ export const HistorickePozadi = () => (
           hold moravské stavy, a začal shánět peníze na okázalou korunovační
           jízdu do Čech. Na konci září má již dostatek financí a tak přijíždí{' '}
           <b>24. října 1453</b> se svým dvorem do Prahy, kde je{' '}
-          <b>28. října 1453</b> slavnostně korunován na českým králem. V Praze
+          <b>28. října 1453</b> slavnostně korunován českým králem. V Praze
           Ladislav zůstává téměř do konce listopadu 1454, načež se vydává do
           Vratislavi přijmout hold od slezských stavů. Z Vratislavi pokračuje do
           Vídně, kam přijíždí <b>16. února 1455</b>. Po celou dobu je s ním i
@@ -196,7 +196,7 @@ export const HistorickePozadi = () => (
           horních Uhrách, podařilo lstí zajmout bratry Ladislava i Matyáše
           Hunyadi. Ladislav Hunyadi byl <b>16. března 1457</b> popraven stětím,
           Matyáš byl převezen do vězení ve Vídni, kam se Ladislav Pohrobek
-          úchylil před nepokoji, které propukly mezi stranou podporující rod
+          uchýlil před nepokoji, které propukly mezi stranou podporující rod
           Hunyadi a šlechtou věrnou králi. Nakonec se Ladislav rozhodl přesídlit
           do Prahy, neboť za správcovství Jiřího z Poděbrad se z českého
           království stala nejstabilnější část Ladislavova soustátí a{' '}
@@ -234,7 +234,7 @@ export const HistorickePozadi = () => (
           husitských válek, na nichž by paradoxně nejvíce tratili Rožmberkové,
           ale i další panské rody, ať už katolické či protestantské. Volební
           sněm byl zahájen <b>27. února 1458</b> na Staroměstské radnici v
-          Praze. Jiří si vysledek volby ještě pojistil tím, že nechal místo
+          Praze. Jiří si výsledek volby ještě pojistil tím, že nechal místo
           konání sněmu obklíčit svými ozbrojenci a tak byl <b>2. března 1458</b>{' '}
           zvolen českým králem. Po volbě složil Jiří tajnou přísahu do rukou
           uherských biskupů Augustina z Rábu a Vincence z Vácova, že bude
@@ -247,7 +247,7 @@ export const HistorickePozadi = () => (
           potírání projevů kacířství, které se vymykaly obsahu kompaktát, jak
           již ostatně učinil rozvrácením Táborského svazu a zajetím táborských
           kněží na podzim 1452. V tuto chvíli tato tajná přísaha však umožnila
-          Jiřímu aby byl <b>7. května 1458</b> za přítomnsoti obou biskupů
+          Jiřímu aby byl <b>7. května 1458</b> za přítomnosti obou biskupů
           korunován.
         </p>
         <p>
@@ -272,7 +272,7 @@ export const HistorickePozadi = () => (
           také císaři slíbil vojenskou pomoc v boji s rakouskými stavy a získal
           od něj uznání své korunovace. Nyní byl čas ukončit spory se Saskem,
           což Jiří učinil na sjezdu v Chebu, který započal <b>7. dubna 1459</b>.
-          V Chebu se sešly přední osobnosti Říše, mimojiné Fridrich Falcký, Ota
+          V Chebu se sešly přední osobnosti Říše, mimo jiné Fridrich Falcký, Ota
           Bavorský, Fridrich kurfiřt Braniborský, Albrecht Braniborský,
           magdeburský arcibiskup Fridrich a mnohá další hrabata a knížata se
           svými družinami. Nejdůležitějšími osobnostmi sjezdu byli však bratři
@@ -341,7 +341,7 @@ export const HistorickePozadi = () => (
           klatba se všemi tresty, jež příslušejí kacířům. Současně Pavel II.
           zesílil tlak na české katolíky a snažil se je přimět k vypovězení
           poslušnosti králi, obžalovanému z kacířství. <b>28. listopadu 1465</b>{' '}
-          Vytvořilo 16 katolickách pánů z jižních a západních Čech na hradě
+          Vytvořilo 16 katolických pánů z jižních a západních Čech na hradě
           Zelená hora u Nepomuku tzv. Zelenohorskou jednotu - politickou opozici
           vůči králi Jiřímu. Král proti jednotě nezasáhl hned, protože nechtěl
           Čechy opět uvrhnout do ničivé občanské války. Ani jednota nepodnikala
@@ -365,21 +365,21 @@ export const HistorickePozadi = () => (
           výpravy proti Jiřímu. Jiřího diplomatické úsilí, které vyvíjel v
           uplynulých letech, se nyní vyplácelo a v okolí českého království
           nebyl nikdo, kdo by se chtěl ujmout organizace a vedení křížové
-          výpravy. Zejména polský král a mnozí říší vévodové se Jiřího nepokrytě
-          zastávali. Na začátku roku 1468 však vtrhl Jiřího syn Viktorin do
-          Rakous, kde poplenil statky císaře Fridricha III. Ten se obrátil na
-          uherského krále Matyáše Korvína, kterému se zrovna uvolnily ruce v
-          boji s Turky. V březnu 1468 tak v Trnavě vyhlásil Matyáš Korvín válku
-          Viktorinovi z Poděbrad a prakticky se tak stal vykonavatelem papežské
-          klatby. Započaly česko-uherské války, které trvaly více než 10 let.
-          Zprvu byl úspěšnější Matyáš Korvín, v průběhu roku 1469 se však
-          válečné štěstí obrátilo. Přesto se nechal Matyáš <b>3. května 1469</b>{' '}
-          prohlásit v Olomouci částí katolickéí šlechty českým králem. Nebyl
-          však nikdy korunován, protože korunovační klenoty i tradiční místo
-          korunovace v pražské katedrále sv. Víta měl v držení Jiří z Poděbrad.
-          Jiřího zdraví se však rychle zhoršuje a v průběhu příprav na odvetné
-          tažení do Uher <b>22. března 1471</b> král Jiří z Kunštátu a Poděbrad
-          umírá.
+          výpravy. Zejména polský král a mnozí říšští vévodové se Jiřího
+          nepokrytě zastávali. Na začátku roku 1468 však vtrhl Jiřího syn
+          Viktorin do Rakous, kde poplenil statky císaře Fridricha III. Ten se
+          obrátil na uherského krále Matyáše Korvína, kterému se zrovna uvolnily
+          ruce v boji s Turky. V březnu 1468 tak v Trnavě vyhlásil Matyáš Korvín
+          válku Viktorinovi z Poděbrad a prakticky se tak stal vykonavatelem
+          papežské klatby. Započaly česko-uherské války, které trvaly více než
+          10 let. Zprvu byl úspěšnější Matyáš Korvín, v průběhu roku 1469 se
+          však válečné štěstí obrátilo. Přesto se nechal Matyáš{' '}
+          <b>3. května 1469</b> prohlásit v Olomouci částí katolické šlechty
+          českým králem. Nebyl však nikdy korunován, protože korunovační klenoty
+          i tradiční místo korunovace v pražské katedrále sv. Víta měl v držení
+          Jiří z Poděbrad. Jiřího zdraví se však rychle zhoršuje a v průběhu
+          příprav na odvetné tažení do Uher <b>22. března 1471</b> král Jiří z
+          Kunštátu a Poděbrad umírá.
         </p>
       </Col>
     </Row>

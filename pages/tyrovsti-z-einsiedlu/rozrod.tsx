@@ -28,7 +28,10 @@ const Page = () => (
 export const getStaticProps = () => ({
   props: {
     lang: LANG_CS,
-    dest: '/tyrovsky-of-einsiedl/family-tree',
+    dest: {
+      en: '/tyrovsky-of-einsiedl/family-tree',
+      de: '/tyrovsky-von-einsiedl/stammbaum',
+    },
   },
 })
 

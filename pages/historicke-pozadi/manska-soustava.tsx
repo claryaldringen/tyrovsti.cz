@@ -30,7 +30,10 @@ const Page = () => (
 export const getStaticProps = () => ({
   props: {
     lang: LANG_CS,
-    dest: '/historical-background/feudal-system',
+    dest: {
+      en: '/historical-background/feudal-system',
+      de: '/historischer-hintergrund/lehnswesen',
+    },
   },
 })
 

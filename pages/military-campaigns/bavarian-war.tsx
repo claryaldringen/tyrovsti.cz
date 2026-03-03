@@ -28,7 +28,10 @@ const Page = () => (
 export const getStaticProps = () => ({
   props: {
     lang: LANG_EN,
-    dest: '/prehled-vojenskych-akci/bavorska-valka',
+    dest: {
+      cs: '/prehled-vojenskych-akci/bavorska-valka',
+      de: '/feldzuege/bayerischer-krieg',
+    },
   },
 })
 

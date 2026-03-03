@@ -28,7 +28,10 @@ const Page = () => (
 export const getStaticProps = () => ({
   props: {
     lang: LANG_CS,
-    dest: '/arms-and-armour/estoc',
+    dest: {
+      en: '/arms-and-armour/estoc',
+      de: '/waffen-und-ruestung/panzerstecher',
+    },
   },
 })
 

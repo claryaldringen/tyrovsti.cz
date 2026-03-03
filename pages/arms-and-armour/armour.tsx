@@ -27,7 +27,10 @@ const Page = () => (
 export const getStaticProps = () => ({
   props: {
     lang: LANG_EN,
-    dest: '/vyzbroj-a-vystroj/zbroj',
+    dest: {
+      cs: '/vyzbroj-a-vystroj/zbroj',
+      de: '/waffen-und-ruestung/ruestung',
+    },
   },
 })
 

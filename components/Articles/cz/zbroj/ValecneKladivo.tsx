@@ -19,9 +19,9 @@ export const ValecneKladivo = () => (
           bodných, sečných či drtivých úderů.
         </p>
         <p>
-          Válečná kladiva poloviny kolem poloviny 15. století jsou relativně
-          jednoduchého tvaru, s krátkým mohutným zobanem (bec-de-corbin) a také
-          krátkým mohutným hrotem ve srovnání s pozdějšími kladivy, například
+          Válečná kladiva kolem poloviny 15. století jsou relativně jednoduchého
+          tvaru, s krátkým mohutným zobanem (bec-de-corbin) a také krátkým
+          mohutným hrotem ve srovnání s pozdějšími kladivy, například
           lucernským. Rovněž středový nýt ještě nebývá vytažen do hrotů.
         </p>
       </Col>
@@ -46,7 +46,7 @@ export const ValecneKladivo = () => (
         src="1977-167-466-pma2017.jpg"
         width={1920}
         height={2560}
-        title="Obr. 3: Lucernské kladivo, Svýcarsko, 1500"
+        title="Obr. 3: Lucernské kladivo, Švýcarsko, 1500"
       />
     </Row>
     <Row>
@@ -110,7 +110,7 @@ export const ValecneKladivo = () => (
         <h4>Rekonstrukce</h4>
         <p>
           Pro rekonstrukci jsme vzhledem k jeho dataci vybrali kladivo z
-          Worcestru. Zajimavostí tohoto kladiva je, že jeho hlavice je k řapu
+          Worcestru. Zajímavostí tohoto kladiva je, že jeho hlavice je k řapu
           připevněna nikoli nýty, ale dvojcemi šroubů s hranatou hlavou. Délka
           repliky je 220 cm a hmotnost 2847 g. Repliku zhotovil Vojtěch Jelínek.
         </p>

@@ -170,31 +170,31 @@ export const ZizkovoTazeniDoUher = () => (
         <p>
           Potom táhl Žižka na Moravu a podmaňoval si lidi. Přitáhl také ke
           Kroměříži/Hranicím? a nějaký čas tu (s vojskem) ležel. A bratři ho
-          přemlouvali, aby někam vytáhl. On postavil čyři řady vozů a co nejvíce
-          děl mohl a táhl přes hory do Uher. Uhři mu v postupu nijak nebránili a
-          nikde nekladli odpor, chtíce aby polevil v ostražitosti a ztratil
-          pořádek (ve vojsku), aby jej pak mohli porazit, neboť na něj vytáhli
-          se silnou jízdou i množstvím děl. A on pochopil, že je zle, obrátil se
-          i s vozy zpět na Moravu a takto je zorganizoval: Nejprve přidělil lidi
-          k vozům, jízdní i pěší a táhl s uzavřenými řady (vozů). A takto
-          zorganizoval krajní vozy: Ke každému vozu dva muže se pavézami a za ně
-          dva nebo tři střelce a to proto, že kdyby mu chtěli během přesunu
-          (Uhři) vniknout do vozů, aby tomu dotyční zabránili. Ten den jej
-          čekalo náročné tažení, protože kdyby se jen na chvíli zastavil, hned
-          by na jeho vojsko zaútočili. A protože se jim nemohl ubránit jinak,
-          táhl až dlouho do noci, a to proto, aby (Uhři) neviděli, kde se (s
-          vojskem) položí a nemohli na něj zaútočit. Přikázal svému vojsku
+          přemlouvali, aby někam vytáhl. On postavil čtyři řady vozů a co
+          nejvíce děl mohl a táhl přes hory do Uher. Uhři mu v postupu nijak
+          nebránili a nikde nekladli odpor, chtíce aby polevil v ostražitosti a
+          ztratil pořádek (ve vojsku), aby jej pak mohli porazit, neboť na něj
+          vytáhli se silnou jízdou i množstvím děl. A on pochopil, že je zle,
+          obrátil se i s vozy zpět na Moravu a takto je zorganizoval: Nejprve
+          přidělil lidi k vozům, jízdní i pěší a táhl s uzavřenými řady (vozů).
+          A takto zorganizoval krajní vozy: Ke každému vozu dva muže se pavézami
+          a za ně dva nebo tři střelce a to proto, že kdyby mu chtěli během
+          přesunu (Uhři) vniknout do vozů, aby tomu dotyční zabránili. Ten den
+          jej čekalo náročné tažení, protože kdyby se jen na chvíli zastavil,
+          hned by na jeho vojsko zaútočili. A protože se jim nemohl ubránit
+          jinak, táhl až dlouho do noci, a to proto, aby (Uhři) neviděli, kde se
+          (s vojskem) položí a nemohli na něj zaútočit. Přikázal svému vojsku
           nezapalovat žádné ohně a Uhři, kteří kolem něj ještě chvíli jezdili,
           museli nakonec obsadit okolní vsi aby měli kde uvázat koně a také sami
           se před ním zabezpečit. Tady zůstal jak uznal za vhodné a nazítří táhl
           k jednomu jezeru, u kterého bylo návrší. A takto se u něj položil:
-          Jednu stranu k jezeru a druhou stranu pod vršek a to protože kdyb na
+          Jednu stranu k jezeru a druhou stranu pod vršek a to protože kdyby na
           něj (Uhři) chtěli stříleti, aby jej přestřelovali. A takto to udělal:
           vzal pícní vozy, vyjel s nimi na to návrší a udělal z nich u přední
           brány baštu a u zadní brány druhou. Tam je zakopal a osadil do nich
           děla. A tak nedovolil Uhrům obsadit okolní vrchy. Opět potom třetí den
           od toho jezera táhl k jedné řece, která teče k Nyárhídu a položil se u
-          té řeky. A zde se velmi bál porážky, aby ho nenechali napředed pustit
+          té řeky. A zde se velmi bál porážky, aby ho nenechali napřed pustit
           část lidí přes řeku a pak aby mu nenapadli zadní vozy. A proto celou
           noc zakopával krajní vozy od jednoho břehu až k druhému, a na druhý
           břeh přepravil pícní vozy a také je tam zakopal, aby na ně nemohla
@@ -232,7 +232,7 @@ export const ZizkovoTazeniDoUher = () => (
           že jeho organizace vozů ani jeho šiky mu nepomohou, protože se nemohou
           uzavřít mezi vozy. A on se takto připravil k obraně: Položil se těsně
           před lesem pod jedním vrškem a to z toho důvodu, že když na něj budou
-          střílet z děl, aby jej přestřelovali. Sám se svými děly úchýlil na ten
+          střílet z děl, aby jej přestřelovali. Sám se svými děly uchýlil na ten
           vršek. Potom přikázal vypřáhnout koně z vozů, posadit na ně lidi se
           sekyrami, lopatami a rýči, aby našli boční cesty a zahradili je záseky
           a to z toho důvodu aby jim ze stran nikdo nemohl na vozy zaútočit. A

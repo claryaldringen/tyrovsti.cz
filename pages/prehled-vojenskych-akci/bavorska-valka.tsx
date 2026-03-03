@@ -28,7 +28,10 @@ const Page = () => (
 export const getStaticProps = () => ({
   props: {
     lang: LANG_CS,
-    dest: '/military-campaigns/bavarian-war',
+    dest: {
+      en: '/military-campaigns/bavarian-war',
+      de: '/feldzuege/bayerischer-krieg',
+    },
   },
 })
 

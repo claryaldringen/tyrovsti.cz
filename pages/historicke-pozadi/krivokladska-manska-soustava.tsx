@@ -28,7 +28,10 @@ const Page = () => (
 export const getStaticProps = () => ({
   props: {
     lang: LANG_CS,
-    dest: '/historical-background/krivoklat-feudal-system',
+    dest: {
+      en: '/historical-background/krivoklat-feudal-system',
+      de: '/historischer-hintergrund/krivoklater-lehnswesen',
+    },
   },
 })
 

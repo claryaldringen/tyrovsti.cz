@@ -28,7 +28,10 @@ const Page = () => (
 export const getStaticProps = () => ({
   props: {
     lang: LANG_CS,
-    dest: '/military-campaigns/waldshut-war',
+    dest: {
+      en: '/military-campaigns/waldshut-war',
+      de: '/feldzuege/waldshuterkrieg',
+    },
   },
 })
 

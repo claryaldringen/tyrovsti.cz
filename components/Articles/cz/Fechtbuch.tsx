@@ -8,7 +8,7 @@ export const Fechtbuch = () => (
       <Col>
         <h1>Fechtbuch Joachima Meyera (MS Bibl. 2465)</h1>
         <p>
-          <b>MS Bibl. 2465</b> je německý fechtbuch sepsaný Jocahimem Meyerem
+          <b>MS Bibl. 2465</b> je německý fechtbuch sepsaný Joachimem Meyerem
           roku 1561. Originál je v současnosti uložen ve sbírkách Bavorského
           národního muzea v Mnichově v Německu. Tento rukopis, který může být
           Meyerovým nejstarším dílem, byl vytvořen pro Georga Johanna II.,
@@ -62,7 +62,7 @@ export const Fechtbuch = () => (
           <br />
           Například: Mají spolu bojovat dva lidé a jeden je levák a druhý
           pravák. Pravák vyzve leváka. Levák tedy zvolí zbraně takto: Dva ostré
-          rapíry a dvě ostré dýky. Dále dvě nátepní zbroje (ararmschirleinn),
+          rapíry a dvě ostré dýky. Dále dvě nátepní zbroje (armschirleinn),
           každý jednu na pravé paži, protože levák má pravou ruku méně zručnou,
           a v každé této nátepní zbroji je uvnitř hrot, který, když někdo paži
           jen trochu ohne, ho bodne.

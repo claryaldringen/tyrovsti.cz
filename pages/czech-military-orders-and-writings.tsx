@@ -64,7 +64,10 @@ const Page = () => {
 export const getStaticProps = () => ({
   props: {
     lang: LANG_EN,
-    dest: '/ceske-vojenske-rady-a-spisy',
+    dest: {
+      cs: '/ceske-vojenske-rady-a-spisy',
+      de: '/boehmische-militaerordnungen',
+    },
   },
 })
 

@@ -107,7 +107,7 @@ export const SnemovniZapisOHotovostiVerejne = () => (
           <li>
             I když lebka je v dnešní terminologii specifický typ přilby, zde je
             tím míněna jakákoli přilba. Vzhledem k době zápisu přichází v úvahu
-            nejčasteji klobouk nebo šalíř.
+            nejčastěji klobouk nebo šalíř.
           </li>
           <li>
             Šípy jsou v moderní terminologii míněny šipky - střely do kuše.

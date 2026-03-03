@@ -26,7 +26,7 @@ export const PokryvkyHlavy = () => (
           různými způsoby - standardně na ramenou a pak mohla být doplněna ještě
           kloboukem nebo přilbou, či byla nasazena ohrnutým obličejovým otvorem
           na hlavě jako čepice. Pro pohusitské Čechy můžeme vysledovat tři
-          hlavní typy typy kápí: S cípem, bez cípu a kápi se střapci, která byla
+          hlavní typy kápí: S cípem, bez cípu a kápi se střapci, která byla
           populární také v Německých zemích.
         </p>
       </Col>
@@ -240,7 +240,7 @@ export const PokryvkyHlavy = () => (
         width={338}
         height={438}
         title="Klobouk s kulatým dýnkem a srolovanou krempou v Krumlovském sborníku,
-              kolem rolu 1420."
+              kolem roku 1420."
       />
       <ImageWithTitle
         md={2}

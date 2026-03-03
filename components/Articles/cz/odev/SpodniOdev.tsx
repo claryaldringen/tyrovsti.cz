@@ -59,7 +59,7 @@ export const SpodniOdev = () => (
             publication={PUBLICATIONS.WINTER}
             href="https://kramerius5.nkp.cz/view/uuid:4405cb90-ee14-11dd-bfdc-000d606f5dc6?page=uuid:724e6280-fe2a-11e6-97b4-5ef3fc9ae867"
           />{' '}
-          Kateřina, měšťanska z Nového Města pražského, odkazuje roku 1483{' '}
+          Kateřina, měšťanka z Nového Města pražského, odkazuje roku 1483{' '}
           <Cit>tři rubáše sváteční a tři košile všední</Cit>.
           <Qt
             publication={PUBLICATIONS.WINTER}
@@ -89,7 +89,7 @@ export const SpodniOdev = () => (
         src="kosile_rajhrad.jpg"
         width={300}
         height={400}
-        title="Košile pod kolena s výřezen do V na výřezu z deskového obrazu
+        title="Košile pod kolena s výřezem do V na výřezu z deskového obrazu
         Nesení kříže na Rajhradském oltáři, kolem 1440"
       />
       <ImageWithTitle
@@ -199,7 +199,7 @@ export const SpodniOdev = () => (
         src="Die_Hefneryn.jpg"
         width={327}
         height={460}
-        title="Česká hrnčířka v košilce při práci, hrací karta z karetní sady Hofämterspiel, kterou si bojednal Ladislav Pohrobek. 50. léta 15. století."
+        title="Česká hrnčířka v košilce při práci, hrací karta z karetní sady Hofämterspiel, kterou si objednal Ladislav Pohrobek. 50. léta 15. století."
       />
       <ImageWithTitle
         md={4}

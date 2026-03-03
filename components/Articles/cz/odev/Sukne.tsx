@@ -71,7 +71,7 @@ export const Sukne = () => (
       <Col>
         <h5>Sukně prostá</h5>
         <p>
-          Sukně více či méně košilového střihu různých délek, buď s uzkými nebo
+          Sukně více či méně košilového střihu různých délek, buď s úzkými nebo
           širokými rukávy. Označení &bdquo;prostá&ldquo; se netýká materiálu,
           který mohl být vskutku honosný, ale relativní jednoduchosti střihu.
           Mohla být zdobena tehdy módním řasením čili vrapováním. V české
@@ -260,14 +260,14 @@ export const Sukne = () => (
         src="zasedaniradyolomouc.jpg"
         width={974}
         height={1622}
-        title="Zasedání městské rady na vyobrazení z Památné knihy Olomoucké (1430 - 1492). Písař Václav z Jihlavy (vlevo dole) má modrou sukni, podšitou kožešinou, s hranatým pytlovitým rukávem a pouze jedním otvorem pro ruku. Konšel v modrém nad ním má sukni s pytlovitým, ale na konci volným rukávem, anologicky s mužem v zeleném z iluminace ze Zkrácených kronik od Davida Auberta. Rovněž je zde vidět, jak české sukně působí proti svým západním vzorům poněkud splihle."
+        title="Zasedání městské rady na vyobrazení z Památné knihy Olomoucké (1430 - 1492). Písař Václav z Jihlavy (vlevo dole) má modrou sukni, podšitou kožešinou, s hranatým pytlovitým rukávem a pouze jedním otvorem pro ruku. Konšel v modrém nad ním má sukni s pytlovitým, ale na konci volným rukávem, analogicky s mužem v zeleném z iluminace ze Zkrácených kronik od Davida Auberta. Rovněž je zde vidět, jak české sukně působí proti svým západním vzorům poněkud splihle."
       />
       <ImageWithTitle
         md={4}
         src="vaclav-z-jihlavy.jpg"
         width={240}
         height={320}
-        title="Václav z Jihavy ve fialové, kožešinou podšité sukni s pytlovitými rukávy. Výřez z Brněnské právní knihy Václava z Jihlavy (1446)."
+        title="Václav z Jihlavy ve fialové, kožešinou podšité sukni s pytlovitými rukávy. Výřez z Brněnské právní knihy Václava z Jihlavy (1446)."
       />
     </Row>
     <Row>

@@ -23,7 +23,10 @@ const Page = () => (
 export const getStaticProps = () => ({
   props: {
     lang: LANG_CS,
-    dest: '/how-not-to-create-a-hema-group',
+    dest: {
+      en: '/how-not-to-create-a-hema-group',
+      de: '/fechtgruppen-leitfaden',
+    },
   },
 })
 

@@ -196,7 +196,7 @@ export const KtozJsuBoziBojovnici = () => (
           <br />
           Pána svého v srdci mějte,
           <br />
-          proň a sním bojujte
+          proň a s ním bojujte
           <br />a před nepřáteli neutiekajte.
         </p>
         <p>

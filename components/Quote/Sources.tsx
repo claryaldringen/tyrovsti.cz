@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import { QuoteContext } from './QuoteProvider'
 import { Col, Row } from 'reactstrap'
-import { LANG_CS } from '../../shared/constants'
+import { LANG_CS, LANG_DE } from '../../shared/constants'
 import Link from 'next/link'
 import { useLanguage } from '../Language'
 import { getCity } from './utils'
@@ -13,7 +13,14 @@ export const Sources = () => {
   return (
     <Row>
       <Col>
-        <h4>{lang === LANG_CS ? 'Použitá literatura' : 'Sources'}:</h4>
+        <h4>
+          {lang === LANG_CS
+            ? 'Použitá literatura'
+            : lang === LANG_DE
+              ? 'Quellenverzeichnis'
+              : 'Sources'}
+          :
+        </h4>
         <ol>
           {usedPublications.map(({ author, name, city, year, href }) => (
             <li key={`${author}: ${name}`}>

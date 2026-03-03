@@ -24,7 +24,7 @@ export const KterakNeVytvoritSkupinu = () => (
           co s nimi? Také, ruku na srdce, všem kolem vám je čtrnáct a vy jste o
           hlavu větší? A peněz je málo? Chcete zkusit něco mužnějšího?
           Drsnějšího? Lepšího? Máte pár kamarádů, kteří jsou na tom podobně?
-          Založte skupinu hitorického šermu!
+          Založte skupinu historického šermu!
           <br />A protože, jak jistě víte, to není věc jednoduchá, a starší,
           zavedené skupiny si z vás dělají legraci, a sedí, starci jedni, na
           kšeftech a know how, a neporadí a neporadí, rozhodl jsem se vytvořit
@@ -50,7 +50,7 @@ export const KterakNeVytvoritSkupinu = () => (
             kopí, štít, helma, kyrys, nebo originální Rytíři.) Nevýhoda je, že
             tyto názvy jsou povětšinou již rozebrány. Rytíři jsou například
             natolik populární, že už máme rytíře toho či onoho a další stále
-            příbývají.
+            přibývají.
           </li>
           <li>
             Cizí název. Zde už tolik nezáleží na obsahu, měl by končit na
@@ -85,7 +85,7 @@ export const KterakNeVytvoritSkupinu = () => (
         <br />
         <h3>Vybavení</h3>
         <p>
-          O tom už mnohokrát psali jiní, takže jen sručně. Hlavně musíte mít
+          O tom už mnohokrát psali jiní, takže jen stručně. Hlavně musíte mít
           železné zbraně! Zbytek už nějak pořešíte. Kronďák to jistí a je fakt
           odolnej. Jestli chcete meč vizuelně honosnější (pro šlechtice a ne
           knechta), berte Zackla, ten to má pěkně leštěný a velký (ty meče,
@@ -169,7 +169,7 @@ export const KterakNeVytvoritSkupinu = () => (
             zmocnit doopravdy, neboť v botech se nachází fusky adiddas, které
             publikum nesmí spatřit! Marné páčení z nohou oběti je ovšem vítaná
             humorná vložka. Boty by měli být alespoň vzdáleně podobné škorním,
-            musí je mít rytíř, jelikož jsou to zpravidla jediné hitorické boty
+            musí je mít rytíř, jelikož jsou to zpravidla jediné historické boty
             ve skupině. Nebudeme přece upozorňovat publikum na kecky lapků.
             Vystoupení končí zásadně hádkou a konfliktem lapků mezi sebou a
             jejich smrtí, nebo příchodem manželky jednoho z lapků s koštětem,
@@ -186,7 +186,7 @@ export const KterakNeVytvoritSkupinu = () => (
             Vystoupení vhodné do škol, nebo když je vás málo, nebo se vám jen
             nechce moc namáhat. Výhodou tohoto vystoupení je, že ho hravě
             zastanou dva účinkující, v kritických případech stačí jeden. Že víte
-            o hitorii kulové? Nevadí. Určitě některý z vašich členů má
+            o historii kulové? Nevadí. Určitě některý z vašich členů má
             encyklopedii, kde něco najdete. Pokud ne, zeptejte se svého učitele
             dějepisu (ten ví to samé kulové co vy, ale aby neztratil tvář, tak
             něco vymyslí). Poté si to napíšete na papír, papír opálíte
@@ -221,7 +221,7 @@ export const KterakNeVytvoritSkupinu = () => (
             doplnit moudry o šermu, zbraních, zbrojích a zkrátka o všem, co vás
             napadne. Důležité je navodit úsměvnou atmosféru. Nováčci proto musí
             být nešikovní, velitel musí vydávat nesmyslné rozkazy (třeba vztyk,
-            lehnout, vztyk, lehnout, vztyk... opakováno rychle zasebou, aby to
+            lehnout, vztyk, lehnout, vztyk... opakováno rychle za sebou, aby to
             nováčci nestíhali. Tomu se publikum vždy velmi směje.)
             <br />
             Vyzkoušejte co nejvíc zbraní, nebojte se ani zbraní střelných (luk
@@ -370,7 +370,7 @@ export const KterakNeVytvoritSkupinu = () => (
           to a ničeho se nebojíte. Získání nějaké ceny je jen otázkou několika
           měsíců. Pobavíte mnoho tisíců diváků, rozesmějete tolik dětských
           tváří! Jsem hrdý, že jsem vám mohl pomoci svou troškou vědomostí. A
-          nezpoměňte: šerm je hlavně v srdci! A ne, jak vám mnozí podsouvají, v
+          nezapomeňte: šerm je hlavně v srdci! A ne, jak vám mnozí podsouvají, v
           nějakých předražených kurzech! Šermu zdar!
         </p>
         <p className="text-end">Váš Waffle</p>

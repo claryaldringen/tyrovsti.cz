@@ -70,7 +70,7 @@ export const Zbroj = () => (
           objevují kónické přilby vykované z jednoho kusu, což bylo náročnější
           na technologii, protože na takovou přilbu byl potřeba větší celistvý
           kus plechu. Obecně byli platnéři v historii omezeni ponejvíce rozměrem
-          výchozího plechového materiálu. Nejznámější takvou přilbou je tzv.{' '}
+          výchozího plechového materiálu. Nejznámější takovou přilbou je tzv.{' '}
           <i>Svatováclavská přilba</i>.{' '}
           <Qt
             publication={PUBLICATIONS.TOMIC}
@@ -100,7 +100,7 @@ export const Zbroj = () => (
           centrech zbrojní výroby vznikly i tvarem odlišné styly, které pak
           dominovaly celému století, nazývané italská/milánská a německá zbroj.
           V Miláně se výrobou zbrojí proslavila rodina Missagliů. Tato
-          rozvětvená rodina, původním jménem Negroni,získala své jméno podle
+          rozvětvená rodina, původním jménem Negroni, získala své jméno podle
           městečka v Lombardii, odkud zřejmě pocházel zakladatel jejich
           platneřské slávy Pietro, jenž zemřel před rokem 1429. Největšího
           věhlasu dosáhli jeho pokračovatelé Tommaso a především Antonio (asi
@@ -123,13 +123,13 @@ export const Zbroj = () => (
           V Praze vytvořili platnéři organizaci v roce 1328. Roku 1329 získal
           staroměstské měšťanství platnéř jménem Klebel a po něm se přihlásilo
           ještě 24 mistrů do roku 1393. Jeden z nich, Henricus, přišel roku 1354
-          z italského Coma, jiný z Týnce, Kolína, Berouna či z Chrudimi. Roku
+          z italského Como, jiný z Týnce, Kolína, Berouna či z Chrudimi. Roku
           1351 je zaznamenán Rudl jako první platnéř mezi konšely na Starém
           Městě. Během Husitských válek jsou mezi staroměstskými konšely
           doloženi platnéř Vůz (1423) a helméř Jakub (1422). Do roku 1526 pak
           přibylo 26 platnéřských mistrů, z toho jeden (po roce 1477) z Vlašimi.
           V městských knihách nejsou platnéři vzácní a vždy se nalézají mezi
-          zámožnými měštany, ale k přísaze v roce 1524 se z obou Pražských měst
+          zámožnými měšťany, ale k přísaze v roce 1524 se z obou Pražských měst
           dostavili pouze 4. Máme tak doložené jmenovitě tyto platnéře:{' '}
         </p>
         <ul>
@@ -207,7 +207,7 @@ export const Zbroj = () => (
             publication={PUBLICATIONS.ARCHIV8}
             href="https://www.ndk.cz/view/uuid:264e7b10-8dd8-11e8-9588-5ef3fc9bb22f?page=uuid:dc8ba9a0-9b8b-11e8-a1e1-005056827e51&fulltext=obojček"
           />
-          Obvykle pak násleovala textilní kápě, na konci 15. století obvykle
+          Obvykle pak následovala textilní kápě, na konci 15. století obvykle
           opatřená střapci, přes kterou se nasazovala přilba. Z přileb převažuje
           v českých zemích jednoznačně železný klobouk, dobově zvaný{' '}
           <i>kapalín</i> a z něho odvozený šalíř, česky dobově zvaný <i>leb</i>{' '}

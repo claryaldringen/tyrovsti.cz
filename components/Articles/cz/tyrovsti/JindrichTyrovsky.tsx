@@ -19,7 +19,7 @@ export const JindrichTyrovsky = () => (
           soudu, která se ještě v roce 1491 psal na Týřově. Od roku 1494 dával
           již Jindřich sám povolení k prodeji manských dědin v Mlečicích. Pozn.:
           Robotní manové v Mlečicích a Zavidově byli vždy povinni službou ke
-          Křivoklátu, avšak jako poddaní na Týřovskom panství mohli své statky
+          Křivoklátu, avšak jako poddaní na Týřovském panství mohli své statky
           prodávat jen se svolením svého pána - držitele Týřova.
         </p>
         <p>
@@ -119,12 +119,12 @@ export const JindrichTyrovsky = () => (
         </p>
         <p>
           Také otec Jindřich měl co do činění se soudy. Roku 1536 ho obeslal
-          Erhart Kfelíř kvůli škodě 100 kop grošů, protože prý jeho (Jidřichovi)
-          lidé chodili po lesích s ručnicemi a zvěř okolo Týřova stříleli. Roku
-          1544 pohnal Mikuláš Pešík z Komárova Jindřicha o 3 zvířecí tenata a
-          tisovatého koně, které si vypůjčil od Mikulášova zesnulého bratra Jana
-          a nevrátil je. Zajímavé je, že Mikuláš a Jindřich byli nějakým
-          způsobem příbuzensky spřízněni.
+          Erhart Kfelíř kvůli škodě 100 kop grošů, protože prý jeho
+          (Jindřichovi) lidé chodili po lesích s ručnicemi a zvěř okolo Týřova
+          stříleli. Roku 1544 pohnal Mikuláš Pešík z Komárova Jindřicha o 3
+          zvířecí tenata a tisovatého koně, které si vypůjčil od Mikulášova
+          zesnulého bratra Jana a nevrátil je. Zajímavé je, že Mikuláš a
+          Jindřich byli nějakým způsobem příbuzensky spřízněni.
         </p>
         <p>
           Když Lorenc Šlik viděl, že Jindřicha nepřežije a týřovského panství se

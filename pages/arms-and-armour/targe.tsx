@@ -30,7 +30,10 @@ const Page = () => {
 export const getStaticProps = () => ({
   props: {
     lang: LANG_EN,
-    dest: '/vyzbroj-a-vystroj/tarce',
+    dest: {
+      cs: '/vyzbroj-a-vystroj/tarce',
+      de: '/waffen-und-ruestung/tartsche',
+    },
   },
 })
 

@@ -44,7 +44,7 @@ export const VozovyRadFrankfurtsky = () => (
           zakrytý lněným plátnem a dole mezi dvěma osami na podélné straně je
           třeba pověsit silnou desku na řetězy tak, aby se dala zavěsit a
           sundat, kdykoli člověk chce; a vždy dva vozy musí mít jeden řetěz,
-          který je dlouhý dva lokte, s jedním kruhem a jedním hákem, které lze
+          který je dlouhý osm loktů, s jedním kruhem a jedním hákem, které lze
           nasadit a sundat, kdykoli člověk chce; a ke každému vozu musí patřit
           dvě ručnice a ke každé ručnici nejméně šedesát olověných kulí a ke
           dvěma vozům jedna komorová puška (rychlice) a k tomu nejméně třicet

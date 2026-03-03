@@ -28,7 +28,10 @@ const Page = () => (
 export const getStaticProps = () => ({
   props: {
     lang: LANG_EN,
-    dest: '/vyzbroj-a-vystroj/valecne-kladivo',
+    dest: {
+      cs: '/vyzbroj-a-vystroj/valecne-kladivo',
+      de: '/waffen-und-ruestung/streithammer',
+    },
   },
 })
 

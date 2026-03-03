@@ -215,7 +215,7 @@ export const JostTyrovsky = () => (
             publication={PUBLICATIONS.KURSCHNER}
             href="https://sources.cms.flu.cas.cz/src/index.php?s=v&cat=50&bookid=488&page=7"
           />{' '}
-          nebo nebo transumpt buly papeže Pia II. z března 1459, v němž je Jošt
+          nebo transumpt buly papeže Pia II. z března 1459, v němž je Jošt
           jmenován jako <Cit>Jodocus de Eynsedil, milites Pragensis</Cit>.
           <Qt publication={PUBLICATIONS.BOUKAL} /> Zároveň s povýšením do
           rytířského stavu dostává dědictví v hodnotě 500 kop grošů na statku
@@ -233,10 +233,10 @@ export const JostTyrovsky = () => (
           dříví prodávati, než toliko bez překážky bráti k palivu a na opravy
           hradu. V lovu drobné zvěře a ptáků měl Jošt svobodu, kdežto z vysoké
           zvěře směl štvát 3 jeleny a 10 srn do roka s vědomím křivoklátského
-          purkrabího, který mu byl povinnen půjčit psy a tenata. Poněvadž hrad
+          purkrabího, který mu byl povinen půjčit psy a tenata. Poněvadž hrad
           potřeboval opravy hradeb, podsebití i budov, připsal král Joštovi na
           opravu 100 kop grošů. Kdyby byl hrad Joštovi dobyt, jsou králové
-          povini mu pomoci dobýt hrad zpět nebo jej do dvou let vyplatit.
+          povinni mu pomoci dobýt hrad zpět nebo jej do dvou let vyplatit.
           <Qt publication={PUBLICATIONS.KOCKA} />
         </p>
       </Col>
@@ -329,7 +329,7 @@ export const JostTyrovsky = () => (
           Dětřich z Janovic, Jan z Vartenberka, Jindřich z Plavna, Jindřich z
           Gery, Bohuslav ze Švamberka, Bohuslav ze Žeberka, Jan z Cimburka, Jan,
           Jindřich a Albrecht z Kolovrat, Ješek z Boskovic, Jan z Valdštejna,
-          Jindřich z Roštoku, dále rytíři Jan Calta, Vílém z Krásného Dvora,
+          Jindřich z Roštoku, dále rytíři Jan Calta, Vilém z Krásného Dvora,
           Hynek z Kroupova, Burkhard Kamaret z Žirovnic a Beneš z Veitmile.2
           Všichni přirozeně přijeli, stejně jako král, s bohatým doprovodem.
           <Qt publication={PUBLICATIONS.POSPISIL} />
@@ -497,19 +497,19 @@ export const JostTyrovsky = () => (
           přívrženec exkomunikovaného krále vlastní souvěrce, z jejichž
           společenství ho přece církev vyloučila. Jeho statky jsou pustošeny,
           jeho poddané vesnice páleny a ničeny (svou škodu vyčísluje na 300 kop
-          grošů). Král Jiří škodu uznává a a roku 1466 mu připisuje 100 kop
-          grošů na stavbu rybníků a uděluje milost, že jeho syn Jindřich nebude
-          moci být do své smrti z Týřova vyplacen. Tváří v tvář této devastaci
-          svádí Jošt těžký boj sám se sebou; neboť svědomí a víra, církevní
-          přikázání a přísahaná věrnost jsou bez přestání v konfliktu: ostrý
-          boj, který hýbal celou dobou, se odráží v prsou tohoto muže, který se
-          s rozhodností přidržuje toho, co ve své prosté duši považuje za
-          správné a dobré. Nakonec se rozhodne pro trpící poslušnost, protože mu
-          jde o víru, kterou nechce vzdorovitostí{' '}
-          <Cit>nicht schwächen helfen</Cit> (pomoci oslabit). Takto sdílí stejný
-          osud se spřáteleným městem Cheb, které se snaží utěšovat a posilovat v
-          poslušnosti. Teprve když vidí, že jeho protivníkům nejde ani tolik o
-          víru jako spíše o kořist, chopí se meče a sjedná si klid.
+          grošů). Král Jiří škodu uznává a roku 1466 mu připisuje 100 kop grošů
+          na stavbu rybníků a uděluje milost, že jeho syn Jindřich nebude moci
+          být do své smrti z Týřova vyplacen. Tváří v tvář této devastaci svádí
+          Jošt těžký boj sám se sebou; neboť svědomí a víra, církevní přikázání
+          a přísahaná věrnost jsou bez přestání v konfliktu: ostrý boj, který
+          hýbal celou dobou, se odráží v prsou tohoto muže, který se s
+          rozhodností přidržuje toho, co ve své prosté duši považuje za správné
+          a dobré. Nakonec se rozhodne pro trpící poslušnost, protože mu jde o
+          víru, kterou nechce vzdorovitostí <Cit>nicht schwächen helfen</Cit>{' '}
+          (pomoci oslabit). Takto sdílí stejný osud se spřáteleným městem Cheb,
+          které se snaží utěšovat a posilovat v poslušnosti. Teprve když vidí,
+          že jeho protivníkům nejde ani tolik o víru jako spíše o kořist, chopí
+          se meče a sjedná si klid.
           <Qt
             publication={PUBLICATIONS.KURSCHNER}
             href="https://sources.cms.flu.cas.cz/src/index.php?s=v&cat=50&bookid=488&page=12"
@@ -541,7 +541,7 @@ export const JostTyrovsky = () => (
           Libštejnským z Kolovrat. Jednáním, která se odehrála v Augsburku,
           předcházelo ještě několik dalších jednání s Albrechtem Braniborským,
           jejichž výsledkem bylo uznání Vladislava jako právoplatného českého
-          krále. Výsledkem dlouhého vyjednvání s Fridrichem III. bylo dohodnutí
+          krále. Výsledkem dlouhého vyjednávání s Fridrichem III. bylo dohodnutí
           se na vojenských operacích v Rakousích za účelem bojů s Korvínem a
           vzpurnou rakouskou šlechtou.
           <Qt publication={PUBLICATIONS.JANSKY} />

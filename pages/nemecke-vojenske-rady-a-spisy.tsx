@@ -65,6 +65,9 @@ export default Page
 export const getStaticProps = () => ({
   props: {
     lang: LANG_CS,
-    dest: '/german-military-orders-and-writings',
+    dest: {
+      en: '/german-military-orders-and-writings',
+      de: '/deutsche-militaerordnungen',
+    },
   },
 })

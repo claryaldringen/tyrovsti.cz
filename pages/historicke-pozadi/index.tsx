@@ -35,7 +35,7 @@ const Page = () => (
 export const getStaticProps = () => ({
   props: {
     lang: LANG_CS,
-    dest: '/historical-background',
+    dest: { en: '/historical-background', de: '/historischer-hintergrund' },
   },
 })
 

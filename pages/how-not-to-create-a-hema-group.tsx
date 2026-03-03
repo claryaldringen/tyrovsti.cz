@@ -23,7 +23,10 @@ const Page = () => (
 export const getStaticProps = () => ({
   props: {
     lang: LANG_EN,
-    dest: '/kterak-nevytvorit-skupinu-historickeho-sermu',
+    dest: {
+      cs: '/kterak-nevytvorit-skupinu-historickeho-sermu',
+      de: '/fechtgruppen-leitfaden',
+    },
   },
 })
 

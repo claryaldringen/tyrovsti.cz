@@ -13,7 +13,7 @@ export const RadVozovyRytiruNemeckych = () => (
           jako <Cit>válečný vůz</Cit>. Podle popisu se jedná o bytelný vůz, o
           něco větší než ostatní.
           <br />
-          Termín <Cit>lotbuchse</Cit> jsem zatím nalezl vždy jen v souvislostí s
+          Termín <Cit>lotbuchse</Cit> jsem zatím nalezl vždy jen v souvislosti s
           Řádem Německých rytířů. Mělo by se jednat o palnou zbraň, střílící
           olověnými kulemi bez další specifikace. Míchají se tak dohromady{' '}
           <i>lotbuschen</i>, které jsou ručními zbraněmi i <i>lotbuchsen</i>,

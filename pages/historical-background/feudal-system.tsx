@@ -30,7 +30,10 @@ const Page = () => (
 export const getStaticProps = () => ({
   props: {
     lang: LANG_EN,
-    dest: '/historicke-pozadi/manska-soustava',
+    dest: {
+      cs: '/historicke-pozadi/manska-soustava',
+      de: '/historischer-hintergrund/lehnswesen',
+    },
   },
 })
 

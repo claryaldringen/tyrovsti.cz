@@ -113,12 +113,12 @@ export const Estok = () => (
           průměrné mužské ruky. Na trn bylo provizorně nasazeno dřevěné
           obložení. Je trochu širší uprostřed (obr. 1). Nicméně pokrývá pouze
           jednu stranu a je pravděpodobně mnohem mladší než samotný artefakt, na
-          kterím jej drží pouze stříbrná plaketa s nápisem{' '}
+          kterém jej drží pouze stříbrná plaketa s nápisem{' '}
           <Cit>Teutonské z královské pokladnice</Cit>
           připevněná v polovině 19. století. Hlavice je velká a masivní,
           tvarovaná jako nepravidelný tetrakaidekahedron se čtyřmi konkávními
           stranami (obr. 5). Celá zbraň je dlouhá 1586 mm a váží 4050 g. Její
-          težiště se nachází na čepeli, 230 mm daleko od spodní hrany záštity.
+          těžiště se nachází na čepeli, 230 mm daleko od spodní hrany záštity.
           <Qt publication={PUBLICATIONS.TALAGA} />
         </p>
       </Col>
@@ -182,7 +182,7 @@ export const Estok = () => (
           menší, přibližně 3 mm. Trn je tlustý a robustní, odpovídající
           velikosti hlavice a čepele (obr. 3). Ale jeden neobvyklý detail upoutá
           pozornost. Špička trnu nepřesahuje nad horní část hlavice a ani v
-          nejmenším a nevykazuje žádné známky kování (obr. 3 a 7). Navíc ji
+          nejmenším nevykazuje žádné známky kování (obr. 3 a 7). Navíc ji
           obklopuje tmavá výrazná skvrna, což možná svědčí o chybějícím nýtu
           (obr. 7). Záštita je robustní (obr. 3 a 4). Její ramena zaoblenými
           hroty a podobně jako čepel mají téměř čtvercový průřez o úhlopříčce 13
@@ -252,7 +252,7 @@ export const Estok = () => (
         Velké Británii pod inventárním číslem XIV.10. Kombinuje estok s ručnicí.
         Je datována okolo roku 1520 a předpokládá se, že kdysi patřila notoricky
         známému králi Jindřichovi VIII. Má čepel estoku a robustní, špičatou
-        záštitu, zatímco místo jílce a hlvice má hlaveň ručnice, která je
+        záštitu, zatímco místo jílce a hlavice má hlaveň ručnice, která je
         připojena k trnu zakončenému šroubem.
         <Qt publication={PUBLICATIONS.TALAGA} /> Zbraň je dlouhá 195 cm.
         <Qt

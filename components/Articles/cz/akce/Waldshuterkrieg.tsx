@@ -207,7 +207,7 @@ export const Waldshuterkrieg = () => (
         </p>
         <p>
           Při zpáteční cestě Spřiseženci vypálili město Waldkirch, obsadili
-          Tiengen, léno kostnického biskupství, které měl v zásatavě Bilgeri von
+          Tiengen, léno kostnického biskupství, které měl v zástavě Bilgeri von
           Heudorf a ponechali zde 600 mužů. Rakouský dvorní maršálek Jakob Trapp
           požádal z kláštera St. Blasien město Freiburg o další posily a
           vyjádřil obavu, že se celý Schwarzwald chce stát švýcarským.
@@ -437,14 +437,14 @@ export const Waldshuterkrieg = () => (
         <p>
           Čechy pravděpodobně předcházela vojenská jejich pověst, když i přes
           svůj nízký počet stáli Schillingovi nejen za to, aby je zmínil, ale
-          aby vypíchl, že jeich přítomnost neměla žádný vojenský efekt.
+          aby vypíchl, že jejich přítomnost neměla žádný vojenský efekt.
           Formulací, že{' '}
           <Cit>způsobili více škody přátelům než Spříseženectví</Cit> narážel
           Schilling nejspíše na rozšířený nešvar českých vojáků, kteří čím dále
           byli od Čech, tím více rabovali.
         </p>
         <p>
-          Na doporovdné iluminaci jsou pak vyobrazení jako pohané a orientálci s
+          Na doprovodné iluminaci jsou pak vyobrazení jako pohané a orientálci s
           dlouhými vlasy, což je zjevně narážka na veřejné mínění o Češích coby
           kacířích.
         </p>

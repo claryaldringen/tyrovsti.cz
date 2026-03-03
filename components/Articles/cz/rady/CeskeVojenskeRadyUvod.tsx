@@ -9,7 +9,7 @@ export const CeskeVojenskeRadyUvod = () => (
         <p>
           Mezi středověké písemnosti, jež nám dávají nahlédnout do poměrů
           dobového válečnictví, patří tzv. <i>vojenské řády</i>
-          .&nbsp;Byly obvykle sepisovány před nejakým konkrétním tažením a
+          .&nbsp;Byly obvykle sepisovány před nějakým konkrétním tažením a
           původně se v nich řešily zejména kázeňské a organizační záležitosti. Z
           doby před 15. stoletím se jich zachovalo poměrně málo. Mezi
           nejznámější patří <i>Řád vojenský Fridricha I. Barbarossy</i> z roku

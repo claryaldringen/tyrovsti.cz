@@ -44,6 +44,6 @@ export default Page
 export const getStaticProps = () => ({
   props: {
     lang: LANG_EN,
-    dest: '/jezdecky-serm',
+    dest: { cs: '/jezdecky-serm', de: '/reiterkampf' },
   },
 })

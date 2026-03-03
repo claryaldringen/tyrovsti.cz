@@ -32,7 +32,7 @@ export const KrivoklatskaManskaSoustava = () => (
           <Qt publication={PUBLICATIONS.KOCKA} note="Str. 111" />
         </p>
         <p>
-          Po manově smrti dědili manství synové a vnuci, kteří museli zapatit
+          Po manově smrti dědili manství synové a vnuci, kteří museli zaplatit
           poplatek zvaný <i>laudemium</i>, do roka se ohlásit u purkrabího (nebo
           hejtmana, pokud purkrabí nebyl k dispozici) a složit manskou přísahu.
           Byla-li tato lhůta promeškána, spadlo manství zpět na krále jako
@@ -57,7 +57,7 @@ export const KrivoklatskaManskaSoustava = () => (
           do desk dvorských. Roku 1560 nařídil Šternberkovi arcikníže Ferdinand
           otevřeným dopisem svolat všechny many aby se se svými majestáty
           dostavili na hrad. Po prohlédnutí všech listin jim bylo nařízeno, aby
-          se řidili jen knihami manskými a neuchylovali se pod jinou pravomoc
+          se řídili jen knihami manskými a neuchylovali se pod jinou pravomoc
           než křivoklátského hejtmana. Od této doby již nesměli manové zapisovat
           do desk dvorských, přesto máme doklady, že manové desky manské
           opomíjeli a zapisovali jen do desk dvorských.
@@ -76,12 +76,13 @@ export const KrivoklatskaManskaSoustava = () => (
           <Qt publication={PUBLICATIONS.KOCKA} note="Str. 112" />
         </p>
         <p>
-          Manství mohlo zaniknout buď <i>felonií</i>, t.j. proušením věrnosti,
+          Manství mohlo zaniknout buď <i>felonií</i>, t.j. porušením věrnosti,
           nesložil-li man přísahu včas, urážkou panovníkovy osoby, nekonáním
-          povinosti a jiným spáchaným zločinem, nebo svedením služebnosti (např.
-          Hedčany) ať už zdarma, za věrné služby nebo za úhradu. Král nemohl sám
-          svodit manství bez povolení pánů z té příčiny, protože manství nebylo
-          čistě statkem komorním (patřící králi), ale statkem zemským (státním).
+          povinnosti a jiným spáchaným zločinem, nebo svedením služebnosti
+          (např. Hedčany) ať už zdarma, za věrné služby nebo za úhradu. Král
+          nemohl sám svodit manství bez povolení pánů z té příčiny, protože
+          manství nebylo čistě statkem komorním (patřící králi), ale statkem
+          zemským (státním).
           <Qt publication={PUBLICATIONS.KOCKA} note="Str. 112" />
         </p>
         <p>
@@ -148,9 +149,9 @@ export const KrivoklatskaManskaSoustava = () => (
           <Qt publication={PUBLICATIONS.KOCKA} note="Str. 110" />
         </p>
         <p>
-          Tu teprve hejtman Albrech z Vřesovic psal soudu dvorskému, že je
+          Tu teprve hejtman Albrecht z Vřesovic psal soudu dvorskému, že je
           potřeba znovu osadit manský soud, aby manové mohli dosáhnout
-          spravedlnosti a nemuseli jít pokaždé k dvorskéomu soudu. Nevědělo se
+          spravedlnosti a nemuseli jít pokaždé k dvorskému soudu. Nevědělo se
           ani kým a jakým způsobem má být soud osazen neboť k tomu nebyly
           zachované žádné registry a ani si to již nikdo nepamatoval. Zpráva
           také uvádí, že{' '}
@@ -559,7 +560,7 @@ export const KrivoklatskaManskaSoustava = () => (
           </li>
           <li>Chlum. Rychtář platí 3 groše na posly za hranice vyslané.</li>
           <li>Mlečice. Rychta s lánem dědiny a 2 podsedkové.</li>
-          <li>Svinařov. Rychra a dvůr poplužní s 2 lány.</li>
+          <li>Svinařov. Rychta a dvůr poplužní s 2 lány.</li>
           <li>
             Myslice. (1383 mlýn, 1543 dvůr, 1610 převoz pod hradem Týřovem.)
             Držitel dával každý pátek za 3 groše ryb říčních, choval psa

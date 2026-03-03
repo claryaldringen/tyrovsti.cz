@@ -28,7 +28,7 @@ export const BavorskaValka = () => (
             publication={PUBLICATIONS.WIKI}
             href="https://de.wikipedia.org/wiki/Bayerischer_Krieg_(1459%E2%80%931463)"
           />{' '}
-          Za součásto tohoto konfliktu se někdy považuje i tzv.{' '}
+          Za součást tohoto konfliktu se někdy považuje i tzv.{' '}
           <i>Diecézní spor v Mohuči</i>, známý také jako{' '}
           <i>bádensko - falcká válka</i>, vojenský konflikt o stolec arcibiskupa
           v Mohuči.
@@ -117,7 +117,7 @@ export const BavorskaValka = () => (
           přebírat soudní procesy ze všech regionů. To by znamenalo, že by mohl
           ovlivňovat judikaturu sousedních knížectví a jako vyšší soud by pak
           mohl rušit rozhodnutí podřízených soudů. Za úsilím Albrechta Achilla
-          stála také myšlenka obnovení Franků pod nádvládou Hohenzollernů. V
+          stála také myšlenka obnovení Franků pod nadvládou Hohenzollernů. V
           kombinaci s vévodskou důstojností zůstala tato myšlenka dlouho živá ve
           würzburském knížecím biskupství, aniž by se kdy znovu stala
           skutečností.
@@ -348,7 +348,7 @@ export const BavorskaValka = () => (
           markraběte Karla Bádenského a hraběte Ulricha Würtembergského také
           markraběte Albrechta III. Achilla, který v&nbsp;tom viděl příležitost
           revidovat <i>Rothskou směrnici</i>. Stejně jako již roku 1459 ve sporu
-          o Donauwörth zde Albrecht spojil říšská politiku se&nbsp;svou
+          o Donauwörth zde Albrecht spojil říšskou politiku se&nbsp;svou
           hegemonistickou politikou v&nbsp;jižním Německu a Rakousku.
           <Qt
             publication={PUBLICATIONS.TRESP}
@@ -455,13 +455,13 @@ export const BavorskaValka = () => (
             známého také jako bádensko-falcká válka. V roce 1459 byl těsnou
             většinou proti Adolfu von Nassau zvolen novým arcibiskupem v Mohuči
             správce katedrály Diether von Isenburg. Cenou za toto zvolení bylo
-            připojení se k protifalcké alianci a Diether tak byl nucen výthanout
+            připojení se k protifalcké alianci a Diether tak byl nucen vytáhnout
             proti falckraběti Fridrichu I., ale <b>4. července 1460</b> prohrál
             rozhodující bitvu u Pfeddersheimu. V roce 1461 svolal Diether v
             Norimberku knížecí sněm, kde se zasazoval o císařské a církevní
             reformy. Důrazně požadoval zrušení požadavků na papežský annát
             prostřednictvím všeobecného koncilu. Tento jeho kritický postoj vůči
-            papeži Piovi II. a císaři Fridrichu III. vedl k tmu, že byl{' '}
+            papeži Piovi II. a císaři Fridrichu III. vedl k tomu, že byl{' '}
             <b>21. srpna 1461</b> papežem sesazen a exkomunikován.
             <Qt
               publication={PUBLICATIONS.WIKI}
@@ -498,7 +498,7 @@ export const BavorskaValka = () => (
             hrabatům z Leiningenu a Katzenelnbogenu, kteří byli na levém břehu
             Rýna a byli připraveni pochodovat přes Altrip do Dolního
             Dossenwaldu. Počet bojovníků, kteří si na oděv připnuli ořechové
-            listy, identifikačná znamení falckých, se zvýšil kvůli velkému
+            listy, identifikační znamení falckých, se zvýšil kvůli velkému
             přílivu rolníků z regionu. Bádenští naopak si na oděv připnuli trsy
             ovsa.
             <Qt
@@ -510,9 +510,9 @@ export const BavorskaValka = () => (
             V noci na 30. června pochodoval s asi 300 jezdci a dalšími pěšáky
             přes Schwetzingenský les k „Frohnholzu“ (dnešní Dossenwald) jižně od
             Seckenheimu, který císařská vojska hodlala následující den vypálit.
-            Během pochodu byla falcká vojska byla posílena dalšími asi 300
-            jezdci a dalšími pěšáky z kontingentů mohučského arcibiskupa
-            Diethera von Isenburga a hraběte Philippa von Katzenelnbogen.
+            Během pochodu byla falcká vojska posílena dalšími asi 300 jezdci a
+            dalšími pěšáky z kontingentů mohučského arcibiskupa Diethera von
+            Isenburga a hraběte Philippa von Katzenelnbogen.
             <Qt
               publication={PUBLICATIONS.SECKENHEIM}
               href="https://www.historisches-seckenheim.de/index.php/ortsgeschichte/123-schlacht-bei-seckenheim"
@@ -533,11 +533,11 @@ export const BavorskaValka = () => (
             dohled v nedalekém lese. Fridrichova méně početná jízda zaujala
             echelonovou formaci s těžkooděnci uprostřed a dvěma řadami jízdních
             střelců na křídlech. Po krátké úvodní přestřelce se na sebe vrhla
-            těžká jízda obou armád a Fridrichovi rytíři jen s obtíženi zabránili
+            těžká jízda obou armád a Fridrichovi rytíři jen s obtížemi zabránili
             spojenckým těžkooděncům v průniku. Zatímco spolu jezdci bojovali,
             Fridrichova pěchota se vynořila ze svého úkrytu a obklíčila císařské
-            spojence.Skupina asi 300 spojeneckých jezdců si sice prorazila cestu
-            ven a poté zaútočila na falcké podkoní, kteří čekali na své
+            spojence. Skupina asi 300 spojeneckých jezdců si sice prorazila
+            cestu ven a poté zaútočila na falcké podkoní, kteří čekali na své
             ozbrojence, a pobila je, ale na výsledku bitvy to již nic nezměnilo.
             <Qt
               publication={PUBLICATIONS.WIKI}

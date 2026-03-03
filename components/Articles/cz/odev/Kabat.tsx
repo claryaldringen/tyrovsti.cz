@@ -67,7 +67,7 @@ export const Kabat = () => (
           />{' '}
           S tím, jak se z nohavic postupně stávají kalhoty a zvyšuje se jim pas,
           zkracují se i kabátce a koncem 15. století se z nich opět stává
-          plnohodnotný svrchní oděv. Zběžný nástin vývoje kabátu lze vidět ná
+          plnohodnotný svrchní oděv. Zběžný nástin vývoje kabátu lze vidět na
           následujících obrázcích.
         </p>
       </Col>
@@ -78,7 +78,7 @@ export const Kabat = () => (
         src="kabat1.jpg"
         width={375}
         height={323}
-        title="Ranný kabát se širokými rukávy, nošený jako svrchní oděv, na výřezu z Bible Václava IV. (1389-1395)."
+        title="Raný kabát se širokými rukávy, nošený jako svrchní oděv, na výřezu z Bible Václava IV. (1389-1395)."
       />
       <ImageWithTitle
         md={4}
@@ -99,7 +99,7 @@ export const Kabat = () => (
       <Col>
         <p>
           Jak již bylo řečeno výše, v poděbradském období byl kabát jakýmsi
-          mezistupněm mezi spodním a svrchnim oděvem a to nejen v Čechách. Tělo
+          mezistupněm mezi spodním a svrchním oděvem a to nejen v Čechách. Tělo
           kabátu tak mohlo být zhotoveno z levnější, např. nebarvené látky. Tomu
           by také odpovídal testament kotláře Martina z nynější Spálené ulice v
           Praze, který roku 1477 zanechává{' '}
@@ -156,7 +156,7 @@ export const Kabat = () => (
         src="kabat5.jpg"
         width={466}
         height={512}
-        title="Pregéř v kabátu s úzkými rukávy. Výřez z fresky v Mincířské kapli katedrály sv. Barbory v Kutné Hoře(1460-1470)."
+        title="Pregéř v kabátu s úzkými rukávy. Výřez z fresky v Mincířské kapli katedrály sv. Barbory v Kutné Hoře (1460-1470)."
       />
       <ImageWithTitle
         md={3}
@@ -212,7 +212,7 @@ export const Kabat = () => (
         src="kabat2.jpg"
         width={500}
         height={500}
-        title="Ačkoli by měl být tento kabát vzhledem ke své dataci podobný německému kabátu na následujícím obrázku, zachovává si archaický tvar s pevně utaženým šorcem na jednu tkanici a volnějším hrudníkem spínaným na knoflíky. Výřez z fresky v Mincířské kapli katedrály sv. Barbory v Kutné Hoře(1460-1470)."
+        title="Ačkoli by měl být tento kabát vzhledem ke své dataci podobný německému kabátu na následujícím obrázku, zachovává si archaický tvar s pevně utaženým šorcem na jednu tkanici a volnějším hrudníkem spínaným na knoflíky. Výřez z fresky v Mincířské kapli katedrály sv. Barbory v Kutné Hoře (1460-1470)."
       />
       <ImageWithTitle
         md={4}
@@ -289,7 +289,7 @@ export const Kabat = () => (
         src="kabat2.jpg"
         width={500}
         height={500}
-        title="V českém prostředí jsou tkanice, kterými je spojen kabát s nohavicemi, skryté natolik, že na rozdíl od tkanice na břiše, nejsou ani naznačeny. Výřez z fresky v Mincířské kapli katedrály sv. Barbory v Kutné Hoře(1460-1470)."
+        title="V českém prostředí jsou tkanice, kterými je spojen kabát s nohavicemi, skryté natolik, že na rozdíl od tkanice na břiše, nejsou ani naznačeny. Výřez z fresky v Mincířské kapli katedrály sv. Barbory v Kutné Hoře (1460-1470)."
       />
     </Row>
     <Row>

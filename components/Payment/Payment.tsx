@@ -2,7 +2,7 @@ import React from 'react'
 import { QRCodeSVG } from 'qrcode.react'
 import { Col, Row } from 'reactstrap'
 import { useLanguage } from '../Language'
-import { LANG_CS } from '../../shared/constants'
+import { LANG_CS, LANG_DE } from '../../shared/constants'
 import styles from './Payment.module.scss'
 
 export const Payment = () => {
@@ -25,6 +25,20 @@ export const Payment = () => {
             </p>
             <p>
               Číslo účtu: <b>2302111610/2010</b>
+            </p>
+          </>
+        ) : lang === LANG_DE ? (
+          <>
+            <p>
+              Wenn Ihnen dieser Artikel gefallen hat, erwägen Sie bitte eine
+              kleine finanzielle Unterstützung. Das Schreiben von Artikeln ist
+              sehr zeitaufwendig und wir tun es in unserer Freizeit.
+            </p>
+            <p>
+              IBAN: <b>CZ46 2010 0000 0023 0211 1610</b>
+            </p>
+            <p>
+              BIC/SWIFT: <b>FIOBCZPPXXX</b>
             </p>
           </>
         ) : (

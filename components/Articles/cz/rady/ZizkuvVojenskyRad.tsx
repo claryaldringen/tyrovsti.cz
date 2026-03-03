@@ -20,7 +20,7 @@ export const ZizkuvVojenskyRad = () => (
           označení není úplně přesné. Ve skutečnosti jde o ustavující zápis,
           programové prohlášení a kázeňský řád Žižkova východočeského svazu,
           hlavně jeho vojenské složky. Pravděpodobně vznikl v první polovině
-          září 1423 i když nelze zcela vyloučit jeho vznik v průběhu první
+          září 1423, i když nelze zcela vyloučit jeho vznik v průběhu první
           poloviny listopadu 1423. Začíná čtyřmi pražskými artikuly, pokračuje
           výčtem signatářů a poté již následují organizační opatření, zejména
           kázeňského charakteru.

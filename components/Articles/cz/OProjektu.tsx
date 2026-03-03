@@ -50,7 +50,7 @@ export const OProjektu = () => (
       archeologických pramenů zejména ze západních Čech, popřípadě
       západoevropského okruhu. Snažíme se o maximální historickou věrnost s
       ohledem na použité technologie a dostupné informace. Snažíme se maximálně
-      držet dobově dosupných a používaných materiálů a plodin. Všechny naše
+      držet dobově dostupných a používaných materiálů a plodin. Všechny naše
       oděvy a obuv jsou šity ručně, některé i z ručně tkaných látek. Zbrojní
       součásti a oděvní doplňky, které používáme jsou rovněž ručně vyráběnými
       replikami dochovaných originálů.
@@ -75,7 +75,7 @@ export const OProjektu = () => (
     <h4>Přednášky a prezentace</h4>
     <p>
       Nabízíme následující prezentace, přednášky a besedy. Délku a obsah umíme
-      přizpůsbit požadavkům pořadatele, zpravidla 45 - 90 minut, a publiku od
+      přizpůsobit požadavkům pořadatele, zpravidla 45 - 90 minut, a publiku od
       školních dětí až po poučenou veřejnost.
     </p>
     <Row>
@@ -117,7 +117,7 @@ export const OProjektu = () => (
         <p>
           <h6>Vývoj zbroje v průběhu středověku a raného novověku</h6>
           <ul>
-            <li>Vývoj kroužkové zbroje od pádu říma do 14. století</li>
+            <li>Vývoj kroužkové zbroje od pádu Říma do 14. století</li>
             <li>Přechod k plátové zbroji v průběhu 14. století</li>
             <li>Vrcholné formy zbroje v 15. a 16. století</li>
             <li>Úpadek zbroje v 17. a 18. století</li>
@@ -157,7 +157,7 @@ export const OProjektu = () => (
           <h6>Vývoj středověkého oděvu</h6>
           <ul>
             <li>Používané materiály</li>
-            <li>Raný středověk a pozdně anitcká tradice</li>
+            <li>Raný středověk a pozdně antická tradice</li>
             <li>Vrcholný středověk</li>
             <li>Pozdní středověk</li>
             <li>Landsknechti</li>
@@ -200,7 +200,7 @@ export const OProjektu = () => (
     <h4>Konzultace</h4>
     <p>
       Pomáháme zájemcům dosáhnout historicky věrné podoby oděvů, výstroje a
-      artefaktů a rovněž umíme propjit zájemce s výrobci nejen v Česku, ale po
+      artefaktů a rovněž umíme propojit zájemce s výrobci nejen v Česku, ale po
       celé Evropě.
     </p>
     <h3>Kontakt</h3>

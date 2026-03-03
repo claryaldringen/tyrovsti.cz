@@ -1,8 +1,10 @@
 import { ReactNode } from 'react'
 
-export type Language = 'cs' | 'en'
+export type Language = 'cs' | 'en' | 'de'
 
-export type LocalizedString = { cs: string; en: string }
+export type LocalizedString = { cs: string; en: string; de: string }
+
+export type LanguageDest = Partial<Record<Language, string>>
 
 export interface Publication {
   name: string
@@ -24,12 +26,12 @@ export interface QuoteContextValue {
 
 export interface LanguageContextValue {
   lang: Language
-  dest?: string
+  dest?: LanguageDest
 }
 
 export interface PageProps {
   lang: Language
-  dest: string
+  dest: LanguageDest
 }
 
 export type QuoteAction = {

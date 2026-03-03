@@ -17,7 +17,9 @@ const Page = () => {
 
   useEffect(() => {
     const lang = navigator.language?.split('-')[0]
-    if (lang !== 'cs') {
+    if (lang === 'de') {
+      router.replace('/de')
+    } else if (lang !== 'cs') {
       router.replace('/en')
     }
   }, [router])
@@ -35,7 +37,7 @@ const Page = () => {
 export const getStaticProps = () => ({
   props: {
     lang: LANG_CS,
-    dest: '/en',
+    dest: { en: '/en', de: '/de' },
   },
 })
 

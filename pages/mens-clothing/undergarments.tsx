@@ -28,7 +28,10 @@ const Page = () => (
 export const getStaticProps = () => ({
   props: {
     lang: LANG_EN,
-    dest: '/muzsky-odev/spodni-odev',
+    dest: {
+      cs: '/muzsky-odev/spodni-odev',
+      de: '/herrenkleidung/unterkleidung',
+    },
   },
 })
 

@@ -53,7 +53,7 @@ export const UsneseniNorimberske = () => (
           <li>Dva střelce z kuší, každý střelec 2 kopy šipek.</li>
           <li>Dva muži s cepy.</li>
           <li>
-            Dva muži s kopími, která mají vzadu na tuleji želený řezný hák.
+            Dva muži s kopími, která mají vzadu na tuleji železný řezný hák.
           </li>
           <li>Dva muži s praky na dřevěné násadě.</li>
           <li>Čtyři silné koně ke každému vozu.</li>

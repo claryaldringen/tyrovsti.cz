@@ -594,7 +594,7 @@ export const FilipaSeldeneckaRadVozovy = () => (
       <Col md={6}>
         <p>
           <i>
-            K zapamatování potřeby, uspořádání a obratnost vozové hradby
+            K zapamatování potřeby, uspořádání a obratnosti vozové hradby
             v&nbsp;jednom poli k&nbsp;nepřátelům a od nepřátel.
           </i>
           <br />

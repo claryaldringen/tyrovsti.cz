@@ -30,7 +30,7 @@ const Page = () => {
 export const getStaticProps = () => ({
   props: {
     lang: LANG_CS,
-    dest: '/arms-and-armour/targe',
+    dest: { en: '/arms-and-armour/targe', de: '/waffen-und-ruestung/tartsche' },
   },
 })
 

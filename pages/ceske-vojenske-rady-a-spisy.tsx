@@ -64,7 +64,10 @@ const Page = () => {
 export const getStaticProps = () => ({
   props: {
     lang: LANG_CS,
-    dest: '/czech-military-orders-and-writings',
+    dest: {
+      en: '/czech-military-orders-and-writings',
+      de: '/boehmische-militaerordnungen',
+    },
   },
 })
 

@@ -28,7 +28,10 @@ const Page = () => (
 export const getStaticProps = () => ({
   props: {
     lang: LANG_EN,
-    dest: '/historicke-pozadi/krivokladska-manska-soustava',
+    dest: {
+      cs: '/historicke-pozadi/krivokladska-manska-soustava',
+      de: '/historischer-hintergrund/krivoklater-lehnswesen',
+    },
   },
 })
 

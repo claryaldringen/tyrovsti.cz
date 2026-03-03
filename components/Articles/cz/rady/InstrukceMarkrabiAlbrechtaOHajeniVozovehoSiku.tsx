@@ -75,7 +75,7 @@ export const InstrukceMarkrabiAlbrechtaOHajeniVozovehoSiku = () => (
             hradby k rozdělení.
           </li>
           <li>
-            Ke každé ze obou bran se dostaví 1000 pěšáků s&nbsp;několika jezdci.
+            Ke každé z obou bran se dostaví 1000 pěšáků s&nbsp;několika jezdci.
             Ke každému vnějšímu rohu vozové hradby 500 pěšáků, kteří se tam na
             obou stranách, kde je to nutné, rozestaví k&nbsp;obraně až do
             druhého rohu, který slouží nahoře naproti nim.

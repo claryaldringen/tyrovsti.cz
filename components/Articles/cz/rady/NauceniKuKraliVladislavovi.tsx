@@ -24,23 +24,23 @@ export const NauceniKuKraliVladislavovi = () => (
           přelomu let 1465 a 1466 zpět do Čech.
           <br />
           Poté, co v roce 1467 vyhlásil císař Fridrich III. válku králi Jiřímu,
-          se Vlček opět oběbuje v pramenech, když po boku knížete Viktorina
+          se Vlček opět objevuje v pramenech, když po boku knížete Viktorina
           podniká v roce 1468 vpád do Rakouska.
           <br />
-          Během bojů Jiřího s Matyášem Korvínem se Vlček zůčastnil bitvy u
+          Během bojů Jiřího s Matyášem Korvínem se Vlček zúčastnil bitvy u
           Třebíče v řadách elitního jízdního oddílu a umožnil knížeti
           Viktorinovi únik z obklíčeného třebíčského kláštera, přičemž však byl
           sám zajat.
           <br />
           V roce 1470 se však znovu objevuje na Moravě, brání Hodonín a v bitvě
           u Kralic se mu podaří zabránit zničení jeho vojska mnohonásobnou
-          uherskou přesilo a za relativně nízkých ztrát uniká do Tovačova.
+          uherskou přesilou a za relativně nízkých ztrát uniká do Tovačova.
           <br />
           V letech 1477 až 1484 vlastní hrad Helfenburg (u Bavorova) a podniká
           odtud výpady proti přívržencům Matyáše Korvína. V letech 1481 a 1484
           velí pěšímu sboru jdoucímu na pomoc císaři Fridrichovi III.
           <br />
-          Někdy po roce 1490 sepisuje níže uvedné <i>Naučení</i>, za což obdrží
+          Někdy po roce 1490 sepisuje níže uvedené <i>Naučení</i>, za což obdrží
           od krále Vladislava II. Jagelonského ves Čenov, podle níž se potom
           píše. Po roce 1501 se již v českých pramenech žádné zmínky o Václavu
           Vlčkovi nevyskytují.
@@ -466,9 +466,9 @@ export const NauceniKuKraliVladislavovi = () => (
           A ty tři houfy ať stojí v pohotovosti na prostranství u vozů a od těch
           vozů je nevysílejte, leda že by toho bylo opravdu nutně zapotřebí.
           Jeden z těch houfů aby byl před vozy v okřídlí a jeden vzadu v okřídlí
-          a ten největší na na prostranství mezi vozy. A zbytek pěších v
-          krajních vozech z obou stran vojska a na každém krajním voze ať jsou
-          dvě hákovnice. A v čele před okřídlím ať je nejméně 10 houfnic a 10
+          a ten největší na prostranství mezi vozy. A zbytek pěších v krajních
+          vozech z obou stran vojska a na každém krajním voze ať jsou dvě
+          hákovnice. A v čele před okřídlím ať je nejméně 10 houfnic a 10
           harcovnic a nazad vojska rovně též. A na bocích po několika
           houfnicích, zejména aby je vozili tam, kde by jich bylo zrovna za
           potřebí a zvlášť proti Turkům. A tak má být vojsko zorganizováno.

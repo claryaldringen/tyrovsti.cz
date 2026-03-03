@@ -40,15 +40,14 @@ export const Tarce = () => (
             href="https://kramerius5.nkp.cz/view/uuid:660b7500-029f-11e4-9789-005056827e52?page=uuid:6e11f0e0-1d56-11e4-8413-5ef3fc9ae867"
           />{' '}
           Uvnitř bratrstva však od počátku docházelo k rozepřím mezi malíři a
-          štítaři, jak o tom svědčí, jak o tom svědčí privilegia Karla IV. a
-          Václava IV. Štítaři vyráběli jednak štíty, jednak některé kusy
-          sedlářské a vývěsní štíty domovní včetně jejich malované výzdoby.
-          Malíři (magistri pictoriae artis, malíři duchovní, geistliche Maler)
-          malovali obrazy a oltáře, ale někdy přebírali dílo štítařům a nadto
-          jim zabraňovali, aby své výrobky vystavovali a prodávali na trzích na
-          Starém Městě, poněvadž štítaři byli usazeni pod novoměstskými hradbami
-          a věžemi a tady také měli provozovat své řemeslo i prodávat své
-          výrobky.
+          štítaři, jak o tom svědčí privilegia Karla IV. a Václava IV. Štítaři
+          vyráběli jednak štíty, jednak některé kusy sedlářské a vývěsní štíty
+          domovní včetně jejich malované výzdoby. Malíři (magistri pictoriae
+          artis, malíři duchovní, geistliche Maler) malovali obrazy a oltáře,
+          ale někdy přebírali dílo štítařům a nadto jim zabraňovali, aby své
+          výrobky vystavovali a prodávali na trzích na Starém Městě, poněvadž
+          štítaři byli usazeni pod novoměstskými hradbami a věžemi a tady také
+          měli provozovat své řemeslo i prodávat své výrobky.
           <Qt publication={PUBLICATIONS.DENKSTEIN3} note="Str. 20" />
         </p>
         <p>
@@ -262,7 +261,7 @@ export const Tarce = () => (
           nelišily od jiných tarčí ze sousedních oblastí Říše. Častým motivem na
           tarčích z německého prostoru je dáma, která přidržuje úplný erb, tj.
           heraldický štít s přilbou, klenotem a přikryvadly, jak je vidět na
-          následujícíh příkladech z Metropolitního muzea umění. Ve dvou
+          následujících příkladech z Metropolitního muzea umění. Ve dvou
           případech je dáma doplněna stuhou s heslem, které však nemá heraldický
           význam a jedná se spíše o vtipnou slovní hříčku.
         </p>
@@ -341,13 +340,13 @@ export const Tarce = () => (
         </table>
       </Col>
       <Col md={4}>
-        Povrch třetí tarče (Obr 3.) je malován jemným stříbrným dekorem
+        Povrch třetí tarče (Obr. 3) je malován jemným stříbrným dekorem
         zavinutých listů (nyní zašlých) na černém podkladu. Během své pracovní
         životnosti byl štít sekundárně pomalován dvěma štíty se znaky
         norimberských patricijských rodů Ketzelů (na černém podkladu stříbrná
         opice držící zlatou kouli) a Igelbrechtů (na stříbrném podkladu černý
-        ježek se třemi zlatými jablky na zádech). Tyt sekundární erby byly možná
-        přidány koncem 15. století rodem Ketzelů jako památka na Heinricha
+        ježek se třemi zlatými jablky na zádech). Tyto sekundární erby byly
+        možná přidány koncem 15. století rodem Ketzelů jako památka na Heinricha
         Ketzela staršího (zemřel 1438), norimberského měšťana v letech 1435-36,
         a jeho manželku Annu Igelbrechtovou, která se za něj provdala v roce
         1391.
@@ -383,8 +382,8 @@ export const Tarce = () => (
           byla poprvé přemalována kolem roku 1500 a její současná podoba je
           výsledkem barokní přemalby ze 17. století, kdy byla vymalována pro
           pohřební účely a opatřena erby norimberských patricijských rodů
-          Hallerů a Imhofů. Orignál tarče je 55,6 cm vysoký, 52 cm široký a jeho
-          prohnutí činí 23 cm. Váží 2880 gramů.
+          Hallerů a Imhofů. Originál tarče je 55,6 cm vysoký, 52 cm široký a
+          jeho prohnutí činí 23 cm. Váží 2880 gramů.
         </p>
       </Col>
     </Row>
@@ -473,11 +472,11 @@ export const Tarce = () => (
         <p>
           Potažený korpus byl následně natřen gessem, což je směs klihu a drcené
           boloňské křídy, jež bylo nutné důkladně zbrousit. Vznikl tak hladký
-          bílý povrch, na který na který bylo možné v místech budoucího
-          stříbření a zlacení nanést tzv. arménský bolus, přičemž pod zlato se
-          nanáší bolus červený a pod stříbro bolus černý. Zde byl kvůli malému
-          rozsahu zlacených ploch použit pouze černý bolus. Následně bylo na
-          bolus naneseno plátkové zlato a stříbro. Finální malba byla provedena
+          bílý povrch, na který bylo možné v místech budoucího stříbření a
+          zlacení nanést tzv. arménský bolus, přičemž pod zlato se nanáší bolus
+          červený a pod stříbro bolus černý. Zde byl kvůli malému rozsahu
+          zlacených ploch použit pouze černý bolus. Následně bylo na bolus
+          naneseno plátkové zlato a stříbro. Finální malba byla provedena
           vaječnou temperou. Malbu provedla Mgr. Markéta Poskočilová.
         </p>
       </Col>

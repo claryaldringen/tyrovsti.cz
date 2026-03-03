@@ -186,7 +186,7 @@ export const NorimberskyRadVozovy = () => (
           </li>
           <li>
             Tytéž vozy se shromažďovaly na trhu a byly objednány (nevíme kým,
-            jmeno chybí)
+            jméno chybí)
           </li>
           <li>
             Navíc se objednaly desky, a když se vyrazilo, musely se desky

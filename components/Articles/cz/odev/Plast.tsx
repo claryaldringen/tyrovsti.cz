@@ -7,7 +7,7 @@ export const Plast = () => (
     <Row>
       <Col>
         <div className="anchor" id="plast" />
-        <h4>Plášt</h4>
+        <h4>Plášť</h4>
       </Col>
     </Row>
     <Row>

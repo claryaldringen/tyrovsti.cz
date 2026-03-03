@@ -28,7 +28,10 @@ const Page = () => (
 export const getStaticProps = () => ({
   props: {
     lang: LANG_CS,
-    dest: '/historical-background/hans-harsdorfer',
+    dest: {
+      en: '/historical-background/hans-harsdorfer',
+      de: '/historischer-hintergrund/hans-harsdorfer',
+    },
   },
 })
 

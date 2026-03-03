@@ -72,7 +72,7 @@ export const Erb = () => (
           toho jenž erb zobrazoval. Objevuje se totiž pouze na jediném
           vyobrazení erbu Týřovských a to na erbu Doroty Polyxeny Kateřiny
           Kokořovské, roz. Týřovské a dále až na vyobrazeních, která vznikla po
-          vymření rodu. I A. Sedláček ve svím blasonu uvádí, že erb je dělený
+          vymření rodu. I A. Sedláček ve svém blasonu uvádí, že erb je dělený
           pouze na 4 pole a zároveň že 1. a 4. je druhotně dělené napříč.
         </p>
         <p>
@@ -87,7 +87,7 @@ export const Erb = () => (
         <p>
           Vzhledem k minimu dochovaných barevných zobrazení přímo z doby před
           vymřením Týřovských je určení erbovních barev poněkud složitější.
-          Začněmě u levé přilby a příslušného klenotu, kterým je tatarský
+          Začněme u levé přilby a příslušného klenotu, kterým je tatarský
           klobouk, v jehož barvě se shodují blason od Sedláčka i
           Meraviglia-Crivelliho a zároveň vyobrazení od Cranacha ml. i z oltáře
           v Milíčově. Z vyobrazení od Cranacha, z oltáře z Milíčova a z reliéfu
@@ -97,12 +97,12 @@ export const Erb = () => (
           přikryvadel, jejichž barvy se rovněž shodují v blasonech i na
           vyobrazeních. Blasony i vyobrazení od Cranacha se rovněž shodují v
           bílo-stříbrné barvě přikryvadel na pravé přilbě. V čem se však blasony
-          (a moderní vyobrazení erbu) s dobovými vyobrazeními neschodují, jsou
+          (a moderní vyobrazení erbu) s dobovými vyobrazeními neshodují, jsou
           barvy figur na štítu. Zdá se, že problém nastal až při spárování barev
           z přikryvadel s figurami na štítu, kdy bylo nejspíš nesprávně
           přiřazeno modro-stříbrné provedení perům ve 2. a 3. poli a
           červeno-stříbrné provedení břevnům (pruhům) v 1. a 4. poli. Záměrně
-          jsem se nezmínil o klenotu v na pravé přílbě, kterým je muž v modrém
+          jsem se nezmínil o klenotu na pravé přilbě, kterým je muž v modrém
           oděvu podle A. Sedláčka nebo černě oděná panna, která si na hlavu
           klade korunu podle Meraviglia-Crivelli. Z barevných i nebarevných
           vyobrazení je jasné, že muže lze rovnou zavrhnout. Cranach ml. správně
@@ -125,7 +125,7 @@ export const Erb = () => (
           <br />
           Čtvrcený štít kde je 1. a 4. pole dělené a v něm je nahoře vyrůstající
           nebo vyskakující černý orel na zlatém pozadí a dole dvě černá šikmá
-          břevna na stříbrném pozadí. Ve 2. a 3. červeném poli jsou tři střbrná
+          břevna na stříbrném pozadí. Ve 2. a 3. červeném poli jsou tři stříbrná
           pštrosí pera špičkami k sobě a od sebe se rozbíhající. Nad štítem jsou
           dvě helmy s korunkami, levá s červenostříbrnými přikryvadly ze které
           vystupuje polcený vysoký tatarský klobouk s černou nebo stříbrnou
