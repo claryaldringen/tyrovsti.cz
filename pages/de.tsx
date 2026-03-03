@@ -14,7 +14,7 @@ const BACKGROUND_IMAGES = [
 const Page = () => {
   return (
     <>
-      <HeadExtended description="Jobst von Einsiedl auf Burg Tyrzow – historische Dokumentation des Kriegswesens, der Bekleidung und der Rüstung im 15. Jahrhundert in Böhmen" />
+      <HeadExtended description="Jobst von Einsidl, Ritter von Tyrzow – historische Dokumentation des Kriegswesens, der Bekleidung und der Rüstung im 15. Jahrhundert in Böhmen" />
       <HeroBackground images={BACKGROUND_IMAGES}>
         <Container fluid />
       </HeroBackground>

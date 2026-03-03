@@ -7,14 +7,14 @@ import { useLanguage } from '../Language'
 
 const TITLE_CS = 'Jošt z Einsiedlu a na Týřově'
 const TITLE_EN = 'Jobst von Einsiedl of Tyrzow'
-const TITLE_DE = 'Jobst von Einsiedl auf Burg Tyrzow'
+const TITLE_DE = 'Jobst von Einsidl, Ritter von Tyrzow'
 
 const FALLBACK_DESCRIPTION_CS =
   'Jošt z Einsiedlu a na Týřově – historická dokumentace vojenství, odívání a zbrojířství v 15. století v Čechách'
 const FALLBACK_DESCRIPTION_EN =
   'Jobst von Einsiedl of Tyrzow – historical documentation of 15th century warfare, clothing and armoury in Bohemia'
 const FALLBACK_DESCRIPTION_DE =
-  'Jobst von Einsiedl auf Burg Tyrzow – historische Dokumentation des Kriegswesens, der Bekleidung und der Rüstung im 15. Jahrhundert in Böhmen'
+  'Jobst von Einsidl, Ritter von Tyrzow – historische Dokumentation des Kriegswesens, der Bekleidung und der Rüstung im 15. Jahrhundert in Böhmen'
 
 const BASE_URL = 'https://tyrovsti.cz'
 

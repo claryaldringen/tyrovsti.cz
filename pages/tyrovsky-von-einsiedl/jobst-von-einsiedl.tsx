@@ -11,7 +11,7 @@ const Page = () => (
     <HeadExtended
       title="Jobst von Einsiedl"
       image="erb.png"
-      description="Jobst von Einsiedl auf Burg Tyrzow – Biografie eines böhmischen Vasallen und Kriegers im 15. Jahrhundert"
+      description="Jobst von Einsidl, Ritter von Tyrzow – Biografie eines böhmischen Vasallen und Kriegers im 15. Jahrhundert"
     />
     <Container>
       <Row>

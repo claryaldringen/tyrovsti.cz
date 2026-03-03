@@ -81,7 +81,7 @@ export const Menu = () => {
               <span className="d-none d-md-inline-block">MENU</span>
               {lang === LANG_DE ? (
                 <span className="d-md-none xiberonne">
-                  Jobst&nbsp;von&nbsp;Einsiedl&nbsp;auf&nbsp;Burg&nbsp;Tyrzow
+                  Jobst&nbsp;von&nbsp;Einsidl,&nbsp;Ritter&nbsp;von&nbsp;Tyrzow
                 </span>
               ) : lang === LANG_EN ? (
                 <span className="d-md-none xiberonne">
