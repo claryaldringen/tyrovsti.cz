@@ -100,7 +100,7 @@ export const Menu = () => {
                 href="/de"
                 className={classNames(styles.brand, 'xiberonne')}
               >
-                Jobst&nbsp;von&nbsp;Einsiedl&nbsp;auf&nbsp;Burg&nbsp;Tyrzow
+                Jobst&nbsp;von&nbsp;Einsidl,&nbsp;Ritter&nbsp;von&nbsp;Tyrzow
               </Link>
             ) : lang === LANG_EN ? (
               <Link
