@@ -56,7 +56,10 @@ export const Menu = () => {
 
   const onHamburgerKeyDown = (event: React.KeyboardEvent) => {
     if (event.key === 'Escape') setIsOpen(false)
-    if (event.key === 'Enter') setIsOpen(true)
+    if (event.key === 'Enter' || event.key === ' ') {
+      event.preventDefault()
+      setIsOpen(true)
+    }
   }
 
   const close = () => setIsOpen(false)

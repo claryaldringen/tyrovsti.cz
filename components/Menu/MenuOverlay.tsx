@@ -1,7 +1,6 @@
 import React, { ReactNode, useEffect, useRef } from 'react'
 import { createPortal } from 'react-dom'
 import styles from './Menu.module.scss'
-import classNames from 'classnames'
 
 const lockBodyScroll = (lock: boolean) => {
   const body = document.body
@@ -56,12 +55,13 @@ export const MenuOverlay = ({ open, onClose, children }: MenuOverlayProps) => {
   if (!open) return null
 
   return createPortal(
-    <div className={styles.overlayRoot} role="dialog" aria-modal="true">
-      <div
-        ref={panelRef}
-        tabIndex={-1}
-        className={classNames(styles.overlayPanel)}
-      >
+    <div
+      className={styles.overlayRoot}
+      role="dialog"
+      aria-modal="true"
+      aria-label="Menu"
+    >
+      <div ref={panelRef} tabIndex={-1} className={styles.overlayPanel}>
         {children}
       </div>
     </div>,

@@ -1,5 +1,5 @@
 import React, { ReactNode } from 'react'
-import { useRouter } from 'next/router'
+import { useLanguage } from '../Language'
 import { LANG_EN } from '../../shared/constants'
 
 interface CitProps {
@@ -7,9 +7,9 @@ interface CitProps {
 }
 
 export const Cit = ({ children }: CitProps) => {
-  const { locale } = useRouter()
+  const { lang } = useLanguage()
 
-  if (locale === LANG_EN) {
+  if (lang === LANG_EN) {
     return <i>&ldquo;{children}&rdquo;</i>
   }
   return <i>&bdquo;{children}&ldquo;</i>

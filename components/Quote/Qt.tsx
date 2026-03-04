@@ -41,7 +41,7 @@ export const Qt = ({ publication, href, note }: QtProps) => {
       const rect = element.getBoundingClientRect()
       element.style.maxWidth = `calc(100vw - ${rect.left}px)`
     }
-  })
+  }, [open])
 
   const handleToggle = useCallback(() => {
     setOpen(!open)
@@ -73,14 +73,16 @@ export const Qt = ({ publication, href, note }: QtProps) => {
 
   return (
     <span className={styles.wrapper}>
-      <sup
+      <span
         className={styles.quote}
         onClick={handleToggle}
-        role="presentation"
+        role="button"
+        tabIndex={0}
         onKeyDown={closeQuote}
+        style={{ verticalAlign: 'super', fontSize: 'smaller' }}
       >
         {index}
-      </sup>
+      </span>
       {open && (
         <span className={styles.box} ref={ref}>
           {_href ? (

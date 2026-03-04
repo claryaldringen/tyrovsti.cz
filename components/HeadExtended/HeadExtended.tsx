@@ -2,12 +2,16 @@ import Head from 'next/head'
 import React from 'react'
 import { useRouter } from 'next/router'
 import { Menu } from '../Menu'
-import { LANG_CS, LANG_DE, LANG_EN } from '../../shared/constants'
+import { LANG_CS, LANG_DE, LANG_EN, BASE_URL } from '../../shared/constants'
 import { useLanguage } from '../Language'
 
 const TITLE_CS = 'Jošt z Einsiedlu a na Týřově'
 const TITLE_EN = 'Jobst von Einsiedl of Tyrzow'
 const TITLE_DE = 'Jobst von Einsidl, Ritter von Tyrzow'
+
+const SITE_NAME_CS = 'Jošt z Einsiedlu a na Týřově'
+const SITE_NAME_EN = 'Jobst von Einsiedl of Tyrzow'
+const SITE_NAME_DE = 'Jobst von Einsidl, Ritter von Tyrzow'
 
 const FALLBACK_DESCRIPTION_CS =
   'Jošt z Einsiedlu a na Týřově – historická dokumentace vojenství, odívání a zbrojířství v 15. století v Čechách'
@@ -15,8 +19,6 @@ const FALLBACK_DESCRIPTION_EN =
   'Jobst von Einsiedl of Tyrzow – historical documentation of 15th century warfare, clothing and armoury in Bohemia'
 const FALLBACK_DESCRIPTION_DE =
   'Jobst von Einsidl, Ritter von Tyrzow – historische Dokumentation des Kriegswesens, der Bekleidung und der Rüstung im 15. Jahrhundert in Böhmen'
-
-const BASE_URL = 'https://tyrovsti.cz'
 
 interface HeadExtendedProps {
   title?: string
@@ -43,6 +45,15 @@ export const HeadExtended = ({
       : lang === LANG_EN
         ? FALLBACK_DESCRIPTION_EN
         : FALLBACK_DESCRIPTION_CS)
+
+  const ogLocale =
+    lang === LANG_DE ? 'de_DE' : lang === LANG_EN ? 'en_GB' : 'cs_CZ'
+  const siteName =
+    lang === LANG_DE
+      ? SITE_NAME_DE
+      : lang === LANG_EN
+        ? SITE_NAME_EN
+        : SITE_NAME_CS
 
   const canonicalPath = router.asPath.split(/[?#]/)[0]
   const canonicalUrl = `${BASE_URL}${canonicalPath}`
@@ -80,9 +91,7 @@ export const HeadExtended = ({
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@ClaryAldringen" />
         <meta name="twitter:title" content={fullTitle} />
-        {description && (
-          <meta name="twitter:description" content={description} />
-        )}
+        <meta name="twitter:description" content={metaDescription} />
 
         {image && (
           <meta name="twitter:image" content={`${BASE_URL}/images/${image}`} />
@@ -90,6 +99,8 @@ export const HeadExtended = ({
 
         <meta property="og:title" content={fullTitle} />
         <meta property="og:description" content={metaDescription} />
+        <meta property="og:locale" content={ogLocale} />
+        <meta property="og:site_name" content={siteName} />
         {image && (
           <meta property="og:image" content={`${BASE_URL}/images/${image}`} />
         )}

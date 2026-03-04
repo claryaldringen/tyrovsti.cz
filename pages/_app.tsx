@@ -6,6 +6,7 @@ import { LanguageProvider } from '../components/Language'
 import { LANG_CS } from '../shared/constants'
 import type { AppProps } from 'next/app'
 import { PageProps } from '../types'
+import { ErrorBoundary } from '../components/ErrorBoundary'
 
 function MyApp({ Component, pageProps }: AppProps<PageProps>) {
   const { lang, dest, ...otherProps } = pageProps
@@ -13,7 +14,9 @@ function MyApp({ Component, pageProps }: AppProps<PageProps>) {
   return (
     <LanguageProvider lang={lang || LANG_CS} dest={dest || {}}>
       <QuoteProvider>
-        <Component {...otherProps} />
+        <ErrorBoundary>
+          <Component {...otherProps} />
+        </ErrorBoundary>
       </QuoteProvider>
     </LanguageProvider>
   )

@@ -1,4 +1,10 @@
-import React, { createContext, ReactNode, useReducer } from 'react'
+import React, {
+  createContext,
+  ReactNode,
+  useCallback,
+  useMemo,
+  useReducer,
+} from 'react'
 import { Publication, QuoteAction, QuoteContextValue } from '../../types'
 
 const reducer = (state: Publication[], action: QuoteAction): Publication[] => {
@@ -27,15 +33,16 @@ const QuoteContext = createContext<QuoteContextValue>({
 const QuoteProvider = ({ children }: { children: ReactNode }) => {
   const [state, dispatch] = useReducer(reducer, [])
 
-  const setPublication = (publication: Publication) => {
+  const setPublication = useCallback((publication: Publication) => {
     dispatch({ type: 'ADD_PUBLICATION', payload: publication })
-  }
+  }, [])
 
-  return (
-    <QuoteContext.Provider value={{ usedPublications: state, setPublication }}>
-      {children}
-    </QuoteContext.Provider>
+  const value = useMemo(
+    () => ({ usedPublications: state, setPublication }),
+    [state, setPublication]
   )
+
+  return <QuoteContext.Provider value={value}>{children}</QuoteContext.Provider>
 }
 
 export { QuoteProvider, QuoteContext }

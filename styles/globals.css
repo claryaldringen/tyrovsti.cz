@@ -8,7 +8,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: Palatino !important;
+  font-family: Palatino, 'Palatino Linotype', 'Book Antiqua', Georgia, serif !important;
   background-color: #000000 !important;
 }
 
@@ -21,7 +21,7 @@ a {
   box-sizing: border-box;
 }
 
-*:focus {
+*:focus:not(:focus-visible) {
   outline: none;
 }
 

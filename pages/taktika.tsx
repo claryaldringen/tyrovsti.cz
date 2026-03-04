@@ -7,7 +7,7 @@ import { Taktika } from '../components/Articles/cz/Taktika'
 const Page = () => (
   <>
     <HeadExtended
-      title="Jošt z Einsiedle a na Týřově - Taktika"
+      title="Taktika"
       description="Středověká taktika – vývoj pěchotní a jezdecké taktiky od Falkirku po Moháč"
     />
     <Container>

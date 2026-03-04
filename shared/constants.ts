@@ -4,6 +4,15 @@ export const LANG_CS: Language = 'cs'
 export const LANG_EN: Language = 'en'
 export const LANG_DE: Language = 'de'
 
+export const BASE_URL = 'https://tyrovsti.cz'
+
+export const BACKGROUND_IMAGES = [
+  '/images/background/background1.webp',
+  '/images/background/background2.webp',
+  '/images/background/background3.webp',
+  '/images/background/background4.webp',
+]
+
 export const PUBLICATIONS: Record<string, Publication> = {
   KURSCHNER: {
     name: 'Jobst von Einsiedel und seine Correspondenz mit der Stadt Eger. Aus dem Archive der Stadt Eger',
@@ -18,7 +27,7 @@ export const PUBLICATIONS: Record<string, Publication> = {
     year: 2009,
   },
   KOCKA1: {
-    name: 'Dějiny politického okresu kralovického, ',
+    name: 'Dějiny politického okresu kralovického',
     author: 'Václav Kočka',
     city: 'Kralovice',
     year: 1930,

@@ -2,15 +2,8 @@ import React, { useEffect } from 'react'
 import { Container } from 'reactstrap'
 import { useRouter } from 'next/router'
 import { HeadExtended } from '../components/HeadExtended'
-import { LANG_CS } from '../shared/constants'
+import { BACKGROUND_IMAGES, LANG_CS } from '../shared/constants'
 import { HeroBackground } from '../components/HeroBackground'
-
-const BACKGROUND_IMAGES = [
-  '/images/background/background1.webp',
-  '/images/background/background2.webp',
-  '/images/background/background3.webp',
-  '/images/background/background4.webp',
-]
 
 const Page = () => {
   const router = useRouter()

@@ -1,22 +1,19 @@
-import Document, {
-  Html,
-  Head,
-  Main,
-  NextScript,
-  DocumentContext,
-} from 'next/document'
+import Document, { Html, Head, Main, NextScript } from 'next/document'
 
 class MyDocument extends Document {
-  static async getInitialProps(ctx: DocumentContext) {
-    const initialProps = await Document.getInitialProps(ctx)
-    return initialProps
-  }
-
   render() {
     const lang = this.props.__NEXT_DATA__?.props?.pageProps?.lang || 'cs'
     return (
       <Html lang={lang}>
-        <Head />
+        <Head>
+          <link
+            rel="preload"
+            href="/fonts/xiberon.woff2"
+            as="font"
+            type="font/woff2"
+            crossOrigin="anonymous"
+          />
+        </Head>
         <body>
           <Main />
           <NextScript />

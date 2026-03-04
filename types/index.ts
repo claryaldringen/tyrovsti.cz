@@ -1,5 +1,3 @@
-import { ReactNode } from 'react'
-
 export type Language = 'cs' | 'en' | 'de'
 
 export type LocalizedString = { cs: string; en: string; de: string }
