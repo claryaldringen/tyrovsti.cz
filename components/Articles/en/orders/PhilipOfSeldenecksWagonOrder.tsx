@@ -749,6 +749,393 @@ export const PhilipOfSeldenecksWagonOrder = () => (
             assign ten or twenty to each wagon, and each shall carry his share
             up the mountain and load it back onto the wagon.
           </li>
+          <li>
+            Likewise, the horses shall be harnessed in breeching straps, and two
+            or three men shall be assigned to the sides of each horse at the
+            front, and also help at the head to push or pull the horse, and all
+            this must proceed entirely in secret, without shouting and as
+            quietly as possible at night, so the enemy does not know what is
+            being done or undertaken.
+          </li>
+          <li>
+            The wagon fort commander shall first have the outer row of wagons
+            facing the enemy cleared, and the goods that these row wagons carry,
+            whether they be lost, must be weighed up, and within that same row
+            inside the wagon fort the commander shall send a forlorn band of men
+            to create much smoke and fumes with damp straw or hay, or whatever
+            else may serve, so as to blind the enemy, but nonetheless post
+            guards, so that if the enemy wishes to undertake something, one may
+            learn of it.
+          </li>
+          <li>
+            Those same men and fellows and all the other men shall watch all
+            night and all night long carpenter, chop, work, and hammer, as
+            though one wished to attack the enemy on the spot; meanwhile the
+            wagon fort and the people between them move up the mountain; and
+            when one reaches the mountain top, one may then sound the trumpets
+            if one wishes. This is the art of bringing the wagon fort over
+            mountains.
+          </li>
+          <li>
+            Now note how the long spears with hooks are to be used secretly in
+            the assault described above.
+          </li>
+          <li>
+            Now note concerning the wagon fort: if you wish to entrench it, make
+            the ditch three paces behind the wheels of the wagons.
+          </li>
+          <li>
+            Also do not forget the secret ditch, which is not to be named
+            publicly.
+            <br />
+            <i>
+              The wagon fort commander shall know what belongs to the wagon fort
+              and the camp.
+            </i>
+          </li>
+          <li>
+            Finding wood, water, and fodder is the concern of the wagon fort and
+            the people within it; accordingly, the wagon fort commander shall
+            position the wagon fort, and if necessary, entrench around it every
+            night.
+          </li>
+          <li>
+            The wagon fort commander shall himself inspect all camps, as well as
+            the roads, also mountains and valleys by day and by night, and trust
+            no one else but himself in this matter.
+            <br />
+            <i>When one wishes to begin building and ordering a wagon fort.</i>
+          </li>
+          <li>
+            Then the wagon fort commander shall estimate the people on horseback
+            and on foot, and accordingly calculate how many wagons he shall
+            need, make his total, and determine what is required and must be
+            available in the field.
+          </li>
+          <li>
+            When the wagon fort commander counts the wagons and makes a division
+            according to the number of people on horseback and on foot, as is
+            necessary:
+          </li>
+          <li>
+            Then twelve thousand foot soldiers need approximately five hundred
+            and fifty wagons.
+          </li>
+          <li>
+            For three thousand horses, one must have three hundred wagons.
+          </li>
+          <li>
+            For the aforementioned number of people, this makes eight hundred
+            and fifty wagons that one must have for their needs.
+          </li>
+          <li>From this total you may take the division.</li>
+          <li>
+            The middle two rows, upon which the plaza is to be, shall have one
+            hundred wagons, with fifty wagons in each row.
+          </li>
+          <li>
+            The next two rows on both sides shall also have one hundred wagons.
+          </li>
+          <li>
+            Then the outermost two rows shall have three hundred wagons, and
+            these three hundred wagons shall be extended into the field, the six
+            rows across the field in the direction of the march.
+          </li>
+          <li>
+            If one then wished to make eight rows from this, break the outer row
+            on both sides in the middle and lead them forward to the foremost
+            banner, thus there will be eight rows when they all drive equally;
+            and if one wished to make more rows, do as prescribed above.
+            <br />
+            <i>When one comes from home to the night camp.</i>
+          </li>
+          <li>
+            Then one shall halt at the pasture and form the outermost row again
+            at the camp with the wagon fort, and it shall not be entirely round
+            but elongated in length, having a rectangular shape and a wide,
+            spacious plaza.
+          </li>
+          <li>
+            When one has driven into the camp and some wagons remain over, push
+            the row of wagons tightly together or into a heap, and the remaining
+            wagons will also fit in; but if there are too few wagons in the
+            rows, stretch the wagons backward and the row becomes complete.
+          </li>
+          <li>
+            Where there are no gates in the lanes, three wagons with all their
+            belongings shall remain standing at the back and front on each side,
+            and they shall guard that the enemy does not gain the lanes along
+            their length.
+          </li>
+          <li>
+            Every night each row leader shall come before the supreme
+            captain&apos;s tent and shall request to be told the password and
+            what is to be done in the morning, and hear it, and thereafter, as
+            far as it concerns him, announce it to his row.
+          </li>
+          <li>
+            If wagons are needed and must be sent for provisions or other
+            necessities, you shall take those wagons from all rows, a portion
+            from each, and the gaps where you have removed the wagons, close
+            them again and make them whole. And so shift those rows backward and
+            forward, and thus you make them whole again; and when the wagons
+            return, shift those rows back to where they belong, as prescribed
+            above, and those same wagons will be back in their place.
+          </li>
+          <li>
+            In the middle of the plaza the prince shall lodge, and on the right
+            side shall lodge the prince&apos;s chamberlains, and no one else
+            shall lodge on the plaza but the prince with his retinue, horses,
+            huts, tents, chancelleries, kitchens, churches, cellars, and no one
+            else, except those whom His Grace wishes to have with him on the
+            plaza.
+          </li>
+          <li>
+            In the nearest row on the ring on both sides shall lodge the counts,
+            free lords, knights, and nobles.
+          </li>
+          <li>
+            In the outermost two rows shall lodge the common good people of the
+            country.
+          </li>
+          <li>
+            The best from the cities shall lodge at the four corners by the
+            gates; they shall guard the gates and the markets.
+          </li>
+          <li>
+            The market before the wagon fort gate, where wine and bread shall be
+            sold, shall be on both sides at the rear of the wagon fort.
+          </li>
+          <li>
+            One shall also have an army crier, who proclaims safe-conduct and
+            the wagon fort&apos;s protection and other matters that the army
+            needs.
+          </li>
+          <li>
+            The guns on the wagons and carts, also the powder, lead, and other
+            equipment belonging to the wagon fort, shall be given a special
+            captain; that same captain shall by day be positioned before the
+            wagons, locked in a separate house.
+            <br />
+            <i>When one wishes to depart from the camp.</i>
+          </li>
+          <li>
+            However many rows there are, lead them out — the foremost wagons —
+            and those lying in the curve shall stretch forward, that is to the
+            right side; and to the left side outward, as far as the row can be
+            stretched. Then he shall halt until the next row with the banner
+            comes forward and stands even at the front.
+            <br />
+            <i>
+              Thus one has the order across the land, and that everyone may know
+              how to conduct himself according to the proper order, listen and
+              pay heed.
+            </i>
+          </li>
+          <li>
+            At the time when the trumpet is first sounded in the army, each man
+            shall water and feed his horse; and when it is sounded a second
+            time, everyone shall harness up; and when it is sounded a third
+            time, everyone shall be mounted and wait for the command to move or
+            march.
+            <br />
+            <i>Special labourers with shovels for the wagons.</i>
+          </li>
+          <li>
+            One hundred shovels must also be available in addition to all other
+            prescribed items in the wagon fort, and these shovels must have
+            their own captain, who shall always bring them to the wagon fort
+            commander when he requests and needs them, to make and clear the
+            paths between the rows, dig out the ditches, and whatever else
+            necessity demands.
+            <br />
+            <i>
+              How one shall arrange a wagon fort for battle when one is
+              expecting it.
+            </i>
+          </li>
+          <li>
+            The wagon fort commander shall take heed and observe the
+            enemy&apos;s wagon fort, and on the plain watch the point of the
+            enemy&apos;s wagon fort, and work their wagon fort with ordnance on
+            the right side, and observe closely the enemy&apos;s wagon fort and
+            their commander, so that they do not gain the advantage over you;
+            therefore use your gun ordnance against them in time, but with
+            proper measure, and confuse them with your ordnance so that the
+            enemy wagon fort commander does not come too close with his skill
+            and advantage before the troops engage in battle.
+            <br />
+            <i>
+              If both armies came upon plains or at mountains against or towards
+              one another.
+            </i>
+          </li>
+          <li>
+            The wagon fort commander shall be earnest and diligent to be the
+            first to take the wide and great heights before the enemy with his
+            wagon fort, so that he may descend with his wagon fort against the
+            enemy into the valley, and if he can prevent the enemy from taking
+            such advantage before him, let him do so; but if it were so that you
+            lay in your advantageous position between the enemies, and the
+            captain or the wagon fort commander could reach no other advantage,
+            then remain in your advantage and do not give it up, and let the
+            enemy seek you and come to you, and let yourself in no way be drawn
+            out of your advantage.
+            <br />
+            <i>
+              Leading the wagon fort to battle against the enemy, do as follows:
+            </i>
+          </li>
+          <li>
+            Make the wagon fort generally with eight rows; but if there were so
+            much cavalry and infantry, you may make twelve or fourteen from it;
+            and so that the wagon fort stands squarely, one may fight from it or
+            within it and also have the night camp more safely for the troops;
+            the wagon fort shall also stand and advance with three plazas
+            against the enemy.
+          </li>
+          <li>
+            Also the wagon fort commander shall arrange that the outer rows are
+            always interspersed with gun wagons and carts, one between every
+            five wagons, if one can have that many.
+            <br />
+            <i>
+              Now note how one shall arrange a wagon fort to strike swiftly and
+              soon.
+            </i>
+          </li>
+          <li>
+            When it goes across country, the wagon fort commander shall take
+            from the inner rows only a portion of wagons and assign them to the
+            outer row at the four corners, back and front; and when the wagon
+            fort moves, close the wagon fort with those same corners, and then
+            the troops can be arranged within.
+            <br />
+            <i>
+              How one shall position the wagon fort when one wishes to await an
+              assault therein.
+            </i>
+          </li>
+          <li>
+            The wagon fort commander shall arrange the wagon fort with eight or
+            ten rows, or as many as needed for the equipment, and shall position
+            the wagon fort in a square, so that it lies evenly in length and
+            breadth. The wagon fort commander shall also well supply the outer
+            two rows with gun ordnance on carts and wagons at the four corners
+            of the wagon fort and in between as needed.
+          </li>
+          <li>
+            The horses shall also be taken from the outermost row of wagons and
+            tied within the inner rows, so that the troops at the wagons are not
+            hindered during the assault.
+          </li>
+          <li>
+            The wagon fort shall also not be driven too tightly together, so
+            that the guns may be used against the enemy from it; also the wagons
+            shall not be driven too closely into one another, so that the chief
+            gunners need not shoot too high, but rather aim and shoot at the
+            enemy&apos;s horses at the shoulders.
+          </li>
+          <li>
+            Also lanes shall be made through the rows in the wagon fort, so that
+            the troops may come together and one may come to the aid of another
+            and also ride to the assault.
+            <br />
+            <i>
+              When one would gladly be within, how one shall arrange swiftly by
+              night or day.
+            </i>
+          </li>
+          <li>
+            Then the driver turns to the left side, the other to the right side
+            onto the plaza; understand and note this correctly: the three rows
+            on the right hand turn to the left side, and those on the left side
+            turn to the right hand, just as they stand in the camp, so that they
+            may drive from the camp onto the plaza, to whichever side they wish.
+            <br />
+            <i>
+              How one must withdraw from the enemy to a safer place, if one is
+              too hard pressed by the enemy in camp.
+            </i>
+          </li>
+          <li>
+            The wagon fort commander shall leave some wagons in the outermost
+            row that are empty, in sight of the enemy at night or by day; and
+            when one must drive through a narrow passage, the wagon fort
+            commander shall lead four rows and shall leave them short at the
+            front and let them stand still. Through this the entire equipment
+            and the wagon fort passes slowly; and when all has passed, close at
+            the front until the rear also follows; then the wagon fort proceeds
+            as indicated before.
+          </li>
+          <li>
+            But if it were that you must pass through a forest with the wagon
+            fort, which is about half a day&apos;s journey wide, then pack the
+            wagon fort as tightly as possible into four rows, and as many foot
+            soldiers with mattocks or axes as you can have, so they clear space
+            for the wagon rows beside the road; and when one comes through the
+            forest, arrange and direct the wagon fort again to march across
+            country with as many rows as are necessary on account of the enemy.
+            <br />
+            <i>
+              When you wish to break camp with the army and march away from the
+              enemy or elsewhere to another place.
+            </i>
+          </li>
+          <li>
+            First of all, before breaking camp, the field captain or the prince,
+            if he himself is in the field, shall have the army criers command
+            upon life and goods that everyone extinguish his hearth and fire, so
+            that no fire breaks out that would bring conflagration and damage to
+            the army.
+          </li>
+          <li>
+            If the field is narrow, divide the people on horseback and on foot
+            as the field allows, if they cannot march in the wagon fort.
+          </li>
+          <li>
+            When you break camp and the wagon fort goes across country with
+            eight rows and you wish to make sixteen rows, then arrange on the
+            right side four rows with four red banners, and at the departure
+            make four yellow banners, and on the right hand one colour; likewise
+            make on the left side at the departure also one colour, and on the
+            left side between the rows also four banners that are white, and at
+            the front at the departure four banners also of one colour.
+            <br />
+            <i>
+              Thus you have the order properly, how and what of necessity
+              belongs to a wagon fort.
+            </i>
+          </li>
+        </ol>
+        <ol>
+          <li>
+            How you shall make a wagon fort with few wagons, so as to guide
+            yourself thereafter with a larger one.
+          </li>
+          <li>
+            When someone has three hundred wagons and wishes to make a wagon
+            fort from them, he shall arrange:
+          </li>
+          <li>
+            Forty-five wagons in the first row, twenty-five wagons in the second
+            row, fifteen wagons in the third row, fifteen wagons in the fourth
+            row, twenty-five wagons in the fifth row.
+          </li>
+          <li>Forty-five wagons then in the outer row.</li>
+          <li>
+            Thereafter he shall make two closing wings, each wing having fifteen
+            or fourteen wagons.
+          </li>
+          <li>
+            He shall also have two long pursuit wings, each having, as follows
+            hereafter, fifty or slightly fewer wagons.
+          </li>
+          <li>
+            These shall be on each side one at the very outermost, and where it
+            is necessary, they shall charge forward and come to aid; all this a
+            prudent and experienced captain can well improve.
+          </li>
         </ol>
       </Col>
     </Row>

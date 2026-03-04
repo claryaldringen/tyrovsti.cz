@@ -753,6 +753,397 @@ export const PhilippVonSeldeneckWagenordnung = () => (
             zehn oder zwanzig Mann zuweisen, und jeder soll seinen Teil den Berg
             hinauftragen und ihn wieder auf den Wagen laden.
           </li>
+          <li>
+            Ebenso soll man die Pferde in Hintergeschirre fassen, und bei den
+            vorderen auf den Seiten dem Pferd zwei oder drei Mann zugeben, und
+            auch am Kopf helfen, das Pferd zu schieben oder zu ziehen, und dies
+            alles muss ganz heimlich, ohne Geschrei und so still wie möglich in
+            der Nacht geschehen, damit der Feind nicht weiß, was man tut oder
+            unternimmt.
+          </li>
+          <li>
+            Der Wagenburgmeister soll die äußere Reihe der Wagen, die dem Feind
+            zugewandt ist, zuerst räumen lassen, und die Güter, die diese
+            Reihenwagen tragen, ob sie verloren seien, das muss man abwägen, und
+            bei derselben Reihe innerhalb der Wagenburg soll der
+            Wagenburgmeister eine verlorene Rotte Volks entsenden, damit diese
+            in jener Reihe viel Dampf und Rauch machen mit feuchtem Stroh oder
+            Heu, oder anderem, was dazu dienen mag, damit man die Feinde blenden
+            kann, aber nichtsdestotrotz dabei die Wache bestellen, ob die Feinde
+            etwas unternehmen wollten, damit man dies erfahren kann.
+          </li>
+          <li>
+            Dasselbe Volk und die Gesellen und das andere Volk sollen alle die
+            Nacht wachen und die ganze Nacht zimmern, hauen, arbeiten und
+            klopfen, als wolle man den Feind dort angreifen; damit geht die
+            Wagenburg und das Volk dazwischen auf den Berg; und wenn man auf den
+            Berg kommt, kann man dann wohl aufblasen, wenn man will. Dies ist
+            die Kunst, die Wagenburg über die Berge zu bringen.
+          </li>
+          <li>
+            Nun merke, wie man die langen Spieße mit den Haken beim vorherigen
+            Sturm heimlich gebrauchen soll.
+          </li>
+          <li>
+            Nun merke zur Wagenburg: Willst du sie mit einem Graben befestigen,
+            so mache den Graben drei Schritte hinter den Rädern der Wagen.
+          </li>
+          <li>
+            Dazu vergiss den geheimen Graben nicht, der öffentlich nicht zu
+            nennen ist.
+            <br />
+            <i>
+              Der Wagenburgmeister soll erkennen, was zur Wagenburg und zum
+              Lager gehört.
+            </i>
+          </li>
+          <li>
+            Holz, Wasser und Futter zu finden, obliegt der Wagenburg und dem
+            Volk darin; danach soll der Wagenburgmeister die Wagenburg
+            aufstellen, und wenn es nötig ist, jede Nacht einen Verhau darum
+            schlagen.
+          </li>
+          <li>
+            Der Wagenburgmeister soll selbst alle Lager, dazu die Wege, auch
+            Berge und Täler bei Tag und Nacht erkunden, und niemandem anderem
+            als sich selbst darin vertrauen.
+            <br />
+            <i>Wenn man eine Wagenburg zu bauen anfangen und ordnen will.</i>
+          </li>
+          <li>
+            Dann soll der Wagenburgmeister das Volk zu Ross und zu Fuß
+            überschlagen und danach berechnen, wie viele Wagen er haben soll,
+            seine Gesamtzahl ermitteln und bestimmen, was man davon benötigt und
+            im Feld dazu haben muss.
+          </li>
+          <li>
+            Wenn der Wagenburgmeister die Wagen zählt und eine Teilung macht
+            nach der Menge des Volks zu Ross und zu Fuß, wie es dazu nötig ist:
+          </li>
+          <li>
+            So müssen zwölftausend Fußknechte ungefähr fünfhundertfünfzig Wagen
+            haben.
+          </li>
+          <li>Zu dreitausend Pferden muss man dreihundert Wagen haben.</li>
+          <li>
+            Zu der oben genannten Menge Volks macht das achthundertfünfzig
+            Wagen, die man zu ihrem Bedarf haben muss.
+          </li>
+          <li>Aus dieser Summe kannst du die Teilung nehmen.</li>
+          <li>
+            Die mittleren zwei Reihen, auf denen der Platz sein soll, sollen
+            hundert Wagen haben, und in jeder Reihe fünfzig Wagen.
+          </li>
+          <li>
+            Die nächsten zwei Reihen danach auf beiden Seiten sollen ebenfalls
+            hundert Wagen haben.
+          </li>
+          <li>
+            Danach die äußersten zwei Reihen sollen dreihundert Wagen haben, und
+            die dreihundert Wagen soll man ins Feld strecken, die sechs Reihen
+            über das Feld, wie man ziehen will.
+          </li>
+          <li>
+            Wollte man daraus acht Reihen machen, so breche man in der Mitte die
+            äußere Reihe auf beiden Seiten ab und führe sie nach vorne zum
+            vordersten Banner, so werden es acht Reihen, wenn sie alle gleich
+            fahren; und wollte man mehr Reihen machen, so tue man es wie
+            vorgeschrieben.
+            <br />
+            <i>Wenn man von zu Hause zum Nachtlager kommt.</i>
+          </li>
+          <li>
+            Dann soll man auf der Weide halten und die äußerste Reihe wieder am
+            Lager mit der Wagenburg bilden, und sie soll nicht ganz rund sein,
+            sondern in die Länge gestreckt, und eine viereckige Gestalt und
+            einen weiten, geräumigen Platz haben.
+          </li>
+          <li>
+            Wenn man ins Lager gefahren ist und einige Wagen übrig geblieben
+            sind, so treibe die Reihe der Wagen eng zusammen oder zu Haufe, dann
+            kommen die übrigen Wagen auch hinein; wenn aber einige Wagen an den
+            Reihen zu wenig wären, so strecke die Wagen nach hinten, so wird die
+            Reihe ganz.
+          </li>
+          <li>
+            Wo in den Gassen keine Tore sind, sollen hinten und vorne auf jeder
+            Seite drei Wagen mit allem, was zu den Wagen gehört, stehen bleiben,
+            und dieselben sollen darauf achten, dass man ihnen über die Länge
+            die Gassen nicht abgewinnt.
+          </li>
+          <li>
+            Jede Nacht soll jeder Reihenführer vor das Zelt des obersten
+            Hauptmanns kommen und soll die Losung und auch, was man des Morgens
+            tun will, zu erfahren fordern und anhören, und danach, soweit es ihm
+            gebührt, seiner Reihe verkünden.
+          </li>
+          <li>
+            Wenn man Wagen braucht und sie nach Speise oder anderem Bedarf
+            schicken muss, sollst du dieselben Wagen von allen Reihen nehmen,
+            von jeder einen Teil, und die Lücken, wo du die Wagen herausgenommen
+            hast, wieder schließen und ganz machen. Und so rücke diese Reihen
+            nach hinten und nach vorne, so machst du sie wieder ganz; und wenn
+            die Wagen wiederkommen, rücke die Reihen, wohin sie gehören, wieder
+            zurück, wie vorgeschrieben, so kommen auch die Wagen wieder an ihren
+            Ort.
+          </li>
+          <li>
+            Mitten auf dem Platz soll der Fürst liegen, und auf der rechten
+            Seite sollen des Fürsten Kämmerer liegen, und niemand anderes soll
+            auf dem Platz liegen als der Fürst mit seinem Zubehör, Pferden,
+            Hütten, Zelten, Kanzleien, Küchen, Kirchen, Kellern, und sonst
+            niemand, es sei denn, Seine Gnaden wollte jemanden zu sich auf den
+            Platz haben.
+          </li>
+          <li>
+            In der nächsten Reihe am Ring auf beiden Seiten sollen die Grafen,
+            Freiherren, Ritter und Edlen liegen.
+          </li>
+          <li>
+            In den äußersten zwei Reihen sollen die gemeinen guten Leute aus der
+            Landschaft liegen.
+          </li>
+          <li>
+            Die Besten aus den Städten sollen an den vier Ecken bei den Toren
+            liegen; sie sollen die Tore und die Märkte bewachen.
+          </li>
+          <li>
+            Der Markt vor dem Tor der Wagenburg, auf dem man Wein und Brot
+            feilbieten soll, soll zu beiden Seiten hinten an der Wagenburg
+            liegen.
+          </li>
+          <li>
+            Man soll auch einen Heerrufer haben, der Geleit und Schutz der
+            Wagenburg und anderes, was das Heer benötigt, verkündet.
+          </li>
+          <li>
+            Die Büchsen auf den Wagen und Karren, auch das Pulver, Blei und
+            anderes Gerät, das zur Wagenburg gehört, dazu soll man einen
+            besonderen Hauptmann geben; derselbe Hauptmann soll des Tages vor
+            den Wagen liegen, eingeschlossen in einem besonderen Haus.
+            <br />
+            <i>Wenn man aus dem Lager fahren will.</i>
+          </li>
+          <li>
+            So viele Reihen liegen, so führe man sie hinaus, die vordersten
+            Wagen, und die in der Krümmung liegen, sollen sich nach vorne
+            strecken, das ist auf die rechte Seite; und auf der linken Seite
+            hinaus, soweit die Reihe gestreckt werden kann. Dann soll er halten,
+            bis die andere Reihe mit dem Banner nach vorne kommt und vorne
+            gleich steht.
+            <br />
+            <i>
+              So hat man die Ordnung über Land, und damit jedermann wisse, wie
+              er sich nach der rechten Ordnung halten soll, so höre und gib
+              acht.
+            </i>
+          </li>
+          <li>
+            Zu der Zeit, wenn man das erste Mal im Heer aufbläst, soll jeder
+            sein Pferd tränken und füttern; und wenn man zum zweiten Mal bläst,
+            soll jeder anspannen; und wenn man zum dritten Mal bläst, soll jeder
+            auf den Pferden sein und warten, wann man ihnen befiehlt,
+            aufzubrechen oder zu ziehen.
+            <br />
+            <i>Besondere Arbeiter mit Schaufeln zu den Wagen.</i>
+          </li>
+          <li>
+            Hundert Schaufeln muss man zu allen anderen vorgeschriebenen Dingen
+            in der Wagenburg auch haben, und für diese Schaufeln muss man einen
+            eigenen Hauptmann bestimmen, der sie jedesmal dem Wagenburgmeister
+            zuführt, wenn er sie verlangt und braucht, um die Reihenwege damit
+            zu machen und zu räumen, die Gräben auszuheben, und was die
+            Notwendigkeit sonst erfordert.
+            <br />
+            <i>
+              Wie man eine Wagenburg zum Kampf ordnen soll, wenn man dessen
+              gewärtig ist.
+            </i>
+          </li>
+          <li>
+            Der Wagenburgmeister soll achtgeben und auf des Feindes Wagenburg
+            schauen, und in der Ebene auf die Spitze der feindlichen Wagenburg
+            achten und deren Wagenburg mit dem Geschütz auf der rechten Seite
+            bearbeiten, und genau auf die feindliche Wagenburg und deren
+            Hauptmann achten, dass sie dir nicht den Vorteil abgewinnen; darum
+            gebrauche dein Büchsengeschütz beizeiten gegen sie, aber mit rechtem
+            Maß, und bringe sie mit deinem Geschütz in Verwirrung, damit dir der
+            Wagenburghauptmann mit seinem Geschick und Vorteil nicht zu nahe
+            kommt, bevor das Volk in den Kampf tritt.
+            <br />
+            <i>
+              Wenn beide Heere in der Ebene oder an Bergen gegen- oder
+              zueinander kämen.
+            </i>
+          </li>
+          <li>
+            Der Wagenburgmeister soll ernstlich und fleißig darauf bedacht sein,
+            dass er mit seiner Wagenburg die weiten und großen Höhen vor den
+            Feinden als Erster einnimmt, damit er mit seiner Wagenburg gegen den
+            Feind ins Tal sinken kann, und wenn er verhindern kann, dass die
+            Feinde solchen Vorteil vor ihm einnehmen, so tue er es; wenn es aber
+            so wäre, dass du in deinem Vorteil zwischen den Feinden lägst und
+            der Hauptmann oder Wagenburgmeister zu keinem anderen Vorteil kommen
+            könnte, so verweile in deinem Vorteil und gib ihn nicht auf, und
+            lass die Feinde dich suchen und zu dir kommen, und lass dich
+            keineswegs aus dem Vorteil reißen.
+            <br />
+            <i>Die Wagenburg zum Kampf gegen den Feind führen, tue also:</i>
+          </li>
+          <li>
+            Mache die Wagenburg allgemein mit acht Reihen; wenn aber der
+            Reisigen und des Fußvolks so viele wären, kannst du zwölf oder
+            vierzehn daraus machen; und damit die Wagenburg gleich ins Viereck
+            steht, kann man daraus oder darin kämpfen und auch das Nachtlager
+            dem Volk desto sicherer darin haben; die Wagenburg soll auch mit
+            drei Plätzen gegen den Feind stehen und gehen.
+          </li>
+          <li>
+            Auch soll der Wagenburgmeister veranlassen, dass die äußeren Reihen
+            stets mit Büchsenwagen und Karren durchsetzt werden, zwischen je
+            fünf Wagen einer, sofern man sie haben kann.
+            <br />
+            <i>
+              Nun merke, wie man eine Wagenburg ordnen soll, um eilends und bald
+              zu schlagen.
+            </i>
+          </li>
+          <li>
+            Wenn sie über Land geht, nehme der Wagenburgmeister von den inneren
+            Reihen nur einen Teil Wagen und teile sie an die äußere Reihe zu den
+            vier Ecken, hinten und vorne; und wenn die Wagenburg sich in
+            Bewegung setzt, schließe mit denselben Ecken die Wagenburg, dann
+            kann man darin das Volk aufstellen.
+            <br />
+            <i>
+              Wie man die Wagenburg aufstellen soll, wenn man darin einen Sturm
+              erwarten will.
+            </i>
+          </li>
+          <li>
+            Der Wagenburgmeister soll die Wagenburg mit acht oder zehn Reihen
+            ordnen, oder so viele man für die Ausrüstung braucht, und soll die
+            Wagenburg ins Viereck legen, dass sie gleich in der Länge und in der
+            Breite liegt. Der Wagenburgmeister soll auch die äußeren zwei Reihen
+            mit Büchsengeschütz auf Karren und Wagen an den vier Ecken der
+            Wagenburg und dazwischen nach Bedarf gut versorgen.
+          </li>
+          <li>
+            Man soll auch die Pferde von der äußersten Reihe der Wagen nehmen
+            und sie hinein in die inneren Reihen binden, damit das Volk an den
+            Wagen beim Sturm dadurch nicht behindert wird.
+          </li>
+          <li>
+            Man soll auch die Wagenburg nicht zu eng zusammenfahren, damit man
+            die Büchsen gegen den Feind daraus gebrauchen kann; dazu soll man
+            auch die Wagen nicht zu eng ineinander fahren, damit die
+            Hauptbüchsenschützen nicht zu hoch darüber schießen müssen, sondern
+            auf die Pferde des Feindes an den Buggelenken zielen und schießen
+            sollen.
+          </li>
+          <li>
+            Man soll auch in der Wagenburg Gassen durch die Reihen machen, damit
+            die Haufen zusammenkommen können und einer dem anderen zu Hilfe und
+            auch zum Sturm reiten kann.
+            <br />
+            <i>
+              Wenn man gerne darin wäre, wie man sich eilends dazu bei Nacht
+              oder Tag schicken soll.
+            </i>
+          </li>
+          <li>
+            Dann wendet sich der Fuhrmann auf die linke Seite, der andere auf
+            die rechte Seite auf den Platz; verstehe und merke es recht: die
+            drei Reihen auf der rechten Hand wenden sich auf die linke Seite,
+            und die zur linken Seite wenden sich auf die rechte Hand, so wie sie
+            im Lager stehen, damit sie aus dem Lager auf den Platz fahren
+            können, auf welche Seite sie wollen.
+            <br />
+            <i>
+              Wie man von den Feinden an einen besseren Zufluchtsort ziehen
+              muss, wenn man von den Feinden im Lager zu sehr bedrängt wird.
+            </i>
+          </li>
+          <li>
+            Der Wagenburgmeister soll einige Wagen in der äußersten Reihe, die
+            leer sind, den Feinden zu Gesicht in der Nacht oder am Tag stehen
+            lassen; und muss man durch eine Enge fahren, so soll der
+            Wagenburgmeister vier Reihen führen und sie vorne kurz lassen und
+            still halten lassen. Dadurch lässt man langsam die gesamte
+            Ausrüstung und dazu die Wagenburg durch; und wenn alles hinüber ist,
+            schließe vorne, bis auch der hintere Teil nachkommt; dann geht die
+            Wagenburg so, wie zuvor beschrieben.
+          </li>
+          <li>
+            Wäre es aber so, dass du mit der Wagenburg durch einen Wald musst,
+            der ungefähr eine halbe Tagesreise breit ist, so schicke die
+            Wagenburg so eng wie möglich in vier Reihen zusammen, und so viele
+            Fußknechte dazu mit Hauen oder Hacken, wie du haben kannst, damit
+            sie den Wagenreihen neben dem Weg Platz machen; und wenn man dann
+            über den Wald kommt, ordne und richte die Wagenburg wieder zum
+            Marsch über Land mit so vielen Reihen, wie man wegen der Feinde
+            braucht.
+            <br />
+            <i>
+              Wenn du mit dem Heer aufbrechen und von den Feinden oder sonst an
+              einen anderen Ort ziehen willst.
+            </i>
+          </li>
+          <li>
+            Zuallererst, bevor man aufbricht, soll der Feldhauptmann oder der
+            Fürst, wenn er selbst im Feld ist, durch die Heerrufer bei Leib und
+            Gut gebieten lassen, dass jedermann seine Feuerstelle und sein Feuer
+            löscht, damit kein Feuer auskommt, das dem Heer Brand und Schaden
+            brächte.
+          </li>
+          <li>
+            Ist dann das Feld eng, so teile das Volk zu Ross und zu Fuß, wie das
+            Feld es zulässt, wenn sie nicht in der Wagenburg ziehen können.
+          </li>
+          <li>
+            Wenn du aufbrichst und die Wagenburg über Land mit acht Reihen geht,
+            und du daraus sechzehn Reihen machen willst, so stelle auf der
+            rechten Seite die vier Reihen mit vier roten Bannern auf, und beim
+            Aufbruch mache vier gelbe Banner, und auf der rechten Hand eine
+            Farbe; desgleichen mache auf der linken Seite beim Aufbruch auch
+            eine Farbe, und auf der linken Seite zwischen den Reihen auch vier
+            Banner, die weiß sein sollen, und vorne beim Aufbruch vier Banner
+            ebenfalls einer Farbe.
+            <br />
+            <i>
+              So hast du die Ordnung eigentlich, wie und was aus Notdurft zu
+              einer Wagenburg gehört.
+            </i>
+          </li>
+        </ol>
+        <ol>
+          <li>
+            Wie du mit wenigen Wagen eine Wagenburg machen sollst, um dich
+            danach mit einer größeren einzurichten.
+          </li>
+          <li>
+            Wenn jemand dreihundert Wagen hat und daraus eine Wagenburg machen
+            will, so soll er anordnen:
+          </li>
+          <li>
+            Fünfundvierzig Wagen in die erste Reihe, fünfundzwanzig Wagen in die
+            zweite Reihe, fünfzehn Wagen in die dritte Reihe, fünfzehn Wagen in
+            die vierte Reihe, fünfundzwanzig Wagen in die fünfte Reihe.
+          </li>
+          <li>Fünfundvierzig Wagen dann in die äußere Reihe.</li>
+          <li>
+            Danach soll er zwei Schließflügel machen, von denen jeder Flügel
+            fünfzehn oder vierzehn Wagen haben soll.
+          </li>
+          <li>
+            Er soll auch zwei lange Rennflügel haben, von denen jeder, wie
+            hiernach folgt, fünfzig oder etwas weniger Wagen haben soll.
+          </li>
+          <li>
+            Dieselben sollen auf jeder Seite einer am alleräußersten sein, und
+            wo es not tut, sollen sie voranschlagen und zu Hilfe kommen; dies
+            alles kann ein verständiger, geübter Hauptmann wohl verbessern.
+          </li>
         </ol>
       </Col>
     </Row>
