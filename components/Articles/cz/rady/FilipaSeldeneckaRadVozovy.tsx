@@ -732,6 +732,367 @@ export const FilipaSeldeneckaRadVozovy = () => (
             každému vozu deset nebo dvacet a každý musí vynést svou část nahoru
             na kopec a opět naložit na vůz.
           </li>
+          <li>
+            Rovněž je třeba koně zapřáhnout do postraňků a k&nbsp;prvním na
+            strany ke koni přidat dva nebo tři, a také u hlavy pomáhat koně
+            pohánět nebo táhnout, a to vše musí probíhat zcela tajně, bez křiku
+            a co nejtišeji v&nbsp;noci, aby nepřítel nevěděl, co se činí nebo
+            podniká.
+          </li>
+          <li>
+            Velitel vozové hradby musí nejprve dát vyklidit vnější řadu vozů,
+            která je obrácena k&nbsp;nepříteli, a zboží, které tyto vozy řady
+            nesou, zda by bylo ztraceno, to je třeba zvážit, a k&nbsp;téže řadě
+            uvnitř vozové hradby musí velitel vyslat ztracenou četu lidí, aby
+            tito v&nbsp;oné řadě vytvořili hodně dýmu a kouře z&nbsp;vlhké slámy
+            nebo sena, nebo čehokoli jiného, čím by se dalo oslepit nepřátele,
+            ale přesto při tom postavit stráže, aby, pokud by nepřítel chtěl
+            něco podniknout, o tom bylo možné se dovědět.
+          </li>
+          <li>
+            Tentýž lid a tovaryši a ostatní lid musí celou noc bdít a celou noc
+            tesařit, sekat, pracovat a bušit, jako by chtěli nepřítele na místě
+            potřít; s&nbsp;tím se vozová hradba a lid mezi nimi pohnou na horu;
+            a když se dostane na horu, může se pak dát troubení, pokud se tak
+            chce. Toto je umění převedení vozové hradby přes hory.
+          </li>
+          <li>
+            Nyní si zapamatuj, jak se mají při útoku tajně použít dlouhá kopí
+            s&nbsp;háky z&nbsp;předchozího bodu.
+          </li>
+          <li>
+            Nyní si zapamatuj o vozové hradbě: chceš-li ji opevnit příkopem,
+            udělej příkop tři kroky za koly vozů.
+          </li>
+          <li>
+            K&nbsp;tomu nezapomeň na tajný příkop, který veřejně není třeba
+            jmenovat.
+            <br />
+            <i>
+              Velitel vozové hradby musí poznat, co k&nbsp;vozové hradbě
+              a&nbsp;ležení náleží.
+            </i>
+          </li>
+          <li>
+            Najít dřevo, vodu a krmivo náleží vozové hradbě a lidu v&nbsp;ní;
+            podle toho musí velitel vozové hradby rozložit hradbu, a je-li to
+            třeba, každou noc okolo ní zarazit zábrany.
+          </li>
+          <li>
+            Velitel vozové hradby musí sám prohlížet všechna ležení, k&nbsp;tomu
+            cesty, také hory a údolí ve dne i v&nbsp;noci, a&nbsp;nikomu jinému
+            než sobě samému v&nbsp;tom nedůvěřovat.
+            <br />
+            <i>Chce-li se začít stavět a uspořádat vozovou hradbu.</i>
+          </li>
+          <li>
+            Tehdy musí velitel vozové hradby odhadnout lid na koních i pěšky, a
+            podle toho, kolik vozů má mít, si spočítat celkový počet
+            a&nbsp;určit, čeho je zapotřebí a co musí mít v&nbsp;poli.
+          </li>
+          <li>
+            Když velitel vozové hradby spočítá vozy a provede rozdělení podle
+            množství lidu na koních i pěšky, jak je toho zapotřebí:
+          </li>
+          <li>
+            Tehdy musí dvanáct tisíc pěších pacholků mít přibližně pět set
+            padesát vozů.
+          </li>
+          <li>K&nbsp;třem tisícům koní je třeba mít tři sta vozů.</li>
+          <li>
+            K&nbsp;výše zmíněnému počtu lidu činí osm set padesát vozů, které je
+            třeba mít pro jejich potřebu.
+          </li>
+          <li>Z&nbsp;tohoto počtu si můžeš vzít rozdělení.</li>
+          <li>
+            Prostřední dvě řady, na nichž má být náměstí, mají mít sto vozů, a
+            v&nbsp;každé řadě padesát vozů.
+          </li>
+          <li>
+            Následující dvě řady po obou stranách mají mít rovněž sto vozů.
+          </li>
+          <li>
+            Poté nejzevnější dvě řady mají mít tři sta vozů, a ty tři sta vozů
+            se mají roztáhnout do pole, šest řad přes pole tak, jak se chce
+            táhnout.
+          </li>
+          <li>
+            Chtěl-li by z&nbsp;toho někdo udělat osm řad, tak rozpoj uprostřed
+            vnější řadu po obou stranách a zaveď je vpřed k&nbsp;přednímu
+            praporu, tak bude řad osm, když budou všechny stejně jet; a chtěl-li
+            by někdo udělat více řad, učiň tak, jak je předepsáno.
+            <br />
+            <i>Když se přijde z&nbsp;domova k&nbsp;nočnímu ležení.</i>
+          </li>
+          <li>
+            Tehdy se má zastavit na pastvině a znovu utvořit nejzevnější řadu u
+            ležení s&nbsp;vozovou hradbou, a ta nemá být zcela okrouhlá, nýbrž
+            protáhlá po délce, a mít čtverhranný tvar a široké, prostorné
+            náměstí.
+          </li>
+          <li>
+            Když se vjede do ležení a některé vozy přebývají, tak sesuň řadu
+            vozů těsně k&nbsp;sobě nebo na hromadu, a pak se vejdou i zbylé
+            vozy; pokud by ale v&nbsp;řadách bylo vozů příliš málo, natáhni vozy
+            dozadu a řada se zcelí.
+          </li>
+          <li>
+            Tam, kde v&nbsp;uličkách nejsou brány, mají vzadu i vpředu
+            z&nbsp;každé strany zůstat tři vozy se vším, co k&nbsp;nim náleží, a
+            tytéž mají hlídat, aby jim přes délku nepřítel ulice nezískal.
+          </li>
+          <li>
+            Každou noc má každý velitel řady přijít před stan nejvyššího
+            hejtmana a má žádat sdělení hesla a toho, co se chce činit ráno, a
+            vyslechnout to, a poté, pokud mu to přísluší, oznámit své řadě.
+          </li>
+          <li>
+            Když je třeba mít vozy a vyslat je pro zásoby nebo jiné potřeby,
+            tytéž vozy máš odebrat ze všech řad, z&nbsp;každé část, a mezery,
+            odkud jsi vozy odebral, znovu uzavři a zcel. A tak posuň tyto řady
+            dozadu i dopředu, a tak je opět zcelíš; a když se vozy vrátí, posuň
+            tytéž řady tam, kam náleží, zpět, jak je předepsáno, a vozy se opět
+            dostanou na své místo.
+          </li>
+          <li>
+            Uprostřed náměstí má ležet kníže, a na pravé straně mají ležet
+            knížecí komorníci, a nikdo jiný nemá na náměstí ležet než kníže se
+            svými příslušnostmi, koňmi, boudami, stany, kancelářemi, kuchyněmi,
+            kostely, sklepy, a nikdo jiný, než koho by si Jeho Milost chtěla na
+            náměstí pozvat.
+          </li>
+          <li>
+            V&nbsp;nejbližší řadě na okruhu po obou stranách mají ležet hrabata,
+            svobodní páni, rytíři a šlechtici.
+          </li>
+          <li>
+            V&nbsp;nejzevnějších dvou řadách mají ležet prostí dobří lidé
+            z&nbsp;kraje.
+          </li>
+          <li>
+            Nejlepší z&nbsp;měst mají ležet na čtyřech rozích u bran, tito mají
+            hlídat brány a trhy.
+          </li>
+          <li>
+            Trh před branou vozové hradby, na němž se má nabízet víno
+            a&nbsp;chléb, má být po obou stranách vzadu u vozové hradby.
+          </li>
+          <li>
+            Musí se také mít jeden vojenský vyvolávač, který vyhlašuje doprovod
+            a ochranu vozové hradby a jiné věci, které vojsko potřebuje.
+          </li>
+          <li>
+            Houfnice na vozech a kárách, také prach, olovo a jiné příslušenství,
+            které k&nbsp;vozové hradbě náleží, k&nbsp;tomu se má dát zvláštní
+            hejtman, tentýž hejtman má přes den ležet před vozy, uzavřen ve
+            zvláštním domku.
+            <br />
+            <i>Chce-li se vyrazit z&nbsp;ležení.</i>
+          </li>
+          <li>
+            Kolik řad leží, tak se vyvedou ven přední vozy, a ty, které leží
+            v&nbsp;záhybu, se mají natáhnout vpřed, to jest na pravou stranu; a
+            na levé straně ven, pokud lze řadu natáhnout. Poté má zastavit tak
+            dlouho, dokud druhá řada s&nbsp;praporem nepřijde vpřed
+            a&nbsp;nebude stát vpředu rovně.
+            <br />
+            <i>
+              Tak je dán řád přes zemi a aby každý věděl, jak se má chovat podle
+              správného řádu, tak poslouchej a dávej pozor.
+            </i>
+          </li>
+          <li>
+            V&nbsp;čase, kdy se poprvé ve vojsku zatroubí, má každý napojit
+            a&nbsp;nakrmit svého koně; a když se zatroubí podruhé, má každý
+            zapřáhnout; a když se zatroubí potřetí, má každý být na koních
+            a&nbsp;čekat, kdy se jim přikáže vyrazit nebo táhnout.
+            <br />
+            <i>Zvláštní dělníci s&nbsp;lopatami k&nbsp;vozům.</i>
+          </li>
+          <li>
+            Sto lopat se musí mít ke všem ostatním předepsaným věcem ve vozové
+            hradbě, a k&nbsp;těmto lopatám se musí dát vlastní hejtman, který je
+            pokaždé přivede veliteli vozové hradby, když si jich vyžádá
+            a&nbsp;potřebuje je, aby s&nbsp;nimi upravoval a uklízel cesty
+            v&nbsp;řadách, vyházel příkopy, a co jiného potřeba vyžaduje.
+            <br />
+            <i>Jak se má šikovat vozová hradba k&nbsp;boji, očekává-li se.</i>
+          </li>
+          <li>
+            Velitel vozové hradby musí bedlivě sledovat nepřítelovu vozovou
+            hradbu, a na rovině sledovat hrot nepřítelovy vozové hradby,
+            a&nbsp;opracovávat jeho hradbu střelbou na pravé straně,
+            a&nbsp;bedlivě sledovat nepřítelovu vozovou hradbu a jejího
+            velitele, aby ti nezískali výhodu, proto používej včas střelbu
+            houfnic proti nim, ale s&nbsp;pravou mírou, a způsob jim zmatek
+            střelbou, aby se ti velitel vozové hradby se svou obratností
+            a&nbsp;výhodou nepřiblížil příliš, dříve než lid přistoupí
+            k&nbsp;boji.
+            <br />
+            <i>
+              Kdyby obě vojska přišla na rovinách nebo u hor proti sobě nebo
+              k&nbsp;sobě.
+            </i>
+          </li>
+          <li>
+            Velitel vozové hradby musí být vážný a pilný, aby svou vozovou
+            hradbou jako první obsadil daleké a vysoké výšiny před nepřáteli,
+            aby mohl se svou vozovou hradbou klesnout proti nepříteli do údolí,
+            a může-li zabránit, aby nepřátelé takovou výhodu před ním nezabrali,
+            ať tak učiní; pokud by ale bylo tak, že ležíš ve své výhodě mezi
+            nepřáteli, a hejtman nebo velitel vozové hradby by nemohl dospět
+            k&nbsp;jiné výhodě, tak setrvej ve své výhodě a&nbsp;nevzdávej se
+            jí, a nech nepřátele, ať tě hledají a přijdou k&nbsp;tobě, a nenech
+            se žádným způsobem z&nbsp;výhody vytrhnout.
+            <br />
+            <i>Vozovou hradbu k&nbsp;boji proti nepříteli vést učiň takto:</i>
+          </li>
+          <li>
+            Udělej obecně osm řad vozové hradby; pokud by ale jízdního vojska a
+            pěšáků bylo tolik, můžeš z&nbsp;toho udělat dvanáct nebo čtrnáct; a
+            aby vozová hradba stála rovně do čtverce, pak se z ní nebo v&nbsp;ní
+            může bojovat a také mít pro lid bezpečnější noční ležení; vozová
+            hradba má také stát a jít se třemi náměstími proti nepříteli.
+          </li>
+          <li>
+            Také musí velitel vozové hradby zařídit, aby vnější řady byly vždy
+            proloženy dělostřeleckými vozy a kárami, po jednom mezi pěti vozy,
+            pokud je možné jich tolik mít.
+            <br />
+            <i>
+              Nyní si zapamatuj, jak se má šikovat vozová hradba, aby se rychle
+              a brzy mohlo bojovat.
+            </i>
+          </li>
+          <li>
+            Když jde přes zemi, tak ať velitel vozové hradby odebere
+            z&nbsp;vnitřních řad pouze část vozů a přidělí je k&nbsp;vnější řadě
+            na čtyři rohy, vzadu i vpředu; a když se vozová hradba pohne, tak
+            uzavře těmito rohy vozovou hradbu, a pak se v&nbsp;ní může šikovat
+            lid.
+            <br />
+            <i>
+              Jak se má rozložit vozová hradba, chce-li se v&nbsp;ní čekat na
+              útok.
+            </i>
+          </li>
+          <li>
+            Velitel vozové hradby má šikovat vozovou hradbu v&nbsp;osmi nebo
+            deseti řadách, nebo v&nbsp;tolika, kolik je zapotřebí pro výzbroj, a
+            má rozložit vozovou hradbu do čtverce, aby ležela rovně na délku i
+            na šířku. Velitel má také dobře zásobit vnější dvě řady
+            dělostřelectvem na kárách a vozech na čtyřech rozích vozové hradby a
+            mezi nimi dle potřeby.
+          </li>
+          <li>
+            Musí se také odebrat koně z&nbsp;nejzevnější řady vozů
+            a&nbsp;přivázat je dovnitř do vnitřních řad, aby lid u vozů nebyl
+            při útoku ničím rušen.
+          </li>
+          <li>
+            Musí se také vozová hradba nestahovat příliš těsně, aby se z ní
+            mohly houfnice používat proti nepříteli; k&nbsp;tomu se také nemají
+            vozy příliš těsně za sebe řadit, aby hlavní střelci z&nbsp;houfnic
+            nemuseli střílet příliš vysoko, nýbrž aby mohli mířit a střílet
+            nepřítelovy koně do plecí.
+          </li>
+          <li>
+            Musí se také ve vozové hradbě udělat ulice skrze řady, aby se houfy
+            mohly sejít a jeden druhému přijít na pomoc a také přijet
+            k&nbsp;útoku.
+            <br />
+            <i>
+              Když by se chtělo být uvnitř, jak se k&nbsp;tomu má rychle
+              přichystat v&nbsp;noci nebo ve dne.
+            </i>
+          </li>
+          <li>
+            Pak se vozka otočí na levou stranu, druhý na pravou stranu na
+            náměstí; rozuměj a zapamatuj si správně: tři řady po pravé ruce se
+            otáčejí na levou stranu, a ty na levé straně se otáčejí na pravou
+            ruku, právě tak, jak stojí v&nbsp;ležení, aby mohly z&nbsp;ležení
+            vyjet na náměstí, na kteroukoli stranu chtějí.
+            <br />
+            <i>
+              Jak se musí od nepřátel táhnout na bezpečnější místo, pokud by byl
+              od nepřátel v&nbsp;ležení příliš tísněn.
+            </i>
+          </li>
+          <li>
+            Velitel vozové hradby má nechat stát některé vozy v&nbsp;nejzevnější
+            řadě, které jsou prázdné, nepřátelům na očích v&nbsp;noci nebo ve
+            dne; a musí-li se projet úžinou, má velitel vozové hradby vést čtyři
+            řady a nechat je vpředu krátké a nechat je tiše stát. Tím se nechá
+            pomalu projet celá výzbroj a&nbsp;k&nbsp;tomu vozová hradba; a když
+            to vše projede, uzavři vpředu, dokud i zadní díl nepřijde; poté jede
+            vozová hradba tak, jak bylo předem ukázáno.
+          </li>
+          <li>
+            Pokud by ale bylo tak, že musíš s&nbsp;vozovou hradbou projet lesem,
+            který je asi půl dne cesty široký, tak sešikuj vozovou hradbu co
+            nejtěsněji do čtyř řad, a tolik pěších pacholků k&nbsp;tomu
+            s&nbsp;motykami nebo sekerami, kolik můžeš mít, aby řadám vozů
+            udělali místo vedle cesty; a když se pak dostane přes les, sešikuj a
+            zařiď vozovou hradbu opět k&nbsp;cestě přes zemi s&nbsp;tolika
+            řadami, kolik je jich zapotřebí kvůli nepřátelům.
+            <br />
+            <i>
+              Chceš-li vyrazit s&nbsp;vojskem a táhnout od nepřátel nebo jinam
+              na jiné místo.
+            </i>
+          </li>
+          <li>
+            Předně, než se vyrazí, má polní hejtman nebo kníže, je-li sám
+            v&nbsp;poli, dát skrze vojenské vyvolávače přikázat pod hrdlem
+            a&nbsp;statkem, aby každý uhasil svá ohniště a oheň, aby nevypukl
+            požár, který by vojsku přinesl zkázu a škodu.
+          </li>
+          <li>
+            Je-li pak pole úzké, rozděl lid na koních i pěšky, jak pole
+            dovoluje, nemohou-li táhnout ve vozové hradbě.
+          </li>
+          <li>
+            Když vyrazíš a vozová hradba jde přes zemi v&nbsp;osmi řadách
+            a&nbsp;chceš z&nbsp;toho udělat šestnáct řad, tak na pravé straně
+            zařiď čtyři řady se čtyřmi červenými prapory a při odjezdu udělej
+            čtyři žluté prapory a na pravé ruce jednu barvu; rovněž udělej na
+            levé straně při odjezdu také jednu barvu a na levé straně mezi
+            řadami rovněž čtyři prapory, které jsou bílé, a vpředu při odjezdu
+            čtyři prapory také jedné barvy.
+            <br />
+            <i>
+              Tak máš řád skutečně, jak a co z&nbsp;potřeby k&nbsp;vozové hradbě
+              náleží.
+            </i>
+          </li>
+        </ol>
+        <ol>
+          <li>
+            Jak máš s&nbsp;málo vozy zřídit vozovou hradbu, abys se podle toho
+            mohl řídit i s&nbsp;větším počtem.
+          </li>
+          <li>
+            Když má někdo tři sta vozů a chce z&nbsp;nich udělat vozovou hradbu,
+            má uspořádat:
+          </li>
+          <li>
+            XLV vozů do první řady, XXV vozů do druhé řady, XV vozů do třetí
+            řady, XV vozů do čtvrté řady, XXV vozů do páté řady.
+          </li>
+          <li>XLV vozů pak do vnější řady.</li>
+          <li>
+            Poté má udělat dvě uzavírací křídla, z&nbsp;nichž každé jedno křídlo
+            má mít XV nebo XIIII vozů.
+          </li>
+          <li>
+            Má také mít dvě dlouhá přední křídla, z&nbsp;nichž každé jedno má
+            mít, jak následuje, XXXXX nebo o něco méně vozů.
+          </li>
+          <li>
+            Tato mají být na každé straně jedno zcela na vnějšku, a kde to je
+            třeba, mají zasáhnout a přijít na pomoc, to vše může rozumný
+            a&nbsp;zkušený hejtman dobře vylepšit.
+          </li>
         </ol>
       </Col>
     </Row>
