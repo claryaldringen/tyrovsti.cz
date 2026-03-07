@@ -3,12 +3,13 @@ import { Col, Row } from 'reactstrap'
 import Link from 'next/link'
 import Image from 'next/image'
 import styles from './Menu.module.scss'
-import { menuCs, menuDe, menuEn } from '../../shared/sitemap'
-import { LANG_DE, LANG_EN } from '../../shared/constants'
+import { menuCs, menuDe, menuEn, menuIt } from '../../shared/sitemap'
+import { LANG_DE, LANG_EN, LANG_IT } from '../../shared/constants'
 import { useLanguage } from '../Language'
 import { AboutProject } from '../Articles/en/AboutProject'
 import { OProjektu } from '../Articles/cz/OProjektu'
 import { UeberDasProjekt } from '../Articles/de/UeberDasProjekt'
+import { InfoSulProgetto } from '../Articles/it/InfoSulProgetto'
 import classNames from 'classnames'
 import { MenuOverlay } from './MenuOverlay'
 import { LanguageDest } from '../../types'
@@ -43,6 +44,16 @@ const LangToggler = ({ dest }: { dest?: LanguageDest }) => {
             width={32}
             height={32}
             alt="German language"
+          />
+        </Link>
+      )}
+      {dest?.it && (
+        <Link href={dest.it}>
+          <Image
+            src="/images/icons8-italy-48.png"
+            width={32}
+            height={32}
+            alt="Italian language"
           />
         </Link>
       )}
@@ -82,7 +93,11 @@ export const Menu = () => {
                 <hr />
               </div>
               <span className="d-none d-md-inline-block">MENU</span>
-              {lang === LANG_DE ? (
+              {lang === LANG_IT ? (
+                <span className="d-md-none xiberonne">
+                  Jobst&nbsp;von&nbsp;Einsiedl&nbsp;di&nbsp;Týřov
+                </span>
+              ) : lang === LANG_DE ? (
                 <span className="d-md-none xiberonne">
                   Jobst&nbsp;von&nbsp;Einsidl,&nbsp;Ritter&nbsp;von&nbsp;Tyrzow
                 </span>
@@ -98,7 +113,14 @@ export const Menu = () => {
             </div>
           </Col>
           <Col md={8} className="d-none d-md-block text-center">
-            {lang === LANG_DE ? (
+            {lang === LANG_IT ? (
+              <Link
+                href="/it"
+                className={classNames(styles.brand, 'xiberonne')}
+              >
+                Jobst&nbsp;von&nbsp;Einsiedl&nbsp;di&nbsp;Týřov
+              </Link>
+            ) : lang === LANG_DE ? (
               <Link
                 href="/de"
                 className={classNames(styles.brand, 'xiberonne')}
@@ -128,11 +150,13 @@ export const Menu = () => {
         <Row className={styles.menuContent}>
           <Col md={4} className={styles.leftCol}>
             <ul className={styles.menuList}>
-              {(lang === LANG_DE
-                ? menuDe
-                : lang === LANG_EN
-                  ? menuEn
-                  : menuCs
+              {(lang === LANG_IT
+                ? menuIt
+                : lang === LANG_DE
+                  ? menuDe
+                  : lang === LANG_EN
+                    ? menuEn
+                    : menuCs
               ).map(({ href, title }) => (
                 <li key={`menu_${href}`}>
                   <div>
@@ -146,7 +170,9 @@ export const Menu = () => {
           </Col>
 
           <Col md={8}>
-            {lang === LANG_DE ? (
+            {lang === LANG_IT ? (
+              <InfoSulProgetto />
+            ) : lang === LANG_DE ? (
               <UeberDasProjekt />
             ) : lang === LANG_EN ? (
               <AboutProject />
