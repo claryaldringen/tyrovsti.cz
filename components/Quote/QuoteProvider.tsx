@@ -2,9 +2,11 @@ import React, {
   createContext,
   ReactNode,
   useCallback,
+  useEffect,
   useMemo,
   useReducer,
 } from 'react'
+import { useRouter } from 'next/router'
 import { Publication, QuoteAction, QuoteContextValue } from '../../types'
 
 const reducer = (state: Publication[], action: QuoteAction): Publication[] => {
@@ -19,6 +21,8 @@ const reducer = (state: Publication[], action: QuoteAction): Publication[] => {
         return [...state, action.payload]
       }
       return state
+    case 'RESET':
+      return []
     default:
       return state
   }
@@ -32,6 +36,17 @@ const QuoteContext = createContext<QuoteContextValue>({
 
 const QuoteProvider = ({ children }: { children: ReactNode }) => {
   const [state, dispatch] = useReducer(reducer, [])
+  const router = useRouter()
+
+  useEffect(() => {
+    const handleRouteChange = () => {
+      dispatch({ type: 'RESET' })
+    }
+    router.events.on('routeChangeStart', handleRouteChange)
+    return () => {
+      router.events.off('routeChangeStart', handleRouteChange)
+    }
+  }, [router.events])
 
   const setPublication = useCallback((publication: Publication) => {
     dispatch({ type: 'ADD_PUBLICATION', payload: publication })
