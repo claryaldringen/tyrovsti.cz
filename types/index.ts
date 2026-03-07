@@ -1,6 +1,6 @@
-export type Language = 'cs' | 'en' | 'de'
+export type Language = 'cs' | 'en' | 'de' | 'it'
 
-export type LocalizedString = { cs: string; en: string; de: string }
+export type LocalizedString = { cs: string; en: string; de: string; it: string }
 
 export type LanguageDest = Partial<Record<Language, string>>
 
