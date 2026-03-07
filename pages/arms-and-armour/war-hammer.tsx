@@ -31,6 +31,7 @@ export const getStaticProps = () => ({
     dest: {
       cs: '/vyzbroj-a-vystroj/valecne-kladivo',
       de: '/waffen-und-ruestung/streithammer',
+      it: '/armi-e-armature/martello-da-guerra',
     },
   },
 })

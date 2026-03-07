@@ -46,7 +46,11 @@ const Page = () => {
 export const getStaticProps = () => ({
   props: {
     lang: LANG_CS,
-    dest: { en: '/mens-clothing', de: '/herrenkleidung' },
+    dest: {
+      en: '/mens-clothing',
+      de: '/herrenkleidung',
+      it: '/abbigliamento-maschile',
+    },
   },
 })
 

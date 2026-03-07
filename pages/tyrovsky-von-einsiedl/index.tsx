@@ -36,7 +36,11 @@ const Page = () => (
 export const getStaticProps = () => ({
   props: {
     lang: LANG_DE,
-    dest: { cs: '/tyrovsti-z-einsiedlu', en: '/tyrovsky-of-einsiedl' },
+    dest: {
+      cs: '/tyrovsti-z-einsiedlu',
+      en: '/tyrovsky-of-einsiedl',
+      it: '/tyrovsky-di-einsiedl',
+    },
   },
 })
 

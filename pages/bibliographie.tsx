@@ -23,7 +23,7 @@ const Page = () => (
 export const getStaticProps = () => ({
   props: {
     lang: LANG_DE,
-    dest: { cs: '/zdroje', en: '/bibliography' },
+    dest: { cs: '/zdroje', en: '/bibliography', it: '/bibliografia' },
   },
 })
 

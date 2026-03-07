@@ -30,6 +30,7 @@ export const getStaticProps = () => ({
     dest: {
       cs: '/muzsky-odev/spodni-odev',
       en: '/mens-clothing/undergarments',
+      it: '/abbigliamento-maschile/biancheria-intima',
     },
   },
 })

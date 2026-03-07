@@ -31,6 +31,7 @@ export const getStaticProps = () => ({
     dest: {
       en: '/mens-clothing/headwear',
       de: '/herrenkleidung/kopfbedeckungen',
+      it: '/abbigliamento-maschile/copricapo',
     },
   },
 })

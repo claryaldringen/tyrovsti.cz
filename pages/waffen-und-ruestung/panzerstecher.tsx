@@ -27,7 +27,11 @@ const Page = () => (
 export const getStaticProps = () => ({
   props: {
     lang: LANG_DE,
-    dest: { cs: '/vyzbroj-a-vystroj/estok', en: '/arms-and-armour/estoc' },
+    dest: {
+      cs: '/vyzbroj-a-vystroj/estok',
+      en: '/arms-and-armour/estoc',
+      it: '/armi-e-armature/stocco',
+    },
   },
 })
 

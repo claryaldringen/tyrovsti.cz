@@ -33,6 +33,7 @@ export const getStaticProps = () => ({
     dest: {
       cs: '/vyzbroj-a-vystroj/tarce',
       de: '/waffen-und-ruestung/tartsche',
+      it: '/armi-e-armature/targa',
     },
   },
 })

@@ -31,6 +31,7 @@ export const getStaticProps = () => ({
     dest: {
       en: '/arms-and-armour/estoc',
       de: '/waffen-und-ruestung/panzerstecher',
+      it: '/armi-e-armature/stocco',
     },
   },
 })

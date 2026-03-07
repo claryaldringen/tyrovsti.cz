@@ -35,7 +35,11 @@ const Page = () => (
 export const getStaticProps = () => ({
   props: {
     lang: LANG_DE,
-    dest: { cs: '/historicke-pozadi', en: '/historical-background' },
+    dest: {
+      cs: '/historicke-pozadi',
+      en: '/historical-background',
+      it: '/sfondo-storico',
+    },
   },
 })
 

@@ -30,6 +30,7 @@ export const getStaticProps = () => ({
     dest: {
       cs: '/vyzbroj-a-vystroj/valecne-kladivo',
       en: '/arms-and-armour/war-hammer',
+      it: '/armi-e-armature/martello-da-guerra',
     },
   },
 })
