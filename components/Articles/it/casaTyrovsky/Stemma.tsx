@@ -94,9 +94,9 @@ export const Stemma = () => (
           intera semplicemente non entra nel campo. Pertanto, l&apos;aquila è
           variamente raffigurata quasi completa, solo senza artigli (lapide di
           Jindřich, sigillo e lapide di Jakub Jindřich, rilievo di Dorota
-          Polyxena Kateřina Kokořovská di Kokořov, nata Týřovská) oppure solo
-          il suo busto (sigillo di Jobst von Einsiedl, armorial di Lucas
-          Cranach il Giovane, stemma sul cartiglio nella chiesa di Milíčov).
+          Polyxena Kateřina Kokořovská di Kokořov, nata Týřovská) oppure solo il
+          suo busto (sigillo di Jobst von Einsiedl, armorial di Lucas Cranach il
+          Giovane, stemma sul cartiglio nella chiesa di Milíčov).
         </p>
         <p>
           Dato il numero minimo di raffigurazioni a colori superstiti
@@ -147,10 +147,10 @@ export const Stemma = () => (
           <br />
           Uno scudo inquartato dove il 1° e il 4° campo sono divisi in fascia,
           con un&apos;aquila di nero uscente o saliente su sfondo d&apos;oro in
-          capo e due bande di nero su sfondo d&apos;argento nella base. Nel 2°
-          e 3° campo di rosso vi sono tre penne di struzzo d&apos;argento
-          rivolte l&apos;una verso l&apos;altra e divergenti. Sopra lo scudo vi
-          sono due elmi con corone; il sinistro con lambrecchini di rosso e
+          capo e due bande di nero su sfondo d&apos;argento nella base. Nel 2° e
+          3° campo di rosso vi sono tre penne di struzzo d&apos;argento rivolte
+          l&apos;una verso l&apos;altra e divergenti. Sopra lo scudo vi sono due
+          elmi con corone; il sinistro con lambrecchini di rosso e
           d&apos;argento, dal quale si erge un alto cappello tartaro spaccato
           con un pennacchio di nero o d&apos;argento, la metà sinistra
           d&apos;argento e la metà destra di rosso. L&apos;elmo destro ha

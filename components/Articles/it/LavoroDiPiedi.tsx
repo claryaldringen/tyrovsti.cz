@@ -28,10 +28,10 @@ export const LavoroDiPiedi = () => (
       <Col>
         <h6>Travers (Anche in dentro)</h6>
         <p>
-          Il cavallo è piegato con i posteriori verso l&apos;interno. Il
-          cavallo viene guidato dall&apos;esterno posteriore. Ciò consente una
-          maggiore manovrabilità laterale e una migliore stima delle distanze.
-          È una posizione sia di avvicinamento che di attacco. È inoltre
+          Il cavallo è piegato con i posteriori verso l&apos;interno. Il cavallo
+          viene guidato dall&apos;esterno posteriore. Ciò consente una maggiore
+          manovrabilità laterale e una migliore stima delle distanze. È una
+          posizione sia di avvicinamento che di attacco. È inoltre
           l&apos;approccio meno minaccioso per i cavalli e aiuterà a prevenire
           aggressioni indesiderate tra i cavalli.
         </p>
@@ -47,10 +47,10 @@ export const LavoroDiPiedi = () => (
       <Col>
         <h6>Spalla in dentro</h6>
         <p>
-          In questa posizione il cavallo è ancora piegato nella stessa
-          direzione (verso l&apos;avversario), ma si muove sul posteriore
-          interno. Questa manovra viene utilizzata in difesa per annullare un
-          colpo o per eludere la mira dell&apos;avversario.
+          In questa posizione il cavallo è ancora piegato nella stessa direzione
+          (verso l&apos;avversario), ma si muove sul posteriore interno. Questa
+          manovra viene utilizzata in difesa per annullare un colpo o per
+          eludere la mira dell&apos;avversario.
         </p>
         <p>
           Nota: il cavallo dovrebbe essere sempre piegato verso

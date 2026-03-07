@@ -16,26 +16,24 @@ export const Veste = () => (
       <Col>
         <p>
           La veste era un tipo fondamentale di indumento esterno. Era realizzata
-          più comunemente in tessuto di lana, che in ceco si chiama <i>sukno</i>,
-          motivo per cui questo tipo di indumento era chiamato <i>sukně</i> in
-          antico ceco, termine che nel ceco contemporaneo significa{' '}
-          <i>gonna</i>. Poteva avere lunghezze diverse. La versione lunga
-          probabilmente poteva essere chiamata <i>reverenda</i>, come indica una
-          registrazione del 1478 secondo cui il maltatore praghese Rameš era
-          solito indossare una <Cit>reverendě nové barvy</Cit> (reverenda di
-          colore nuovo).
+          più comunemente in tessuto di lana, che in ceco si chiama <i>sukno</i>
+          , motivo per cui questo tipo di indumento era chiamato <i>sukně</i> in
+          antico ceco, termine che nel ceco contemporaneo significa <i>gonna</i>
+          . Poteva avere lunghezze diverse. La versione lunga probabilmente
+          poteva essere chiamata <i>reverenda</i>, come indica una registrazione
+          del 1478 secondo cui il maltatore praghese Rameš era solito indossare
+          una <Cit>reverendě nové barvy</Cit> (reverenda di colore nuovo).
           <Qt
             publication={PUBLICATIONS.WINTER}
             href="https://kramerius5.nkp.cz/view/uuid:4405cb90-ee14-11dd-bfdc-000d606f5dc6?page=uuid:6a7087a0-fe2a-11e6-97b4-5ef3fc9ae867"
           />{' '}
           Le vesti potevano essere foderate con tessuto, pelliccia o lasciate
           senza fodera. A ciò fa riferimento nel 1425 Tomášek di Hlohovice al
-          fratello: <Cit>sukni s beránčím kožichem</Cit> (la veste con
-          pelliccia d&apos;agnello) e{' '}
-          <Cit>sukni parvířku s liščím kožichem</Cit> (la veste{' '}
-          <Cit>parvířka</Cit> con pelliccia di volpe). Lo stesso Tomášek,
-          tuttavia, possedeva anche una{' '}
-          <Cit>sukni modrú nepodšitú</Cit> (veste blu senza fodera).
+          fratello: <Cit>sukni s beránčím kožichem</Cit> (la veste con pelliccia
+          d&apos;agnello) e <Cit>sukni parvířku s liščím kožichem</Cit> (la
+          veste <Cit>parvířka</Cit> con pelliccia di volpe). Lo stesso Tomášek,
+          tuttavia, possedeva anche una <Cit>sukni modrú nepodšitú</Cit> (veste
+          blu senza fodera).
           <Qt
             publication={PUBLICATIONS.WINTER}
             href="https://kramerius5.nkp.cz/view/uuid:4405cb90-ee14-11dd-bfdc-000d606f5dc6?page=uuid:6b7d8ad0-fe2a-11e6-97b4-5ef3fc9ae867"
@@ -61,8 +59,8 @@ export const Veste = () => (
           tessuto di lino).
         </p>
         <p>
-          Alla fine del XV e all&apos;inizio del XVI secolo, troviamo nelle fonti
-          scritte vesti guarnite di pelliccia. Ad esempio, nei registri di
+          Alla fine del XV e all&apos;inizio del XVI secolo, troviamo nelle
+          fonti scritte vesti guarnite di pelliccia. Ad esempio, nei registri di
           Jindřichův Hradec del 1496, si fa menzione di una{' '}
           <Cit>červená, lasicí opremovaná</Cit> (rossa, guarnita di martora),
           che costava 2 sessantine di grossi. Nel 1503, un servitore rubò anche
@@ -150,10 +148,10 @@ export const Veste = () => (
           Veste di tipo <i>vestina</i>
         </h5>
         <p>
-          La veste, chiamata <Cit>vestina</Cit> dagli italiani, è
-          caratterizzata da un corpetto aderente, che veniva allacciato, e da una
-          gonna più o meno drappeggiata di varie lunghezze, generalmente non
-          oltre il ginocchio.
+          La veste, chiamata <Cit>vestina</Cit> dagli italiani, è caratterizzata
+          da un corpetto aderente, che veniva allacciato, e da una gonna più o
+          meno drappeggiata di varie lunghezze, generalmente non oltre il
+          ginocchio.
         </p>
       </Col>
     </Row>
@@ -167,7 +165,8 @@ export const Veste = () => (
           <>
             Un pregéř (il coniatore) vestito con una vecchia veste rosa di tipo{' '}
             <i>vestina</i>. Dettaglio dall&apos;affresco nella Cappella dei
-            Coniatori della Cattedrale di Santa Barbara a Kutná Hora (1460-1470).
+            Coniatori della Cattedrale di Santa Barbara a Kutná Hora
+            (1460-1470).
           </>
         }
       />
@@ -208,20 +207,20 @@ export const Veste = () => (
           particolare nella costruzione delle maniche. Sembra che in Boemia si
           mantenesse un&apos;attaccatura profonda della manica, la cosiddetta{' '}
           <i>grande assiette</i>, che conferiva alle vesti ceche di questo tipo
-          un aspetto alquanto appiattito, in contrasto con la forma più squadrata
-          tipica dell&apos;Europa occidentale. Ciò diventa particolarmente
-          evidente quando combinato con soprabiti privi di spalle imbottite, come
-          era comune in Borgogna e in Francia. In Occidente, questo tipo di
-          manica aveva di solito due aperture per inserire la mano: una al polso,
-          come è consueto per le maniche normali, e l&apos;altra
-          approssimativamente all&apos;altezza del gomito. Sebbene raffigurazioni
-          di tali maniche si possano trovare, ad esempio, nella Bibbia di Kutná
-          Hora, altre raffigurazioni ceche coeve suggeriscono che le maniche
-          ceche fossero tipicamente più squadrate e avessero una sola apertura
-          per la mano, circa all&apos;altezza del gomito. Questa costruzione
-          della manica può essere confermata indirettamente da alcune fonti
-          scritte. Ad esempio, in un libro giudiziario di Rakovník del 1486 si
-          trova una registrazione:
+          un aspetto alquanto appiattito, in contrasto con la forma più
+          squadrata tipica dell&apos;Europa occidentale. Ciò diventa
+          particolarmente evidente quando combinato con soprabiti privi di
+          spalle imbottite, come era comune in Borgogna e in Francia. In
+          Occidente, questo tipo di manica aveva di solito due aperture per
+          inserire la mano: una al polso, come è consueto per le maniche
+          normali, e l&apos;altra approssimativamente all&apos;altezza del
+          gomito. Sebbene raffigurazioni di tali maniche si possano trovare, ad
+          esempio, nella Bibbia di Kutná Hora, altre raffigurazioni ceche coeve
+          suggeriscono che le maniche ceche fossero tipicamente più squadrate e
+          avessero una sola apertura per la mano, circa all&apos;altezza del
+          gomito. Questa costruzione della manica può essere confermata
+          indirettamente da alcune fonti scritte. Ad esempio, in un libro
+          giudiziario di Rakovník del 1486 si trova una registrazione:
           <Cit>
             Poručil jsem, aby kladl peníze do truhly, a on kladl do rukáva sukně
             své.

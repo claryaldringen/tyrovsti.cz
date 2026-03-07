@@ -6,31 +6,28 @@ export const OrdinanzaCarriSeldeneck = () => (
     <Row>
       <Col>
         <div className="anchor" id="ordinanza-dei-carri-di-seldeneck" />
-        <h4>
-          Ordinanza dei carri di Filippo di Seldeneck, circa 1480
-        </h4>
+        <h4>Ordinanza dei carri di Filippo di Seldeneck, circa 1480</h4>
         <p>
-          Questa ordinanza dei carri nel manoscritto di Filippo di Seldeneck,
-          un nobile francone, conservata nella Biblioteca Granducale di
-          Baden-Baden con segnatura Durlach 18, contiene una traduzione tedesca
-          di Vegezio in trascrizione e poi una trascrizione di{' '}
+          Questa ordinanza dei carri nel manoscritto di Filippo di Seldeneck, un
+          nobile francone, conservata nella Biblioteca Granducale di Baden-Baden
+          con segnatura Durlach 18, contiene una traduzione tedesca di Vegezio
+          in trascrizione e poi una trascrizione di{' '}
           <i>Ordnung und geschick der vagenburg</i>. In questo codice, negli
           spazi vuoti, Seldeneck scrisse vari trattati per i suoi figli,
           riguardanti soprattutto la formazione dell&apos;esercito e le
           questioni militari in generale. Dalle annotazioni sui fogli 111b e
-          115b, riguardanti la sua persona, risulta evidente che egli apportò
-          le sue aggiunte da anziano, ricordando le guerre in Boemia, Polonia
-          e Prussia come se fossero state combattute nella sua giovinezza,
-          ossia circa 50 anni prima. L&apos;ordinanza sulla formazione dei
-          carri non fu, come già menzionato sopra, scritta dalla mano di
-          Seldeneck e contiene 76 paragrafi. A questa, Seldeneck aggiunse un
-          supplemento di 7 paragrafi,{' '}
-          <i>Wie du mit wenig wägen ein wagenburg machen sollt</i>, destinato
-          a circostanze più modeste, che egli considerò avendo in mente i
-          propri figli. Questa ordinanza è particolarmente significativa
+          115b, riguardanti la sua persona, risulta evidente che egli apportò le
+          sue aggiunte da anziano, ricordando le guerre in Boemia, Polonia e
+          Prussia come se fossero state combattute nella sua giovinezza, ossia
+          circa 50 anni prima. L&apos;ordinanza sulla formazione dei carri non
+          fu, come già menzionato sopra, scritta dalla mano di Seldeneck e
+          contiene 76 paragrafi. A questa, Seldeneck aggiunse un supplemento di
+          7 paragrafi, <i>Wie du mit wenig wägen ein wagenburg machen sollt</i>,
+          destinato a circostanze più modeste, che egli considerò avendo in
+          mente i propri figli. Questa ordinanza è particolarmente significativa
           perché spiega in gran parte il modo di manovrare con i carri e la
-          formazione dei carri sia in marcia che in battaglia. Purtroppo, le
-          sue spiegazioni sono talvolta incomprensibili.
+          formazione dei carri sia in marcia che in battaglia. Purtroppo, le sue
+          spiegazioni sono talvolta incomprensibili.
         </p>
         <p>Traduzione di PhDr. Zdeňka Kopková.</p>
         <p>&nbsp;</p>
@@ -600,8 +597,8 @@ export const OrdinanzaCarriSeldeneck = () => (
       <Col md={6}>
         <p>
           <i>
-            Da annotare: le necessità, l&apos;ordine e l&apos;arte del forte
-            dei carri in campo contro il nemico e lontano dal nemico.
+            Da annotare: le necessità, l&apos;ordine e l&apos;arte del forte dei
+            carri in campo contro il nemico e lontano dal nemico.
           </i>
           <br />
           Innanzitutto.
@@ -627,9 +624,9 @@ export const OrdinanzaCarriSeldeneck = () => (
           </li>
           <li>
             Ciascun carro dovrà avere due pale e due zappe, e due rastrelli o
-            picconi, e due roncole (piccole falci su manico lungo con un
-            piccolo gancio sul retro), e diverse funi di riserva, nonché una o
-            due selle di riserva dotate di cinghie e staffe.
+            picconi, e due roncole (piccole falci su manico lungo con un piccolo
+            gancio sul retro), e diverse funi di riserva, nonché una o due selle
+            di riserva dotate di cinghie e staffe.
           </li>
           <li>
             Ciascun carro dovrà inoltre avere un buon barile della misura di un
@@ -663,12 +660,8 @@ export const OrdinanzaCarriSeldeneck = () => (
               Si noti ora il significato dei suddetti oggetti appesi alla forca.
             </i>
           </li>
-          <li>
-            Innanzitutto, chiunque rapini sarà giustiziato con la spada.
-          </li>
-          <li>
-            Chiunque rubi nell&apos;esercito sarà impiccato alla forca.
-          </li>
+          <li>Innanzitutto, chiunque rapini sarà giustiziato con la spada.</li>
+          <li>Chiunque rubi nell&apos;esercito sarà impiccato alla forca.</li>
           <li>
             Chiunque provochi ribellione nell&apos;esercito con violenza o in
             altro modo contro la volontà e la conoscenza del maresciallo o dei
@@ -684,13 +677,11 @@ export const OrdinanzaCarriSeldeneck = () => (
             specificamente al comandante del forte dei carri; egli dovrà
             istruirli su come condurre le file del forte dei carri.
           </li>
-          <li>
-            Inoltre, ogni dieci carri dovranno avere un sorvegliante.
-          </li>
+          <li>Inoltre, ogni dieci carri dovranno avere un sorvegliante.</li>
           <li>
             I conduttori del forte dei carri dovranno essere prudenti e audaci,
-            e dovranno conoscere le strade del territorio, le pianure, i monti
-            e le valli.
+            e dovranno conoscere le strade del territorio, le pianure, i monti e
+            le valli.
           </li>
           <li>
             Un certo numero di cannoni a camera che accompagnano il forte dei
@@ -706,8 +697,8 @@ export const OrdinanzaCarriSeldeneck = () => (
           </li>
           <li>
             Di tali armi da fuoco, se ne dovranno disporre per i carri
-            d&apos;assalto: gli archibugi a gancio con due cannoni grandi e
-            con due cannoni piccoli, come sopra denominati.
+            d&apos;assalto: gli archibugi a gancio con due cannoni grandi e con
+            due cannoni piccoli, come sopra denominati.
           </li>
           <li>
             Per tutte queste artiglierie dovranno essere forniti cannonieri
@@ -752,18 +743,17 @@ export const OrdinanzaCarriSeldeneck = () => (
             Il comandante del forte dei carri dovrà, con alcuni uomini che lo
             assistono, ispezionare le paludi e i fossati prima che
             l&apos;esercito vi giunga, e cercare dove siano più stretti e più
-            agevoli da attraversare; e se troverà legname presso le paludi e
-            i fossati, o se prima di raggiungerli attraverserà un bosco, dovrà
+            agevoli da attraversare; e se troverà legname presso le paludi e i
+            fossati, o se prima di raggiungerli attraverserà un bosco, dovrà
             ispezionare tutto ciò per tempo e predisporre la fabbricazione di
-            fascine o fasci, ciascuno legato con tre vimini, e farli posare
-            nei fossati e sulle paludi, creando così un percorso affinché i
-            carri e l&apos;equipaggiamento possano attraversare; ma se la
-            boscaglia fosse troppo lontana dai fossati, si carichino due, tre
-            o quattro fascine, parimenti legate, su ciascun carro e si
-            trasportino fino al fossato o alla palude. Si noti ora come il
-            forte dei carri debba essere portato oltre le montagne quando
-            l&apos;esercito sia sospinto dal nemico su un&apos;altura e non
-            possa discendere dai monti.
+            fascine o fasci, ciascuno legato con tre vimini, e farli posare nei
+            fossati e sulle paludi, creando così un percorso affinché i carri e
+            l&apos;equipaggiamento possano attraversare; ma se la boscaglia
+            fosse troppo lontana dai fossati, si carichino due, tre o quattro
+            fascine, parimenti legate, su ciascun carro e si trasportino fino al
+            fossato o alla palude. Si noti ora come il forte dei carri debba
+            essere portato oltre le montagne quando l&apos;esercito sia sospinto
+            dal nemico su un&apos;altura e non possa discendere dai monti.
           </li>
           <li>
             Allora il comandante del forte dei carri dovrà dividere i fanti e
@@ -772,19 +762,18 @@ export const OrdinanzaCarriSeldeneck = () => (
           </li>
           <li>
             Parimenti, i cavalli dovranno essere imbragati con cinghie
-            posteriori, e due o tre uomini dovranno essere assegnati ai lati
-            di ciascun cavallo in testa, e anche aiutare alla testa per
-            spingere o tirare il cavallo, e tutto ciò dovrà procedere in
-            assoluto segreto, senza grida e nel modo più silenzioso possibile
-            di notte, affinché il nemico non sappia cosa si stia facendo o
-            intraprendendo.
+            posteriori, e due o tre uomini dovranno essere assegnati ai lati di
+            ciascun cavallo in testa, e anche aiutare alla testa per spingere o
+            tirare il cavallo, e tutto ciò dovrà procedere in assoluto segreto,
+            senza grida e nel modo più silenzioso possibile di notte, affinché
+            il nemico non sappia cosa si stia facendo o intraprendendo.
           </li>
           <li>
             Il comandante del forte dei carri dovrà innanzitutto far sgombrare
             la fila esterna dei carri rivolta verso il nemico, e i beni che
             questi carri della fila trasportano, qualora vadano perduti, devono
-            essere valutati, e all&apos;interno di quella stessa fila nel
-            forte dei carri il comandante dovrà inviare una banda di uomini
+            essere valutati, e all&apos;interno di quella stessa fila nel forte
+            dei carri il comandante dovrà inviare una banda di uomini
             sacrificabili per creare molto fumo e vapore con paglia o fieno
             umido, o qualsiasi altra cosa possa servire, così da accecare il
             nemico, ma ciononostante disporre le sentinelle, cosicché se il
@@ -794,10 +783,10 @@ export const OrdinanzaCarriSeldeneck = () => (
           <li>
             Quegli stessi uomini e compagni e tutto il resto delle truppe
             dovranno vegliare tutta la notte e per tutta la notte costruire,
-            tagliare, lavorare e battere, come se si volesse attaccare il
-            nemico sul posto; nel frattempo il forte dei carri e le truppe nel
-            mezzo salgono sul monte; e quando si raggiunge la cima del monte,
-            si possono allora suonare le trombe, se lo si desidera. Questa è
+            tagliare, lavorare e battere, come se si volesse attaccare il nemico
+            sul posto; nel frattempo il forte dei carri e le truppe nel mezzo
+            salgono sul monte; e quando si raggiunge la cima del monte, si
+            possono allora suonare le trombe, se lo si desidera. Questa è
             l&apos;arte di portare il forte dei carri oltre le montagne.
           </li>
           <li>
@@ -819,15 +808,15 @@ export const OrdinanzaCarriSeldeneck = () => (
           </li>
           <li>
             Trovare legna, acqua e foraggio è compito del forte dei carri e
-            delle truppe al suo interno; di conseguenza, il comandante del
-            forte dei carri dovrà posizionare il forte dei carri e, se
-            necessario, trincerarsi attorno ad esso ogni notte.
+            delle truppe al suo interno; di conseguenza, il comandante del forte
+            dei carri dovrà posizionare il forte dei carri e, se necessario,
+            trincerarsi attorno ad esso ogni notte.
           </li>
           <li>
             Il comandante del forte dei carri dovrà ispezionare personalmente
             tutti gli accampamenti, nonché le strade, i monti e le valli di
-            giorno e di notte, e non fidarsi di nessun altro se non di se
-            stesso in questa materia.
+            giorno e di notte, e non fidarsi di nessun altro se non di se stesso
+            in questa materia.
             <br />
             <i>
               Quando si desidera iniziare a costruire e ordinare un forte dei
@@ -849,17 +838,15 @@ export const OrdinanzaCarriSeldeneck = () => (
             Allora dodicimila fanti necessitano di circa cinquecentocinquanta
             carri.
           </li>
-          <li>
-            Per tremila cavalli, si devono avere trecento carri.
-          </li>
+          <li>Per tremila cavalli, si devono avere trecento carri.</li>
           <li>
             Per il suddetto numero di truppe, ciò fa ottocentocinquanta carri
             che si devono avere per le loro necessità.
           </li>
           <li>Da questo totale puoi ricavare la ripartizione.</li>
           <li>
-            Le due file centrali, sulle quali dovrà trovarsi la piazza,
-            dovranno avere cento carri, con cinquanta carri per ciascuna fila.
+            Le due file centrali, sulle quali dovrà trovarsi la piazza, dovranno
+            avere cento carri, con cinquanta carri per ciascuna fila.
           </li>
           <li>
             Le due file successive su entrambi i lati dovranno anch&apos;esse
@@ -871,11 +858,11 @@ export const OrdinanzaCarriSeldeneck = () => (
             attraverso il campo nella direzione della marcia.
           </li>
           <li>
-            Se si volesse poi ricavarne otto file, si divida la fila esterna
-            su entrambi i lati a metà e la si conduca in avanti fino allo
-            stendardo di testa, così vi saranno otto file quando tutte
-            procedono uniformemente; e se si volessero fare più file, si
-            proceda come sopra prescritto.
+            Se si volesse poi ricavarne otto file, si divida la fila esterna su
+            entrambi i lati a metà e la si conduca in avanti fino allo stendardo
+            di testa, così vi saranno otto file quando tutte procedono
+            uniformemente; e se si volessero fare più file, si proceda come
+            sopra prescritto.
             <br />
             <i>Quando si giunge da casa all&apos;accampamento notturno.</i>
           </li>
@@ -886,17 +873,17 @@ export const OrdinanzaCarriSeldeneck = () => (
             avendo forma rettangolare e una piazza ampia e spaziosa.
           </li>
           <li>
-            Quando si è giunti all&apos;accampamento e rimangono alcuni carri
-            in eccesso, si spinga la fila dei carri strettamente insieme o in
-            un gruppo, e i carri rimanenti vi troveranno anch&apos;essi posto;
-            ma se vi fossero troppo pochi carri nelle file, si distendano i
-            carri all&apos;indietro e la fila diverrà completa.
+            Quando si è giunti all&apos;accampamento e rimangono alcuni carri in
+            eccesso, si spinga la fila dei carri strettamente insieme o in un
+            gruppo, e i carri rimanenti vi troveranno anch&apos;essi posto; ma
+            se vi fossero troppo pochi carri nelle file, si distendano i carri
+            all&apos;indietro e la fila diverrà completa.
           </li>
           <li>
             Dove non vi siano porte nei corridoi, tre carri con tutto ciò che
-            appartiene ad essi dovranno rimanere fermi sul retro e sul fronte
-            di ciascun lato, e dovranno sorvegliare che il nemico non guadagni
-            i corridoi per tutta la loro lunghezza.
+            appartiene ad essi dovranno rimanere fermi sul retro e sul fronte di
+            ciascun lato, e dovranno sorvegliare che il nemico non guadagni i
+            corridoi per tutta la loro lunghezza.
           </li>
           <li>
             Ogni notte ciascun capo fila dovrà presentarsi davanti alla tenda
@@ -935,14 +922,14 @@ export const OrdinanzaCarriSeldeneck = () => (
             porte; essi dovranno custodire le porte e i mercati.
           </li>
           <li>
-            Il mercato davanti alla porta del forte dei carri, dove si
-            dovranno vendere vino e pane, dovrà trovarsi su entrambi i lati
-            nella parte posteriore del forte dei carri.
+            Il mercato davanti alla porta del forte dei carri, dove si dovranno
+            vendere vino e pane, dovrà trovarsi su entrambi i lati nella parte
+            posteriore del forte dei carri.
           </li>
           <li>
-            Si dovrà inoltre avere un banditore dell&apos;esercito, che
-            proclami il salvacondotto e la protezione del forte dei carri e
-            altre questioni di cui l&apos;esercito necessiti.
+            Si dovrà inoltre avere un banditore dell&apos;esercito, che proclami
+            il salvacondotto e la protezione del forte dei carri e altre
+            questioni di cui l&apos;esercito necessiti.
           </li>
           <li>
             I cannoni sui carri e sui carretti, nonché la polvere, il piombo e
@@ -977,11 +964,11 @@ export const OrdinanzaCarriSeldeneck = () => (
           </li>
           <li>
             Cento pale devono inoltre essere disponibili nel forte dei carri in
-            aggiunta a tutti gli altri articoli prescritti, e queste pale
-            devono avere un proprio capitano, che le fornisca sempre al
-            comandante del forte dei carri quando le richiede e ne necessita,
-            per creare e sgombrare i sentieri tra le file, scavare i fossati,
-            e tutto ciò che la necessità richiede.
+            aggiunta a tutti gli altri articoli prescritti, e queste pale devono
+            avere un proprio capitano, che le fornisca sempre al comandante del
+            forte dei carri quando le richiede e ne necessita, per creare e
+            sgombrare i sentieri tra le file, scavare i fossati, e tutto ciò che
+            la necessità richiede.
             <br />
             <i>
               Come si debba disporre un forte dei carri per la battaglia quando
@@ -993,13 +980,12 @@ export const OrdinanzaCarriSeldeneck = () => (
             osservare il forte dei carri nemico, e sulla pianura osservare la
             punta del forte dei carri nemico, e colpire il loro forte dei carri
             con le artiglierie sul lato destro, e osservare attentamente il
-            forte dei carri nemico e il loro comandante, affinché non
-            guadagnino vantaggio su di voi; pertanto usate le vostre artiglierie
-            contro di loro tempestivamente, ma con giusta misura, e
-            confondeteli con le vostre artiglierie cosicché il comandante
-            nemico del forte dei carri non si avvicini troppo con la sua
-            abilità e il suo vantaggio prima che le truppe entrino in
-            battaglia.
+            forte dei carri nemico e il loro comandante, affinché non guadagnino
+            vantaggio su di voi; pertanto usate le vostre artiglierie contro di
+            loro tempestivamente, ma con giusta misura, e confondeteli con le
+            vostre artiglierie cosicché il comandante nemico del forte dei carri
+            non si avvicini troppo con la sua abilità e il suo vantaggio prima
+            che le truppe entrino in battaglia.
             <br />
             <i>
               Se entrambi gli eserciti si trovassero in pianura o presso monti
@@ -1029,27 +1015,26 @@ export const OrdinanzaCarriSeldeneck = () => (
             fosse molta cavalleria e fanteria, potrete ricavarne dodici o
             quattordici; e cosicché il forte dei carri stia in forma quadrata,
             si potrà combattere da esso o al suo interno e avere anche
-            l&apos;accampamento notturno più sicuro per le truppe; il forte
-            dei carri dovrà inoltre stare e avanzare con tre piazze contro il
+            l&apos;accampamento notturno più sicuro per le truppe; il forte dei
+            carri dovrà inoltre stare e avanzare con tre piazze contro il
             nemico.
           </li>
           <li>
-            Inoltre il comandante del forte dei carri dovrà disporre che le
-            file esterne siano sempre intervallate con carri e carretti
-            armati, uno ogni cinque carri, se se ne possano avere altrettanti.
+            Inoltre il comandante del forte dei carri dovrà disporre che le file
+            esterne siano sempre intervallate con carri e carretti armati, uno
+            ogni cinque carri, se se ne possano avere altrettanti.
             <br />
             <i>
-              Si noti ora come si debba disporre un forte dei carri per
-              colpire rapidamente e presto.
+              Si noti ora come si debba disporre un forte dei carri per colpire
+              rapidamente e presto.
             </i>
           </li>
           <li>
             Quando procede sul territorio, il comandante del forte dei carri
             dovrà prelevare dalle file interne solo una parte di carri e
-            assegnarli alla fila esterna nei quattro angoli, dietro e davanti;
-            e quando il forte dei carri si muoverà, chiudetelo con quegli
-            stessi angoli, e allora le truppe possono essere disposte
-            all&apos;interno.
+            assegnarli alla fila esterna nei quattro angoli, dietro e davanti; e
+            quando il forte dei carri si muoverà, chiudetelo con quegli stessi
+            angoli, e allora le truppe possono essere disposte all&apos;interno.
             <br />
             <i>
               Come si debba posizionare il forte dei carri quando si intende
@@ -1062,14 +1047,14 @@ export const OrdinanzaCarriSeldeneck = () => (
             l&apos;equipaggiamento, e dovrà posizionare il forte dei carri in
             forma quadrata, cosicché giaccia uniformemente in lunghezza e in
             larghezza. Il comandante del forte dei carri dovrà inoltre
-            provvedere bene alle due file esterne con artiglieria su carretti
-            e carri ai quattro angoli del forte dei carri e nel mezzo secondo
+            provvedere bene alle due file esterne con artiglieria su carretti e
+            carri ai quattro angoli del forte dei carri e nel mezzo secondo
             necessità.
           </li>
           <li>
-            I cavalli dovranno inoltre essere rimossi dalla fila più esterna
-            dei carri e legati nelle file interne, cosicché le truppe presso i
-            carri non siano ostacolate durante l&apos;assalto.
+            I cavalli dovranno inoltre essere rimossi dalla fila più esterna dei
+            carri e legati nelle file interne, cosicché le truppe presso i carri
+            non siano ostacolate durante l&apos;assalto.
           </li>
           <li>
             Il forte dei carri non dovrà inoltre essere condotto troppo
@@ -1080,10 +1065,9 @@ export const OrdinanzaCarriSeldeneck = () => (
             cavalli nemici alle spalle.
           </li>
           <li>
-            Inoltre dovranno essere creati corridoi attraverso le file nel
-            forte dei carri, cosicché le truppe possano riunirsi e uno possa
-            accorrere in aiuto dell&apos;altro e anche cavalcare verso
-            l&apos;assalto.
+            Inoltre dovranno essere creati corridoi attraverso le file nel forte
+            dei carri, cosicché le truppe possano riunirsi e uno possa accorrere
+            in aiuto dell&apos;altro e anche cavalcare verso l&apos;assalto.
             <br />
             <i>
               Quando si desidera essere al suo interno, come ci si debba
@@ -1091,37 +1075,37 @@ export const OrdinanzaCarriSeldeneck = () => (
             </i>
           </li>
           <li>
-            Allora il conducente svolta a sinistra, l&apos;altro a destra
-            sulla piazza; comprendete e notatelo bene: le tre file sulla mano
-            destra svoltano a sinistra, e quelle a sinistra svoltano a destra,
-            proprio come stanno nell&apos;accampamento, cosicché possano uscire
+            Allora il conducente svolta a sinistra, l&apos;altro a destra sulla
+            piazza; comprendete e notatelo bene: le tre file sulla mano destra
+            svoltano a sinistra, e quelle a sinistra svoltano a destra, proprio
+            come stanno nell&apos;accampamento, cosicché possano uscire
             dall&apos;accampamento sulla piazza, verso qualsiasi lato
             desiderino.
             <br />
             <i>
-              Come ci si debba ritirare dal nemico verso un luogo più sicuro,
-              se si è troppo pressati dal nemico nell&apos;accampamento.
+              Come ci si debba ritirare dal nemico verso un luogo più sicuro, se
+              si è troppo pressati dal nemico nell&apos;accampamento.
             </i>
           </li>
           <li>
             Il comandante del forte dei carri dovrà lasciare alcuni carri vuoti
             nella fila più esterna, alla vista del nemico di notte o di giorno;
-            e quando si debba passare attraverso uno stretto, il comandante
-            del forte dei carri dovrà condurre quattro file e dovrà lasciarle
-            corte sul fronte e farle fermare. Attraverso questo, l&apos;intero
+            e quando si debba passare attraverso uno stretto, il comandante del
+            forte dei carri dovrà condurre quattro file e dovrà lasciarle corte
+            sul fronte e farle fermare. Attraverso questo, l&apos;intero
             equipaggiamento e il forte dei carri passano lentamente; e quando
             tutto è passato, si chiuda sul fronte fino a che anche la
-            retroguardia raggiunga la colonna; quindi il forte dei carri
-            procede come indicato in precedenza.
+            retroguardia raggiunga la colonna; quindi il forte dei carri procede
+            come indicato in precedenza.
           </li>
           <li>
             Ma se doveste attraversare un bosco con il forte dei carri, largo
-            circa mezza giornata di marcia, allora compattate il forte dei
-            carri il più strettamente possibile in quattro file, e quanti più
-            fanti possibile con zappe o asce, cosicché facciano spazio alle
-            file dei carri accanto alla strada; e quando si esce dal bosco,
-            disponete e dirigete nuovamente il forte dei carri per marciare sul
-            territorio con tante file quante necessarie a causa del nemico.
+            circa mezza giornata di marcia, allora compattate il forte dei carri
+            il più strettamente possibile in quattro file, e quanti più fanti
+            possibile con zappe o asce, cosicché facciano spazio alle file dei
+            carri accanto alla strada; e quando si esce dal bosco, disponete e
+            dirigete nuovamente il forte dei carri per marciare sul territorio
+            con tante file quante necessarie a causa del nemico.
             <br />
             <i>
               Quando desiderate levare il campo con l&apos;esercito e marciare
@@ -1133,7 +1117,8 @@ export const OrdinanzaCarriSeldeneck = () => (
             principe, se egli stesso è in campo, dovrà far ordinare dai
             banditori dell&apos;esercito, pena la vita e i beni, che ciascuno
             spenga il proprio focolare e il fuoco, affinché non divampino
-            incendi che possano portare conflagrazione e danno all&apos;esercito.
+            incendi che possano portare conflagrazione e danno
+            all&apos;esercito.
           </li>
           <li>
             Se il campo è stretto, dividete le truppe a cavallo e a piedi come
@@ -1142,12 +1127,11 @@ export const OrdinanzaCarriSeldeneck = () => (
           <li>
             Quando levate il campo e il forte dei carri marcia sul territorio
             con otto file e desiderate farne sedici, allora disponete sul lato
-            destro le quattro file con quattro stendardi rossi, e alla
-            partenza fate quattro stendardi gialli, e sulla mano destra un
-            colore; parimenti fate sul lato sinistro alla partenza anche un
-            colore, e sul lato sinistro tra le file anche quattro stendardi
-            bianchi, e davanti alla partenza quattro stendardi anch&apos;essi
-            di un colore.
+            destro le quattro file con quattro stendardi rossi, e alla partenza
+            fate quattro stendardi gialli, e sulla mano destra un colore;
+            parimenti fate sul lato sinistro alla partenza anche un colore, e
+            sul lato sinistro tra le file anche quattro stendardi bianchi, e
+            davanti alla partenza quattro stendardi anch&apos;essi di un colore.
             <br />
             <i>
               Così avete l&apos;ordinamento completo, come e cosa per necessità
@@ -1157,8 +1141,8 @@ export const OrdinanzaCarriSeldeneck = () => (
         </ol>
         <ol>
           <li>
-            Come costruire un forte dei carri con pochi carri, per poi
-            regolarsi di conseguenza con uno più grande.
+            Come costruire un forte dei carri con pochi carri, per poi regolarsi
+            di conseguenza con uno più grande.
           </li>
           <li>
             Quando qualcuno dispone di trecento carri e desidera farne un forte

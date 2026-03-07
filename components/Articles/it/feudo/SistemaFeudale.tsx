@@ -23,9 +23,9 @@ export const SistemaFeudale = () => (
         <p>
           In base alla natura dei servizi richiesti in cambio, si distingueva
           tra feudi nobili (<i>manství ušlechtilá</i>, dove i vassalli dovevano
-          prestare servizi militari) e feudi lavorativi (
-          <i>manství robotná</i>, dove i vassalli dovevano contribuire al
-          funzionamento del castello o alla manutenzione della tenuta).
+          prestare servizi militari) e feudi lavorativi (<i>manství robotná</i>,
+          dove i vassalli dovevano contribuire al funzionamento del castello o
+          alla manutenzione della tenuta).
         </p>
         <p>
           Il sistema feudale fu probabilmente utilizzato per la prima volta

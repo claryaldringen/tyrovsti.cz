@@ -53,24 +53,25 @@ export const GuerraBavarese = () => (
           Il duca di Baviera-Landshut, Ludovico IX il Ricco (1450&ndash;1479),
           era, insieme all&apos;elettore palatino Federico I, detto il
           Vittorioso (1425&ndash;1476), e al margravio di Brandeburgo, Alberto
-          III Achille (1414&ndash;1486), una delle figure pi&ugrave; eminenti tra
-          i principi tedeschi nella&nbsp;seconda met&agrave; del XV secolo. La
-          sua forza finanziaria, basata su una ricca eredit&agrave; paterna e su
-          un&apos;amministrazione territoriale ben funzionante, nonch&eacute; la
-          sua generosit&agrave; e la sua magnifica rappresentanza, gli valsero
-          una fama di leggendaria ricchezza. Nel&nbsp;campo della politica
-          imperiale, egli si appoggiava fondamentalmente al sistema di alleanze
-          dei Wittelsbach, creato congiuntamente con&nbsp;l&apos;elettore
-          palatino Federico I (entrambi erano Wittelsbach). In particolare,
-          l&apos;alleanza della Landfriede con&nbsp;il duca Alberto III di
-          Baviera-Monaco (anch&apos;egli Wittelsbach) e il conte palatino
-          Federico del <b>17 dicembre 1451</b> esercitava una forte attrazione
-          sui principi, la nobilt&agrave; e le citt&agrave; della&nbsp;Germania
-          meridionale. Dopo le citt&agrave; imperiali sveve, anche il duca
-          Sigismondo del Tirolo (1455) e il re di Boemia Ladislao il Postumo
-          (1457) aderirono in seguito al sistema di alleanze dei Wittelsbach. Nel
-          1458, il duca Ludovico e il conte palatino Federico rinnovarono e
-          rafforzarono la loro coalizione attraverso un&apos;alleanza a vita.
+          III Achille (1414&ndash;1486), una delle figure pi&ugrave; eminenti
+          tra i principi tedeschi nella&nbsp;seconda met&agrave; del XV secolo.
+          La sua forza finanziaria, basata su una ricca eredit&agrave; paterna e
+          su un&apos;amministrazione territoriale ben funzionante, nonch&eacute;
+          la sua generosit&agrave; e la sua magnifica rappresentanza, gli
+          valsero una fama di leggendaria ricchezza. Nel&nbsp;campo della
+          politica imperiale, egli si appoggiava fondamentalmente al sistema di
+          alleanze dei Wittelsbach, creato congiuntamente
+          con&nbsp;l&apos;elettore palatino Federico I (entrambi erano
+          Wittelsbach). In particolare, l&apos;alleanza della Landfriede
+          con&nbsp;il duca Alberto III di Baviera-Monaco (anch&apos;egli
+          Wittelsbach) e il conte palatino Federico del <b>17 dicembre 1451</b>{' '}
+          esercitava una forte attrazione sui principi, la nobilt&agrave; e le
+          citt&agrave; della&nbsp;Germania meridionale. Dopo le citt&agrave;
+          imperiali sveve, anche il duca Sigismondo del Tirolo (1455) e il re di
+          Boemia Ladislao il Postumo (1457) aderirono in seguito al sistema di
+          alleanze dei Wittelsbach. Nel 1458, il duca Ludovico e il conte
+          palatino Federico rinnovarono e rafforzarono la loro coalizione
+          attraverso un&apos;alleanza a vita.
           <Qt
             publication={PUBLICATIONS.TRESP}
             href="https://digi20.digitale-sammlungen.de/en/fs1/object/display/bsb00045259_00159.html"
@@ -105,11 +106,11 @@ export const GuerraBavarese = () => (
         <p>
           In particolare, tuttavia, il rapporto tra l&apos;elettore palatino
           Federico I e&nbsp;l&apos;imperatore Federico III celava un elevato
-          potenziale di conflitto, poich&eacute; l&apos;imperatore non
-          riconobbe mai il governo del conte palatino, che questi si era
-          appropriato in violazione del diritto ereditario della Bolla d&apos;Oro.
-          Inoltre, sorse una rivalit&agrave; anche tra il conte palatino e il
-          margravio Alberto III Achille.
+          potenziale di conflitto, poich&eacute; l&apos;imperatore non riconobbe
+          mai il governo del conte palatino, che questi si era appropriato in
+          violazione del diritto ereditario della Bolla d&apos;Oro. Inoltre,
+          sorse una rivalit&agrave; anche tra il conte palatino e il margravio
+          Alberto III Achille.
           <Qt
             publication={PUBLICATIONS.TRESP}
             href="https://digi20.digitale-sammlungen.de/en/fs1/object/display/bsb00045259_00159.html"
@@ -128,9 +129,9 @@ export const GuerraBavarese = () => (
           annullare le decisioni dei tribunali subordinati. Dietro gli sforzi di
           Alberto Achille vi era anche l&apos;idea di restaurare la Franconia
           sotto il dominio degli Hohenzollern. In combinazione con la
-          dignit&agrave; ducale, questa idea rimase viva a lungo nel
-          principato vescovile di W&uuml;rzburg, senza tuttavia mai
-          concretizzarsi nuovamente.
+          dignit&agrave; ducale, questa idea rimase viva a lungo nel principato
+          vescovile di W&uuml;rzburg, senza tuttavia mai concretizzarsi
+          nuovamente.
           <Qt
             publication={PUBLICATIONS.WIKI}
             href="https://de.wikipedia.org/wiki/Bayerischer_Krieg_(1459%E2%80%931463)"
@@ -165,11 +166,11 @@ export const GuerraBavarese = () => (
           interventi del tribunale di Norimberga, il buon rapporto personale tra
           il margravio Alberto III Achille e il duca Ludovico IX imped&igrave;
           che la rivalit&agrave; territoriale degenerasse in aperta
-          ostilit&agrave; fino al 1458. D&apos;altro canto, il margravio
-          Alberto rimase per tutta la vita un fedele difensore degli interessi
-          imperiali nell&apos;Impero. Raramente, tuttavia, pot&eacute; trarne
-          qualche vantaggio per i propri obiettivi. Fu proprio nel nascente
-          confronto tra i Wittelsbach e l&apos;Impero che egli vide
+          ostilit&agrave; fino al 1458. D&apos;altro canto, il margravio Alberto
+          rimase per tutta la vita un fedele difensore degli interessi imperiali
+          nell&apos;Impero. Raramente, tuttavia, pot&eacute; trarne qualche
+          vantaggio per i propri obiettivi. Fu proprio nel nascente confronto
+          tra i Wittelsbach e l&apos;Impero che egli vide
           un&apos;opportunit&agrave; di combinare gli interessi imperiali con i
           suoi piani riguardanti il Landgericht di Norimberga, agendo come
           rappresentante dell&apos;imperatore pur continuando a difendere
@@ -181,15 +182,15 @@ export const GuerraBavarese = () => (
           />
         </p>
         <p>
-          Ci&ograve; divenne chiaramente evidente quando il conflitto
-          con&nbsp;i Wittelsbach si concretizz&ograve; effettivamente.
-          Dopo che il duca Ludovico IX &ndash; inizialmente ancora
-          con&nbsp;l&apos;aiuto del margravio Alberto &ndash; occup&ograve; la
-          libera citt&agrave; imperiale di Donauw&ouml;rth, strategicamente
-          importante per il controllo del Danubio, nell&apos;ottobre 1458, al
-          fine di incorporarla nel suo ducato sulla base di antiche pretese
-          giuridiche, l&apos;imperatore Federico III pronunci&ograve; il bando
-          imperiale contro di lui il <b>4 giugno 1459</b>. Come suo esecutore,
+          Ci&ograve; divenne chiaramente evidente quando il conflitto con&nbsp;i
+          Wittelsbach si concretizz&ograve; effettivamente. Dopo che il duca
+          Ludovico IX &ndash; inizialmente ancora con&nbsp;l&apos;aiuto del
+          margravio Alberto &ndash; occup&ograve; la libera citt&agrave;
+          imperiale di Donauw&ouml;rth, strategicamente importante per il
+          controllo del Danubio, nell&apos;ottobre 1458, al fine di incorporarla
+          nel suo ducato sulla base di antiche pretese giuridiche,
+          l&apos;imperatore Federico III pronunci&ograve; il bando imperiale
+          contro di lui il <b>4 giugno 1459</b>. Come suo esecutore,
           nomin&ograve; &ndash; su propria richiesta &ndash; insieme al duca
           Guglielmo di Sassonia, anche il margravio Alberto. Grazie alla sua
           alleanza con&nbsp;gli Asburgo, con l&apos;arciduca Alberto
@@ -197,17 +198,16 @@ export const GuerraBavarese = () => (
           l&apos;avvio del reclutamento di mercenari in&nbsp;Boemia, Ludovico IX
           si sentiva abbastanza forte per muovere guerra contro l&apos;Impero.
           Un conflitto aperto tra il duca di Landshut e Alberto di Brandeburgo
-          sembrava ormai solo questione di tempo. All&apos;improvviso,
-          tuttavia, il duca Ludovico fu inaspettatamente privato della
-          prospettiva di numerosi mercenari dalla&nbsp;Boemia e con essa della
-          sua speranza per una forza d&apos;urto militare decisiva. In seguito
-          all&apos;intervento di papa Pio II e a causa di questioni
-          territoriali ancora irrisolte con&nbsp;la Baviera, il re di Boemia
-          Giorgio di Poděbrady proib&igrave; ai suoi connazionali di servire
-          come mercenari per il duca Ludovico. Il{' '}
-          <b>16 luglio 1459</b> Ludovico dovette cedere Donauw&ouml;rth
-          all&apos;imperatore e comparire davanti&nbsp;al tribunale arbitrale
-          dei principi.
+          sembrava ormai solo questione di tempo. All&apos;improvviso, tuttavia,
+          il duca Ludovico fu inaspettatamente privato della prospettiva di
+          numerosi mercenari dalla&nbsp;Boemia e con essa della sua speranza per
+          una forza d&apos;urto militare decisiva. In seguito
+          all&apos;intervento di papa Pio II e a causa di questioni territoriali
+          ancora irrisolte con&nbsp;la Baviera, il re di Boemia Giorgio di
+          Poděbrady proib&igrave; ai suoi connazionali di servire come mercenari
+          per il duca Ludovico. Il <b>16 luglio 1459</b> Ludovico dovette cedere
+          Donauw&ouml;rth all&apos;imperatore e comparire davanti&nbsp;al
+          tribunale arbitrale dei principi.
           <Qt
             publication={PUBLICATIONS.TRESP}
             href="https://digi20.digitale-sammlungen.de/en/fs1/object/display/bsb00045259_00160.html"
@@ -221,27 +221,27 @@ export const GuerraBavarese = () => (
           interessi dei Wittelsbach, e anche nella&nbsp;importante questione
           della giurisdizione del tribunale di Norimberga, la formulazione vaga
           del tribunale arbitrale consent&igrave; un&apos;interpretazione nel
-          senso del margravio Alberto. La tensione tra le parti
-          nell&apos;Impero continu&ograve; dunque, cosicch&eacute; un nuovo
-          scoppio di ostilit&agrave; aperte rimase solo una questione di tempo.
+          senso del margravio Alberto. La tensione tra le parti nell&apos;Impero
+          continu&ograve; dunque, cosicch&eacute; un nuovo scoppio di
+          ostilit&agrave; aperte rimase solo una questione di tempo.
           <Qt
             publication={PUBLICATIONS.TRESP}
             href="https://digi20.digitale-sammlungen.de/en/fs1/object/display/bsb00045259_00160.html"
           />
         </p>
         <p>
-          Per prevenire una situazione simile alla disputa su
-          Donauw&ouml;rth, i Wittelsbach cercarono congiuntamente di migliorare
-          le relazioni tra il duca Ludovico IX e la Boemia. Tra l&apos;autunno
-          del 1459 e l&apos;autunno del 1460, riuscirono effettivamente a
-          progredire da un cauto avvicinamento a&nbsp;un legame solido, che fu
-          persino corroborato dal fidanzamento tra la figlia del re Giorgio,
-          Ludmila, e il figlio del duca Ludovico IX, Giorgio. Lo sfondo era il
-          piano del consigliere dei Wittelsbach, Martin Mair, di rendere il re
-          di Boemia re di Germania contro la volont&agrave;
-          dell&apos;imperatore, accrescendo cos&igrave; la capacit&agrave;
-          d&apos;azione dell&apos;Impero. Un piano per il quale il re di Boemia
-          era assolutamente entusiasta, ma che alla fine fall&igrave; per la
+          Per prevenire una situazione simile alla disputa su Donauw&ouml;rth, i
+          Wittelsbach cercarono congiuntamente di migliorare le relazioni tra il
+          duca Ludovico IX e la Boemia. Tra l&apos;autunno del 1459 e
+          l&apos;autunno del 1460, riuscirono effettivamente a progredire da un
+          cauto avvicinamento a&nbsp;un legame solido, che fu persino
+          corroborato dal fidanzamento tra la figlia del re Giorgio, Ludmila, e
+          il figlio del duca Ludovico IX, Giorgio. Lo sfondo era il piano del
+          consigliere dei Wittelsbach, Martin Mair, di rendere il re di Boemia
+          re di Germania contro la volont&agrave; dell&apos;imperatore,
+          accrescendo cos&igrave; la capacit&agrave; d&apos;azione
+          dell&apos;Impero. Un piano per il quale il re di Boemia era
+          assolutamente entusiasta, ma che alla fine fall&igrave; per la
           mancanza di sostegno da parte dei principi fedeli all&apos;imperatore
           Federico III riuniti attorno al margravio Alberto III di Brandeburgo.
           Questo rifiuto port&ograve; infine il re Giorgio definitivamente dalla
@@ -260,10 +260,9 @@ export const GuerraBavarese = () => (
           primo luogo ai mercenari dalla&nbsp;Boemia, di cui almeno 5.000
           entrarono al suo servizio quell&apos;anno. Alcuni condottieri boemi si
           distinsero particolarmente per le dimensioni dei loro contingenti
-          mercenari: Dobrohost di Ronsperg e
-          Hor&scaron;ovsk&yacute; T&yacute;n portarono pi&ugrave; di 1.300
-          mercenari al servizio del duca Ludovico, Racek di Janovice e
-          R&yacute;zmberk circa 1.000, e
+          mercenari: Dobrohost di Ronsperg e Hor&scaron;ovsk&yacute; T&yacute;n
+          portarono pi&ugrave; di 1.300 mercenari al servizio del duca Ludovico,
+          Racek di Janovice e R&yacute;zmberk circa 1.000, e
           Mikul&aacute;&scaron; Kapl&iacute;ř di Sulevice e Vimperk era
           rappresentato nell&apos;esercito ducale da circa 900 uomini. Inoltre,
           diversi altri condottieri e comandanti mercenari disponevano di forti
@@ -298,22 +297,22 @@ export const GuerraBavarese = () => (
           dell&apos;attacco bavarese si rivolse contro il vescovato di
           Eichst&auml;tt, poich&eacute; il vescovo Johann von Eich era alleato
           del margravio Alberto. Dopo un breve assedio, la citt&agrave; di
-          Eichst&auml;tt cadde dal{' '}
-          <b>7</b> all&apos;<b>11 aprile 1460</b> nelle mani del duca, e il
-          vescovo Johann fu costretto a firmare un trattato che limitava
-          permanentemente e gravemente l&apos;indipendenza del suo vescovato
-          nei confronti della Baviera. A met&agrave; aprile, il duca Ludovico
-          prosegu&igrave; la sua campagna in Franconia e march&igrave; attraverso
-          Heideck e Hilpoltstein verso la piccola citt&agrave; margraviale di
-          Roth, che cominci&ograve; ad assediare il <b>27 aprile 1460</b>. Con
-          una breve interruzione tra il 30 aprile e il 3 maggio, causata da
-          difficolt&agrave; di approvvigionamento, l&apos;esercito,
-          probabilmente ormai forte di circa 20.000 uomini, insedi&ograve; un
-          campo fortificato a Roth, dal quale venivano ripetutamente lanciate
-          incursioni di ricognizione da singoli contingenti mercenari nel
-          territorio margraviale. Tra l&apos;altro, la citt&agrave; di Windsbach
-          fu data alle fiamme e i mercenari boemi del duca saccheggiarono il
-          monastero agostiniano di Pillenreuth presso Norimberga.
+          Eichst&auml;tt cadde dal <b>7</b> all&apos;<b>11 aprile 1460</b> nelle
+          mani del duca, e il vescovo Johann fu costretto a firmare un trattato
+          che limitava permanentemente e gravemente l&apos;indipendenza del suo
+          vescovato nei confronti della Baviera. A met&agrave; aprile, il duca
+          Ludovico prosegu&igrave; la sua campagna in Franconia e march&igrave;
+          attraverso Heideck e Hilpoltstein verso la piccola citt&agrave;
+          margraviale di Roth, che cominci&ograve; ad assediare il{' '}
+          <b>27 aprile 1460</b>. Con una breve interruzione tra il 30 aprile e
+          il 3 maggio, causata da difficolt&agrave; di approvvigionamento,
+          l&apos;esercito, probabilmente ormai forte di circa 20.000 uomini,
+          insedi&ograve; un campo fortificato a Roth, dal quale venivano
+          ripetutamente lanciate incursioni di ricognizione da singoli
+          contingenti mercenari nel territorio margraviale. Tra l&apos;altro, la
+          citt&agrave; di Windsbach fu data alle fiamme e i mercenari boemi del
+          duca saccheggiarono il monastero agostiniano di Pillenreuth presso
+          Norimberga.
           <Qt
             publication={PUBLICATIONS.TRESP}
             href="https://digi20.digitale-sammlungen.de/en/fs1/object/display/bsb00045259_00161.html"
@@ -350,12 +349,13 @@ export const GuerraBavarese = () => (
           Norimberga fu considerevolmente limitata, il vescovato di
           Eichst&auml;tt rimase sotto l&apos;influenza bavarese e il duca
           Ludovico non dovette evacuare i territori margraviali occupati. Per
-          quanto riguardava ulteriori questioni controverse, come il risarcimento
-          dei costi di guerra o l&apos;evacuazione delle aree occupate, il re di
-          Boemia Giorgio di Poděbrady avrebbe dovuto fungere da arbitro. Quando
-          il <b>4 luglio 1460</b> anche il conte palatino Federico sconfisse i
-          suoi avversari nella battaglia di Pfeddersheim, parve che i Wittelsbach
-          e i loro alleati trionfassero su tutta la linea.
+          quanto riguardava ulteriori questioni controverse, come il
+          risarcimento dei costi di guerra o l&apos;evacuazione delle aree
+          occupate, il re di Boemia Giorgio di Poděbrady avrebbe dovuto fungere
+          da arbitro. Quando il <b>4 luglio 1460</b> anche il conte palatino
+          Federico sconfisse i suoi avversari nella battaglia di Pfeddersheim,
+          parve che i Wittelsbach e i loro alleati trionfassero su tutta la
+          linea.
           <Qt
             publication={PUBLICATIONS.TRESP}
             href="https://digi20.digitale-sammlungen.de/en/fs1/object/display/bsb00045259_00162.html"
@@ -368,10 +368,10 @@ export const GuerraBavarese = () => (
           della <i>Direttiva di Roth</i>. Al contrario, Ludovico di
           Baviera-Landshut insistette sulle sue posizioni territoriali acquisite
           in&nbsp;Franconia senza venire incontro agli sforzi di compromesso dei
-          mediatori. Nel frattempo, sapeva che il re di Boemia Giorgio, il
-          quale si era definitivamente allontanato dal margravio Alberto a
-          causa del rifiuto della proposta riguardante l&apos;elezione di un re
-          di Germania, era pi&ugrave; che mai dalla sua parte.
+          mediatori. Nel frattempo, sapeva che il re di Boemia Giorgio, il quale
+          si era definitivamente allontanato dal margravio Alberto a causa del
+          rifiuto della proposta riguardante l&apos;elezione di un re di
+          Germania, era pi&ugrave; che mai dalla sua parte.
           <Qt
             publication={PUBLICATIONS.TRESP}
             href="https://digi20.digitale-sammlungen.de/en/fs1/object/display/bsb00045259_00163.html"
@@ -379,9 +379,9 @@ export const GuerraBavarese = () => (
         </p>
         <p>
           Oltre al re Giorgio, un altro importante anello nel sistema di
-          alleanze dei Wittelsbach era l&apos;arciduca Alberto VI d&apos;Austria,
-          fratello e rivale dinastico dell&apos;imperatore. Quando egli
-          lanci&ograve; una guerra aperta contro l&apos;imperatore
+          alleanze dei Wittelsbach era l&apos;arciduca Alberto VI
+          d&apos;Austria, fratello e rivale dinastico dell&apos;imperatore.
+          Quando egli lanci&ograve; una guerra aperta contro l&apos;imperatore
           nell&apos;estate del 1461 nella disputa sull&apos;eredit&agrave;
           austriaca di Ladislao il Postumo, morto nel 1457, ci&ograve;
           scaten&ograve; anche un altro ciclo di dispute tra i Wittelsbach e il
@@ -402,26 +402,26 @@ export const GuerraBavarese = () => (
           />
         </p>
         <p>
-          Come l&apos;anno precedente, il duca Ludovico era meglio preparato
-          per il conflitto imminente rispetto al suo avversario. Gi&agrave;
+          Come l&apos;anno precedente, il duca Ludovico era meglio preparato per
+          il conflitto imminente rispetto al suo avversario. Gi&agrave;
           all&apos;inizio dell&apos;estate del 1461, egli avvi&ograve; i
           preparativi bellici, che comprendevano nuovamente un efficace
-          reclutamento di mercenari in&nbsp;Boemia. Almeno 2.000 boemi
-          entrarono al suo servizio a partire da agosto, rafforzando
-          l&apos;esercito ducale, che con un totale di 16.000 uomini superava di
-          gran lunga l&apos;esercito del margravio Alberto. Racek di Janovice e
-          R&yacute;zmberk inviarono circa 500 mercenari,
-          Přib&iacute;k &Scaron;atava arriv&ograve; con&nbsp;pi&ugrave; di 400
-          uomini dalla&nbsp;Boemia meridionale, Jan Jenec di Janovice e
+          reclutamento di mercenari in&nbsp;Boemia. Almeno 2.000 boemi entrarono
+          al suo servizio a partire da agosto, rafforzando l&apos;esercito
+          ducale, che con un totale di 16.000 uomini superava di gran lunga
+          l&apos;esercito del margravio Alberto. Racek di Janovice e
+          R&yacute;zmberk inviarono circa 500 mercenari, Přib&iacute;k
+          &Scaron;atava arriv&ograve; con&nbsp;pi&ugrave; di 400 uomini
+          dalla&nbsp;Boemia meridionale, Jan Jenec di Janovice e
           Petr&scaron;purk con&nbsp;circa 250 uomini dalla Boemia occidentale,
           questi essendo i contingenti pi&ugrave; numerosi. Inoltre, un attivo
           supporto militare dal re di Boemia, che dichiar&ograve; faida contro
           il margravio e fece marciare un forte esercito contro i territori
           dell&apos;Alta Franconia degli Hohenzollern, fu anch&apos;esso
           fornito. Anche se il successo militare di questo schieramento rimase
-          limitato, esso cion&ograve;ndimeno immobilizz&ograve; importanti
-          forze del margravio di cui egli aveva urgente bisogno sul teatro
-          principale della guerra nella Franconia centrale.
+          limitato, esso cion&ograve;ndimeno immobilizz&ograve; importanti forze
+          del margravio di cui egli aveva urgente bisogno sul teatro principale
+          della guerra nella Franconia centrale.
           <Qt
             publication={PUBLICATIONS.TRESP}
             href="https://digi20.digitale-sammlungen.de/en/fs1/object/display/bsb00045259_00164.html"
@@ -440,18 +440,17 @@ export const GuerraBavarese = () => (
           rinforzi promessi dai suoi alleati, dovette limitarsi a tenere Ansbach
           e Schwabach e da l&igrave; lanciare occasionali incursioni contro
           l&apos;esercito ducale. Solo quando nell&apos;ottobre gli alleati
-          abbandonarono l&apos;esercito del duca Ludovico per varie ragioni e
-          la difficile situazione degli approvvigionamenti, che peggior&ograve;
+          abbandonarono l&apos;esercito del duca Ludovico per varie ragioni e la
+          difficile situazione degli approvvigionamenti, che peggior&ograve;
           ulteriormente con l&apos;arrivo delle intemperie, rivel&ograve; la
           necessit&agrave; di frazionare l&apos;esercito, la situazione
           cambi&ograve; gradualmente. Decisivo, tuttavia, fu il comportamento
           del re di Boemia, che accett&ograve; il ruolo di mediatore offertogli
-          dall&apos;imperatore, ritir&ograve; i contingenti boemi
-          dall&apos;Alta Franconia e chiam&ograve; il duca Ludovico a liberare
-          anche i mercenari boemi al suo servizio. Il margravio Alberto
-          sfrut&ograve; immediatamente la conseguente ritirata bavarese
-          riconquistando in rapida successione quasi tutti i luoghi occupati dai
-          bavaresi.
+          dall&apos;imperatore, ritir&ograve; i contingenti boemi dall&apos;Alta
+          Franconia e chiam&ograve; il duca Ludovico a liberare anche i
+          mercenari boemi al suo servizio. Il margravio Alberto sfrut&ograve;
+          immediatamente la conseguente ritirata bavarese riconquistando in
+          rapida successione quasi tutti i luoghi occupati dai bavaresi.
           <Qt
             publication={PUBLICATIONS.TRESP}
             href="https://digi20.digitale-sammlungen.de/en/fs1/object/display/bsb00045259_00164.html"
@@ -463,17 +462,16 @@ export const GuerraBavarese = () => (
           pace tramite il re Giorgio, le probabilit&agrave; di raggiungere un
           accordo erano dunque appena migliori rispetto a prima dell&apos;inizio
           della guerra. Mentre il duca Ludovico non era disposto a retrocedere
-          oltre le disposizioni della{' '}
-          <i>Direttiva di Roth</i> e avanzava invece richieste sempre
-          pi&ugrave; stravaganti di risarcimento bellico, il margravio, dopo i
-          suoi recenti successi, non si sentiva pi&ugrave; la parte sconfitta e
-          mostrava quindi scarsa disponibilit&agrave; a partecipare persino ai
-          negoziati. Ignor&ograve; il cessate il fuoco concluso in&nbsp;dicembre
-          con l&apos;argomento che non aveva validit&agrave; per la guerra
-          imperiale ancora in corso contro il duca Ludovico. E quando il
-          margravio Alberto ebbe la certezza che l&apos;imperatore lo
-          sosteneva, egli riprese effettivamente la guerra contro i Wittelsbach
-          nel&nbsp;gennaio 1462.
+          oltre le disposizioni della <i>Direttiva di Roth</i> e avanzava invece
+          richieste sempre pi&ugrave; stravaganti di risarcimento bellico, il
+          margravio, dopo i suoi recenti successi, non si sentiva pi&ugrave; la
+          parte sconfitta e mostrava quindi scarsa disponibilit&agrave; a
+          partecipare persino ai negoziati. Ignor&ograve; il cessate il fuoco
+          concluso in&nbsp;dicembre con l&apos;argomento che non aveva
+          validit&agrave; per la guerra imperiale ancora in corso contro il duca
+          Ludovico. E quando il margravio Alberto ebbe la certezza che
+          l&apos;imperatore lo sosteneva, egli riprese effettivamente la guerra
+          contro i Wittelsbach nel&nbsp;gennaio 1462.
           <Qt
             publication={PUBLICATIONS.TRESP}
             href="https://digi20.digitale-sammlungen.de/en/fs1/object/display/bsb00045259_00165.html"
@@ -483,28 +481,27 @@ export const GuerraBavarese = () => (
           Nel 1462, tuttavia, a differenza dell&apos;anno precedente, gli
           appelli dell&apos;imperatore Federico alle citt&agrave; imperiali per
           combattere contro il duca Ludovico ebbero effetto. I rapporti di forza
-          si svilupparono dunque diversamente questa volta rispetto alle campagne
-          del 1460 e 1461. Le citt&agrave; sveve, guidate da Augusta e Ulma,
-          parteciparono ora attivamente alla guerra contro il duca Ludovico, che
-          questa volta spost&ograve; anche il baricentro delle operazioni
-          militari maggiormente nell&apos;area sveva. Tuttavia, l&apos;esercito
-          imperiale non riusc&igrave; a sfruttare la sua superiorit&agrave;
-          iniziale. Il duca Ludovico riusc&igrave; relativamente in fretta a
-          radunare nuovamente un forte esercito &ndash; ancora una volta con
-          una forte partecipazione di mercenari dalla&nbsp;Boemia, il cui
-          numero, tuttavia, non &egrave; determinabile per quest&apos;anno.
-          Inoltre, il re di Boemia riprese anche la guerra contro le aree
-          margraviali attorno a Wunsiedel. Con due grandi successi
-          nell&apos;estate, parve poi che la decisione cadesse finalmente a
-          favore dei Wittelsbach. Il{' '}
-          <b>30 giugno 1462</b>, il conte palatino Federico riusc&igrave; a
-          ottenere una vittoria schiacciante sui suoi avversari della Germania
-          sud-occidentale nella battaglia di Seckenheim, nella quale il
-          margravio Carlo di Baden e il conte Ulrico di W&uuml;rttemberg furono
-          fatti prigionieri dal Palatinato. Un simile successo fu ottenuto anche
-          dal duca Ludovico di Baviera-Landshut con la sua vittoria
-          sull&apos;esercito imperiale guidato dal margravio Alberto il{' '}
-          <b>19 luglio 1462</b> a Giengen.
+          si svilupparono dunque diversamente questa volta rispetto alle
+          campagne del 1460 e 1461. Le citt&agrave; sveve, guidate da Augusta e
+          Ulma, parteciparono ora attivamente alla guerra contro il duca
+          Ludovico, che questa volta spost&ograve; anche il baricentro delle
+          operazioni militari maggiormente nell&apos;area sveva. Tuttavia,
+          l&apos;esercito imperiale non riusc&igrave; a sfruttare la sua
+          superiorit&agrave; iniziale. Il duca Ludovico riusc&igrave;
+          relativamente in fretta a radunare nuovamente un forte esercito
+          &ndash; ancora una volta con una forte partecipazione di mercenari
+          dalla&nbsp;Boemia, il cui numero, tuttavia, non &egrave; determinabile
+          per quest&apos;anno. Inoltre, il re di Boemia riprese anche la guerra
+          contro le aree margraviali attorno a Wunsiedel. Con due grandi
+          successi nell&apos;estate, parve poi che la decisione cadesse
+          finalmente a favore dei Wittelsbach. Il <b>30 giugno 1462</b>, il
+          conte palatino Federico riusc&igrave; a ottenere una vittoria
+          schiacciante sui suoi avversari della Germania sud-occidentale nella
+          battaglia di Seckenheim, nella quale il margravio Carlo di Baden e il
+          conte Ulrico di W&uuml;rttemberg furono fatti prigionieri dal
+          Palatinato. Un simile successo fu ottenuto anche dal duca Ludovico di
+          Baviera-Landshut con la sua vittoria sull&apos;esercito imperiale
+          guidato dal margravio Alberto il <b>19 luglio 1462</b> a Giengen.
           <Qt
             publication={PUBLICATIONS.TRESP}
             href="https://digi20.digitale-sammlungen.de/en/fs1/object/display/bsb00045259_00165.html"
@@ -519,13 +516,13 @@ export const GuerraBavarese = () => (
           <p>
             Essa faceva parte della faida arcivescovile per l&apos;occupazione
             dell&apos;arcidiocesi di Magonza, nota anche come guerra del
-            Baden-Palatinato. Nel 1459, l&apos;amministratore capitolare
-            Diether von Isenburg fu eletto nuovo arcivescovo di Magonza con una
-            stretta maggioranza su Adolf von Nassau. Il prezzo per questa
-            elezione fu l&apos;adesione all&apos;alleanza anti-palatina, e
-            Diether fu cos&igrave; costretto a marciare contro il conte palatino
-            Federico I, ma il <b>4 luglio 1460</b> perse la decisiva battaglia
-            di Pfeddersheim. Nel 1461, Diether convoc&ograve; una dieta dei
+            Baden-Palatinato. Nel 1459, l&apos;amministratore capitolare Diether
+            von Isenburg fu eletto nuovo arcivescovo di Magonza con una stretta
+            maggioranza su Adolf von Nassau. Il prezzo per questa elezione fu
+            l&apos;adesione all&apos;alleanza anti-palatina, e Diether fu
+            cos&igrave; costretto a marciare contro il conte palatino Federico
+            I, ma il <b>4 luglio 1460</b> perse la decisiva battaglia di
+            Pfeddersheim. Nel 1461, Diether convoc&ograve; una dieta dei
             principi a Norimberga, dove si fece promotore di riforme imperiali
             ed ecclesiastiche. Chiese con enfasi l&apos;abolizione dei requisiti
             papali di annata attraverso un concilio generale. La sua posizione
@@ -539,8 +536,8 @@ export const GuerraBavarese = () => (
             Il papa insedi&ograve; quindi il suo rivale Adolf von Nassau sul
             trono arcivescovile di Magonza il <b>1&ordm; ottobre 1461</b>.
             Diether, tuttavia, rifiut&ograve; di rinunciare
-            all&apos;arcivescovato, sostenuto dalla citt&agrave; di Magonza,
-            dal fratello Ludovico e ora anche dal suo ex nemico Federico I del
+            all&apos;arcivescovato, sostenuto dalla citt&agrave; di Magonza, dal
+            fratello Ludovico e ora anche dal suo ex nemico Federico I del
             Palatinato, che in cambio del suo aiuto ricevette le citt&agrave; di
             Lorsch, Heppenheim e Bensheim. Adolf si alle&ograve; con
             l&apos;arcivescovo di Treviri, Giovanni II di Baden, il vescovo
@@ -584,9 +581,9 @@ export const GuerraBavarese = () => (
           <p>
             Nella notte del 30 giugno, egli march&igrave; con circa 300
             cavalieri e ulteriore fanteria attraverso la Foresta di Schwetzingen
-            fino a &ldquo;Frohnholz&rdquo; (l&apos;odierno Dossenwald) a sud
-            di Seckenheim, che le forze imperiali intendevano incendiare il
-            giorno seguente. Durante la marcia, le forze del Palatinato furono
+            fino a &ldquo;Frohnholz&rdquo; (l&apos;odierno Dossenwald) a sud di
+            Seckenheim, che le forze imperiali intendevano incendiare il giorno
+            seguente. Durante la marcia, le forze del Palatinato furono
             rinforzate da ulteriori circa 300 cavalieri e fanteria aggiuntiva
             dai contingenti dell&apos;arcivescovo di Magonza, Diether von
             Isenburg, e del conte Filippo von Katzenelnbogen.
@@ -601,8 +598,8 @@ export const GuerraBavarese = () => (
             800 cavalieri per incendiarla, furono inaspettatamente attaccati
             alle spalle da 600 cavalieri della parte palatina, con il grido di
             battaglia del conte palatino:{' '}
-            <Cit>Hut Palatzgraff oder nimmer mee!</Cit>{' '}
-            (Tieni duro, conte palatino, o mai pi&ugrave;!)
+            <Cit>Hut Palatzgraff oder nimmer mee!</Cit> (Tieni duro, conte
+            palatino, o mai pi&ugrave;!)
             <Qt
               publication={PUBLICATIONS.SECKENHEIM}
               href="https://www.historisches-seckenheim.de/index.php/ortsgeschichte/123-schlacht-bei-seckenheim"
@@ -627,21 +624,21 @@ export const GuerraBavarese = () => (
             />
             Ulrico di W&uuml;rttemberg rifiut&ograve; di accettare la sconfitta
             ma fu sfidato a duello da Hans von Gemmingen, che grid&ograve;:{' '}
-            <Cit>Zkusím štěstí s Vaší Milostí!</Cit> (Tenter&ograve; la
-            fortuna con Vostra Grazia!) e fu sconfitto. 45 cavalieri alleati
-            furono uccisi e circa 400 altri cavalieri catturati. I restanti si
+            <Cit>Zkusím štěstí s Vaší Milostí!</Cit> (Tenter&ograve; la fortuna
+            con Vostra Grazia!) e fu sconfitto. 45 cavalieri alleati furono
+            uccisi e circa 400 altri cavalieri catturati. I restanti si
             dispersero nelle campagne circostanti e portarono la terribile
             notizia al campo di St. Leon. L&igrave; si misero in marcia per il
             ritorno in preda al panico, temendo la vendetta del conte palatino e
-            dei suoi sudditi infuriati. L&apos;esercito palatino
-            ottenne una vittoria decisiva, uccidendo 45 cavalieri e catturando
-            124 nobili e 204 scudieri, perdendo 12 dei propri cavalieri. Tra i
-            prigionieri vi erano tre capi nemici: il margravio Carlo I di Baden
-            con 40 nobili e 79 scudieri, il conte Ulrico di W&uuml;rttemberg
-            con 45 nobili e 71 scudieri, e il vescovo Giorgio di Metz con 39
-            nobili e 53 scudieri. Solo Ludovico di Zweibr&uuml;cken
-            sfugg&igrave; alla cattura. Entro l&apos;anno seguente, i principi
-            furono riscattati per ingenti somme e territori significativi.
+            dei suoi sudditi infuriati. L&apos;esercito palatino ottenne una
+            vittoria decisiva, uccidendo 45 cavalieri e catturando 124 nobili e
+            204 scudieri, perdendo 12 dei propri cavalieri. Tra i prigionieri vi
+            erano tre capi nemici: il margravio Carlo I di Baden con 40 nobili e
+            79 scudieri, il conte Ulrico di W&uuml;rttemberg con 45 nobili e 71
+            scudieri, e il vescovo Giorgio di Metz con 39 nobili e 53 scudieri.
+            Solo Ludovico di Zweibr&uuml;cken sfugg&igrave; alla cattura. Entro
+            l&apos;anno seguente, i principi furono riscattati per ingenti somme
+            e territori significativi.
             <Qt
               publication={PUBLICATIONS.SECKENHEIM}
               href="https://www.historisches-seckenheim.de/index.php/ortsgeschichte/123-schlacht-bei-seckenheim"
@@ -661,17 +658,16 @@ export const GuerraBavarese = () => (
             La faida diocesana, tuttavia, non era ancora finita. Ulteriori
             combattimenti causarono molte vittime e devastazioni ovunque, e la
             stessa citt&agrave; di Magonza sub&igrave; gravi danni. Nella notte
-            del{' '}
-            <b>28 ottobre 1462</b>, Adolf von Nassau riusc&igrave; a penetrare
-            in citt&agrave; con 500 uomini attraverso la Gautor grazie al
-            tradimento di cittadini di Magonza, e dopo 12 ore di combattimenti
-            di strada, prese il controllo. 400 persone persero la vita e gli
-            uomini di Adolf saccheggiarono e incendiarono la citt&agrave;,
-            compreso il monastero domenicano. Come &ldquo;punizione&rdquo; per
-            aver sostenuto Diether, Adolf priv&ograve; la citt&agrave; dei suoi
-            privilegi di libert&agrave; e con essi del suo status di
-            citt&agrave; libera; la citt&agrave; pass&ograve; sotto
-            l&apos;amministrazione di un Vicedominus nominato
+            del <b>28 ottobre 1462</b>, Adolf von Nassau riusc&igrave; a
+            penetrare in citt&agrave; con 500 uomini attraverso la Gautor grazie
+            al tradimento di cittadini di Magonza, e dopo 12 ore di
+            combattimenti di strada, prese il controllo. 400 persone persero la
+            vita e gli uomini di Adolf saccheggiarono e incendiarono la
+            citt&agrave;, compreso il monastero domenicano. Come
+            &ldquo;punizione&rdquo; per aver sostenuto Diether, Adolf
+            priv&ograve; la citt&agrave; dei suoi privilegi di libert&agrave; e
+            con essi del suo status di citt&agrave; libera; la citt&agrave;
+            pass&ograve; sotto l&apos;amministrazione di un Vicedominus nominato
             dall&apos;arcivescovo. Il giorno seguente, i cittadini furono
             convocati al Dietmarkt. Tutti gli 800 cittadini che si presentarono
             furono espulsi dalla citt&agrave;; circa 400 di loro furono
@@ -693,9 +689,9 @@ export const GuerraBavarese = () => (
           attraverso il grande esercito mercenario. Le risorse del duca Ludovico
           il Ricco erano esaurite. Poco dopo il suo trionfo a Giengen, egli si
           vide dunque costretto a congedare la maggior parte dei suoi mercenari,
-          il che cambi&ograve; ancora una volta la situazione militare. D&apos;ora
-          in poi, la scena nella&nbsp;Germania meridionale fu caratterizzata da
-          una incessante piccola guerra con alterni successi.
+          il che cambi&ograve; ancora una volta la situazione militare.
+          D&apos;ora in poi, la scena nella&nbsp;Germania meridionale fu
+          caratterizzata da una incessante piccola guerra con alterni successi.
           <Qt
             publication={PUBLICATIONS.TRESP}
             href="https://digi20.digitale-sammlungen.de/en/fs1/object/display/bsb00045259_00165.html"
@@ -715,8 +711,7 @@ export const GuerraBavarese = () => (
           Con questa iniziativa, il re utraquista sperava di scongiurare la
           scomunica minacciata da papa Pio II. Dopo complessi negoziati, fu
           concluso un accordo di pace composto da diversi trattati individuali
-          il{' '}
-          <b>22 e 23 agosto 1463</b>.
+          il <b>22 e 23 agosto 1463</b>.
           <Qt
             publication={PUBLICATIONS.WIKI}
             href="https://de.wikipedia.org/wiki/Prager_Frieden_(1463)"
@@ -725,9 +720,9 @@ export const GuerraBavarese = () => (
           controverse, ma si rivel&ograve; cionondimeno duratura. Entrambe le
           parti dovettero fare concessioni. Mentre il margravio Alberto III
           Achille dovette abbandonare definitivamente i suoi piani per il
-          dominio della Franconia, che aveva cercato di conseguire rafforzando il
-          Landgericht di Norimberga, il duca Ludovico IX fu obbligato a evacuare
-          i territori margraviali ancora occupati e a regolare tutte le
+          dominio della Franconia, che aveva cercato di conseguire rafforzando
+          il Landgericht di Norimberga, il duca Ludovico IX fu obbligato a
+          evacuare i territori margraviali ancora occupati e a regolare tutte le
           richieste di risarcimento con il margravio. Ciononostante, egli
           riusc&igrave; a difendersi, il che nel suo caso pu&ograve; essere
           valutato come un successo. Un successo per il quale egli era

@@ -19,8 +19,8 @@ export const Farsetto = () => (
         <p>
           Nel ceco medievale, il termine <i>kabát</i> veniva usato per indicare
           il farsetto. Questo termine è in uso dal XIV secolo per designare un
-          indumento più corto e aderente e come sinonimo del tedesco <i>wams</i>,{' '}
-          <i>jacke</i>, <i>schecke</i> o <i>rock</i>, del francese{' '}
+          indumento più corto e aderente e come sinonimo del tedesco <i>wams</i>
+          , <i>jacke</i>, <i>schecke</i> o <i>rock</i>, del francese{' '}
           <i>pourpoint</i>, <i>rochet</i>, <i>roquette</i>, o dell&apos;inglese{' '}
           <i>jacket</i>, <i>rocket</i>
           <Qt
@@ -51,16 +51,15 @@ export const Farsetto = () => (
           Calvo. E questi soleva stare in prima linea in battaglia con un
           farsetto spesso.)
           <Qt publication={PUBLICATIONS.KRONIKAPEKNA} /> Resta da chiarire se la
-          parola ceca <i>kabát</i> derivi dall&apos;antico tedesco{' '}
-          <i>gewæte</i>
+          parola ceca <i>kabát</i> derivi dall&apos;antico tedesco <i>gewæte</i>
           <Qt publication={PUBLICATIONS.GEBAUER} /> o se sia anch&apos;essa
           derivata dall&apos;italiano <i>giubbetta</i>.
         </p>
 
         <p>
           Sebbene i farsetti fossero già utilizzati in precedenza per fissare le
-          calze, come evidenziato dai lacci delle calze sul pourpoint di Carlo di
-          Blois, la combinazione di farsetto e calze allacciate divenne
+          calze, come evidenziato dai lacci delle calze sul pourpoint di Carlo
+          di Blois, la combinazione di farsetto e calze allacciate divenne
           ampiamente popolare in Boemia intorno alla metà del XV secolo, facendo
           del farsetto un elemento funzionale dell&apos;abbigliamento a metà
           strada tra biancheria intima e indumento esterno, il che corrisponde
@@ -71,10 +70,10 @@ export const Farsetto = () => (
             href="https://kramerius5.nkp.cz/view/uuid:4405cb90-ee14-11dd-bfdc-000d606f5dc6?page=uuid:5988fc10-fe2a-11e6-97b4-5ef3fc9ae867"
           />{' '}
           Man mano che le calze diventavano gradualmente pantaloni e il loro
-          punto vita si alzava, anche i farsetti si accorciavano e, alla fine del
-          XV secolo, tornarono a essere un vero e proprio indumento esterno. Un
-          breve profilo dell&apos;evoluzione del farsetto si può osservare nelle
-          immagini seguenti.
+          punto vita si alzava, anche i farsetti si accorciavano e, alla fine
+          del XV secolo, tornarono a essere un vero e proprio indumento esterno.
+          Un breve profilo dell&apos;evoluzione del farsetto si può osservare
+          nelle immagini seguenti.
         </p>
       </Col>
     </Row>
@@ -105,14 +104,13 @@ export const Farsetto = () => (
       <Col>
         <p>
           Come accennato in precedenza, durante l&apos;epoca del re Giorgio di
-          Poděbrady, il farsetto rappresentava una sorta di stadio intermedio tra
-          biancheria intima e indumento esterno, non solo in Boemia. Pertanto, il
-          corpo del farsetto poteva essere realizzato con tessuto più economico,
-          ad esempio non tinto. Ciò si riflette anche nel testamento del
-          calderaio Martin dell&apos;attuale via Spálená a Praga, che nel 1477
-          lasciò{' '}
-          <Cit>dva rukávy aksamitové od kabáta</Cit> (due maniche di velluto di
-          un farsetto)
+          Poděbrady, il farsetto rappresentava una sorta di stadio intermedio
+          tra biancheria intima e indumento esterno, non solo in Boemia.
+          Pertanto, il corpo del farsetto poteva essere realizzato con tessuto
+          più economico, ad esempio non tinto. Ciò si riflette anche nel
+          testamento del calderaio Martin dell&apos;attuale via Spálená a Praga,
+          che nel 1477 lasciò <Cit>dva rukávy aksamitové od kabáta</Cit> (due
+          maniche di velluto di un farsetto)
           <Qt
             publication={PUBLICATIONS.WINTER}
             href="https://kramerius5.nkp.cz/view/uuid:4405cb90-ee14-11dd-bfdc-000d606f5dc6?page=uuid:6c9674e0-fe2a-11e6-97b4-5ef3fc9ae867"
@@ -152,13 +150,13 @@ export const Farsetto = () => (
         <p>
           La scarsità di fonti iconografiche ceche e il fatto che durante
           l&apos;epoca del re Giorgio di Poděbrady il farsetto fosse uno strato
-          intermedio tra la biancheria intima e l&apos;indumento esterno complica
-          notevolmente le ricerche. Ciononostante, è possibile rintracciare
-          alcuni dettagli e differenze rispetto ad altre regioni. Le maniche dei
-          farsetti cechi sono strette oppure larghe, strette al polso con un
-          breve polsino. Al contrario, non si riscontrano imbottiture alle spalle
-          secondo la moda borgognona né arricciature della metà superiore della
-          manica come nella moda italiana.
+          intermedio tra la biancheria intima e l&apos;indumento esterno
+          complica notevolmente le ricerche. Ciononostante, è possibile
+          rintracciare alcuni dettagli e differenze rispetto ad altre regioni.
+          Le maniche dei farsetti cechi sono strette oppure larghe, strette al
+          polso con un breve polsino. Al contrario, non si riscontrano
+          imbottiture alle spalle secondo la moda borgognona né arricciature
+          della metà superiore della manica come nella moda italiana.
         </p>
       </Col>
     </Row>
@@ -185,9 +183,8 @@ export const Farsetto = () => (
         title={
           <>
             Un farsetto con spalle imbottite secondo la moda borgognona.
-            Dettaglio dal dipinto{' '}
-            <i>L&apos;esecuzione del conte innocente</i> del pittore Dieric
-            Bouts, Paesi Bassi, 1460.
+            Dettaglio dal dipinto <i>L&apos;esecuzione del conte innocente</i>{' '}
+            del pittore Dieric Bouts, Paesi Bassi, 1460.
           </>
         }
       />
@@ -203,14 +200,14 @@ export const Farsetto = () => (
       <Col>
         <p>
           Confrontando il farsetto dell&apos;affresco nella Cappella dei
-          Coniatori della chiesa di Santa Barbara a Kutná Hora con i cartamodelli
-          tedeschi coevi, sembra che i farsetti cechi fossero di stile alquanto
-          più arcaico, ovvero con una parte lunga che avvolge strettamente il
-          ventre ed è allacciata con un singolo laccio, e un petto molto arcuato,
-          probabilmente imbottito, che tuttavia potrebbe non essere allacciato
-          altrettanto strettamente della parte addominale e quindi poteva essere
-          chiuso con bottoni o con diversi lacci passanti attraverso coppie
-          opposte di fori.
+          Coniatori della chiesa di Santa Barbara a Kutná Hora con i
+          cartamodelli tedeschi coevi, sembra che i farsetti cechi fossero di
+          stile alquanto più arcaico, ovvero con una parte lunga che avvolge
+          strettamente il ventre ed è allacciata con un singolo laccio, e un
+          petto molto arcuato, probabilmente imbottito, che tuttavia potrebbe
+          non essere allacciato altrettanto strettamente della parte addominale
+          e quindi poteva essere chiuso con bottoni o con diversi lacci passanti
+          attraverso coppie opposte di fori.
         </p>
       </Col>
     </Row>
@@ -336,10 +333,10 @@ export const Farsetto = () => (
           corporazione dei farsettai della Città Nuova. Il corpo del farsetto è
           pertanto realizzato in fustagno nero (
           <Cit>… che il farsetto di fustagno sia confezionato</Cit>), e il petto
-          è imbottito con cotone grezzo (
-          <Cit>… e cotone sia nel petto</Cit>). Il taglio, compresa
-          l&apos;allacciatura, si basa sulla raffigurazione di un farsetto nella
-          Cappella dei Coniatori della Cattedrale di Santa Barbara a Kutná Hora.
+          è imbottito con cotone grezzo (<Cit>… e cotone sia nel petto</Cit>).
+          Il taglio, compresa l&apos;allacciatura, si basa sulla raffigurazione
+          di un farsetto nella Cappella dei Coniatori della Cattedrale di Santa
+          Barbara a Kutná Hora.
         </p>
         <p>
           Le maniche sono realizzate con un tessuto notevolmente più pregiato,

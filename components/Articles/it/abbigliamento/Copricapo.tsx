@@ -17,8 +17,8 @@ export const Copricapo = () => (
       <Col>
         <h4>Cappuccio</h4>
         <p>
-          <i>Kápě</i>,&nbsp;<i>kapicě</i>,&nbsp;<i>kapicze</i> deriva, così
-          come <i>čepice</i> (berretto), dalla parola latino-medievale
+          <i>Kápě</i>,&nbsp;<i>kapicě</i>,&nbsp;<i>kapicze</i> deriva, così come{' '}
+          <i>čepice</i> (berretto), dalla parola latino-medievale
           <i> capa</i>,<i> cappa</i>. Era chiamato anche <i>kukla</i> o
           <i> kuklička</i>, che originava dal latino <i>cucalla</i>, e nelle
           fonti scritte viene ulteriormente indicato come <i>capucium</i>,
@@ -50,8 +50,8 @@ export const Copricapo = () => (
           condannati.
           <Qt publication={PUBLICATIONS.FEYFRLIKOVA} /> Parimenti, nel{' '}
           <i>Codice di Jena</i> (1490-1510), un sacerdote è raffigurato con una
-          magnifica pelliccia, molti anelli e scarpe con lunghe punte, e
-          indossa un cappuccio con una coda lunga e massiccia.
+          magnifica pelliccia, molti anelli e scarpe con lunghe punte, e indossa
+          un cappuccio con una coda lunga e massiccia.
         </p>
       </Col>
     </Row>
@@ -85,9 +85,9 @@ export const Copricapo = () => (
           Il semplice cappuccio senza coda era il tipo di cappuccio più diffuso
           nella Boemia post-hussita. Poteva essere indossato sotto un elmo o
           insieme a un cappello. Un tale{' '}
-          <Cit>kuklu modrou, kterou míval do vojny</Cit> (cappuccio blu, che
-          era solito portare in guerra) fu lasciato da Zikmund Jirconis di Poříč
-          nel 1455.
+          <Cit>kuklu modrou, kterou míval do vojny</Cit> (cappuccio blu, che era
+          solito portare in guerra) fu lasciato da Zikmund Jirconis di Poříč nel
+          1455.
           <Qt
             publication={PUBLICATIONS.WINTER}
             href="https://kramerius5.nkp.cz/view/uuid:4405cb90-ee14-11dd-bfdc-000d606f5dc6?page=uuid:68f3aba0-fe2a-11e6-97b4-5ef3fc9ae867"
@@ -134,11 +134,11 @@ export const Copricapo = () => (
           Questo tipo era popolare nei territori tedeschi, inclusa la Boemia di
           quell&apos;epoca. Poteva essere indossato anche sotto un elmo, come
           mostrano i disegni e dipinti del celebre pittore Albrecht Dürer
-          (1471-1528). Al collo poteva essere allacciato con bottoni per ottenere
-          una forma più anatomica. Le sue nappe potevano anche essere tagliate in
-          modo decorativo, come si può osservare, ad esempio, nel ritratto del
-          maestro di zecca di Kutná Hora Hans Harsdorfer del 1484. Vale la pena
-          notare che Albrecht Dürer e Hans Harsdorfer erano amici.
+          (1471-1528). Al collo poteva essere allacciato con bottoni per
+          ottenere una forma più anatomica. Le sue nappe potevano anche essere
+          tagliate in modo decorativo, come si può osservare, ad esempio, nel
+          ritratto del maestro di zecca di Kutná Hora Hans Harsdorfer del 1484.
+          Vale la pena notare che Albrecht Dürer e Hans Harsdorfer erano amici.
           <Qt publication={PUBLICATIONS.PATALA} />
         </p>
       </Col>
@@ -206,10 +206,10 @@ export const Copricapo = () => (
           Dalla conferma degli articoli della corporazione dei cappellai nella
           Città Vecchia l&apos;<b>11 agosto 1489</b>, si apprende che oltre ai
           cappelli di castoro, un maestro doveva essere in grado di produrre un
-          cappello di pelo di lepre{' '}
-          <Cit>obú stranú vlasitý</Cit> (peloso su entrambi i lati), un
-          cappello riccio e, oltre ai cappelli, anche feltro da calzolaio e uno
-          stivale, presumibilmente feltrato alla maniera dei valenki.
+          cappello di pelo di lepre <Cit>obú stranú vlasitý</Cit> (peloso su
+          entrambi i lati), un cappello riccio e, oltre ai cappelli, anche
+          feltro da calzolaio e uno stivale, presumibilmente feltrato alla
+          maniera dei valenki.
           <Qt
             publication={PUBLICATIONS.ARCHIV14}
             href="https://sources.cms.flu.cas.cz/src/index.php?s=v&cat=10&bookid=821&page=488"

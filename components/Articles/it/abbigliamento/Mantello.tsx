@@ -14,32 +14,34 @@ export const Mantello = () => (
       <Col>
         <p>
           Il mantello era un tipo di indumento esterno molto popolare sia
-          maschile che femminile. Il suo taglio variava notevolmente e i nomi dei
-          singoli tipi di taglio si sovrapponevano considerevolmente, rendendo
-          oggi piuttosto difficile distinguere quale specifico tipo di indumento
-          si intendesse. Possiamo incontrare termini come <i>plášček</i>,{' '}
-          <i>pláščík</i>; nel periodo lussemburghese iniziò a essere chiamato{' '}
-          <i>klok</i>, <i>kloček</i>, dalla forma francese <i>cloque</i>,
-          latino <i>clanis</i>, inoltre latino <i>pelicio</i>, tedesco{' '}
-          <i>tasselmantel</i>, <i>mantl</i> e <i>mantlík</i>. Più comunemente
-          si incontravano mantelli con taglio semicircolare, ma si indossava
-          anche il taglio a tre quarti di cerchio. La lunghezza del mantello
-          variava e poteva presentarsi in un&apos;intera gamma di colori, ma il
-          blu, il verde, il rosa e il grigio predominavano nettamente.
+          maschile che femminile. Il suo taglio variava notevolmente e i nomi
+          dei singoli tipi di taglio si sovrapponevano considerevolmente,
+          rendendo oggi piuttosto difficile distinguere quale specifico tipo di
+          indumento si intendesse. Possiamo incontrare termini come{' '}
+          <i>plášček</i>, <i>pláščík</i>; nel periodo lussemburghese iniziò a
+          essere chiamato <i>klok</i>, <i>kloček</i>, dalla forma francese{' '}
+          <i>cloque</i>, latino <i>clanis</i>, inoltre latino <i>pelicio</i>,
+          tedesco <i>tasselmantel</i>, <i>mantl</i> e <i>mantlík</i>. Più
+          comunemente si incontravano mantelli con taglio semicircolare, ma si
+          indossava anche il taglio a tre quarti di cerchio. La lunghezza del
+          mantello variava e poteva presentarsi in un&apos;intera gamma di
+          colori, ma il blu, il verde, il rosa e il grigio predominavano
+          nettamente.
         </p>
         <p>
           Il mantello era più spesso allacciato sul petto, sotto il mento. A
           questo scopo poteva servire una spilla ornamentale chiamata{' '}
           <i>agrafa</i>; la sua forma, il colore e la decorazione avevano un
           significato religioso, motivo per cui incontriamo spesso
-          un&apos;agrafa a forma di losanga decorata con pietre preziose disposte
-          a forma di croce, oppure i suoi vertici potevano essere rifiniti con
-          perle che ricordavano un giglio. Un mantello semicircolare allacciato
-          con un&apos;agrafa si trova più frequentemente nelle raffigurazioni
-          della Vergine Maria. Inoltre, i mantelli venivano allacciati con un
-          cordone o una cinghia, oppure con una fascia decorativa posta
-          trasversalmente, e anche, specialmente per i mantelli più corti, con
-          tre bottoni sotto il mento o più spesso sulla spalla.
+          un&apos;agrafa a forma di losanga decorata con pietre preziose
+          disposte a forma di croce, oppure i suoi vertici potevano essere
+          rifiniti con perle che ricordavano un giglio. Un mantello
+          semicircolare allacciato con un&apos;agrafa si trova più
+          frequentemente nelle raffigurazioni della Vergine Maria. Inoltre, i
+          mantelli venivano allacciati con un cordone o una cinghia, oppure con
+          una fascia decorativa posta trasversalmente, e anche, specialmente per
+          i mantelli più corti, con tre bottoni sotto il mento o più spesso
+          sulla spalla.
         </p>
       </Col>
     </Row>
@@ -93,12 +95,13 @@ export const Mantello = () => (
     <Row>
       <Col>
         <p>
-          Un altro gruppo di mantelli comprende mantelli che alcuni studiosi oggi
-          indicano con il termine artificiale <i>mantello-tunica</i>. Due tipi
-          di mantelli rientrano in questa categoria: il primo, che nella sua
-          forma ricorda l&apos;indumento italiano <i>giornea</i>, e il secondo,
-          che presenta aperture per le mani e si avvicina più a una <i>veste</i>{' '}
-          o all&apos;<i>houppelande</i> dell&apos;Europa occidentale.
+          Un altro gruppo di mantelli comprende mantelli che alcuni studiosi
+          oggi indicano con il termine artificiale <i>mantello-tunica</i>. Due
+          tipi di mantelli rientrano in questa categoria: il primo, che nella
+          sua forma ricorda l&apos;indumento italiano <i>giornea</i>, e il
+          secondo, che presenta aperture per le mani e si avvicina più a una{' '}
+          <i>veste</i> o all&apos;<i>houppelande</i> dell&apos;Europa
+          occidentale.
         </p>
       </Col>
     </Row>

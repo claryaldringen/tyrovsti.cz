@@ -172,9 +172,9 @@ export const OrdinanzaCarriNorimberga = () => (
           </li>
           <li>
             A ciascun carro registrato fu inoltre consegnata una catena lunga
-            circa 1&frac12; tese (circa 2,6 m), nel caso si desiderasse
-            chiudere il forte dei carri; e le catene venivano registrate al
-            momento del prestito, cosicché si sapesse da chi reclamarle.
+            circa 1&frac12; tese (circa 2,6 m), nel caso si desiderasse chiudere
+            il forte dei carri; e le catene venivano registrate al momento del
+            prestito, cosicché si sapesse da chi reclamarle.
           </li>
           <li>
             A ciascun quartiermastro furono inoltre inviate dalla città 25 lance
@@ -190,19 +190,19 @@ export const OrdinanzaCarriNorimberga = () => (
           </li>
           <li>
             Inoltre, per ciascun carro che era a soldo fu ordinata una grande
-            botte; e durante la marcia, il conducente del carro doveva
-            riempirla d&apos;acqua e collocarla sul carro, poiché il vino era
-            molto costoso; inoltre, ciascun carro era dotato di una zappa e di
-            una pala.
+            botte; e durante la marcia, il conducente del carro doveva riempirla
+            d&apos;acqua e collocarla sul carro, poiché il vino era molto
+            costoso; inoltre, ciascun carro era dotato di una zappa e di una
+            pala.
           </li>
           <li>
             Questi stessi carri si radunavano al mercato e venivano comandati
             (non sappiamo da chi, il nome è mancante).
           </li>
           <li>
-            Inoltre, furono ordinate assi, e durante la marcia dovevano appendere
-            le assi ai carri, e chiunque non le appendesse non riceveva paga
-            per quella settimana.
+            Inoltre, furono ordinate assi, e durante la marcia dovevano
+            appendere le assi ai carri, e chiunque non le appendesse non
+            riceveva paga per quella settimana.
           </li>
         </ol>
       </Col>

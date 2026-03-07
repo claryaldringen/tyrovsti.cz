@@ -327,12 +327,12 @@ export const Calzature = () => (
         <h5>Ricostruzione</h5>
         <p>
           Per la ricostruzione sono stati scelti stivaletti con allacciatura a
-          laccio singolo, simili alle scarpe moderne, poiché il requisito era uno
-          stivale robusto che il proprietario potesse indossare con un&apos;armatura
-          a piastre per le gambe (cioè la parte dalla caviglia in su sarebbe
-          stata coperta dallo schiniere a piastre) e al contempo sostenere
-          lunghe marce. Questo tipo di stivale è ampiamente rappresentato nelle
-          raffigurazioni ceche d&apos;epoca, vedi sotto.
+          laccio singolo, simili alle scarpe moderne, poiché il requisito era
+          uno stivale robusto che il proprietario potesse indossare con
+          un&apos;armatura a piastre per le gambe (cioè la parte dalla caviglia
+          in su sarebbe stata coperta dallo schiniere a piastre) e al contempo
+          sostenere lunghe marce. Questo tipo di stivale è ampiamente
+          rappresentato nelle raffigurazioni ceche d&apos;epoca, vedi sotto.
         </p>
       </Col>
     </Row>
@@ -528,9 +528,9 @@ export const Calzature = () => (
         <h4>Chiusura a patta</h4>
         <p>
           È essenzialmente lo stesso principio della chiusura a sovrapposizione
-          descritta sopra, ma la patta non è parte integrante della scarpa; viene
-          piuttosto cucita in aggiunta. Questo tipo di chiusura si trova più
-          comunemente nelle calzature del XIV e XV secolo.
+          descritta sopra, ma la patta non è parte integrante della scarpa;
+          viene piuttosto cucita in aggiunta. Questo tipo di chiusura si trova
+          più comunemente nelle calzature del XIV e XV secolo.
         </p>
       </Col>
     </Row>
@@ -546,10 +546,11 @@ export const Calzature = () => (
       <Col>
         <h4>Scarpe con colletto</h4>
         <p>
-          Queste scarpe hanno un colletto di cuoio al posto della bordatura. Dopo
-          aver calzato la scarpa, il colletto viene ripiegato verso il basso, il
-          che chiude leggermente la scarpa intorno alla caviglia. Questo tipo di
-          scarpa era popolare a cavallo tra il XV e il XVI secolo.
+          Queste scarpe hanno un colletto di cuoio al posto della bordatura.
+          Dopo aver calzato la scarpa, il colletto viene ripiegato verso il
+          basso, il che chiude leggermente la scarpa intorno alla caviglia.
+          Questo tipo di scarpa era popolare a cavallo tra il XV e il XVI
+          secolo.
         </p>
       </Col>
     </Row>
@@ -617,9 +618,7 @@ export const Calzature = () => (
             {' '}
             Diversi tipi di calzature. Dal primo piano allo sfondo:
             <ul>
-              <li>
-                Stivali con chiusura a cinghia avvolta sopra le caviglie.
-              </li>
+              <li>Stivali con chiusura a cinghia avvolta sopra le caviglie.</li>
               <li>Scarpe con colletto ripiegabile.</li>
               <li>Calze con suola di cuoio.</li>
               <li>Stivali alti da equitazione con chiusura a risvolto.</li>

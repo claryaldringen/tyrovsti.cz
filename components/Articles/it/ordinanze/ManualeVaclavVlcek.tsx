@@ -27,19 +27,18 @@ export const ManualeVaclavVlcek = () => (
         <p>
           Václav Vlček di Čenov (1425? - 1501?) fu un mercenario boemo -
           condottiero. Prese parte a numerosi conflitti, come gli scontri tra
-          l&apos;imperatore Federico III d&apos;Asburgo e il fratello minore,
-          il duca Albrecht, e successivamente durante le lotte tra Jiří di
+          l&apos;imperatore Federico III d&apos;Asburgo e il fratello minore, il
+          duca Albrecht, e successivamente durante le lotte tra Jiří di
           Poděbrady e Mattia Corvino, e nel 1470 fu nominato hauptmann delle
           forze delle città di Žatec e Rakovník nella Boemia nord-occidentale.
-          Verso la fine degli anni Settanta possedeva il castello
-          sudboemo di Helfenburg e da lì proseguiva le sue incursioni
-          contro i sostenitori di Corvino. Nel 1490 redasse un&apos;ampia
-          opera sulla tattica militare, indirizzata all&apos;allora re di
-          Boemia, Vladislao II Jagellone. &ldquo;L&apos;istruzione per il re
-          Vladislao, su come disporre le formazioni di cavalleria, fanteria e
-          carri&rdquo; presenta varie tattiche, spesso volte ad affrontare
-          diversi tipi di nemici: i Tedeschi, gli Svizzeri, gli Ungheresi o i
-          Turchi.
+          Verso la fine degli anni Settanta possedeva il castello sudboemo di
+          Helfenburg e da lì proseguiva le sue incursioni contro i sostenitori
+          di Corvino. Nel 1490 redasse un&apos;ampia opera sulla tattica
+          militare, indirizzata all&apos;allora re di Boemia, Vladislao II
+          Jagellone. &ldquo;L&apos;istruzione per il re Vladislao, su come
+          disporre le formazioni di cavalleria, fanteria e carri&rdquo; presenta
+          varie tattiche, spesso volte ad affrontare diversi tipi di nemici: i
+          Tedeschi, gli Svizzeri, gli Ungheresi o i Turchi.
         </p>
         <p>&nbsp;</p>
       </Col>
@@ -349,8 +348,8 @@ export const ManualeVaclavVlcek = () => (
           Cento cavalieri devono essere disposti in questo modo: 20 cavalieri
           nell&apos;avanguardia, 30 nei rinforzi e 50 nel corpo principale
           dietro di essi. Ciascun corpo deve avere un anziano che lo conduca, e
-          in quella formazione di 50 cavalieri vi devono essere due tiratori
-          (a cavallo) su ciascun lato, due lancieri (a cavallo) in punta, tre
+          in quella formazione di 50 cavalieri vi devono essere due tiratori (a
+          cavallo) su ciascun lato, due lancieri (a cavallo) in punta, tre
           dietro di essi e poi procedano in file di quattro.
         </p>
         <p>
@@ -366,17 +365,17 @@ export const ManualeVaclavVlcek = () => (
           Trecento cavalieri devono essere disposti in questo modo: su un lato
           un distaccamento di 32 cavalieri, sull&apos;altro un distaccamento di
           42 cavalieri, e nel corpo principale 226 cavalieri. Su un lato tre in
-          punta, quattro dietro di essi, e poi cinque in fila. Ciascun corpo
-          sia condotto da uno, e nel corpo principale cinque in testa, sei
-          dietro di essi, e poi procedano in file di sette.
+          punta, quattro dietro di essi, e poi cinque in fila. Ciascun corpo sia
+          condotto da uno, e nel corpo principale cinque in testa, sei dietro di
+          essi, e poi procedano in file di sette.
         </p>
         <p>
           Quattrocento cavalieri devono essere disposti in questo modo: un
           gruppo di 50 cavalieri su un lato - 3 in punta, 4 dietro di essi, e
           poi in file di quattro. Nel secondo settore, cento cavalieri - cinque
           in punta, sei dietro di essi, e sei in fila. Nel corpo principale vi
-          siano 250 cavalieri - 5 in punta, 6 dietro di essi, e poi procedano
-          in file di otto.
+          siano 250 cavalieri - 5 in punta, 6 dietro di essi, e poi procedano in
+          file di otto.
         </p>
         <p>
           Cinquecento cavalieri devono essere disposti in questo modo: su
@@ -393,9 +392,9 @@ export const ManualeVaclavVlcek = () => (
         </p>
         <p>
           Settecento cavalieri devono essere disposti in questo modo: 125
-          cavalieri nei due settori estremi, 5 in punta, 6 dietro di essi, e
-          poi 7 in fila. 450 cavalieri nel corpo principale, 7 in punta, 9
-          dietro di essi, e poi procedano in formazione di 11 in fila.
+          cavalieri nei due settori estremi, 5 in punta, 6 dietro di essi, e poi
+          7 in fila. 450 cavalieri nel corpo principale, 7 in punta, 9 dietro di
+          essi, e poi procedano in formazione di 11 in fila.
         </p>
         <p>
           Ottocento cavalieri devono essere disposti in questo modo: due squadre
@@ -405,20 +404,19 @@ export const ManualeVaclavVlcek = () => (
         </p>
         <p>
           Novecento cavalieri devono essere disposti in questo modo: due squadre
-          sui lati di 150 cavalieri, 5 in prima fila, 6 dietro di essi, e poi
-          7 nelle file. Nel corpo principale 600, 9 in punta, 11 dietro di essi
-          e poi procedano in file di 14. Due conducano i corpi, e uno conduca
+          sui lati di 150 cavalieri, 5 in prima fila, 6 dietro di essi, e poi 7
+          nelle file. Nel corpo principale 600, 9 in punta, 11 dietro di essi e
+          poi procedano in file di 14. Due conducano i corpi, e uno conduca
           ciascuna squadra laterale.
         </p>
         <p>
           Mille cavalieri devono essere disposti in questo modo: 150 in un
           settore estremo e 200 nell&apos;altro settore estremo e 650 nel corpo
-          principale. In uno dei settori laterali 5 in punta, 6 dietro di essi
-          e poi procedano in file di 7. Nel secondo settore laterale - 7 in
-          punta e poi procedano in file di 9. 650 nel corpo principale, 10 in
-          punta, 11 dietro di essi, e poi procedano in file di 14. Due
-          conducano il corpo principale, e uno conduca ciascuna delle squadre
-          laterali.
+          principale. In uno dei settori laterali 5 in punta, 6 dietro di essi e
+          poi procedano in file di 7. Nel secondo settore laterale - 7 in punta
+          e poi procedano in file di 9. 650 nel corpo principale, 10 in punta,
+          11 dietro di essi, e poi procedano in file di 14. Due conducano il
+          corpo principale, e uno conduca ciascuna delle squadre laterali.
         </p>
         <p>
           Millecinquecento cavalieri devono essere disposti in questo modo: due
@@ -429,10 +427,10 @@ export const ManualeVaclavVlcek = () => (
         </p>
         <p>
           Duemila cavalieri devono essere disposti in questo modo: due squadre
-          di 400 cavalieri su ciascun lato, 7 in punta, 8 dietro di essi, e
-          poi procedano in file di 9. Nel corpo principale 1200 cavalieri, 14
-          in punta e 16 in fila dietro di essi. Due conducano il corpo
-          principale, e uno conduca ciascuna delle squadre laterali.
+          di 400 cavalieri su ciascun lato, 7 in punta, 8 dietro di essi, e poi
+          procedano in file di 9. Nel corpo principale 1200 cavalieri, 14 in
+          punta e 16 in fila dietro di essi. Due conducano il corpo principale,
+          e uno conduca ciascuna delle squadre laterali.
         </p>
         <p>
           Tremila cavalieri devono essere disposti in questo modo: due squadre
@@ -444,14 +442,14 @@ export const ManualeVaclavVlcek = () => (
           Quattromila cavalieri devono essere disposti in questo modo: 700 nelle
           due squadre su ciascun lato del corpo principale, 9 in punta, 10
           dietro di essi, e poi procedano in file di 12. Nel corpo principale
-          2600 cavalieri, 20 in punta, 23 dietro di essi, e poi in formazione
-          in file di 25.
+          2600 cavalieri, 20 in punta, 23 dietro di essi, e poi in formazione in
+          file di 25.
         </p>
         <p>
           Cinquemila cavalieri devono essere disposti in questo modo: mille in
-          ciascuna delle due squadre - su ciascun lato. 9 in punta, 11 dietro
-          di essi, e poi in file di 15. Nel corpo principale 3000 cavalieri, 25
-          in punta, 27 dietro di essi, e poi in formazione in file di 28.
+          ciascuna delle due squadre - su ciascun lato. 9 in punta, 11 dietro di
+          essi, e poi in file di 15. Nel corpo principale 3000 cavalieri, 25 in
+          punta, 27 dietro di essi, e poi in formazione in file di 28.
         </p>
         <p>
           Seimila cavalieri devono essere disposti in questo modo: 1200 nelle
@@ -462,13 +460,12 @@ export const ManualeVaclavVlcek = () => (
         </p>
         <p>
           Settemila cavalieri devono essere disposti in questo modo: 1500 in
-          ciascuna delle squadre sui lati, 11 in punta, 15 dietro di essi, e
-          poi procedano in file di 18. 3000 nel corpo principale (nota del
-          trascrittore - probabilmente un errore nella trascrizione - il
-          numero corretto dovrebbe verosimilmente essere 4000), 35 in prima
-          fila, 37 dietro di essi, e poi procedano nelle file di 39. Tre
-          conducano il corpo principale, e due conducano ciascuna delle squadre
-          laterali.
+          ciascuna delle squadre sui lati, 11 in punta, 15 dietro di essi, e poi
+          procedano in file di 18. 3000 nel corpo principale (nota del
+          trascrittore - probabilmente un errore nella trascrizione - il numero
+          corretto dovrebbe verosimilmente essere 4000), 35 in prima fila, 37
+          dietro di essi, e poi procedano nelle file di 39. Tre conducano il
+          corpo principale, e due conducano ciascuna delle squadre laterali.
         </p>
         <p>
           Ottomila cavalieri devono essere disposti in questo modo: 1500 in
@@ -485,15 +482,15 @@ export const ManualeVaclavVlcek = () => (
           tra di essi collocate gli archibugieri. E questi tre corpi dovranno
           stare pronti nello spazio aperto presso i carri, e non inviateli
           lontano dai carri, salvo che la necessità lo imponga. Uno di questi
-          corpi si trovi davanti ai carri sulle ali, un altro dietro sulle ali
-          e il più grande nello spazio aperto tra i carri. Il resto della
-          fanteria si trovi nei carri laterali su entrambi i lati
-          dell&apos;esercito, e su ciascun carro laterale vi siano due archibugi
-          a gancio. E davanti all&apos;ala vi siano almeno 10 obici e 10
-          cannoni più piccoli, e dietro l&apos;esercito parimenti; e sui fianchi
-          dell&apos;esercito, all&apos;esterno, diversi obici, che dovranno
-          essere trasportati soprattutto dove siano necessari, e in particolar
-          modo contro i Turchi. E così un esercito deve essere schierato.
+          corpi si trovi davanti ai carri sulle ali, un altro dietro sulle ali e
+          il più grande nello spazio aperto tra i carri. Il resto della fanteria
+          si trovi nei carri laterali su entrambi i lati dell&apos;esercito, e
+          su ciascun carro laterale vi siano due archibugi a gancio. E davanti
+          all&apos;ala vi siano almeno 10 obici e 10 cannoni più piccoli, e
+          dietro l&apos;esercito parimenti; e sui fianchi dell&apos;esercito,
+          all&apos;esterno, diversi obici, che dovranno essere trasportati
+          soprattutto dove siano necessari, e in particolar modo contro i
+          Turchi. E così un esercito deve essere schierato.
         </p>
         <p>
           Caro re! Queste disposizioni di formazione sono da usarsi contro i
@@ -509,13 +506,12 @@ export const ManualeVaclavVlcek = () => (
           ritirata. E comandate loro di ascoltare attentamente, e se odono il
           corno, che attacchino vigorosamente, e se odono i tamburi, che si
           fermino e non inseguano oltre il nemico. E dietro di essi, avanzate
-          con i carri e anche con gli altri corpi, e Dio conceda che
-          prevarrete anche contro i nemici più numerosi. Se doveste combattere
-          senza i carri, allora attaccateli, e con l&apos;aiuto di Dio,
-          disponete il vostro esercito come qui sta scritto. E per la
-          battaglia usate il motto: &rdquo;Dio con noi! E San
-          Michele!&rdquo; E vedrete, Dio conceda, che nulla resisterà davanti
-          a voi.
+          con i carri e anche con gli altri corpi, e Dio conceda che prevarrete
+          anche contro i nemici più numerosi. Se doveste combattere senza i
+          carri, allora attaccateli, e con l&apos;aiuto di Dio, disponete il
+          vostro esercito come qui sta scritto. E per la battaglia usate il
+          motto: &rdquo;Dio con noi! E San Michele!&rdquo; E vedrete, Dio
+          conceda, che nulla resisterà davanti a voi.
         </p>
         <p>
           Nel corpo principale, dove vi sono ottomila cavalieri, ponete lo
@@ -538,8 +534,8 @@ export const ManualeVaclavVlcek = () => (
           sguainate, e un&apos;altra nella fila dove si trova lo stendardo. Se
           desidera avere il proprio corpo, cinquanta o cento cavalieri dovranno
           custodirlo. Anche così si può fare. E poi in due ulteriori squadre
-          davanti al corpo reale vi devono essere due file di uomini con spade
-          e mazze sguainate, e presso lo stendardo. E la fanteria da entrambi i
+          davanti al corpo reale vi devono essere due file di uomini con spade e
+          mazze sguainate, e presso lo stendardo. E la fanteria da entrambi i
           lati, come è stato scritto. E se la battaglia è imminente, i tiratori,
           che cavalcano davanti agli scudieri, dovranno trovarsi su entrambi i
           lati della punta, e sparare al nemico prima che gli eserciti si
@@ -547,18 +543,18 @@ export const ManualeVaclavVlcek = () => (
           feriti scompaginino le loro file. E se i nostri ranghi avanzati
           vengono respinti, o si disperdono, cosa che Dio non consenta, dovrà
           essere loro ordinato di non arretrare oltre il corpo principale, e lì
-          fermarsi infine, e accanto al corpo principale agire come si addice
-          a uomini valorosi. E questo dovrà essere detto a ciascun corpo. E
-          presso ciascun corpo principale vi dovranno essere in retroguardia,
-          nelle squadre laterali, due file di lancieri e tre file di tiratori
-          esperti. Così, Dio conceda, i vostri corpi saranno ben protetti.
+          fermarsi infine, e accanto al corpo principale agire come si addice a
+          uomini valorosi. E questo dovrà essere detto a ciascun corpo. E presso
+          ciascun corpo principale vi dovranno essere in retroguardia, nelle
+          squadre laterali, due file di lancieri e tre file di tiratori esperti.
+          Così, Dio conceda, i vostri corpi saranno ben protetti.
         </p>
         <p>
-          Caro re! Ora vi invio questo scritto sulle formazioni dell&apos;esercito.
-          Dio conceda che sia ad onore di Vostra Maestà e dell&apos;intera
-          Corona Boema. Come dovete organizzare i vostri armigeri, anche se ne
-          aveste mille, due, tre, o cavalieri cento, duecento, tutto troverete
-          qui, da cento a mille, da mille a 40 mila.
+          Caro re! Ora vi invio questo scritto sulle formazioni
+          dell&apos;esercito. Dio conceda che sia ad onore di Vostra Maestà e
+          dell&apos;intera Corona Boema. Come dovete organizzare i vostri
+          armigeri, anche se ne aveste mille, due, tre, o cavalieri cento,
+          duecento, tutto troverete qui, da cento a mille, da mille a 40 mila.
         </p>
         <p>
           Caro re! Se i nemici marceranno contro di voi, e gli eserciti si
@@ -566,14 +562,14 @@ export const ManualeVaclavVlcek = () => (
           conceda, li ingannerete: cercate sempre una posizione migliore, una
           collina o almeno un pendio, cosicché possiate disporre il vostro
           esercito con i carri laterali sulla cima e poi il resto
-          dell&apos;esercito in discesa. Se marciano contro di voi, nutriteli
-          a dovere con i vostri cannoni. Così potrete colpirli, ma essi non
+          dell&apos;esercito in discesa. Se marciano contro di voi, nutriteli a
+          dovere con i vostri cannoni. Così potrete colpirli, ma essi non
           potranno colpire voi. E lo stesso in una valle pianeggiante. Se sono
-          più numerosi e vogliono girarvi intorno, potete marciare con il
-          vostro esercito attorno alla collina, come la prima volta, solo
-          sull&apos;altro versante, con i carri laterali nuovamente in cima.
-          Di nuovo, potrete colpirli, ma essi non potranno colpire voi. Fate
-          questo quante volte sia necessario.
+          più numerosi e vogliono girarvi intorno, potete marciare con il vostro
+          esercito attorno alla collina, come la prima volta, solo
+          sull&apos;altro versante, con i carri laterali nuovamente in cima. Di
+          nuovo, potrete colpirli, ma essi non potranno colpire voi. Fate questo
+          quante volte sia necessario.
         </p>
         <p>
           Caro re! Questo è il secondo espediente: se vedete che una gran parte
@@ -588,46 +584,46 @@ export const ManualeVaclavVlcek = () => (
           Caro re! Ancora un espediente vantaggioso, il terzo: se marciano
           contro di voi in più corpi, per cercarvi, per scaramucciare, o per
           sorvegliarvi, disponetevi il più segretamente possibile dietro una
-          collina vicino al campo di battaglia. Se sono mille, inviate contro
-          di loro cento o duecento cavalieri. Non fuggiranno davanti a voi,
-          poiché non vi temeranno. Così i vostri cavalieri si fermeranno
-          davanti a loro, piuttosto vicini, come se volessero parlamentare con
-          essi. Se caricano contro i vostri cavalieri, questi li condurranno
-          verso il vostro esercito. Se non caricano, inviate rapidamente un
-          corpo dopo l&apos;altro in aiuto ai vostri. Così quando i nemici
-          vedranno che state rapidamente marciando con i vostri corpi in aiuto
-          della vostra squadra, vorranno fuggire e si volteranno per tornare a
-          casa. E in quel momento, la vostra squadra li attaccherà alle spalle,
-          nel frattempo arriverete con i vostri rinforzi. E, Dio conceda, li
+          collina vicino al campo di battaglia. Se sono mille, inviate contro di
+          loro cento o duecento cavalieri. Non fuggiranno davanti a voi, poiché
+          non vi temeranno. Così i vostri cavalieri si fermeranno davanti a
+          loro, piuttosto vicini, come se volessero parlamentare con essi. Se
+          caricano contro i vostri cavalieri, questi li condurranno verso il
+          vostro esercito. Se non caricano, inviate rapidamente un corpo dopo
+          l&apos;altro in aiuto ai vostri. Così quando i nemici vedranno che
+          state rapidamente marciando con i vostri corpi in aiuto della vostra
+          squadra, vorranno fuggire e si volteranno per tornare a casa. E in
+          quel momento, la vostra squadra li attaccherà alle spalle, nel
+          frattempo arriverete con i vostri rinforzi. E, Dio conceda, li
           disperderete e sconfiggerete.
         </p>
         <p>
           E così ponete a ciascun corpo piccolo o squadra uno che comandi il
           corpo, e a ciascun grande corpo ponetene due. E dovranno essere
           coraggiosi, per stare in prima fila del corpo e scontrarsi
-          valorosamente con il nemico. Se i capi delle schiere non sono adatti
-          a ciò, scegliete qualcun altro dagli altri corpi. Riguardo
+          valorosamente con il nemico. Se i capi delle schiere non sono adatti a
+          ciò, scegliete qualcun altro dagli altri corpi. Riguardo
           all&apos;organizzazione dei carri, dovrete averne molti, e colui che
-          li ha costruiti dovrà organizzarli, ma è l&apos;hauptmann che
-          comanda dove posizionarli in postazioni vantaggiose contro i nemici,
-          cosicché abbiano sempre qualche vantaggio. Se un esercito è disposto
-          contro un altro, dovrete prestare attenzione a colline e pendii,
-          cosicché possiate colpire i vostri nemici con i cannoni ed essi non
-          possano colpire voi. Se vi sono valli nelle pianure, è anche un bene,
-          cosicché non possano vedere l&apos;intero esercito, né attaccarlo. Ma
-          curate sempre di avere una fila di carri sul crinale sopra quella
-          valle, sia in piano che in cima; cosicché non possano avvicinarsi a
-          voi in sicurezza, poiché potrete colpirli, ma essi non potranno
-          colpire voi. Se sono più numerosi e vogliono disporsi contro di voi
-          dal basso, nutriteli con i cannoni e potete poi disporvi dietro la
-          cima, cosicché di nuovo non potranno colpirvi, ma voi potrete colpire
-          loro. Ma curate sempre che vi sia una fila di carri in cima, e quante
-          volte sia necessario, e il resto dietro la collina. La fanteria si
-          trovi attorno ai carri laterali, e altri fanti alle porte, e altri
-          corpi, cavalleria e fanteria, nello spazio aperto presso il re, e da
-          quel luogo rinforzino la difesa, ove necessario. E se avete 600
-          carri, e a ciascun carro 16 uomini, saranno 9.600 uomini. Se avete
-          il doppio dei carri, saranno 19.200 uomini.
+          li ha costruiti dovrà organizzarli, ma è l&apos;hauptmann che comanda
+          dove posizionarli in postazioni vantaggiose contro i nemici, cosicché
+          abbiano sempre qualche vantaggio. Se un esercito è disposto contro un
+          altro, dovrete prestare attenzione a colline e pendii, cosicché
+          possiate colpire i vostri nemici con i cannoni ed essi non possano
+          colpire voi. Se vi sono valli nelle pianure, è anche un bene, cosicché
+          non possano vedere l&apos;intero esercito, né attaccarlo. Ma curate
+          sempre di avere una fila di carri sul crinale sopra quella valle, sia
+          in piano che in cima; cosicché non possano avvicinarsi a voi in
+          sicurezza, poiché potrete colpirli, ma essi non potranno colpire voi.
+          Se sono più numerosi e vogliono disporsi contro di voi dal basso,
+          nutriteli con i cannoni e potete poi disporvi dietro la cima, cosicché
+          di nuovo non potranno colpirvi, ma voi potrete colpire loro. Ma curate
+          sempre che vi sia una fila di carri in cima, e quante volte sia
+          necessario, e il resto dietro la collina. La fanteria si trovi attorno
+          ai carri laterali, e altri fanti alle porte, e altri corpi, cavalleria
+          e fanteria, nello spazio aperto presso il re, e da quel luogo
+          rinforzino la difesa, ove necessario. E se avete 600 carri, e a
+          ciascun carro 16 uomini, saranno 9.600 uomini. Se avete il doppio dei
+          carri, saranno 19.200 uomini.
         </p>
         <p>
           A ciascuna fila di carri, date qualcuno di ragionevole, che li guidi
@@ -642,32 +638,32 @@ export const ManualeVaclavVlcek = () => (
           da ciascuna fila si prendano da 5 a 10 uomini, e se il terreno è
           peggiore, anche di più, con pale, asce e zappe, cosicché facciano
           subito le strade e i carri non subiscano ritardi. E uno dovrà essere
-          pronto a comandarli ogni giorno, e dovrà ricordare, o annotare, chi
-          è stato selezionato per questi lavori ogni giorno, cosicché il giorno
-          dopo possa comandare altri, e così questo lavoro sia diviso
-          equamente. Per la campagna, dividete tutta la fanteria e la
-          cavalleria, che non appartiene ai carri laterali, in tre gruppi. Il
-          primo proceda un giorno avanti, il secondo il secondo giorno e il
-          terzo il terzo giorno. E così sia sempre, salvo che i nemici siano
-          vicini, nel qual caso marchiate come se vi disponeste per la
-          battaglia, come sta scritto sopra. E abbiate i cannoni fuori dai
-          carri laterali, in caso siano necessari. Da entrambi i lati
-          dell&apos;esercito abbiate diversi obici e alcuni cavalli per essi,
-          cosicché i cannoni possano essere spostati e posizionati dove
-          necessario. E sui carri laterali vi siano due archibugi a gancio per
-          ciascun carro, cosicché i nemici non possano avvicinarsi.
+          pronto a comandarli ogni giorno, e dovrà ricordare, o annotare, chi è
+          stato selezionato per questi lavori ogni giorno, cosicché il giorno
+          dopo possa comandare altri, e così questo lavoro sia diviso equamente.
+          Per la campagna, dividete tutta la fanteria e la cavalleria, che non
+          appartiene ai carri laterali, in tre gruppi. Il primo proceda un
+          giorno avanti, il secondo il secondo giorno e il terzo il terzo
+          giorno. E così sia sempre, salvo che i nemici siano vicini, nel qual
+          caso marchiate come se vi disponeste per la battaglia, come sta
+          scritto sopra. E abbiate i cannoni fuori dai carri laterali, in caso
+          siano necessari. Da entrambi i lati dell&apos;esercito abbiate diversi
+          obici e alcuni cavalli per essi, cosicché i cannoni possano essere
+          spostati e posizionati dove necessario. E sui carri laterali vi siano
+          due archibugi a gancio per ciascun carro, cosicché i nemici non
+          possano avvicinarsi.
         </p>
         <p>
           I corpi di cavalleria cavalchino nello spazio aperto, come quando
-          messi in formazione, e alcuni dei corpi liberi marchino all&apos;interno
-          accanto ai carri, cosicché possano essere fatti uscire dai lati e
-          rientrare se necessario.
+          messi in formazione, e alcuni dei corpi liberi marchino
+          all&apos;interno accanto ai carri, cosicché possano essere fatti
+          uscire dai lati e rientrare se necessario.
         </p>
         <p>
           Se avete abbastanza fanteria, e state marciando alla battaglia senza
           carri, fiancheggiate con essa il corpo principale e il corpo davanti
-          al corpo principale, ma non gli altri corpi, e marchino come
-          comandato in avanti.
+          al corpo principale, ma non gli altri corpi, e marchino come comandato
+          in avanti.
         </p>
         <p>
           Quando un grande esercito è in marcia, lasciate 200 cavalieri in
@@ -682,13 +678,12 @@ export const ManualeVaclavVlcek = () => (
           loro file di fanteria, lasciateli stare - non faranno male a nessuno,
           restando fermi in un posto. Attaccate sempre prima i cavalieri, se
           siete più forti, e vedrete, li separerete dalla fanteria, e Dio
-          conceda, li abbatterete. E poi puntate i vostri cannoni sulla
-          fanteria e trattateli come vi aggrada. E se vi attendono nelle
-          trincee, disponete il vostro esercito accanto a loro - non troppo
-          vicino, cosicché i loro cannoni non vi danneggino. E se vanno a
-          saccheggiare, o se si muovono da quel luogo, attaccateli, e Dio
-          conceda, andrà bene e vincerete e li disperderete. Amen, come Dio
-          concederà, così avverrà.
+          conceda, li abbatterete. E poi puntate i vostri cannoni sulla fanteria
+          e trattateli come vi aggrada. E se vi attendono nelle trincee,
+          disponete il vostro esercito accanto a loro - non troppo vicino,
+          cosicché i loro cannoni non vi danneggino. E se vanno a saccheggiare,
+          o se si muovono da quel luogo, attaccateli, e Dio conceda, andrà bene
+          e vincerete e li disperderete. Amen, come Dio concederà, così avverrà.
         </p>
         <p>
           E se andrete in battaglia, inginocchiatevi e pregate il nostro buon
@@ -788,28 +783,28 @@ export const ManualeVaclavVlcek = () => (
           Se dovete schierare cento fanti, ponete innanzitutto sei pavesari sui
           lati, insieme a tiratori di archibugi o balestre. Poi ponete tre
           pavesari in punta e tre alabardieri dietro di essi. Dietro di loro vi
-          sono sette pavesari, a una distanza come attraverso una stanza.
-          Dietro di essi, ancora una volta, gli alabardieri, e dietro di essi
-          le lunghe aste su cui solitamente si portano gli stendardi, dovranno
-          essere inclinate sopra i pavesi cosicché i cavalieri non li
-          raggiungano indenni. Con la stessa formula, formate anche trecento o
-          quattrocento fanti. 500 fanti nella stessa maniera: ponete 20 fanti
-          con archibugi o balestre sui loro lati, 10 pavesi davanti al corpo
-          principale e 10 alabardieri dietro di essi, e 15 pavesari dietro di
-          quelli a una distanza di una stanza e lo stesso numero di alabardieri
-          o lancieri dietro di essi, e lasciate che le aste portastendardo
-          senza stendardi siano piegate sopra i pavesi e fermamente piantate
-          nel terreno, cosicché possano respingere gli attacchi della
-          cavalleria. Ma non lasciate che avanzino a combattere con la
-          cavalleria, bensì che stiano fermi cosicché la cavalleria si
-          infranga contro di essi. E quando la cavalleria non potrà più
-          sfondare, solo allora caricate contro di essa in formazione cosicché
-          i cavalieri fuggano. E lasciate che il resto dei pavesari si copra
-          dai fianchi come meglio possono. E quando i cavalieri sono in fuga e
-          non possono più minacciarli, solo allora lasciateli inseguire. E quei
-          tiratori che si troveranno dietro i pavesari, sparino ai cavalli dei
-          cavalieri prima e dopo lo scontro. E quando vi sono più fanti,
-          ponetene di più sui lati nella stessa maniera sopra descritta.
+          sono sette pavesari, a una distanza come attraverso una stanza. Dietro
+          di essi, ancora una volta, gli alabardieri, e dietro di essi le lunghe
+          aste su cui solitamente si portano gli stendardi, dovranno essere
+          inclinate sopra i pavesi cosicché i cavalieri non li raggiungano
+          indenni. Con la stessa formula, formate anche trecento o quattrocento
+          fanti. 500 fanti nella stessa maniera: ponete 20 fanti con archibugi o
+          balestre sui loro lati, 10 pavesi davanti al corpo principale e 10
+          alabardieri dietro di essi, e 15 pavesari dietro di quelli a una
+          distanza di una stanza e lo stesso numero di alabardieri o lancieri
+          dietro di essi, e lasciate che le aste portastendardo senza stendardi
+          siano piegate sopra i pavesi e fermamente piantate nel terreno,
+          cosicché possano respingere gli attacchi della cavalleria. Ma non
+          lasciate che avanzino a combattere con la cavalleria, bensì che stiano
+          fermi cosicché la cavalleria si infranga contro di essi. E quando la
+          cavalleria non potrà più sfondare, solo allora caricate contro di essa
+          in formazione cosicché i cavalieri fuggano. E lasciate che il resto
+          dei pavesari si copra dai fianchi come meglio possono. E quando i
+          cavalieri sono in fuga e non possono più minacciarli, solo allora
+          lasciateli inseguire. E quei tiratori che si troveranno dietro i
+          pavesari, sparino ai cavalli dei cavalieri prima e dopo lo scontro. E
+          quando vi sono più fanti, ponetene di più sui lati nella stessa
+          maniera sopra descritta.
         </p>
         <p>
           Se avete fanteria con cavalleria, allora disponetela da ciascun lato
@@ -817,13 +812,13 @@ export const ManualeVaclavVlcek = () => (
           centro della cavalleria cosicché abbiano un&apos;unità di cavalleria
           su ciascun lato e si trovino essi stessi al centro. E davanti a essi
           due file di tiratori a cavallo, quelli che devono trovarsi sui lati
-          dei cavalieri per essere coperti dalla fanteria. E quando lo scontro
-          è imminente, lasciate che i cavalieri si raccolgano davanti alla
+          dei cavalieri per essere coperti dalla fanteria. E quando lo scontro è
+          imminente, lasciate che i cavalieri si raccolgano davanti alla
           fanteria e sparino al nemico. La fanteria sarà così scoperta. E così
           la cavalleria e la fanteria si fermeranno e quando sembra che vi sarà
-          uno scontro, lasciate che la fanteria avanzi davanti alla cavalleria
-          e colpisca i nemici e spari contro di essi. E quei tiratori montati
-          da entrambi i lati dovranno anch&apos;essi avanzare contro il nemico
+          uno scontro, lasciate che la fanteria avanzi davanti alla cavalleria e
+          colpisca i nemici e spari contro di essi. E quei tiratori montati da
+          entrambi i lati dovranno anch&apos;essi avanzare contro il nemico
           poiché scompagineranno le loro file di fanteria e in quel momento
           siano attaccati dalla cavalleria pesante da entrambi i lati.
         </p>
@@ -857,16 +852,15 @@ export const ManualeVaclavVlcek = () => (
           con Dio ad attaccare non appena il muro crolli, cosicché i difensori
           non possano barricarsi nella città e così, Dio volendo, li
           conquisterete prima che organizzino la difesa. Ma se vi limitaste a
-          sparare con i cannoni senza attaccare subito, si sarebbero
-          barricati durante la notte, e avrebbero forse reso quelle barricate
-          ancora più forti del muro originale. E lasciate sempre alcune truppe
-          sul campo di battaglia presso i carri, e altre sopra le unità
-          d&apos;assalto, nel caso i nemici facciano una sortita dalla città,
-          a piedi o a cavallo, sia contro le unità d&apos;assalto che contro
-          i carri, cosicché possano impedirlo. E se, Dio volendo, organizzerete
-          così il vostro assalto, vedrete, Dio conceda, che conquisterete tutto
-          e che nulla resisterà davanti a voi. E così, se Dio vuole, avverrà.
-          Amen.
+          sparare con i cannoni senza attaccare subito, si sarebbero barricati
+          durante la notte, e avrebbero forse reso quelle barricate ancora più
+          forti del muro originale. E lasciate sempre alcune truppe sul campo di
+          battaglia presso i carri, e altre sopra le unità d&apos;assalto, nel
+          caso i nemici facciano una sortita dalla città, a piedi o a cavallo,
+          sia contro le unità d&apos;assalto che contro i carri, cosicché
+          possano impedirlo. E se, Dio volendo, organizzerete così il vostro
+          assalto, vedrete, Dio conceda, che conquisterete tutto e che nulla
+          resisterà davanti a voi. E così, se Dio vuole, avverrà. Amen.
         </p>
       </Col>
     </Row>
@@ -994,11 +988,11 @@ export const ManualeVaclavVlcek = () => (
         </p>
         <p>
           Otto stendardi vistosi e distinti, preferibilmente neri e bianchi,
-          sono destinati a questo scopo. Uno stendardo dovrà essere sul carro
-          di testa alla mano destra e l&apos;altro stendardo dovrà essere
-          parimenti sul carro di testa alla mano sinistra. E questo affinché
-          colui che conduce le file, sia alla mano sinistra che destra, guardi
-          lo stendardo dell&apos;altro cosicché lo spazio tra i carri non si
+          sono destinati a questo scopo. Uno stendardo dovrà essere sul carro di
+          testa alla mano destra e l&apos;altro stendardo dovrà essere parimenti
+          sul carro di testa alla mano sinistra. E questo affinché colui che
+          conduce le file, sia alla mano sinistra che destra, guardi lo
+          stendardo dell&apos;altro cosicché lo spazio tra i carri non si
           restringa e le persone non vengano spinte fuori dalle file e anche per
           la chiusura dei carri, cosicché si guardino l&apos;un l&apos;altro e
           chiudano i carri drittamente.
@@ -1008,15 +1002,15 @@ export const ManualeVaclavVlcek = () => (
           sarà allestita una piazza per i cavalli, uno su ciascuna fila
           laterale, cosicché le truppe possano ritrovare la via verso i propri
           carri quando i nemici siano già fuggiti. Questo — dove ciascuno
-          appartiene — è ciò che dovrà essere comunicato alle truppe prima
-          della battaglia.
+          appartiene — è ciò che dovrà essere comunicato alle truppe prima della
+          battaglia.
         </p>
         <p>
-          Di nuovo altri due stendardi devono essere sulla fila più lontana,
-          uno alla mano destra e l&apos;altro sulla fila più lontana alla mano
-          sinistra e sull&apos;ultimo carro in fondo, e questo per vedere
-          quale carro posteriore chiudere e per vedere quale fila muovere per
-          chiudere il retro drittamente.
+          Di nuovo altri due stendardi devono essere sulla fila più lontana, uno
+          alla mano destra e l&apos;altro sulla fila più lontana alla mano
+          sinistra e sull&apos;ultimo carro in fondo, e questo per vedere quale
+          carro posteriore chiudere e per vedere quale fila muovere per chiudere
+          il retro drittamente.
         </p>
         <p>
           I rimanenti due stendardi devono essere sui carri laterali, che
@@ -1035,20 +1029,20 @@ export const ManualeVaclavVlcek = () => (
           comandi di colmare i varchi.
         </p>
         <p>
-          Ciò che sarà alla mano destra lo sarà anche alla sinistra: su
-          ciascuna fila laterale vi dovrà essere una copertura con un sostegno
-          e un foro (&quot;taras s berlú a ďerů&quot;), e sotto ciascun carro
-          dovrà pendere un&apos;asse, cosicché le persone e i cavalli non
-          possano essere feriti. Due archibugi portatili, due libbre di polvere,
-          una sessantina (&quot;kopa&quot;/&quot;schock&quot;=60 pezzi) di
-          proiettili e due sessantine di frecce, due correggiati forgiati e
-          due lance con gancio dovranno essere assegnati a ciascun carro.
+          Ciò che sarà alla mano destra lo sarà anche alla sinistra: su ciascuna
+          fila laterale vi dovrà essere una copertura con un sostegno e un foro
+          (&quot;taras s berlú a ďerů&quot;), e sotto ciascun carro dovrà
+          pendere un&apos;asse, cosicché le persone e i cavalli non possano
+          essere feriti. Due archibugi portatili, due libbre di polvere, una
+          sessantina (&quot;kopa&quot;/&quot;schock&quot;=60 pezzi) di
+          proiettili e due sessantine di frecce, due correggiati forgiati e due
+          lance con gancio dovranno essere assegnati a ciascun carro.
         </p>
         <p>
           A ciascun carro, la mangiatoia dalla quale i cavalli vengono
-          alimentati, dovrà essere legata per il lungo e riempita di pietre,
-          nel caso essi (i nemici) si aggrappino ai carri cosicché possiate
-          gettarle al di là dei carri.
+          alimentati, dovrà essere legata per il lungo e riempita di pietre, nel
+          caso essi (i nemici) si aggrappino ai carri cosicché possiate gettarle
+          al di là dei carri.
         </p>
         <p>
           Ai carri di testa, ponete almeno dieci obici, più ve ne sono e meglio
@@ -1056,21 +1050,20 @@ export const ManualeVaclavVlcek = () => (
           è.
         </p>
         <p>
-          Su ciascun lato nelle file laterali dei carri, quattro obici. Questo
-          è il numero giusto.
+          Su ciascun lato nelle file laterali dei carri, quattro obici. Questo è
+          il numero giusto.
         </p>
         <p>
-          Davanti a ciascuna fila di carri, e non importa quante ve ne siano,
-          vi dovranno essere venti fanti con zappe, pale e asce per sistemare e
+          Davanti a ciascuna fila di carri, e non importa quante ve ne siano, vi
+          dovranno essere venti fanti con zappe, pale e asce per sistemare e
           livellare i sentieri.
         </p>
         <p>
           Poi gli uomini dovranno essere armati per questi carri come segue:
-          tutti i cavalieri dovranno smontare, togliersi gli speroni, i
-          calzari, e vestirsi (in armatura) leggermente. E i loro cavalli
-          dovranno essere condotti sulla piazza al centro dei carri, presso gli
-          stendardi sopra menzionati, e qui dovranno essere tenuti dai
-          disarmati e dai giovani.
+          tutti i cavalieri dovranno smontare, togliersi gli speroni, i calzari,
+          e vestirsi (in armatura) leggermente. E i loro cavalli dovranno essere
+          condotti sulla piazza al centro dei carri, presso gli stendardi sopra
+          menzionati, e qui dovranno essere tenuti dai disarmati e dai giovani.
         </p>
         <p>
           Ecco come gli uomini armati dovranno essere ripartiti nei carri: lo
@@ -1097,14 +1090,14 @@ export const ManualeVaclavVlcek = () => (
           sottovento, e questo perché il rumore, le grida e il fumo degli
           archibugi e dei cannoni, tutto andrà su di loro, e così il timore
           verrà su di essi. E curate inoltre di avere dirupi, paludi o fossati
-          artificiali su un lato. Se dovessero evitare lo scontro, disponetevi
-          a un quarto o mezzo miglio da essi, cosicché possiate comandare e
-          manovrare in segreto, e comandate a ciascun uomo di accendere il
-          fuoco più grande possibile presso il proprio carro. Procedete verso
-          di essi con i reparti e inviate per prima una forte guardia a cavallo
-          cosicché non possano vedere se state portando i carri con voi. Così
-          anche se si trovassero a superarvi in numero di venti a uno, non
-          sapranno cosa fare.
+          artificiali su un lato. Se dovessero evitare lo scontro, disponetevi a
+          un quarto o mezzo miglio da essi, cosicché possiate comandare e
+          manovrare in segreto, e comandate a ciascun uomo di accendere il fuoco
+          più grande possibile presso il proprio carro. Procedete verso di essi
+          con i reparti e inviate per prima una forte guardia a cavallo cosicché
+          non possano vedere se state portando i carri con voi. Così anche se si
+          trovassero a superarvi in numero di venti a uno, non sapranno cosa
+          fare.
         </p>
       </Col>
     </Row>

@@ -63,26 +63,25 @@ export const JobstDiEinsiedl = () => (
           soluzione di continuità al servizio dell&apos;arcivescovo di Colonia,
           Dietrich II, nella faida di Soest. Poiché Petr Holický di Šternberk
           era il comandante in capo dell&apos;intero corpo boemo, si presume che
-          Jobst abbia partecipato all&apos;intera campagna di Soest come
-          braccio destro di Petr.
+          Jobst abbia partecipato all&apos;intera campagna di Soest come braccio
+          destro di Petr.
         </p>
         <p>
           Il successivo importante coinvolgimento di Jobst avvenne nel 1450,
           quando Giorgio di Poděbrady, dopo aver sconfitto l&apos;Unione di
-          Strakonice nella battaglia di Mýto il{' '}
-          <b>4 giugno 1450</b>
+          Strakonice nella battaglia di Mýto il <b>4 giugno 1450</b>
           <Qt
             publication={PUBLICATIONS.MACEK}
             href="https://www.vhu.cz/exhibit/macek-josef-jiri-z-podebrad/"
           />{' '}
           condusse la sua campagna contro i loro alleati, in particolare il duca
-          Federico di Sassonia, con la conseguente conquista della città di Gera.
-          Il giorno seguente, il <b>23 ottobre 1450</b> (alcune fonti indicano
-          il <b>16 ottobre 1450</b>), fu conclusa una tregua. Jobst von
+          Federico di Sassonia, con la conseguente conquista della città di
+          Gera. Il giorno seguente, il <b>23 ottobre 1450</b> (alcune fonti
+          indicano il <b>16 ottobre 1450</b>), fu conclusa una tregua. Jobst von
           Einsiedl, che partecipò a questa campagna nel seguito del signore Petr
-          Holický di Šternberk, scrisse la sua lettera il{' '}
-          <b>25 ottobre 1450</b> dal campo presso Salza, vicino a Plavno, la
-          prima lettera conservata alla città di Cheb.
+          Holický di Šternberk, scrisse la sua lettera il <b>25 ottobre 1450</b>{' '}
+          dal campo presso Salza, vicino a Plavno, la prima lettera conservata
+          alla città di Cheb.
           <Qt
             publication={PUBLICATIONS.KURSCHNER}
             href="https://sources.cms.flu.cas.cz/src/index.php?s=v&cat=50&bookid=488&page=5"
@@ -172,8 +171,8 @@ export const JobstDiEinsiedl = () => (
           accompagnandolo nelle sue principali campagne in Moravia, Slesia e
           Austria, spesso dedicandosi al commercio, come a Brno, e informando i
           suoi amici di Cheb con evidente soddisfazione sui successi del
-          governatore. Sebbene cattolico e incondizionatamente devoto alla Chiesa
-          romana, mantenne una lealtà incrollabile verso il suo signore
+          governatore. Sebbene cattolico e incondizionatamente devoto alla
+          Chiesa romana, mantenne una lealtà incrollabile verso il suo signore
           utraquista in ogni momento — una rarità per l&apos;epoca — essendo
           capace di separare giustamente le convinzioni religiose dalla fedeltà
           al servizio. Pertanto, godeva anche della piena fiducia e del favore
@@ -186,18 +185,17 @@ export const JobstDiEinsiedl = () => (
         </p>
 
         <p>
-          Dopo la morte del re Ladislao il Postumo il{' '}
-          <b>23 novembre 1457</b>, iniziarono a diffondersi voci secondo cui il
-          giovane re era stato avvelenato da Giorgio di Poděbrady.
-          All&apos;assemblea di Vienna il <b>21 gennaio 1458</b>, Jobst von
-          Einsiedl si difese con vigore da queste accuse. Jobst argomentò che
-          non era mai accaduto nella storia che i boemi avessero avvelenato un
-          re. Secondo lui, i boemi erano sudditi leali del re e si erano
-          sottomessi volontariamente a lui in tutto ciò che i re Sigismondo e
-          Alberto avevano cercato di conquistare con la forza (restituzione dei
-          beni regi, tributi, aiuti contro i turchi). Alla fine, sulla base
-          degli argomenti di Jobst, l&apos;assemblea riconobbe che il re era
-          deceduto per volontà di Dio.
+          Dopo la morte del re Ladislao il Postumo il <b>23 novembre 1457</b>,
+          iniziarono a diffondersi voci secondo cui il giovane re era stato
+          avvelenato da Giorgio di Poděbrady. All&apos;assemblea di Vienna il{' '}
+          <b>21 gennaio 1458</b>, Jobst von Einsiedl si difese con vigore da
+          queste accuse. Jobst argomentò che non era mai accaduto nella storia
+          che i boemi avessero avvelenato un re. Secondo lui, i boemi erano
+          sudditi leali del re e si erano sottomessi volontariamente a lui in
+          tutto ciò che i re Sigismondo e Alberto avevano cercato di conquistare
+          con la forza (restituzione dei beni regi, tributi, aiuti contro i
+          turchi). Alla fine, sulla base degli argomenti di Jobst,
+          l&apos;assemblea riconobbe che il re era deceduto per volontà di Dio.
           <Qt publication={PUBLICATIONS.PAPAJIK} note="page 224" />
         </p>
         <p>
@@ -223,8 +221,8 @@ export const JobstDiEinsiedl = () => (
           prestare attenzione alle calunnie e alle minacce dei vicini, ma a
           rimanere fermi e saldi. Per Jobst stesso, l&apos;elezione di Giorgio
           ebbe un&apos;altra conseguenza: il nuovo re lo elevò allo status di
-          cavaliere quell&apos;estate, come testimoniano le congratulazioni degli
-          abitanti di Cheb il <b>29 luglio 1458</b>
+          cavaliere quell&apos;estate, come testimoniano le congratulazioni
+          degli abitanti di Cheb il <b>29 luglio 1458</b>
           <Qt
             publication={PUBLICATIONS.KURSCHNER}
             href="https://sources.cms.flu.cas.cz/src/index.php?s=v&cat=50&bookid=488&page=7"
@@ -251,12 +249,12 @@ export const JobstDiEinsiedl = () => (
           combustibile e le riparazioni del castello. Nella caccia di piccola
           selvaggina e uccelli, Jobst era libero, mentre gli era consentito
           cacciare 3 cervi e 10 caprioli all&apos;anno con la conoscenza del
-          burgravio di Křivoklát, che era obbligato a prestargli cani e cuccioli.
-          Poiché il castello necessitava di riparazioni alle mura, ai
+          burgravio di Křivoklát, che era obbligato a prestargli cani e
+          cuccioli. Poiché il castello necessitava di riparazioni alle mura, ai
           sottofondi e agli edifici, il re aggiunse 100 sexagene di grossi per
           le riparazioni a favore di Jobst. Se il castello fosse stato
-          conquistato da altri, i re erano obbligati ad aiutarlo a riconquistarlo
-          o a risarcirlo entro due anni.
+          conquistato da altri, i re erano obbligati ad aiutarlo a
+          riconquistarlo o a risarcirlo entro due anni.
           <Qt publication={PUBLICATIONS.KOCKA} />
         </p>
       </Col>
@@ -286,17 +284,17 @@ export const JobstDiEinsiedl = () => (
           monastici che cittadini. A Jobst veniva spesso chiesta la sua
           intercessione. Era disposto a fornire informazioni, a meno che non si
           trattasse di segreti ufficiali, che manteneva sempre rigorosamente.
-          Tuttavia, agiva sempre con grande cautela, e sebbene ciò sia anch&apos;
-          esso encomiabile, sorprende spiacevolmente il lettore quando, ad
-          esempio, nel mezzo di una lettera interessante, si legge:
+          Tuttavia, agiva sempre con grande cautela, e sebbene ciò sia
+          anch&apos; esso encomiabile, sorprende spiacevolmente il lettore
+          quando, ad esempio, nel mezzo di una lettera interessante, si legge:
           <Cit>
             Sebbene voi stessi vogliate apprendere il motivo di questa
-            questione, potete inviare uno degli amici del consiglio a me noto,
-            e apprenderete l&apos;intera faccenda a fondo.
+            questione, potete inviare uno degli amici del consiglio a me noto, e
+            apprenderete l&apos;intera faccenda a fondo.
           </Cit>
-          Al contrario, la città non lesinava in segni di riconoscenza. In
-          varie occasioni, faceva al suo amico un dono in denaro, come
-          testimonia il libro delle spese di Cheb. Ad esempio a Natale del 1458:
+          Al contrario, la città non lesinava in segni di riconoscenza. In varie
+          occasioni, faceva al suo amico un dono in denaro, come testimonia il
+          libro delle spese di Cheb. Ad esempio a Natale del 1458:
           <Cit>
             Item so haben wir desmals durch Paul Ruduschen hern Jobst von
             Aynsidel awszgericht XII guldein, damit jn der rat vereret.
@@ -357,15 +355,15 @@ export const JobstDiEinsiedl = () => (
     <Row>
       <Col>
         <p>
-          All&apos;ingresso in città, gli abitanti prepararono un&apos;accoglienza
-          cerimoniale per il re e lo scortarono, con un baldacchino sopra la
-          testa, fino a una casa direttamente sulla piazza, dove fu alloggiato.
-          Il proprietario della casa sulla piazza dove il re fu ospitato era il
-          consigliere Kašpar Junker, che era una delle figure più eminenti del
-          patriziato cittadino dell&apos;epoca ed era stato eletto borgomastro
-          più volte consecutivamente. Dato che Giorgio di Poděbrady fu
-          alloggiato nella sua casa, si può presumere che questa fosse tra le
-          meglio attrezzate della città.
+          All&apos;ingresso in città, gli abitanti prepararono
+          un&apos;accoglienza cerimoniale per il re e lo scortarono, con un
+          baldacchino sopra la testa, fino a una casa direttamente sulla piazza,
+          dove fu alloggiato. Il proprietario della casa sulla piazza dove il re
+          fu ospitato era il consigliere Kašpar Junker, che era una delle figure
+          più eminenti del patriziato cittadino dell&apos;epoca ed era stato
+          eletto borgomastro più volte consecutivamente. Dato che Giorgio di
+          Poděbrady fu alloggiato nella sua casa, si può presumere che questa
+          fosse tra le meglio attrezzate della città.
           <Qt publication={PUBLICATIONS.POSPISIL} />
         </p>
 
@@ -426,8 +424,8 @@ export const JobstDiEinsiedl = () => (
           <Cit>
             di procurargli un alloggio presso suo fratello (Jorg Smidel), poiché
             necessita di un luogo confortevole per riposare, soprattutto perché
-            non potrà dormire molto, avendo molto lavoro e dovendo restare vicino
-            al re.
+            non potrà dormire molto, avendo molto lavoro e dovendo restare
+            vicino al re.
           </Cit>
           <Qt
             publication={PUBLICATIONS.KURSCHNER}
@@ -454,22 +452,22 @@ export const JobstDiEinsiedl = () => (
           scritta con principi stranieri, in particolare con il margravio
           Alberto di Brandeburgo. Segnatamente, nel 1463, il margravio inviò a
           Jobst una lettera confidenziale informandolo degli sforzi del legato
-          papale contro il re.{' '}
-          <Cit>Dast wollest</Cit> (Voi potete), prosegue la lettera,{' '}
+          papale contro il re. <Cit>Dast wollest</Cit> (Voi potete), prosegue la
+          lettera,{' '}
           <Cit>
             in grosser geheim vnnsern herrn dem konig sagen, dann es warlich
             also ist
           </Cit>{' '}
           (dire al nostro signore il re in grande segretezza, poiché è davvero
-          così). Jobst trasmetteva anche ripetutamente notizie dalla corte
-          boema al margravio (si conservano una lettera del{' '}
-          <b>4 luglio 1464</b> e tre lettere del 1469). L&apos;influenza del
-          segretario reale si manifestava in varie occasioni. Da lontano si
-          cercava la sua intercessione, come all&apos;inizio del 1463 da parte
-          della città di Zgorzelec. Nel 1464, Jobst, insieme al cancelliere
-          Prokop di Rabštejn e Enrico, signore di Gera, mediò una disputa tra
-          Enrico di Plavna e Günter di Bünau per ordine del re. Nel frattempo,
-          quando un&apos;associazione nobiliare di nuova costituzione sollevò
+          così). Jobst trasmetteva anche ripetutamente notizie dalla corte boema
+          al margravio (si conservano una lettera del <b>4 luglio 1464</b> e tre
+          lettere del 1469). L&apos;influenza del segretario reale si
+          manifestava in varie occasioni. Da lontano si cercava la sua
+          intercessione, come all&apos;inizio del 1463 da parte della città di
+          Zgorzelec. Nel 1464, Jobst, insieme al cancelliere Prokop di Rabštejn
+          e Enrico, signore di Gera, mediò una disputa tra Enrico di Plavna e
+          Günter di Bünau per ordine del re. Nel frattempo, quando
+          un&apos;associazione nobiliare di nuova costituzione sollevò
           nuovamente la questione di chi dovesse esattamente custodire le
           insegne imperiali, diversi signori e cavalieri, tra cui Jobst von
           Einsiedl di Týřov, furono incaricati di trasferire i documenti di
@@ -502,19 +500,19 @@ export const JobstDiEinsiedl = () => (
           (avendo giurato fedeltà il <b>4 settembre 1461</b>), fu decisamente
           influenzata da ragioni politiche. Dal 1315, la città di Cheb e il suo
           territorio erano proprietà in pegno della corona di Boemia. Facendo
-          affidamento sui propri privilegi, che delineavano un favorevole
-          status speciale, si teneva in disparte da tutti i movimenti in Boemia
-          e giurava alleanza e omaggio solo al re incoronato. Rendere omaggio a
-          un re come Mattia, che mancava di una corona, avrebbe potuto facilmente
+          affidamento sui propri privilegi, che delineavano un favorevole status
+          speciale, si teneva in disparte da tutti i movimenti in Boemia e
+          giurava alleanza e omaggio solo al re incoronato. Rendere omaggio a un
+          re come Mattia, che mancava di una corona, avrebbe potuto facilmente
           creare un pericoloso precedente. Pertanto, la città, nonostante le
           ripetute ammonizioni, rifiutò l&apos;omaggio al re usurpatore e
           preferì che le fosse dichiarato l&apos;interdetto. Che Jobst non
           vacillasse è facilmente comprensibile dopo tutto ciò che è stato
-          detto. Come uomo di coscienza e di carattere, mantenne la lealtà
-          verso il suo re senza violare minimamente l&apos;umiliante obbedienza
-          alla chiesa punitrice. Sebbene le sue labbra non pronunciassero una
-          parola di rimprovero, dovette sopportare tutte le difficoltà; come
-          cattolico, aveva gli utraquisti come nemici e come sostenitore del re
+          detto. Come uomo di coscienza e di carattere, mantenne la lealtà verso
+          il suo re senza violare minimamente l&apos;umiliante obbedienza alla
+          chiesa punitrice. Sebbene le sue labbra non pronunciassero una parola
+          di rimprovero, dovette sopportare tutte le difficoltà; come cattolico,
+          aveva gli utraquisti come nemici e come sostenitore del re
           scomunicato, i propri sovrani, dalla cui comunità la chiesa lo aveva
           escluso. I suoi possedimenti furono devastati, i villaggi dei suoi
           sudditi incendiati e distrutti (egli quantificò le sue perdite in 300
@@ -523,17 +521,17 @@ export const JobstDiEinsiedl = () => (
           concesse la grazia che suo figlio Jindřich non potesse essere
           riscattato da Týřov fino alla sua morte. Di fronte a questa
           devastazione, Jobst combatté una dura battaglia con sé stesso, poiché
-          coscienza e fede, comandamenti ecclesiastici e lealtà giurata erano
-          in costante conflitto: la feroce battaglia che agitava l&apos;intera
+          coscienza e fede, comandamenti ecclesiastici e lealtà giurata erano in
+          costante conflitto: la feroce battaglia che agitava l&apos;intera
           epoca si riflette nel petto di quest&apos;uomo, che aderì
           risolutamente a ciò che nella sua anima semplice riconosceva come
-          giusto e buono. Alla fine, scelse l&apos;obbedienza sofferente,
-          perché si trattava della fede, che non voleva indebolire con la
-          resistenza — <Cit>nicht schwächen helfen</Cit> (contribuire a
-          indebolire). Così, condivise lo stesso destino della città alleata di
-          Cheb, che cercò di consolare e rafforzare nell&apos;obbedienza. Solo
-          quando vide che i suoi avversari si curavano meno della fede che del
-          saccheggio, impugnò la spada per assicurare la pace.
+          giusto e buono. Alla fine, scelse l&apos;obbedienza sofferente, perché
+          si trattava della fede, che non voleva indebolire con la resistenza —{' '}
+          <Cit>nicht schwächen helfen</Cit> (contribuire a indebolire). Così,
+          condivise lo stesso destino della città alleata di Cheb, che cercò di
+          consolare e rafforzare nell&apos;obbedienza. Solo quando vide che i
+          suoi avversari si curavano meno della fede che del saccheggio, impugnò
+          la spada per assicurare la pace.
           <Qt
             publication={PUBLICATIONS.KURSCHNER}
             href="https://sources.cms.flu.cas.cz/src/index.php?s=v&cat=50&bookid=488&page=12"
@@ -557,9 +555,9 @@ export const JobstDiEinsiedl = () => (
           una controversia giudiziaria tra sé stesso e Friedrich di Šumburk.
           Jobst accusò i servitori di Friedrich di Šumburk di aver rubato le sue
           mucche, successivamente ritrovate{' '}
-          <Cit>na jeho páně Šumburkuov zámek</Cit> (nel castello del suo
-          signore Šumburk). Se Šumburk non si fosse presentato in tribunale
-          contro Jobst, avrebbe dovuto risarcirlo per le mucche rubate.
+          <Cit>na jeho páně Šumburkuov zámek</Cit> (nel castello del suo signore
+          Šumburk). Se Šumburk non si fosse presentato in tribunale contro
+          Jobst, avrebbe dovuto risarcirlo per le mucche rubate.
           <Qt publication={PUBLICATIONS.KOCKA} />
         </p>
         <p>
@@ -575,8 +573,8 @@ export const JobstDiEinsiedl = () => (
           <Qt publication={PUBLICATIONS.JANSKY} />
         </p>
         <p>
-          Nel 1473, il re Vladislao concesse a Jobst il diritto di
-          manomorta sulla tenuta di Hlince, e quello stesso anno confermò tutti i
+          Nel 1473, il re Vladislao concesse a Jobst il diritto di manomorta
+          sulla tenuta di Hlince, e quello stesso anno confermò tutti i
           privilegi concessigli dal re Giorgio, e in aggiunta gli permise di
           uccidere fino a quattro cervi o cerve nelle foreste e gli stanziò
           specificamente 50 sexagene di grossi per le riparazioni del castello.

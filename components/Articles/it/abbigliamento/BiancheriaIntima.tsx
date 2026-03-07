@@ -12,17 +12,17 @@ export const BiancheriaIntima = () => (
         <div className="anchor" id="biancheria-intima" />
         <h3>Biancheria intima</h3>
         <p>
-          La biancheria intima assolveva diverse funzioni. Dato che la stragrande
-          maggioranza degli indumenti esterni era realizzata in materiali di lana,
-          essa impediva alla lana di sfregare direttamente sulla pelle nuda,
-          evitando così irritazioni. Gli indumenti esterni erano anche molto
-          difficili da pulire, poiché il lavaggio medievale impiegava metodi
-          meccanici che danneggiavano il tessuto. Pertanto, gli indumenti non
-          potevano essere lavati troppo frequentemente. Lavare la biancheria
-          intima, prevalentemente in lino, non era altrettanto difficile. Essa
-          assorbiva il sudore e, se si sporcava, il costo di confezionare un
-          altro capo di ricambio non era neanche lontanamente paragonabile a
-          quello di un indumento di lana.
+          La biancheria intima assolveva diverse funzioni. Dato che la
+          stragrande maggioranza degli indumenti esterni era realizzata in
+          materiali di lana, essa impediva alla lana di sfregare direttamente
+          sulla pelle nuda, evitando così irritazioni. Gli indumenti esterni
+          erano anche molto difficili da pulire, poiché il lavaggio medievale
+          impiegava metodi meccanici che danneggiavano il tessuto. Pertanto, gli
+          indumenti non potevano essere lavati troppo frequentemente. Lavare la
+          biancheria intima, prevalentemente in lino, non era altrettanto
+          difficile. Essa assorbiva il sudore e, se si sporcava, il costo di
+          confezionare un altro capo di ricambio non era neanche lontanamente
+          paragonabile a quello di un indumento di lana.
           <Qt publication={PUBLICATIONS.FEYFRLIKOVA} />
         </p>
       </Col>
@@ -43,8 +43,8 @@ export const BiancheriaIntima = () => (
         <p>
           Sembra che la differenza tra <i>košile</i> (camicia) e <i>rubáš</i>{' '}
           risiedesse principalmente nella lunghezza, poiché un&apos;eredità di
-          Litomyšl del 1510 lega{' '}
-          <Cit>košile tři a rubáč dlouhý</Cit> (tre camicie e un rubáš lungo).
+          Litomyšl del 1510 lega <Cit>košile tři a rubáč dlouhý</Cit> (tre
+          camicie e un rubáš lungo).
           <Qt
             publication={PUBLICATIONS.WINTER}
             href="https://kramerius5.nkp.cz/view/uuid:4405cb90-ee14-11dd-bfdc-000d606f5dc6?page=uuid:72e460f0-fe2a-11e6-97b4-5ef3fc9ae867"
@@ -74,9 +74,9 @@ export const BiancheriaIntima = () => (
         <p>
           La biancheria intima era per lo più bianca o del colore naturale del
           materiale, ma quando abbiamo testimonianze di biancheria intima
-          colorata, per qualche ragione era più spesso blu. Per le camicie, ciò è
-          documentato sia per iscritto dagli Annali cechi antichi, che riferiscono
-          come nella Battaglia di Vyšehrad{' '}
+          colorata, per qualche ragione era più spesso blu. Per le camicie, ciò
+          è documentato sia per iscritto dagli Annali cechi antichi, che
+          riferiscono come nella Battaglia di Vyšehrad{' '}
           <i>
             &bdquo;čeští a moravští páni byli zbiti a všeho odění a rúcha až do
             modré košile obnaženi&ldquo;
@@ -175,21 +175,23 @@ export const BiancheriaIntima = () => (
           controparti femminili sono considerevolmente minori. Le donne
           indossavano sotto gli indumenti esterni semplici camicie lunghe con
           bretelle. Le incontriamo più frequentemente nelle miniature che
-          raffigurano inservienti di bagni, che le indossavano persino come abito
-          da lavoro, e anche le donne al lavoro vi sono raffigurate. Inoltre, si
-          possono trovare in scene intime che raffigurano interni di camere da
-          letto. Uno dei più antichi ritrovamenti archeologici di una camicia
-          femminile risale al XIV secolo dal Castello di Ranis in Germania.
+          raffigurano inservienti di bagni, che le indossavano persino come
+          abito da lavoro, e anche le donne al lavoro vi sono raffigurate.
+          Inoltre, si possono trovare in scene intime che raffigurano interni di
+          camere da letto. Uno dei più antichi ritrovamenti archeologici di una
+          camicia femminile risale al XIV secolo dal Castello di Ranis in
+          Germania.
           <Qt publication={PUBLICATIONS.FEYFRLIKOVA} />
           Questa camicia è cucita da due pannelli, anteriore e posteriore.
-          Un&apos;altra tipologia è composta da tre pannelli. I primi due formano
-          essenzialmente il corpetto anteriore e posteriore, mentre il terzo è
-          inserito in vita per formare una gonna plissettata. Sul fianco, questo
-          tipo di camicia aveva un&apos;allacciatura per una migliore vestibilità,
-          <Qt publication={PUBLICATIONS.FEYFRLIKOVA} /> successivamente il taglio
-          del corpetto poteva essere esteso per includere coppe per il seno, come
-          è evidente da quattro ritrovamenti dal Castello di Lengberg nel Tirolo
-          orientale, datati agli anni ottanta del XV secolo.
+          Un&apos;altra tipologia è composta da tre pannelli. I primi due
+          formano essenzialmente il corpetto anteriore e posteriore, mentre il
+          terzo è inserito in vita per formare una gonna plissettata. Sul
+          fianco, questo tipo di camicia aveva un&apos;allacciatura per una
+          migliore vestibilità,
+          <Qt publication={PUBLICATIONS.FEYFRLIKOVA} /> successivamente il
+          taglio del corpetto poteva essere esteso per includere coppe per il
+          seno, come è evidente da quattro ritrovamenti dal Castello di Lengberg
+          nel Tirolo orientale, datati agli anni ottanta del XV secolo.
         </p>
       </Col>
     </Row>
@@ -302,9 +304,8 @@ export const BiancheriaIntima = () => (
         height={1375}
         title={
           <>
-            Vari tipi di brache nell&apos;incisione{' '}
-            <Cit>Boj o kalhoty</Cit> (La lotta per i pantaloni) del
-            Monogrammista E.S., Germania, 1440-1467.
+            Vari tipi di brache nell&apos;incisione <Cit>Boj o kalhoty</Cit> (La
+            lotta per i pantaloni) del Monogrammista E.S., Germania, 1440-1467.
           </>
         }
       />
@@ -316,11 +317,11 @@ export const BiancheriaIntima = () => (
           <Cit>bez hacz choditi</Cit> (andare senza brache)
           <Qt publication={PUBLICATIONS.PILNA} note="Str. 27" />, se anche le
           donne indossassero brache (<i>femoralia</i>) è attualmente oggetto di
-          un vivace dibattito, innescato dai suddetti ritrovamenti tessili presso
-          il Castello di Lengberg. Non è possibile dimostrare con certezza se le
-          brache sopra menzionate e raffigurate appartenessero a un uomo o a una
-          donna. Tuttavia, è interessante notare che nel contesto ceco esse sono
-          documentate per nome già nel 1455 nel{' '}
+          un vivace dibattito, innescato dai suddetti ritrovamenti tessili
+          presso il Castello di Lengberg. Non è possibile dimostrare con
+          certezza se le brache sopra menzionate e raffigurate appartenessero a
+          un uomo o a una donna. Tuttavia, è interessante notare che nel
+          contesto ceco esse sono documentate per nome già nel 1455 nel{' '}
           <i>Dizionario Clementino</i>, specificamente nella loro variante
           femminile <i>feminale</i>.
           <Qt publication={PUBLICATIONS.FEYFRLIKOVA2} note="Str. 69" />
@@ -333,12 +334,12 @@ export const BiancheriaIntima = () => (
     <Row>
       <Col>
         <p>
-          Sia le brache che le camicie erano considerate indumenti intimi che era
-          sconveniente mostrare in pubblico. La graduale esibizione della camicia
-          iniziò nella seconda metà del XV secolo in connessione con la
+          Sia le brache che le camicie erano considerate indumenti intimi che
+          era sconveniente mostrare in pubblico. La graduale esibizione della
+          camicia iniziò nella seconda metà del XV secolo in connessione con la
           penetrazione della moda rinascimentale attraverso la Germania, ma ad
-          esempio nel moralistico Codice di Jena, le parti visibili della camicia
-          appaiono solo su figure in qualche modo peccaminose.
+          esempio nel moralistico Codice di Jena, le parti visibili della
+          camicia appaiono solo su figure in qualche modo peccaminose.
         </p>
       </Col>
     </Row>

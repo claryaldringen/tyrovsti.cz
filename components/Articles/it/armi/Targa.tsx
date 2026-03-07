@@ -17,8 +17,8 @@ export const Targa = () => (
       <Col>
         <p>
           La targa è uno sviluppo tardivo dello scudo da cavalleria, utilizzato
-          per tutto il XV secolo. In linea di principio, si può affermare che più
-          complessa è la forma, più tarda è la datazione della targa. Era
+          per tutto il XV secolo. In linea di principio, si può affermare che
+          più complessa è la forma, più tarda è la datazione della targa. Era
           tipicamente realizzata in legno di tiglio, ricoperta con pergamena,
           lino o una combinazione di entrambi. Il gesso (una miscela di gesso
           finemente macinato e colla) veniva applicato al rivestimento per
@@ -62,40 +62,41 @@ export const Targa = () => (
           città), fu stabilito che i pittori non erano autorizzati a dipingere
           scudi. Solo gli scutari potevano fabbricare targhe e scudi (tarczschen
           und stechschilt). Tuttavia, chiunque producesse opere su scudo
-          (schiltwerk) e vivesse nelle torri non poteva vendere il proprio lavoro
-          altrove che sotto le torri. Il privilegio fu riconfermato da Venceslao
-          IV il <b>6 gennaio 1380</b>.
+          (schiltwerk) e vivesse nelle torri non poteva vendere il proprio
+          lavoro altrove che sotto le torri. Il privilegio fu riconfermato da
+          Venceslao IV il <b>6 gennaio 1380</b>.
           <Qt publication={PUBLICATIONS.DENKSTEIN3} note="p. 21" />
         </p>
         <p>
-          Gli accordi evidentemente non furono rispettati, e nel 1392 gli scutari
-          si rivolsero nuovamente al re con un reclamo, lamentando che i pittori
-          spirituali continuavano a sottrarre loro il lavoro e a dipingere opere
-          su scudo (schiltwerk), che spettavano agli scutari e non ai pittori.
-          Venceslao IV, con un privilegio del <b>30 marzo 1392</b>, riconfermò i
-          privilegi degli scutari e stabilì che i pittori non erano autorizzati a
-          dipingere scudi, e che gli scutari potevano vendere le loro immagini
-          (ire bylde) e gli scudi domestici (ire helme und schilte an den
-          hewsern in derselben stat zu Prage) ai mercati della Grande Città di
-          Praga. Ciò risolveva chiaramente le protratte controversie a favore
-          degli scutari, che erano ora protetti nel loro mestiere dalla
-          concorrenza dei pittori e inoltre avevano ottenuto la libertà di
-          vendere i propri prodotti nel mercato pubblico.
+          Gli accordi evidentemente non furono rispettati, e nel 1392 gli
+          scutari si rivolsero nuovamente al re con un reclamo, lamentando che i
+          pittori spirituali continuavano a sottrarre loro il lavoro e a
+          dipingere opere su scudo (schiltwerk), che spettavano agli scutari e
+          non ai pittori. Venceslao IV, con un privilegio del{' '}
+          <b>30 marzo 1392</b>, riconfermò i privilegi degli scutari e stabilì
+          che i pittori non erano autorizzati a dipingere scudi, e che gli
+          scutari potevano vendere le loro immagini (ire bylde) e gli scudi
+          domestici (ire helme und schilte an den hewsern in derselben stat zu
+          Prage) ai mercati della Grande Città di Praga. Ciò risolveva
+          chiaramente le protratte controversie a favore degli scutari, che
+          erano ora protetti nel loro mestiere dalla concorrenza dei pittori e
+          inoltre avevano ottenuto la libertà di vendere i propri prodotti nel
+          mercato pubblico.
           <Qt publication={PUBLICATIONS.DENKSTEIN3} note="p. 22" />
         </p>
         <p>
           Nel corso del XV secolo, la Confraternita originaria si divise nella
-          corporazione della Città Vecchia (che includeva il Castello, Hradčany e
-          la Città Piccola) e nella corporazione della Città Nuova. Alcune
+          corporazione della Città Vecchia (che includeva il Castello, Hradčany
+          e la Città Piccola) e nella corporazione della Città Nuova. Alcune
           questioni comuni venivano trattate nella{' '}
-          <Cit>corporazione plenaria</Cit>, dove erano rappresentati i maestri di{' '}
-          <Cit>entrambe le città praghesi</Cit>. Nonostante i disaccordi interni
-          tra scutari e pittori, tutto il lavoro legato alla pittura rientrava
-          nell&apos;interesse della corporazione. Ciò è meglio caratterizzato dal
-          privilegio del re Luigi del 1523, contenuto in un documento di
-          conferma di Rodolfo II del 1595: che nessun maestro straniero era
-          autorizzato a produrre articoli appartenenti alla corporazione praghese
-          dei pittori e vetrai, ossia,
+          <Cit>corporazione plenaria</Cit>, dove erano rappresentati i maestri
+          di <Cit>entrambe le città praghesi</Cit>. Nonostante i disaccordi
+          interni tra scutari e pittori, tutto il lavoro legato alla pittura
+          rientrava nell&apos;interesse della corporazione. Ciò è meglio
+          caratterizzato dal privilegio del re Luigi del 1523, contenuto in un
+          documento di conferma di Rodolfo II del 1595: che nessun maestro
+          straniero era autorizzato a produrre articoli appartenenti alla
+          corporazione praghese dei pittori e vetrai, ossia,
           <Cit>
             tabulí, arch, korouhví, praporcův, dekův, svíc pozlacených a
             dřevěných, dříví jezdeckého malého neb velkého, pavez, terčí i
@@ -109,9 +110,9 @@ export const Targa = () => (
         <p>
           Che fosse così già nel XIV secolo è testimoniato dalle iscrizioni nel
           primo libro della confraternita dei pittori praghesi, sia i nomi che i
-          conti degli scutari e un registro del{' '}
-          <Cit>malovaném dříví</Cit> (legno dipinto), sebbene incompleto. Il
-          termine <Cit>malované dříví</Cit> (legno dipinto) si riferisce
+          conti degli scutari e un registro del <Cit>malovaném dříví</Cit>{' '}
+          (legno dipinto), sebbene incompleto. Il termine{' '}
+          <Cit>malované dříví</Cit> (legno dipinto) si riferisce
           all&apos;equipaggiamento per giostre equestri, ossia lance da giostra
           (dřevce) destinate ai tornei, come menzionato nei privilegi sia di
           Carlo IV (stechgezewge) che del re Luigi{' '}
@@ -125,27 +126,27 @@ export const Targa = () => (
         </p>
         <p>
           Nel corso del XV secolo, gli scutari e i pittori si fusero
-          completamente all&apos;interno della corporazione comune. Ne sono prova
-          un accordo del 1445 tra il maestro Šícha e Jan, figlio del maestro
-          Štefánek, in cui Šícha si impegnava a insegnargli l&apos;arte della
-          pittura, non solo la fabbricazione di scudi ma anche la pittura di
-          immagini. Gli apprendisti venivano così introdotti alla conoscenza di
-          entrambe le branche del mestiere. Con il tempo, la fabbricazione di
-          scudi come mestiere indipendente scomparve gradualmente. Il suo aspetto
-          pittorico divenne dominio dei pittori — che assunsero la parte
+          completamente all&apos;interno della corporazione comune. Ne sono
+          prova un accordo del 1445 tra il maestro Šícha e Jan, figlio del
+          maestro Štefánek, in cui Šícha si impegnava a insegnargli l&apos;arte
+          della pittura, non solo la fabbricazione di scudi ma anche la pittura
+          di immagini. Gli apprendisti venivano così introdotti alla conoscenza
+          di entrambe le branche del mestiere. Con il tempo, la fabbricazione di
+          scudi come mestiere indipendente scomparve gradualmente. Il suo
+          aspetto pittorico divenne dominio dei pittori — che assunsero la parte
           artistica del mestiere degli scutari, dipingendo pavesi, targhe e
           equipaggiamento da giostra — mentre il lato artigianale del vecchio
           mestiere di scutaio rimase ad altri mestieri, in particolare sellai e
           brigliatori. Alla fine del XIV secolo, gli scutari (ad esempio nei
           privilegi di Venceslao IV del 1380 e del 1392) iniziarono a scomparire
           dal titolo della corporazione, e al posto degli scutari iniziarono ad
-          essere menzionati i vetrai accanto ai pittori, la cui importanza crebbe
-          con lo sviluppo della produzione e della cultura medievale. Tuttavia, i
-          registri nel libro della corporazione indicano che alcuni pittori
-          continuarono a specializzarsi nella fabbricazione di pavesi dipinti. Ne
-          è esempio il &quot;tributo delle targhe&quot; e il modo in cui i
-          pittori adempivano al loro dovere di fornire un certo numero di scudi
-          alla città ogni anno, che ha una storia interessante.
+          essere menzionati i vetrai accanto ai pittori, la cui importanza
+          crebbe con lo sviluppo della produzione e della cultura medievale.
+          Tuttavia, i registri nel libro della corporazione indicano che alcuni
+          pittori continuarono a specializzarsi nella fabbricazione di pavesi
+          dipinti. Ne è esempio il &quot;tributo delle targhe&quot; e il modo in
+          cui i pittori adempivano al loro dovere di fornire un certo numero di
+          scudi alla città ogni anno, che ha una storia interessante.
           <Qt publication={PUBLICATIONS.DENKSTEIN3} note="p. 22" />
         </p>
         <p>
@@ -155,16 +156,16 @@ export const Targa = () => (
             listy a právy starodávnými vyňati a zproštěni z vojen i ze všech
             lozunkuov a poplatkuov městských
           </Cit>{' '}
-          (esentati da antiche lettere e diritti dal servizio militare e da tutti
-          i tributi e tasse cittadine), ma
+          (esentati da antiche lettere e diritti dal servizio militare e da
+          tutti i tributi e tasse cittadine), ma
           <Cit>
             povinni byli každý rok tři štíty nebo pláště branné stojaté veliké k
             městu udělati ... a k tomu oděncuov branných devět na věže městské
             nebo k městským branám vydávati.
           </Cit>{' '}
           (erano obbligati a fabbricare ogni anno tre grandi scudi eretti o
-          mantelli protettivi per la città ... e a fornire nove uomini armati per
-          le mura o le porte della città.)
+          mantelli protettivi per la città ... e a fornire nove uomini armati
+          per le mura o le porte della città.)
           <Qt publication={PUBLICATIONS.DENKSTEIN3} note="p. 22" />
         </p>
         <p>
@@ -179,13 +180,13 @@ export const Targa = () => (
           fortificata a quel tempo, e quindi tali soldati erano necessari; al
           posto dei mantelli, ora fabbricano pavesi per la città ogni anno). La
           carta di fondazione del 1348 stabilì le linee guida per la
-          fortificazione della Città Nuova, riguardo alla disposizione, alla rete
-          di comunicazione e alla posizione delle porte. Le fortificazioni stesse
-          furono costruite tra il 1348 e il 1350. Durante questo periodo, le mura
-          tra la Città Vecchia e la Città Nuova persero importanza, insieme al
-          dovere dei pittori di collocare nove guardie alle torri e alle porte
-          secondo le antiche lettere, che quindi dovevano essere state emanate
-          prima della metà del XIV secolo.
+          fortificazione della Città Nuova, riguardo alla disposizione, alla
+          rete di comunicazione e alla posizione delle porte. Le fortificazioni
+          stesse furono costruite tra il 1348 e il 1350. Durante questo periodo,
+          le mura tra la Città Vecchia e la Città Nuova persero importanza,
+          insieme al dovere dei pittori di collocare nove guardie alle torri e
+          alle porte secondo le antiche lettere, che quindi dovevano essere
+          state emanate prima della metà del XIV secolo.
           <Qt publication={PUBLICATIONS.DENKSTEIN3} note="p. 23" />
         </p>
         <p>
@@ -198,19 +199,19 @@ export const Targa = () => (
           quando avvenne un ulteriore cambiamento. I maestri presentarono una
           petizione al consiglio della Città Vecchia per essere sollevati da
           quest&apos;obbligo a causa della povertà e delle difficoltà patite
-          durante la guerra e i disordini. Il consiglio accolse la loro richiesta
-          e ridusse il numero di scudi (ossia pavesi) richiesti di due, cosicché
-          d&apos;ora in poi erano tenuti a fornire solo otto scudi all&apos;anno.
-          Ciò doveva essere una misura temporanea fino a quando avessero tratto
-          nuovamente maggior profitto dal loro mestiere.
+          durante la guerra e i disordini. Il consiglio accolse la loro
+          richiesta e ridusse il numero di scudi (ossia pavesi) richiesti di
+          due, cosicché d&apos;ora in poi erano tenuti a fornire solo otto scudi
+          all&apos;anno. Ciò doveva essere una misura temporanea fino a quando
+          avessero tratto nuovamente maggior profitto dal loro mestiere.
           <Qt publication={PUBLICATIONS.DENKSTEIN3} note="p. 23" />
         </p>
         <p>
-          Nonostante questa riserva, l&apos;agevolazione rimase a lungo in vigore
-          per i maestri della Città Vecchia. Quando nel 1458 presentarono tutti i
-          loro privilegi alla città per la conferma, i privilegi includevano non
-          solo i summenzionati <Cit>antichi diritti</Cit> dalla prima metà del
-          XIV secolo, ma anche{' '}
+          Nonostante questa riserva, l&apos;agevolazione rimase a lungo in
+          vigore per i maestri della Città Vecchia. Quando nel 1458 presentarono
+          tutti i loro privilegi alla città per la conferma, i privilegi
+          includevano non solo i summenzionati <Cit>antichi diritti</Cit> dalla
+          prima metà del XIV secolo, ma anche{' '}
           <Cit>jiné kusy popsané, jim a řemeslóm jich příhodné a potřebné</Cit>{' '}
           (altri articoli descritti, adatti e necessari a loro e ai loro
           mestieri). Tra questi, era certamente inclusa l&apos;agevolazione del
@@ -244,18 +245,18 @@ export const Targa = () => (
           <Cit>
             dalla gloriosa memoria dell&apos;imperatore Carlo e del re Venceslao
           </Cit>
-          . Non è chiaro, tuttavia, se questi diritti includano i privilegi degli
-          scutari e dei pittori del 1365, 1380 e 1392, che potrebbero essersi
-          riferiti a una corporazione comune dei maestri della Città Vecchia e
-          della Città Nuova, o se i maestri della Città Nuova avessero già i
-          loro privilegi nel XIV secolo. In ogni caso, gli scutari erano già
-          stabiliti nella Città Nuova nel XIV secolo, come testimoniano il
+          . Non è chiaro, tuttavia, se questi diritti includano i privilegi
+          degli scutari e dei pittori del 1365, 1380 e 1392, che potrebbero
+          essersi riferiti a una corporazione comune dei maestri della Città
+          Vecchia e della Città Nuova, o se i maestri della Città Nuova avessero
+          già i loro privilegi nel XIV secolo. In ogni caso, gli scutari erano
+          già stabiliti nella Città Nuova nel XIV secolo, come testimoniano il
           summenzionato accordo tra gli scutari e i pittori della Città Vecchia
           e della Città Nuova del 1387. All&apos;inizio del XVI secolo, le
           dimensioni della corporazione della Città Nuova erano paragonabili a
-          quelle della corporazione della Città Vecchia, come testimoniato da una
-          riconciliazione del 1511, che nominava otto maestri della Città Vecchia
-          e sette della Città Nuova.
+          quelle della corporazione della Città Vecchia, come testimoniato da
+          una riconciliazione del 1511, che nominava otto maestri della Città
+          Vecchia e sette della Città Nuova.
           <Qt publication={PUBLICATIONS.DENKSTEIN3} note="p. 25" />
         </p>
         <p>
@@ -275,42 +276,43 @@ export const Targa = () => (
           </Cit>{' '}
           (dovranno annualmente, dopo Natale, presentare i conti, fornendo un
           pavese al signore e alla città per uso, onore e bellezza, per tutto il
-          tempo che ciò piacerà sia a loro che a noi, e come sembrerà opportuno e
-          gradito a loro e alla nostra città). Il pavese fornito dai pittori e
+          tempo che ciò piacerà sia a loro che a noi, e come sembrerà opportuno
+          e gradito a loro e alla nostra città). Il pavese fornito dai pittori e
           dagli scutari della Città Nuova doveva essere adornato sul lato
-          frontale con una decorazione pittorica altrettanto pregevole quanto gli
-          otto <Cit>malovaných, dobře žilovaných a kožovaných</Cit> (dipinti, ben
-          nervati e ricoperti di cuoio) pavesi della Città Vecchia.
+          frontale con una decorazione pittorica altrettanto pregevole quanto
+          gli otto <Cit>malovaných, dobře žilovaných a kožovaných</Cit>{' '}
+          (dipinti, ben nervati e ricoperti di cuoio) pavesi della Città
+          Vecchia.
           <Qt publication={PUBLICATIONS.DENKSTEIN3} note="p. 25" />
         </p>
         <p>
           La consegna dei pavesi obbligatori ai consigli della Città Vecchia e
           della Città Nuova era dunque un antico dovere dei pittori e degli
-          scutari praghesi, mantenuto fino all&apos;inizio del XVI secolo. Questo
-          obbligo era ripartito tra i membri della corporazione, che contribuivano
-          agli scudi pagando una quota chiamata{' '}
+          scutari praghesi, mantenuto fino all&apos;inizio del XVI secolo.
+          Questo obbligo era ripartito tra i membri della corporazione, che
+          contribuivano agli scudi pagando una quota chiamata{' '}
           <Cit>tributo delle targhe</Cit>. Tali contributi si trovano nel più
           antico libro della corporazione. Un&apos;iscrizione della fine del XIV
-          secolo menziona{' '}
-          <Cit>mezzo schock per scudo (o per scudi)</Cit>. In un elenco di membri
-          del periodo 1410-1420 circa, si trova la nota:{' '}
-          <Cit>Mykesch ostawa dluzen u pawessy</Cit> (Mykesch resta in debito per
-          il pavese), interpretata come un registro di{' '}
+          secolo menziona <Cit>mezzo schock per scudo (o per scudi)</Cit>. In un
+          elenco di membri del periodo 1410-1420 circa, si trova la nota:{' '}
+          <Cit>Mykesch ostawa dluzen u pawessy</Cit> (Mykesch resta in debito
+          per il pavese), interpretata come un registro di{' '}
           <Cit>tributo delle targhe</Cit> arretrato sui pavesi.
           <Qt publication={PUBLICATIONS.DENKSTEIN3} note="p. 26" />
         </p>
         <p>
-          Come è evidente, la storiografia ceca si è concentrata, comprensibilmente,
-          sui pavesi, mentre le targhe restano in gran parte trascurate e, se
-          discusse, lo sono principalmente riguardo alla loro possibile influenza
-          sullo sviluppo dei pavesi. Tuttavia, si può presumere che le targhe
-          ceche della seconda metà del XV secolo non differissero
-          significativamente dalle targhe nelle aree limitrofe dell&apos;Impero.
-          Un motivo comune sulle targhe delle regioni germanofone è una dama che
-          regge uno stemma completo, comprensivo di scudo araldico, elmo, cimiero
-          e lambrecchini, come si vede nei seguenti esempi del Metropolitan
-          Museum of Art. In due casi, la dama è accompagnata da un nastro con un
-          motto, privo di significato araldico e piuttosto di natura scherzosa.
+          Come è evidente, la storiografia ceca si è concentrata,
+          comprensibilmente, sui pavesi, mentre le targhe restano in gran parte
+          trascurate e, se discusse, lo sono principalmente riguardo alla loro
+          possibile influenza sullo sviluppo dei pavesi. Tuttavia, si può
+          presumere che le targhe ceche della seconda metà del XV secolo non
+          differissero significativamente dalle targhe nelle aree limitrofe
+          dell&apos;Impero. Un motivo comune sulle targhe delle regioni
+          germanofone è una dama che regge uno stemma completo, comprensivo di
+          scudo araldico, elmo, cimiero e lambrecchini, come si vede nei
+          seguenti esempi del Metropolitan Museum of Art. In due casi, la dama è
+          accompagnata da un nastro con un motto, privo di significato araldico
+          e piuttosto di natura scherzosa.
         </p>
       </Col>
     </Row>
@@ -343,10 +345,10 @@ export const Targa = () => (
         famiglia Gottsmann o a un parente della famiglia Türriegel, entrambe
         della Franconia. La figura femminile sul lato regge un cartiglio (nastro
         con iscrizione) con un motto parzialmente in tedesco: HAB MYCH ALS ICH
-        BIN... (Prendimi come sono...). La decorazione, con i suoi colori
-        vivaci su fondo di lamina argentata, è notevolmente ben conservata,
-        essendo rimasta nascosta per secoli sotto strati di pittura successiva.
-        Sul retro dello scudo, rivestito in cuoio, vi sono tracce della figura
+        BIN... (Prendimi come sono...). La decorazione, con i suoi colori vivaci
+        su fondo di lamina argentata, è notevolmente ben conservata, essendo
+        rimasta nascosta per secoli sotto strati di pittura successiva. Sul
+        retro dello scudo, rivestito in cuoio, vi sono tracce della figura
         dipinta di San Cristoforo, la cui immagine doveva proteggere da morte
         improvvisa.
         <table>
@@ -395,12 +397,12 @@ export const Targa = () => (
         decorazione argentata di foglie a spirale (ora annerite) su fondo nero.
         Durante la sua vita operativa, lo scudo fu secondariamente dipinto con
         due scudi recanti gli emblemi delle famiglie patrizie norimberghesi dei
-        Ketzel (su fondo nero una scimmia argentata che regge una palla dorata) e
-        degli Igelbrecht (su fondo argentato un riccio nero con tre mele dorate
-        sul dorso). Questi stemmi secondari potrebbero essere stati aggiunti alla
-        fine del XV secolo dalla famiglia Ketzel in memoria di Heinrich Ketzel il
-        Vecchio (morto nel 1438), borghese di Norimberga nel 1435-36, e di sua
-        moglie Anna Igelbrecht, che lo sposò nel 1391.
+        Ketzel (su fondo nero una scimmia argentata che regge una palla dorata)
+        e degli Igelbrecht (su fondo argentato un riccio nero con tre mele
+        dorate sul dorso). Questi stemmi secondari potrebbero essere stati
+        aggiunti alla fine del XV secolo dalla famiglia Ketzel in memoria di
+        Heinrich Ketzel il Vecchio (morto nel 1438), borghese di Norimberga nel
+        1435-36, e di sua moglie Anna Igelbrecht, che lo sposò nel 1391.
         <table>
           <tbody>
             <tr>
@@ -422,14 +424,14 @@ export const Targa = () => (
           Poiché non siamo riusciti a trovare alcuna targa sopravvissuta dal
           territorio ceco, ho scelto per la ricostruzione la seguente targa del
           1440-1460, probabilmente proveniente da Norimberga, attualmente
-          conservata nel Philadelphia Museum of Art. Come è noto, la Boemia aveva
-          un forte rapporto commerciale con Norimberga, e lo stesso Jošt possedeva
-          armi da fuoco fabbricate a Norimberga. Una targa con bordi a voluta
-          similmente stilizzati è raffigurata da Jan van Eyck nel suo dipinto
-          &ldquo;I Cavalieri di Cristo&rdquo;, che fa parte del pannello sinistro
-          del Polittico di Gand del 1432. Lo scudo fu ridipinto una prima volta
-          intorno al 1500 e il suo aspetto attuale è il risultato di una
-          ridipintura barocca del XVII secolo, quando fu dipinto per scopi
+          conservata nel Philadelphia Museum of Art. Come è noto, la Boemia
+          aveva un forte rapporto commerciale con Norimberga, e lo stesso Jošt
+          possedeva armi da fuoco fabbricate a Norimberga. Una targa con bordi a
+          voluta similmente stilizzati è raffigurata da Jan van Eyck nel suo
+          dipinto &ldquo;I Cavalieri di Cristo&rdquo;, che fa parte del pannello
+          sinistro del Polittico di Gand del 1432. Lo scudo fu ridipinto una
+          prima volta intorno al 1500 e il suo aspetto attuale è il risultato di
+          una ridipintura barocca del XVII secolo, quando fu dipinto per scopi
           funerari e recante gli stemmi delle famiglie patrizie norimberghesi
           Haller e Imhof. Lo scudo originale è alto 55,6 cm, largo 52 cm e ha
           una curvatura di 23 cm. Pesa 2880 grammi.
@@ -465,14 +467,14 @@ export const Targa = () => (
           Poiché la pittura originale della targa non si è conservata, abbiamo
           deciso di creare un motivo originale ma appropriato all&apos;epoca. Lo
           sfondo dello scudo è nero, con una decorazione di foglie argentate a
-          voluta, come nello scudo tedesco della fig. 3. Come modello per la dama
-          è stata scelta Santa Dorotea dall&apos;ala sinistra dell&apos;altare di
-          Jeníkov, datato al 1460. Lo stemma che ella regge sullo scudo si basa
-          sulla più antica raffigurazione nota dello stemma dei Týřovský dalla
-          lapide della chiesa di Jince. Le figure araldiche sono stilizzate
-          secondo il Libro d&apos;Armi (Wappenbuch), creato e donato
-          all&apos;imperatore Federico III dal patrizio Konrad Grünenberg di
-          Costanza nel 1483. Lo scudo araldico, diviso in quarti, mostra
+          voluta, come nello scudo tedesco della fig. 3. Come modello per la
+          dama è stata scelta Santa Dorotea dall&apos;ala sinistra
+          dell&apos;altare di Jeníkov, datato al 1460. Lo stemma che ella regge
+          sullo scudo si basa sulla più antica raffigurazione nota dello stemma
+          dei Týřovský dalla lapide della chiesa di Jince. Le figure araldiche
+          sono stilizzate secondo il Libro d&apos;Armi (Wappenbuch), creato e
+          donato all&apos;imperatore Federico III dal patrizio Konrad Grünenberg
+          di Costanza nel 1483. Lo scudo araldico, diviso in quarti, mostra
           un&apos;aquila imperiale nera (ossia a due teste) con armatura dorata
           (artigli e becco) su sfondo argentato nei campi 1 e 4, mentre nei
           campi 2 e 3 vi sono tre penne bianche unite da punte su campo azzurro.
@@ -532,10 +534,10 @@ export const Targa = () => (
         <h5>Pittura</h5>
         <p>
           Il corpo rivestito è stato poi dipinto con gesso, una miscela di colla
-          e gesso di Bologna finemente macinato, che doveva essere
-          accuratamente levigato. Ciò ha creato una superficie bianca liscia,
-          sulla quale poteva essere applicato un materiale chiamato bolo nelle
-          aree destinate alla futura argentatura e doratura. Il bolo rosso si
+          e gesso di Bologna finemente macinato, che doveva essere accuratamente
+          levigato. Ciò ha creato una superficie bianca liscia, sulla quale
+          poteva essere applicato un materiale chiamato bolo nelle aree
+          destinate alla futura argentatura e doratura. Il bolo rosso si
           utilizza sotto l&apos;oro, e il bolo nero sotto l&apos;argento. In
           questo caso, data la ridotta estensione delle aree dorate, è stato
           utilizzato solo bolo nero. La foglia d&apos;oro e d&apos;argento sono

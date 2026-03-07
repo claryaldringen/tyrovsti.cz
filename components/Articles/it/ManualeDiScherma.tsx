@@ -9,12 +9,13 @@ export const ManualeDiScherma = () => (
         <h1>Fechtbuch di Joachim Meyer (MS Bibl. 2465)</h1>
         <p>
           <b>MS Bibl. 2465</b> &egrave; un manuale di scherma tedesco scritto da
-          Joachim Meyer nel 1561. L&apos;originale &egrave; attualmente conservato
-          nelle collezioni del Museo Nazionale Bavarese a Monaco di Baviera, in
-          Germania. Questo manoscritto, che potrebbe essere l&apos;opera pi&ugrave;
-          antica di Meyer, fu creato per Georg Johann II, Conte Palatino di
-          Veldenz. Dalla met&agrave; del XX secolo si riteneva perduto, ma Olivier
-          Dupuis annunci&ograve; nel giugno 2021 di averlo riscoperto.
+          Joachim Meyer nel 1561. L&apos;originale &egrave; attualmente
+          conservato nelle collezioni del Museo Nazionale Bavarese a Monaco di
+          Baviera, in Germania. Questo manoscritto, che potrebbe essere
+          l&apos;opera pi&ugrave; antica di Meyer, fu creato per Georg Johann
+          II, Conte Palatino di Veldenz. Dalla met&agrave; del XX secolo si
+          riteneva perduto, ma Olivier Dupuis annunci&ograve; nel giugno 2021 di
+          averlo riscoperto.
         </p>
       </Col>
     </Row>
@@ -44,7 +45,10 @@ export const ManualeDiScherma = () => (
         </p>
       </Col>
       <Col md={6}>
-        <h4>Del combattimento e della scherma in armatura a piedi, brevemente descritto</h4>
+        <h4>
+          Del combattimento e della scherma in armatura a piedi, brevemente
+          descritto
+        </h4>
         <p>
           Poich&eacute; il combattimento ha molte forme, non si pu&ograve; dare
           alcuna regola fissa. Chi viene sfidato a combattere ha il vantaggio di
@@ -104,8 +108,8 @@ export const ManualeDiScherma = () => (
         <p>
           Inoltre, il suo braccio sinistro &egrave; scoperto, in cui tiene il
           pugnale per difendersi. Il mancino, invece, tiene il braccio destro
-          saldo con il pugnale per parare e combatte con la sinistra. Cos&igrave;
-          il destro subisce pi&ugrave; danno da s&eacute; stesso che
+          saldo con il pugnale per parare e combatte con la sinistra.
+          Cos&igrave; il destro subisce pi&ugrave; danno da s&eacute; stesso che
           dall&apos;avversario.
           <br />
           Da questo esempio &egrave; facile comprendere che chi sceglie o
@@ -173,14 +177,14 @@ export const ManualeDiScherma = () => (
           <br />
           Io, tuttavia, desidero prendere in considerazione un&apos;altra
           disposizione per mostrare come si svolge il combattimento a piedi, e
-          voglio anche nominare tre armi vantaggiose e ingegnosamente
-          costruite. La prima di queste &egrave; una spada, che deve essere
-          cos&igrave;: il pomolo deve avere quattro punte intorno ai lati e una
-          quinta in cima, che non deve essere lunga ma piuttosto compatta
-          cosicch&eacute; possa resistere ai colpi. L&apos;elsa a croce deve
-          avere la forma di un martello da muratore, e la punta e la lama
-          devono essere angolari. E tutto ci&ograve; deve essere forgiato da un
-          unico pezzo di ferro con la punta ben temprata.
+          voglio anche nominare tre armi vantaggiose e ingegnosamente costruite.
+          La prima di queste &egrave; una spada, che deve essere cos&igrave;: il
+          pomolo deve avere quattro punte intorno ai lati e una quinta in cima,
+          che non deve essere lunga ma piuttosto compatta cosicch&eacute; possa
+          resistere ai colpi. L&apos;elsa a croce deve avere la forma di un
+          martello da muratore, e la punta e la lama devono essere angolari. E
+          tutto ci&ograve; deve essere forgiato da un unico pezzo di ferro con
+          la punta ben temprata.
         </p>
       </Col>
     </Row>
@@ -218,27 +222,26 @@ export const ManualeDiScherma = () => (
       </Col>
       <Col md={6}>
         <p>
-          La spada deve anche essere resa sufficientemente flessibile affinch&eacute;
-          un uomo possa maneggiarla liberamente, e la sua lunghezza deve
-          adattarsi a ciascuno.
+          La spada deve anche essere resa sufficientemente flessibile
+          affinch&eacute; un uomo possa maneggiarla liberamente, e la sua
+          lunghezza deve adattarsi a ciascuno.
           <br />
           La sciabola deve essere robusta, con un buon filo, ma non troppo
           pesante.
           <br />
           Il pugnale deve essere triplo, con tre lame innestate l&apos;una
           nell&apos;altra &ndash; come se si infilassero tre spiedi l&apos;uno
-          nell&apos;altro. I bordi di queste tre lame devono chiudersi l&apos;uno
-          sull&apos;altro ed essere dotati di molle, cosicch&eacute; quando si
-          preme una parte, una lama viene rilasciata. Si usa quando si colpisce
-          in una giuntura &ndash; allora la lama apre la fessura e crea un
-          ampio foro. <br />
+          nell&apos;altro. I bordi di queste tre lame devono chiudersi
+          l&apos;uno sull&apos;altro ed essere dotati di molle, cosicch&eacute;
+          quando si preme una parte, una lama viene rilasciata. Si usa quando si
+          colpisce in una giuntura &ndash; allora la lama apre la fessura e crea
+          un ampio foro. <br />
           Quando la prima parte del pugnale viene poi rilasciata, la seconda
           punta &egrave; pi&ugrave; piccola e sottile e pu&ograve; penetrare nel
           foro gi&agrave; creato, il che va pi&ugrave; in profondit&agrave;
           rispetto al primo. Quando si avverte che la lama &egrave; entrata nel
-          corpo, si rilascia la molla e si lascia estendere la punta
-          pi&ugrave; robusta, che l&apos;avversario non pu&ograve; facilmente
-          estrarre.
+          corpo, si rilascia la molla e si lascia estendere la punta pi&ugrave;
+          robusta, che l&apos;avversario non pu&ograve; facilmente estrarre.
           <br />
           Il pugnale si usa dopo aver atterrato l&apos;avversario. Se
           l&apos;arma rimane incastrata, il pugnale pu&ograve; essere facilmente
@@ -247,9 +250,9 @@ export const ManualeDiScherma = () => (
           evidenti e l&apos;avversario difficilmente possa riconoscerle.
           <br />
           Chi usa quest&apos;arma dovrebbe esercitarsi a fondo in anticipo e
-          cercarvi il proprio vantaggio, poich&eacute; l&apos;avversario non
-          la riconoscer&agrave; n&eacute; la user&agrave; rapidamente nella
-          foga del combattimento.
+          cercarvi il proprio vantaggio, poich&eacute; l&apos;avversario non la
+          riconoscer&agrave; n&eacute; la user&agrave; rapidamente nella foga
+          del combattimento.
           <br />
         </p>
       </Col>
@@ -288,15 +291,14 @@ export const ManualeDiScherma = () => (
           intercettarlo tra entrambe le tue mani &ndash; e vedi se riesci a
           colpirlo.
           <br />
-          Inoltre, fai attenzione a non essere colto di sorpresa da un
-          affondo. Se, tuttavia, un affondo &egrave; stato diretto contro il tuo
-          lato sinistro, arretra con il piede sinistro oppure appoggia il pomolo
+          Inoltre, fai attenzione a non essere colto di sorpresa da un affondo.
+          Se, tuttavia, un affondo &egrave; stato diretto contro il tuo lato
+          sinistro, arretra con il piede sinistro oppure appoggia il pomolo
           della tua spada sul petto e dirigi la punta verso l&apos;avversario.
           Poi colpiscilo a tua volta e allontanalo da te.
-          <br />
-          E quando colpisce con ampi fendenti intorno a s&eacute;, seguilo con
-          la punta verso le sue aperture. Ricorda: le aperture sono queste: la
-          visiera, sotto le ascelle, le nocche, le mani, tra le gambe,
+          <br />E quando colpisce con ampi fendenti intorno a s&eacute;, seguilo
+          con la punta verso le sue aperture. Ricorda: le aperture sono queste:
+          la visiera, sotto le ascelle, le nocche, le mani, tra le gambe,
           dall&apos;esterno nel guanto, e ovunque l&apos;armatura abbia
           giunture. Ricorda di non cercare un&apos;apertura pi&ugrave; lontana
           quando puoi colpirne una pi&ugrave; vicina. E infine: libera le sue
@@ -337,8 +339,8 @@ export const ManualeDiScherma = () => (
       </Col>
       <Col>
         <p>
-          Liberati e, se possibile, rompi la sua posizione. Colpiscilo
-          anche all&apos;inguine, spezzagli la gamba o sferragli un colpo di
+          Liberati e, se possibile, rompi la sua posizione. Colpiscilo anche
+          all&apos;inguine, spezzagli la gamba o sferragli un colpo di
           ginocchio.
           <br />
           Prima di tutto voglio illustrare la scherma in armatura tramite
@@ -350,11 +352,12 @@ export const ManualeDiScherma = () => (
           verso il volto dell&apos;avversario. Avanza verso di lui in questo
           modo, con il piede sinistro sempre avanti &ndash; non troppo. E vedi
           se riesci a raggiungere il suo piede avanzato. Poi fingi come se
-          volessi colpirlo al volto, rilascia la mano destra dall&apos;impugnatura
-          e portala in aiuto alla mano sinistra, e colpiscilo con il pomolo
-          sulla testa o sul braccio sinistro. Se intercetta il tuo colpo tra
-          entrambe le sue mani, lascia oscillare la spada intorno alla testa e
-          colpiscilo dal tuo lato destro sul ginocchio o sulla caviglia.
+          volessi colpirlo al volto, rilascia la mano destra
+          dall&apos;impugnatura e portala in aiuto alla mano sinistra, e
+          colpiscilo con il pomolo sulla testa o sul braccio sinistro. Se
+          intercetta il tuo colpo tra entrambe le sue mani, lascia oscillare la
+          spada intorno alla testa e colpiscilo dal tuo lato destro sul
+          ginocchio o sulla caviglia.
           <br />
           Inoltre, avvicinati a lui in guardia alta (Oberhut) come prima e
           osserva se intende colpire di punta o di taglio &ndash; allora devia
@@ -402,20 +405,20 @@ export const ManualeDiScherma = () => (
           Quando la tua punta tiene saldamente, colpisci con entrambe le mani
           sotto l&apos;ascella destra e non lasciarlo sfuggire; anzi, premi in
           avanti. Inoltre, dalla guardia alta, avvicinati a lui e affonda verso
-          la sua visiera. Se para, poni la punta contro la sua spalla sinistra
-          e premi in avanti. Fai attenzione che non appena cerca di liberarsi,
-          tu prema il tuo peso su di lui con la lotta, il lancio o la spinta
+          la sua visiera. Se para, poni la punta contro la sua spalla sinistra e
+          premi in avanti. Fai attenzione che non appena cerca di liberarsi, tu
+          prema il tuo peso su di lui con la lotta, il lancio o la spinta
           &ndash; direttamente nella sua visiera. Ricorda: una volta che hai
           puntato contro qualcuno, non lasciarlo sfuggire, poich&eacute;
           cos&igrave; non pu&ograve; agire.
           <br />
-          La seconda guardia: tieni la spada con l&apos;elsa accanto all&apos;anca
-          destra e afferra la lama a met&agrave; con la mano sinistra
-          cosicch&eacute; la punta sia rivolta verso l&apos;avversario. Il piede
-          sinistro sempre avanti. Avanza verso di lui cos&igrave;: se affonda,
-          devia con la mano; se colpisce, intercetta il fendente tra entrambe
-          le tue mani nella lama. Nel frattempo osserva quando colpisce e
-          avanza con il piede destro verso di te, para come ti &egrave; stato
+          La seconda guardia: tieni la spada con l&apos;elsa accanto
+          all&apos;anca destra e afferra la lama a met&agrave; con la mano
+          sinistra cosicch&eacute; la punta sia rivolta verso l&apos;avversario.
+          Il piede sinistro sempre avanti. Avanza verso di lui cos&igrave;: se
+          affonda, devia con la mano; se colpisce, intercetta il fendente tra
+          entrambe le tue mani nella lama. Nel frattempo osserva quando colpisce
+          e avanza con il piede destro verso di te, para come ti &egrave; stato
           insegnato e spingi il pomolo nella piega del suo ginocchio.
           <br />
           Se cerca di ritirare quel piede, punta sotto la sua ascella destra o
@@ -464,18 +467,18 @@ export const ManualeDiScherma = () => (
         <p>
           giunture. Inoltre devia il suo affondo, e fa&apos; altrettanto. Ogni
           volta che hai puntato contro di lui, colpisci con il pomolo sotto le
-          sue ascelle ogni volta che vedi il tuo vantaggio. I punti da
-          colpire sono quattro: uno al volto, uno alla gola, uno all&apos;ascella
+          sue ascelle ogni volta che vedi il tuo vantaggio. I punti da colpire
+          sono quattro: uno al volto, uno alla gola, uno all&apos;ascella
           sinistra, oppure uno sotto la spalla destra.
           <br />
           Ricorda: quando punti contro il suo lato sinistro, avanza con il piede
           sinistro avanti; quando punti sotto la sua spalla destra, avanza con
           il piede destro. Inoltre, ogni volta che hai puntato contro di lui,
-          devi sempre premere verso l&apos;alto. Ma se &egrave;
-          pi&ugrave; basso di te, abbassa l&apos;elsa fino all&apos;altezza
-          dell&apos;anca e poi premi verso l&apos;alto allontanandolo da te. Se
-          lascia scoperto il fianco, colpisci il suo elmo, poich&eacute;
-          &egrave; l&agrave; che &egrave; pi&ugrave; vulnerabile.
+          devi sempre premere verso l&apos;alto. Ma se &egrave; pi&ugrave; basso
+          di te, abbassa l&apos;elsa fino all&apos;altezza dell&apos;anca e poi
+          premi verso l&apos;alto allontanandolo da te. Se lascia scoperto il
+          fianco, colpisci il suo elmo, poich&eacute; &egrave; l&agrave; che
+          &egrave; pi&ugrave; vulnerabile.
           <br />
           Ogni volta che punti contro di lui, assicurati di posizionare bene la
           punta nella maglia, poich&eacute; quando punti correttamente e premi
@@ -488,9 +491,9 @@ export const ManualeDiScherma = () => (
           sinistra afferra il suo elmo e gettalo rapidamente all&apos;indietro.
           <br />
           Inoltre affonda nel guanto della sua mano avanzata e guidalo in
-          circolo, oppure affonda sotto il suo braccio sinistro verso l&apos;alto
-          sopra la sua spada, premi con il pomolo verso l&apos;alto e punta
-          contro di lui. Inoltre, riguardo alla
+          circolo, oppure affonda sotto il suo braccio sinistro verso
+          l&apos;alto sopra la sua spada, premi con il pomolo verso l&apos;alto
+          e punta contro di lui. Inoltre, riguardo alla
         </p>
       </Col>
     </Row>
@@ -528,26 +531,25 @@ export const ManualeDiScherma = () => (
       <Col>
         <p>
           lotta, osserva da quale lato ha puntato contro di te, poi afferra la
-          sua lama con la mano sinistra e allontanala da te; nel frattempo
-          tira indietro e attiralo verso di te. Afferra la sua mano destra con
-          la tua mano destra, tiralo verso di te, cingigli il corpo e
-          solleva verso l&apos;alto. Quando lo sollevi, colpisci i suoi piedi
-          dal basso e gettalo lontano da te.
+          sua lama con la mano sinistra e allontanala da te; nel frattempo tira
+          indietro e attiralo verso di te. Afferra la sua mano destra con la tua
+          mano destra, tiralo verso di te, cingigli il corpo e solleva verso
+          l&apos;alto. Quando lo sollevi, colpisci i suoi piedi dal basso e
+          gettalo lontano da te.
           <br />
-          Inoltre, se qualcuno ti affonda contro, affonda simultaneamente
-          verso il suo lato sinistro, e nell&apos;affondo cattura la sua lama
-          contro la tua e spingi il pomolo dal basso attraverso entrambe le
-          braccia e colpisci verso l&apos;alto, cosicch&eacute; debba lasciare
-          la presa.
+          Inoltre, se qualcuno ti affonda contro, affonda simultaneamente verso
+          il suo lato sinistro, e nell&apos;affondo cattura la sua lama contro
+          la tua e spingi il pomolo dal basso attraverso entrambe le braccia e
+          colpisci verso l&apos;alto, cosicch&eacute; debba lasciare la presa.
           <br />
           Fai anche attenzione: qualunque mano tu riesca ad afferrare, tirala
           verso di te, e con l&apos;altra mano afferra il suo gomito e togli
           l&apos;equilibrio. In tutti questi passi, non fare passi troppo ampi,
           cosicch&eacute; tu mantenga una posizione salda.
           <br />
-          Inoltre, se hai gettato qualcuno a terra e cade, cadilo con lui
-          sul suo lato destro con il ginocchio destro tra le sue gambe e la
-          mano sinistra intorno al suo collo. Una volta che lo tieni saldamente,
+          Inoltre, se hai gettato qualcuno a terra e cade, cadilo con lui sul
+          suo lato destro con il ginocchio destro tra le sue gambe e la mano
+          sinistra intorno al suo collo. Una volta che lo tieni saldamente,
           estrai il pugnale. Se cerca di afferrare il pugnale, colpiscilo alla
           mano e tira indietro finch&eacute; non vedi un vantaggio migliore.
           <br />
@@ -599,23 +601,22 @@ export const ManualeDiScherma = () => (
         <p>
           Ricorda: al primo approccio, avanza verso di lui in guardia alta e
           posizionati con il gesto come se volessi colpirlo al volto, ma non
-          farlo &ndash; piuttosto, colpisci o fendi dall&apos;alto verso il basso
-          verso la sua rotula. Che tu colpisca o no, continua agilmente verso
-          l&apos;alto con le mani e colpiscilo con il becco dell&apos;elsa a
-          croce sulla testa, dall&apos;esterno sopra il suo braccio destro,
+          farlo &ndash; piuttosto, colpisci o fendi dall&apos;alto verso il
+          basso verso la sua rotula. Che tu colpisca o no, continua agilmente
+          verso l&apos;alto con le mani e colpiscilo con il becco dell&apos;elsa
+          a croce sulla testa, dall&apos;esterno sopra il suo braccio destro,
           oppure colpiscilo sulla giuntura pi&ugrave; vicina che puoi
           raggiungere.
           <br />
           Tira rapidamente intorno alla testa e lascia scorrere la mano destra
-          davanti alla sinistra, e con essa afferra la lama dietro la tua
-          mano sinistra e sferra un colpo medio (Mittelschlag) dal tuo lato
-          destro verso il suo elmo &ndash; sia con il becco, il filo o il
-          pomolo.
+          davanti alla sinistra, e con essa afferra la lama dietro la tua mano
+          sinistra e sferra un colpo medio (Mittelschlag) dal tuo lato destro
+          verso il suo elmo &ndash; sia con il becco, il filo o il pomolo.
           <br />
           Egli afferra la tua presa; con la mano destra arretra nuovamente per
           recuperare l&apos;equilibrio e fai molta attenzione che non sferra un
-          colpo. Inoltre non cercare di puntare contro di lui, ma piuttosto
-          cedi in cerchio per quanto possibile.
+          colpo. Inoltre non cercare di puntare contro di lui, ma piuttosto cedi
+          in cerchio per quanto possibile.
         </p>
       </Col>
     </Row>
@@ -674,8 +675,8 @@ export const ManualeDiScherma = () => (
           Ma se proprio non puoi evitare il colpo, intercettalo in alto tra
           entrambe le mani nella lama e nel frattempo lancia il pomolo sopra la
           tua spalla sinistra, e spingi verso l&apos;alto con la mano sinistra e
-          porta la destra in aiuto alla sinistra. Cos&igrave; sferrerai un
-          colpo prima che egli recuperi la posizione.
+          porta la destra in aiuto alla sinistra. Cos&igrave; sferrerai un colpo
+          prima che egli recuperi la posizione.
         </p>
       </Col>
     </Row>
@@ -699,8 +700,8 @@ export const ManualeDiScherma = () => (
         <p>
           Ricorda: quando si avvicina a te in guardia alta e affonda o colpisce,
           devia con la mano sinistra. Nella deviazione, afferra la sua lama
-          contro la tua e guidala con la legatura dal basso attraverso, e
-          avanza con il piede destro dietro il suo sinistro e gettalo a terra.
+          contro la tua e guidala con la legatura dal basso attraverso, e avanza
+          con il piede destro dietro il suo sinistro e gettalo a terra.
         </p>
       </Col>
     </Row>
@@ -737,15 +738,14 @@ export const ManualeDiScherma = () => (
           Inoltre, se colpisce dal basso, abbassa il pomolo verso il basso verso
           terra e intercetta tra entrambe le tue mani. Quando rialza la spada,
           spingi il pomolo dal basso verso l&apos;alto verso i genitali e nel
-          frattempo volgi la mano sinistra verso l&apos;alto contro il suo
-          colpo in arrivo e devialo, e poi spingi verso l&apos;alto con
-          l&apos;elsa e affonda sopra il suo braccio destro nel volto e punta
-          contro di lui.
+          frattempo volgi la mano sinistra verso l&apos;alto contro il suo colpo
+          in arrivo e devialo, e poi spingi verso l&apos;alto con l&apos;elsa e
+          affonda sopra il suo braccio destro nel volto e punta contro di lui.
           <br />
           Avvicinati all&apos;uomo anche in guardia bassa (Unterhut) e affonda
           dal basso al suo volto. Se colpisce o affonda dal basso, devia e
-          rilascia la mano destra dalla presa e gettala dietro di te. Porta
-          la mano destra in aiuto alla sinistra e colpisci dal basso verso
+          rilascia la mano destra dalla presa e gettala dietro di te. Porta la
+          mano destra in aiuto alla sinistra e colpisci dal basso verso
           l&apos;alto con il becco tra le sue gambe all&apos;inguine.
           Immediatamente tira entrambe le mani verso l&apos;alto intorno alla
           testa e colpisci alle aperture superiori.
@@ -793,17 +793,17 @@ export const ManualeDiScherma = () => (
           rilascia la presa dalla mano destra e con essa afferra la lama. Se
           colpisce, prendilo con l&apos;elsa dal tuo lato destro contro il suo
           sinistro. Nel prenderlo, lascia oscillare l&apos;elsa intorno alla
-          testa e colpiscilo nella piega del ginocchio avanzato. Rapidamente
-          fai un passo indietro cosicch&eacute; tu mantenga l&apos;equilibrio e
+          testa e colpiscilo nella piega del ginocchio avanzato. Rapidamente fai
+          un passo indietro cosicch&eacute; tu mantenga l&apos;equilibrio e
           riprenda la presa.
           <br />
           Dalle tecniche fin qui descritte, &egrave; sufficientemente chiaro
           come si devono sferrare i colpi. E si noti che ci si deve guardare dal
           puntare o lottare il pi&ugrave; possibile finch&eacute; non si
           &egrave; prima grandemente indebolito l&apos;avversario con colpi
-          possenti alla caviglia, al ginocchio, alle giunture del gomito e
-          altre aperture. Quando &egrave; cos&igrave; esausto e indebolito dai
-          colpi, allora procedi a puntare contro di lui.
+          possenti alla caviglia, al ginocchio, alle giunture del gomito e altre
+          aperture. Quando &egrave; cos&igrave; esausto e indebolito dai colpi,
+          allora procedi a puntare contro di lui.
           <br />
           Prima di ci&ograve;, non dovresti restare fermo di fronte a lui, ma
           cedere costantemente a passo misurato e lasciarlo esaurire; tuttavia,
@@ -850,8 +850,8 @@ export const ManualeDiScherma = () => (
           saldamente nella presa, colpisci con l&apos;elsa sotto la tua ascella
           destra e premilo in avanti, oppure punta sotto la sua ascella destra e
           colpisci con il pomolo sotto la tua ascella sinistra, e allontanalo da
-          te e non lasciarlo sfuggire. Poi estrai la sciabola con la mano
-          destra e lavora alle sue giunture, o con fendenti dal basso.
+          te e non lasciarlo sfuggire. Poi estrai la sciabola con la mano destra
+          e lavora alle sue giunture, o con fendenti dal basso.
           <br />
           Inoltre fingi come se volessi colpirlo con il pomolo nella visiera.
           Non appena noti che inizia a parare tra entrambe le mani, tira
@@ -924,8 +924,7 @@ export const ManualeDiScherma = () => (
           destro contro il suo sinistro, con la punta ben sopra la sua spada.
           Afferra la sua spada contro la tua, rilascia la mano destra e afferra
           il suo gomito sinistro. Tiralo verso l&apos;alto verso di te sul tuo
-          lato sinistro e avanza con il piede sinistro &ndash;
-          cos&igrave; cade.
+          lato sinistro e avanza con il piede sinistro &ndash; cos&igrave; cade.
           <br />
           Inoltre, avvicinandoti, posizionati con il gesto come se volessi
           affondare, ma tira indietro verso di te e lascia scorrere la presa
@@ -933,9 +932,9 @@ export const ManualeDiScherma = () => (
           (Bundtschlag) o un fendente alla spalla destra. Nota: non appena
           inizia a parare, completa il fendente con la mano sinistra e nel
           frattempo raggiungi con la mano destra dal basso attraverso la tua
-          spada e afferra la sua mano destra. Tiralo verso di te e porta la
-          mano sinistra insieme alla spada in aiuto alla destra &ndash;
-          rompilo o gettalo come preferisci.
+          spada e afferra la sua mano destra. Tiralo verso di te e porta la mano
+          sinistra insieme alla spada in aiuto alla destra &ndash; rompilo o
+          gettalo come preferisci.
           <br />
           Inoltre colpiscilo con la presa alla testa. Durante il colpo, rilascia
           la mano e con quella stessa mano afferra il suo gomito destro. Poi
@@ -987,23 +986,23 @@ export const ManualeDiScherma = () => (
           Inoltre, quando lo hai indebolito con colpi possenti come insegnato in
           precedenza, prendi la spada come prima in guardia alta e affondagli
           dall&apos;alto. Durante l&apos;affondo, rilascia la mano destra dalla
-          presa ed estrai la sciabola. Non appena anche lui estrae la sua,
-          fendi alla sua mano e segui rapidamente con la sciabola dal basso
-          verso l&apos;alto al suo braccio. Avanza con il piede destro dietro
-          il suo sinistro e colpisci con il pomolo alla gola, alla spalla o al
-          volto &ndash; cos&igrave; cade.
+          presa ed estrai la sciabola. Non appena anche lui estrae la sua, fendi
+          alla sua mano e segui rapidamente con la sciabola dal basso verso
+          l&apos;alto al suo braccio. Avanza con il piede destro dietro il suo
+          sinistro e colpisci con il pomolo alla gola, alla spalla o al volto
+          &ndash; cos&igrave; cade.
           <br />
           Inoltre, una volta estratte entrambe le armi, avanza verso di lui con
-          il piede destro avanti. Tieni la sciabola nella mano destra e la
-          spada nella sinistra per l&apos;affondo. Avanza e affonda
-          dall&apos;alto nel suo volto, e spingi la sciabola dal basso verso
-          l&apos;alto tra te e lui per parare. Nel frattempo lascia oscillare
-          la spada dall&apos;alto e affonda al suo inguine. Se afferra con la
-          mano sinistra la spada, rilasciala e con la tua mano sinistra afferra
-          la sua mano sinistra, tirala verso di te e colpisci con la sciabola
-          alla sua giuntura. Avanza con il piede destro davanti al suo sinistro,
-          volgiti sul tuo lato sinistro e gettalo sopra la tua gamba destra
-          &ndash; oppure rompigli il braccio.
+          il piede destro avanti. Tieni la sciabola nella mano destra e la spada
+          nella sinistra per l&apos;affondo. Avanza e affonda dall&apos;alto nel
+          suo volto, e spingi la sciabola dal basso verso l&apos;alto tra te e
+          lui per parare. Nel frattempo lascia oscillare la spada dall&apos;alto
+          e affonda al suo inguine. Se afferra con la mano sinistra la spada,
+          rilasciala e con la tua mano sinistra afferra la sua mano sinistra,
+          tirala verso di te e colpisci con la sciabola alla sua giuntura.
+          Avanza con il piede destro davanti al suo sinistro, volgiti sul tuo
+          lato sinistro e gettalo sopra la tua gamba destra &ndash; oppure
+          rompigli il braccio.
           <br />
           Quando, tuttavia, rilascia la mano destra e
         </p>
@@ -1050,16 +1049,15 @@ export const ManualeDiScherma = () => (
           Inoltre, se sei stato separato dalla tua spada, attaccalo con la
           sciabola e con la mano sinistra afferra la lama della sua spada.
           Intrappolala sotto la tua ascella sinistra, o tienila saldamente
-          lontana da te, e fendi alla sua mano. Se rilascia la spada e cerca
-          di afferrare la sciabola, affonda con la sciabola dall&apos;esterno
-          nel suo guanto. Non tirare indietro ma colpisci con l&apos;elsa nel
-          suo volto e fagli lo sgambetto all&apos;indietro &ndash;
-          cos&igrave; cade.
+          lontana da te, e fendi alla sua mano. Se rilascia la spada e cerca di
+          afferrare la sciabola, affonda con la sciabola dall&apos;esterno nel
+          suo guanto. Non tirare indietro ma colpisci con l&apos;elsa nel suo
+          volto e fagli lo sgambetto all&apos;indietro &ndash; cos&igrave; cade.
           <br />
           Inoltre, se hai afferrato la sua spada e vuole estrarre la sciabola,
-          fendi alla sua mano oppure rilascia la sua spada e afferra la sua
-          mano destra. Tirala verso di te e affonda o colpiscilo con il pomolo
-          della sciabola alla sua giuntura.
+          fendi alla sua mano oppure rilascia la sua spada e afferra la sua mano
+          destra. Tirala verso di te e affonda o colpiscilo con il pomolo della
+          sciabola alla sua giuntura.
           <br />
           In sintesi: con la spada devi tagliare attraverso le giunture
           dell&apos;armatura; con il becco o il filo, colpisci le rotule e le
@@ -1108,15 +1106,15 @@ export const ManualeDiScherma = () => (
           entrambe le armi, mantieniti in guardia bassa e aspetta con la mano
           destra per vedere se riesci ad afferrare la sua spada, e con la
           sciabola aspetta il suo colpo. Vedi se riesci a ottenere il vantaggio
-          contro il suo gomito sinistro. Non devi estrarre il pugnale finch&eacute;
-          non lo hai gettato a terra.
+          contro il suo gomito sinistro. Non devi estrarre il pugnale
+          finch&eacute; non lo hai gettato a terra.
           <br />
           Quando lo hai gettato a terra, cattura il suo braccio destro con il
           ginocchio sinistro e poni la mano sinistra alla sua gola. Afferra la
-          sua mano sinistra con la destra e porta la mano sinistra in aiuto
-          alla destra. Poi estrai il pugnale e lavora tra le giunture dove
-          ritieni sia pi&ugrave; dannoso. Quando hai aperto le giunture, premi
-          una molla per rilasciare e affonda con la lama pi&ugrave; piccola tra
+          sua mano sinistra con la destra e porta la mano sinistra in aiuto alla
+          destra. Poi estrai il pugnale e lavora tra le giunture dove ritieni
+          sia pi&ugrave; dannoso. Quando hai aperto le giunture, premi una molla
+          per rilasciare e affonda con la lama pi&ugrave; piccola tra
         </p>
       </Col>
     </Row>
@@ -1155,8 +1153,8 @@ export const ManualeDiScherma = () => (
       <Col>
         <p>
           le giunture aperte. Inoltre, rilascia il pugnale interamente con tutte
-          le sue punte e lavora con la lama pi&ugrave; piccola all&apos;elmo dove
-          &egrave; aperto. Dove si trovano le altre aperture &egrave; stato
+          le sue punte e lavora con la lama pi&ugrave; piccola all&apos;elmo
+          dove &egrave; aperto. Dove si trovano le altre aperture &egrave; stato
           insegnato in precedenza.
           <br />
           Se cade sulla pancia, cadi sulle giunture del suo braccio con il
@@ -1176,8 +1174,8 @@ export const ManualeDiScherma = () => (
           inutilmente la stessa cosa. Inoltre, poich&eacute; l&apos;arte della
           scherma &egrave; tale che chi vi &egrave; esperto dovrebbe vedere il
           proprio vantaggio anche in armi non familiari, ho disposto il tutto
-          cosicch&eacute; un&apos;arma sia collegata all&apos;altra, affinch&eacute;
-          chiunque
+          cosicch&eacute; un&apos;arma sia collegata all&apos;altra,
+          affinch&eacute; chiunque
         </p>
       </Col>
     </Row>
@@ -1205,15 +1203,15 @@ export const ManualeDiScherma = () => (
       <Col>
         <p>
           desideri esercitarsi e armonizzare un&apos;arma con l&apos;altra
-          &ndash; cosicch&eacute; ci&ograve; che si &egrave; appreso nella spada,
-          lo si provi anche nel dusack; e ci&ograve; che si &egrave; appreso nel
-          dusack, lo si trasferisca anche nello stocco, e dallo stocco di nuovo
-          al dusack. Parimenti, le prese e le lotte con il pugnale nella
-          scherma in armatura. Cos&igrave; vale anche per le armi pi&ugrave;
-          lunghe come bastoni, alabarde e lance. Chi segue questa regola
-          trover&agrave; questo libro utile, e la mia diligenza sar&agrave; ben
-          ricompensata. Poich&eacute; &egrave; stato fatto pi&ugrave; per
-          l&apos;istruzione che per la mera ostentazione.
+          &ndash; cosicch&eacute; ci&ograve; che si &egrave; appreso nella
+          spada, lo si provi anche nel dusack; e ci&ograve; che si &egrave;
+          appreso nel dusack, lo si trasferisca anche nello stocco, e dallo
+          stocco di nuovo al dusack. Parimenti, le prese e le lotte con il
+          pugnale nella scherma in armatura. Cos&igrave; vale anche per le armi
+          pi&ugrave; lunghe come bastoni, alabarde e lance. Chi segue questa
+          regola trover&agrave; questo libro utile, e la mia diligenza
+          sar&agrave; ben ricompensata. Poich&eacute; &egrave; stato fatto
+          pi&ugrave; per l&apos;istruzione che per la mera ostentazione.
         </p>
       </Col>
     </Row>

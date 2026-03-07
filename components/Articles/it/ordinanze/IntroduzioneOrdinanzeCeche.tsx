@@ -15,11 +15,11 @@ export const IntroduzioneOrdinanzeCeche = () => (
           al XV secolo. Tra le più note vi è l&apos;
           <i>Ordinanza militare di Federico I Barbarossa</i> del 1158. La più
           antica ordinanza militare degli svizzeri è la cosiddetta{' '}
-          <i>Sempacherbrief</i>, redatta a Zurigo nel 1393. Queste due
-          ordinanze divennero la base e il modello per la maggior parte degli
-          scritti successivi di questa natura nelle aree germaniche. Tralasciando
-          la discussa datazione della cosiddetta Ordinanza di Hodětín (che i
-          vari studiosi collocano tra il 1413 e il 1431), il primo tentativo di
+          <i>Sempacherbrief</i>, redatta a Zurigo nel 1393. Queste due ordinanze
+          divennero la base e il modello per la maggior parte degli scritti
+          successivi di questa natura nelle aree germaniche. Tralasciando la
+          discussa datazione della cosiddetta Ordinanza di Hodětín (che i vari
+          studiosi collocano tra il 1413 e il 1431), il primo tentativo di
           introdurre un&apos;ordinanza militare a pieno titolo fu compiuto da
           Jan Hvězda z Vícemilice nell&apos;ottobre 1421 a Praga. Questa
           ordinanza, tuttavia, non ci è pervenuta ed è nota unicamente grazie a

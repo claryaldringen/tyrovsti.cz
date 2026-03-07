@@ -11,9 +11,7 @@ export const OrdinanzaDiHodetin = () => (
           className="anchor"
           id="la-cosiddetta-ordinanza-militare-di-jan-hajek-di-hodetin"
         />
-        <h4>
-          La cosiddetta ordinanza militare di Jan Hájek di Hodětín
-        </h4>
+        <h4>La cosiddetta ordinanza militare di Jan Hájek di Hodětín</h4>
         <p>
           La trascrizione è stata tratta dal sito scolastico{' '}
           <Link href="https://www.digladior.cz/historicky-serm/vojenske-zrizeni-dle-vaclava-iv/">
@@ -33,11 +31,11 @@ export const OrdinanzaDiHodetin = () => (
           scritto sulla base delle esperienze del periodo delle guerre hussite.
           È inoltre singolare la precisione con cui viene descritta
           l&apos;organizzazione del campo di carri da guerra. La stesura
-          dell&apos;ordinanza è pertanto datata piuttosto al 1431.
-          Purtroppo il manoscritto originale non è giunto fino ai nostri giorni,
-          poiché fu distrutto nell&apos;incendio del Municipio della Città
-          Vecchia nel maggio 1945. Oggi è noto grazie a copie più recenti e a
-          edizioni successive.
+          dell&apos;ordinanza è pertanto datata piuttosto al 1431. Purtroppo il
+          manoscritto originale non è giunto fino ai nostri giorni, poiché fu
+          distrutto nell&apos;incendio del Municipio della Città Vecchia nel
+          maggio 1945. Oggi è noto grazie a copie più recenti e a edizioni
+          successive.
         </p>
         <p>&nbsp;</p>
       </Col>
@@ -355,15 +353,15 @@ export const OrdinanzaDiHodetin = () => (
         <p>
           Nell&apos;anno del Signore 1413, l&apos;illustre memoria del re
           Venceslao di Boemia, allorché, a causa dell&apos;opposizione del
-          signore Puota di Skála contro Sua Maestà Reale, ordinò
-          l&apos;assedio del castello del suddetto signore, comandò che questi
-          articoli sottoscritti e leggi militari fossero messi per iscritto dal
-          rinomato scudiero Hájek di Hodětín, ciambellano del Regno di Boemia,
-          a beneficio dei futuri boemi bellicosi, affinché sapessero come
-          condursi nell&apos;esercito; e ordinò che fossero letti dagli scribi
-          militari nell&apos;accampamento dinanzi al suddetto castello, affinché
-          tutti li osservassero sotto le pene scritte di seguito. E così, nel
-          nome di Dio, hanno inizio:
+          signore Puota di Skála contro Sua Maestà Reale, ordinò l&apos;assedio
+          del castello del suddetto signore, comandò che questi articoli
+          sottoscritti e leggi militari fossero messi per iscritto dal rinomato
+          scudiero Hájek di Hodětín, ciambellano del Regno di Boemia, a
+          beneficio dei futuri boemi bellicosi, affinché sapessero come condursi
+          nell&apos;esercito; e ordinò che fossero letti dagli scribi militari
+          nell&apos;accampamento dinanzi al suddetto castello, affinché tutti li
+          osservassero sotto le pene scritte di seguito. E così, nel nome di
+          Dio, hanno inizio:
         </p>
 
         <p>
@@ -392,9 +390,9 @@ export const OrdinanzaDiHodetin = () => (
           Item. Nessuna prostituzione sarà tollerata nell&apos;accampamento, né
           dinanzi all&apos;esercito né nei suoi dintorni; tali donne dissolute
           saranno scacciate senza clemenza dal prevosto militare. Se il prevosto
-          trascura questo dovere, sarà considerato disobbediente. Se qualcuno
-          si macchia di tale maleficio, riceverà un soldo senza clemenza per
-          mezzo della punizione corporale.
+          trascura questo dovere, sarà considerato disobbediente. Se qualcuno si
+          macchia di tale maleficio, riceverà un soldo senza clemenza per mezzo
+          della punizione corporale.
         </p>
         <p>
           Item. Se qualcuno commette violenza contro una fanciulla o un giovane
@@ -405,9 +403,9 @@ export const OrdinanzaDiHodetin = () => (
           per ordine dei comandanti designati. Pertanto, gli oggetti sacri quali
           paramenti, calici, campane, libri e altri ornamenti ecclesiastici, e
           soprattutto il Corpo di Cristo, non saranno toccati né sottratti.
-          Chiunque saccheggi una chiesa avrà la mano mozzata. Se qualcuno
-          prende il Corpo di Cristo con un&apos;arma o alcuno dei Suoi
-          sacramenti e lo profana, sarà arso senza clemenza.
+          Chiunque saccheggi una chiesa avrà la mano mozzata. Se qualcuno prende
+          il Corpo di Cristo con un&apos;arma o alcuno dei Suoi sacramenti e lo
+          profana, sarà arso senza clemenza.
         </p>
 
         <p>
@@ -422,9 +420,9 @@ export const OrdinanzaDiHodetin = () => (
           ladrone.
         </p>
         <p>
-          Item. Nessuno prenderà cavalli, vacche o altro bestiame, né
-          indumenti, né altri beni pertinenti all&apos;economia domestica in
-          territorio amico; chi lo farà sarà punito come un ladrone.
+          Item. Nessuno prenderà cavalli, vacche o altro bestiame, né indumenti,
+          né altri beni pertinenti all&apos;economia domestica in territorio
+          amico; chi lo farà sarà punito come un ladrone.
         </p>
         <p>
           Item. Se qualcuno inizia una rissa nell&apos;accampamento, sarà
@@ -442,8 +440,8 @@ export const OrdinanzaDiHodetin = () => (
         </p>
         <p>
           Item. Tutti i fanti marceranno nei propri ranghi sotto stendardi e
-          bandiere come ordinato dai comandanti designati. Se qualcuno si
-          separa dai propri ranghi senza il comando e la volontà dei signori
+          bandiere come ordinato dai comandanti designati. Se qualcuno si separa
+          dai propri ranghi senza il comando e la volontà dei signori
           comandanti, sarà punito come si conviene.
         </p>
         <p>
@@ -451,8 +449,8 @@ export const OrdinanzaDiHodetin = () => (
           marcerà ordinatamente nei propri ranghi come ordinato dai comandanti
           designati. Se qualcuno, di propria volontà, si separa in qualsiasi
           direzione e viene catturato o subisce alcun danno, non ce ne faremo
-          carico né compenseremo alcun danno da lui subito. Gli altri nobili e
-          i nostri leali amici tratteranno i loro servitori nel medesimo modo,
+          carico né compenseremo alcun danno da lui subito. Gli altri nobili e i
+          nostri leali amici tratteranno i loro servitori nel medesimo modo,
           salvo che i comandanti ordinino a qualcuno di cavalcare in un luogo
           determinato, nel qual caso egli sarà esente da colpa.
         </p>
@@ -463,8 +461,8 @@ export const OrdinanzaDiHodetin = () => (
           propri ranghi. Se qualcuno si separa dai propri ranghi, i conducenti
           dei carri di approvvigionamento prenderanno i loro cavalli e non li
           restituiranno ad alcuno fino al ritorno all&apos;accampamento, e per
-          ciascun cavallo riscuoteranno dieci grossi, senza mostrare clemenza
-          né perdono alcuno. Parimenti, ai fanti saranno confiscate le balestre
+          ciascun cavallo riscuoteranno dieci grossi, senza mostrare clemenza né
+          perdono alcuno. Parimenti, ai fanti saranno confiscate le balestre
           qualora si allontanino dai propri ranghi senza il permesso dei
           comandanti, e non saranno loro restituite fino al ritorno
           all&apos;accampamento, quando ciascun balestriere pagherà cinque
@@ -498,8 +496,8 @@ export const OrdinanzaDiHodetin = () => (
           Item. Nessuno appicchi fuoco alcuno, salvo per ordine dei nostri
           comandanti designati. In particolare, se un castello viene espugnato,
           non sarà dato alle fiamme senza la volontà e l&apos;ordine dei
-          medesimi comandanti. Se qualcuno appicca il fuoco nonostante ciò,
-          sarà arso senza clemenza.
+          medesimi comandanti. Se qualcuno appicca il fuoco nonostante ciò, sarà
+          arso senza clemenza.
         </p>
         <p>
           Item. Quando, per volontà di Dio, i nemici siano catturati in
@@ -544,9 +542,9 @@ export const OrdinanzaDiHodetin = () => (
           Item. I comandanti designati sopra la cavalleria e la fanteria e
           preposti alla disposizione dei carri saranno obbediti da tutti coloro
           posti sotto il loro comando, e nessuno si opporrà ad essi né
-          contenderà con essi a parole o con i fatti. Se qualcuno deliberatamente
-          disobbedisce a questi comandanti e agisce di propria volontà, sarà
-          punito a esempio degli altri.
+          contenderà con essi a parole o con i fatti. Se qualcuno
+          deliberatamente disobbedisce a questi comandanti e agisce di propria
+          volontà, sarà punito a esempio degli altri.
         </p>
 
         <p>
@@ -593,9 +591,9 @@ export const OrdinanzaDiHodetin = () => (
         </p>
         <p>
           Item. Durante le marce, le rassegne o qualsiasi incontro, quando una
-          schiera più forte incontra o sorpassa una più debole, la più forte
-          non sottrarrà nulla alla più debole né la ostacolerà, ma la lascerà
-          in pace. Se una schiera più forte sottrae o ostacola la più debole
+          schiera più forte incontra o sorpassa una più debole, la più forte non
+          sottrarrà nulla alla più debole né la ostacolerà, ma la lascerà in
+          pace. Se una schiera più forte sottrae o ostacola la più debole
           nonostante quest&apos;ordine, sarà punita come ladrone.
         </p>
         <p>
@@ -620,32 +618,32 @@ export const OrdinanzaDiHodetin = () => (
         <p>
           Item. Ovunque ci si trovi, sia in territorio amico sia non amico, se
           donne con fagotti e indumenti si presentano e siedono presso di essi,
-          nessuno le disturberà, né sottrarrà loro alcunché, né le
-          maltratterà. Se qualcuno sottrae loro alcunché nonostante
-          quest&apos;ordine, sarà punito come un ladrone.
+          nessuno le disturberà, né sottrarrà loro alcunché, né le maltratterà.
+          Se qualcuno sottrae loro alcunché nonostante quest&apos;ordine, sarà
+          punito come un ladrone.
         </p>
         <p>
           Item. Se vi sono rancori, animosità o dissapori fra signori,
           cavalieri, nobili, città o chiunque altro, sorti prima di questa
           campagna o nel corso di essa, tutti dovranno cessare e non essere
           menzionati né perseguiti sul campo fino al ritorno a casa dal campo.
-          Tuttavia, ove ve ne sia necessità, sia in combattimento sia durante
-          un assalto, tali persone e tutti gli altri si aiuteranno
-          reciprocamente senza richiamare tali rancori e animosità. Se qualcuno
-          viene riconosciuto colpevole di aver disobbedito a quest&apos;ordine,
-          sarà punito secondo il diritto militare.
+          Tuttavia, ove ve ne sia necessità, sia in combattimento sia durante un
+          assalto, tali persone e tutti gli altri si aiuteranno reciprocamente
+          senza richiamare tali rancori e animosità. Se qualcuno viene
+          riconosciuto colpevole di aver disobbedito a quest&apos;ordine, sarà
+          punito secondo il diritto militare.
         </p>
 
         <p>
-          Item. Riguardo ai mulini, comando che nessuno li incendi, li
-          demolisca o li danneggi, né prenda alcun ferro da mulino, affinché
-          possano essere utilizzati per le necessità di tutti i nostri eserciti.
-          Se qualcuno agisce in contrasto con quest&apos;ordine, gli sarà
-          mozzata la mano senza clemenza. Parimenti, in altri luoghi quali
-          fattorie o casali, specialmente quelli amici, non si prenderanno né
-          rimuoveranno lucchetti, catene o altri ferri di qualsivoglia genere,
-          quali cerchioni di ruote o chiodi dalle porte; e non si prenderanno
-          ferri dagli aratri o da altre attrezzature nei campi.
+          Item. Riguardo ai mulini, comando che nessuno li incendi, li demolisca
+          o li danneggi, né prenda alcun ferro da mulino, affinché possano
+          essere utilizzati per le necessità di tutti i nostri eserciti. Se
+          qualcuno agisce in contrasto con quest&apos;ordine, gli sarà mozzata
+          la mano senza clemenza. Parimenti, in altri luoghi quali fattorie o
+          casali, specialmente quelli amici, non si prenderanno né rimuoveranno
+          lucchetti, catene o altri ferri di qualsivoglia genere, quali
+          cerchioni di ruote o chiodi dalle porte; e non si prenderanno ferri
+          dagli aratri o da altre attrezzature nei campi.
         </p>
         <p>
           Item. Quando si marcia per territorio amico, tale incristiana
@@ -680,18 +678,18 @@ export const OrdinanzaDiHodetin = () => (
           che acquistano o ricevono da essi saranno puniti come ladroni.
         </p>
         <p>
-          Item. Ciascun carro avrà due conducenti, i quali avranno un elmo e
-          una pavese; e sotto il carro vi saranno un&apos;asse e una catena.
-          Ciascun carro sarà inoltre dotato di un archibugio a gancio con tutto
+          Item. Ciascun carro avrà due conducenti, i quali avranno un elmo e una
+          pavese; e sotto il carro vi saranno un&apos;asse e una catena. Ciascun
+          carro sarà inoltre dotato di un archibugio a gancio con tutto
           l&apos;equipaggiamento necessario, due asce, due pale, due zappe, due
           picconi, due rastrelli, una barriera con un palo, e una lancia con un
           gancio e un piccolo vessillo.
         </p>
         <p>
-          Item. Quando i carri sono in marcia, uomini con zappe, pale,
-          rastrelli e asce marceranno in testa a ciascuna fila di carri per
-          riparare le strade ove necessario; e non abbandoneranno tale incarico
-          sotto pena di tre giorni in catene.
+          Item. Quando i carri sono in marcia, uomini con zappe, pale, rastrelli
+          e asce marceranno in testa a ciascuna fila di carri per riparare le
+          strade ove necessario; e non abbandoneranno tale incarico sotto pena
+          di tre giorni in catene.
         </p>
       </Col>
     </Row>

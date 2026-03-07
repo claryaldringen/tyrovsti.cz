@@ -10,9 +10,7 @@ export const OrdinanzaCarriCavalieriTedeschi = () => (
           className="anchor"
           id="ordinanza-dei-carri-dei-cavalieri-teutonici"
         />
-        <h4>
-          Ordinanza dei carri dei Cavalieri Teutonici del 19 aprile 1433
-        </h4>
+        <h4>Ordinanza dei carri dei Cavalieri Teutonici del 19 aprile 1433</h4>
         <p>
           Note di traduzione: dopo attenta considerazione, ho tradotto il
           termine <Cit>fuhrweyn</Cit> come <Cit>carro da guerra</Cit>. Sulla
@@ -28,13 +26,11 @@ export const OrdinanzaCarriCavalieriTedeschi = () => (
           <i>cannone leggero</i>, ossia un piccolo cannone su carrello, ma
           potrebbe trattarsi anche di un archibugio a gancio.
           <br />
-          Il termine <Cit>warpen</Cit> è probabilmente un&apos;abbreviazione
-          di <Cit>warpenweyn</Cit>, che nel tedesco prussiano indica un carro
-          per il trasporto di materiale militare.
+          Il termine <Cit>warpen</Cit> è probabilmente un&apos;abbreviazione di{' '}
+          <Cit>warpenweyn</Cit>, che nel tedesco prussiano indica un carro per
+          il trasporto di materiale militare.
         </p>
-        <p>
-          Traduzione di PhDr. Zdeňka Kopková, revisione di Daniel Burger.
-        </p>
+        <p>Traduzione di PhDr. Zdeňka Kopková, revisione di Daniel Burger.</p>
         <p>&nbsp;</p>
       </Col>
     </Row>
@@ -92,9 +88,7 @@ export const OrdinanzaCarriCavalieriTedeschi = () => (
           </li>
           <li>Per ciascun carro, due sessantine di dardi.</li>
           <li>Per ciascun carro, due ronconi.</li>
-          <li>
-            Due catene robuste, come i conducenti sono soliti portare.
-          </li>
+          <li>Due catene robuste, come i conducenti sono soliti portare.</li>
           <li>
             Per ogni venti carri, un cannone che spara una pietra delle
             dimensioni di una buona testa.
@@ -106,9 +100,9 @@ export const OrdinanzaCarriCavalieriTedeschi = () => (
           </li>
           <li>
             Ciascun commendatore dovrà ordinare ai propri uomini e sudditi di
-            allestire ciascun carro da guerra con due o tre carri di
-            vettovaglie o materiale militare, e che gli uomini si associno per
-            attaccare e fornire quattro buoni cavalli per esso.
+            allestire ciascun carro da guerra con due o tre carri di vettovaglie
+            o materiale militare, e che gli uomini si associno per attaccare e
+            fornire quattro buoni cavalli per esso.
           </li>
         </ol>
       </Col>

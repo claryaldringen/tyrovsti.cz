@@ -19,16 +19,16 @@ export const IntroduzioneTyrovsky = () => (
           distretto di Cheb, chiamata Einsiedl in tedesco.
         </p>
         <p>
-          Il fondatore della famiglia, Jobst von Einsiedl (dal 1460 cavaliere
-          di Týřov), in qualità di segretario tedesco del governatore e poi re
-          Giorgio di Poděbrady, fu coinvolto nella più alta politica boema,
-          anzi imperiale. I suoi discendenti, tuttavia, non raggiunsero tale
-          fama e importanza e si annoveravano tra la piccola nobiltà al confine
-          tra Rakovník e Kralovice. L&apos;ultimo membro della famiglia fu Jan
+          Il fondatore della famiglia, Jobst von Einsiedl (dal 1460 cavaliere di
+          Týřov), in qualità di segretario tedesco del governatore e poi re
+          Giorgio di Poděbrady, fu coinvolto nella più alta politica boema, anzi
+          imperiale. I suoi discendenti, tuttavia, non raggiunsero tale fama e
+          importanza e si annoveravano tra la piccola nobiltà al confine tra
+          Rakovník e Kralovice. L&apos;ultimo membro della famiglia fu Jan
           Michal, che ricoprì la carica di consigliere regionale e per breve
-          tempo anche quella di giudice, ma poi si ammalò di ipocondria, cosicché
-          i suoi possedimenti furono prima posti sotto tutela e infine venduti
-          nel 1759. Non sappiamo nemmeno quando morì.
+          tempo anche quella di giudice, ma poi si ammalò di ipocondria,
+          cosicché i suoi possedimenti furono prima posti sotto tutela e infine
+          venduti nel 1759. Non sappiamo nemmeno quando morì.
           <Qt publication={PUBLICATIONS.HALADA} note="Page 156" />
         </p>
         <p>

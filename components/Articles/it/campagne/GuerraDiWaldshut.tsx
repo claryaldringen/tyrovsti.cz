@@ -53,9 +53,8 @@ export const GuerraDiWaldshut = () => (
             Anselfingen e lo rilasci&ograve; solo dopo il pagamento di un
             riscatto di 1.800 fiorini. I confederati inviarono truppe per
             rinforzare la citt&agrave;, e un distaccamento di uomini di
-            Untervaldo sotto il comando del capitano Kaspar Koller
-            intraprese un&apos;incursione di saccheggio nella regione del
-            Klettgau.
+            Untervaldo sotto il comando del capitano Kaspar Koller intraprese
+            un&apos;incursione di saccheggio nella regione del Klettgau.
           </li>
           <li>
             La citt&agrave; di Mulhouse concluse un&apos;alleanza il{' '}
@@ -66,11 +65,11 @@ export const GuerraDiWaldshut = () => (
             Nell&apos;aprile 1468, unit&agrave; di Mulhouse compirono
             un&apos;incursione nei villaggi di Rixheim e Sausheim, appartenenti
             alla nobilt&agrave;. Gli stati dell&apos;Austria Anteriore vollero
-            punire questo attacco e il{' '}
-            <b>15 maggio 1468</b> marciarono con 4.000 uomini davanti a
-            Mulhouse devastandone i dintorni. Il <b>18 giugno 1468</b>, Berna,
-            Soletta e Friburgo dichiararono guerra al duca Sigismondo &ndash; e
-            presto le altre citt&agrave; confederate seguirono l&apos;esempio.
+            punire questo attacco e il <b>15 maggio 1468</b> marciarono con
+            4.000 uomini davanti a Mulhouse devastandone i dintorni. Il{' '}
+            <b>18 giugno 1468</b>, Berna, Soletta e Friburgo dichiararono guerra
+            al duca Sigismondo &ndash; e presto le altre citt&agrave;
+            confederate seguirono l&apos;esempio.
           </li>
         </ol>
       </Col>
@@ -102,8 +101,8 @@ export const GuerraDiWaldshut = () => (
         <p>
           Il <b>16 luglio 1468</b>, i confederati si ritirarono dal Sundgau
           passando nuovamente per Basilea, ponendo cos&igrave; fine alla
-          cosiddetta campagna del Sundgau o guerra di Mulhouse, e il teatro
-          di guerra si spost&ograve; pi&ugrave; a est.
+          cosiddetta campagna del Sundgau o guerra di Mulhouse, e il teatro di
+          guerra si spost&ograve; pi&ugrave; a est.
         </p>
       </Col>
       <ImageWithTitle
@@ -200,8 +199,8 @@ export const GuerraDiWaldshut = () => (
         </p>
         <p>
           Sul fiume Reno davanti a Waldshut, le forze bernesi disponevano di due
-          imbarcazioni e Lucerna di una, dalle quali le fortificazioni
-          cittadine venivano bombardate.
+          imbarcazioni e Lucerna di una, dalle quali le fortificazioni cittadine
+          venivano bombardate.
         </p>
       </Col>
     </Row>
@@ -238,10 +237,10 @@ export const GuerraDiWaldshut = () => (
           Al ritorno, i confederati bruciarono la citt&agrave; di Waldkirch,
           occuparono Tiengen &ndash; un feudo del vescovato di Costanza che era
           stato dato in pegno a Bilgeri von Heudorf &ndash; e vi lasciarono 600
-          uomini. Il maresciallo di corte austriaco Jakob Trapp
-          richiest&egrave; ulteriori rinforzi dalla citt&agrave; di Friburgo al
-          Monastero di San Biagio e espresse il suo timore che l&apos;intera
-          Foresta Nera volesse diventare svizzera.
+          uomini. Il maresciallo di corte austriaco Jakob Trapp richiest&egrave;
+          ulteriori rinforzi dalla citt&agrave; di Friburgo al Monastero di San
+          Biagio e espresse il suo timore che l&apos;intera Foresta Nera volesse
+          diventare svizzera.
         </p>
       </Col>
     </Row>
@@ -251,22 +250,21 @@ export const GuerraDiWaldshut = () => (
         <p>
           Il <b>19 luglio 1468</b>, i principali distaccamenti confederati che
           avevano partecipato alla campagna del Sundgau si radunarono al
-          Rafzerfeld. Il{' '}
-          <b>20 luglio 1468</b>, i confederati alla dieta di Lucerna &ndash; con
-          i voti dei cantoni di Uri, Svitto, Untervaldo, Zugo, Glarona e
-          Sciaffusa &ndash; decisero una campagna militare contro Waldshut.
+          Rafzerfeld. Il <b>20 luglio 1468</b>, i confederati alla dieta di
+          Lucerna &ndash; con i voti dei cantoni di Uri, Svitto, Untervaldo,
+          Zugo, Glarona e Sciaffusa &ndash; decisero una campagna militare
+          contro Waldshut.
         </p>
         <p>
           I primi ad arrivare il <b>22 luglio 1468</b> furono le forze di
           Lucerna insieme a unit&agrave; di Glarona, Svitto e Zugo sulla riva
           meridionale del Reno davanti a Waldshut. Le forze di Zurigo e
-          Sciaffusa, che si trovavano a Tiengen dal <b>20 luglio 1468</b>,
-          si misero in marcia verso la citt&agrave;. Le unit&agrave; restanti
+          Sciaffusa, che si trovavano a Tiengen dal <b>20 luglio 1468</b>, si
+          misero in marcia verso la citt&agrave;. Le unit&agrave; restanti
           &ndash; principalmente le pesanti bombarde da Zurigo e Berna destinate
           al bombardamento delle mura cittadine &ndash; arrivarono gradualmente,
           cosicch&eacute; il primo cannoneggiamento della citt&agrave; &egrave;
-          stimato al{' '}
-          <b>29 luglio 1468</b>.
+          stimato al <b>29 luglio 1468</b>.
         </p>
         <p>
           Durante l&apos;assedio, sarebbero stati sparati circa 280 pesanti
@@ -276,8 +274,8 @@ export const GuerraDiWaldshut = () => (
           citt&agrave;, che gli abitanti sostituirono costruendo e utilizzando
           ruote a pedale. Poich&eacute; gli assedianti avevano anche deviato
           l&apos;approvvigionamento idrico della citt&agrave; e attingere acqua
-          dal Reno era pericoloso a causa del fuoco nemico, i difensori scavarono
-          un pozzo presso la Porta del Reno.
+          dal Reno era pericoloso a causa del fuoco nemico, i difensori
+          scavarono un pozzo presso la Porta del Reno.
         </p>
         <p>
           Il maresciallo di corte ducale Jakob Trapp organizz&ograve; due
@@ -285,15 +283,14 @@ export const GuerraDiWaldshut = () => (
         </p>
         <ol>
           <li>
-            Nella notte tra il 3 e il 4 agosto, un distaccamento di 1.200
-            uomini fu radunato a Laufenburg e avanz&ograve; lungo la riva
-            sinistra del Reno fino al villaggio di Full, da dove tentarono di
-            attraversare il fiume per entrare in citt&agrave;. Sebbene
-            l&apos;anello d&apos;assedio confederato fosse solo debolmente
-            presidiato in questo tratto, il tentativo fu in gran parte
-            infruttuoso &ndash; solo circa 200 uomini con una piccola
-            quantit&agrave; di rifornimenti riuscirono a entrare in
-            citt&agrave;.
+            Nella notte tra il 3 e il 4 agosto, un distaccamento di 1.200 uomini
+            fu radunato a Laufenburg e avanz&ograve; lungo la riva sinistra del
+            Reno fino al villaggio di Full, da dove tentarono di attraversare il
+            fiume per entrare in citt&agrave;. Sebbene l&apos;anello
+            d&apos;assedio confederato fosse solo debolmente presidiato in
+            questo tratto, il tentativo fu in gran parte infruttuoso &ndash;
+            solo circa 200 uomini con una piccola quantit&agrave; di
+            rifornimenti riuscirono a entrare in citt&agrave;.
           </li>
           <li>
             Il secondo tentativo, effettuato nella notte tra l&apos;8 e il 9
@@ -334,10 +331,10 @@ export const GuerraDiWaldshut = () => (
         <p>
           La situazione all&apos;interno della citt&agrave; continuava a
           deteriorarsi &ndash; gli approvvigionamenti stavano collassando, le
-          mura cittadine erano gravemente danneggiate dal costante bombardamento,
-          e gli Asburgo e la nobilt&agrave; non erano n&eacute; disposti
-          n&eacute; in grado di intraprendere un tentativo decisivo per liberare
-          la citt&agrave;.
+          mura cittadine erano gravemente danneggiate dal costante
+          bombardamento, e gli Asburgo e la nobilt&agrave; non erano n&eacute;
+          disposti n&eacute; in grado di intraprendere un tentativo decisivo per
+          liberare la citt&agrave;.
         </p>
         <p>
           Il <b>17 agosto 1468</b>, i confederati pianificarono un assalto
@@ -349,12 +346,12 @@ export const GuerraDiWaldshut = () => (
         <p>
           Il <b>21 agosto 1468</b>, le forze lucernesi, appoggiate dai cantoni
           di Svitto, Glarona e Appenzello, intrapresero un&apos;incursione di
-          saccheggio a Bonndorf nella Foresta Nera, che fu incendiata nel
-          corso dell&apos;azione. Durante la ritirata, questo distaccamento fu
+          saccheggio a Bonndorf nella Foresta Nera, che fu incendiata nel corso
+          dell&apos;azione. Durante la ritirata, questo distaccamento fu
           attaccato dalle unit&agrave; di Sigismondo e riusc&igrave; a portare
-          il bottino (tra cui 400 capi di bestiame) al campo solo con l&apos;aiuto
-          di truppe da Zurigo e Zugo. Il 24 agosto, ulteriori combattimenti si
-          svolsero presso la fortificazione vicino ad Albbruck.
+          il bottino (tra cui 400 capi di bestiame) al campo solo con
+          l&apos;aiuto di truppe da Zurigo e Zugo. Il 24 agosto, ulteriori
+          combattimenti si svolsero presso la fortificazione vicino ad Albbruck.
         </p>
         <p>
           Gli interessi dei mercanti zurighesi si estendevano fino a Waldshut, e
@@ -387,23 +384,22 @@ export const GuerraDiWaldshut = () => (
           borgomastro Peter Rot, e i principi-vescovi Johann V von Venningen
           (vescovo di Basilea) e Hermann III von Breitenlandenberg (vescovo di
           Costanza), cercarono di mediare una composizione pacifica tra la
-          Confederazione e gli Asburgo. Anche i consiglieri del duca Ludovico
-          di Baviera e del margravio Rodolfo di Hachberg-Sausenberg presero
-          parte ai negoziati; Hans von Flachslanden rappresentava
-          quest&apos;ultimo al tavolo delle trattative. Il{' '}
-          <b>14 agosto 1468</b>, i mediatori stabilirono un contatto con i
-          capitani principali dei confederati, e il 16 agosto iniziarono i
-          negoziati di pace a Dogern, che sfociarono il 27 agosto nella firma
-          del trattato di pace noto come Waldshuter Richtung. Secondo questo
-          trattato, il duca Sigismondo si impegnava a pagare riparazioni di
-          guerra di 10.000 fiorini entro il <b>24 giugno 1469</b>. Come
-          garanzia, egli forn&igrave; ai confederati la citt&agrave; di Waldshut
-          e la parte dell&apos;Austria Anteriore della Foresta Nera. La guerra
-          di Waldshut port&ograve; solo a cambiamenti territoriali minimi.
-          L&apos;unica eccezione fu la Signoria di Wessenberg a sud del Reno con
-          i villaggi di Hottwil e Mandach, che Berna conquist&ograve; e
-          annett&eacute; alla propria amministrazione territoriale di
-          Schenkenberg.
+          Confederazione e gli Asburgo. Anche i consiglieri del duca Ludovico di
+          Baviera e del margravio Rodolfo di Hachberg-Sausenberg presero parte
+          ai negoziati; Hans von Flachslanden rappresentava quest&apos;ultimo al
+          tavolo delle trattative. Il <b>14 agosto 1468</b>, i mediatori
+          stabilirono un contatto con i capitani principali dei confederati, e
+          il 16 agosto iniziarono i negoziati di pace a Dogern, che sfociarono
+          il 27 agosto nella firma del trattato di pace noto come Waldshuter
+          Richtung. Secondo questo trattato, il duca Sigismondo si impegnava a
+          pagare riparazioni di guerra di 10.000 fiorini entro il{' '}
+          <b>24 giugno 1469</b>. Come garanzia, egli forn&igrave; ai confederati
+          la citt&agrave; di Waldshut e la parte dell&apos;Austria Anteriore
+          della Foresta Nera. La guerra di Waldshut port&ograve; solo a
+          cambiamenti territoriali minimi. L&apos;unica eccezione fu la Signoria
+          di Wessenberg a sud del Reno con i villaggi di Hottwil e Mandach, che
+          Berna conquist&ograve; e annett&eacute; alla propria amministrazione
+          territoriale di Schenkenberg.
         </p>
         <p>
           L&apos;assedio di Waldshut fu tolto il <b>28 agosto 1468</b>. Il duca
@@ -416,15 +412,14 @@ export const GuerraDiWaldshut = () => (
           rapporto sulle loro condizioni. Successivamente, Carlo il Temerario
           nomin&ograve; Peter von Hagenbach come Landvogt, il quale assunse il
           suo incarico nel novembre 1468. Sigismondo pag&ograve; ai confederati
-          le riparazioni di guerra di 10.000 fiorini il{' '}
-          <b>23 giugno 1469</b>. Il borgomastro di Sciaffusa, tuttavia, dovette
-          attendere fino al 1476 per la restituzione del riscatto di 1.800
-          fiorini, che gli spettava anch&apos;esso in virt&ugrave; del trattato.
-          L&apos;imperatore Federico III, cugino del duca Sigismondo,
-          dichiar&ograve; nullo il trattato di pace il <b>26 maggio 1469</b> e
-          il 31 agosto impose il bando imperiale (Reichsacht) alla
-          Confederazione. Nessuna di queste decisioni, tuttavia, ebbe
-          conseguenze reali.
+          le riparazioni di guerra di 10.000 fiorini il <b>23 giugno 1469</b>.
+          Il borgomastro di Sciaffusa, tuttavia, dovette attendere fino al 1476
+          per la restituzione del riscatto di 1.800 fiorini, che gli spettava
+          anch&apos;esso in virt&ugrave; del trattato. L&apos;imperatore
+          Federico III, cugino del duca Sigismondo, dichiar&ograve; nullo il
+          trattato di pace il <b>26 maggio 1469</b> e il 31 agosto impose il
+          bando imperiale (Reichsacht) alla Confederazione. Nessuna di queste
+          decisioni, tuttavia, ebbe conseguenze reali.
         </p>
         <p>
           Sebbene Waldshut avesse subito considerevoli danni durante
@@ -433,8 +428,8 @@ export const GuerraDiWaldshut = () => (
           <b>24 febbraio 1469</b> concesse alla citt&agrave; il diritto di
           riscuotere un pedaggio fluviale su tutte le merci importate sui fiumi
           Aar, Reuss e Limmat. Il duca Sigismondo rilasci&ograve; alla
-          citt&agrave; uno{' '}
-          <Cit>Schadlosbrief</Cit> (lettera di indennit&agrave;) l&apos;
+          citt&agrave; uno <Cit>Schadlosbrief</Cit> (lettera di
+          indennit&agrave;) l&apos;
           <b>8 settembre 1468</b>, nel quale si impegnava a risarcire i danni
           causati dall&apos;assedio. Egli ademp&igrave; a questo obbligo dando
           in pegno alla citt&agrave; il diritto di riscuotere un pedaggio
@@ -480,13 +475,13 @@ export const GuerraDiWaldshut = () => (
             duca Sigismondo d&apos;Austria, secondo il quale doveva inviargli
             degli uomini, e che anche se quelli che gli inviava rimanevano da
             qualche parte lungo la strada e non tornavano a casa, a lui poco
-            importava, poich&eacute; doveva inviarglieli per ragioni d&apos;onore
-            e sulla base del precedente accordo scritto che avevano stipulato
-            prima di questa guerra; qualunque altra cosa potesse fare e
-            negoziare per la pace e il bene in questa faccenda, egli desiderava
-            farlo con buona volont&agrave;, come lui e i suoi predecessori
-            avevano fatto durante quelle precedenti tregue quindicennali e in
-            altre questioni.
+            importava, poich&eacute; doveva inviarglieli per ragioni
+            d&apos;onore e sulla base del precedente accordo scritto che avevano
+            stipulato prima di questa guerra; qualunque altra cosa potesse fare
+            e negoziare per la pace e il bene in questa faccenda, egli
+            desiderava farlo con buona volont&agrave;, come lui e i suoi
+            predecessori avevano fatto durante quelle precedenti tregue
+            quindicennali e in altre questioni.
           </Cit>{' '}
           Questa testimonianza &egrave; accompagnata da una raffigurazione molto
           peculiare dei soldati boemi.
@@ -510,7 +505,9 @@ export const GuerraDiWaldshut = () => (
           consider&ograve; non solo degni di menzione, ma volle anche
           sottolineare che la loro presenza non ebbe alcun effetto militare. Con
           la frase secondo cui essi{' '}
-          <Cit>causarono pi&ugrave; danni agli amici che alla Confederazione</Cit>
+          <Cit>
+            causarono pi&ugrave; danni agli amici che alla Confederazione
+          </Cit>
           , Schilling alludeva con ogni probabilit&agrave; al vizio diffuso dei
           soldati boemi, che saccheggiavano sempre di pi&ugrave; quanto
           pi&ugrave; si allontanavano dalla Boemia.

@@ -54,8 +54,8 @@ export const MartelloDaGuerra = () => (
     </Row>
     <Row>
       <Col md={4}>
-        Figura 1: Martello a due mani dal Worcester Art Museum, Germania, intorno
-        al 1440.
+        Figura 1: Martello a due mani dal Worcester Art Museum, Germania,
+        intorno al 1440.
         <table>
           <tbody>
             <tr>
@@ -72,8 +72,8 @@ export const MartelloDaGuerra = () => (
         <br />
       </Col>
       <Col md={4}>
-        Figura 2: Martello a una mano dal Metropolitan Museum of Art di New York,
-        Francia, intorno al 1450.
+        Figura 2: Martello a una mano dal Metropolitan Museum of Art di New
+        York, Francia, intorno al 1450.
         <table>
           <tbody>
             <tr>
@@ -113,10 +113,10 @@ export const MartelloDaGuerra = () => (
         <h4>Ricostruzione</h4>
         <p>
           Per la ricostruzione, abbiamo scelto il martello di Worcester per la
-          sua datazione. Una caratteristica interessante di questo martello è che
-          la sua testa è fissata al manico non con rivetti, ma con coppie di viti
-          a testa quadrata. La lunghezza della replica è di 220 cm e il suo peso
-          è di 2847 g. La replica è stata realizzata da Vojtěch Jelínek.
+          sua datazione. Una caratteristica interessante di questo martello è
+          che la sua testa è fissata al manico non con rivetti, ma con coppie di
+          viti a testa quadrata. La lunghezza della replica è di 220 cm e il suo
+          peso è di 2847 g. La replica è stata realizzata da Vojtěch Jelínek.
         </p>
       </Col>
       <Row>

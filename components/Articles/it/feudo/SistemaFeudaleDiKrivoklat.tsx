@@ -26,35 +26,33 @@ export const SistemaFeudaleDiKrivoklat = () => (
         </p>
         <p>
           Inizialmente, i feudi erano concessi solo per la durata della vita del
-          titolare; in seguito divennero ereditari, esclusivamente attraverso
-          la linea maschile. Una vedova poteva detenere un feudo solo con
-          esplicito permesso regio, a condizione che un uomo giurasse di
-          assumere gli obblighi di servizio per suo conto. A un vassallo non
-          era consentito vendere, gravare o assegnare come dote il proprio
-          feudo senza il consenso del re &mdash; qualsiasi tale transazione era
-          nulla.
+          titolare; in seguito divennero ereditari, esclusivamente attraverso la
+          linea maschile. Una vedova poteva detenere un feudo solo con esplicito
+          permesso regio, a condizione che un uomo giurasse di assumere gli
+          obblighi di servizio per suo conto. A un vassallo non era consentito
+          vendere, gravare o assegnare come dote il proprio feudo senza il
+          consenso del re &mdash; qualsiasi tale transazione era nulla.
           <Qt publication={PUBLICATIONS.KOCKA} note="Str. 111" />
         </p>
         <p>
-          Alla morte del vassallo, il feudo era ereditato da figli e nipoti,
-          che erano tenuti a pagare una tassa chiamata <i>laudemium</i>,
-          presentarsi al burgravio entro un anno (o al capitano, se non era
-          disponibile un burgravio) e prestare il giuramento vassallatico. Se
-          questo termine veniva superato, il feudo ritornava al re come
-          decaduto. Ci&ograve; avvenne a Majirkov ze Sence nel 1389 e a Valent
-          z Kounova nel 1567, che aveva acquistato un feudo a Kounov dal
-          magistrato di Kněževes, Havel, per 700 sessanta di grossi nel 1558,
-          ma non lo registr&ograve; nei libri feudali n&eacute; and&ograve; a
-          prestare giuramento sotto la torre di Křivokl&aacute;t, e pertanto
-          il feudo fu confiscato a favore dell&apos;arciduca Ferdinando nel
-          1567.
+          Alla morte del vassallo, il feudo era ereditato da figli e nipoti, che
+          erano tenuti a pagare una tassa chiamata <i>laudemium</i>, presentarsi
+          al burgravio entro un anno (o al capitano, se non era disponibile un
+          burgravio) e prestare il giuramento vassallatico. Se questo termine
+          veniva superato, il feudo ritornava al re come decaduto. Ci&ograve;
+          avvenne a Majirkov ze Sence nel 1389 e a Valent z Kounova nel 1567,
+          che aveva acquistato un feudo a Kounov dal magistrato di Kněževes,
+          Havel, per 700 sessanta di grossi nel 1558, ma non lo registr&ograve;
+          nei libri feudali n&eacute; and&ograve; a prestare giuramento sotto la
+          torre di Křivokl&aacute;t, e pertanto il feudo fu confiscato a favore
+          dell&apos;arciduca Ferdinando nel 1567.
           <Qt publication={PUBLICATIONS.KOCKA} note="Str. 111" />
         </p>
         <p>
-          I vassalli ricevevano il loro feudo prestando giuramento alle porte
-          di ferro sotto la torre quadrata del portone. Venivano poi condotti
-          nella sala dei cavalieri, dove venivano annunciati i loro doveri e
-          veniva consegnato un forziere per conservare l&apos;armatura e altri
+          I vassalli ricevevano il loro feudo prestando giuramento alle porte di
+          ferro sotto la torre quadrata del portone. Venivano poi condotti nella
+          sala dei cavalieri, dove venivano annunciati i loro doveri e veniva
+          consegnato un forziere per conservare l&apos;armatura e altri
           equipaggiamenti. In tale occasione, i vassalli presentavano al
           capitano un cappello adornato con un pennacchio (mit Federpusch).
           <Qt publication={PUBLICATIONS.KOCKA} note="Str. 112" />
@@ -114,8 +112,8 @@ export const SistemaFeudaleDiKrivoklat = () => (
           avessero la propria giuria separata.
           <Qt publication={PUBLICATIONS.KOCKA} note="Str. 109" /> Questo
           tribunale era composto da 12 vassalli che servivano come giudici
-          giurati o assessori. L&apos;attore e il convenuto sceglievano
-          ciascuno 6 vassalli come giudici.
+          giurati o assessori. L&apos;attore e il convenuto sceglievano ciascuno
+          6 vassalli come giudici.
           <Qt publication={PUBLICATIONS.KOCKA} note="Str. 110" />
           Cos&igrave; Jan z Tyter testimoni&ograve; nel 1456 davanti al
           tribunale:{' '}
@@ -156,8 +154,8 @@ export const SistemaFeudaleDiKrivoklat = () => (
           giudice del tribunale, mentre le guardie, i guardiani della torre e i
           portinai dei castelli regi dovessero essere giudicati per questioni
           minori davanti al burgravio del loro castello. <br />
-          Tuttavia, quando nel 1479 Jan Drahon ze Sadlna convoc&ograve; Šulek
-          ze Slovic davanti al tribunale per un maniero a Panoš&iacute;
+          Tuttavia, quando nel 1479 Jan Drahon ze Sadlna convoc&ograve; Šulek ze
+          Slovic davanti al tribunale per un maniero a Panoš&iacute;
           &Uacute;jezd, l&apos;attore fu informato che non poteva essere
           giudicato contro gli ordini del suo burgravio.
           <br />
@@ -170,19 +168,18 @@ export const SistemaFeudaleDiKrivoklat = () => (
           nello stagno sotto Rakovn&iacute;k rispose al consiglio comunale che
           non aveva nulla a che fare con loro, ma secondo un documento del re
           Vladislao era responsabile solo verso il capitano del castello.
-          V&aacute;clav Strojetick&yacute; na Chř&iacute;ci ebbe una disputa
-          con i vassalli di Hlohovice per dei prati, e Jindřich Krakovsk&yacute;
-          si scontr&ograve; con il capitano per le foreste.
+          V&aacute;clav Strojetick&yacute; na Chř&iacute;ci ebbe una disputa con
+          i vassalli di Hlohovice per dei prati, e Jindřich Krakovsk&yacute; si
+          scontr&ograve; con il capitano per le foreste.
           <Qt publication={PUBLICATIONS.KOCKA} note="Str. 110" />
         </p>
         <p>
           Solo allora il capitano Albrecht z Vřesovic scrisse al tribunale che
           era necessario ristabilire il tribunale feudale cosicch&eacute; i
           vassalli potessero ottenere giustizia senza doversi recare al
-          tribunale ogni volta. Nessuno sapeva da chi o in che modo il
-          tribunale dovesse essere costituito, poich&eacute; non erano stati
-          conservati registri e nessuno ricordava pi&ugrave;. Il rapporto nota
-          inoltre che{' '}
+          tribunale ogni volta. Nessuno sapeva da chi o in che modo il tribunale
+          dovesse essere costituito, poich&eacute; non erano stati conservati
+          registri e nessuno ricordava pi&ugrave;. Il rapporto nota inoltre che{' '}
           <Cit>
             osoby rytirske sluzeb manskych nekonaji, sedmi i osmi nebozatky
             statek osadili a ta sluzby zastavati musi.
@@ -231,10 +228,10 @@ export const SistemaFeudaleDiKrivoklat = () => (
             Všetaty.
           </li>
           <li>
-            Hracholusky, un villaggio con una fortezza e un maniero
-            demaniale. Il titolare doveva presentarsi al castello in armatura
-            completa e rimanervi per tutto il tempo che i signori comandavano.
-            Gli venivano dati vitto e bevande.
+            Hracholusky, un villaggio con una fortezza e un maniero demaniale.
+            Il titolare doveva presentarsi al castello in armatura completa e
+            rimanervi per tutto il tempo che i signori comandavano. Gli venivano
+            dati vitto e bevande.
           </li>
           <li>
             Slovice, un villaggio con una fortezza e un maniero demaniale;
@@ -271,16 +268,15 @@ export const SistemaFeudaleDiKrivoklat = () => (
             spese regie.
           </li>
           <li>
-            Kozlany, un maniero demaniale con 1 lano e un ruscello. Il
-            vassallo doveva servire al castello con una balestra; i dardi
-            dovevano essere fabbricati per lui a spese regie.
+            Kozlany, un maniero demaniale con 1 lano e un ruscello. Il vassallo
+            doveva servire al castello con una balestra; i dardi dovevano essere
+            fabbricati per lui a spese regie.
           </li>
           <li>
-            Plavec, una fortezza con un maniero demaniale, e Šiškov (Čižkov),
-            un villaggio. Il titolare, insieme a un compagno, doveva
-            presentarsi al castello in armatura con balestre e rimanervi per
-            tutto il tempo che i signori comandavano. Gli venivano dati solo
-            vitto e bevande.
+            Plavec, una fortezza con un maniero demaniale, e Šiškov (Čižkov), un
+            villaggio. Il titolare, insieme a un compagno, doveva presentarsi al
+            castello in armatura con balestre e rimanervi per tutto il tempo che
+            i signori comandavano. Gli venivano dati solo vitto e bevande.
           </li>
           <li>
             Březnice, un maniero demaniale; dal 1474 anche fattorie contadine.
@@ -299,14 +295,14 @@ export const SistemaFeudaleDiKrivoklat = () => (
             era fornito. Nel 1411 erano gi&agrave; divisi.
           </li>
           <li>
-            Chřašťany, 8 lani di terra arabile. Il signore doveva presentarsi
-            al castello in armatura di ferro e rimanervi per tutto il tempo
-            che i signori comandavano.
+            Chřašťany, 8 lani di terra arabile. Il signore doveva presentarsi al
+            castello in armatura di ferro e rimanervi per tutto il tempo che i
+            signori comandavano.
           </li>
           <li>
-            Př&iacute;lepy, 5 fattorie contadine. Il titolare doveva fornire
-            6 nuove balestre ogni anno e inviare permanentemente 4 balestrieri
-            al castello. Non dovevano ricevere altro che vestiario e calzature.
+            Př&iacute;lepy, 5 fattorie contadine. Il titolare doveva fornire 6
+            nuove balestre ogni anno e inviare permanentemente 4 balestrieri al
+            castello. Non dovevano ricevere altro che vestiario e calzature.
           </li>
           <li>
             Žehrovice, un maniero con un lano. Il titolare doveva inviare un
@@ -315,9 +311,9 @@ export const SistemaFeudaleDiKrivoklat = () => (
           </li>
           <li>
             L&iacute;šná. Il signore doveva servire al castello in armatura.
-            Riconcesso nel 1552 insieme alle terre incolte di Okrouhl&iacute;k
-            e Řebř&iacute;k a Jiř&iacute;k Mn&iacute;škovsk&yacute; z
-            Entenšlanka, che doveva servire al castello con un cavallo, secondo
+            Riconcesso nel 1552 insieme alle terre incolte di Okrouhl&iacute;k e
+            Řebř&iacute;k a Jiř&iacute;k Mn&iacute;škovsk&yacute; z Entenšlanka,
+            che doveva servire al castello con un cavallo, secondo
             necessit&agrave;, in armatura anteriore e posteriore con gorgiera,
             in gonna di maglia e bracciale, con un pikelhube, un&apos;arma da
             fuoco e una lancia da cinghiale, come si addice a un balestriere a
@@ -335,14 +331,14 @@ export const SistemaFeudaleDiKrivoklat = () => (
             fare ci&ograve; che i signori comandavano.
           </li>
           <li>
-            Kounov e Lhota. Il re Venceslao nel 1402 diede a Jaroslav z Nevida
-            8 lani meno un quarto a Kounov e 12 lani abbandonati a Lhotka,
+            Kounov e Lhota. Il re Venceslao nel 1402 diede a Jaroslav z Nevida 8
+            lani meno un quarto a Kounov e 12 lani abbandonati a Lhotka,
             affinch&eacute; servisse al castello con un cavallo corazzato e una
             balestra.
           </li>
           <li>
-            Ruda e Lhota (Česk&aacute;), villaggi interi. Il signore, insieme
-            a un compagno, doveva presentarsi al castello in armatura di ferro e
+            Ruda e Lhota (Česk&aacute;), villaggi interi. Il signore, insieme a
+            un compagno, doveva presentarsi al castello in armatura di ferro e
             rimanervi per tutto il tempo che i signori comandavano.
           </li>
           <li>
@@ -362,17 +358,17 @@ export const SistemaFeudaleDiKrivoklat = () => (
             spiegazione. Gi&agrave; il cronista Dalimil registra che i sovrani
             boemi, quando invitati alla corte imperiale in Germania, facevano
             accendere fuochi davanti a loro. Il re Venceslao IV, invitato a
-            Norimberga nel 1370, fece accendere grandi fuochi in due luoghi
-            al suo arrivo, seguendo la consuetudine dei suoi antenati, per
+            Norimberga nel 1370, fece accendere grandi fuochi in due luoghi al
+            suo arrivo, seguendo la consuetudine dei suoi antenati, per
             annunciare la sua venuta, poich&eacute; sin dai tempi antichi i re
             avevano il diritto di arrivare tra fiamme e fuoco. I principi e
             borghesi tedeschi, avvertiti dal fuoco dell&apos;avvicinarsi del re,
             gli andavano incontro. Il secondo accendifuoco era a Městečko.
           </li>
           <li>
-            &Uacute;jezd Panoš&iacute;, tre manieri demaniali. Due erano
-            tenuti nel 1508 da Bořen ze Slabec, con l&apos;obbligo che,
-            qualora scoppiasse una guerra, doveva presentarsi al castello su
+            &Uacute;jezd Panoš&iacute;, tre manieri demaniali. Due erano tenuti
+            nel 1508 da Bořen ze Slabec, con l&apos;obbligo che, qualora
+            scoppiasse una guerra, doveva presentarsi al castello su
             convocazione del capitano e restare per 4 settimane; trascorso tale
             tempo, se ancora necessario, doveva rimanere e ricevere paga da
             soldato.
@@ -398,11 +394,11 @@ export const SistemaFeudaleDiKrivoklat = () => (
           </li>
           <li>
             Hradkov (oggi Hradečko). Il re Luigi nel 1525 concesse il villaggio
-            abbandonato di Hradkov come feudo a Martin z Kozlova: ogni volta
-            che il re veniva a Křivokl&aacute;t e lo richiedeva, il titolare
-            doveva presentarsi al castello con 2 cavalli e servire l&igrave;
-            fino alla partenza del re. Vitto, foraggio e altre necessit&agrave;
-            erano forniti a spese regie.
+            abbandonato di Hradkov come feudo a Martin z Kozlova: ogni volta che
+            il re veniva a Křivokl&aacute;t e lo richiedeva, il titolare doveva
+            presentarsi al castello con 2 cavalli e servire l&igrave; fino alla
+            partenza del re. Vitto, foraggio e altre necessit&agrave; erano
+            forniti a spese regie.
           </li>
         </ol>
         Il cancelliere nel 1552 not&ograve; che alcuni signori avevano
@@ -418,29 +414,29 @@ export const SistemaFeudaleDiKrivoklat = () => (
             chiamati Ležice, insieme a 5 lani e un piccolo possidente; ma nel
             1552 un villaggio, i cui coloni calavano vini e altre bevande
             preziose nelle cantine del castello. Gli veniva dato vitto al
-            castello. C&apos;era anche un uomo che doveva andare a Častonice
-            per i messaggeri.
+            castello. C&apos;era anche un uomo che doveva andare a Častonice per
+            i messaggeri.
           </li>
           <li>
-            Městečko, presso il castello. Questi uomini trasportavano legna
-            alla birreria anno dopo anno, quando cos&igrave; ordinato. Ce
-            n&apos;era anche uno che doveva portare al castello ci&ograve; che
-            veniva acquistato nella citt&agrave; di Rakovn&iacute;k. Un altro
-            doveva portare sulle spalle 4 sessanta di uova da Rakovn&iacute;k
-            ogni sabato; per la camminata riceveva 4 uova. C&apos;era una
-            terra incolta dove un tempo viveva Jan Rudl&iacute;k. Il suo
-            titolare era obbligato, quando la regina giaceva nel suo puerperio
-            con il giovane re, a portare usignoli a cantare sotto le sue
-            finestre. Un altro aveva il dovere, qualora qualcuno commettesse un
-            omicidio o qualche misfatto nel feudo, di prendere possesso dei
-            beni del colpevole e assicurarsi che tutto fosse preservato. Jakub
-            Čarda aveva l&apos;obbligo di cavalcare con il re e accendere fuochi
-            ovunque il re comandasse. Gli doveva essere dato un cavallo bianco
-            e abiti rossi (vedi Okrouhl&iacute;k). Altri dovevano trasportare
-            al castello ci&ograve; che il maestro di cucina acquistava per la
-            carne. Tutti erano obbligati &mdash; l&apos;accendifuoco tra
-            loro &mdash; a trasportare bestiame da un maniero all&apos;altro,
-            a partecipare alle cacce, a catturare selvaggina nociva e a
+            Městečko, presso il castello. Questi uomini trasportavano legna alla
+            birreria anno dopo anno, quando cos&igrave; ordinato. Ce n&apos;era
+            anche uno che doveva portare al castello ci&ograve; che veniva
+            acquistato nella citt&agrave; di Rakovn&iacute;k. Un altro doveva
+            portare sulle spalle 4 sessanta di uova da Rakovn&iacute;k ogni
+            sabato; per la camminata riceveva 4 uova. C&apos;era una terra
+            incolta dove un tempo viveva Jan Rudl&iacute;k. Il suo titolare era
+            obbligato, quando la regina giaceva nel suo puerperio con il giovane
+            re, a portare usignoli a cantare sotto le sue finestre. Un altro
+            aveva il dovere, qualora qualcuno commettesse un omicidio o qualche
+            misfatto nel feudo, di prendere possesso dei beni del colpevole e
+            assicurarsi che tutto fosse preservato. Jakub Čarda aveva
+            l&apos;obbligo di cavalcare con il re e accendere fuochi ovunque il
+            re comandasse. Gli doveva essere dato un cavallo bianco e abiti
+            rossi (vedi Okrouhl&iacute;k). Altri dovevano trasportare al
+            castello ci&ograve; che il maestro di cucina acquistava per la
+            carne. Tutti erano obbligati &mdash; l&apos;accendifuoco tra loro
+            &mdash; a trasportare bestiame da un maniero all&apos;altro, a
+            partecipare alle cacce, a catturare selvaggina nociva e a
             trasportare reti.
           </li>
           <li>
@@ -450,40 +446,39 @@ export const SistemaFeudaleDiKrivoklat = () => (
             birra al castello quando i signori cos&igrave; ordinavano. Inoltre,
             c&apos;erano due guardiaboschi o funzionari che sorvegliavano le
             foreste &mdash; lunghe 1/3 di miglio e larghe 2 miglia &mdash; e
-            aiutavano il cancelliere forestale a riscuotere le entrate. Un
-            altro doveva trasportare al castello ci&ograve; che il cuoco
-            acquistava per la carne. Un uccellatore consegnava un sessanta di
-            cinciallegre ogni domenica, dalla domenica dopo San Pietro fino a
-            San Venceslao, e 2 scoiattoli fino a Carnevale. A Pasqua
-            consegnava un gallo cedrone; doveva anche catturare astori e
-            raccogliere sparvieri quando i signori lo comandavano. C&apos;era
-            anche un podere riservato al cuoco del castello. Sopra il
-            villaggio, a Ryb&aacute;ři, c&apos;erano due traghettatori che
-            dovevano trasportare messaggeri, cani e reti al castello
-            gratuitamente. Erano inoltre obbligati a rifornire il castello di
-            pesce.
+            aiutavano il cancelliere forestale a riscuotere le entrate. Un altro
+            doveva trasportare al castello ci&ograve; che il cuoco acquistava
+            per la carne. Un uccellatore consegnava un sessanta di cinciallegre
+            ogni domenica, dalla domenica dopo San Pietro fino a San Venceslao,
+            e 2 scoiattoli fino a Carnevale. A Pasqua consegnava un gallo
+            cedrone; doveva anche catturare astori e raccogliere sparvieri
+            quando i signori lo comandavano. C&apos;era anche un podere
+            riservato al cuoco del castello. Sopra il villaggio, a
+            Ryb&aacute;ři, c&apos;erano due traghettatori che dovevano
+            trasportare messaggeri, cani e reti al castello gratuitamente. Erano
+            inoltre obbligati a rifornire il castello di pesce.
           </li>
           <li>
             La citt&agrave; di Zbečno. Alcuni dovevano spazzare il castello e
             pulire le torri. Altri dovevano riscaldare la grande sala del
             castello dal giorno di San Gallo al giorno di San Giorgio. Uno
             doveva fabbricare pale per la pulizia del castello e carriole per
-            trasportare il letame. Tre battitori dovevano partecipare alle
-            cacce su comando dei signori. C&apos;erano anche 4 pescatori,
-            ciascuno dei quali consegnava pesce del valore di 14 denari ogni
-            venerd&igrave;. Uno consegnava un gallo cedrone per la tavola del
-            burgravio a Pasqua. C&apos;erano anche uccellatori che consegnavano
-            un sessanta di cinciallegre e cardellini ogni domenica dal giorno
-            di San Pietro fino a San Venceslao, e tanti scoiattoli quanti
-            erano i giorni di Carnevale. Separatamente, c&apos;era un
-            cacciatore di selvaggina. Uno riforniva la cucina del castello anno
-            dopo anno con 2 mannaie e un&apos;ascia per la carne. Se qualcuna
-            di queste si rompeva, doveva farne una di ricambio immediatamente.
-            Un uomo di nome Havl&uacute; doveva fornire quattro barelle per
-            trasportare pietre e 11 pale del tipo usato per raschiare e pulire
-            il castello. Per queste necessit&agrave;, la legna doveva essere
-            trasportata per lui. Uno doveva consegnare per la tavola del
-            burgravio tanti scoiattoli quante erano le domeniche di Carnevale.
+            trasportare il letame. Tre battitori dovevano partecipare alle cacce
+            su comando dei signori. C&apos;erano anche 4 pescatori, ciascuno dei
+            quali consegnava pesce del valore di 14 denari ogni venerd&igrave;.
+            Uno consegnava un gallo cedrone per la tavola del burgravio a
+            Pasqua. C&apos;erano anche uccellatori che consegnavano un sessanta
+            di cinciallegre e cardellini ogni domenica dal giorno di San Pietro
+            fino a San Venceslao, e tanti scoiattoli quanti erano i giorni di
+            Carnevale. Separatamente, c&apos;era un cacciatore di selvaggina.
+            Uno riforniva la cucina del castello anno dopo anno con 2 mannaie e
+            un&apos;ascia per la carne. Se qualcuna di queste si rompeva, doveva
+            farne una di ricambio immediatamente. Un uomo di nome Havl&uacute;
+            doveva fornire quattro barelle per trasportare pietre e 11 pale del
+            tipo usato per raschiare e pulire il castello. Per queste
+            necessit&agrave;, la legna doveva essere trasportata per lui. Uno
+            doveva consegnare per la tavola del burgravio tanti scoiattoli
+            quante erano le domeniche di Carnevale.
           </li>
           <li>
             S&yacute;kořice. I coloni dovevano partecipare alle cacce e
@@ -510,9 +505,9 @@ export const SistemaFeudaleDiKrivoklat = () => (
             Bukov&aacute;. Qui c&apos;erano battitori e addetti alle reti che
             per diritto dovevano partecipare alle cacce, ungere i carri,
             trasportare e asciugare teli e reti, e circondare la selvaggina
-            nociva nelle battute di caccia. C&apos;erano anche tre
-            guardiaboschi che sorvegliavano le foreste di Bukov&aacute;; queste
-            foreste erano lunghe 7/4 di miglio e larghe 2 miglia.
+            nociva nelle battute di caccia. C&apos;erano anche tre guardiaboschi
+            che sorvegliavano le foreste di Bukov&aacute;; queste foreste erano
+            lunghe 7/4 di miglio e larghe 2 miglia.
           </li>
           <li>
             Branov. Quattro portinai dovevano sorvegliare le porte anteriori in
@@ -531,9 +526,9 @@ export const SistemaFeudaleDiKrivoklat = () => (
             ciascuno.
           </li>
           <li>
-            Lašovice. C&apos;era un guardiaboschi che sorvegliava le foreste
-            di Bukov&aacute;, e un messaggero che portava lettere nella regione
-            di Žatec.
+            Lašovice. C&apos;era un guardiaboschi che sorvegliava le foreste di
+            Bukov&aacute;, e un messaggero che portava lettere nella regione di
+            Žatec.
           </li>
           <li>
             Rys&iacute;n. C&apos;era un messaggero che portava lettere fino a
@@ -561,15 +556,15 @@ export const SistemaFeudaleDiKrivoklat = () => (
           </li>
           <li>
             Lužn&aacute;. Una magistratura libera con 2 lani e due dipendenti,
-            uno macellaio, l&apos;altro fornaio. Ad essa erano annessi un
-            mulino libero, una taverna, un giardino di 4 strychy e il prato
-            Hvozdec (1348). Da questo, venivano consegnate 4 lepri ogni Natale
-            (nel 1552, due vassalli che consegnavano ciascuno 2 lepri). Il
-            magistrato deteneva anche un lano da guardiaboschi, dal quale
-            doveva servire i funzionari come sorvegliante forestale. Inoltre,
-            deteneva mezzo lano di terra arabile, per il quale era obbligato a
-            fornire pane ai pescatori e ai cacciatori quando lo Stagno Reale
-            sotto il villaggio veniva pescato.
+            uno macellaio, l&apos;altro fornaio. Ad essa erano annessi un mulino
+            libero, una taverna, un giardino di 4 strychy e il prato Hvozdec
+            (1348). Da questo, venivano consegnate 4 lepri ogni Natale (nel
+            1552, due vassalli che consegnavano ciascuno 2 lepri). Il magistrato
+            deteneva anche un lano da guardiaboschi, dal quale doveva servire i
+            funzionari come sorvegliante forestale. Inoltre, deteneva mezzo lano
+            di terra arabile, per il quale era obbligato a fornire pane ai
+            pescatori e ai cacciatori quando lo Stagno Reale sotto il villaggio
+            veniva pescato.
             <br />
             Alcuni coloni erano obbligati durante il bramito a separare i cervi
             in calore. In cambio, avevano il diritto di abbattere legname per le
@@ -584,42 +579,41 @@ export const SistemaFeudaleDiKrivoklat = () => (
             presenti al castello con le balestre ogniqualvolta cos&igrave;
             ordinato, e fare ci&ograve; che i signori comandavano. In
             particolare, sorvegliavano i galli cedroni durante l&apos;esibizione
-            primaverile e i cervi durante il bramito autunnale. C&apos;era
-            anche un maniero demaniale, con un mulino e una fucina annessi.
-            Il re Vladislao nel 1497 conferm&ograve; gli antichi diritti dei
-            vassalli: ogniqualvolta sorgeva la necessit&agrave;, dovevano
-            inviare un uomo armato al castello. Ovunque cavalcassero o
-            camminassero, non pagavano n&eacute; pedaggi n&eacute; dazi di
-            mercato. Dovevano essere giudicati solo al tribunale feudale del
-            castello e non dovevano mai essere separati da quel castello,
-            poich&eacute; i loro antenati si erano volontariamente sottoposti
-            a questo servizio. Nel 1714, tutti gli obblighi feudali furono
-            commutati al feudo di Kv&iacute;tkov con una taverna.
+            primaverile e i cervi durante il bramito autunnale. C&apos;era anche
+            un maniero demaniale, con un mulino e una fucina annessi. Il re
+            Vladislao nel 1497 conferm&ograve; gli antichi diritti dei vassalli:
+            ogniqualvolta sorgeva la necessit&agrave;, dovevano inviare un uomo
+            armato al castello. Ovunque cavalcassero o camminassero, non
+            pagavano n&eacute; pedaggi n&eacute; dazi di mercato. Dovevano
+            essere giudicati solo al tribunale feudale del castello e non
+            dovevano mai essere separati da quel castello, poich&eacute; i loro
+            antenati si erano volontariamente sottoposti a questo servizio. Nel
+            1714, tutti gli obblighi feudali furono commutati al feudo di
+            Kv&iacute;tkov con una taverna.
           </li>
           <li>
-            Hlohovičky. Un villaggio ben insediato con 11 servitori che
-            dovevano essere presenti al castello con le balestre, sorvegliare
-            il castello o svolgere altri compiti, cavalcare o marciare ovunque
-            i signori comandavano. Non era necessario alcun pagamento per
-            questo, poich&eacute; erano obbligati a farlo per diritto.
-            (Commutato dallo status feudale nel 1527; vedi Hedčany).
+            Hlohovičky. Un villaggio ben insediato con 11 servitori che dovevano
+            essere presenti al castello con le balestre, sorvegliare il castello
+            o svolgere altri compiti, cavalcare o marciare ovunque i signori
+            comandavano. Non era necessario alcun pagamento per questo,
+            poich&eacute; erano obbligati a farlo per diritto. (Commutato dallo
+            status feudale nel 1527; vedi Hedčany).
           </li>
           <li>
             Otročíněves: questi vassalli dovevano pagare quattro carrettieri
             (cio&egrave; fornire quattro carri).
           </li>
           <li>
-            &Uacute;jezd Panoš&iacute;, un villaggio grande e ben insediato.
-            In esso c&apos;erano 17 vassalli (scudieri, da cui il nome del
+            &Uacute;jezd Panoš&iacute;, un villaggio grande e ben insediato. In
+            esso c&apos;erano 17 vassalli (scudieri, da cui il nome del
             villaggio), che dovevano essere presenti al castello con le balestre
             quando cos&igrave; ordinato e fare ci&ograve; che i signori
-            comandavano. Non dovevano ricevere nulla oltre alle loro
-            provviste.
+            comandavano. Non dovevano ricevere nulla oltre alle loro provviste.
             <br />
-            Il capitano Oulička testimoni&ograve; nel 1566 che i dipendenti
-            di &Uacute;jezd avevano da tempi antichi ricevuto 48 pagnotte di
-            pane e 8 piccoli grossi settimanalmente, ma il signore Šternberk
-            (1560) aveva abolito questa indennit&agrave;.
+            Il capitano Oulička testimoni&ograve; nel 1566 che i dipendenti di
+            &Uacute;jezd avevano da tempi antichi ricevuto 48 pagnotte di pane e
+            8 piccoli grossi settimanalmente, ma il signore Šternberk (1560)
+            aveva abolito questa indennit&agrave;.
             <br />
             &Egrave; facile calcolare che originariamente c&apos;erano 16
             vassalli, ciascuno dei quali riceveva 3 pagnotte e mezzo grosso.
@@ -656,14 +650,14 @@ export const SistemaFeudaleDiKrivoklat = () => (
             1529 che il servizio di portinai e guardiani fosse abolito. Sarebbe
             stato meglio convertire gli obblighi dei vassalli in un pagamento
             regolare, e avrebbero preferito pagare una somma decorosa con cui
-            mantenere uomini permanenti e di provata lealt&agrave;. In tempi
-            di disordini, il capitano non poteva sapere se coloro che arrivavano
+            mantenere uomini permanenti e di provata lealt&agrave;. In tempi di
+            disordini, il capitano non poteva sapere se coloro che arrivavano
             per il turno di guardia fossero guardiani o traditori.
             <br />
-            La proposta di Vřesovec fu in parte attuata da Šternberk e in
-            parte solo durante il capitanato di Kapl&iacute;ř (1640). Gli
-            obblighi di servizio che il cancelliere non pot&eacute; decifrare
-            dai registri danneggiati sono stati trovati altrove:
+            La proposta di Vřesovec fu in parte attuata da Šternberk e in parte
+            solo durante il capitanato di Kapl&iacute;ř (1640). Gli obblighi di
+            servizio che il cancelliere non pot&eacute; decifrare dai registri
+            danneggiati sono stati trovati altrove:
           </li>
           <li>
             Maniero di Kunšův (sotto Všetaty). Con 1 lano. Il titolare era
@@ -677,10 +671,10 @@ export const SistemaFeudaleDiKrivoklat = () => (
             L&apos;obbligo di servizio non &egrave; noto.
           </li>
           <li>
-            Kněževes. Una magistratura con 1 lano e 9 jitra, una taverna
-            libera, un macellaio con un banco di carne e un fornaio. Ogni volta
-            che sorgeva una necessit&agrave; importante, il magistrato era
-            obbligato a tenere un cavallo da sella.
+            Kněževes. Una magistratura con 1 lano e 9 jitra, una taverna libera,
+            un macellaio con un banco di carne e un fornaio. Ogni volta che
+            sorgeva una necessit&agrave; importante, il magistrato era obbligato
+            a tenere un cavallo da sella.
           </li>
           <li>
             Chlum. Il magistrato pagava 3 grossi per i messaggeri inviati
@@ -690,17 +684,19 @@ export const SistemaFeudaleDiKrivoklat = () => (
             Mlečice. Una magistratura con un lano di terra arabile e 2 piccoli
             possidenti.
           </li>
-          <li>Sv&iacute;narov. Una magistratura e un maniero demaniale con 2 lani.</li>
           <li>
-            Myslice. (1383 un mulino, 1543 un maniero, 1610 un traghetto sotto
-            il castello di T&yacute;řov.) Il titolare consegnava pesce di
-            fiume del valore di 3 grossi ogni venerd&igrave;, teneva un
-            segugio con cui cercava la selvaggina e informava gli addetti alle
-            reti e i battitori di Broumy dove dovevano riunirsi.
+            Sv&iacute;narov. Una magistratura e un maniero demaniale con 2 lani.
           </li>
           <li>
-            Broumy: gli addetti alle reti e i battitori dovevano servire
-            durante le cacce.
+            Myslice. (1383 un mulino, 1543 un maniero, 1610 un traghetto sotto
+            il castello di T&yacute;řov.) Il titolare consegnava pesce di fiume
+            del valore di 3 grossi ogni venerd&igrave;, teneva un segugio con
+            cui cercava la selvaggina e informava gli addetti alle reti e i
+            battitori di Broumy dove dovevano riunirsi.
+          </li>
+          <li>
+            Broumy: gli addetti alle reti e i battitori dovevano servire durante
+            le cacce.
           </li>
           <li>
             Hudlice, un villaggio intero. Due erano obbligati a servire come
@@ -736,20 +732,20 @@ export const SistemaFeudaleDiKrivoklat = () => (
             correttamente.
           </li>
           <li>
-            Rakovn&iacute;k. I borghesi erano obbligati, da tempo
-            immemorabile, a fornire uomini e cavalli per le cacce regie e a
-            prestare la biancheria da letto per i cortigiani regi al castello.
+            Rakovn&iacute;k. I borghesi erano obbligati, da tempo immemorabile,
+            a fornire uomini e cavalli per le cacce regie e a prestare la
+            biancheria da letto per i cortigiani regi al castello.
           </li>
           <li>
-            Strašec&iacute;. I coloni partecipavano da tempi antichi alle
-            cacce e fornivano i carri necessari per il trasporto di reti e
-            teli. Poich&eacute; i tempi e i capitani cambiano, nel 1549 fu
-            redatto un documento per questo.
+            Strašec&iacute;. I coloni partecipavano da tempi antichi alle cacce
+            e fornivano i carri necessari per il trasporto di reti e teli.
+            Poich&eacute; i tempi e i capitani cambiano, nel 1549 fu redatto un
+            documento per questo.
           </li>
           <li>
-            Žatec. I borghesi consegnavano mezzo barile di vino da ogni
-            vigneto a Křivokl&aacute;t dal 1399. Nel 1611 questo fu cambiato
-            in un pagamento annuo di 25 sessanta di grossi.
+            Žatec. I borghesi consegnavano mezzo barile di vino da ogni vigneto
+            a Křivokl&aacute;t dal 1399. Nel 1611 questo fu cambiato in un
+            pagamento annuo di 25 sessanta di grossi.
           </li>
         </ol>
       </Col>

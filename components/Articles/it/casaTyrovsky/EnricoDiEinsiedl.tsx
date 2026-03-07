@@ -16,28 +16,26 @@ export const EnricoDiEinsiedl = () => (
           iscritto nelle tavole del paese perché fu sigillato solo dopo la sua
           morte. Il figlio superstite Jindřich (Enrico), che firmava sempre solo
           come Henrich, non era ancora maggiorenne, e così rimase sotto la
-          tutela di Litvín di Klinštejn, consigliere del tribunale camerale,
-          che ancora nel 1491 scriveva il suo nome con Týřov. Dal 1494,
-          Jindřich stesso concedeva già il permesso per la vendita di
-          possedimenti feudali a Mlečice. Nota: i vassalli con obblighi
-          lavorativi a Mlečice e Zavidov erano sempre tenuti a servire
-          Křivoklát, ma come sudditi della tenuta di Týřov potevano vendere le
-          loro proprietà solo con il consenso del loro signore — il detentore di
-          Týřov.
+          tutela di Litvín di Klinštejn, consigliere del tribunale camerale, che
+          ancora nel 1491 scriveva il suo nome con Týřov. Dal 1494, Jindřich
+          stesso concedeva già il permesso per la vendita di possedimenti
+          feudali a Mlečice. Nota: i vassalli con obblighi lavorativi a Mlečice
+          e Zavidov erano sempre tenuti a servire Křivoklát, ma come sudditi
+          della tenuta di Týřov potevano vendere le loro proprietà solo con il
+          consenso del loro signore — il detentore di Týřov.
         </p>
         <p>
-          Nel 1500, il tribunale camerale esaminò una disputa tra Jindřich e
-          Jan di Gutštejn riguardo all&apos;estrazione mineraria, alla quale il
+          Nel 1500, il tribunale camerale esaminò una disputa tra Jindřich e Jan
+          di Gutštejn riguardo all&apos;estrazione mineraria, alla quale il
           fonditore di Gutštejn, Ota, avrebbe avuto diritto.
         </p>
         <p>
           Jindřich fu un eccellente amministratore. In breve tempo, acquistò
-          poderi a Nezabudice e Panošín Újezd, i villaggi di Hřebečníky,
-          Skryje, Tytry e Novosedly, e costruì il podere di Myslice. A Kožlany,
-          restaurò la chiesa, che era in rovina fin dalle guerre hussite, e
-          comprò due fattorie contadine abbandonate con rendite ivi situate, che
-          per molti anni erano appartenute a Krakovec, da Jindřich Albrecht di
-          Kolovrat.
+          poderi a Nezabudice e Panošín Újezd, i villaggi di Hřebečníky, Skryje,
+          Tytry e Novosedly, e costruì il podere di Myslice. A Kožlany, restaurò
+          la chiesa, che era in rovina fin dalle guerre hussite, e comprò due
+          fattorie contadine abbandonate con rendite ivi situate, che per molti
+          anni erano appartenute a Krakovec, da Jindřich Albrecht di Kolovrat.
           <Qt
             publication={PUBLICATIONS.KOCKA1}
             href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:2aeaba53-5238-4dde-bdff-90260eb8a2d2"
@@ -45,8 +43,8 @@ export const EnricoDiEinsiedl = () => (
           Nel 1503, comprò il terreno abbandonato di Sadlno e la tenuta di
           Slabce, alla quale era legato anche un obbligo feudale verso
           Křivoklát, e Jindřich doveva quindi, in caso di bisogno,{' '}
-          <Cit>sám druhý na hrad přijeti ve všem holým železe.</Cit> (presentarsi
-          al castello con un compagno, in armatura completa.)
+          <Cit>sám druhý na hrad přijeti ve všem holým železe.</Cit>{' '}
+          (presentarsi al castello con un compagno, in armatura completa.)
         </p>
         <p>
           Durante la guerra del 1505 condotta contro i signori Šlik, schierò 4
@@ -67,8 +65,8 @@ export const EnricoDiEinsiedl = () => (
           Jindřich, che produsse un documento del re Giorgio attestante che non
           poteva essere riscattato da nessuno durante la sua vita, non cedette
           il castello, e poiché Adam morì nel 1531 e Jindřich gli sopravvisse,
-          la registrazione decadde. Nel 1525, Jindřich Týřovský fu convocato
-          al tribunale camerale da Jan Pečkovský di Pečkovice per non aver
+          la registrazione decadde. Nel 1525, Jindřich Týřovský fu convocato al
+          tribunale camerale da Jan Pečkovský di Pečkovice per non aver
           testimoniato presso un altro tribunale.
         </p>
         <p>
@@ -82,8 +80,8 @@ export const EnricoDiEinsiedl = () => (
         </p>
         <p>
           Lorenc Šlik approfittò della difficoltà di Jindřich e ottenne dal re
-          Ferdinando il permesso di riscattare la tenuta di Týřov. Tuttavia,
-          ciò poteva avvenire solo previo accordo con Jindřich, il quale invocò
+          Ferdinando il permesso di riscattare la tenuta di Týřov. Tuttavia, ciò
+          poteva avvenire solo previo accordo con Jindřich, il quale invocò
           nuovamente il documento del re Giorgio, non acconsentì, prese in
           prestito 375 sexagene di grossi da Petr Cíl di Svojšice, 350 sexagene
           di grossi da Zikmund Beřkovský di Šebířov e 230 sexagene di grossi da
@@ -92,10 +90,9 @@ export const EnricoDiEinsiedl = () => (
         <p>
           Dalle suddette somme, risulta che Týřov era impegnato per 1000
           sexagene di grossi. Quando Jindřich non poté soddisfare i suoi
-          creditori, vendette il villaggio di Novosedly, il podere di
-          Nezabudice e i poderi di Panošín Újezd, e in aggiunta impegnò il
-          podere di Kouřimec, i villaggi di Mlečice, Hřebečníky, Skryje e
-          Tytry.
+          creditori, vendette il villaggio di Novosedly, il podere di Nezabudice
+          e i poderi di Panošín Újezd, e in aggiunta impegnò il podere di
+          Kouřimec, i villaggi di Mlečice, Hřebečníky, Skryje e Tytry.
         </p>
         <p>
           Zikmund Beřkovský convocò Jindřich in tribunale per il debito già nel
@@ -164,9 +161,9 @@ export const EnricoDiEinsiedl = () => (
         <p>
           Jindřich fu capitano regionale nel 1546; nel 1545 vendette Slabce con
           Sadlno e nel 1555 il podere di Myslice. Dopo aver diviso la sua
-          proprietà tra i figli, nel 1556 si trasferì a Jince, che apparteneva
-          a Mikuláš Pešík di Komárov, dove il 19 febbraio 1556 morì ed è
-          sepolto nella locale chiesa di San Nicola.
+          proprietà tra i figli, nel 1556 si trasferì a Jince, che apparteneva a
+          Mikuláš Pešík di Komárov, dove il 19 febbraio 1556 morì ed è sepolto
+          nella locale chiesa di San Nicola.
           <Qt publication={PUBLICATIONS.KOCKA} />
         </p>
       </Col>

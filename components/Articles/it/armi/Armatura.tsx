@@ -37,18 +37,18 @@ export const Armatura = () => (
           di Cristiano del X secolo, l&apos;armatura &egrave; menzionata in
           relazione a una rivolta pianificata contro il principe Bořivoj &mdash;
           i suoi oppositori si presentarono alla dieta indossando{' '}
-          <Cit>corazze sotto i loro abiti</Cit>, ma anche i suoi uomini
-          fecero altrettanto. L&apos;armatura &egrave; menzionata anche da
-          Cosma nell&apos;XI secolo e dal Monaco di S&aacute;zava nel XII
-          secolo. Il Canonico di Vyšehrad descrive come alla Battaglia di
-          Chlumec nel 1126, il cappellano del principe V&iacute;t,{' '}
+          <Cit>corazze sotto i loro abiti</Cit>, ma anche i suoi uomini fecero
+          altrettanto. L&apos;armatura &egrave; menzionata anche da Cosma
+          nell&apos;XI secolo e dal Monaco di S&aacute;zava nel XII secolo. Il
+          Canonico di Vyšehrad descrive come alla Battaglia di Chlumec nel 1126,
+          il cappellano del principe V&iacute;t,{' '}
           <Cit>vestito di armatura ed elmo come Achille&hellip;</Cit>,
           serv&igrave; come portastendardo dell&apos;esercito boemo.
           L&apos;armatura &egrave; menzionata da Vincenzo e da altri autori del
           XII secolo. Dalle suddette fonti e resoconti, l&apos;uso diffuso di
-          armi e armature di qualit&agrave; &egrave; abbastanza evidente,
-          almeno nell&apos;ambiente dei guerrieri professionisti delle
-          milizie principesche.
+          armi e armature di qualit&agrave; &egrave; abbastanza evidente, almeno
+          nell&apos;ambiente dei guerrieri professionisti delle milizie
+          principesche.
           <Qt
             publication={PUBLICATIONS.TOMIC}
             href="https://curiavitkov.cz/2004/07/20/cas-valky-vystroj-zbroje/"
@@ -70,8 +70,8 @@ export const Armatura = () => (
           successivamente anche nel mondo arabo. Attraverso contatti commerciali
           o come bottino di guerra, raggiunse pi&ugrave; tardi la Scandinavia,
           l&apos;Impero Franco, la Gran Bretagna e le nostre terre.
-          All&apos;importazione di armature finite segu&igrave; gradualmente
-          la tecnologia stessa della loro produzione.{' '}
+          All&apos;importazione di armature finite segu&igrave; gradualmente la
+          tecnologia stessa della loro produzione.{' '}
           <Qt
             publication={PUBLICATIONS.TOMIC}
             href="https://curiavitkov.cz/2004/07/20/cas-valky-vystroj-zbroje/"
@@ -80,13 +80,12 @@ export const Armatura = () => (
         <p>
           All&apos;epoca, l&apos;unico lavoro di armatura a piastre erano gli
           elmi. I primi elmi conici erano rivettati da quattro e poi da due
-          pezzi. Nel IX secolo apparvero elmi conici forgiati da un unico
-          pezzo, il che era tecnologicamente pi&ugrave; impegnativo
-          perch&eacute; per un tale elmo era necessario un pezzo intatto
-          pi&ugrave; grande di lamiera. In generale, gli armaioli nel corso
-          della storia erano limitati principalmente dalla dimensione della
-          lamiera di partenza. L&apos;elmo pi&ugrave; famoso di questo tipo
-          &egrave; il cosiddetto{' '}
+          pezzi. Nel IX secolo apparvero elmi conici forgiati da un unico pezzo,
+          il che era tecnologicamente pi&ugrave; impegnativo perch&eacute; per
+          un tale elmo era necessario un pezzo intatto pi&ugrave; grande di
+          lamiera. In generale, gli armaioli nel corso della storia erano
+          limitati principalmente dalla dimensione della lamiera di partenza.
+          L&apos;elmo pi&ugrave; famoso di questo tipo &egrave; il cosiddetto{' '}
           <i>Elmo di San Venceslao</i>.{' '}
           <Qt
             publication={PUBLICATIONS.TOMIC}
@@ -107,11 +106,11 @@ export const Armatura = () => (
           indossava nella massima misura possibile, e armatura da torneo, dove
           l&apos;enfasi era principalmente sulla protezione passiva. Durante
           questo secolo, l&apos;uso dell&apos;armatura a piastre (spesso solo
-          parziale) si diffuse tra la fanteria urbana e mercenaria, che
-          giocava un ruolo sempre pi&ugrave; importante nelle battaglie. Grazie
-          a metodi di combattimento collettivi e disciplinati, riusc&igrave; nel
-          corso degli anni a sconfiggere anche la cavalleria pesante con
-          frequenza crescente.
+          parziale) si diffuse tra la fanteria urbana e mercenaria, che giocava
+          un ruolo sempre pi&ugrave; importante nelle battaglie. Grazie a metodi
+          di combattimento collettivi e disciplinati, riusc&igrave; nel corso
+          degli anni a sconfiggere anche la cavalleria pesante con frequenza
+          crescente.
         </p>
         <p>
           Gi&agrave; all&apos;inizio del XV secolo, i pi&ugrave; importanti
@@ -124,23 +123,22 @@ export const Armatura = () => (
           la produzione di armature. Questa famiglia ramificata, originariamente
           di nome Negroni, ottenne il suo nome da una piccola citt&agrave; in
           Lombardia, da cui proveniva apparentemente il fondatore della loro
-          fama armaiola, Pietro, morto prima del 1429. La maggiore
-          rinomanza fu raggiunta dai suoi successori Tommaso e soprattutto
-          Antonio (c. 1416&ndash;1496), che diresse la bottega dal 1452 fino
-          alla sua morte. I Missaglia lavorarono nel XV secolo per i
-          principali nobili italiani come i Visconti, i Gonzaga e gli Sforza.
-          Tra le famose dinastie di armaioli tedeschi vi erano gli Helmschmied
-          di Augusta e i Seusenhofer di Innsbruck. I primi furono attivi dalla
-          seconda met&agrave; del XV secolo alla seconda met&agrave; del
-          secolo successivo. Il primo armaiolo documentato di questa famiglia
-          fu Georg, attivo approssimativamente tra il 1438 e il 1490. La
-          maggiore rinomanza fu poi raggiunta da suo figlio Lorenz, nato
-          probabilmente tra il 1445 e il 1450, che lavor&ograve; tra il 1467
-          e il 1515 e che fu nominato Armaiolo di Corte Imperiale da
-          Massimiliano I nel 1491. Poi il figlio di Lorenz, Kolman
-          (1471&ndash;1532), noto ad esempio per le armature per Carlo V, e il
-          nipote di Lorenz, Desiderius (1513&ndash;1578), che lavor&ograve;,
-          tra gli altri, per il re spagnolo Filippo II.
+          fama armaiola, Pietro, morto prima del 1429. La maggiore rinomanza fu
+          raggiunta dai suoi successori Tommaso e soprattutto Antonio (c.
+          1416&ndash;1496), che diresse la bottega dal 1452 fino alla sua morte.
+          I Missaglia lavorarono nel XV secolo per i principali nobili italiani
+          come i Visconti, i Gonzaga e gli Sforza. Tra le famose dinastie di
+          armaioli tedeschi vi erano gli Helmschmied di Augusta e i Seusenhofer
+          di Innsbruck. I primi furono attivi dalla seconda met&agrave; del XV
+          secolo alla seconda met&agrave; del secolo successivo. Il primo
+          armaiolo documentato di questa famiglia fu Georg, attivo
+          approssimativamente tra il 1438 e il 1490. La maggiore rinomanza fu
+          poi raggiunta da suo figlio Lorenz, nato probabilmente tra il 1445 e
+          il 1450, che lavor&ograve; tra il 1467 e il 1515 e che fu nominato
+          Armaiolo di Corte Imperiale da Massimiliano I nel 1491. Poi il figlio
+          di Lorenz, Kolman (1471&ndash;1532), noto ad esempio per le armature
+          per Carlo V, e il nipote di Lorenz, Desiderius (1513&ndash;1578), che
+          lavor&ograve;, tra gli altri, per il re spagnolo Filippo II.
           <Qt publication={PUBLICATIONS.BROZEK} />
         </p>
         <p>
@@ -162,8 +160,8 @@ export const Armatura = () => (
         </p>
         <ul>
           <li>
-            Dal 1439: Henricus Hemrle, che aveva una casa nella via Ostrožnick&aacute;
-            (Platn&eacute;řsk&aacute;).
+            Dal 1439: Henricus Hemrle, che aveva una casa nella via
+            Ostrožnick&aacute; (Platn&eacute;řsk&aacute;).
           </li>
           <li>
             Dalla met&agrave; del XV secolo: il thorifex Kř&iacute;ž, la cui
@@ -178,7 +176,9 @@ export const Armatura = () => (
             Dal 1477: Havel Kabela (Cabela), che insieme a Duchek aveva
             acquistato un&apos;incudine.
           </li>
-          <li>Dal 1479: l&apos;armaiolo Pivce V&aacute;clav e Jan D&uacute;bek.</li>
+          <li>
+            Dal 1479: l&apos;armaiolo Pivce V&aacute;clav e Jan D&uacute;bek.
+          </li>
           <li>Dal 1483: l&apos;armaiolo Sladk&yacute;.</li>
           <li>
             Dal 1516: l&apos;armaiolo Jan Pivce, forse figlio di V&aacute;clav.
@@ -197,28 +197,27 @@ export const Armatura = () => (
         </p>
         <p>
           Sebbene gli armaioli avessero la loro organizzazione a Praga forse
-          gi&agrave; prima del 1328, portarono i loro statuti per la conferma
-          al municipio solo pi&ugrave; tardi, forse nel 1336, e solo gli
-          articoli riguardanti apprendisti e garzoni, che sembra fosse una
-          questione cruciale per gli armaioli praghesi. Gli statuti stabilivano
-          che un apprendista doveva pagare al maestro 2 sessanta di grossi per
-          la formazione (il che era molto rispetto ad altri mestieri) e alla
+          gi&agrave; prima del 1328, portarono i loro statuti per la conferma al
+          municipio solo pi&ugrave; tardi, forse nel 1336, e solo gli articoli
+          riguardanti apprendisti e garzoni, che sembra fosse una questione
+          cruciale per gli armaioli praghesi. Gli statuti stabilivano che un
+          apprendista doveva pagare al maestro 2 sessanta di grossi per la
+          formazione (il che era molto rispetto ad altri mestieri) e alla
           confraternita 15 grossi. Inoltre, doveva rimanere al servizio del
           maestro per 4 anni e doveva essere garantito con due sessanta di
-          grossi per non fuggire. Se fuggiva e non tornava entro otto giorni,
-          la garanzia era persa &mdash; mezzo sessanta al magistrato e alla
+          grossi per non fuggire. Se fuggiva e non tornava entro otto giorni, la
+          garanzia era persa &mdash; mezzo sessanta al magistrato e alla
           corporazione e un sessanta ai consiglieri. Secondo i cosiddetti
           Diritti di Soběslav (circa 1440), gli armaioli marciavano nelle
           cerimonie come l&apos;accoglienza del sovrano o nelle processioni al
           terzo posto dietro macellai e orafi. Dovevano portare uno stendardo
           verde su cui era raffigurato un guerriero in armatura a piastre
-          completa. Sotto questo stendardo, marciavano con loro i
-          rappresentanti di altri mestieri, sia indipendenti che organizzati.
-          Questi erano: fabbricanti di maglia, fabbricanti di aghi, elmieri,
-          fabbricanti di speroni, ottonai, sellai, peltrai, fabbricanti di
-          briglie, fabbricanti di cinghie, fabbricanti di cinture, fabbri,
-          borsai, fabbricanti di borse, spadai, fabbricanti di faretre e
-          fabbri serraturieri.
+          completa. Sotto questo stendardo, marciavano con loro i rappresentanti
+          di altri mestieri, sia indipendenti che organizzati. Questi erano:
+          fabbricanti di maglia, fabbricanti di aghi, elmieri, fabbricanti di
+          speroni, ottonai, sellai, peltrai, fabbricanti di briglie, fabbricanti
+          di cinghie, fabbricanti di cinture, fabbri, borsai, fabbricanti di
+          borse, spadai, fabbricanti di faretre e fabbri serraturieri.
         </p>
         <p>
           Come altri mestieri, anche l&apos;armatura si differenzi&ograve;, e
@@ -251,8 +250,8 @@ export const Armatura = () => (
           esso, nota nel ceco dell&apos;epoca come <i>leb</i> o <i>lebka</i>,
           predominavano chiaramente nelle terre boeme. Per gli elmi era usato
           anche il termine <i>peklhaub</i>, <i>peklh&uacute;bl</i> o{' '}
-          <i>piklhaub</i>, che era una corruzione di <i>beckenhaube</i>, il
-          nome tedesco per il tipo di elmo a bacinetto; tuttavia, una volta
+          <i>piklhaub</i>, che era una corruzione di <i>beckenhaube</i>, il nome
+          tedesco per il tipo di elmo a bacinetto; tuttavia, una volta
           cechizzato, questo termine era usato per qualsiasi elmo metallico.
           Poich&eacute; n&eacute; il cappello di ferro n&eacute; la celata
           proteggevano la parte inferiore del volto, potevano essere
@@ -272,8 +271,7 @@ export const Armatura = () => (
           La protezione del torso era fornita da una piastra anteriore e una
           posteriore, che insieme formavano la corazza. In Boemia, la piastra
           anteriore era chiamata <i>prustplech</i> o <i>prusplech</i>, dal
-          tedesco <i>brustblech</i>, letteralmente{' '}
-          <Cit>piastra pettorale</Cit>.
+          tedesco <i>brustblech</i>, letteralmente <Cit>piastra pettorale</Cit>.
         </p>
       </Col>
     </Row>

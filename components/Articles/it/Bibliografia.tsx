@@ -22,8 +22,8 @@ export const Bibliografia = () => (
               href="https://upload.wikimedia.org/wikipedia/commons/d/d9/Freska_v_chr%C3%A1mu_sv._Barbory%28Kutn%C3%A1_Hora%29_1.JPG"
               target="_blank"
             >
-              Affresco dalla Cappella dei Monetieri, Cattedrale di Santa Barbara,
-              Kutná Hora
+              Affresco dalla Cappella dei Monetieri, Cattedrale di Santa
+              Barbara, Kutná Hora
             </a>
           </li>
           <li>

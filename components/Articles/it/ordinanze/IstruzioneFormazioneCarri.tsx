@@ -15,12 +15,12 @@ export const IstruzioneFormazioneCarri = () => (
         <p>Traduzione di PhDr. Zdeňka Kopková</p>
         <p>
           Note di traduzione: in tedesco, il termine <i>wagenberg</i> è
-          utilizzato per il forte dei carri, il che corrisponde più
-          strettamente alla traduzione <i>castello dei carri</i>. Quando il
-          testo parla del forte dei carri, si riferisce a tutti i carri
-          collettivamente, indipendentemente dal fatto che il forte dei carri,
-          come inteso nel contesto ceco, sia stato allestito, oppure che i carri
-          siano in movimento, come discusso nel testo seguente.
+          utilizzato per il forte dei carri, il che corrisponde più strettamente
+          alla traduzione <i>castello dei carri</i>. Quando il testo parla del
+          forte dei carri, si riferisce a tutti i carri collettivamente,
+          indipendentemente dal fatto che il forte dei carri, come inteso nel
+          contesto ceco, sia stato allestito, oppure che i carri siano in
+          movimento, come discusso nel testo seguente.
         </p>
         <p>&nbsp;</p>
       </Col>
@@ -103,8 +103,8 @@ export const IstruzioneFormazioneCarri = () => (
             più esterna, la quale deve essere chiusa; ciascuno deve avere
             un&apos;asse che viene appesa sul lato esterno per le necessità del
             forte dei carri, la quale deve essere agganciata alla sommità della
-            trave a scala e deve raggiungere in basso fino a metà della ruota,
-            e sotto il carro, tra le ruote, un&apos;asse sospesa. Questi stessi
+            trave a scala e deve raggiungere in basso fino a metà della ruota, e
+            sotto il carro, tra le ruote, un&apos;asse sospesa. Questi stessi
             IIII carri devono inoltre avere catene per serrarli insieme. E gli
             altri VI carri devono avere funi per sbarrarli come gli altri carri,
             e tutti devono essere conformi al modello che abbiamo lasciato a
@@ -114,17 +114,17 @@ export const IstruzioneFormazioneCarri = () => (
         <h5>Ordine della campagna militare</h5>
         <p>
           Vostra Grazia marcia con un grande forte dei carri, e specialmente
-          quando il forte dei carri è in marcia, Vostra Grazia dovrà disporre
-          la guardia molto accuratamente davanti, dietro e avanti al forte dei
+          quando il forte dei carri è in marcia, Vostra Grazia dovrà disporre la
+          guardia molto accuratamente davanti, dietro e avanti al forte dei
           carri, e rimanere con tutte le truppe al centro accanto al forte dei
           carri, cosicché se venissero attaccati da dietro o da davanti, si
           possa accorrere in loro aiuto. Un forte dei carri non può procedere
-          nelle sue IV file come è opportuno in tutti i luoghi attraverso
-          acqua, fossati, valli, colline e boschi; e quando procede su due
-          file, devono estendersi molto in lunghezza, perciò talvolta una ruota
-          può staccarsi dal retro o dal fronte, specialmente come ho udito,
-          Vostra Grazia Principesca aveva più di mille carri da guerra in campo
-          l&apos;ultima volta, senza contare i carri da approvvigionamento.
+          nelle sue IV file come è opportuno in tutti i luoghi attraverso acqua,
+          fossati, valli, colline e boschi; e quando procede su due file, devono
+          estendersi molto in lunghezza, perciò talvolta una ruota può staccarsi
+          dal retro o dal fronte, specialmente come ho udito, Vostra Grazia
+          Principesca aveva più di mille carri da guerra in campo l&apos;ultima
+          volta, senza contare i carri da approvvigionamento.
         </p>
       </Col>
     </Row>

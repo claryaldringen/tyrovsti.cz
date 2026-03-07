@@ -77,9 +77,9 @@ export const IstruzioneDifesaCarri = () => (
           <li>
             A ciascuna delle due porte, 1.000 fanti con alcuni cavalieri
             dovranno presentarsi. A ciascun angolo esterno del forte dei carri,
-            500 fanti, i quali dovranno tenersi pronti alla difesa su entrambi
-            i lati dove necessario, fino all&apos;altro angolo che serve di
-            fronte a loro sopra.
+            500 fanti, i quali dovranno tenersi pronti alla difesa su entrambi i
+            lati dove necessario, fino all&apos;altro angolo che serve di fronte
+            a loro sopra.
           </li>
           <li>
             Duemila uomini dovranno rimanere con le altre truppe al centro della

@@ -18,24 +18,24 @@ export const HansHarsdorfer = () => (
           Hans Harsdorfer proveniva dalla famiglia patrizia norimberghese degli
           Harsdorfer, le cui origini risalgono al 1377, quando due fratelli,
           Heinrich e Friedrich Harsdorfer, si trasferirono dalle loro tenute a
-          Norimberga, dove ottennero la cittadinanza e iniziarono a dedicarsi
-          al commercio nel settore minerario e metallurgico. Divennero così
+          Norimberga, dove ottennero la cittadinanza e iniziarono a dedicarsi al
+          commercio nel settore minerario e metallurgico. Divennero così
           cosiddetti borghesi armoriali, tanto più notevoli per aver portato con
           sé il loro stemma in città. Questo stemma, che raffigura una torre
-          d&apos;argento su una collina a tre cime su campo rosso, sarebbe
-          stato loro concesso già nel 1203 dal re dei Romani Filippo di Svevia,
-          quando gli antenati della famiglia si distinsero durante la campagna
-          di Filippo in Italia, dove conquistarono una torre sulla cima di una
+          d&apos;argento su una collina a tre cime su campo rosso, sarebbe stato
+          loro concesso già nel 1203 dal re dei Romani Filippo di Svevia, quando
+          gli antenati della famiglia si distinsero durante la campagna di
+          Filippo in Italia, dove conquistarono una torre sulla cima di una
           collina.
           <Qt publication={PUBLICATIONS.VONHARSDORF} />
         </p>
         <p>
           Il padre di Hans, Anton Harsdorfer, sposò Barbara Fritz, borghese di
-          Plzeň, con la quale ebbe due figli, Hans e Kateřina. Anton acquistò
-          la tenuta di Malesice, che era stata alienata dal monastero di
-          Kladruby durante le guerre hussite. Anton Harsdorfer morì il{' '}
-          <b>12 marzo 1462</b> e fu sepolto nella Cattedrale di San Bartolomeo
-          a Plzeň. Malesice fu ereditata dai suoi due figli, con Kateřina che
+          Plzeň, con la quale ebbe due figli, Hans e Kateřina. Anton acquistò la
+          tenuta di Malesice, che era stata alienata dal monastero di Kladruby
+          durante le guerre hussite. Anton Harsdorfer morì il{' '}
+          <b>12 marzo 1462</b> e fu sepolto nella Cattedrale di San Bartolomeo a
+          Plzeň. Malesice fu ereditata dai suoi due figli, con Kateřina che
           vendette la sua parte al fratello Hans il 30 marzo 1474 per 1.000
           fiorini.
           <Qt
@@ -87,13 +87,13 @@ export const HansHarsdorfer = () => (
           />
         </p>
         <p>
-          Fece arredare sontuosamente la Cappella dei Santi Venceslao e
-          Ladislao nella Corte Italiana, compresi tre pale d&apos;altare
-          riccamente decorate, che a quanto pare commissionò direttamente a una
-          bottega pittorica di Norimberga. La cappella fu (ri)consacrata il{' '}
+          Fece arredare sontuosamente la Cappella dei Santi Venceslao e Ladislao
+          nella Corte Italiana, compresi tre pale d&apos;altare riccamente
+          decorate, che a quanto pare commissionò direttamente a una bottega
+          pittorica di Norimberga. La cappella fu (ri)consacrata il{' '}
           <b>20 luglio 1497</b> in occasione della visita del re Vladislao II.
-          <Qt publication={PUBLICATIONS.VONHARSDORF} /> Durante il suo periodo
-          a Kutná Hora fece anche ricostruire a caro prezzo la casa del Maestro
+          <Qt publication={PUBLICATIONS.VONHARSDORF} /> Durante il suo periodo a
+          Kutná Hora fece anche ricostruire a caro prezzo la casa del Maestro
           della Zecca e acquisì lussuose bilance da orafo custodite in un
           cofanetto decorato, il cui coperchio esterno raffigura una battaglia
           di uomini selvaggi e il lato interno mostra due uomini armati che
@@ -103,9 +103,9 @@ export const HansHarsdorfer = () => (
             href="https://www.novinky.cz/clanek/kultura-triumfalni-navrat-kralovskeho-mincmistra-do-kutne-hory-155480"
           />{' '}
           Lui e sua moglie donarono inoltre alla cappella una casula ornata con
-          ricami raffiguranti scene della Vita della Vergine e dell&apos;Infanzia
-          di Cristo. Durante l&apos;epoca barocca, i ricami furono ritagliati,
-          cuciti su un nuovo supporto e incorniciati in oro.
+          ricami raffiguranti scene della Vita della Vergine e
+          dell&apos;Infanzia di Cristo. Durante l&apos;epoca barocca, i ricami
+          furono ritagliati, cuciti su un nuovo supporto e incorniciati in oro.
           <Qt
             publication={PUBLICATIONS.CMSKH}
             href="https://www.cms-kh.cz/textil-a-odevy"
@@ -159,10 +159,10 @@ export const HansHarsdorfer = () => (
       <Col>
         <p>
           Così Hans Harsdorfer lasciò Kutná Hora il <b>5 aprile 1499</b>,
-          <Qt publication={PUBLICATIONS.VONHARSDORF} /> si trasferì a
-          Norimberga e nel 1501 entrò nel consiglio cittadino (nel quale
-          servivano ereditariamente membri delle famiglie del suocero Nützel e
-          del cognato Stromer), e nel 1505 fu eletto borgomastro anziano.
+          <Qt publication={PUBLICATIONS.VONHARSDORF} /> si trasferì a Norimberga
+          e nel 1501 entrò nel consiglio cittadino (nel quale servivano
+          ereditariamente membri delle famiglie del suocero Nützel e del cognato
+          Stromer), e nel 1505 fu eletto borgomastro anziano.
           <Qt
             publication={PUBLICATIONS.WIKI}
             href="https://cs.wikipedia.org/wiki/Jan_Horstoffar#%C5%BDivot_a_kari%C3%A9ra"
@@ -193,9 +193,9 @@ export const HansHarsdorfer = () => (
             publication={PUBLICATIONS.NOVINKY}
             href="https://www.novinky.cz/clanek/kultura-triumfalni-navrat-kralovskeho-mincmistra-do-kutne-hory-155480"
           />{' '}
-          Nella Guerra di successione di Landshut divenne uno dei tre
-          comandanti sul campo di Norimberga. Morì senza eredi il{' '}
-          <b>14 gennaio 1511</b> a Norimberga
+          Nella Guerra di successione di Landshut divenne uno dei tre comandanti
+          sul campo di Norimberga. Morì senza eredi il <b>14 gennaio 1511</b> a
+          Norimberga
           <Qt
             publication={PUBLICATIONS.WIKI}
             href="https://cs.wikipedia.org/wiki/Jan_Horstoffar#%C5%BDivot_a_kari%C3%A9ra"
@@ -209,8 +209,8 @@ export const HansHarsdorfer = () => (
         </p>
         <p>
           Oltre alle opere sopra menzionate, Hans Harsdorfer fu il promotore
-          della creazione di altre opere d&apos;arte, come la cosiddetta Arca
-          di Rábí, una pala d&apos;altare che secondo alcune fonti era destinata
+          della creazione di altre opere d&apos;arte, come la cosiddetta Arca di
+          Rábí, una pala d&apos;altare che secondo alcune fonti era destinata
           direttamente come dono per Půta Švihovský di Rýzmberk
           <Qt
             publication={PUBLICATIONS.NOVINKY}
@@ -224,13 +224,13 @@ export const HansHarsdorfer = () => (
           />
           Acquistò inoltre oggetti liturgici e tessili per la cappella di
           Aquisgrana, dove il re di Boemia deteneva il diritto di patronato, e
-          grazie alla sua mediazione l&apos;artista di corte reale, l&apos;intagliatore
-          Hanuš (probabilmente membro della bottega Spiess, Hans Scholler di
-          Norimberga), ricevette una somma considerevole di denaro, che
-          apparentemente servì a pagare la magnifica pala d&apos;altare per la
-          cappella del castello di Křivoklát — la commissione più
-          rappresentativa che Vladislao II Jagellone avesse fatto realizzare in
-          Boemia nei primi anni del suo regno.
+          grazie alla sua mediazione l&apos;artista di corte reale,
+          l&apos;intagliatore Hanuš (probabilmente membro della bottega Spiess,
+          Hans Scholler di Norimberga), ricevette una somma considerevole di
+          denaro, che apparentemente servì a pagare la magnifica pala
+          d&apos;altare per la cappella del castello di Křivoklát — la
+          commissione più rappresentativa che Vladislao II Jagellone avesse
+          fatto realizzare in Boemia nei primi anni del suo regno.
           <Qt
             publication={PUBLICATIONS.NOVINKY}
             href="https://www.novinky.cz/clanek/kultura-triumfalni-navrat-kralovskeho-mincmistra-do-kutne-hory-155480"

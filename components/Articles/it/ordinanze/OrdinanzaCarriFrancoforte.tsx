@@ -7,9 +7,7 @@ export const OrdinanzaCarriFrancoforte = () => (
       <Col>
         <div className="anchor" id="ordinanza-dei-carri-di-francoforte" />
         <h4>Ordinanza dei carri di Francoforte del 1444</h4>
-        <p>
-          Traduzione di PhDr. Zdeňka Kopková, revisione di Daniel Burger.
-        </p>
+        <p>Traduzione di PhDr. Zdeňka Kopková, revisione di Daniel Burger.</p>
         <p>&nbsp;</p>
       </Col>
     </Row>
@@ -43,20 +41,20 @@ export const OrdinanzaCarriFrancoforte = () => (
           resistere al nemico, e vi dovranno essere mille carri, ciascuno con
           due serventi robusti capaci di guidare bene, e quattro robusti
           stalloni da tiro, ben criniti e formati, con scale, steccati, rinforzi
-          solidi, coperti a metà con tela di lino, e sotto, tra i due assi,
-          sul fianco longitudinale un&apos;asse robusta dovrà pendere da catene,
+          solidi, coperti a metà con tela di lino, e sotto, tra i due assi, sul
+          fianco longitudinale un&apos;asse robusta dovrà pendere da catene,
           disposta in modo che possa essere agganciata e rimossa quando si
           desideri; e ogni due carri dovranno avere una catena, lunga otto
-          braccia, con un anello e un gancio, cosicché possa essere agganciata
-          e rimossa quando si desideri; e a ciascun carro due archibugi
-          portatili, e per ciascun archibugio almeno sessanta proiettili di
-          piombo, e per ogni due carri un cannone a camera e almeno trenta
-          pietre delle dimensioni di una testa, e a ciascun carro due
-          correggiati cerchiati di ferro e fissati con catene, due ronconi con
-          ganci, tre pavesi fissi con tavole e picchetti sul retro, una pala,
-          una zappa e un piccone; pertanto equipaggiate i vostri carri in tal
-          modo, e portate con voi anche pietre, polvere, piombo e dardi, in
-          tutta la quantità che potete trasportare.
+          braccia, con un anello e un gancio, cosicché possa essere agganciata e
+          rimossa quando si desideri; e a ciascun carro due archibugi portatili,
+          e per ciascun archibugio almeno sessanta proiettili di piombo, e per
+          ogni due carri un cannone a camera e almeno trenta pietre delle
+          dimensioni di una testa, e a ciascun carro due correggiati cerchiati
+          di ferro e fissati con catene, due ronconi con ganci, tre pavesi fissi
+          con tavole e picchetti sul retro, una pala, una zappa e un piccone;
+          pertanto equipaggiate i vostri carri in tal modo, e portate con voi
+          anche pietre, polvere, piombo e dardi, in tutta la quantità che potete
+          trasportare.
         </p>
       </Col>
     </Row>

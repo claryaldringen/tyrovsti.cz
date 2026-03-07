@@ -16,9 +16,9 @@ export const Stocco = () => (
     <Row>
       <Col>
         <p>
-          Lo stocco (in polacco <i>estok</i>, in inglese e francese{' '}
-          <i>estoc</i>) è una spada con una lama molto stretta e rigida,
-          progettata per penetrare in una fessura dell&apos;armatura a piastre e
+          Lo stocco (in polacco <i>estok</i>, in inglese e francese <i>estoc</i>
+          ) è una spada con una lama molto stretta e rigida, progettata per
+          penetrare in una fessura dell&apos;armatura a piastre e
           successivamente attraverso la maglia sottostante. Si differenzia dal
           simile koncerz (in polacco <i>koncerz</i>) principalmente per
           l&apos;impugnatura a due mani
@@ -71,8 +71,8 @@ export const Stocco = () => (
         height={2218}
         title={
           <>
-            Un <i>Harnischkampfschwert</i> da esercitazione dal Kunsthistorisches
-            Museum di Vienna, che non è uno stocco.
+            Un <i>Harnischkampfschwert</i> da esercitazione dal
+            Kunsthistorisches Museum di Vienna, che non è uno stocco.
           </>
         }
       />
@@ -170,10 +170,10 @@ export const Stocco = () => (
           La lama è in acciaio e ben conservata (fig. 1). I bordi e la punta
           della lama sono leggermente arrotondati. La lama è leggermente piegata
           nel piano perpendicolare al piano della guardia. La curvatura è
-          visibile a circa tre quarti della lunghezza della lama, più vicino alla
-          punta, e non supera 1 mm dall&apos;asse longitudinale della lama. Non
-          siamo ancora in grado di determinare quando o in quali circostanze si
-          sia verificata questa deformazione. Su tutte e quattro le superfici
+          visibile a circa tre quarti della lunghezza della lama, più vicino
+          alla punta, e non supera 1 mm dall&apos;asse longitudinale della lama.
+          Non siamo ancora in grado di determinare quando o in quali circostanze
+          si sia verificata questa deformazione. Su tutte e quattro le superfici
           della lama sono presenti marchi di spadaio a forma di stella a cinque
           punte e di mezzaluna, ciascuno con un diametro da 5 a 6 mm (fig. 8).
           Due marchi su lati opposti della lama sono posti a 45 mm dal bordo
@@ -186,8 +186,8 @@ export const Stocco = () => (
         <p>
           Il pomolo è grande e massiccio (fig. 5, 6 e 7). Sulle sue dodici facce
           sono presenti fossette circolari con un diametro da 2 a 4 mm e una
-          profondità fino a 2 mm (fig. 5 e 6). Inoltre, vi sono stati incisi
-          tre marchi di spadaio, analoghi a quelli sulla lama, di cui uno è
+          profondità fino a 2 mm (fig. 5 e 6). Inoltre, vi sono stati incisi tre
+          marchi di spadaio, analoghi a quelli sulla lama, di cui uno è
           completamente conservato. Il marchio completo ha forma circolare e un
           diametro di 4 mm. I diametri dei marchi rimanenti sono minori, circa 3
           mm. Il codolo è spesso e robusto, corrispondente alle dimensioni del

@@ -5,14 +5,16 @@ export const OrdinanzaDelMargravioAlbrecht = () => (
   <>
     <Row>
       <Col>
-        <div className="anchor" id="ordinanza-militare-del-margravio-albrecht" />
+        <div
+          className="anchor"
+          id="ordinanza-militare-del-margravio-albrecht"
+        />
         <h4>Ordinanza militare del margravio Albrecht del 1478</h4>
         <p>
           Questa ordinanza fu emanata dall&apos;elettore Albrecht Achille di
           Brandeburgo per la guerra di Pomerania. Fu stampata per la prima volta
-          in{' '}
-          <i>Archiv für die Geschichtskunde des Preussischen Staates I</i> nel
-          1830.
+          in <i>Archiv für die Geschichtskunde des Preussischen Staates I</i>{' '}
+          nel 1830.
         </p>
         <p>Traduzione di PhDr. Zdeňka Kopková.</p>
         <p>&nbsp;</p>
@@ -155,13 +157,11 @@ export const OrdinanzaDelMargravioAlbrecht = () => (
             facile mantenere l&apos;ordine. Nessuno dovrà mostrare riguardo per
             amicizia o qualsivoglia parentela con l&apos;altro, ma dovrà
             perseguire il bene comune, a vantaggio del mio grazioso signore,
-            della signoria e dell&apos;esercito. E chiunque rifiuti la
-            punizione dovrà essere aiutato virilmente da coloro designati a
-            punire e a mantenere l&apos;ordine.
+            della signoria e dell&apos;esercito. E chiunque rifiuti la punizione
+            dovrà essere aiutato virilmente da coloro designati a punire e a
+            mantenere l&apos;ordine.
           </li>
-          <li>
-            Chiunque rubi sarà punito senza pietà con la corda.
-          </li>
+          <li>Chiunque rubi sarà punito senza pietà con la corda.</li>
           <li>
             Chiunque sottragga beni agli amici sarà punito senza pietà a
             discrezione del mio grazioso signore o dei capitani di Sua Grazia,
@@ -178,7 +178,10 @@ export const OrdinanzaDelMargravioAlbrecht = () => (
             dell&apos;esercito che possa ostacolare le persone nel cavalcare o
             nel camminare.
           </li>
-          <li>Nell&apos;accampamento dell&apos;esercito si dovrà osservare il silenzio.</li>
+          <li>
+            Nell&apos;accampamento dell&apos;esercito si dovrà osservare il
+            silenzio.
+          </li>
           <li>
             Durante il foraggiamento, tutti dovranno attendere lo stendardo e il
             carro, e tutti dovranno cavalcare, guidare e camminare seguendo lo
@@ -188,8 +191,8 @@ export const OrdinanzaDelMargravioAlbrecht = () => (
             casa fino a che tutti non abbiano foraggiato, e dovranno poi
             proseguire insieme ovunque si trovi foraggio; e quando tutti avranno
             foraggiato, dovranno rientrare nello stesso ordine con cui sono
-            partiti. E Nikolassken dovrà marciare insieme ai carri e ai serventi,
-            in numero sufficiente a quanto si possa gestire.
+            partiti. E Nikolassken dovrà marciare insieme ai carri e ai
+            serventi, in numero sufficiente a quanto si possa gestire.
           </li>
           <li>
             Al capitano del foraggiamento saranno assegnate tutte le strade
@@ -202,8 +205,8 @@ export const OrdinanzaDelMargravioAlbrecht = () => (
           <li>
             Ogni mattina, sia nelle città che in campo, dovranno essere inviati
             serventi a ispezionare ogni cosa prima di uscire per foraggiare o
-            per altri scopi, e dopo di essi si dovrà sbarrare nuovamente fino
-            al loro ritorno.
+            per altri scopi, e dopo di essi si dovrà sbarrare nuovamente fino al
+            loro ritorno.
           </li>
           <li>
             Si dovrà stabilire un ordine e dividere l&apos;esercito in otto
@@ -221,11 +224,11 @@ export const OrdinanzaDelMargravioAlbrecht = () => (
           </li>
           <li>
             Nessuno dovrà inseguire dall&apos;esercito o dalle città, ma quando
-            suona la tromba, tutti dovranno dirigersi verso la piazza di
-            raduno nella propria unità, sia nell&apos;esercito che nelle città,
-            secondo l&apos;assegnazione di ciascuno, fino a che i capitani non
-            abbiano ispezionato la situazione e deciso il da farsi; e si
-            potranno allora condurre anche affari riservati.
+            suona la tromba, tutti dovranno dirigersi verso la piazza di raduno
+            nella propria unità, sia nell&apos;esercito che nelle città, secondo
+            l&apos;assegnazione di ciascuno, fino a che i capitani non abbiano
+            ispezionato la situazione e deciso il da farsi; e si potranno allora
+            condurre anche affari riservati.
           </li>
           <li>
             Le sentinelle dovranno essere disposte giorno e notte secondo

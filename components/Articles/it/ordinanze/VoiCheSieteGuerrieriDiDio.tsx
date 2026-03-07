@@ -202,8 +202,7 @@ export const VoiCheSieteGuerrieriDiDio = () => (
           custodite il Signore nei vostri cuori,
           <br />
           per Lui combattete,
-          <br />
-          e dinanzi ai nemici non dovete fuggire.
+          <br />e dinanzi ai nemici non dovete fuggire.
         </p>
         <p>
           Da tempi remoti i Cechi dicevano
@@ -222,8 +221,7 @@ export const VoiCheSieteGuerrieriDiDio = () => (
           per avidità e saccheggio
           <br />
           non perdete la vita,
-          <br />
-          e non fermatevi per il bottino.
+          <br />e non fermatevi per il bottino.
         </p>
         <p>
           Ricordate tutti la parola d&apos;ordine
