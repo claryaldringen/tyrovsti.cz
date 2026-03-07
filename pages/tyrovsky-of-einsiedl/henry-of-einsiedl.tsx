@@ -31,6 +31,7 @@ export const getStaticProps = () => ({
     dest: {
       cs: '/tyrovsti-z-einsiedlu/jindrich-tyrovsky-z-einsiedlu',
       de: '/tyrovsky-von-einsiedl/heinrich-von-einsiedl',
+      it: '/tyrovsky-di-einsiedl/enrico-di-einsiedl',
     },
   },
 })

@@ -31,6 +31,7 @@ export const getStaticProps = () => ({
     dest: {
       en: '/military-campaigns/bavarian-war',
       de: '/feldzuege/bayerischer-krieg',
+      it: '/campagne-militari/guerra-bavarese',
     },
   },
 })

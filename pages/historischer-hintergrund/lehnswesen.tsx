@@ -30,6 +30,7 @@ export const getStaticProps = () => ({
     dest: {
       cs: '/historicke-pozadi/manska-soustava',
       en: '/historical-background/feudal-system',
+      it: '/sfondo-storico/sistema-feudale',
     },
   },
 })

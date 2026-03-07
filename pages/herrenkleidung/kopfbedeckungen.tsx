@@ -27,7 +27,11 @@ const Page = () => (
 export const getStaticProps = () => ({
   props: {
     lang: LANG_DE,
-    dest: { cs: '/muzsky-odev/pokryvky-hlavy', en: '/mens-clothing/headwear' },
+    dest: {
+      cs: '/muzsky-odev/pokryvky-hlavy',
+      en: '/mens-clothing/headwear',
+      it: '/abbigliamento-maschile/copricapo',
+    },
   },
 })
 

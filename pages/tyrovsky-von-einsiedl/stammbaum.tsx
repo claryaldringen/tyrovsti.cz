@@ -31,6 +31,7 @@ export const getStaticProps = () => ({
     dest: {
       cs: '/tyrovsti-z-einsiedlu/rozrod',
       en: '/tyrovsky-of-einsiedl/family-tree',
+      it: '/tyrovsky-di-einsiedl/albero-genealogico',
     },
   },
 })

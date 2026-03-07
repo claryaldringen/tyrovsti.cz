@@ -26,6 +26,7 @@ export const getStaticProps = () => ({
     dest: {
       cs: '/kterak-nevytvorit-skupinu-historickeho-sermu',
       de: '/fechtgruppen-leitfaden',
+      it: '/come-non-creare-un-gruppo-hema',
     },
   },
 })

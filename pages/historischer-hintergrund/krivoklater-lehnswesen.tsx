@@ -30,6 +30,7 @@ export const getStaticProps = () => ({
     dest: {
       cs: '/historicke-pozadi/krivokladska-manska-soustava',
       en: '/historical-background/krivoklat-feudal-system',
+      it: '/sfondo-storico/sistema-feudale-di-krivoklat',
     },
   },
 })

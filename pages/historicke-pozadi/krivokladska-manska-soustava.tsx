@@ -31,6 +31,7 @@ export const getStaticProps = () => ({
     dest: {
       en: '/historical-background/krivoklat-feudal-system',
       de: '/historischer-hintergrund/krivoklater-lehnswesen',
+      it: '/sfondo-storico/sistema-feudale-di-krivoklat',
     },
   },
 })

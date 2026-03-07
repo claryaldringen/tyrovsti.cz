@@ -142,3 +142,45 @@ export const otherDe: MenuItem[] = [
   { href: '/bibliographie' },
   { href: '/sattel' },
 ]
+
+export const menuIt: MenuItem[] = [
+  { href: '/sfondo-storico', title: 'Sfondo storico' },
+  { href: '/tyrovsky-di-einsiedl', title: 'Tyrovsky di Einsiedl' },
+  { href: '/abbigliamento-maschile', title: 'Abbigliamento maschile' },
+  { href: '/armi-e-armature', title: 'Armi e armature' },
+  { href: '/ordinanze-militari-ceche', title: 'Ordinanze militari ceche' },
+  {
+    href: '/ordinanze-militari-tedesche',
+    title: 'Ordinanze militari tedesche',
+  },
+  { href: '/campagne-militari', title: 'Campagne militari' },
+]
+
+export const otherIt: MenuItem[] = [
+  { href: '/it' },
+  { href: '/sfondo-storico/hans-harsdorfer' },
+  { href: '/sfondo-storico/sistema-feudale' },
+  { href: '/sfondo-storico/sistema-feudale-di-krivoklat' },
+  { href: '/tyrovsky-di-einsiedl/jobst-di-einsiedl' },
+  { href: '/tyrovsky-di-einsiedl/enrico-di-einsiedl' },
+  { href: '/tyrovsky-di-einsiedl/stemma' },
+  { href: '/tyrovsky-di-einsiedl/albero-genealogico' },
+  { href: '/abbigliamento-maschile/farsetto' },
+  { href: '/abbigliamento-maschile/veste' },
+  { href: '/abbigliamento-maschile/biancheria-intima' },
+  { href: '/abbigliamento-maschile/mantello' },
+  { href: '/abbigliamento-maschile/calzature' },
+  { href: '/abbigliamento-maschile/copricapo' },
+  { href: '/armi-e-armature/stocco' },
+  { href: '/armi-e-armature/targa' },
+  { href: '/armi-e-armature/martello-da-guerra' },
+  { href: '/armi-e-armature/armatura' },
+  { href: '/campagne-militari/guerra-bavarese' },
+  { href: '/campagne-militari/guerra-di-waldshut' },
+  { href: '/tattica' },
+  { href: '/manuale-di-scherma' },
+  { href: '/scherma-equestre' },
+  { href: '/come-non-creare-un-gruppo-hema' },
+  { href: '/bibliografia' },
+  { href: '/sella' },
+]

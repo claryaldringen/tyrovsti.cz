@@ -26,6 +26,7 @@ export const getStaticProps = () => ({
     dest: {
       en: '/how-not-to-create-a-hema-group',
       de: '/fechtgruppen-leitfaden',
+      it: '/come-non-creare-un-gruppo-hema',
     },
   },
 })

@@ -31,6 +31,7 @@ export const getStaticProps = () => ({
     dest: {
       cs: '/prehled-vojenskych-akci/waldshuterkrieg',
       de: '/feldzuege/waldshuterkrieg',
+      it: '/campagne-militari/guerra-di-waldshut',
     },
   },
 })

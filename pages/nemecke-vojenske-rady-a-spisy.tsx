@@ -68,6 +68,7 @@ export const getStaticProps = () => ({
     dest: {
       en: '/german-military-orders-and-writings',
       de: '/deutsche-militaerordnungen',
+      it: '/ordinanze-militari-tedesche',
     },
   },
 })

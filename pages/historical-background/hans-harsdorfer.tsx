@@ -31,6 +31,7 @@ export const getStaticProps = () => ({
     dest: {
       cs: '/historicke-pozadi/hans-harsdorfer',
       de: '/historischer-hintergrund/hans-harsdorfer',
+      it: '/sfondo-storico/hans-harsdorfer',
     },
   },
 })

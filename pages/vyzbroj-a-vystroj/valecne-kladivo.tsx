@@ -27,6 +27,7 @@ export const getStaticProps = () => ({
     dest: {
       en: '/arms-and-armour/war-hammer',
       de: '/waffen-und-ruestung/streithammer',
+      it: '/armi-e-armature/martello-da-guerra',
     },
   },
 })

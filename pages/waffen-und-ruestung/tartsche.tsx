@@ -28,7 +28,11 @@ const Page = () => (
 export const getStaticProps = () => ({
   props: {
     lang: LANG_DE,
-    dest: { cs: '/vyzbroj-a-vystroj/tarce', en: '/arms-and-armour/targe' },
+    dest: {
+      cs: '/vyzbroj-a-vystroj/tarce',
+      en: '/arms-and-armour/targe',
+      it: '/armi-e-armature/targa',
+    },
   },
 })
 

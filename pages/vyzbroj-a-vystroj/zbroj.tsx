@@ -30,6 +30,7 @@ export const getStaticProps = () => ({
     dest: {
       en: '/arms-and-armour/armour',
       de: '/waffen-und-ruestung/ruestung',
+      it: '/armi-e-armature/armatura',
     },
   },
 })
