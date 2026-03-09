@@ -81,6 +81,37 @@ export const OProjektu = () => (
     <Row>
       <Col xs={12} md={6}>
         <p>
+          <h6>Bitva u Moháče: 500 let</h6>
+          Prezentace k příležitosti 500 let bitvy u Moháče.
+          <ul>
+            <li>Pronikání Osmanské říše do střední Evropy</li>
+            <li>Situace v Evropě na počátku 16. století</li>
+            <li>Armády protiturecké koalice a Osmanské říše</li>
+            <li>Průběh bitvy</li>
+            <li>Důsledky</li>
+            <li>Epilog - archeologie bitevního pole</li>
+          </ul>
+          Možnost ukázky některých kusů zbroje, zbraní oděvů a doplňků.
+        </p>
+      </Col>
+      <Col xs={12} md={6}>
+        <p>
+          <h6>Passo Honroso: příběh odvahy, cti a diletantství</h6>
+          Prezentace o jednom z nějslavnějších hastiludií středověku.
+          <ul>
+            <li>Rytířské turnaje a hastiludia obecně</li>
+            <li>Passo Honroso: účastníci, příběh a pravidla</li>
+            <li>Vybavení rytířů účastnících se Passo Honroso</li>
+            <li>Zajímavé momenty turnaje</li>
+            <li>Výsledky a statistiky</li>
+          </ul>
+          Možnost ukázky některých kusů zbroje, zbraní oděvů a doplňků.
+        </p>
+      </Col>
+    </Row>
+    <Row>
+      <Col xs={12} md={6}>
+        <p>
           <h6>Od Nekmíře k Lipanům</h6>
           Prezentace o husitském vojenství.
           <ul>
