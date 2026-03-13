@@ -4,6 +4,7 @@ import { HeadExtended } from '../../components/HeadExtended'
 import { LANG_IT } from '../../shared/constants'
 import { Sources } from '../../components/Quote/Sources'
 import { IntroduzioneArmi } from '../../components/Articles/it/armi/IntroduzioneArmi'
+import { Targa } from '../../components/Articles/it/armi/Targa'
 import { Payment } from '../../components/Payment'
 
 const Page = () => {
@@ -17,6 +18,7 @@ const Page = () => {
         <Row>
           <Col className="text">
             <h1>Armi e armature</h1>
+            <Targa />
             <IntroduzioneArmi />
             <Sources />
             <Payment />
