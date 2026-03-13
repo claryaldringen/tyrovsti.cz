@@ -1,13 +1,15 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { ImageWithTitle } from '../../../ImageWithTitle/ImageWithTitle'
+import { ArticleProps } from '../../../../types'
+import { DraftBadge } from '../../../DraftBadge'
 
-export const Mantello = () => (
+export const Mantello = ({ draft }: ArticleProps) => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="mantello" />
-        <h4>Mantello</h4>
+        <h4>Mantello{draft && <DraftBadge />}</h4>
       </Col>
     </Row>
     <Row>

@@ -1,12 +1,16 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
+import { ArticleProps } from '../../../../types'
+import { DraftBadge } from '../../../DraftBadge'
 
-export const UsneseniNorimberske = () => (
+export const UsneseniNorimberske = ({ draft }: ArticleProps) => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="usneseni-norimberske" />
-        <h4>Usnesení norimberské ze dne 23. dubna 1428</h4>
+        <h4>
+          Usnesení norimberské ze dne 23. dubna 1428{draft && <DraftBadge />}
+        </h4>
         <p>Přeložila PhDr. Zdeňka Kopková.</p>
         <p>&nbsp;</p>
       </Col>

@@ -4,13 +4,15 @@ import { ImageWithTitle } from '../../../ImageWithTitle'
 import { Cit } from '../../../Citation'
 import { PUBLICATIONS } from '../../../../shared/constants'
 import { Qt } from '../../../Quote/Qt'
+import { ArticleProps } from '../../../../types'
+import { DraftBadge } from '../../../DraftBadge'
 
-export const Stocco = () => (
+export const Stocco = ({ draft }: ArticleProps) => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="stocco" />
-        <h4>Stocco (Harnischkampfschwert)</h4>
+        <h4>Stocco (Harnischkampfschwert){draft && <DraftBadge />}</h4>
       </Col>
     </Row>
     <Row>

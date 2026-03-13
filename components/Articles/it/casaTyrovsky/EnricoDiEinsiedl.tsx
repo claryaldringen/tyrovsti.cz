@@ -4,13 +4,18 @@ import React from 'react'
 import { PUBLICATIONS } from '../../../../shared/constants'
 import { Qt } from '../../../Quote/Qt'
 import { Cit } from '../../../Citation'
+import { ArticleProps } from '../../../../types'
+import { DraftBadge } from '../../../DraftBadge'
 
-export const EnricoDiEinsiedl = () => (
+export const EnricoDiEinsiedl = ({ draft }: ArticleProps) => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="enrico-di-einsiedl" />
-        <h4>Jindřich (Enrico) Týřovský di Einsiedl (c. 1466–1556)</h4>
+        <h4>
+          Jindřich (Enrico) Týřovský di Einsiedl (c. 1466–1556)
+          {draft && <DraftBadge />}
+        </h4>
         <p>
           Jobst morì nel 1474, ma il suo ultimo testamento non poté essere
           iscritto nelle tavole del paese perché fu sigillato solo dopo la sua

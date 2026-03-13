@@ -4,13 +4,15 @@ import { ImageWithTitle } from '../../../ImageWithTitle'
 import { Cit } from '../../../Citation'
 import { PUBLICATIONS } from '../../../../shared/constants'
 import { Qt } from '../../../Quote/Qt'
+import { ArticleProps } from '../../../../types'
+import { DraftBadge } from '../../../DraftBadge'
 
-export const Wappen = () => (
+export const Wappen = ({ draft }: ArticleProps) => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="coat-of-arms" />
-        <h4>Wappen</h4>
+        <h4>Wappen{draft && <DraftBadge />}</h4>
       </Col>
     </Row>
     <Row>

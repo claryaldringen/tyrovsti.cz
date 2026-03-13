@@ -4,13 +4,15 @@ import { Cit } from '../../../Citation'
 import { ImageWithTitle } from '../../../ImageWithTitle'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
+import { ArticleProps } from '../../../../types'
+import { DraftBadge } from '../../../DraftBadge'
 
-export const JobstDiEinsiedl = () => (
+export const JobstDiEinsiedl = ({ draft }: ArticleProps) => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="jobst-di-einsiedl" />
-        <h4>Jobst von Einsiedl (circa 1420 – 1474)</h4>
+        <h4>Jobst von Einsiedl (circa 1420 – 1474){draft && <DraftBadge />}</h4>
         <p>
           Jobst nacque in una famiglia borghese nella piccola città di Einsiedl,
           l&apos;odierna Mnichov nel distretto di Cheb, presumibilmente

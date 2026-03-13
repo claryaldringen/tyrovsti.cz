@@ -1,12 +1,16 @@
 import React from 'react'
 import { Col, Row } from 'reactstrap'
 import { ImageWithTitle } from '../../ImageWithTitle'
+import { ArticleProps } from '../../../types'
+import { DraftBadge } from '../../DraftBadge'
 
-export const Fechthandbuch = () => (
+export const Fechthandbuch = ({ draft }: ArticleProps) => (
   <>
     <Row>
       <Col>
-        <h1>Fechtbuch von Joachim Meyer (MS Bibl. 2465)</h1>
+        <h1>
+          Fechtbuch von Joachim Meyer (MS Bibl. 2465){draft && <DraftBadge />}
+        </h1>
         <p>
           <b>MS Bibl. 2465</b> ist ein deutsches Fechthandbuch, das 1561 von
           Joachim Meyer verfasst wurde. Das Original befindet sich derzeit in
@@ -29,6 +33,7 @@ export const Fechthandbuch = () => (
       <Col md={6}>
         <h4>
           Vom Kempffenn Vnnd Fechtenn Im harnasch zu Fus kürtzlich beschrüben
+          {draft && <DraftBadge />}
         </h4>
         <p>
           Die weil des kempffenn manchlej Artt ist / so kann mann Auch khein

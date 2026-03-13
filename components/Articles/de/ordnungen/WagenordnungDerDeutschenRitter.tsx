@@ -1,13 +1,18 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Cit } from '../../../Citation'
+import { ArticleProps } from '../../../../types'
+import { DraftBadge } from '../../../DraftBadge'
 
-export const WagenordnungDerDeutschenRitter = () => (
+export const WagenordnungDerDeutschenRitter = ({ draft }: ArticleProps) => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="wagon-order-of-german-knights" />
-        <h4>Wagenordnung des Deutschen Ordens vom 19. April 1433</h4>
+        <h4>
+          Wagenordnung des Deutschen Ordens vom 19. April 1433
+          {draft && <DraftBadge />}
+        </h4>
         <p>
           Übersetzungshinweise: Nach reiflicher Überlegung habe ich den Begriff{' '}
           <Cit>fuhrweyn</Cit> als <Cit>Kriegswagen</Cit> übersetzt. Der

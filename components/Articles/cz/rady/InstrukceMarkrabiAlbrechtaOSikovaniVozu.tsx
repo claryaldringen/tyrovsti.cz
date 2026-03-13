@@ -1,7 +1,11 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
+import { ArticleProps } from '../../../../types'
+import { DraftBadge } from '../../../DraftBadge'
 
-export const InstrukceMarkrabiAlbrechtaOSikovaniVozu = () => (
+export const InstrukceMarkrabiAlbrechtaOSikovaniVozu = ({
+  draft,
+}: ArticleProps) => (
   <>
     <Row>
       <Col>
@@ -9,7 +13,10 @@ export const InstrukceMarkrabiAlbrechtaOSikovaniVozu = () => (
           className="anchor"
           id="instrukce-markrabi-albrechta-o-sikovani-vozu"
         />
-        <h4>Instrukce markrabí Albrechta z roku 1477 o šikování vozů</h4>
+        <h4>
+          Instrukce markrabí Albrechta z roku 1477 o šikování vozů
+          {draft && <DraftBadge />}
+        </h4>
         <p>Přeložila PhDr. Zdeňka Kopková</p>
         <p>
           Poznámky k překladu: V němčině se pro vozovou hradbu užívá termínu{' '}

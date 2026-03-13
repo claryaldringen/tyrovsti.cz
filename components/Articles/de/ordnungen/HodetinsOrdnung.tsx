@@ -2,8 +2,10 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import Link from 'next/link'
 import { Cit } from '../../../Citation'
+import { ArticleProps } from '../../../../types'
+import { DraftBadge } from '../../../DraftBadge'
 
-export const HodetinsOrdnung = () => (
+export const HodetinsOrdnung = ({ draft }: ArticleProps) => (
   <>
     <Row>
       <Col>
@@ -11,7 +13,10 @@ export const HodetinsOrdnung = () => (
           className="anchor"
           id="the-so-called-military-order-of-jan-hajek-of-hodetin"
         />
-        <h4>Die sogenannte Militärordnung des Jan Hájek von Hodětín</h4>
+        <h4>
+          Die sogenannte Militärordnung des Jan Hájek von Hodětín
+          {draft && <DraftBadge />}
+        </h4>
         <p>
           Die Transkription wurde von der Schulwebseite{' '}
           <Link href="https://www.digladior.cz/historicky-serm/vojenske-zrizeni-dle-vaclava-iv/">

@@ -1,13 +1,15 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { ImageWithTitle } from '../../../ImageWithTitle'
+import { ArticleProps } from '../../../../types'
+import { DraftBadge } from '../../../DraftBadge'
 
-export const YeWhoAreWarriorsOfGod = () => (
+export const YeWhoAreWarriorsOfGod = ({ draft }: ArticleProps) => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="ye-who-are-warriors-of-god" />
-        <h4>Ye Who Are Warriors of God</h4>
+        <h4>Ye Who Are Warriors of God{draft && <DraftBadge />}</h4>
         <p>
           Transcription from Hymnal of Jistebnice was done by Ing. Roman
           Vaverka, proofreading by Mgr. Markéta Poskočilová

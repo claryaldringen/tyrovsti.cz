@@ -1,13 +1,17 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
 import Link from 'next/link'
+import { ArticleProps } from '../../../../types'
+import { DraftBadge } from '../../../DraftBadge'
 
-export const HodetinuvRad = () => (
+export const HodetinuvRad = ({ draft }: ArticleProps) => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="jana-hajka-z-hodetina-rad-vojensky" />
-        <h4>Tzv. Jana Hájka z Hodětína řád vojenský</h4>
+        <h4>
+          Tzv. Jana Hájka z Hodětína řád vojenský{draft && <DraftBadge />}
+        </h4>
         <p>
           Přepis byl převzat ze stránek školy{' '}
           <Link href="https://www.digladior.cz/historicky-serm/vojenske-zrizeni-dle-vaclava-iv/">

@@ -1,8 +1,10 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Cit } from '../../../Citation'
+import { ArticleProps } from '../../../../types'
+import { DraftBadge } from '../../../DraftBadge'
 
-export const OrdinanzaCarriCavalieriTedeschi = () => (
+export const OrdinanzaCarriCavalieriTedeschi = ({ draft }: ArticleProps) => (
   <>
     <Row>
       <Col>
@@ -10,7 +12,10 @@ export const OrdinanzaCarriCavalieriTedeschi = () => (
           className="anchor"
           id="ordinanza-dei-carri-dei-cavalieri-teutonici"
         />
-        <h4>Ordinanza dei carri dei Cavalieri Teutonici del 19 aprile 1433</h4>
+        <h4>
+          Ordinanza dei carri dei Cavalieri Teutonici del 19 aprile 1433
+          {draft && <DraftBadge />}
+        </h4>
         <p>
           Note di traduzione: dopo attenta considerazione, ho tradotto il
           termine <Cit>fuhrweyn</Cit> come <Cit>carro da guerra</Cit>. Sulla

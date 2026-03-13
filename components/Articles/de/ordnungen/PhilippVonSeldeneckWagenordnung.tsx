@@ -1,12 +1,16 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
+import { ArticleProps } from '../../../../types'
+import { DraftBadge } from '../../../DraftBadge'
 
-export const PhilippVonSeldeneckWagenordnung = () => (
+export const PhilippVonSeldeneckWagenordnung = ({ draft }: ArticleProps) => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="philip-of-seldenecks-wagon-order" />
-        <h4>Philipp von Seldenecks Wagenordnung, um 1480</h4>
+        <h4>
+          Philipp von Seldenecks Wagenordnung, um 1480{draft && <DraftBadge />}
+        </h4>
         <p>
           Diese Wagenordnung in der Handschrift Philipps von Seldeneck, eines
           fränkischen Adligen, die in der Großherzoglichen Bibliothek von

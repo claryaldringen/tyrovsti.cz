@@ -1,12 +1,16 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
+import { ArticleProps } from '../../../../types'
+import { DraftBadge } from '../../../DraftBadge'
 
-export const ZizkasFeldzugNachUngarn = () => (
+export const ZizkasFeldzugNachUngarn = ({ draft }: ArticleProps) => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="zizkas-military-campaign-to-hungary" />
-        <h4>Žižkas Feldzug nach Ungarn im Jahre 1423</h4>
+        <h4>
+          Žižkas Feldzug nach Ungarn im Jahre 1423{draft && <DraftBadge />}
+        </h4>
         <p>
           Der Bericht über Žižkas Feldzug nach Ungarn ist in der Handschrift M
           der <i>Alten Böhmischen Chroniken</i> enthalten. Diese Passage hebt

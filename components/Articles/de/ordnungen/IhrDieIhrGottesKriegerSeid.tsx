@@ -1,13 +1,15 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { ImageWithTitle } from '../../../ImageWithTitle'
+import { ArticleProps } from '../../../../types'
+import { DraftBadge } from '../../../DraftBadge'
 
-export const IhrDieIhrGottesKriegerSeid = () => (
+export const IhrDieIhrGottesKriegerSeid = ({ draft }: ArticleProps) => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="ye-who-are-warriors-of-god" />
-        <h4>Ihr, die ihr Gottes Krieger seid</h4>
+        <h4>Ihr, die ihr Gottes Krieger seid{draft && <DraftBadge />}</h4>
         <p>
           Die Transkription aus dem Jistebnicer Gesangbuch wurde von Ing. Roman
           Vaverka angefertigt, das Korrekturlesen übernahm Mgr. Markéta

@@ -5,8 +5,9 @@ import { Cit } from '../../../Citation'
 import { PUBLICATIONS } from '../../../../shared/constants'
 import { Qt } from '../../../Quote/Qt'
 import { DraftBadge } from '../../../DraftBadge'
+import { ArticleProps } from '../../../../types'
 
-export const Targa = ({ draft }: { draft?: boolean }) => (
+export const Targa = ({ draft }: ArticleProps) => (
   <>
     <Row>
       <Col>

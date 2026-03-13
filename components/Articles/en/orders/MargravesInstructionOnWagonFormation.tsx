@@ -1,12 +1,19 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
+import { ArticleProps } from '../../../../types'
+import { DraftBadge } from '../../../DraftBadge'
 
-export const MargravesInstructionOnWagonFormation = () => (
+export const MargravesInstructionOnWagonFormation = ({
+  draft,
+}: ArticleProps) => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="margraves-instruction-on-wagon-formation" />
-        <h4>Instruction of Margrave Albrecht of 1477 on Wagon Formation</h4>
+        <h4>
+          Instruction of Margrave Albrecht of 1477 on Wagon Formation
+          {draft && <DraftBadge />}
+        </h4>
         <p>Translated by PhDr. Zdeňka Kopková</p>
         <p>
           Translation notes: In German, the term <i>wagenberg</i> is used for

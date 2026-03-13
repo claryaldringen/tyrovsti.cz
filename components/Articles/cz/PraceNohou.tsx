@@ -1,13 +1,15 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { ImageWithTitle } from '../../ImageWithTitle/ImageWithTitle'
+import { ArticleProps } from '../../../types'
+import { DraftBadge } from '../../DraftBadge'
 
-export const PraceNohou = () => (
+export const PraceNohou = ({ draft }: ArticleProps) => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="prace-nohou-neboli-manívry" />
-        <h4>Práce nohou neboli manévry</h4>
+        <h4>Práce nohou neboli manévry{draft && <DraftBadge />}</h4>
         <p>
           Účelem tohoto krátkého článku je poskytnout přehled o práci nohou, tj.
           manévrech, které jsou při šermu na koni (<i>Rossfechten</i>) nezbytné

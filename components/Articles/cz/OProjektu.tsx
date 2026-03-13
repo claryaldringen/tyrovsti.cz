@@ -2,6 +2,8 @@ import React from 'react'
 import Link from 'next/link'
 import { Col, Row } from 'reactstrap'
 import { SocialLinks } from '../../SocialLinks/SocialLinks'
+import { ArticleProps } from '../../../types'
+import { DraftBadge } from '../../DraftBadge'
 
 export const LINKS = [
   'https://www.rattenschwanz.cz/',
@@ -27,9 +29,9 @@ export const SOCIALS = [
   },
 ]
 
-export const OProjektu = () => (
+export const OProjektu = ({ draft }: ArticleProps) => (
   <>
-    <h2>O projektu</h2>
+    <h2>O projektu{draft && <DraftBadge />}</h2>
     <p>
       Zabýváme se rekonstrukcí (tzv. reenactment) dvora a družiny&nbsp;
       <Link href="/tyrovsti-z-einsiedlu/jost-z-einsiedlu">

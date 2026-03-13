@@ -4,13 +4,18 @@ import React from 'react'
 import { PUBLICATIONS } from '../../../../shared/constants'
 import { Qt } from '../../../Quote/Qt'
 import { Cit } from '../../../Citation'
+import { ArticleProps } from '../../../../types'
+import { DraftBadge } from '../../../DraftBadge'
 
-export const JindrichTyrovsky = () => (
+export const JindrichTyrovsky = ({ draft }: ArticleProps) => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="jindrich-tyrovsky-z-einsiedlu" />
-        <h4>Jindřich Týřovský z Einsiedlu (asi 1466 - 1556)</h4>
+        <h4>
+          Jindřich Týřovský z Einsiedlu (asi 1466 - 1556)
+          {draft && <DraftBadge />}
+        </h4>
         <p>
           Jošt zemřel roku 1474, ale jeho poslední vůle nemohla být vložena do
           desek zemských, protože byla pečetěna teprve po jeho smrti. Pozůstalý

@@ -1,8 +1,10 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
 import Image from 'next/image'
+import { ArticleProps } from '../../../../types'
+import { DraftBadge } from '../../../DraftBadge'
 
-export const TheBohemianDietsProtocol = () => (
+export const TheBohemianDietsProtocol = ({ draft }: ArticleProps) => (
   <>
     <Row>
       <Col>
@@ -13,6 +15,7 @@ export const TheBohemianDietsProtocol = () => (
         <h4>
           The Bohemian Diet’s protocol about soldier’s contingents in regions
           from 14th of March 1470
+          {draft && <DraftBadge />}
         </h4>
         <p>
           Overview for individual regions at the table: Hradec Králové Region.

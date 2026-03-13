@@ -4,13 +4,15 @@ import { ImageWithTitle } from '../../../ImageWithTitle'
 import { Cit } from '../../../Citation'
 import { PUBLICATIONS } from '../../../../shared/constants'
 import { Qt } from '../../../Quote/Qt'
+import { ArticleProps } from '../../../../types'
+import { DraftBadge } from '../../../DraftBadge'
 
-export const Stemma = () => (
+export const Stemma = ({ draft }: ArticleProps) => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="stemma" />
-        <h4>Stemma</h4>
+        <h4>Stemma{draft && <DraftBadge />}</h4>
       </Col>
     </Row>
     <Row>

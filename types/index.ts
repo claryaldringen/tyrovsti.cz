@@ -32,6 +32,10 @@ export interface PageProps {
   dest: LanguageDest
 }
 
+export interface ArticleProps {
+  draft?: boolean
+}
+
 export type QuoteAction =
   | { type: 'ADD_PUBLICATION'; payload: Publication }
   | { type: 'RESET' }

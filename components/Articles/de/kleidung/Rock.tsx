@@ -3,13 +3,15 @@ import { Cit } from '../../../Citation'
 import { PUBLICATIONS } from '../../../../shared/constants'
 import { Qt } from '../../../Quote/Qt'
 import { ImageWithTitle } from '../../../ImageWithTitle'
+import { ArticleProps } from '../../../../types'
+import { DraftBadge } from '../../../DraftBadge'
 
-export const Rock = () => (
+export const Rock = ({ draft }: ArticleProps) => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="gown" />
-        <h4>Rock</h4>
+        <h4>Rock{draft && <DraftBadge />}</h4>
       </Col>
     </Row>
     <Row>

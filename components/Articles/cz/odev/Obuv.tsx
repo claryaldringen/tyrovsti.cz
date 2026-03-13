@@ -1,13 +1,15 @@
 import { Col, Row } from 'reactstrap'
 import { ImageWithTitle } from '../../../ImageWithTitle/ImageWithTitle'
 import React from 'react'
+import { ArticleProps } from '../../../../types'
+import { DraftBadge } from '../../../DraftBadge'
 
-export const Obuv = () => (
+export const Obuv = ({ draft }: ArticleProps) => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="obuv" />
-        <h3>Obuv</h3>
+        <h3>Obuv{draft && <DraftBadge />}</h3>
         <p>
           Obuv v Čechách ve 2. polovině 15. století můžeme rozdělit na nízkou,
           polovysokou a vysokou. Obuv byla nejčastěji zhotovena z kůže tak, že

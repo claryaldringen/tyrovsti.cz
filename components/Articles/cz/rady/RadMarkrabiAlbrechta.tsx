@@ -1,12 +1,16 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
+import { ArticleProps } from '../../../../types'
+import { DraftBadge } from '../../../DraftBadge'
 
-export const RadMarkrabiAlbrechta = () => (
+export const RadMarkrabiAlbrechta = ({ draft }: ArticleProps) => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="rad-vojensky-markrabi-albrechta" />
-        <h4>Řád vojenský markrabí Albrechta z roku 1478</h4>
+        <h4>
+          Řád vojenský markrabí Albrechta z roku 1478{draft && <DraftBadge />}
+        </h4>
         <p>
           Tento řád byl vydán kurfiřtem Albrechtem Achillem brandenburským pro
           válku pomořanskou. Poprvé otištěn v&nbsp;

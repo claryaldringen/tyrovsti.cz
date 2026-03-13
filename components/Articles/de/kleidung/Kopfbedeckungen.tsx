@@ -4,13 +4,15 @@ import { ImageWithTitle } from '../../../ImageWithTitle/ImageWithTitle'
 import { PUBLICATIONS } from '../../../../shared/constants'
 import { Qt } from '../../../Quote/Qt'
 import { Cit } from '../../../Citation'
+import { ArticleProps } from '../../../../types'
+import { DraftBadge } from '../../../DraftBadge'
 
-export const Kopfbedeckungen = () => (
+export const Kopfbedeckungen = ({ draft }: ArticleProps) => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="headwear" />
-        <h3>Kopfbedeckungen</h3>
+        <h3>Kopfbedeckungen{draft && <DraftBadge />}</h3>
       </Col>
     </Row>
     <Row>

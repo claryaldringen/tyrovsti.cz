@@ -1,12 +1,16 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
+import { ArticleProps } from '../../../../types'
+import { DraftBadge } from '../../../DraftBadge'
 
-export const FilipaSeldeneckaRadVozovy = () => (
+export const FilipaSeldeneckaRadVozovy = ({ draft }: ArticleProps) => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="filipa-seldenecka-rad-vozovy" />
-        <h4>Filipa Seldenecka řád vozový okolo roku 1480</h4>
+        <h4>
+          Filipa Seldenecka řád vozový okolo roku 1480{draft && <DraftBadge />}
+        </h4>
         <p>
           Tento vozový řád v rukopisu Filipa Seldenecka, franského šlechtice,
           dochovaný v Baden-Badenské velkovévodské knihovně pod sign. Durlach 18

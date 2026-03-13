@@ -4,13 +4,15 @@ import { ImageWithTitle } from '../../../ImageWithTitle'
 import { Cit } from '../../../Citation'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
+import { ArticleProps } from '../../../../types'
+import { DraftBadge } from '../../../DraftBadge'
 
-export const Undergarments = () => (
+export const Undergarments = ({ draft }: ArticleProps) => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="undergarments" />
-        <h3>Undergarments</h3>
+        <h3>Undergarments{draft && <DraftBadge />}</h3>
         <p>
           Undergarments served several functions. Given that the vast majority
           of outer garments were made from woolen materials, they prevented the

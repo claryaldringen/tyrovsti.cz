@@ -4,13 +4,15 @@ import { Cit } from '../../../Citation'
 import { ImageWithTitle } from '../../../ImageWithTitle'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
+import { ArticleProps } from '../../../../types'
+import { DraftBadge } from '../../../DraftBadge'
 
-export const JostTyrovsky = () => (
+export const JostTyrovsky = ({ draft }: ArticleProps) => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="jost-z-einsiedlu" />
-        <h4>Jošt z Einsiedlu (asi 1420 - 1474)</h4>
+        <h4>Jošt z Einsiedlu (asi 1420 - 1474){draft && <DraftBadge />}</h4>
         <p>
           Jošt se narodil do měšťanské rodiny v městečku Einsiedl, dnešním
           Mnichově v okrese Cheb, pravděpodobně v roce 1420. K městu Cheb je v

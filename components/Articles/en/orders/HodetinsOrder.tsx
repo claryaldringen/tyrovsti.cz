@@ -2,8 +2,10 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import Link from 'next/link'
 import { Cit } from '../../../Citation'
+import { ArticleProps } from '../../../../types'
+import { DraftBadge } from '../../../DraftBadge'
 
-export const HodetinsOrder = () => (
+export const HodetinsOrder = ({ draft }: ArticleProps) => (
   <>
     <Row>
       <Col>
@@ -11,7 +13,10 @@ export const HodetinsOrder = () => (
           className="anchor"
           id="the-so-called-military-order-of-jan-hajek-of-hodetin"
         />
-        <h4>The So-Called Military Order of Jan Hájek of Hodětín</h4>
+        <h4>
+          The So-Called Military Order of Jan Hájek of Hodětín
+          {draft && <DraftBadge />}
+        </h4>
         <p>
           The transcription was taken from the school website{' '}
           <Link href="https://www.digladior.cz/historicky-serm/vojenske-zrizeni-dle-vaclava-iv/">

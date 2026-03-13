@@ -1,8 +1,10 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
 import Image from 'next/image'
+import { ArticleProps } from '../../../../types'
+import { DraftBadge } from '../../../DraftBadge'
 
-export const BoehmischerLandtagsbeschluss = () => (
+export const BoehmischerLandtagsbeschluss = ({ draft }: ArticleProps) => (
   <>
     <Row>
       <Col>
@@ -13,6 +15,7 @@ export const BoehmischerLandtagsbeschluss = () => (
         <h4>
           Landtagsbeschluss über die Truppenkontingente in den Regionen vom 14.
           März 1470
+          {draft && <DraftBadge />}
         </h4>
         <p>
           Übersicht für die einzelnen Regionen in der Tabelle: Region Hradec

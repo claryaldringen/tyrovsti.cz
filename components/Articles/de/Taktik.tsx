@@ -1,11 +1,13 @@
 import React from 'react'
 import { Col, Row } from 'reactstrap'
+import { ArticleProps } from '../../../types'
+import { DraftBadge } from '../../DraftBadge'
 
-export const Taktik = () => (
+export const Taktik = ({ draft }: ArticleProps) => (
   <>
     <Row>
       <Col>
-        <h2>Taktik</h2>
+        <h2>Taktik{draft && <DraftBadge />}</h2>
         <p>
           Von der Schlacht bei Hastings im Jahr 1066 an dominierte die schwere
           Ritterkavallerie die europäischen Schlachtfelder für die folgenden 250

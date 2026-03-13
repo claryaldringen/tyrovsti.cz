@@ -1,12 +1,17 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
+import { ArticleProps } from '../../../../types'
+import { DraftBadge } from '../../../DraftBadge'
 
-export const CampagnaDiZizkaInUngheria = () => (
+export const CampagnaDiZizkaInUngheria = ({ draft }: ArticleProps) => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="zizkas-military-campaign-to-hungary" />
-        <h4>La campagna militare di Žižka in Ungheria nel 1423</h4>
+        <h4>
+          La campagna militare di Žižka in Ungheria nel 1423
+          {draft && <DraftBadge />}
+        </h4>
         <p>
           Il resoconto della campagna di Žižka in Ungheria è contenuto nel
           manoscritto M delle <i>Antiche Cronache Ceche</i>. Questo brano si

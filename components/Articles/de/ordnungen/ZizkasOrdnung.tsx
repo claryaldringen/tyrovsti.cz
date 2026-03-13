@@ -1,13 +1,15 @@
 import { Col, Row } from 'reactstrap'
 import Link from 'next/link'
 import React from 'react'
+import { ArticleProps } from '../../../../types'
+import { DraftBadge } from '../../../DraftBadge'
 
-export const ZizkasOrdnung = () => (
+export const ZizkasOrdnung = ({ draft }: ArticleProps) => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="the-so-called-zizkas-military-order" />
-        <h4>Die sogenannte Žižka-Militärordnung</h4>
+        <h4>Die sogenannte Žižka-Militärordnung{draft && <DraftBadge />}</h4>
         <p>
           Die Transkription wurde von der Schulwebseite{' '}
           <Link href="https://www.digladior.cz/historicky-serm/zizkuv-vojensky-rad/">

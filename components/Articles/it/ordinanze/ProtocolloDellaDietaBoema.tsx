@@ -1,8 +1,10 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
 import Image from 'next/image'
+import { ArticleProps } from '../../../../types'
+import { DraftBadge } from '../../../DraftBadge'
 
-export const ProtocolloDellaDietaBoema = () => (
+export const ProtocolloDellaDietaBoema = ({ draft }: ArticleProps) => (
   <>
     <Row>
       <Col>
@@ -13,6 +15,7 @@ export const ProtocolloDellaDietaBoema = () => (
         <h4>
           Protocollo della Dieta boema sui contingenti di soldati nelle regioni
           del 14 marzo 1470
+          {draft && <DraftBadge />}
         </h4>
         <p>
           Sommario per le singole regioni nella tabella: Regione di Hradec

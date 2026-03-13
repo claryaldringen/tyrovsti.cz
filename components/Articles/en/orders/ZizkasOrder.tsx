@@ -1,13 +1,17 @@
 import { Col, Row } from 'reactstrap'
 import Link from 'next/link'
 import React from 'react'
+import { ArticleProps } from '../../../../types'
+import { DraftBadge } from '../../../DraftBadge'
 
-export const ZizkasOrder = () => (
+export const ZizkasOrder = ({ draft }: ArticleProps) => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="the-so-called-zizkas-military-order" />
-        <h4>The So-Called Žižka&apos;s Military Order</h4>
+        <h4>
+          The So-Called Žižka&apos;s Military Order{draft && <DraftBadge />}
+        </h4>
         <p>
           The transcription was taken from the school website{' '}
           <Link href="https://www.digladior.cz/historicky-serm/zizkuv-vojensky-rad/">

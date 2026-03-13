@@ -1,12 +1,17 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
+import { ArticleProps } from '../../../../types'
+import { DraftBadge } from '../../../DraftBadge'
 
-export const PhilipOfSeldenecksWagonOrder = () => (
+export const PhilipOfSeldenecksWagonOrder = ({ draft }: ArticleProps) => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="philip-of-seldenecks-wagon-order" />
-        <h4>Philip of Seldeneck&apos;s Wagon Order, circa 1480</h4>
+        <h4>
+          Philip of Seldeneck&apos;s Wagon Order, circa 1480
+          {draft && <DraftBadge />}
+        </h4>
         <p>
           This wagon order in the manuscript of Philip of Seldeneck, a
           Franconian nobleman, preserved in the Grand Ducal Library of

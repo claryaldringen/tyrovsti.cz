@@ -7,13 +7,15 @@ import { PUBLICATIONS } from '../../../../shared/constants'
 import styles from './BavorskaValka.module.scss'
 import Link from 'next/link'
 import Image from 'next/image'
+import { ArticleProps } from '../../../../types'
+import { DraftBadge } from '../../../DraftBadge'
 
-export const BavorskaValka = () => (
+export const BavorskaValka = ({ draft }: ArticleProps) => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="bavorska-valka" />
-        <h4>Bavorská válka</h4>
+        <h4>Bavorská válka{draft && <DraftBadge />}</h4>
       </Col>
     </Row>
     <Row>

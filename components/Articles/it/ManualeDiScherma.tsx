@@ -1,12 +1,16 @@
 import React from 'react'
 import { Col, Row } from 'reactstrap'
 import { ImageWithTitle } from '../../ImageWithTitle'
+import { ArticleProps } from '../../../types'
+import { DraftBadge } from '../../DraftBadge'
 
-export const ManualeDiScherma = () => (
+export const ManualeDiScherma = ({ draft }: ArticleProps) => (
   <>
     <Row>
       <Col>
-        <h1>Fechtbuch di Joachim Meyer (MS Bibl. 2465)</h1>
+        <h1>
+          Fechtbuch di Joachim Meyer (MS Bibl. 2465){draft && <DraftBadge />}
+        </h1>
         <p>
           <b>MS Bibl. 2465</b> &egrave; un manuale di scherma tedesco scritto da
           Joachim Meyer nel 1561. L&apos;originale &egrave; attualmente
@@ -30,6 +34,7 @@ export const ManualeDiScherma = () => (
       <Col md={6}>
         <h4>
           Vom Kempffenn Vnnd Fechtenn Im harnasch zu Fus kürtzlich beschrüben
+          {draft && <DraftBadge />}
         </h4>
         <p>
           Die weil des kempffenn manchlej Artt ist / so kann mann Auch khein

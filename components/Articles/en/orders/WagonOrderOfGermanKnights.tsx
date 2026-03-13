@@ -1,13 +1,18 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Cit } from '../../../Citation'
+import { ArticleProps } from '../../../../types'
+import { DraftBadge } from '../../../DraftBadge'
 
-export const WagonOrderOfGermanKnights = () => (
+export const WagonOrderOfGermanKnights = ({ draft }: ArticleProps) => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="wagon-order-of-german-knights" />
-        <h4>Wagon Order of the Teutonic Knights of 19 April 1433</h4>
+        <h4>
+          Wagon Order of the Teutonic Knights of 19 April 1433
+          {draft && <DraftBadge />}
+        </h4>
         <p>
           Translation notes: After consideration, I translated the term{' '}
           <Cit>fuhrweyn</Cit> as <Cit>war wagon</Cit>. Based on the description,

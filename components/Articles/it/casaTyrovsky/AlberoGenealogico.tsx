@@ -1,13 +1,17 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
 import Link from 'next/link'
+import { ArticleProps } from '../../../../types'
+import { DraftBadge } from '../../../DraftBadge'
 
-export const AlberoGenealogico = () => (
+export const AlberoGenealogico = ({ draft }: ArticleProps) => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="albero-genealogico" />
-        <h4>Albero genealogico della famiglia Týřovský</h4>
+        <h4>
+          Albero genealogico della famiglia Týřovský{draft && <DraftBadge />}
+        </h4>
       </Col>
     </Row>
     <Row>

@@ -1,13 +1,15 @@
 import { Col, Row } from 'reactstrap'
 import Link from 'next/link'
 import React from 'react'
+import { ArticleProps } from '../../../../types'
+import { DraftBadge } from '../../../DraftBadge'
 
-export const ZizkuvVojenskyRad = () => (
+export const ZizkuvVojenskyRad = ({ draft }: ArticleProps) => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="zizkuv-vojensky-rad" />
-        <h4>Tzv. Žižkův vojenský řád</h4>
+        <h4>Tzv. Žižkův vojenský řád{draft && <DraftBadge />}</h4>
         <p>
           Přepis byl převzat ze stránek školy{' '}
           <Link href="https://www.digladior.cz/historicky-serm/zizkuv-vojensky-rad/">

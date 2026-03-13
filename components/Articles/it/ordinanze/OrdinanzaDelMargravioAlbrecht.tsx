@@ -1,7 +1,9 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
+import { ArticleProps } from '../../../../types'
+import { DraftBadge } from '../../../DraftBadge'
 
-export const OrdinanzaDelMargravioAlbrecht = () => (
+export const OrdinanzaDelMargravioAlbrecht = ({ draft }: ArticleProps) => (
   <>
     <Row>
       <Col>
@@ -9,7 +11,10 @@ export const OrdinanzaDelMargravioAlbrecht = () => (
           className="anchor"
           id="ordinanza-militare-del-margravio-albrecht"
         />
-        <h4>Ordinanza militare del margravio Albrecht del 1478</h4>
+        <h4>
+          Ordinanza militare del margravio Albrecht del 1478
+          {draft && <DraftBadge />}
+        </h4>
         <p>
           Questa ordinanza fu emanata dall&apos;elettore Albrecht Achille di
           Brandeburgo per la guerra di Pomerania. Fu stampata per la prima volta

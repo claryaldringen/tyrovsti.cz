@@ -4,13 +4,15 @@ import { ImageWithTitle } from '../../../ImageWithTitle'
 import { Cit } from '../../../Citation'
 import { PUBLICATIONS } from '../../../../shared/constants'
 import { Qt } from '../../../Quote/Qt'
+import { ArticleProps } from '../../../../types'
+import { DraftBadge } from '../../../DraftBadge'
 
-export const Panzerstecher = () => (
+export const Panzerstecher = ({ draft }: ArticleProps) => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="estoc" />
-        <h4>Panzerstecher (Harnischkampfschwert)</h4>
+        <h4>Panzerstecher (Harnischkampfschwert){draft && <DraftBadge />}</h4>
       </Col>
     </Row>
     <Row>

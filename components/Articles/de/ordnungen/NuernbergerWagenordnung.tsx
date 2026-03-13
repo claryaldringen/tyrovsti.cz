@@ -1,12 +1,14 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
+import { ArticleProps } from '../../../../types'
+import { DraftBadge } from '../../../DraftBadge'
 
-export const NuernbergerWagenordnung = () => (
+export const NuernbergerWagenordnung = ({ draft }: ArticleProps) => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="nuremberg-wagon-order" />
-        <h4>Nürnberger Wagenordnung von 1450</h4>
+        <h4>Nürnberger Wagenordnung von 1450{draft && <DraftBadge />}</h4>
         <p>Übersetzt von PhDr. Zdeňka Kopková.</p>
         <p>
           Sie wurde in den <i>Chroniken der deutschen Städte</i>, Nürnberg, II,

@@ -5,13 +5,15 @@ import { Cit } from '../../../Citation'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
 import Link from 'next/link'
+import { ArticleProps } from '../../../../types'
+import { DraftBadge } from '../../../DraftBadge'
 
-export const Wams = () => (
+export const Wams = ({ draft }: ArticleProps) => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="doublet" />
-        <h4>Wams</h4>
+        <h4>Wams{draft && <DraftBadge />}</h4>
       </Col>
     </Row>
     <Row>

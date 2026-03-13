@@ -3,12 +3,14 @@ import { Col, Row } from 'reactstrap'
 import { ImageWithTitle } from '../../../ImageWithTitle'
 import { PUBLICATIONS } from '../../../../shared/constants'
 import { Qt } from '../../../Quote/Qt'
+import { ArticleProps } from '../../../../types'
+import { DraftBadge } from '../../../DraftBadge'
 
-export const IntroduzioneTyrovsky = () => (
+export const IntroduzioneTyrovsky = ({ draft }: ArticleProps) => (
   <>
     <Row>
       <Col md={6}>
-        <h1>Týřovský di Einsiedl</h1>
+        <h1>Týřovský di Einsiedl{draft && <DraftBadge />}</h1>
         <p>
           Il nome della famiglia deriva dal castello di Týřov, che il fondatore
           della casata, Jobst von Einsiedl, ottenne in pegno dal re Giorgio di

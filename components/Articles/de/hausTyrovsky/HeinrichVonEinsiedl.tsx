@@ -4,13 +4,18 @@ import React from 'react'
 import { PUBLICATIONS } from '../../../../shared/constants'
 import { Qt } from '../../../Quote/Qt'
 import { Cit } from '../../../Citation'
+import { ArticleProps } from '../../../../types'
+import { DraftBadge } from '../../../DraftBadge'
 
-export const HeinrichVonEinsiedl = () => (
+export const HeinrichVonEinsiedl = ({ draft }: ArticleProps) => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="henry-of-einsiedl" />
-        <h4>Jindřich (Heinrich) Týřovský von Einsiedl (um 1466–1556)</h4>
+        <h4>
+          Jindřich (Heinrich) Týřovský von Einsiedl (um 1466–1556)
+          {draft && <DraftBadge />}
+        </h4>
         <p>
           Jobst starb 1474, doch sein letzter Wille konnte nicht in die
           Landtafeln eingetragen werden, da er erst nach seinem Tod versiegelt

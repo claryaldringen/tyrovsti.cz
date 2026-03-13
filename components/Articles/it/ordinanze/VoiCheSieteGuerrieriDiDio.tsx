@@ -1,13 +1,15 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { ImageWithTitle } from '../../../ImageWithTitle'
+import { ArticleProps } from '../../../../types'
+import { DraftBadge } from '../../../DraftBadge'
 
-export const VoiCheSieteGuerrieriDiDio = () => (
+export const VoiCheSieteGuerrieriDiDio = ({ draft }: ArticleProps) => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="voi-che-siete-guerrieri-di-dio" />
-        <h4>Voi che siete guerrieri di Dio</h4>
+        <h4>Voi che siete guerrieri di Dio{draft && <DraftBadge />}</h4>
         <p>
           Trascrizione dall&apos;Innario di Jistebnice eseguita dall&apos;Ing.
           Roman Vaverka, revisione a cura della Mgr. Markéta Poskočilová

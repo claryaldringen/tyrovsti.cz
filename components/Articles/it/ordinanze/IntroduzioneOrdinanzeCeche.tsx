@@ -1,9 +1,11 @@
 import React from 'react'
 import { Col, Row } from 'reactstrap'
+import { ArticleProps } from '../../../../types'
+import { DraftBadge } from '../../../DraftBadge'
 
-export const IntroduzioneOrdinanzeCeche = () => (
+export const IntroduzioneOrdinanzeCeche = ({ draft }: ArticleProps) => (
   <>
-    <h1>Ordinanze e scritti militari cechi</h1>
+    <h1>Ordinanze e scritti militari cechi{draft && <DraftBadge />}</h1>
     <Row>
       <Col>
         <p>

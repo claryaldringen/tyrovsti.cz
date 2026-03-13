@@ -1,12 +1,17 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
+import { ArticleProps } from '../../../../types'
+import { DraftBadge } from '../../../DraftBadge'
 
-export const ZizkasMilitaryCampaignToHungary = () => (
+export const ZizkasMilitaryCampaignToHungary = ({ draft }: ArticleProps) => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="zizkas-military-campaign-to-hungary" />
-        <h4>Žižka&apos;s Military Campaign to Hungary in 1423</h4>
+        <h4>
+          Žižka&apos;s Military Campaign to Hungary in 1423
+          {draft && <DraftBadge />}
+        </h4>
         <p>
           The account of Žižka&apos;s campaign to Hungary is contained in
           manuscript M of the <i>Old Czech Chronicles</i>. This passage stands

@@ -3,12 +3,14 @@ import { Col, Row } from 'reactstrap'
 import { ImageWithTitle } from '../../../ImageWithTitle'
 import { PUBLICATIONS } from '../../../../shared/constants'
 import { Qt } from '../../../Quote/Qt'
+import { ArticleProps } from '../../../../types'
+import { DraftBadge } from '../../../DraftBadge'
 
-export const TyrovstiUvod = () => (
+export const TyrovstiUvod = ({ draft }: ArticleProps) => (
   <>
     <Row>
       <Col md={6}>
-        <h1>Týřovští z Einsiedlu</h1>
+        <h1>Týřovští z Einsiedlu{draft && <DraftBadge />}</h1>
         <p>
           Odvozují své rodové jméno od hradu Týřova či jinak Tejřova, takže se
           vyskytuje jak varianta Týřovští tak Tejřovští.

@@ -1,13 +1,15 @@
 import { Col, Row } from 'reactstrap'
 import { ImageWithTitle } from '../../../ImageWithTitle/ImageWithTitle'
 import React from 'react'
+import { ArticleProps } from '../../../../types'
+import { DraftBadge } from '../../../DraftBadge'
 
-export const Schuhwerk = () => (
+export const Schuhwerk = ({ draft }: ArticleProps) => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="footwear" />
-        <h3>Schuhwerk</h3>
+        <h3>Schuhwerk{draft && <DraftBadge />}</h3>
         <p>
           Das Schuhwerk in Böhmen in der zweiten Hälfte des 15. Jahrhunderts
           lässt sich in niedrige, halbhohe und hohe Schuhe unterteilen. Schuhe

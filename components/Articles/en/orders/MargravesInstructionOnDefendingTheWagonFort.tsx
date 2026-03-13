@@ -1,7 +1,11 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
+import { ArticleProps } from '../../../../types'
+import { DraftBadge } from '../../../DraftBadge'
 
-export const MargravesInstructionOnDefendingTheWagonFort = () => (
+export const MargravesInstructionOnDefendingTheWagonFort = ({
+  draft,
+}: ArticleProps) => (
   <>
     <Row>
       <Col>
@@ -12,6 +16,7 @@ export const MargravesInstructionOnDefendingTheWagonFort = () => (
         <h4>
           Instruction of Margrave Albrecht of 15 May 1475 on Defending the Wagon
           Fort
+          {draft && <DraftBadge />}
         </h4>
         <p>Translated by PhDr. Zdeňka Kopková</p>
 

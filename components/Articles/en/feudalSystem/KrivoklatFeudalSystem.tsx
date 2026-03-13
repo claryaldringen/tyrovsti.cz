@@ -3,13 +3,15 @@ import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
 import { Cit } from '../../../Citation'
+import { ArticleProps } from '../../../../types'
+import { DraftBadge } from '../../../DraftBadge'
 
-export const KrivoklatFeudalSystem = () => (
+export const KrivoklatFeudalSystem = ({ draft }: ArticleProps) => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="krivoklat-feudal-system" />
-        <h3>Krivoklat</h3>
+        <h3>Krivoklat{draft && <DraftBadge />}</h3>
       </Col>
     </Row>
     <Row>

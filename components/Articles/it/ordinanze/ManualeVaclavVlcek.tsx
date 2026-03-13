@@ -2,8 +2,10 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
+import { ArticleProps } from '../../../../types'
+import { DraftBadge } from '../../../DraftBadge'
 
-export const ManualeVaclavVlcek = () => (
+export const ManualeVaclavVlcek = ({ draft }: ArticleProps) => (
   <>
     <Row>
       <Col>
@@ -14,6 +16,7 @@ export const ManualeVaclavVlcek = () => (
         <h4>
           Manuale di Václav Vlček di Čenov per il re Vladislao, su come disporre
           le formazioni di cavalleria, fanteria e carri
+          {draft && <DraftBadge />}
         </h4>
         <p>
           Trascrizione in ceco moderno a cura di: Martin &ldquo;Clary

@@ -1,12 +1,16 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
+import { ArticleProps } from '../../../../types'
+import { DraftBadge } from '../../../DraftBadge'
 
-export const ZizkovoTazeniDoUher = () => (
+export const ZizkovoTazeniDoUher = ({ draft }: ArticleProps) => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="zizkovo-tazeni-do-uher" />
-        <h4>Žižkovo vojenské tažení do Uher l. 1423</h4>
+        <h4>
+          Žižkovo vojenské tažení do Uher l. 1423{draft && <DraftBadge />}
+        </h4>
         <p>
           Vyprávění o Žižkově tažení do Uher je obsaženo v rukopisu M{' '}
           <i>Starých letopisů českých</i>. Tato pasáž se z charakteru Starých

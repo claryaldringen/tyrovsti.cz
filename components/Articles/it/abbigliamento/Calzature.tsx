@@ -1,13 +1,15 @@
 import { Col, Row } from 'reactstrap'
 import { ImageWithTitle } from '../../../ImageWithTitle/ImageWithTitle'
 import React from 'react'
+import { ArticleProps } from '../../../../types'
+import { DraftBadge } from '../../../DraftBadge'
 
-export const Calzature = () => (
+export const Calzature = ({ draft }: ArticleProps) => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="calzature" />
-        <h3>Calzature</h3>
+        <h3>Calzature{draft && <DraftBadge />}</h3>
         <p>
           Le calzature in Boemia nella seconda metà del XV secolo si possono
           suddividere in basse, di media altezza e alte. Le scarpe erano

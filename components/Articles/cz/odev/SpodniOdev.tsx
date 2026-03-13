@@ -4,13 +4,15 @@ import { ImageWithTitle } from '../../../ImageWithTitle'
 import { Cit } from '../../../Citation'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
+import { ArticleProps } from '../../../../types'
+import { DraftBadge } from '../../../DraftBadge'
 
-export const SpodniOdev = () => (
+export const SpodniOdev = ({ draft }: ArticleProps) => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="spodni-odev" />
-        <h3>Spodní oděv</h3>
+        <h3>Spodní oděv{draft && <DraftBadge />}</h3>
         <p>
           Spodní prádlo plnilo několik funkcí. Vzhledem k tomu, že se k
           zhotovení svrchního oděvu užívaly v převážné většině vlněné materiály,

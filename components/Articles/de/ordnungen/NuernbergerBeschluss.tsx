@@ -1,12 +1,16 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
+import { ArticleProps } from '../../../../types'
+import { DraftBadge } from '../../../DraftBadge'
 
-export const NuernbergerBeschluss = () => (
+export const NuernbergerBeschluss = ({ draft }: ArticleProps) => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="nuremberg-resolution" />
-        <h4>Nürnberger Beschluss vom 23. April 1428</h4>
+        <h4>
+          Nürnberger Beschluss vom 23. April 1428{draft && <DraftBadge />}
+        </h4>
         <p>Übersetzt von PhDr. Zdeňka Kopková.</p>
         <p>&nbsp;</p>
       </Col>

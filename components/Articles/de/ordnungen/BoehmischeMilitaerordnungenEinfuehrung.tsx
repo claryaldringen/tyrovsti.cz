@@ -1,9 +1,13 @@
 import React from 'react'
 import { Col, Row } from 'reactstrap'
+import { ArticleProps } from '../../../../types'
+import { DraftBadge } from '../../../DraftBadge'
 
-export const BoehmischeMilitaerordnungenEinfuehrung = () => (
+export const BoehmischeMilitaerordnungenEinfuehrung = ({
+  draft,
+}: ArticleProps) => (
   <>
-    <h1>Böhmische Militärordnungen und Schriften</h1>
+    <h1>Böhmische Militärordnungen und Schriften{draft && <DraftBadge />}</h1>
     <Row>
       <Col>
         <p>

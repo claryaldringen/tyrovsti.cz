@@ -1,13 +1,15 @@
 import { Col, Row } from 'reactstrap'
 import { ImageWithTitle } from '../../../ImageWithTitle/ImageWithTitle'
 import React from 'react'
+import { ArticleProps } from '../../../../types'
+import { DraftBadge } from '../../../DraftBadge'
 
-export const Footwear = () => (
+export const Footwear = ({ draft }: ArticleProps) => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="footwear" />
-        <h3>Footwear</h3>
+        <h3>Footwear{draft && <DraftBadge />}</h3>
         <p>
           Footwear in Bohemia in the second half of the 15th century can be
           divided into low, mid-height and tall. Shoes were most commonly made

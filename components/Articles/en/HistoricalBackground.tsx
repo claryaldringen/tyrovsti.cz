@@ -2,12 +2,14 @@ import React from 'react'
 import { Col, Row } from 'reactstrap'
 import Image from 'next/image'
 import Link from 'next/link'
+import { ArticleProps } from '../../../types'
+import { DraftBadge } from '../../DraftBadge'
 
-export const HistoricalBackground = () => (
+export const HistoricalBackground = ({ draft }: ArticleProps) => (
   <>
     <Row>
       <Col>
-        <h1>Historical background</h1>
+        <h1>Historical background{draft && <DraftBadge />}</h1>
       </Col>
     </Row>
     <Row>

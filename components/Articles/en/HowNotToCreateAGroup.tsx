@@ -1,11 +1,16 @@
 import React from 'react'
 import { Col, Row } from 'reactstrap'
+import { ArticleProps } from '../../../types'
+import { DraftBadge } from '../../DraftBadge'
 
-export const HowNotToCreateAGroup = () => (
+export const HowNotToCreateAGroup = ({ draft }: ArticleProps) => (
   <>
     <Row>
       <Col>
-        <h1>How (Not) to Create a Historical Fencing Group...</h1>
+        <h1>
+          How (Not) to Create a Historical Fencing Group...
+          {draft && <DraftBadge />}
+        </h1>
         <p>
           <i>
             The original text was published on the{' '}

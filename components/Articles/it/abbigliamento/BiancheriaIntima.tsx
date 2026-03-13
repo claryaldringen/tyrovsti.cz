@@ -4,13 +4,15 @@ import { ImageWithTitle } from '../../../ImageWithTitle'
 import { Cit } from '../../../Citation'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
+import { ArticleProps } from '../../../../types'
+import { DraftBadge } from '../../../DraftBadge'
 
-export const BiancheriaIntima = () => (
+export const BiancheriaIntima = ({ draft }: ArticleProps) => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="biancheria-intima" />
-        <h3>Biancheria intima</h3>
+        <h3>Biancheria intima{draft && <DraftBadge />}</h3>
         <p>
           La biancheria intima assolveva diverse funzioni. Dato che la
           stragrande maggioranza degli indumenti esterni era realizzata in

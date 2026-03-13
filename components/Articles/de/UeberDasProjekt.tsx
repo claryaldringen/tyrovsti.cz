@@ -3,10 +3,12 @@ import Link from 'next/link'
 import { LINKS, SOCIALS } from '../cz/OProjektu'
 import { Col, Row } from 'reactstrap'
 import { SocialLinks } from '../../SocialLinks/SocialLinks'
+import { ArticleProps } from '../../../types'
+import { DraftBadge } from '../../DraftBadge'
 
-export const UeberDasProjekt = () => (
+export const UeberDasProjekt = ({ draft }: ArticleProps) => (
   <>
-    <h2>Über das Projekt</h2>
+    <h2>Über das Projekt{draft && <DraftBadge />}</h2>
     <p>
       Wir beschäftigen uns mit der Rekonstruktion (dem sogenannten Reenactment)
       des Hofstaats und des Begleiters&nbsp;

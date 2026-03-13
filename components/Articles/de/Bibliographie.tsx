@@ -1,11 +1,13 @@
 import React from 'react'
 import { Col, Row } from 'reactstrap'
+import { ArticleProps } from '../../../types'
+import { DraftBadge } from '../../DraftBadge'
 
-export const Bibliographie = () => (
+export const Bibliographie = ({ draft }: ArticleProps) => (
   <>
     <Row>
       <Col>
-        <h1>Quellen</h1>
+        <h1>Quellen{draft && <DraftBadge />}</h1>
         <h2>Primärquellen</h2>
         <h3>Böhmische</h3>
         <ul>

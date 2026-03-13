@@ -1,12 +1,17 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
+import { ArticleProps } from '../../../../types'
+import { DraftBadge } from '../../../DraftBadge'
 
-export const OrdnungDesMarkgrafenAlbrecht = () => (
+export const OrdnungDesMarkgrafenAlbrecht = ({ draft }: ArticleProps) => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="margrave-albrechts-military-order" />
-        <h4>Militärordnung des Markgrafen Albrecht von 1478</h4>
+        <h4>
+          Militärordnung des Markgrafen Albrecht von 1478
+          {draft && <DraftBadge />}
+        </h4>
         <p>
           Diese Ordnung wurde von Kurfürst Albrecht Achilles von Brandenburg für
           den Pommerischen Krieg erlassen. Sie wurde erstmals 1830 im{' '}

@@ -4,13 +4,15 @@ import { ImageWithTitle } from '../../../ImageWithTitle'
 import { Cit } from '../../../Citation'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
+import { ArticleProps } from '../../../../types'
+import { DraftBadge } from '../../../DraftBadge'
 
-export const Unterkleidung = () => (
+export const Unterkleidung = ({ draft }: ArticleProps) => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="undergarments" />
-        <h3>Unterkleidung</h3>
+        <h3>Unterkleidung{draft && <DraftBadge />}</h3>
         <p>
           Unterkleidung erfüllte mehrere Funktionen. Da die überwiegende
           Mehrheit der Oberbekleidung aus Wollstoffen gefertigt war, verhinderte

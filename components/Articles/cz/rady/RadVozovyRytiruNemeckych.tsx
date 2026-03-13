@@ -1,13 +1,18 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Cit } from '../../../Citation'
+import { ArticleProps } from '../../../../types'
+import { DraftBadge } from '../../../DraftBadge'
 
-export const RadVozovyRytiruNemeckych = () => (
+export const RadVozovyRytiruNemeckych = ({ draft }: ArticleProps) => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="rad-vozovy-rytiru-nemeckych" />
-        <h4>Řád vozový rytířů Německých ze dne 19. dubna 1433</h4>
+        <h4>
+          Řád vozový rytířů Německých ze dne 19. dubna 1433
+          {draft && <DraftBadge />}
+        </h4>
         <p>
           Poznámky k překladu: Termín <Cit>fuhrweyn</Cit> jsem po úvaze přeložil
           jako <Cit>válečný vůz</Cit>. Podle popisu se jedná o bytelný vůz, o

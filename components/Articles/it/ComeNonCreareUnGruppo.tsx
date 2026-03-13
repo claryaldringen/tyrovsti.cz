@@ -1,11 +1,16 @@
 import React from 'react'
 import { Col, Row } from 'reactstrap'
+import { ArticleProps } from '../../../types'
+import { DraftBadge } from '../../DraftBadge'
 
-export const ComeNonCreareUnGruppo = () => (
+export const ComeNonCreareUnGruppo = ({ draft }: ArticleProps) => (
   <>
     <Row>
       <Col>
-        <h1>Come (non) creare un gruppo di scherma storica...</h1>
+        <h1>
+          Come (non) creare un gruppo di scherma storica...
+          {draft && <DraftBadge />}
+        </h1>
         <p>
           <i>
             Il testo originale &egrave; stato pubblicato sul sito{' '}
