@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useCallback, useRef, useState } from 'react'
 import { Col, Row } from 'reactstrap'
 import Link from 'next/link'
 import Image from 'next/image'
@@ -12,51 +12,98 @@ import { UeberDasProjekt } from '../Articles/de/UeberDasProjekt'
 import { InfoSulProgetto } from '../Articles/it/InfoSulProgetto'
 import classNames from 'classnames'
 import { MenuOverlay } from './MenuOverlay'
-import { LanguageDest } from '../../types'
+import { Language, LanguageDest } from '../../types'
+import { useOutsideClickHandler } from '../../hooks/useOutsideClickHandler'
 
-const LangToggler = ({ dest }: { dest?: LanguageDest }) => {
+const FLAG_MAP: Record<Language, { src: string; alt: string }> = {
+  cs: { src: '/images/icons8-czech-republic-48.png', alt: 'Čeština' },
+  en: { src: '/images/icons8-great-britain-48.png', alt: 'English' },
+  de: { src: '/images/icons8-germany-48.png', alt: 'Deutsch' },
+  it: { src: '/images/icons8-italy-48.png', alt: 'Italiano' },
+}
+
+const LangLinks = ({ dest }: { dest?: LanguageDest }) => (
+  <>
+    {dest?.cs && (
+      <Link href={dest.cs}>
+        <Image
+          src="/images/icons8-czech-republic-48.png"
+          width={32}
+          height={32}
+          alt="Czech language"
+        />
+      </Link>
+    )}
+    {dest?.en && (
+      <Link href={dest.en}>
+        <Image
+          src="/images/icons8-great-britain-48.png"
+          width={32}
+          height={32}
+          alt="English language"
+        />
+      </Link>
+    )}
+    {dest?.de && (
+      <Link href={dest.de}>
+        <Image
+          src="/images/icons8-germany-48.png"
+          width={32}
+          height={32}
+          alt="German language"
+        />
+      </Link>
+    )}
+    {dest?.it && (
+      <Link href={dest.it}>
+        <Image
+          src="/images/icons8-italy-48.png"
+          width={32}
+          height={32}
+          alt="Italian language"
+        />
+      </Link>
+    )}
+  </>
+)
+
+const LangToggler = ({
+  dest,
+  lang,
+}: {
+  dest?: LanguageDest
+  lang: Language
+}) => {
+  const [open, setOpen] = useState(false)
+  const dropdownRef = useRef<HTMLDivElement>(null)
+  const close = useCallback(() => setOpen(false), [])
+  useOutsideClickHandler(dropdownRef, close)
+
+  const current = FLAG_MAP[lang]
+
   return (
     <div className={styles.langToggler}>
-      {dest?.cs && (
-        <Link href={dest.cs}>
-          <Image
-            src="/images/icons8-czech-republic-48.png"
-            width={32}
-            height={32}
-            alt="Czech language"
-          />
-        </Link>
-      )}
-      {dest?.en && (
-        <Link href={dest.en}>
-          <Image
-            src="/images/icons8-great-britain-48.png"
-            width={32}
-            height={32}
-            alt="English language"
-          />
-        </Link>
-      )}
-      {dest?.de && (
-        <Link href={dest.de}>
-          <Image
-            src="/images/icons8-germany-48.png"
-            width={32}
-            height={32}
-            alt="German language"
-          />
-        </Link>
-      )}
-      {dest?.it && (
-        <Link href={dest.it}>
-          <Image
-            src="/images/icons8-italy-48.png"
-            width={32}
-            height={32}
-            alt="Italian language"
-          />
-        </Link>
-      )}
+      {/* Desktop: inline flags */}
+      <div className={styles.langDesktop}>
+        <LangLinks dest={dest} />
+      </div>
+
+      {/* Mobile: dropdown */}
+      <div className={styles.langMobile} ref={dropdownRef}>
+        <button
+          className={styles.langMobileToggle}
+          onClick={() => setOpen((v) => !v)}
+          aria-label={current.alt}
+          aria-expanded={open}
+        >
+          <Image src={current.src} width={32} height={32} alt={current.alt} />
+        </button>
+        {open && (
+          <div className={styles.langDropdown}>
+            <LangLinks dest={dest} />
+          </div>
+        )}
+      </div>
     </div>
   )
 }
@@ -141,7 +188,7 @@ export const Menu = () => {
             )}
           </Col>
           <Col xs={3} md={2} className="text-end">
-            <LangToggler dest={dest} />
+            <LangToggler dest={dest} lang={lang} />
           </Col>
         </Row>
       </div>
