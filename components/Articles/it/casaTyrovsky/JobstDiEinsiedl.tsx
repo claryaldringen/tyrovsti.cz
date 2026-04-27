@@ -13,15 +13,51 @@ export const JobstDiEinsiedl = ({ draft }: ArticleProps) => (
       <Col>
         <div className="anchor" id="jobst-di-einsiedl" />
         <h4>Jobst von Einsiedl (circa 1420 – 1474){draft && <DraftBadge />}</h4>
+        <h5>Famiglia e gioventù</h5>
         <p>
           Jobst nacque in una famiglia borghese nella piccola città di Einsiedl,
-          l&apos;odierna Mnichov nel distretto di Cheb, presumibilmente
-          nell&apos;anno 1420. Aveva uno stretto legame con la città di Cheb e
-          sembrava essere imparentato con le stimate famiglie di Cheb degli
-          Schmidel e dei Puchelberger, poiché chiamava Jorg Schmidel suo
-          fratello e Clement Puchelberger suo zio, ma di questa parentela non si
-          sa nulla di più. Ricevette un&apos;istruzione superiore presso la
-          vicina scuola monastica di Teplá e probabilmente vi apprese il ceco.
+          l&apos;odierna Mnichov nel distretto di Cheb, presumibilmente intorno
+          al 1420; la città apparteneva allora al monastero di Teplá.
+          <Qt publication={PUBLICATIONS.BOUKAL} note="page 80" /> Con grande
+          probabilità proveniva dalla famiglia dei Tullinger. In un documento
+          datato <b>16 giugno 1346</b>, l&apos;abate di Teplá Beneda e
+          l&apos;intero convento donano a Elisabetta e ai suoi fratelli Oldřich
+          e Bohuslav, discendenti di Heinrich Tullinger, i beni ricaduti al
+          monastero dopo la morte del giudice di Teplá Jan Puchelberger, in
+          particolare le miniere di stagno tra il fiume Ouša e il torrente
+          chiamato Goltwasser.
+          <Qt publication={PUBLICATIONS.NOVOTNA} /> In un documento del{' '}
+          <b>25 maggio 1397</b>, l&apos;abate di Teplá Bohuš e il servitore del
+          monastero Bohuslav Tullinger di Mnichov si accordano sulle miniere di
+          stagno presso Mnichov. Nel dispositivo entrambi gli emittenti
+          stabiliscono che Bohuslav Tullinger detenga tutti i diritti sul
+          villaggio di Mnichov e che gli spetti ogni terzo soldo (orig.
+          „pfannig&ldquo;) del metallo estratto.
+          <Qt publication={PUBLICATIONS.NOVOTNA} /> Se si tratti dello stesso
+          Bohuslav menzionato nel primo documento non posso dirlo. Allo stesso
+          modo non posso dedurre se si tratti del padre di Jobst, del nonno o se
+          la relazione di parentela sia di altro tipo; tuttavia il suo segno
+          araldico (tre piume) è noto anche dal successivo stemma di Jobst.{' '}
+          <Qt publication={PUBLICATIONS.BOUKAL} note="page 80" /> Aveva uno
+          stretto legame con la città di Cheb e ci appare come parente delle
+          stimate famiglie di Cheb degli Schmidel e dei Puchelberger, in quanto
+          chiamava Jorg Schmidel suo fratello e Clement Puchelberger suo zio;
+          Puchelberger fu in seguito borgomastro di Cheb.
+          <Qt publication={PUBLICATIONS.BOUKAL} note="page 81" /> Jobst stesso
+          afferma che, quando in seguito soggiornava a Cheb, alloggiava nella
+          casa di suo fratello Jorg. La parentela tra i Tullinger e i
+          Puchelberger è del resto suggerita anche dal documento sopra
+          menzionato.
+        </p>
+        <p>
+          Jobst poté ricevere la sua istruzione o presso la scuola di Cheb o,
+          più probabilmente, nel monastero di Teplá. Proprio lì poté imparare a
+          leggere e scrivere in ceco, tedesco e latino, cosa che lo rese uno dei
+          pochi scrivani multilingui nella Boemia tardomedievale.
+          <Qt publication={PUBLICATIONS.BOUKAL} note="page 81" />
+        </p>
+        <h5>Inizi della carriera</h5>
+        <p>
           Grazie alla sua formazione, era particolarmente adatto a servire come
           segretario e scrivano, soprattutto durante l&apos;interregno (1439 –
           1453), quando i signori boemi conducevano la politica in modo
@@ -129,6 +165,30 @@ export const JobstDiEinsiedl = ({ draft }: ArticleProps) => (
           />
         </p>
         <p>
+          Nel 1452 Jobst compare in relazione alle dispute tra la borghese
+          norimberghese Margareta Vogel e Aleš Holický di Šternberk, quando
+          scrisse ai norimberghesi una lettera di ringraziamento per la
+          risoluzione della questione. Federico III aveva apparentemente
+          sollecitato la fine della disputa già dall&apos;inizio dell&apos;anno
+          precedente.
+          <Qt publication={PUBLICATIONS.BOUKAL} note="page 82" /> Nella
+          cosiddetta Borschengrüner Fehde (<i>faida di Borschengrün</i>), la
+          guerra tra Cheb e i balivi di Plavno negli anni 1452–1454, si
+          impegnarono in modo significativo alcuni rappresentanti della nobiltà
+          boema, compresi gli Holický di Šternberk. Ad Aleš Holický dispiaceva
+          che Federico di Sassonia si fosse proposto come mediatore tra Cheb e i
+          Plaveniani; dopo l&apos;esperienza della guerra di Soest, la
+          maggioranza dei nobili boemi lo considerava un nemico del paese. Aleš
+          esercitava anche pressioni su Mates Šlik per convincere Cheb a
+          smettere di combattere contro i Plaveniani. Durante questo conflitto
+          Aleš si servì spesso di Jobst come suo negoziatore con gli Šlik e con
+          Cheb. Al servizio degli Šternberk Jobst rimase fino alla fine del 1453
+          o all&apos;inizio del 1454, dopodiché entrò al servizio di Giorgio di
+          Poděbrady.
+          <Qt publication={PUBLICATIONS.BOUKAL} note="page 82" />
+        </p>
+        <h5>Al servizio di Giorgio di Poděbrady</h5>
+        <p>
           Jobst von Einsiedl rimase con i signori di Šternberk fino alla fine
           del 1453 o forse l&apos;inizio del 1454, poiché il{' '}
           <b>24 giugno 1453</b> Jobst scriveva ancora sotto il comando del
@@ -165,25 +225,44 @@ export const JobstDiEinsiedl = ({ draft }: ArticleProps) => (
     <Row>
       <Col>
         <p>
-          Nel suo ruolo di segretario del governatore, Jobst si aprì un ampio e
-          significativo campo d&apos;influenza. Poiché Giorgio era noto per
-          parlare poco il tedesco, il suo segretario segreto gli era
-          assolutamente indispensabile. Pertanto, se non era assente per qualche
-          missione, era sempre al fianco del governatore del paese,
-          accompagnandolo nelle sue principali campagne in Moravia, Slesia e
-          Austria, spesso dedicandosi al commercio, come a Brno, e informando i
-          suoi amici di Cheb con evidente soddisfazione sui successi del
-          governatore. Sebbene cattolico e incondizionatamente devoto alla
-          Chiesa romana, mantenne una lealtà incrollabile verso il suo signore
-          utraquista in ogni momento — una rarità per l&apos;epoca — essendo
-          capace di separare giustamente le convinzioni religiose dalla fedeltà
-          al servizio. Pertanto, godeva anche della piena fiducia e del favore
-          di Giorgio e gli venivano spesso affidati compiti che richiedevano
-          particolare cura e affidabilità.
+          Al servizio del governatore, si aprì a Jobst un ampio e significativo
+          campo d&apos;attività. Poiché Giorgio non parlava affatto tedesco, si
+          avvaleva del bilinguismo di Jobst soprattutto nei rapporti con le
+          città prevalentemente di lingua tedesca. Sebbene lo stesso Giorgio
+          inviasse a Cheb, salvo rare eccezioni, lettere in ceco, dei tempi
+          successivi si sono conservate esclusivamente lettere in tedesco,
+          dietro le quali si può intuire l&apos;attività del suo nuovo
+          servitore.
+          <Qt publication={PUBLICATIONS.BOUKAL} note="page 83" /> Giorgio teneva
+          in alta considerazione i servizi di Jobst, ed è quindi probabile che
+          presso il re Ladislao avesse intercesso per la concessione di un feudo
+          — il villaggio di Jeschedorf, oggi Jaśkowice Legnickie — nel gennaio
+          1455, che Jobst possedeva insieme a Hynec Dehraw, oppure che fosse
+          dietro la nobilitazione dello stemma di Jobst da parte di Federico III
+          il <b>23 novembre</b> dello stesso anno.
+          <Qt publication={PUBLICATIONS.BOUKAL} note="page 83" /> Come suo
+          segretario segreto gli era letteralmente indispensabile. Pertanto, se
+          non era assente per qualche missione, era sempre al fianco del
+          governatore del paese, accompagnandolo nelle sue principali campagne
+          in Moravia, Slesia e Austria, spesso dedicandosi al commercio, come a
+          Brno, e informando i suoi amici di Cheb con evidente soddisfazione sui
+          successi del governatore. Sebbene cattolico e incondizionatamente
+          devoto alla Chiesa romana, mantenne una lealtà incrollabile verso il
+          suo signore utraquista in ogni momento — una rarità per l&apos;epoca —
+          essendo capace di separare giustamente le convinzioni religiose dalla
+          fedeltà al servizio. Pertanto, godeva anche della piena fiducia e del
+          favore di Giorgio e gli venivano spesso affidati compiti che
+          richiedevano particolare cura e affidabilità.
           <Qt
             publication={PUBLICATIONS.KURSCHNER}
             href="https://sources.cms.flu.cas.cz/src/index.php?s=v&cat=50&bookid=488&page=7"
           />
+        </p>
+        <p>
+          Jobst accompagnò Giorgio anche in lunghi viaggi, come ad esempio in
+          Ungheria nel 1456, di cui non esitò a informare i suoi parenti di
+          Cheb.
+          <Qt publication={PUBLICATIONS.BOUKAL} note="page 83" />
         </p>
 
         <p>
@@ -231,32 +310,49 @@ export const JobstDiEinsiedl = ({ draft }: ArticleProps) => (
           />{' '}
           ovvero un transunto della bolla di papa Pio II del marzo 1459, che
           nomina Jobst come <Cit>Jodocus de Eynsedil, milites Pragensis</Cit>.
-          <Qt publication={PUBLICATIONS.BOUKAL} /> Insieme all&apos;elevazione
-          allo status cavalleresco, ricevette un&apos;eredità del valore di 500
-          sexagene di grossi nella tenuta di Makotrasy. In quel periodo acquisì
-          anche i villaggi di Skryje e Tytry. Tuttavia, per consentire al re di
-          ripagare il suo debito verso il burgravio di Praga Zdeněk di
-          Šternberk, Jobst restituì la suddetta eredità e prestò inoltre 500
-          sexagene di grossi in contanti, per i quali il re gli registrò il{' '}
-          <b>2 luglio 1460</b> il castello di Týřov con la città di Kožlany, i
-          villaggi di Mlečice, Chmelištná, Zavidov, Týřovice, Broumy, Kouřimec,
-          Újezdec, Hudlice con tutti i benefici e le tasse di Novosedly. Fu
-          stabilito che Jobst non dovesse essere rimborsato fino alla sua morte,
-          e dopo la sua morte solo il re stesso poteva riacquistare le proprietà
-          per 600 sexagene di grossi. Secondo la disposizione, il castello di
-          Týřov doveva rimanere aperto in ogni momento e se il re avesse dovuto
-          spendervi a causa di guerre, ciò non sarebbe stato a danno di Jobst.
-          Con le foreste, né Jobst né i suoi eredi avevano nulla a che fare né
-          potevano vendere legname, ma solo prenderlo senza impedimento per il
-          combustibile e le riparazioni del castello. Nella caccia di piccola
-          selvaggina e uccelli, Jobst era libero, mentre gli era consentito
-          cacciare 3 cervi e 10 caprioli all&apos;anno con la conoscenza del
-          burgravio di Křivoklát, che era obbligato a prestargli cani e
-          cuccioli. Poiché il castello necessitava di riparazioni alle mura, ai
-          sottofondi e agli edifici, il re aggiunse 100 sexagene di grossi per
-          le riparazioni a favore di Jobst. Se il castello fosse stato
-          conquistato da altri, i re erano obbligati ad aiutarlo a
-          riconquistarlo o a risarcirlo entro due anni.
+          <Qt publication={PUBLICATIONS.BOUKAL1} /> Gli abitanti di Cheb furono
+          informati dell&apos;elezione in via non ufficiale già da una lettera
+          di Jobst; ufficialmente vennero avvisati da un grande documento con
+          numerosi sigilli, il cui autore potrebbe essere stato anch&apos;esso
+          Jobst.
+          <Qt publication={PUBLICATIONS.BOUKAL} note="page 84" />
+        </p>
+        <p>
+          Durante il viaggio d&apos;omaggio di Giorgio di Poděbrady, Jobst
+          accompagnò il suo re, come testimoniano i suoi resoconti inviati a
+          Cheb. Un ruolo particolare lo svolse soprattutto a Brno, che aveva
+          chiuso le proprie porte prima dell&apos;arrivo di Giorgio, e Jobst fu
+          inviato come negoziatore con i rappresentanti della città.
+          Nell&apos;autunno del 1458 Jobst accompagnò Giorgio durante la sua
+          campagna in Austria.
+          <Qt publication={PUBLICATIONS.BOUKAL} note="page 84" />
+        </p>
+        <p>
+          Insieme all&apos;elevazione allo status cavalleresco, ricevette
+          un&apos;eredità del valore di 500 sexagene di grossi nella tenuta di
+          Makotrasy. In quel periodo acquisì anche i villaggi di Skryje e Tytry.
+          Tuttavia, per consentire al re di ripagare il suo debito verso il
+          burgravio di Praga Zdeněk di Šternberk, Jobst restituì la suddetta
+          eredità e prestò inoltre 500 sexagene di grossi in contanti, per i
+          quali il re gli registrò il <b>2 luglio 1460</b> il castello di Týřov
+          con la città di Kožlany, i villaggi di Mlečice, Chmelištná, Zavidov,
+          Týřovice, Broumy, Kouřimec, Újezdec, Hudlice con tutti i benefici e le
+          tasse di Novosedly. Fu stabilito che Jobst non dovesse essere
+          rimborsato fino alla sua morte, e dopo la sua morte solo il re stesso
+          poteva riacquistare le proprietà per 600 sexagene di grossi. Secondo
+          la disposizione, il castello di Týřov doveva rimanere aperto in ogni
+          momento e se il re avesse dovuto spendervi a causa di guerre, ciò non
+          sarebbe stato a danno di Jobst. Con le foreste, né Jobst né i suoi
+          eredi avevano nulla a che fare né potevano vendere legname, ma solo
+          prenderlo senza impedimento per il combustibile e le riparazioni del
+          castello. Nella caccia di piccola selvaggina e uccelli, Jobst era
+          libero, mentre gli era consentito cacciare 3 cervi e 10 caprioli
+          all&apos;anno con la conoscenza del burgravio di Křivoklát, che era
+          obbligato a prestargli cani e cuccioli. Poiché il castello necessitava
+          di riparazioni alle mura, ai sottofondi e agli edifici, il re aggiunse
+          100 sexagene di grossi per le riparazioni a favore di Jobst. Se il
+          castello fosse stato conquistato da altri, i re erano obbligati ad
+          aiutarlo a riconquistarlo o a risarcirlo entro due anni.
           <Qt publication={PUBLICATIONS.KOCKA} />
         </p>
       </Col>
@@ -440,6 +536,34 @@ export const JobstDiEinsiedl = ({ draft }: ArticleProps) => (
           <Qt publication={PUBLICATIONS.JANSKY} />
         </p>
         <p>
+          Alla fine di febbraio 1461 Jobst fu inviato come accompagnatore di
+          Zbyněk Zajíc di Hazmburk alla dieta imperiale a Norimberga.
+          Nell&apos;estate dello stesso anno partì come membro di
+          un&apos;ambasceria boema a Vienna. Per i meriti acquisiti nel 1461 a
+          favore della città di Görlitz, ricevette dagli abitanti del luogo 6
+          sexagene e 21 grossi.
+          <Qt publication={PUBLICATIONS.BOUKAL} note="page 87" />{' '}
+          All&apos;inizio di settembre 1461, presso Laxenburg, Zbyněk Zajíc di
+          Hazmburk, Vilém di Rýzmberk, Burian Trčka di Lípa e Jobst di Einsiedl
+          conclusero una tregua con Alberto d&apos;Austria fino al giugno 1462.
+          Jobst partecipò poi a ulteriori trattative a Leoben tra la fine di
+          settembre e l&apos;inizio di ottobre, da dove proseguì per Wiener
+          Neustadt presso l&apos;imperatrice Eleonora, per concordarvi un
+          incontro tra Giorgio e Federico III.
+          <Qt publication={PUBLICATIONS.BOUKAL} note="page 87" />
+        </p>
+        <p>
+          Nel novembre 1462 Jobst comparve con l&apos;esercito di Giorgio presso
+          Vienna, dove i borghesi locali si erano sollevati contro Federico III
+          e avevano chiamato in aiuto i nemici di Federico — compreso Alberto
+          d&apos;Austria. Federico, assediato nel castello di Vienna, chiese a
+          Giorgio di rompere l&apos;assedio; tuttavia l&apos;attacco boemo a
+          Wiener Neustadt non ebbe successo, cosicché poco dopo Federico si
+          arrese ai suoi assedianti e concluse con loro un trattato di pace a
+          condizioni svantaggiose.
+          <Qt publication={PUBLICATIONS.BOUKAL} note="page 87-88" />
+        </p>
+        <p>
           Poiché l&apos;imperatore Federico III elevò i figli di Giorgio,
           Viktorin, Jindřich e Hynek, allo status di principi imperiali il{' '}
           <b>7 dicembre 1462</b>, a Korneuburg, Jobst, Zdeněk di Šternberk e
@@ -447,6 +571,23 @@ export const JobstDiEinsiedl = ({ draft }: ArticleProps) => (
           mantelli e i cappelli principeschi, che furono formalmente presentati
           alla Corte Reale di Praga il <b>21 febbraio 1463</b>.
           <Qt publication={PUBLICATIONS.FELCMAN} />
+        </p>
+        <p>
+          Nel marzo 1463, su incarico di Giorgio di Poděbrady, Jobst si impegnò
+          nella questione dell&apos;ammissione degli ebrei Smahel, Gumprecht,
+          Joseph e Sara con i loro figli a Cheb per sei anni in cambio di un
+          canone annuo di 150 fiorini renani. In questa faccenda Jobst trattò
+          con i borghesi di Cheb Kašpar Junker, Pavel Ruduš e Franz Scheller.
+          <Qt publication={PUBLICATIONS.BOUKAL} note="page 88" />{' '}
+          All&apos;inizio dell&apos;estate 1463 Giorgio incaricò Jobst di
+          trattative con Hilario di Litoměřice. Il loro risultato fu, l&apos;
+          <b>11 giugno</b>, la vidimazione del precedente accordo di Giorgio con
+          la principessa Edvige di Legnica riguardante Legnica.
+          <Qt publication={PUBLICATIONS.BOUKAL} note="page 88" /> Nell&apos;
+          agosto 1463 Giorgio ammonì per iscritto le città regie alla perenne
+          fedeltà. L&apos;autore di questo testo, tuttavia, potrebbe essere
+          stato, come argomenta Urbánek, proprio Jobst.
+          <Qt publication={PUBLICATIONS.BOUKAL} note="page 88" />
         </p>
         <p>
           Come risultato di questa attività diplomatica, Jobst von Einsiedl
@@ -544,9 +685,15 @@ export const JobstDiEinsiedl = ({ draft }: ArticleProps) => (
           Dopo la morte del re Giorgio di Poděbrady il <b>22 marzo 1471</b>,
           all&apos;inizio di maggio 1471, Jobst si impegnò con successo nella
           composizione di una disputa tra Cheb e il più alto burgravio di Praga,
-          Jan Jenc di Janovice a Petršpurk. Ebbe meno successo nel tentativo di
-          riconciliare Cheb con il suo vicino, Beneš di Libštejn dai Kolovraty.
-          Dopo l&apos;ascesa al trono di Vladislao II Jagellone il{' '}
+          Jan Jenc di Janovice a Petršpurk. Il signore di Janovice aveva del
+          resto molte altre preoccupazioni che non quella di combattere contro
+          Cheb, dato che era più tormentato dalla lotta con il presidio di
+          Ostromeč tenuto dagli Šternberk. Nel corso dello stesso anno Jobst
+          cercò inoltre di aiutare i borghesi di Cheb nelle trattative di pace
+          con Vilém di Volfštejn e Beneš di Kolovrat, ma senza risultati di
+          rilievo.
+          <Qt publication={PUBLICATIONS.BOUKAL} note="page 90" /> Dopo
+          l&apos;ascesa al trono di Vladislao II Jagellone il{' '}
           <b>27 maggio 1471</b>, Jobst rimase nella carica di segretario.
           <Qt publication={PUBLICATIONS.JANSKY} />
         </p>
@@ -563,15 +710,23 @@ export const JobstDiEinsiedl = ({ draft }: ArticleProps) => (
           <Qt publication={PUBLICATIONS.KOCKA} />
         </p>
         <p>
-          Tra le missioni significative a cui Jobst partecipò mentre serviva
-          Vladislao vi furono i negoziati con Federico III tra il 1473 e il
-          1474, ai quali presenziò insieme a Burian II di Gutštejn e Beneš di
-          Libštejn dai Kolovraty. I negoziati, tenutisi ad Augusta, furono
-          preceduti da diversi altri incontri con Alberto di Brandeburgo, che
-          portarono al riconoscimento di Vladislao come legittimo re di Boemia.
-          I lunghi negoziati con Federico III culminarono nell&apos;accordo su
-          operazioni militari in Austria contro Mattia Corvino e la nobiltà
-          austriaca ribelle.
+          Continuò a servire gli abitanti di Cheb come loro informatore sugli
+          eventi del regno. Dalla fine del 1464 alla primavera del 1465, ad
+          esempio, si occupò del caso del bestiame confiscato, che era stato
+          dichiarato in modo improprio e che il nobile Jenec di Janovice a
+          Petršpurk aveva sottratto al borghese di Cheb Jobst Lochner.
+          <Qt publication={PUBLICATIONS.BOUKAL} note="page 88" /> Tra le
+          missioni significative cui Jobst partecipò al servizio di Vladislao vi
+          furono ad esempio i negoziati con Federico III negli anni 1473–1474,
+          ai quali partecipò insieme a Burian II di Gutštejn e Beneš Libštejnský
+          di Kolovrat. I negoziati, tenutisi a Norimberga e ad Augusta, furono
+          preceduti da diversi altri incontri con Alberto di Brandeburgo, il cui
+          principale risultato fu il riconoscimento di Vladislao come legittimo
+          re di Boemia. Si giunse inoltre a un accordo su operazioni militari in
+          Austria allo scopo di combattere contro il Corvino e la nobiltà
+          austriaca ribelle. Nel luglio 1474 Jobst è attestato come assessore
+          del tribunale camerale.
+          <Qt publication={PUBLICATIONS.BOUKAL} note="page 90" />
           <Qt publication={PUBLICATIONS.JANSKY} />
         </p>
         <p>
@@ -590,8 +745,11 @@ export const JobstDiEinsiedl = ({ draft }: ArticleProps) => (
             publication={PUBLICATIONS.KURSCHNER}
             href="https://sources.cms.flu.cas.cz/src/index.php?s=v&cat=50&bookid=488&page=12"
           />
-          &nbsp;
-          <Qt publication={PUBLICATIONS.KOCKA} />
+          <Qt publication={PUBLICATIONS.KOCKA} /> Jobst lasciò un testamento che
+          fu iscritto nelle tavole del paese. La sua formulazione purtroppo non
+          ci è pervenuta; sappiamo tuttavia che fu invalidato, in quanto era
+          stato redatto <Cit>po smrti pečetín</Cit> (sigillato dopo la morte).
+          <Qt publication={PUBLICATIONS.BOUKAL} note="page 90" />
         </p>
       </Col>
     </Row>

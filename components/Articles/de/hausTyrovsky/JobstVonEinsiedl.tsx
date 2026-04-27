@@ -13,22 +13,59 @@ export const JobstVonEinsiedl = ({ draft }: ArticleProps) => (
       <Col>
         <div className="anchor" id="jobst-of-einsiedl" />
         <h4>Jobst von Einsiedl (um 1420 – 1474){draft && <DraftBadge />}</h4>
+        <h5>Familie und Jugend</h5>
         <p>
           Jobst wurde in eine bürgerliche Familie in der kleinen Stadt Einsiedl,
-          dem heutigen Mnichov im Bezirk Eger, vermutlich im Jahr 1420 geboren.
-          Er hatte eine enge Verbindung zur Stadt Eger und schien mit den
-          angesehenen Egerer Familien der Schmidels und Puchelberger verwandt zu
-          sein, da er Jorg Schmidel seinen Bruder und Clement Puchelberger
-          seinen Onkel nannte, doch über diese verwandtschaftliche Beziehung ist
-          nichts Näheres bekannt. Er erhielt eine höhere Ausbildung an der nahe
-          gelegenen Klosterschule in Teplá und lernte dort vermutlich
-          Tschechisch. Dank seiner Bildung war er besonders geeignet, als
-          Sekretär und Schreiber zu dienen, insbesondere während des
-          Interregnums (1439–1453), als die böhmischen Herren eigenständig
-          Politik betrieben. Schreiber, die beide Landessprachen beherrschten,
-          wurden besonders jenen böhmischen Herren empfohlen, die kein Deutsch
-          sprachen, obwohl sie bei ihren häufigen Kontakten mit den benachbarten
-          deutschen Regionen nicht darauf verzichten konnten. So entschuldigte
+          dem heutigen Mnichov im Bezirk Eger, vermutlich um 1420 hineingeboren;
+          die Stadt gehörte damals dem Kloster Tepl.
+          <Qt publication={PUBLICATIONS.BOUKAL} note="page 80" /> Mit großer
+          Wahrscheinlichkeit stammte er aus der Familie Tullinger. In einer
+          Urkunde vom <b>16. Juni 1346</b> schenken der Tepler Abt Beneda und
+          der gesamte Konvent Elisabeth und ihren Brüdern Oldřich und Bohuslav,
+          den Nachkommen Heinrichs Tullinger, die nach dem Tode des Tepler
+          Richters Jan Puchelberger an das Kloster zurückgefallenen Güter,
+          insbesondere die Zinnbergwerke zwischen dem Fluss Ouša und dem Bach
+          namens Goltwasser.
+          <Qt publication={PUBLICATIONS.NOVOTNA} /> In einer Urkunde vom{' '}
+          <b>25. Mai 1397</b> verständigen sich der Tepler Abt Bohuš und der
+          Klosterdiener Bohuslav Tullinger aus Mnichov über die Zinnbergwerke
+          bei Mnichov. In der Verfügung treffen beide Aussteller eine
+          Vereinbarung, dass Bohuslav Tullinger sämtliche Rechte am Dorf Mnichov
+          innehabe und ihm jeder dritte „pfannig&ldquo; (Pfennig) des
+          geförderten Metalls zufallen solle.
+          <Qt publication={PUBLICATIONS.NOVOTNA} /> Ob es sich um denselben
+          Bohuslav handelt, der in der ersten Urkunde erwähnt wird, kann ich
+          nicht sagen. Ebenso wenig lässt sich ableiten, ob es sich um Jobsts
+          Vater, Großvater oder eine sonstige verwandtschaftliche Beziehung
+          handelt; sein Wappenzeichen (drei Federn) ist jedoch auch von Jobsts
+          späterem Wappen bekannt.{' '}
+          <Qt publication={PUBLICATIONS.BOUKAL} note="page 80" /> Mit der Stadt
+          Eger stand er in enger Verbindung und erscheint uns als Verwandter der
+          angesehenen Egerer Familien Schmidel und Puchelberger, indem er Jorg
+          Schmidel seinen Bruder und Clement Puchelberger seinen Onkel nannte,
+          wobei Puchelberger später Egerer Bürgermeister wurde.
+          <Qt publication={PUBLICATIONS.BOUKAL} note="page 81" /> Jobst selbst
+          gibt an, dass er sich, als er sich später in Eger aufhielt, im Haus
+          seines Bruders Jorg aufhielt. Die Verwandtschaft der Tullinger und
+          Puchelberger deutet im Übrigen auch die oben erwähnte Urkunde an.
+        </p>
+        <p>
+          Seine Bildung konnte Jobst entweder an der Schule in Eger oder, was
+          wahrscheinlicher ist, im Kloster Tepl erhalten haben. Gerade dort
+          konnte er Tschechisch, Deutsch und Latein lesen und schreiben lernen,
+          wodurch er einer der wenigen mehrsprachigen Schreiber im
+          spätmittelalterlichen Böhmen war.
+          <Qt publication={PUBLICATIONS.BOUKAL} note="page 81" />
+        </p>
+        <h5>Karriereanfänge</h5>
+        <p>
+          Dank seiner Bildung war er besonders geeignet, als Sekretär und
+          Schreiber zu dienen, insbesondere während des Interregnums
+          (1439–1453), als die böhmischen Herren eigenständig Politik betrieben.
+          Schreiber, die beide Landessprachen beherrschten, wurden besonders
+          jenen böhmischen Herren empfohlen, die kein Deutsch sprachen, obwohl
+          sie bei ihren häufigen Kontakten mit den benachbarten deutschen
+          Regionen nicht darauf verzichten konnten. So entschuldigte
           beispielsweise Herr Jan von Házmburk seinen auf Tschechisch verfassten
           Brief an die Stadt Eger damit, dass ihm sein deutscher Schreiber
           gerade nicht zur Verfügung stehe. In dieser Eigenschaft erscheint
@@ -130,6 +167,29 @@ export const JobstVonEinsiedl = ({ draft }: ArticleProps) => (
           />
         </p>
         <p>
+          Im Jahr 1452 erscheint Jobst im Zusammenhang mit den Streitigkeiten
+          zwischen der Nürnberger Bürgerin Margareta Vogel und Aleš Holický von
+          Šternberk, als er den Nürnbergern einen Dankesbrief für die Beilegung
+          dieser Angelegenheit schrieb. Friedrich III. hatte offenbar bereits
+          seit Beginn des Vorjahres zur Beendigung des Streits gedrängt.
+          <Qt publication={PUBLICATIONS.BOUKAL} note="page 82" /> An der
+          sogenannten Borschengrüner Fehde (<i>Borschengrüner Fehde</i>), dem
+          Krieg zwischen Eger und den Vögten von Plauen in den Jahren 1452–1454,
+          waren einige Vertreter des böhmischen Adels deutlich beteiligt,
+          darunter die Holický von Šternberk. Aleš Holický störte sich daran,
+          dass sich Friedrich von Sachsen als Vermittler zwischen Eger und den
+          Plauenern angeboten hatte. Diesen betrachtete die Mehrheit der
+          böhmischen Adligen nach den Erfahrungen aus dem Soester Krieg als
+          Feind des Landes. Aleš übte zudem Druck auf Mates Šlik aus, um Eger
+          davon zu überzeugen, den Krieg gegen die Plauener einzustellen.
+          Während dieses Konflikts setzte Aleš Jobst häufig als seinen
+          Unterhändler mit den Šliks und mit Eger ein. Im Dienst der Šternberks
+          blieb Jobst bis Ende 1453 oder Anfang 1454, woraufhin er in den Dienst
+          Georgs von Podiebrad trat.
+          <Qt publication={PUBLICATIONS.BOUKAL} note="page 82" />
+        </p>
+        <h5>Im Dienste Georgs von Podiebrad</h5>
+        <p>
           Jobst von Einsiedl blieb bei den Herren von Šternberk bis Ende 1453
           oder vielleicht Anfang 1454, denn am <b>24. Juni 1453</b> schrieb
           Jobst noch unter dem Befehl des Herrn Aleš von Šternberk. Danach trat
@@ -165,11 +225,25 @@ export const JobstVonEinsiedl = ({ draft }: ArticleProps) => (
     <Row>
       <Col>
         <p>
-          In seiner Rolle als Verweser eröffnete sich Jobst ein breites und
-          bedeutendes Wirkungsfeld. Da Georg bekanntlich wenig Deutsch sprach,
-          war sein Geheimsekretär absolut unentbehrlich. Wenn er nicht gerade
-          auf irgendeiner Mission abwesend war, befand er sich stets an der
-          Seite des Landesverwesers und begleitete ihn auf seinen großen
+          Im Dienst des Verwesers eröffnete sich Jobst ein breites und
+          bedeutendes Wirkungsfeld. Da Georg überhaupt kein Deutsch konnte,
+          nutzte er Jobsts Zweisprachigkeit insbesondere im Umgang mit den
+          überwiegend deutschsprachigen Städten. Während Georg selbst seine
+          Schreiben nach Eger bis auf wenige Ausnahmen auf Tschechisch
+          verfasste, sind aus späterer Zeit ausschließlich deutsche Briefe
+          erhalten, hinter denen das Wirken seines neuen Dieners zu vermuten
+          ist.
+          <Qt publication={PUBLICATIONS.BOUKAL} note="page 83" /> Georg schätzte
+          Jobsts Dienste hoch, und es ist daher wahrscheinlich, dass er bei
+          König Ladislaus die Verleihung eines Lehens — des Dorfes Jeschedorf,
+          des heutigen Jaśkowice Legnickie — im Januar 1455 erwirkte, das Jobst
+          gemeinsam mit Hynec Dehraw hielt, oder dass er hinter der
+          Wappenbesserung Jobsts durch Friedrich III. am <b>23. November</b>{' '}
+          desselben Jahres stand.
+          <Qt publication={PUBLICATIONS.BOUKAL} note="page 83" /> Als sein
+          Geheimsekretär war er ihm schlechthin unentbehrlich. Wenn er nicht
+          gerade auf irgendeiner Mission abwesend war, befand er sich stets an
+          der Seite des Landesverwesers und begleitete ihn auf seinen großen
           Feldzügen in Mähren, Schlesien und Österreich, wobei er oft Handel
           trieb, wie in Brünn, und seine Freunde in Eger mit offensichtlicher
           Zufriedenheit über die erfolgreichen Errungenschaften des Statthalters
@@ -184,6 +258,11 @@ export const JobstVonEinsiedl = ({ draft }: ArticleProps) => (
             publication={PUBLICATIONS.KURSCHNER}
             href="https://sources.cms.flu.cas.cz/src/index.php?s=v&cat=50&bookid=488&page=7"
           />
+        </p>
+        <p>
+          Auch auf weiten Reisen begleitete Jobst Georg, etwa 1456 nach Ungarn,
+          worüber er nicht zögerte, seine Egerer Verwandtschaft zu unterrichten.
+          <Qt publication={PUBLICATIONS.BOUKAL} note="page 83" />
         </p>
 
         <p>
@@ -233,28 +312,44 @@ export const JobstVonEinsiedl = ({ draft }: ArticleProps) => (
           />{' '}
           oder ein Transsumpt der Bulle Papst Pius&apos; II. vom März 1459, das
           Jobst als <Cit>Jodocus de Eynsedil, milites Pragensis</Cit> nennt.
-          <Qt publication={PUBLICATIONS.BOUKAL} /> Zusammen mit der Erhebung in
-          den Ritterstand erhielt er ein Erbgut im Wert von 500 Schock Groschen
-          auf dem Gut Makotrasy. Um diese Zeit erwarb er auch die Dörfer Skryje
-          und Tytry. Um dem König jedoch die Rückzahlung seiner Schuld an den
-          Prager Burggrafen Zdeněk von Šternberk zu ermöglichen, gab Jobst das
-          besagte Erbgut zurück und lieh zusätzlich 500 Schock Groschen in bar,
-          wofür ihm der König am <b>2. Juli 1460</b> die Burg Týřov mit der
-          Stadt Kožlany, den Dörfern Mlečice, Chmelištná, Zavidov, Týřovice,
-          Broumy, Kouřimec, Újezdec, Hudlice mit allen Einkünften und Steuern in
-          Novosedly verschrieb. Es wurde festgelegt, dass Jobst zu seinen
-          Lebzeiten nicht ausgezahlt werden dürfe, und nach seinem Tod dürfe nur
-          der König selbst die Güter für 600 Schock Groschen zurückkaufen. Gemäß
-          der Bestimmung muss die Burg Týřov jederzeit offen bleiben, und wenn
-          der König wegen Kriegen Ausgaben dafür tätigen sollte, geschähe dies
-          ohne Nachteil für Jobst. Mit den Wäldern hat weder Jobst noch seine
-          Erben etwas zu schaffen, noch dürfen sie Holz verkaufen, sondern es
-          nur ungehindert für Brennstoff und Burgreparaturen entnehmen. Bei der
-          Jagd auf Kleinwild und Vögel war Jobst frei, während er mit Wissen des
-          Křivokláter Burggrafen jährlich 3 Hirsche und 10 Rehe erlegen durfte,
-          wobei dieser verpflichtet war, ihm Hunde und Welpen zu leihen. Da die
-          Burg Reparaturen an Mauern, Fundamenten und Gebäuden benötigte, legte
-          der König Jobst zusätzlich 100 Schock Groschen für Reparaturen hinzu.
+          <Qt publication={PUBLICATIONS.BOUKAL1} /> Die Egerer wurden über die
+          Wahl bereits durch einen Brief Jobsts inoffiziell unterrichtet,
+          offiziell dann durch ein großes, mit vielen Siegeln versehenes
+          Schreiben, dessen Verfasser ebenfalls Jobst gewesen sein könnte.
+          <Qt publication={PUBLICATIONS.BOUKAL} note="page 84" />
+        </p>
+        <p>
+          Während der Huldigungsfahrt Georgs von Podiebrad begleitete Jobst
+          seinen König, wovon seine nach Eger gesandten Berichte zeugen. Eine
+          besondere Rolle spielte er namentlich in Brünn, das vor Georgs Ankunft
+          seine Tore geschlossen hatte; Jobst wurde als Unterhändler zu den
+          Vertretern der Stadt entsandt. Im Herbst 1458 begleitete Jobst Georg
+          auf dessen Feldzug nach Österreich.
+          <Qt publication={PUBLICATIONS.BOUKAL} note="page 84" />
+        </p>
+        <p>
+          Zusammen mit der Erhebung in den Ritterstand erhielt er ein Erbgut im
+          Wert von 500 Schock Groschen auf dem Gut Makotrasy. Um diese Zeit
+          erwarb er auch die Dörfer Skryje und Tytry. Um dem König jedoch die
+          Rückzahlung seiner Schuld an den Prager Burggrafen Zdeněk von
+          Šternberk zu ermöglichen, gab Jobst das besagte Erbgut zurück und lieh
+          zusätzlich 500 Schock Groschen in bar, wofür ihm der König am{' '}
+          <b>2. Juli 1460</b> die Burg Týřov mit der Stadt Kožlany, den Dörfern
+          Mlečice, Chmelištná, Zavidov, Týřovice, Broumy, Kouřimec, Újezdec,
+          Hudlice mit allen Einkünften und Steuern in Novosedly verschrieb. Es
+          wurde festgelegt, dass Jobst zu seinen Lebzeiten nicht ausgezahlt
+          werden dürfe, und nach seinem Tod dürfe nur der König selbst die Güter
+          für 600 Schock Groschen zurückkaufen. Gemäß der Bestimmung muss die
+          Burg Týřov jederzeit offen bleiben, und wenn der König wegen Kriegen
+          Ausgaben dafür tätigen sollte, geschähe dies ohne Nachteil für Jobst.
+          Mit den Wäldern hat weder Jobst noch seine Erben etwas zu schaffen,
+          noch dürfen sie Holz verkaufen, sondern es nur ungehindert für
+          Brennstoff und Burgreparaturen entnehmen. Bei der Jagd auf Kleinwild
+          und Vögel war Jobst frei, während er mit Wissen des Křivokláter
+          Burggrafen jährlich 3 Hirsche und 10 Rehe erlegen durfte, wobei dieser
+          verpflichtet war, ihm Hunde und Welpen zu leihen. Da die Burg
+          Reparaturen an Mauern, Fundamenten und Gebäuden benötigte, legte der
+          König Jobst zusätzlich 100 Schock Groschen für Reparaturen hinzu.
           Sollte die Burg von Jobst eingenommen werden, sind die Könige
           verpflichtet, ihm bei der Rückeroberung zu helfen oder ihn innerhalb
           von zwei Jahren zu entschädigen.
@@ -441,6 +536,33 @@ export const JobstVonEinsiedl = ({ draft }: ArticleProps) => (
           <Qt publication={PUBLICATIONS.JANSKY} />
         </p>
         <p>
+          Ende Februar 1461 wurde Jobst als Begleiter Zbyněk Zajíc&apos; von
+          Hazmburk zum Reichstag nach Nürnberg entsandt. Im Sommer desselben
+          Jahres reiste er als Mitglied einer böhmischen Gesandtschaft nach
+          Wien. Für die Dienste, die er 1461 für die Stadt Görlitz geleistet
+          hatte, erhielt er von den dortigen 6 Schock und 21 Groschen.
+          <Qt publication={PUBLICATIONS.BOUKAL} note="page 87" /> Anfang
+          September 1461 schlossen Zbyněk Zajíc von Hazmburk, Vilém von
+          Rýzmberk, Burian Trčka von Lípa und Jobst von Einsiedl bei Laxenburg
+          einen Waffenstillstand mit Albrecht von Österreich bis Juni 1462.
+          Jobst nahm sodann an der Wende von September und Oktober an weiteren
+          Verhandlungen in Leoben teil, von wo er nach Wiener Neustadt zur
+          Kaiserin Eleonore aufbrach, um dort eine Zusammenkunft zwischen Georg
+          und Friedrich III. zu vereinbaren.
+          <Qt publication={PUBLICATIONS.BOUKAL} note="page 87" />
+        </p>
+        <p>
+          Im November 1462 erschien Jobst mit Georgs Heer vor Wien, wo sich die
+          örtlichen Bürger gegen Friedrich III. erhoben und dessen Feinde —
+          darunter Albrecht von Österreich — zu Hilfe gerufen hatten. Friedrich,
+          in der Wiener Burg eingeschlossen, bat Georg um die Aufhebung der
+          Belagerung; der böhmische Angriff auf Wiener Neustadt blieb jedoch
+          erfolglos, sodass sich Friedrich kurz darauf seinen Belagerern
+          unterwarf und mit ihnen unter ungünstigen Bedingungen einen
+          Friedensvertrag schloss.
+          <Qt publication={PUBLICATIONS.BOUKAL} note="page 87-88" />
+        </p>
+        <p>
           Da Kaiser Friedrich III. Georgs Söhne Viktorin, Jindřich und Hynek am{' '}
           <b>7. Dezember 1462</b> in Korneuburg in den Reichsfürstenstand erhob,
           wurden Jobst, Zdeněk von Šternberk und Prokop von Rabštejn zum Kaiser
@@ -448,6 +570,23 @@ export const JobstVonEinsiedl = ({ draft }: ArticleProps) => (
           <b>21. Februar 1463</b> am Königshof in Prag feierlich überreicht
           wurden.
           <Qt publication={PUBLICATIONS.FELCMAN} />
+        </p>
+        <p>
+          Im März 1463 setzte sich Jobst im Auftrag Georgs von Podiebrad für die
+          Aufnahme der Juden Smahel, Gumprecht, Josef und Sara samt ihren
+          Kindern in Eger für sechs Jahre gegen eine jährliche Abgabe von 150
+          rheinischen Goldgulden ein. In dieser Angelegenheit verhandelte Jobst
+          mit den Egerer Bürgern Kašpar Junker, Pavel Ruduš und Franz Scheller.
+          <Qt publication={PUBLICATIONS.BOUKAL} note="page 88" /> Anfang des
+          Sommers 1463 betraute Georg Jobst mit Verhandlungen mit Hilarius von
+          Leitmeritz. Deren Ergebnis war am <b>11. Juni</b> die Vidimation von
+          Georgs früherem Vertrag mit der Fürstin Hedwig von Liegnitz über
+          Liegnitz.
+          <Qt publication={PUBLICATIONS.BOUKAL} note="page 88" /> Im August 1463
+          ermahnte Georg die Königsstädte schriftlich zu beständiger Treue. Der
+          Verfasser dieses Textes könnte jedoch, wie Urbánek schließt, gerade
+          Jobst gewesen sein.
+          <Qt publication={PUBLICATIONS.BOUKAL} note="page 88" />
         </p>
         <p>
           Infolge dieser diplomatischen Tätigkeit gewann Jobst von Einsiedl
@@ -545,10 +684,15 @@ export const JobstVonEinsiedl = ({ draft }: ArticleProps) => (
           Nach dem Tod König Georgs von Podiebrad am <b>22. März 1471</b> war
           Jobst Anfang Mai 1471 erfolgreich an der Beilegung eines Streits
           zwischen Eger und dem höchsten Prager Burggrafen Jan Jenc von Janovice
-          auf Petršpurk beteiligt. Weniger erfolgreich war er bei dem Versuch,
-          Eger mit seinem Nachbarn Beneš von Libštejn aus dem Hause Kolovrat zu
-          versöhnen. Nachdem Vladislav II. Jagiello am <b>27. Mai 1471</b> den
-          Thron bestiegen hatte, blieb Jobst im Amt des Sekretärs.
+          auf Petršpurk beteiligt. Der Herr von Janovice hatte ohnehin viele
+          andere Sorgen als den Krieg mit Eger, da ihn der Kampf mit der
+          Šternberger Besatzung der Burg Ostromeč mehr beschäftigte. Im Laufe
+          desselben Jahres bemühte sich Jobst auch, den Egerer Bürgern bei
+          Friedensverhandlungen mit Vilém von Volfštejn und Beneš von Kolovrat
+          zu helfen, allerdings ohne nennenswerte Erfolge.
+          <Qt publication={PUBLICATIONS.BOUKAL} note="page 90" /> Nachdem
+          Vladislav II. Jagiello am <b>27. Mai 1471</b> den Thron bestiegen
+          hatte, blieb Jobst im Amt des Sekretärs.
           <Qt publication={PUBLICATIONS.JANSKY} />
         </p>
         <p>
@@ -565,16 +709,24 @@ export const JobstVonEinsiedl = ({ draft }: ArticleProps) => (
           <Qt publication={PUBLICATIONS.KOCKA} />
         </p>
         <p>
-          Zu den bedeutenden Missionen, an denen Jobst im Dienst von Vladislav
-          teilnahm, gehörten die Verhandlungen mit Friedrich III. zwischen
-          1473–1474, bei denen er zusammen mit Burian II. von Gutštejn und Beneš
-          von Libštejn aus dem Hause Kolovrat anwesend war. Den Verhandlungen,
-          die in Augsburg stattfanden, gingen mehrere andere Treffen mit
-          Albrecht von Brandenburg voraus, die zur Anerkennung Vladislavs als
-          legitimen König von Böhmen führten. Die langen Verhandlungen mit
-          Friedrich III. gipfelten in der Vereinbarung militärischer Operationen
-          in Österreich gegen Matthias Corvinus und den rebellischen
-          österreichischen Adel.
+          Den Egerern diente er weiterhin als ihr Informant über das Geschehen
+          im Königreich. Von Ende 1464 bis zum Frühjahr 1465 bearbeitete er
+          beispielsweise den Fall beschlagnahmten Viehs, das schlecht verzollt
+          worden war und das der Adlige Jenec von Janovice auf Petršpurk dem
+          Egerer Bürger Jobst Lochner abgenommen hatte.
+          <Qt publication={PUBLICATIONS.BOUKAL} note="page 88" /> Zu den
+          bedeutenden Missionen, an denen Jobst im Dienst Vladislavs teilnahm,
+          gehörten beispielsweise die Verhandlungen mit Friedrich III. in den
+          Jahren 1473–1474, an denen er zusammen mit Burian II. von Gutštejn und
+          Beneš Libštejnský von Kolovrat teilnahm. Den Verhandlungen, die in
+          Nürnberg und Augsburg stattfanden, gingen mehrere weitere Treffen mit
+          Albrecht von Brandenburg voraus, deren Hauptergebnis die Anerkennung
+          Vladislavs als rechtmäßiger böhmischer König war. Ferner wurde eine
+          Vereinbarung über militärische Operationen in Österreich zwecks
+          Kämpfen mit Corvinus und dem aufständischen österreichischen Adel
+          getroffen. Im Juli 1474 ist Jobst als Beisitzer des Kammergerichts
+          belegt.
+          <Qt publication={PUBLICATIONS.BOUKAL} note="page 90" />
           <Qt publication={PUBLICATIONS.JANSKY} />
         </p>
         <p>
@@ -592,8 +744,12 @@ export const JobstVonEinsiedl = ({ draft }: ArticleProps) => (
             publication={PUBLICATIONS.KURSCHNER}
             href="https://sources.cms.flu.cas.cz/src/index.php?s=v&cat=50&bookid=488&page=12"
           />
-          &nbsp;
-          <Qt publication={PUBLICATIONS.KOCKA} />
+          <Qt publication={PUBLICATIONS.KOCKA} /> Jobst hinterließ ein
+          Testament, das in die Landtafel eingetragen wurde. Sein Wortlaut ist
+          uns leider nicht erhalten geblieben; wir wissen jedoch, dass es für
+          ungültig erklärt wurde, da es <Cit>po smrti pečetín</Cit> (nach dem
+          Tode gesiegelt) ausgefertigt worden war.
+          <Qt publication={PUBLICATIONS.BOUKAL} note="page 90" />
         </p>
       </Col>
     </Row>
