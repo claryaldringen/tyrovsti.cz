@@ -1,0 +1,172 @@
+@use '/styles/mixin';
+
+$line-color: #b0a89a;
+$node-bg: #f7f3ec;
+$node-border: #c8bfb0;
+
+.tree {
+  margin: 1.5rem 0 2rem;
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.node {
+  display: inline-block;
+  padding: 0.4rem 0.75rem;
+  background: $node-bg;
+  border: 1px solid $node-border;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  line-height: 1.3;
+  text-align: center;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.dates {
+  display: block;
+  font-size: 0.78rem;
+  color: #6b6354;
+  margin-top: 2px;
+}
+
+/* Mobile: vertical indented tree with simple connecting lines */
+.tree ul {
+  position: relative;
+  padding-left: 1.25rem;
+}
+
+.tree > ul {
+  padding-left: 0;
+}
+
+.tree li {
+  position: relative;
+  padding: 0.4rem 0 0.4rem 1rem;
+}
+
+.tree > ul > li {
+  padding-left: 0;
+  text-align: center;
+}
+
+.tree ul ul > li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  border-left: 1px solid $line-color;
+}
+
+.tree ul ul > li::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 1.1rem;
+  width: 0.85rem;
+  border-top: 1px solid $line-color;
+}
+
+.tree ul ul > li:last-child::before {
+  bottom: auto;
+  height: 1.1rem;
+}
+
+/* Desktop: horizontal centred family tree */
+@include mixin.breakpoint(md) {
+  .tree {
+    overflow-x: auto;
+  }
+
+  .tree ul {
+    display: flex;
+    justify-content: center;
+    padding: 1.25rem 0 0;
+    position: relative;
+  }
+
+  .tree > ul {
+    padding-top: 0;
+  }
+
+  .tree li {
+    flex: 1 1 auto;
+    padding: 1.25rem 0.4rem 0;
+    text-align: center;
+  }
+
+  .tree > ul > li {
+    padding-top: 0;
+  }
+
+  /* connector going up to sibling bar */
+  .tree ul ul > li::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 50%;
+    width: 50%;
+    height: 1.25rem;
+    border-top: 1px solid $line-color;
+    border-right: 1px solid $line-color;
+    border-left: none;
+    bottom: auto;
+    left: auto;
+  }
+
+  .tree ul ul > li::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 1.25rem;
+    border-top: 1px solid $line-color;
+    border-left: 1px solid $line-color;
+  }
+
+  /* only child: single straight line */
+  .tree ul ul > li:only-child::before {
+    display: none;
+  }
+
+  .tree ul ul > li:only-child::after {
+    left: 50%;
+    width: 0;
+    border-left: 1px solid $line-color;
+    border-top: none;
+  }
+
+  /* outer edges of sibling bar */
+  .tree ul ul > li:first-child::before {
+    border-top: none;
+    border-right: none;
+  }
+
+  .tree ul ul > li:last-child::after {
+    border-top: none;
+    border-left: none;
+  }
+
+  /* line going down from parent to its children's sibling bar */
+  .tree ul ul {
+    position: relative;
+    padding-top: 1.25rem;
+  }
+
+  .tree ul ul::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    height: 1.25rem;
+    border-left: 1px solid $line-color;
+  }
+}
