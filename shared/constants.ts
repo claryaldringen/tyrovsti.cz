@@ -52,6 +52,12 @@ export const PUBLICATIONS: Record<string, Publication> = {
     year: 1914,
   },
   BOUKAL: {
+    name: 'Víra a společnost v českých zemích pozdního středověku. K dějinám společenských proměn a náboženského konfliktu 14.–16. století',
+    author: 'Kajetán Holeček, David Trojan (ed.)',
+    city: { cs: 'Praha', en: 'Prague', de: 'Prag', it: 'Praga' },
+    year: 2026,
+  },
+  BOUKAL1: {
     name: 'Vztahy města Cheb a české šlechty v pozdním středověku',
     author: 'Jan Boukal',
     city: { cs: 'Praha', en: 'Prague', de: 'Prag', it: 'Praga' },
@@ -271,5 +277,12 @@ export const PUBLICATIONS: Record<string, Publication> = {
     author: 'Vladislav Razím',
     city: 'Praha',
     year: 2010,
+  },
+  NOVOTNA: {
+    name: 'Listiny tepelského kláštera v letech 1300 až 1419',
+    author: 'Marie Novotná',
+    city: 'Praha',
+    year: 2024,
+    href: 'https://dspace.cuni.cz/bitstream/handle/20.500.11956/192344/130393934.pdf',
   },
 }
