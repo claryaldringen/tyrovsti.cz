@@ -13,14 +13,48 @@ export const JostTyrovsky = ({ draft }: ArticleProps) => (
       <Col>
         <div className="anchor" id="jost-z-einsiedlu" />
         <h4>Jošt z Einsiedlu (asi 1420 - 1474){draft && <DraftBadge />}</h4>
+        <h5>Rodina a mládí</h5>
         <p>
           Jošt se narodil do měšťanské rodiny v městečku Einsiedl, dnešním
-          Mnichově v okrese Cheb, pravděpodobně v roce 1420. K městu Cheb je v
-          blízkém vztahu a jeví se nám jako příbuzný vážených chebských rodin
-          Schmidelů a Puchelbergerů tím, že nazývá Jorga Schmidela svým bratrem
-          a Klementa Puchelbergera svým strýcem, avšak nic bližšího o tomto
-          příbuzenském vztahu není známo. V blízké klášterní škole v Teplé
-          získal vyšší školní vzdělání a pravděpodobně se zde naučil i česky.
+          Mnichově v okrese Cheb, pravděpodobně kolem roku 1420, který tehdy
+          náležel tepelskému klášteru.
+          <Qt publication={PUBLICATIONS.BOUKAL} note="str. 80" /> S velkou
+          pravděpodobností pocházel z rodiny Tullingerů. V listině ze{' '}
+          <b>16. června 1346</b> věnuje opat tepelského kláštera Beneda a celý
+          konvent Alžbětě a jejím bratrům Oldřichovi a Bohuslavovi, potomkům
+          Jindřicha Tullingera, statky spadlé na klášter po smrti tepelského
+          rychtáře Jana Puchelbergera, zejména cínové doly mezi řekou Oušou a
+          potokem zvaným Goltwasser.
+          <Qt publication={PUBLICATIONS.NOVOTNA} />V listině z{' '}
+          <b>25. května 1397</b> uzavírají tepelský opat Bohuš a služebník
+          kláštera Bohuslav Tullinger z Mnichova o cínových dolech u Mnichova. V
+          dispozici uzavírají oba vydavatelé dohodu, že Bohuslav Tullinger drží
+          veškerá práva k vsi Mnichov a že mu připadne každý třetí peníz (orig.
+          „pfannig“) vytěženého kovu.
+          <Qt publication={PUBLICATIONS.NOVOTNA} /> Jestli se jedná o stejného
+          Bohuslava, který je zmíněn v první listině, nemohu říci. Stejně tak
+          nemohu dovodit, jestli se jedná o Joštova otce, dědečka, či jestli je
+          příbuzenský vztah ještě jiný, nicméně jeho erbovní znamení (tři pera)
+          známe i z pozdějšího Joštova erbu.{' '}
+          <Qt publication={PUBLICATIONS.BOUKAL} note="str. 80" /> K městu Cheb
+          je v blízkém vztahu a jeví se nám jako příbuzný vážených chebských
+          rodin Schmidelů a Puchelbergerů tím, že nazývá Jorga Schmidela svým
+          bratrem a Klementa Puchelbergera svým strýcem, přičemž Puchelberger
+          byl pozdějším chebským purkmistrem.
+          <Qt publication={PUBLICATIONS.BOUKAL} note="str. 81" /> Sám Jošt
+          uvádí, že když později pobýval v Chebu, zdržoval se v domě svého
+          bratra Jorga. Příbuzenství Tullingerů a Puchelbergerů ostatně
+          naznačuje i výše zmíněná listina.
+        </p>
+        <p>
+          Vzdělání mohl Jošt získat buď ve škole v Chebu, nebo pravděpodobněji v
+          tepelském klášteře. Právě zde se mohl naučit číst a psát česky,
+          německy i latinsky, díky čemuž byl jedním z nemnoha multilingvních
+          písařů v pozdně středověkých Čechách.
+          <Qt publication={PUBLICATIONS.BOUKAL} note="str. 81" />
+        </p>
+        <h5>Počátky kariéry</h5>
+        <p>
           Díky svému vzdělání se obzvláště hodil za tajemníka a písaře, zejména
           v době interregna (1439 - 1453), kdy čeští velmožové prováděli
           politiku na vlastní pěst. Písaři, kteří rozuměli oběma zemským
@@ -56,6 +90,7 @@ export const JostTyrovsky = ({ draft }: ArticleProps) => (
             href="https://digi20.digitale-sammlungen.de/en/fs1/object/display/bsb00045259_00258.html?context=%22Jobst+von+Einsiedel%22&leftTab=PER_ent"
           />
         </p>
+        <p></p>
         <p>
           Tito čeští žoldnéři již kvůli nastalému příměří nestačili do Saské
           bratrovražedné války zasáhnout a plynule přešli do služeb kolínského
@@ -122,6 +157,26 @@ export const JostTyrovsky = ({ draft }: ArticleProps) => (
           />
         </p>
         <p>
+          V roce 1452 se Jošt objevuje v souvislosti se spory mezi norimberskou
+          měšťankou Margaretou Vogel a Alešem Holickým ze Šternberka, kdy psal
+          norimberským děkovný dopis za vyřešení této záležitosti. K ukončení
+          sporu vyzýval Fridrich III. již patrně od počátku předchozího roku.
+          <Qt publication={PUBLICATIONS.BOUKAL} note="str. 82" /> V tzv.
+          boršengrýnském záští (<i>Borschengrüner Fehde</i>), válce mezi Chebem
+          a fojty z Plavna v letech 1452–1454, se výrazně angažovali někteří
+          představitelé české šlechty, včetně Holických ze Šternberka. Aleši
+          Holickému vadilo, že se jakožto zprostředkovatel smíru mezi Chebem a
+          Plavenskými přihlásil Fridrich Saský. Toho většina českých šlechticů
+          po zkušenostech ze soestské války považovala za nepřítele země. Aleš
+          rovněž vyvíjel tlak na Matese Šliku, aby Cheb přesvědčil o tom, že má
+          přestat válčit s Plavenskými. Aleš během tohoto konfliktu využíval
+          Jošta často coby svého vyjednavače se Šliky a s Chebem. Ve službách
+          Šternberků setrval Jošt až do konce roku 1453 či počátku roku 1454,
+          načež vstoupil do služeb Jiřího z Poděbrad.
+          <Qt publication={PUBLICATIONS.BOUKAL} note="str. 82" />
+        </p>
+        <h5>Ve službách Jiřího z Poděbrad</h5>
+        <p>
           Do konce roku 1453 či snad do počátku roku 1454 zůstal Jošt z
           Einsiedlu u pánů ze Šternberka neboť <b>24. června 1453</b> píše Jošt
           ještě z příkazu pána Aleše ze Šternberka. Poté vstoupil do služeb
@@ -159,8 +214,19 @@ export const JostTyrovsky = ({ draft }: ArticleProps) => (
       <Col>
         <p>
           Ve službách správce se Joštovi otevřelo široké a významné pole
-          působnosti. Protože Jiří rozuměl, jak známo, jen málo německy, byl pro
-          něho jeho tajný písař doslova nepostradatelný. Proto ho najdeme, pokud
+          působnosti. Jelikož Jiří německy vůbec neuměl, užíval Joštovy
+          dvojjazyčnosti zejména při komunikaci s převážně německojazyčnými
+          městy. Sám Jiří posílal až na výjimky do Chebu listy v češtině, z
+          pozdějších dob se však dochovaly listy výhradně v němčině, za čímž lze
+          tušit aktivitu jeho nového služebníka.
+          <Qt publication={PUBLICATIONS.BOUKAL} note="str. 83" /> Jiří si
+          Joštových služeb vážil a je tudíž pravděpodobné, že se u krále
+          Ladislava přimluvil za udělení manství, vsi Jeschedorf, dnes Jaśkowice
+          Legnickie, v lednu 1455, které Jošt držel spolu s Hyncem Dehrawem,
+          nebo stál v pozadí polepšení Joštova erbu Fridrichem III. dne{' '}
+          <b>23. listopadu</b> téhož roku.
+          <Qt publication={PUBLICATIONS.BOUKAL} note="str. 83" /> Jako tajný
+          písař byl pro něho doslova nepostradatelný. Proto ho najdeme, pokud
           nebyl nepřítomen z důvodu vykonávání nějakého poslání, stále na straně
           zemského správce, kterého doprovází na jeho velkých taženích na
           Moravě, ve Slezsku a Rakousku, přičemž nezřídka, jako např. v Brně,
@@ -176,6 +242,11 @@ export const JostTyrovsky = ({ draft }: ArticleProps) => (
             publication={PUBLICATIONS.KURSCHNER}
             href="https://sources.cms.flu.cas.cz/src/index.php?s=v&cat=50&bookid=488&page=7"
           />
+        </p>
+        <p>
+          Jiřího doprovázel Jošt i na daleké cesty, jako například do Uher v
+          roce 1456, o čemž neváhal zpravit své chebské příbuzenstvo.
+          <Qt publication={PUBLICATIONS.BOUKAL} note="str. 83" />
         </p>
         <p>
           Po smrti krále Ladislava Pohrobka <b>23.&nbsp;listopadu&nbsp;1457</b>{' '}
@@ -219,26 +290,41 @@ export const JostTyrovsky = ({ draft }: ArticleProps) => (
           />{' '}
           nebo transumpt buly papeže Pia II. z března 1459, v němž je Jošt
           jmenován jako <Cit>Jodocus de Eynsedil, milites Pragensis</Cit>.
-          <Qt publication={PUBLICATIONS.BOUKAL} /> Zároveň s povýšením do
-          rytířského stavu dostává dědictví v hodnotě 500 kop grošů na statku
-          makotřaském. Někdy v této době také získává vsi Skryje a Tytry. Aby
-          však král mohl splatit svůj dluh pražskému purkrabímu Zdeňkovi ze
-          Šternberka, vrátil mu Jošt výše zmíněné dědictví a k tomu půjčil ještě
-          hotově 500 kop grošů, za které zapsal mu král <b>2. července 1460</b>{' '}
-          hrad Týřov s městečkem Kožlany, vsi Mlečice Chmelištnou, Zavidov,
-          Týřovice, Broumy, Kouřimec, Újezdec, Hudlice se všemi požitky a berni
-          v Novosedlech. Při tom bylo stanoveno, že Jošt nesmí býti do své smrti
-          vyplacen a po jeho smrti může statky odkoupit zpět pouze sám král a to
-          za 600 kop grošů. Podle usnesení musí hrad Týřov zůstat po všechny
-          časy otevřen a kdyby král na něj kvůli válkám dal náklad, stane se tak
-          Joštovi beze škody. S lesy nemá Jošt ani jeho dědici co činiti ani
-          dříví prodávati, než toliko bez překážky bráti k palivu a na opravy
-          hradu. V lovu drobné zvěře a ptáků měl Jošt svobodu, kdežto z vysoké
-          zvěře směl štvát 3 jeleny a 10 srn do roka s vědomím křivoklátského
-          purkrabího, který mu byl povinen půjčit psy a tenata. Poněvadž hrad
-          potřeboval opravy hradeb, podsebití i budov, připsal král Joštovi na
-          opravu 100 kop grošů. Kdyby byl hrad Joštovi dobyt, jsou králové
-          povinni mu pomoci dobýt hrad zpět nebo jej do dvou let vyplatit.
+          <Qt publication={PUBLICATIONS.BOUKAL1} /> Chebští byli o volbě
+          neoficiálně zpraveni již listem od Jošta, oficiálně pak byli
+          informováni velkým listem s mnoha pečetěmi, jehož tvůrcem mohl být
+          rovněž Jošt.
+          <Qt publication={PUBLICATIONS.BOUKAL} note="str. 84" />
+        </p>
+        <p>
+          Během holdovací jízdy Jiřího z Poděbrad doprovázel Jošt svého krále, o
+          čemž svědčí jeho zpravodajství odesílané do Chebu. Zvláštní úlohu
+          sehrál zejména v Brně, které před Jiříkovým příjezdem uzavřelo své
+          brány, a Jošt byl vyslán jako vyjednavač s představiteli města. Na
+          podzim 1458 doprovázel Jošt Jiříka během jeho tažení do Rakous.
+          <Qt publication={PUBLICATIONS.BOUKAL} note="str. 84" />
+        </p>
+        <p>
+          Zároveň s povýšením do rytířského stavu dostává dědictví v hodnotě 500
+          kop grošů na statku makotřaském. Někdy v této době také získává vsi
+          Skryje a Tytry. Aby však král mohl splatit svůj dluh pražskému
+          purkrabímu Zdeňkovi ze Šternberka, vrátil mu Jošt výše zmíněné
+          dědictví a k tomu půjčil ještě hotově 500 kop grošů, za které zapsal
+          mu král <b>2. července 1460</b> hrad Týřov s městečkem Kožlany, vsi
+          Mlečice Chmelištnou, Zavidov, Týřovice, Broumy, Kouřimec, Újezdec,
+          Hudlice se všemi požitky a berni v Novosedlech. Při tom bylo
+          stanoveno, že Jošt nesmí býti do své smrti vyplacen a po jeho smrti
+          může statky odkoupit zpět pouze sám král a to za 600 kop grošů. Podle
+          usnesení musí hrad Týřov zůstat po všechny časy otevřen a kdyby král
+          na něj kvůli válkám dal náklad, stane se tak Joštovi beze škody. S
+          lesy nemá Jošt ani jeho dědici co činiti ani dříví prodávati, než
+          toliko bez překážky bráti k palivu a na opravy hradu. V lovu drobné
+          zvěře a ptáků měl Jošt svobodu, kdežto z vysoké zvěře směl štvát 3
+          jeleny a 10 srn do roka s vědomím křivoklátského purkrabího, který mu
+          byl povinen půjčit psy a tenata. Poněvadž hrad potřeboval opravy
+          hradeb, podsebití i budov, připsal král Joštovi na opravu 100 kop
+          grošů. Kdyby byl hrad Joštovi dobyt, jsou králové povinni mu pomoci
+          dobýt hrad zpět nebo jej do dvou let vyplatit.
           <Qt publication={PUBLICATIONS.KOCKA} />
         </p>
       </Col>
@@ -422,12 +508,51 @@ export const JostTyrovsky = ({ draft }: ArticleProps) => (
           <Qt publication={PUBLICATIONS.JANSKY} />
         </p>
         <p>
+          Koncem února 1461 byl Jošt vyslán jako doprovod Zbyňka Zajíce z
+          Házmburka na říšský sjezd do Norimberka. V létě téhož roku vyjel jako
+          člen českého poselstva do Vídně. Za zásluhy, které pro město Zhořelec
+          vykonal roku 1461, získal od místních 6 kop a 21 grošů.
+          <Qt publication={PUBLICATIONS.BOUKAL} note="str. 87" /> Na počátku
+          září 1461 uzavřeli u Laxenburgu Zbyněk Zajíc z Házmburka, Vilém z
+          Rýzmberka, Burian Trčka z Lípy a Jošt z Einsiedlu příměří s Albrechtem
+          Rakouským až do června 1462. Jošt se poté na přelomu září a října
+          zúčastnil dalších jednání v Leobenu, odkud posléze vyrazil do
+          Vídeňského Nového Města za císařovnou Eleonorou, aby zde dohodl
+          setkání mezi Jiřím a Fridrichem III.
+          <Qt publication={PUBLICATIONS.BOUKAL} note="str. 87" />
+        </p>
+        <p>
+          V listopadu 1462 se Jošt objevil s Jiříkovým vojskem u Vídně, kde se
+          proti Fridrichovi III. vzbouřili místní měšťané a povolali si na pomoc
+          Fridrichovy nepřátele, včetně Albrechta Rakouského. Fridrich,
+          obklíčený ve vídeňském hradě, požádal Jiřího o prolomení obležení,
+          avšak český útok na Vídeňské Nové Město nebyl úspěšný, takže nedlouho
+          poté se Fridrich svým oblehatelům vzdal a uzavřel s nimi za
+          nevýhodných podmínek mírovou smlouvu.
+          <Qt publication={PUBLICATIONS.BOUKAL} note="str. 87-88" />
+        </p>
+        <p>
           Protože císař Fridrich III. povýšil <b>7. prosince 1462</b> v
           Korneuburgu Jiřího syny Viktorina, Jindřicha a Hynka do stavu říšských
           knížat, byli Jošt, Zdeněk ze Šternberka a Prokop z Rabštejna vysláni k
           císaři aby přivezli knížecí pláště a klobouky, které{' '}
           <b>21. února 1463</b> slavnostně odevzdali v Králově dvoře v Praze.
           <Qt publication={PUBLICATIONS.FELCMAN} />
+        </p>
+        <p>
+          V březnu 1463 se Jošt z pověření Jiřího z Poděbrad angažoval ve věci
+          přijetí židů Smahela, Gumprechta, Josefa a Sáry a jejich dětí v Chebu
+          na šest let za roční plat 150 rýnských zlatých. V této záležitosti
+          jednal Jošt s chebskými měšťany Kašparem Junkerem, Pavlem Rudušem a
+          Franzem Schellerem.
+          <Qt publication={PUBLICATIONS.BOUKAL} note="str. 88" /> Počátkem léta
+          1463 pověřil Jiří Jošta jednáním s Hilariem Litoměřickým. Jeho
+          výsledkem byla dne <b>11. června</b> vidimace Jiříkovy dřívější
+          smlouvy s kněžnou Hedvikou Lehnickou o Lehnici.
+          <Qt publication={PUBLICATIONS.BOUKAL} note="str. 88" /> V srpnu 1463
+          Jiří písemně královská města k trvalé věrnosti napomínal. Tvůrcem
+          tohoto textu však mohl být, jak usuzuje Urbánek, právě Jošt.
+          <Qt publication={PUBLICATIONS.BOUKAL} note="str. 88" />
         </p>
         <p>
           V důsledku této diplomatické činnosti získal Jošt z Einsiedlu široký
@@ -521,9 +646,14 @@ export const JostTyrovsky = ({ draft }: ArticleProps) => (
           Po smrti krále Jiřího z Poděbrad (<b>22. března 1471</b>) se na
           počátku května 1471 Jošt úspěšně angažuje v urovnání sporu mezi Chebem
           a nejvyšším pražským purkrabím Janem Jencem z Janovic na Petršpurce.
-          Méně úspěšný byl ve snaze smířit Cheb se svým sousedem, Benešem
-          Libštejnským z Kolovrat. Po nástupu Vladislava II. Jagellonského na
-          trůn <b>27.&nbsp;května&nbsp;1471</b> setrval Jošt v úřadu sekretáře.
+          Pán z Janovic měl ostatně mnoho jiných starostí, než bylo válčení s
+          Chebem, jelikož jej více trápil boj se šternberskou posádkou hradu
+          Ostromeč. V průběhu téhož roku se Jošt snažil chebským měšťanům rovněž
+          pomoci v mírových jednáních s Vilémem z Volfštejna a Benešem z
+          Kolovrat, ovšem bez valných úspěchů.
+          <Qt publication={PUBLICATIONS.BOUKAL} note="str. 90" /> Po nástupu
+          Vladislava II. Jagellonského na trůn <b>27.&nbsp;května&nbsp;1471</b>{' '}
+          setrval Jošt v úřadu sekretáře.
           <Qt publication={PUBLICATIONS.JANSKY} />
         </p>
         <p>
@@ -537,15 +667,21 @@ export const JostTyrovsky = ({ draft }: ArticleProps) => (
           <Qt publication={PUBLICATIONS.KOCKA} />
         </p>
         <p>
-          K významným misím, jichž se Jošt ve službách Vladislava účastnil,
-          patřilo například jednání s Fridrichem III. v letech 1473- 1474, jehož
-          se zúčastnil společně s Burianem II. z Gutštejna a Benešem
-          Libštejnským z Kolovrat. Jednáním, která se odehrála v Augsburku,
+          Chebským nadále sloužil jako jejich informátor o dění v království. Od
+          konce roku 1464 do jara 1465 řešil například případ zabaveného
+          dobytku, který byl špatně proclen, a tak jej chebskému měšťanu Jobstu
+          Lochnerovi uzmul šlechtic Jeneč z Janovic na Petršpurku.
+          <Qt publication={PUBLICATIONS.BOUKAL} note="str. 88" /> K významným
+          misím, jichž se Jošt ve službách Vladislava účastnil, patřilo
+          například jednání s Fridrichem III. v letech 1473–1474, jehož se
+          zúčastnil společně s Burianem II. z Gutštejna a Benešem Libštejnským z
+          Kolovrat. Jednání, která se odehrála v Norimberku a Augsburku,
           předcházelo ještě několik dalších jednání s Albrechtem Braniborským,
-          jejichž výsledkem bylo uznání Vladislava jako právoplatného českého
-          krále. Výsledkem dlouhého vyjednávání s Fridrichem III. bylo dohodnutí
-          se na vojenských operacích v Rakousích za účelem bojů s Korvínem a
-          vzpurnou rakouskou šlechtou.
+          jejichž hlavním výsledkem bylo uznání Vladislava jako právoplatného
+          českého krále. Dále došlo k dohodě na vojenských operacích v Rakousích
+          za účelem bojů s Korvínem a vzpurnou rakouskou šlechtou. V červenci
+          1474 je Jošt doložen jako přísedící komorního soudu.
+          <Qt publication={PUBLICATIONS.BOUKAL} note="str. 90" />
           <Qt publication={PUBLICATIONS.JANSKY} />
         </p>
         <p>
@@ -563,8 +699,11 @@ export const JostTyrovsky = ({ draft }: ArticleProps) => (
             publication={PUBLICATIONS.KURSCHNER}
             href="https://sources.cms.flu.cas.cz/src/index.php?s=v&cat=50&bookid=488&page=12"
           />
-          &nbsp;
-          <Qt publication={PUBLICATIONS.KOCKA} />
+          <Qt publication={PUBLICATIONS.KOCKA} /> Jošt po sobě zanechal kšaft,
+          který byl vložen do zemských desk. Jeho znění se nám bohužel
+          nedochovalo, víme však, že byl zneplatněn, neboť byl učiněn{' '}
+          <Cit>po smrti pečetín</Cit>.
+          <Qt publication={PUBLICATIONS.BOUKAL} note="str. 90" />
         </p>
       </Col>
     </Row>
