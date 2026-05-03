@@ -37,7 +37,7 @@ Wikipedie v jazyce primárního zdroje období:
 - **Sekundárně:** anglická Wikipedie pro doplnění, ověření datace a jmen
 - Datace ověřit minimálně dvěma jazykovými verzemi tam, kde se zdroje rozcházejí
 
-Citace v článku: jen krátká poznámka pod tabulkou („Zpracováno podle Wikipedie") — žádné per-řádek citace. Detaily a primární zdroje budou v podrobných článcích.
+Citace ani žádná zdrojová poznámka v článku **nejsou** — toto je hrubý nástřel, podrobné citace přijdou až s budoucími podrobnými články jednotlivých konfliktů.
 
 ## Vizuální řešení
 
@@ -69,7 +69,7 @@ Gantt-styl tabulka postavená na CSS Gridu.
 
 ```
 components/Articles/cz/akce/
-├── CasovaOsa.tsx              ← wrapper článku (h2 + intro + tabulka + zdrojová poznámka)
+├── CasovaOsa.tsx              ← wrapper článku (h2 + intro + legenda + Gantt tabulka)
 ├── CasovaOsa.module.scss      ← styly Gantt tabulky
 └── casovaOsaData.ts           ← typovaná data (Conflict[], Region barvy)
 ```
@@ -81,7 +81,6 @@ Struktura článku:
 2. Krátký intro odstavec (2–3 věty: smysl tabulky, geografický rozsah, jak ji číst)
 3. Legenda regionů (barva → název)
 4. Gantt tabulka
-5. Krátká zdrojová poznámka pod tabulkou („Zpracováno podle Wikipedie.")
 
 ### Návazná drobnost
 
@@ -139,7 +138,7 @@ export const TIMELINE_END = 1526
 - Vizuální flag pro účast českých žoldnéřů — přidá se v dalším kole
 - Multilingvní (EN/DE/IT) — propagace až bude obsah stabilní, podle stejného pattern jako Jošt
 - Filtrování / interaktivita (řazení, vyhledávání) — statická prezentace stačí pro v1
-- Citace per řádek — odkazují se na Wikipedii globálně
+- Žádné citace ani zdrojová poznámka v článku
 
 ## Akceptační kritéria
 
