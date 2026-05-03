@@ -285,4 +285,18 @@ export const PUBLICATIONS: Record<string, Publication> = {
     year: 2024,
     href: 'https://dspace.cuni.cz/bitstream/handle/20.500.11956/192344/130393934.pdf',
   },
+  PAYNE: {
+    name: 'Genealogie šlechtických rodů',
+    author: 'Miroslav Marek (payne.cz)',
+    city: '',
+    year: undefined,
+    href: 'https://www.payne.cz/',
+  },
+  HOLICKI_THESIS: {
+    name: 'Aleš a Petr Holičtí ze Šternberka v politice první poloviny 15. století',
+    author: 'rigorózní práce, Univerzita Karlova',
+    city: 'Praha',
+    year: undefined,
+    href: 'https://dspace.cuni.cz/handle/20.500.11956/96114',
+  },
 }
