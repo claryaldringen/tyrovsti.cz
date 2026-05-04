@@ -299,4 +299,11 @@ export const PUBLICATIONS: Record<string, Publication> = {
     year: undefined,
     href: 'https://dspace.cuni.cz/handle/20.500.11956/96114',
   },
+  CALLIMACHUS_VARNENSI: {
+    name: 'Historia de rege Vladislao seu clade Varnensi',
+    author: 'Filippo Buonaccorsi (Callimachus)',
+    city: 'Augsburg',
+    year: 1519,
+    href: 'https://archive.org/details/jbc.bj.uj.edu.pl.NDIGSTDR009201',
+  },
 }
