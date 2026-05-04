@@ -40,36 +40,39 @@ export const SaskaBratrovrazednaValka = ({ draft }: ArticleProps) => (
           význam: vévoda Vilém III. <b>už v&nbsp;lednu 1447</b> vyslal své
           rekrutéry – Bedřicha z&nbsp;Donína a&nbsp;Petra Holického ze&nbsp;
           Šternberka – do Čech, aby pro spor s&nbsp;bratrem najali husitské
-          žoldnéřské sbory. Pohled tisíců Čechů shromážděných v&nbsp;západních
-          Čechách a&nbsp;v&nbsp;Chebu však krátkodobě uklidnil situaci: kurfiřt
-          Friedrich II. uzavřel <b>1. července 1447 v&nbsp;Eislebenu</b>{' '}
-          spojenectví s&nbsp;hornosaskými biskupy, hrabaty a&nbsp;Erfurtem
-          výslovně namířené na <b>obranu Durynska před českými žoldnéři</b>{' '}
-          a&nbsp;wettinští bratři přistoupili na naumburské příměří. Vilém III.
-          v&nbsp;tu chvíli přesměroval své čerstvě najaté roty z&nbsp;Durynska
-          na západ – do služeb svého spojence kolínského arcibiskupa Dietricha
-          II. von Moers a&nbsp;právě probíhající{' '}
+          žoldnéřské sbory. Do poloviny května se v&nbsp;Durynsku shromáždilo
+          asi 2&nbsp;500 Čechů s&nbsp;více než 200 vozy a&nbsp;několik tisíc
+          dalších se sbíralo v&nbsp;západních Čechách a&nbsp;v&nbsp;Chebu –
+          právě tato vojenská síla přiměla kurfiřta Friedricha k&nbsp;jednání
+          a&nbsp;vyústila v&nbsp;<b>naumburské příměří 12. května 1447</b>.
+          Shodou okolností se v&nbsp;té době v&nbsp;Sasku zdržoval vyslanec
+          kolínského arcibiskupa Dietricha II. von Moers, který tam měl rovněž
+          najímat Čechy – pro{' '}
           <a href="/prehled-vojenskych-akci/soesterska-zasti">
             Soesterské záští
           </a>
-          . Tytéž oddíly tak v&nbsp;létě 1447 odsloužily slavné vestfálské
-          tažení proti Soestu, vrátily se v&nbsp;srpnu zpět ke Chebu – a&nbsp;po
-          obnovení sporu mezi wettinskými bratry zamířily znovu do Durynska.
-          Jména Čalty z&nbsp;Kamenné Hory, Vrše z&nbsp;Modřejovic, Krušiny ze
-          Švamberka, Boskoviců, Holických ze Šternberka, Ilburků, Kolovratů,
-          Janoviců i&nbsp;Donínů se v&nbsp;saských účetních knihách objevují dál
-          – některá nepřetržitě až do uzavření míru v&nbsp;roce 1451.
-          Z&nbsp;hlediska kontinuity českého žoldnéřství tak{' '}
-          <b>
-            Soesterská záští byla v&nbsp;jistém smyslu jen mezihrou uvnitř
-            probíhající saské bratrovražedné války
-          </b>{' '}
-          a&nbsp;obě války dotvářejí obraz jediné, vnitřně provázané kampaně let
-          1446–1451, v&nbsp;níž se kondotiéři pozdněhusitské generace
-          přeskupovali z&nbsp;jednoho bojiště na druhé.
+          . Když v&nbsp;Naumburku potkal Viléma s&nbsp;jeho čerstvě shromážděnou
+          polní obcí, vznikl plán{' '}
+          <b>převzít celý kontingent jako celek do služeb arcibiskupa</b>; Vilém
+          zůstal jeho vrchním velitelem a&nbsp;vrcholem kooperace bylo, že
+          kurfiřt Friedrich
+          <b> 1. července 1447 v&nbsp;Eislebenu</b> uzavřel spojenectví na
+          ochranu Durynska před návratem Čechů – v&nbsp;době, kdy už české
+          vojsko stálo ve Vestfálsku. Tytéž oddíly v&nbsp;létě 1447 odsloužily
+          slavné tažení proti Soestu, vrátily se v&nbsp;srpnu zpět ke Chebu –
+          a&nbsp;po obnovení sporu mezi wettinskými bratry zamířily znovu do
+          Durynska. Jména Čalty z&nbsp;Kamenné Hory, Vrše z&nbsp;Modřejovic,
+          Krušiny ze Švamberka, Boskoviců, Holických ze Šternberka, Ilburků,
+          Kolovratů, Janoviců i&nbsp;Donínů se v&nbsp;saských účetních knihách
+          objevují dál – některá nepřetržitě až do uzavření míru v&nbsp;roce
+          1451.
           <Qt
             publication={PUBLICATIONS.TRESP}
             href="https://digi20.digitale-sammlungen.de/en/fs1/object/display/bsb00045259_00138.html"
+          />
+          <Qt
+            publication={PUBLICATIONS.TRESP}
+            href="https://digi20.digitale-sammlungen.de/en/fs1/object/display/bsb00045259_00139.html"
           />
         </p>
       </Col>
@@ -150,53 +153,76 @@ export const SaskaBratrovrazednaValka = ({ draft }: ArticleProps) => (
           Čeští žoldnéři: nábor 1447, vestfálská mezihra a návrat do Durynska
         </h5>
         <p>
-          Bezprostřední předehrou saské bratrovražedné války byl tedy Vilémův
-          český nábor zimy a&nbsp;jara 1447. Hlavními verbíři se stali burkrabě{' '}
-          <b>Bedřich z&nbsp;Donína</b> (Friedrich von Dohna) a&nbsp;
-          <b>Petr Holický ze Šternberka</b> – titíž muži, kteří v&nbsp;témže
-          okamžiku najímali české kondotiéry pro arcibiskupa Dietricha II. von
-          Moers do Vestfálska. Obě role plnili současně, a&nbsp;v&nbsp;Čechách
-          se proto na jaře 1447 sešla <b>jediná masivní polní obec</b>, jež byla
-          z&nbsp;Vilémova pohledu úplně zaměnitelně použitelná na obě bojiště –
-          proti vlastnímu bratru i&nbsp;ve Vestfálsku.
+          Vilémův český nábor začal již v&nbsp;<b>lednu 1447</b> a&nbsp;
+          směřoval výhradně do připravované Saské bratrovražedné války proti
+          vlastnímu bratru kurfiřtovi Friedrichovi II. Hlavními verbíři byli
+          burkrabě <b>Bedřich z&nbsp;Donína</b> (Friedrich von Dohna) a&nbsp;
+          <b>Petr Holický ze&nbsp;Šternberka</b>, jednající v&nbsp;Čechách
+          jménem Viléma III. Do <b>poloviny května 1447</b> přišlo do Durynska
+          asi <b>2&nbsp;500 mužů a&nbsp;přes 200 vozů</b>, a&nbsp;několik tisíc
+          dalších se ještě sbíralo v&nbsp;západních Čechách a&nbsp;v&nbsp;Chebu
+          – celkem mělo Vilémovo české vojsko dosáhnout zhruba šesti tisíc
+          bojovníků. Právě tato vojenská síla přiměla kurfiřta Friedricha
+          k&nbsp;jednání.
+          <Qt
+            publication={PUBLICATIONS.TRESP}
+            href="https://digi20.digitale-sammlungen.de/en/fs1/object/display/bsb00045259_00138.html"
+          />
+        </p>
+        <p>
+          Naumburská jednání koncem dubna 1447 vyústila v&nbsp;překvapivý{' '}
+          <b>waffenstillstand z&nbsp;12. května 1447</b>, který náhle zbavil
+          Vilémovo čerstvě shromážděné žoldnéřské vojsko bezprostředního úkolu.
+          V&nbsp;té době se v&nbsp;Sasku zdržoval vyslanec kolínského
+          arcibiskupa Dietricha II. von Moers, <b>Georg Spiegel</b>, kterého
+          arcibiskup vyslal s&nbsp;tím, aby s&nbsp;pomocí saského kurfiřta
+          najímal Čechy pro <i>Soester Fehde</i>. Když Spiegel následoval
+          kurfiřta Friedricha do Naumburku, dostal se zde přímo ke styku
+          s&nbsp;Vilémem a&nbsp;jeho čerstvě shromážděnou českou polní obcí.
+          Vznikl plán, jenž zapojil všechny tři strany: arcibiskup{' '}
+          <b>převezme celý Vilémův český kontingent jako celek</b> do svých
+          služeb, Vilém zůstane jeho vrchním velitelem a&nbsp;Soldunternehmerem,
+          kurfiřt celé operaci napomůže nepřímo. Z&nbsp;Naumburku odjeli Spiegel
+          a&nbsp;Vilémův hofmistr <b>Apel Vitzthum starší ze&nbsp;Roßly</b>{' '}
+          rovnou do Kolína vyjednat smluvní podmínky.
           <Qt
             publication={PUBLICATIONS.TRESP}
             href="https://digi20.digitale-sammlungen.de/en/fs1/object/display/bsb00045259_00139.html"
           />
-        </p>
-        <p>
-          Když koncem dubna 1447 dosáhl Vilém v&nbsp;Naumburku
-          s&nbsp;Friedrichem příměří v&nbsp;rodinném sporu, jeho české vojsko
-          bylo náhle volné – a&nbsp;právě to umožnilo přesměrovat jádro polní
-          obce na západ k&nbsp;arcibiskupovi Dietrichovi. Z&nbsp;asi šesti tisíc
-          Čechů, kteří ke konci května 1447 pochodovali z&nbsp;Výmaru do
-          Vestfálska, byla podstatná část
-          <i>původně</i> najata pro saskou bratrovražednou válku. Naumburské
-          příměří se však ukázalo jen jako oddech, ne jako mír; již na podzim
-          1447 a&nbsp;začátkem roku 1448 se Friedrich a&nbsp;Vilém znovu
-          chystali na otevřený konflikt – a&nbsp;Vilém se znovu obrátil
-          k&nbsp;témuž rezervoáru českých velitelů.
           <Qt
             publication={PUBLICATIONS.TRESP}
-            href="https://digi20.digitale-sammlungen.de/en/fs1/object/display/bsb00045259_00154.html"
+            href="https://digi20.digitale-sammlungen.de/en/fs1/object/display/bsb00045259_00141.html"
           />
         </p>
         <p>
-          Paradoxně právě tlak vrátivších se Čechů přiměl protistranu
-          k&nbsp;mimořádné obranné opatření. Dne <b>1. července 1447</b> uzavřel
-          kurfiřt Friedrich II. v&nbsp;<b>Eislebenu</b> nové spojenectví
-          s&nbsp;hornosaskými biskupy z&nbsp;Naumburku a&nbsp;Merseburku,
-          hrabaty z&nbsp;Mansfeldu a&nbsp;s&nbsp;městem
-          <b>Erfurt</b>. <i>Eislebenský pakt</i> byl pozoruhodný tím, že nebyl
-          namířen primárně proti vlastnímu bratru, nýbrž{' '}
-          <b>
-            výslovně proti návratu českých žoldnéřů a&nbsp;na obranu durynských
-            a&nbsp;sasko-anhaltských území
-          </b>{' '}
-          před českou polní obcí. Zatímco Friedrich tedy v&nbsp;Eislebenu
-          stmeloval defenzivní svaz proti Čechům, jeho bratr Vilém je dál
-          najímal a&nbsp;chystal nasadit – nejprve ve Vestfálsku, poté
-          v&nbsp;předpokládané obnovené válce o&nbsp;Durynsko.
+          Pro samotné české velitele to znamenalo náhlou a&nbsp;
+          <b>nečekanou změnu úkolu</b>: očekávali službu v&nbsp;dosahu domova
+          v&nbsp;Durynsku či Osterlandu, místo toho měli táhnout přes celou Říši
+          až do Vestfálska. Vilémův příslib arcibiskupovi zněl na 12&nbsp; 000
+          mužů, ale samotných Čechů – i&nbsp;s&nbsp;těmi, kteří byli teprve
+          očekáváni – bylo jen něco málo přes 6&nbsp;000; vévoda proto musel
+          dorekrutovat zbytek z&nbsp;durynského zázemí. Soldforderang
+          arcibiskupovi byl 1&nbsp;rýnský zlatý týdně za hlavu, zatímco vlastním
+          jezdcům platil Vilém jen 20 grošů a&nbsp;trabantům 10 – marže
+          z&nbsp;celé operace tak mohla činit 4 až 14 grošů týdně na muže.
+          <Qt
+            publication={PUBLICATIONS.TRESP}
+            href="https://digi20.digitale-sammlungen.de/en/fs1/object/display/bsb00045259_00142.html"
+          />
+        </p>
+        <p>
+          Dne <b>1. července 1447</b>, kdy už české žoldnéřské vojsko dávno
+          stálo ve Vestfálsku, uzavřel kurfiřt Friedrich II. v&nbsp;
+          <b>Eislebenu</b> spojenectví s&nbsp;hornosaskými biskupy
+          z&nbsp;Naumburku a&nbsp;Merseburku, hrabaty z&nbsp;Mansfeldu
+          a&nbsp;s&nbsp;městem <b>Erfurt</b>. <i>Eislebenský pakt</i> tentokrát
+          nesměřoval proti bratru a&nbsp;jeho rádcům, ale výslovně k&nbsp;
+          <b>ochraně Durynska před obávaným návratem českých žoldnéřů</b>{' '}
+          a&nbsp;jím působenými škodami v&nbsp;zemi. Kurfiřt zde tedy vystupoval
+          jako ochránce Durynska v&nbsp;zastoupení svého bratra, jenž měl
+          mezitím dbát na to, aby cizí žoldnéřské vojsko zůstalo mimo zem. Tato
+          situace je jasným dokladem cílené spolupráce wettinských bratří na
+          uskutečnění velkého soldgeschäftu s&nbsp;arcibiskupem kolínským.
           <Qt
             publication={PUBLICATIONS.TRESP}
             href="https://digi20.digitale-sammlungen.de/en/fs1/object/display/bsb00045259_00143.html"
