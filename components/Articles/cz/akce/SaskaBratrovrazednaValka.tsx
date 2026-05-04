@@ -70,10 +70,6 @@ export const SaskaBratrovrazednaValka = ({ draft }: ArticleProps) => (
             publication={PUBLICATIONS.TRESP}
             href="https://digi20.digitale-sammlungen.de/en/fs1/object/display/bsb00045259_00138.html"
           />
-          <Qt
-            publication={PUBLICATIONS.TRESP}
-            href="https://digi20.digitale-sammlungen.de/en/fs1/object/display/bsb00045259_00139.html"
-          />
         </p>
       </Col>
     </Row>
@@ -447,16 +443,13 @@ export const SaskaBratrovrazednaValka = ({ draft }: ArticleProps) => (
           desetiletích sehrají významnou roli na obou stranách české politiky.
           Mezi nimi je z&nbsp;hlediska místních dějin západočeského pomezí
           pozoruhodný <b>Jošt z&nbsp;Einsiedlu</b>, příslušník drobné
-          krušnohorské šlechty, který měl podle Macka v&nbsp;tomto období
-          sloužit v&nbsp;družině Petra Holického. Účast Jošta a&nbsp;jemu
+          krušnohorské šlechty, který v&nbsp;tomto období sloužil v&nbsp;družině
+          Petra Holického.
+          <Qt publication={PUBLICATIONS.MACEK} /> Účast Jošta a&nbsp;jemu
           podobných na geranském tažení zapadá do širšího vzorce:
           <i> krušnohorská a&nbsp;chebská šlechta</i> systematicky využívala
           saské bratrovražedné války jako přirozeného rozšíření svého
           politického a&nbsp;hospodářského zázemí na říšskou stranu hranice.
-          <Qt
-            publication={PUBLICATIONS.MACEK}
-            href="https://cs.wikipedia.org/wiki/Ji%C5%99%C3%AD_z_Pod%C4%9Bbrad"
-          />
         </p>
         <p>
           Po dobytí Gery operoval český sbor i&nbsp;Vilémova polní obec ještě

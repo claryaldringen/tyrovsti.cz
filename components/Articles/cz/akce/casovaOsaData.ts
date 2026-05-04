@@ -221,13 +221,6 @@ export const CONFLICTS: Conflict[] = [
     detailHref: '/prehled-vojenskych-akci/trinactileta-valka',
   },
   {
-    id: 'serotinska-valka',
-    name: 'Šerotínská (Šternberská) válka',
-    start: 1454,
-    end: 1467,
-    regions: ['cechy'],
-  },
-  {
     id: 'oblehani-belehradu-1456',
     name: 'Obléhání Bělehradu',
     start: 1456,
@@ -367,14 +360,6 @@ export const CONFLICTS: Conflict[] = [
     end: 1488,
     regions: ['rakousy', 'uhry'],
     detailHref: '/prehled-vojenskych-akci/cerne-vojsko#habsburkove',
-  },
-  {
-    id: 'bitva-na-chlebovem-poli',
-    name: 'Bitva na Chlebovém poli (Câmpul Pâinii)',
-    start: 1479,
-    end: 1479,
-    regions: ['osmani', 'uhry'],
-    detailHref: '/prehled-vojenskych-akci/cerne-vojsko#chlebove-pole',
   },
   {
     id: 'tatarsky-vpad-1482',
@@ -812,7 +797,8 @@ export const CONFLICTS: Conflict[] = [
     start: 1475,
     end: 1476,
     regions: ['cechy', 'hrr'],
-    detailHref: '/prehled-vojenskych-akci/zasti-bronska-kocovskeho-s-wittelsbachy-1475-1476',
+    detailHref:
+      '/prehled-vojenskych-akci/zasti-bronska-kocovskeho-s-wittelsbachy-1475-1476',
   },
   {
     id: 'rezenska-zasti-zaunruda-gutstejna-svamberku-1475-1479',
@@ -871,14 +857,6 @@ export const CONFLICTS: Conflict[] = [
     regions: ['cechy'],
   },
   {
-    id: 'matyasovo-tazeni-bosna',
-    name: 'Matyášovo tažení do Bosny a dobytí Jajce',
-    start: 1463,
-    end: 1463,
-    regions: ['uhry', 'osmani'],
-    detailHref: '/prehled-vojenskych-akci/cerne-vojsko#bosna',
-  },
-  {
     id: 'bitva-u-baia',
     name: 'Moldavské tažení a bitva u Baia',
     start: 1467,
@@ -887,28 +865,12 @@ export const CONFLICTS: Conflict[] = [
     detailHref: '/prehled-vojenskych-akci/cerne-vojsko#moldava',
   },
   {
-    id: 'bitva-na-rece-valove',
-    name: 'Bitva na řece Valové',
-    start: 1470,
-    end: 1470,
-    regions: ['cechy', 'uhry'],
-    detailHref: '/prehled-vojenskych-akci/cerne-vojsko#valova',
-  },
-  {
     id: 'vpad-kazimira-1471',
     name: 'Vpád Kazimíra Jagellonského do Uher',
     start: 1471,
     end: 1471,
     regions: ['polsko-litva', 'uhry'],
     detailHref: '/prehled-vojenskych-akci/cerne-vojsko#kazimir',
-  },
-  {
-    id: 'bitva-u-thomaswaldu',
-    name: 'Bitva u Thomaswaldu (Slezsko)',
-    start: 1488,
-    end: 1488,
-    regions: ['cechy', 'uhry'],
-    detailHref: '/prehled-vojenskych-akci/cerne-vojsko#thomaswald',
   },
 ]
 
@@ -1067,29 +1029,12 @@ export const CZECH_MERCENARIES: Record<string, CzechMercenaryEntry> = {
       'https://drive.google.com/file/d/1PkndLKuxe_e_ZmkPsNKzePwv8c0ROk1_/view',
     ],
   },
-  'matyasovo-tazeni-bosna': {
-    confirmed: true,
-    sources: [
-      'https://en.wikipedia.org/wiki/Black_Army_of_Hungary',
-      'https://en.wikipedia.org/wiki/Bosnian_Royal_War',
-    ],
-  },
   'bitva-u-baia': {
     confirmed: true,
     sources: [
       'https://en.wikipedia.org/wiki/Battle_of_Baia',
       'https://en.wikipedia.org/wiki/Black_Army_of_Hungary',
     ],
-  },
-  'bitva-na-rece-valove': {
-    confirmed: true,
-    sources: [
-      'https://cs.wikipedia.org/wiki/Bitva_na_%C5%99%C3%AD%C4%8Dce_Valov%C3%A9',
-    ],
-  },
-  'bitva-u-thomaswaldu': {
-    confirmed: true,
-    sources: ['https://en.wikipedia.org/wiki/Black_Army_of_Hungary'],
   },
 }
 
@@ -1204,10 +1149,6 @@ export const SOURCES: Record<string, string[]> = {
     'https://de.wikipedia.org/wiki/Dreizehnj%C3%A4hriger_Krieg',
     "https://en.wikipedia.org/wiki/Thirteen_Years'_War_(1454%E2%80%931466)",
   ],
-  'serotinska-valka': [
-    'https://cs.wikipedia.org/wiki/Zde%C5%88ek_Konopi%C5%A1tsk%C3%BD_ze_%C5%A0ternberka',
-    'https://cs.wikipedia.org/wiki/Zelenohorsk%C3%A1_jednota',
-  ],
   'oblehani-belehradu-1456': [
     'https://hu.wikipedia.org/wiki/N%C3%A1ndorfeh%C3%A9rv%C3%A1ri_diadal',
     'https://en.wikipedia.org/wiki/Siege_of_Belgrade_(1456)',
@@ -1288,11 +1229,6 @@ export const SOURCES: Record<string, string[]> = {
     'https://de.wikipedia.org/wiki/%C3%96sterreichisch-Ungarischer_Krieg_(1477%E2%80%931488)',
     'https://hu.wikipedia.org/wiki/Osztr%C3%A1k%E2%80%93magyar_h%C3%A1bor%C3%BA_(1477%E2%80%931488)',
     'https://en.wikipedia.org/wiki/Austrian%E2%80%93Hungarian_War_(1477%E2%80%931488)',
-  ],
-  'bitva-na-chlebovem-poli': [
-    'https://en.wikipedia.org/wiki/Battle_of_Breadfield',
-    'https://hu.wikipedia.org/wiki/Keny%C3%A9rmezei_csata',
-    'https://de.wikipedia.org/wiki/Schlacht_auf_dem_Brodfeld',
   ],
   'tatarsky-vpad-1482': [
     'https://pl.wikipedia.org/wiki/Najazd_tatarski_na_Kij%C3%B3w_(1482)',

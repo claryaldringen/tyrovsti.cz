@@ -139,10 +139,9 @@ export const MohucskaZasti = ({ draft }: ArticleProps) => (
           žoldnéřských zdrojů. Nepřímo tak proti Adolfovi z Nassavy a říšské
           straně bojovali kondotiéři jako Dobrohost z Ronšperka, Racek z Janovic
           a Mikuláš Kaplíř ze Sulevic, jejichž oddíly figurovaly v jihoněmeckém
-          prostoru a vázaly část říšských sil. Tresp dokládá, že právě v tomto
-          období dosáhly české kontingenty u Ludvíka IX. svého početního maxima
-          — odhadem 5 000–7 000 mužů ve všech wittelsbašských službách
-          dohromady.
+          prostoru a vázaly část říšských sil. Právě v tomto období dosáhly
+          české kontingenty u Ludvíka IX. svého početního maxima — odhadem 5
+          000–7 000 mužů ve všech wittelsbašských službách dohromady.
           <Qt
             publication={PUBLICATIONS.TRESP}
             href="https://digi20.digitale-sammlungen.de/de/fs1/object/display/bsb00045259_00161.html"

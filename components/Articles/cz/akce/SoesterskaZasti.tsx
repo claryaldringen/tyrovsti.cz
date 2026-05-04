@@ -681,13 +681,13 @@ export const SoesterskaZasti = ({ draft }: ArticleProps) => (
           aniž by Čechy přímo napadali – stavěli žoldnéřským oddílům do cesty,
           kdykoli se odchýlili z&nbsp;nejkratší trasy, aby plenili nebo
           odpočívali. Hladovějící a&nbsp;ztrátami oslabené vojsko dorazilo do{' '}
-          <b>Chebu</b> kolem <b>3.–4. srpna 1447</b>
-          a&nbsp;čekalo zde na vyslance vévody Viléma. Vilém sám započal
-          vyplácet poslední splátky <b>4. srpna 1447 v&nbsp;Coburgu</b>; jeho
-          durynští úředníci dorazili do Chebu však až <b>9. srpna</b> –
-          v&nbsp;době, kdy už byli Kolovrat a&nbsp;Calta se svými lidmi pryč.
-          Úředníci v&nbsp;Chebu vyplatili část škod a&nbsp;na zbytek vystavili
-          dlužní listy, čímž otevřeli mnohaletý spor o&nbsp;konečné vyrovnání.
+          <b>Chebu</b> kolem <b>3.–4. srpna 1447</b> a&nbsp;čekalo zde na
+          vyslance vévody Viléma. Vilém sám započal vyplácet poslední splátky{' '}
+          <b>4. srpna 1447 v&nbsp;Coburgu</b>; jeho durynští úředníci dorazili
+          do Chebu však až <b>9. srpna</b> – v&nbsp;době, kdy už byli Kolovrat
+          a&nbsp;Calta se svými lidmi pryč. Úředníci v&nbsp;Chebu vyplatili část
+          škod a&nbsp;na zbytek vystavili dlužní listy, čímž otevřeli mnohaletý
+          spor o&nbsp;konečné vyrovnání.
           <Qt
             publication={PUBLICATIONS.TRESP}
             href="https://digi20.digitale-sammlungen.de/en/fs1/object/display/bsb00045259_00151.html"

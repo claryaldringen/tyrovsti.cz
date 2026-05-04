@@ -45,6 +45,13 @@ export const PUBLICATIONS: Record<string, Publication> = {
     city: 'Domažlice',
     year: 2003,
   },
+  SLADKOVSKA: {
+    name: 'Česká účast ve válce o dědictví landshutské roku 1504',
+    author: 'Kamila Sladkovská',
+    city: { cs: 'Tábor', en: 'Tábor', de: 'Tabor', it: 'Tábor' },
+    year: 2009,
+    href: 'https://rukovet.cms.flu.cas.cz/static/Odkazy_upload/HT_16_2009.pdf',
+  },
   SEDLACEK1: {
     name: 'Zbytky register králů římských a českých z let 1361-1480',
     author: 'August Sedláček',

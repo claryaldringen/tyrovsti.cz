@@ -165,15 +165,15 @@ export const TrinactiletaValka = ({ draft }: ArticleProps) => (
           V&nbsp;letech 1466–1470 figuroval jako řádový vyjednavač
           s&nbsp;polskou stranou při uzavření druhého toruňského míru a&nbsp;byl
           odměněn správou chełmiského území. Podle Jana Długosze byl{' '}
-          <b>7. ledna 1470</b>
-          v&nbsp;Chełmnu otráven jedním z&nbsp;tamních měšťanů. Vedle něj
-          působily v&nbsp;řádových službách další české a&nbsp;slezské
-          žoldnéřské oddíly, mezi nimi i&nbsp;jezdci žaganského vévody Rudolfa.
-          Po skončení války se část Červenkových mužů vrátila do Čech, část
-          přešla do služeb uherského krále Matyáše Korvína nebo zůstala
-          v&nbsp;polských službách. České žoldnéřské oddíly v&nbsp;průběhu války
-          výrazně přispěly k&nbsp;přenosu husitských vojenských zkušeností,
-          zejména taktiky vozové hradby, do polského a&nbsp;baltského prostoru.
+          <b>7. ledna 1470</b> v&nbsp;Chełmnu otráven jedním z&nbsp;tamních
+          měšťanů. Vedle něj působily v&nbsp;řádových službách další české
+          a&nbsp;slezské žoldnéřské oddíly, mezi nimi i&nbsp;jezdci žaganského
+          vévody Rudolfa. Po skončení války se část Červenkových mužů vrátila do
+          Čech, část přešla do služeb uherského krále Matyáše Korvína nebo
+          zůstala v&nbsp;polských službách. České žoldnéřské oddíly
+          v&nbsp;průběhu války výrazně přispěly k&nbsp;přenosu husitských
+          vojenských zkušeností, zejména taktiky vozové hradby, do polského
+          a&nbsp;baltského prostoru.
           <Qt
             publication={PUBLICATIONS.WIKI}
             href="https://en.wikipedia.org/wiki/Battle_of_%C5%9Awiecino"

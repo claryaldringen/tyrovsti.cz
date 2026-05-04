@@ -108,18 +108,15 @@ export const JobstDiEinsiedl = ({ draft }: ArticleProps) => (
           Il successivo importante coinvolgimento di Jobst avvenne nel 1450,
           quando Giorgio di Poděbrady, dopo aver sconfitto l&apos;Unione di
           Strakonice nella battaglia di Mýto il <b>4 giugno 1450</b>
-          <Qt
-            publication={PUBLICATIONS.MACEK}
-            href="https://www.vhu.cz/exhibit/macek-josef-jiri-z-podebrad/"
-          />{' '}
-          condusse la sua campagna contro i loro alleati, in particolare il duca
-          Federico di Sassonia, con la conseguente conquista della città di
-          Gera. Il giorno seguente, il <b>23 ottobre 1450</b> (alcune fonti
-          indicano il <b>16 ottobre 1450</b>), fu conclusa una tregua. Jobst von
-          Einsiedl, che partecipò a questa campagna nel seguito del signore Petr
-          Holický di Šternberk, scrisse la sua lettera il <b>25 ottobre 1450</b>{' '}
-          dal campo presso Salza, vicino a Plavno, la prima lettera conservata
-          alla città di Cheb.
+          <Qt publication={PUBLICATIONS.MACEK} /> condusse la sua campagna
+          contro i loro alleati, in particolare il duca Federico di Sassonia,
+          con la conseguente conquista della città di Gera. Il giorno seguente,
+          il <b>23 ottobre 1450</b> (alcune fonti indicano il{' '}
+          <b>16 ottobre 1450</b>), fu conclusa una tregua. Jobst von Einsiedl,
+          che partecipò a questa campagna nel seguito del signore Petr Holický
+          di Šternberk, scrisse la sua lettera il <b>25 ottobre 1450</b> dal
+          campo presso Salza, vicino a Plavno, la prima lettera conservata alla
+          città di Cheb.
           <Qt
             publication={PUBLICATIONS.KURSCHNER}
             href="https://sources.cms.flu.cas.cz/src/index.php?s=v&cat=50&bookid=488&page=5"

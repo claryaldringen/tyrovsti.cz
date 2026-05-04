@@ -112,8 +112,8 @@ export const CasovaOsa = ({
                 : 'Zobrazit jen konflikty s doloženou účastí českých žoldnéřů'
             }
           >
-            <span className={styles.mercToggleIcon}>⚔</span>
-            Jen s českými žoldnéři
+            <span className={styles.mercToggleIcon}>⚔</span> Jen s českými
+            žoldnéři
           </button>
         </div>
 

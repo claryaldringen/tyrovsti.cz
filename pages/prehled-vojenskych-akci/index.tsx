@@ -71,14 +71,11 @@ const ARTICLE_ENTRIES: ArticleEntry[] = (
       // Černá armáda nemá vlastní bar v ose; zobrazuje se,
       // je-li viditelný některý z konfliktů, jichž se účastnila.
       conflictIds: [
-        'matyasovo-tazeni-bosna',
         'bitva-u-baia',
         'cesko-uherska-valka',
-        'bitva-na-rece-valove',
         'vpad-kazimira-1471',
         'rakousko-uherska-valka-matyase',
-        'bitva-na-chlebovem-poli',
-        'bitva-u-thomaswaldu',
+        'osmansko-uherska-valka-1463-1483',
         'cerne-vojsko-vzpoura',
       ],
       Component: CernaArmada,

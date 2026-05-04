@@ -103,18 +103,14 @@ export const JobstOfEinsiedl = ({ draft }: ArticleProps) => (
           Jobst&apos;s next significant involvement occurred in 1450 when George
           of Poděbrady, after defeating the Strakonice Union at the battle of
           Mýto on <b>June 4, 1450</b>
-          <Qt
-            publication={PUBLICATIONS.MACEK}
-            href="https://www.vhu.cz/exhibit/macek-josef-jiri-z-podebrad/"
-          />{' '}
-          led his campaign against their allies, especially Duke Friedrich of
-          Saxony, resulting in the capture of the city of Gera. The following
-          day, <b>October 23, 1450</b> (some sources state{' '}
-          <b>October 16, 1450</b>), a truce was concluded. Jobst of Einsiedl,
-          who participated in this campaign in the retinue of Lord Petr Holický
-          of Šternberk, wrote his letter on <b>October 25, 1450</b> from the
-          field camp near Salza, close to Plavno, the first preserved letter to
-          the city of Cheb.
+          <Qt publication={PUBLICATIONS.MACEK} /> led his campaign against their
+          allies, especially Duke Friedrich of Saxony, resulting in the capture
+          of the city of Gera. The following day, <b>October 23, 1450</b> (some
+          sources state <b>October 16, 1450</b>), a truce was concluded. Jobst
+          of Einsiedl, who participated in this campaign in the retinue of Lord
+          Petr Holický of Šternberk, wrote his letter on <b>October 25, 1450</b>{' '}
+          from the field camp near Salza, close to Plavno, the first preserved
+          letter to the city of Cheb.
           <Qt
             publication={PUBLICATIONS.KURSCHNER}
             href="https://sources.cms.flu.cas.cz/src/index.php?s=v&cat=50&bookid=488&page=5"

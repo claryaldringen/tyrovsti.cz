@@ -89,8 +89,8 @@ export const OblehaniBelehradu1456 = ({ draft }: ArticleProps) => (
         <p>
           <b>21. července</b> nařídil Mehmed II. po západu slunce generální
           útok, při němž se janičáři probili vnějším valem až k vnitřní
-          citadele. V pouličních bojích se vyznamenal podle Bonfiniho a
-          Thuróczyho uherský pěšák <b>Titus Dugovič</b> (Dugovics Titusz), který
+          citadele. V pouličních bojích se podle Bonfiniho a Thuróczyho
+          vyznamenal uherský pěšák <b>Titus Dugovič</b> (Dugovics Titusz), který
           se v boji o hlavní baštu vrhl z hradeb dolů s osmanským praporečníkem,
           jenž chtěl vztyčit sultánův prapor na věži. Tento čin v ústní tradici
           uherské šlechty zlomil moment osmanského útoku.

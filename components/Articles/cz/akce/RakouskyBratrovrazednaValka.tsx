@@ -137,14 +137,14 @@ export const RakouskyBratrovrazednaValka = ({ draft }: ArticleProps) => (
           Na druhé straně sloužily v armádách Albrechta VI. a jeho
           wittelsbašských spojenců významné kontingenty českých žoldnéřů, mezi
           jejichž veliteli vynikali Dobrohost z Ronšperka, Racek z Janovic a na
-          Rýzmberku či Mikuláš Kaplíř ze Sulevic na Vimperku. Tresp dokládá, že
-          Kaplíř v té době velel u vévody Ludvíka IX. samostatnému kontingentu
-          okolo 900 mužů. Konflikt tak opakovaně stavěl Čechy proti Čechům —
-          typický rys říšských válek tohoto období, kdy česká žoldnéřská
-          kondotta dodávala muže prakticky každé větší straně. Pro panování
-          Jiřího z Poděbrad bylo paradoxně přínosné, že wittelsbašská strana
-          měla přístup k týmž žoldnéřským zdrojům jako on sám — vyjednávací páka
-          spočívala v možnosti tyto kontingenty kdykoliv zablokovat.
+          Rýzmberku či Mikuláš Kaplíř ze Sulevic na Vimperku. Kaplíř v té době
+          velel u vévody Ludvíka IX. samostatnému kontingentu okolo 900 mužů.
+          Konflikt tak opakovaně stavěl Čechy proti Čechům — typický rys
+          říšských válek tohoto období, kdy česká žoldnéřská kondotta dodávala
+          muže prakticky každé větší straně. Pro panování Jiřího z Poděbrad bylo
+          paradoxně přínosné, že wittelsbašská strana měla přístup k týmž
+          žoldnéřským zdrojům jako on sám — vyjednávací páka spočívala v
+          možnosti tyto kontingenty kdykoliv zablokovat.
           <Qt
             publication={PUBLICATIONS.TRESP}
             href="https://digi20.digitale-sammlungen.de/de/fs1/object/display/bsb00045259_00164.html"

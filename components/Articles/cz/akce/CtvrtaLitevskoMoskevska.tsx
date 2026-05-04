@@ -76,14 +76,14 @@ export const CtvrtaLitevskoMoskevska = ({ draft }: ArticleProps) => (
           Polsko-litevské vojsko, které se proti ní vypravilo, vedl velký
           litevský hejtman <b>Konstantin Ivanovič Ostrožský</b> — sám bývalý
           moskevský zajatec po porážce u Vedrošy roku 1500, jenž z Moskvy uprchl
-          roku 1507. Síla obou armád u Orši je předmětem sporů — starší prameny
-          (Herberstein) uváděly výrazně přehnaná čísla 80 000 Moskvanů, moderní
-          odhady (Aleksei Lobin, Vitalij Penskoj) udávají přibližně 12 000 až 16
-          000 mužů na polsko-litevské straně proti zhruba 12 000 až 35 000
-          Moskvanům. Polsko-litevská armáda zahrnovala kromě litevských
-          jezdeckých oddílů a polské okřídlené jízdy také tisíce profesionálních
-          pěších žoldnéřů z Polska, ze Slezska a především z Čech a Moravy s
-          píkami a hákovnicemi, podporovaných polním dělostřelectvem.
+          roku 1507. Síla obou armád u Orši je předmětem sporů — Herberstein
+          uváděl výrazně přehnaná čísla 80 000 Moskvanů, moderní odhady udávají
+          přibližně 12 000 až 16 000 mužů na polsko-litevské straně proti zhruba
+          12 000 až 35 000 Moskvanům. Polsko-litevská armáda zahrnovala kromě
+          litevských jezdeckých oddílů a polské okřídlené jízdy také tisíce
+          profesionálních pěších žoldnéřů z Polska, ze Slezska a především z
+          Čech a Moravy s píkami a hákovnicemi, podporovaných polním
+          dělostřelectvem.
           <Qt
             publication={PUBLICATIONS.WIKI}
             href="https://en.wikipedia.org/wiki/Battle_of_Orsha"
@@ -147,17 +147,15 @@ export const CtvrtaLitevskoMoskevska = ({ draft }: ArticleProps) => (
         <h5>Účast českých žoldnéřů</h5>
         <p>
           Čeští a moravští žoldnéři tvořili klíčovou součást Ostrožského pěchoty
-          u Orši. Polský vojenský historik Marek Plewczyński v práci{' '}
-          <i>Wojny Jagiellonów z wschodnimi i południowymi sąsiadami</i> (2002)
-          na základě výplatních listin korunního pokladu (
-          <i>rachunki królewskie</i>) prokazuje, že z přibližně tří tisíc
-          nájemných pěšáků pod Świerczowského velením tvořili Češi a Moraváci
-          nejméně padesát procent. Jejich výzbroj — dlouhá píka, hákovnice,
-          krátká palná zbraň — a taktika kombinující palbu z polních opevnění s
-          protiútokem píkařů byly přímým pokračováním husitských válečných
-          tradic. Z dochovaných účetních zápisů jsou doloženy výplaty českým
-          rotmistrům a jejich oddílům, najímaným prostřednictvím slezských
-          (Vratislav, Opavsko) a krakovských verbířů.
+          u Orši. Z přibližně tří tisíc nájemných pěšáků pod Świerczowského
+          velením tvořili Češi a Moraváci nejméně padesát procent — dokládají to
+          výplatní listiny korunního pokladu (<i>rachunki królewskie</i>).
+          Jejich výzbroj — dlouhá píka, hákovnice, krátká palná zbraň — a
+          taktika kombinující palbu z polních opevnění s protiútokem píkařů byly
+          přímým pokračováním husitských válečných tradic. Z dochovaných
+          účetních zápisů jsou doloženy výplaty českým rotmistrům a jejich
+          oddílům, najímaným prostřednictvím slezských (Vratislav, Opavsko) a
+          krakovských verbířů.
           <Qt
             publication={PUBLICATIONS.WIKI}
             href="https://en.wikipedia.org/wiki/Battle_of_Orsha"

@@ -106,11 +106,10 @@ export const KaplirovoZastiPasov = ({ draft }: ArticleProps) => (
           podle pozdější tradice biskupem dokonce vojensky poražen. Bavorští
           spojenci pasovského biskupa pak <b>18. září 1468</b> dobyli a vypálili
           dosud neopevněné město Vimperk. Pasovský biskup zopakoval roku 1468
-          tažení proti Jiřímu z Poděbrad — Tresp dokládá, že Oldřich III.
-          poskytl vojenský kontingent obojím protihusitským křížovým výpravám
-          (1458/59 i 1468). Vimperk přesto zůstal trvalou hrozbou pro Zlatou
-          stezku a pro pasovský solný obchod ještě po několik dalších
-          desetiletí.
+          tažení proti Jiřímu z Poděbrad — Oldřich III. poskytl vojenský
+          kontingent obojím protihusitským křížovým výpravám (1458/59 i 1468).
+          Vimperk přesto zůstal trvalou hrozbou pro Zlatou stezku a pro pasovský
+          solný obchod ještě po několik dalších desetiletí.
           <Qt
             publication={PUBLICATIONS.JANSKY}
             href="https://drive.google.com/file/d/1H5ukNtdLcbdo6u_3axUC2f5bBr2GV5en/view"
@@ -138,10 +137,10 @@ export const KaplirovoZastiPasov = ({ draft }: ArticleProps) => (
           Rýzmberka, kteří měli vlastní kondotty schopné rychlé mobilizace.
           Kaplířova vimperská základna sloužila jako sběrné místo žoldnéřů,
           kteří mezi tažením do Bavor a Frank přečkávali kratší období na české
-          straně hranice. Tresp poznamenává, že právě v letech 1458–1462 dosáhl
-          proces přesunu české žoldnéřské kondotty z místních (pohraničních)
-          operací do velkých říšských konfliktů svého vrcholu — Kaplířovo záští
-          je toho jedním z klasických příkladů.
+          straně hranice. Právě v letech 1458–1462 dosáhl proces přesunu české
+          žoldnéřské kondotty z místních (pohraničních) operací do velkých
+          říšských konfliktů svého vrcholu — Kaplířovo záští je toho jedním z
+          klasických příkladů.
           <Qt
             publication={PUBLICATIONS.TRESP}
             href="https://digi20.digitale-sammlungen.de/de/fs1/object/display/bsb00045259_00164.html"
