@@ -21,7 +21,7 @@ export const LandshutskaDedickaValka = ({ draft }: ArticleProps) => (
           <b> 30. července 1505</b>. Pro české vojenství představuje ojedinělý
           moment: do bojů se na obou stranách zapojily kontingenty čítající
           dohromady 10&nbsp;000 až 12&nbsp;000 českých žoldnéřů
-          a&nbsp;rozhodující bitva u&nbsp;Schönberga (Wenzenbachu){' '}
+          a&nbsp;rozhodující bitva u&nbsp;Schönbergu (Wenzenbachu){' '}
           <b>12. září 1504</b> bývá v&nbsp;literatuře označována za{' '}
           <i>labutí píseň husitské vojenské tradice</i> – poslední velký střet,
           v&nbsp;němž bylo nasazeno české pěší vojsko se starou taktikou
@@ -38,7 +38,7 @@ export const LandshutskaDedickaValka = ({ draft }: ArticleProps) => (
         <h5>Dynastické pozadí a&nbsp;testament Jiřího Bohatého</h5>
         <p>
           Bavorsko-landshutské vévodství (tzv. Dolní Bavorsko) tvořilo
-          v&nbsp;druhé polovině 15. století nejbohatší část Wittelsbachských
+          v&nbsp;druhé polovině 15. století nejbohatší část wittelsbašských
           držav. Jiří Bohatý (Georg der Reiche, 1455–1503), poslední mužský
           představitel landshutské linie, byl švagrem českého krále Vladislava
           II. Jagellonského – jeho manželka Hedvika byla Vladislavovou sestrou.
@@ -79,16 +79,15 @@ export const LandshutskaDedickaValka = ({ draft }: ArticleProps) => (
       <Col>
         <h5>Strany konfliktu</h5>
         <p>
-          Konflikt byl od počátku nepoměrný co do počtu spojenců a&nbsp;
-          rovnoměrný co do financí. <b>Albrecht IV.</b> shromáždil koalici
-          říšských knížat v&nbsp;čele s&nbsp;Maxmiliánem; patřily k&nbsp;ní{' '}
+          Konflikt byl od počátku nepoměrný co do počtu spojenců, ale vyrovnaný
+          co do financí. <b>Albrecht IV.</b> shromáždil koalici říšských knížat
+          v&nbsp;čele s&nbsp;Maxmiliánem; patřily k&nbsp;ní{' '}
           <b>Švábský spolek</b>, vévoda württemberský, lantkrabě hesenský, město{' '}
           <b>Norimberk</b>, braniborský markrabě Friedrich a&nbsp;jeho synové
           Kazimír a&nbsp;Jiří, Alexander von Zweibrücken-Veldenz a&nbsp;řada
-          drobnějších říšských knížat. Albrechtovo vojsko v&nbsp; poli mělo
-          dosáhnout síly přibližně <b>60&nbsp;000 mužů</b>, Maxmilián postavil
-          dalších asi <b>10&nbsp;000</b> mužů říšského a&nbsp;tyrolského
-          dvorského vojska.
+          drobnějších říšských knížat. Albrechtovo vojsko dosahovalo síly
+          přibližně <b>60&nbsp;000 mužů</b>, Maxmilián postavil dalších asi{' '}
+          <b>10&nbsp;000</b> mužů říšského a&nbsp;tyrolského dvorského vojska.
           <Qt publication={PUBLICATIONS.SLADKOVSKA} />
         </p>
         <p>
@@ -113,7 +112,7 @@ export const LandshutskaDedickaValka = ({ draft }: ArticleProps) => (
           Boje se odehrávaly na třech bojištích: v&nbsp;<b>Horním</b> a&nbsp;
           <b>Dolním Bavorsku</b>, v&nbsp;<b>Horní Falci</b> s&nbsp; přesahem do
           Frank a&nbsp;v&nbsp;<b>Porýní</b> s&nbsp;<b>Alsaskem</b>. Pro českou
-          účast jsou klíčová první dvě divadla, kde se Češi v&nbsp;Ruprechtových
+          účast jsou klíčová první dvě bojiště, kde se Češi v&nbsp;Ruprechtových
           službách pohybovali v&nbsp;největších počtech.
           <Qt publication={PUBLICATIONS.SLADKOVSKA} />
         </p>
@@ -127,11 +126,11 @@ export const LandshutskaDedickaValka = ({ draft }: ArticleProps) => (
           <b>1. květnu</b> byl s&nbsp;vojskem u&nbsp;<b>Neuburgu nad Dunajem</b>
           , odkud podnikal výpady do okolí a&nbsp;dobyl Rain an der Donau.
           Albrecht zatím obsadil Ingolstadt (21. května) a&nbsp;<b>7. června</b>{' '}
-          slavnostně vstoupil do Braunau, které ztratilo odhodlání k&nbsp;obraně
-          poté, co odmítlo otevřít brány Wispeckovi. V&nbsp;tomto období se
-          v&nbsp;<b>Chamu</b> – tradičním shromaždišti najatých Čechů –
-          soustředily první kontingenty z&nbsp;Čech; další shromaždiště vznikla
-          ve <b>Furth im Wald</b>, později v&nbsp;<b>Kötzingu</b>.
+          slavnostně vstoupil do Braunau, které předtím odmítlo vpustit
+          Ruprechtova hejtmana Wispecka. V&nbsp;tomto období se v&nbsp;
+          <b>Chamu</b> – tradičním shromaždišti najatých Čechů – soustředily
+          první kontingenty z&nbsp;Čech; další shromaždiště vznikla ve{' '}
+          <b>Furth im Wald</b>, později v&nbsp;<b>Kötzingu</b>.
           <Qt publication={PUBLICATIONS.SLADKOVSKA} />
         </p>
         <p>
@@ -139,8 +138,8 @@ export const LandshutskaDedickaValka = ({ draft }: ArticleProps) => (
           bojových akcích, kde rozhodující úlohu sehráli čeští žoldnéři –
           například při dobytí <b>Chamu</b>. Hrabě Hugo Montfort požadoval
           <b> 22. května</b> po Ludwigu von Eyb dva až tři tisíce českých pěších
-          na pomoc obraně Neuburgu, Eyb však naléhal po Ruprechtovi
-          o&nbsp;peníze pro Čechy, kteří v&nbsp;Chamu zahaleli a&nbsp;hrozili
+          na pomoc obraně Neuburgu, Eyb však naléhal na Ruprechta, aby uvolnil
+          peníze pro Čechy, kteří v&nbsp;Chamu zaháleli a&nbsp;hrozili
           zběhnutím. <b>Jetřich z&nbsp;Gutštejna</b> v&nbsp;těchto týdnech
           dokonce vyhrožoval, že přejde na Albrechtovu stranu, pokud Ruprecht
           neuvolní finance.
@@ -223,7 +222,7 @@ export const LandshutskaDedickaValka = ({ draft }: ArticleProps) => (
           o&nbsp;síle <b>9&nbsp;000 mužů</b> město <b>Sulzbach</b>;
           ve&nbsp;vojsku byli váleční podnikatelé <b>Jan z&nbsp;Weitmile</b>,{' '}
           <b>Jindřich</b> a&nbsp; <b>Jetřich z&nbsp;Gutštejna</b> a&nbsp;
-          <b>Albrecht ze&nbsp;Šternberka</b>. Soudobé prameny uvádějí dokonce
+          <b>Albrecht ze&nbsp;Šternberka</b>; soudobé prameny uvádějí dokonce
           14&nbsp;000 vojáků. Albrecht měl české vojsko u&nbsp;Sulzbachu
           odrazit, ale obléhání bylo <b>5. září</b> ukončeno bez výsledku. Pohyb
           falckých jednotek ohrozil nedaleké říšské město <b>Řezno</b>.{' '}
@@ -251,10 +250,10 @@ export const LandshutskaDedickaValka = ({ draft }: ArticleProps) => (
     </Row>
     <Row>
       <Col>
-        <h5>Bitva u&nbsp;Schönberga 12. září 1504</h5>
+        <h5>Bitva u&nbsp;Schönbergu 12. září 1504</h5>
         <p>
           Hlavní bitva, v&nbsp;starší literatuře označovaná jako{' '}
-          <i>bitva u&nbsp;Schönberga</i> (podle blízkého zámku),{' '}
+          <i>bitva u&nbsp;Schönbergu</i> (podle blízkého zámku),{' '}
           <i>u&nbsp;Wenzenbachu</i> (podle obce na bojišti), <i>u&nbsp;Řezna</i>{' '}
           či <i>na Hafenreuthském poli</i>, v&nbsp;německy psaných pramenech
           rovněž <i>böhmische Schlacht</i> (česká bitva), se odehrála{' '}
@@ -267,7 +266,7 @@ export const LandshutskaDedickaValka = ({ draft }: ArticleProps) => (
           připojenou ves Wenzenbach a&nbsp;mířilo na ústup k&nbsp;Chamu, když se
           před ním zjevila Maxmiliánova plná polní síla. Vojevůdce{' '}
           <b>Georg von Wispeck</b> ihned opustil bojiště s&nbsp;600 (podle
-          jiných pramenů 1&nbsp;600) jezdci a&nbsp;odjel směrem k&nbsp; Neuburgu
+          jiných pramenů 1&nbsp;600) jezdci a&nbsp;odjel směrem k&nbsp;Neuburgu
           – část pramenů hodnotí tento manévr jako útěk a&nbsp;zradu, jiné jako
           pokus zachránit jádro jezdectva. Na bojišti zůstala pěchota pod
           velením polního hejtmana <b>Matyáše Libáka z&nbsp;Radovesic</b>.
@@ -403,7 +402,7 @@ export const LandshutskaDedickaValka = ({ draft }: ArticleProps) => (
           <b>Kolínský arbitrážní výrok</b> z&nbsp;<b>30. července 1505</b> (něm.{' '}
           <i>Kölner Schiedsspruch</i>) přiřkl většinu landshutského dědictví
           bavorsko-mnichovskému vévodovi Albrechtovi&nbsp;IV. Ten tak sjednotil
-          pod jednou vládou Bavorsko-Mnichov a&nbsp;Bavorsko- Landshut
+          pod jednou vládou Bavorsko-Mnichov a&nbsp;Bavorsko-Landshut
           a&nbsp;položil základ Bavorska v&nbsp;jeho pozdější novověké podobě.
           Část území v&nbsp;Horní Falci připadla jako odškodnění synům Ruprechta
           a&nbsp;Alžběty – <b>Otovi Jindřichovi</b> a&nbsp;<b>Filipovi</b> –
@@ -432,10 +431,10 @@ export const LandshutskaDedickaValka = ({ draft }: ArticleProps) => (
           <b>Otík Kamýcký ze&nbsp;Stropčic</b>, jakýsi Pokorný,{' '}
           <b>Heřman Janovský z&nbsp;Janovic</b> a&nbsp;Lukavský. Pro Albrechtovu
           stranu měl být získán i&nbsp;<b>Václav Vlček z&nbsp;Čenova</b>,
-          považovaný za nejlepšího českého hejtmana své doby (kterého ovšem
-          skličovala podagra: na koně neumí, musí být vožen na voze). Jednání
-          ztroskotala na nedostatku financí. Český král Vladislav II. tolerování
-          verbování pro Albrechta podpořil; na petropavelském sněmu{' '}
+          považovaný za nejlepšího českého hejtmana své doby (který ovšem už
+          neuměl jezdit na koni a&nbsp;musel být vožen na voze). Jednání
+          ztroskotala na nedostatku financí. Český král Vladislav&nbsp;II.
+          verbování pro Albrechta podpořil a&nbsp;na petropavelském sněmu{' '}
           <b>29. června 1504</b> byl vznesen oficiální požadavek pomoci
           Albrechtovi.
           <Qt publication={PUBLICATIONS.SLADKOVSKA} />
@@ -526,9 +525,9 @@ export const LandshutskaDedickaValka = ({ draft }: ArticleProps) => (
     </Row>
     <Row>
       <Col>
-        <h5>Matyáš Libák z&nbsp;Radovesic – polní hejtman u&nbsp;Schönberga</h5>
+        <h5>Matyáš Libák z&nbsp;Radovesic – polní hejtman u&nbsp;Schönbergu</h5>
         <p>
-          Vrchním polním hejtmanem českého kontingentu u&nbsp;Schönberga byl{' '}
+          Vrchním polním hejtmanem českého kontingentu u&nbsp;Schönbergu byl{' '}
           <b>Matyáš Libák z&nbsp;Radovesic</b>. Falckrabě jej najal na
           doporučení své profalcké klientely – Pernštejna, Šelmberka
           a&nbsp;Kostky z&nbsp;Postupic. Libák nabídl naverbovat
@@ -568,7 +567,7 @@ export const LandshutskaDedickaValka = ({ draft }: ArticleProps) => (
           <Qt publication={PUBLICATIONS.SLADKOVSKA} />
         </p>
         <p>
-          Libák se z&nbsp;bitvy u&nbsp;Schönberga probil bez zranění, ale jeho
+          Libák se z&nbsp;bitvy u&nbsp;Schönbergu probil bez zranění, ale jeho
           hejtmanování se přesto stalo předmětem soudního sporu. V&nbsp;roce{' '}
           <b>1505</b> jej Albrecht ze&nbsp;Šternberka nařkl,{' '}
           <i>
@@ -580,7 +579,7 @@ export const LandshutskaDedickaValka = ({ draft }: ArticleProps) => (
           Mikuláše Kopystu od Hory, Jiříka Holého z&nbsp;Hořovic, Blažka Houdka
           z&nbsp;Dašic, Martina Říhova syna z&nbsp;Radnic a&nbsp;Martina Vlčka
           z&nbsp;Úřečic. Poslední čtyři jmenovaní byli bývalí zajatci od
-          Schönberga. Soud nicméně dopadl pro Libáka příznivě: bylo
+          Schönbergu. Soud nicméně dopadl pro Libáka příznivě: bylo
           konstatováno, že{' '}
           <i>
             &bdquo;jest on Libák vozy šikoval, lidi do bitvy vedl, je řiedil
@@ -614,7 +613,7 @@ export const LandshutskaDedickaValka = ({ draft }: ArticleProps) => (
     </Row>
     <Row>
       <Col>
-        <h5>Řezenský seznam zajatců z&nbsp;bitvy u&nbsp;Schönberga</h5>
+        <h5>Řezenský seznam zajatců z&nbsp;bitvy u&nbsp;Schönbergu</h5>
         <p>
           V&nbsp;době pobytu českých žoldnéřů v&nbsp;Řezně (12. září až
           přibližně 16. září, poté v&nbsp;Straubingu) vznikl{' '}
@@ -689,7 +688,7 @@ export const LandshutskaDedickaValka = ({ draft }: ArticleProps) => (
       <Col>
         <h5>Význam pro české vojenství</h5>
         <p>
-          Bitva u&nbsp;Schönberga se stala v&nbsp;historiografii i&nbsp;
+          Bitva u&nbsp;Schönbergu se stala v&nbsp;historiografii i&nbsp;
           v&nbsp;literatuře symbolem konce velké éry českého žoldnéřství
           v&nbsp;Říši. Pavézníci, kteří se pokusili útok bez ochrany vozové
           hradby, nemohli proti modernější vojenské technice landsknechtů
@@ -706,7 +705,7 @@ export const LandshutskaDedickaValka = ({ draft }: ArticleProps) => (
         <p>
           V&nbsp;české paměti se Wenzenbach uchoval jako trauma – Aleš Jirásek
           mu věnoval kapitolu v&nbsp;románové epopeji{' '}
-          <i>V&nbsp;cizích službách</i> (1962). Frantisek Palacký v&nbsp;
+          <i>V&nbsp;cizích službách</i> (1962). František Palacký v&nbsp;
           <i>Dějinách národu českého</i> uvedl v&nbsp;souvislosti s&nbsp;bitvou
           pověstný odsudek německého velení (kterážto interpretace ovšem nemá
           oporu v&nbsp;dobových pramenech). Otakar Frankenberger v&nbsp;
@@ -725,8 +724,8 @@ export const LandshutskaDedickaValka = ({ draft }: ArticleProps) => (
           Kamily <b>Sladkovské</b>{' '}
           <i>Česká účast ve válce o&nbsp;dědictví landshutské roku 1504</i>{' '}
           (Husitský Tábor 16, 2009, s. 145–244), která bitvu, Řezenský seznam
-          i&nbsp;Libákovu osobu zpracovala systematicky a&nbsp;na kterou se toto
-          pojednání převážně opírá.
+          i&nbsp;Libákovu osobu zpracovala systematicky a&nbsp;o&nbsp;kterou se
+          toto pojednání převážně opírá.
           <Qt publication={PUBLICATIONS.SLADKOVSKA} />
         </p>
       </Col>
