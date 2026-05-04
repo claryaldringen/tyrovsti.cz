@@ -96,9 +96,6 @@ export const Qt = ({ publication, href, note }: QtProps) => {
               <i>{publication.name}</i>
               {(getCity(publication.city, lang) || publication.year) && ', '}
               {getCity(publication.city, lang)} {publication.year}
-              <span className={styles.boxLinkArrow} aria-hidden="true">
-                {' ↗'}
-              </span>
             </Link>
           ) : (
             <span>
