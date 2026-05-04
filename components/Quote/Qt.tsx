@@ -86,11 +86,19 @@ export const Qt = ({ publication, href, note }: QtProps) => {
       {open && (
         <span className={styles.box} ref={ref}>
           {_href ? (
-            <Link href={_href} target="_blank">
+            <Link
+              href={_href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.boxLink}
+            >
               {publication.author ? `${publication.author}: ` : null}
               <i>{publication.name}</i>
               {(getCity(publication.city, lang) || publication.year) && ', '}
               {getCity(publication.city, lang)} {publication.year}
+              <span className={styles.boxLinkArrow} aria-hidden="true">
+                {' ↗'}
+              </span>
             </Link>
           ) : (
             <span>

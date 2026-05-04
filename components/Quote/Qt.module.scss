@@ -27,3 +27,21 @@
     width: 25vw;
   }
 }
+
+.boxLink {
+  color: #007bff;
+  text-decoration: underline;
+  &:hover {
+    color: #0056b3;
+    text-decoration: underline;
+  }
+  &:visited {
+    color: #6f42c1;
+  }
+}
+
+.boxLinkArrow {
+  display: inline-block;
+  margin-left: 2px;
+  font-size: 0.85em;
+}
