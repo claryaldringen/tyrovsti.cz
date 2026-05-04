@@ -117,7 +117,10 @@ export const BitvaUVarny = ({ draft }: ArticleProps) => (
           <i>De Europa</i>. Kvůli rozporům mezi prameny zůstává Vladislavova
           smrt (zda padl v boji nebo byl zajat a popraven později) dodnes
           předmětem diskusí.
-          <Qt publication={PUBLICATIONS.CALLIMACHUS_VARNENSI} />
+          <Qt
+            publication={PUBLICATIONS.CALLIMACHUS_VARNENSI}
+            href="https://archive.org/details/jbc.bj.uj.edu.pl.NDIGSTDR009201/page/n59/mode/2up"
+          />
         </p>
         <h5>Výsledek</h5>
         <p>
