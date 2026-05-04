@@ -55,8 +55,8 @@ export const DruhaBitvaNaKosovePoli = ({ draft }: ArticleProps) => (
           ručnicemi a vozovou hradbou; jejich síla je pramenně odhadována na
           několik tisíc mužů. Hunyadi vedl střed osobně.
           <Qt
-            publication={PUBLICATIONS.TRESP}
-            href="https://digi20.digitale-sammlungen.de/de/fs1/object/display/bsb00045259_00001.html"
+            publication={PUBLICATIONS.WIKI}
+            href="https://en.wikipedia.org/wiki/Second_Battle_of_Kosovo"
           />
         </p>
         <h5>Sestava osmanské armády</h5>
@@ -142,8 +142,8 @@ export const DruhaBitvaNaKosovePoli = ({ draft }: ArticleProps) => (
           ze svých povozů ještě v okamžiku, kdy byli osmanskými oddíly
           obklíčeni.
           <Qt
-            publication={PUBLICATIONS.TRESP}
-            href="https://digi20.digitale-sammlungen.de/de/fs1/object/display/bsb00045259_00001.html"
+            publication={PUBLICATIONS.WIKI}
+            href="https://en.wikipedia.org/wiki/Second_Battle_of_Kosovo"
           />
         </p>
       </Col>

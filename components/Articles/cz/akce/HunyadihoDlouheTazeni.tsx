@@ -125,8 +125,8 @@ export const HunyadihoDlouheTazeni = ({ draft }: ArticleProps) => (
           Balkánské hory v prosinci 1443. Vozová hradba kryla křesťanské
           jednotky během ústupu od Zlatice a opět při bitvě u Kunoviče.
           <Qt
-            publication={PUBLICATIONS.TRESP}
-            href="https://digi20.digitale-sammlungen.de/de/fs1/object/display/bsb00045259_00001.html"
+            publication={PUBLICATIONS.WIKI}
+            href="https://en.wikipedia.org/wiki/Long_campaign"
           />
         </p>
       </Col>

@@ -22,8 +22,8 @@ export const JiskrovaVojskaNaSlovensku = ({ draft }: ArticleProps) => (
           se sítí pevností a polními oddíly složenými převážně z českých a
           moravských žoldnéřů.
           <Qt
-            publication={PUBLICATIONS.TRESP}
-            href="https://digi20.digitale-sammlungen.de/de/fs1/object/display/bsb00045259_00001.html"
+            publication={PUBLICATIONS.WIKI}
+            href="https://en.wikipedia.org/wiki/Jan_Jiskra_of_Brand%C3%BDs"
           />
         </p>
       </Col>
@@ -58,8 +58,8 @@ export const JiskrovaVojskaNaSlovensku = ({ draft }: ArticleProps) => (
           drahých kovů a z mincovny v Kremnici mu umožnily průběžně financovat
           rozsáhlé žoldnéřské oddíly.
           <Qt
-            publication={PUBLICATIONS.TRESP}
-            href="https://digi20.digitale-sammlungen.de/de/fs1/object/display/bsb00045259_00001.html"
+            publication={PUBLICATIONS.WIKI}
+            href="https://en.wikipedia.org/wiki/Jan_Jiskra_of_Brand%C3%BDs"
           />
         </p>
         <h5>Hejtmani a struktura vojska</h5>
@@ -74,8 +74,8 @@ export const JiskrovaVojskaNaSlovensku = ({ draft }: ArticleProps) => (
           mužů, organizovaných do polních rot kombinujících pěchotu, jezdectvo a
           vozovou hradbu po husitském vzoru.
           <Qt
-            publication={PUBLICATIONS.TRESP}
-            href="https://digi20.digitale-sammlungen.de/de/fs1/object/display/bsb00045259_00001.html"
+            publication={PUBLICATIONS.WIKI}
+            href="https://en.wikipedia.org/wiki/Jan_Jiskra_of_Brand%C3%BDs"
           />
         </p>
         <h5>Bitva u Lučence (7. září 1451)</h5>
@@ -112,8 +112,8 @@ export const JiskrovaVojskaNaSlovensku = ({ draft }: ArticleProps) => (
           Solymos a Lippa v jižních Uhrách a sumu 25 000 zlatých jako finanční
           vyrovnání. V Korvínových službách pak zemřel kolem roku 1469.
           <Qt
-            publication={PUBLICATIONS.TRESP}
-            href="https://digi20.digitale-sammlungen.de/de/fs1/object/display/bsb00045259_00001.html"
+            publication={PUBLICATIONS.WIKI}
+            href="https://en.wikipedia.org/wiki/Jan_Jiskra_of_Brand%C3%BDs"
           />
         </p>
         <h5>Bratříci po roce 1462</h5>
@@ -142,8 +142,8 @@ export const JiskrovaVojskaNaSlovensku = ({ draft }: ArticleProps) => (
           polní fortifikace; tradice bojových vozů a střelných zbraní jako
           pěchotní páteře přežila v zemi celé desetiletí po Jiskrově odchodu.
           <Qt
-            publication={PUBLICATIONS.TRESP}
-            href="https://digi20.digitale-sammlungen.de/de/fs1/object/display/bsb00045259_00001.html"
+            publication={PUBLICATIONS.WIKI}
+            href="https://en.wikipedia.org/wiki/Jan_Jiskra_of_Brand%C3%BDs"
           />
         </p>
       </Col>

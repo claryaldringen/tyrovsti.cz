@@ -123,8 +123,8 @@ export const BojeOUherskyTrun1440 = ({ draft }: ArticleProps) => (
           Vladislava III. a Hunyadiho, jsou rovněž doloženi jednotliví čeští a
           moravští žoldnéři, byť v podstatně menším počtu.
           <Qt
-            publication={PUBLICATIONS.TRESP}
-            href="https://digi20.digitale-sammlungen.de/de/fs1/object/display/bsb00045259_00001.html"
+            publication={PUBLICATIONS.WIKI}
+            href="https://en.wikipedia.org/wiki/Hungarian_Civil_War_(1440%E2%80%931442)"
           />
         </p>
       </Col>

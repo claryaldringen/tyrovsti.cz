@@ -72,8 +72,8 @@ export const BitvaUVarny = ({ draft }: ArticleProps) => (
           hejtmanem Janem Čejkou (Ceyka), v každém voze 7 – 10 mužů s puškami a
           houfnicemi.
           <Qt
-            publication={PUBLICATIONS.TRESP}
-            href="https://digi20.digitale-sammlungen.de/de/fs1/object/display/bsb00045259_00001.html"
+            publication={PUBLICATIONS.WIKI}
+            href="https://en.wikipedia.org/wiki/Battle_of_Varna"
           />
         </p>
         <h5>Průběh bitvy</h5>
@@ -144,8 +144,8 @@ export const BitvaUVarny = ({ draft }: ArticleProps) => (
           byli téměř bez výjimky pobiti. Přeživší se s Hunyadim probili zpět do
           Uher.
           <Qt
-            publication={PUBLICATIONS.TRESP}
-            href="https://digi20.digitale-sammlungen.de/de/fs1/object/display/bsb00045259_00001.html"
+            publication={PUBLICATIONS.WIKI}
+            href="https://en.wikipedia.org/wiki/Battle_of_Varna"
           />
         </p>
       </Col>
