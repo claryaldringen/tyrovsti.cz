@@ -43,6 +43,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1434,
     end: 1438,
     regions: ['polsko-litva'],
+    detailHref: '/prehled-vojenskych-akci/litevska-obcanska-valka',
   },
   {
     id: 'husitske-vpady-spis',
@@ -50,6 +51,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1434,
     end: 1444,
     regions: ['uhry'],
+    detailHref: '/prehled-vojenskych-akci/husitske-vpady-spis',
   },
   {
     id: 'lipany',
@@ -57,6 +59,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1434,
     end: 1434,
     regions: ['cechy'],
+    detailHref: '/prehled-vojenskych-akci/lipany',
   },
   {
     id: 'doznivani-husitskych-valek',
@@ -64,6 +67,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1434,
     end: 1437,
     regions: ['cechy'],
+    detailHref: '/prehled-vojenskych-akci/doznivani-husitskych-valek',
   },
   {
     id: 'osmanske-tazeni-do-sedmihradska-1438',
@@ -71,6 +75,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1438,
     end: 1438,
     regions: ['osmani'],
+    detailHref: '/prehled-vojenskych-akci/osmanske-tazeni-do-sedmihradska-1438',
   },
   {
     id: 'oblehani-smedereva-1439',
@@ -78,6 +83,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1439,
     end: 1439,
     regions: ['osmani'],
+    detailHref: '/prehled-vojenskych-akci/oblehani-smedereva-1439',
   },
   {
     id: 'prvni-oblehani-belehradu-1440',
@@ -85,6 +91,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1440,
     end: 1440,
     regions: ['osmani'],
+    detailHref: '/prehled-vojenskych-akci/prvni-oblehani-belehradu-1440',
   },
   {
     id: 'boje-o-uhersky-trun-1440',
@@ -108,6 +115,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1440,
     end: 1444,
     regions: ['cechy'],
+    detailHref: '/prehled-vojenskych-akci/boje-o-cesky-trun-po-albrechtovi',
   },
   {
     id: 'hunyadiho-dlouhe-tazeni',
@@ -139,6 +147,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1445,
     end: 1467,
     regions: ['cechy'],
+    detailHref: '/prehled-vojenskych-akci/vpady-bratriku',
   },
   {
     id: 'sasky-bratrovrazedny-valka',
@@ -154,6 +163,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1446,
     end: 1446,
     regions: ['rakousy', 'uhry'],
+    detailHref: '/prehled-vojenskych-akci/rakousko-uherska-valka-1446',
   },
   {
     id: 'tazeni-jiriho-na-prahu',
@@ -161,6 +171,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1448,
     end: 1448,
     regions: ['cechy'],
+    detailHref: '/prehled-vojenskych-akci/tazeni-jiriho-na-prahu',
   },
   {
     id: 'borsengrunska-zasti',
@@ -168,6 +179,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1448,
     end: 1453,
     regions: ['hrr'],
+    detailHref: '/prehled-vojenskych-akci/borsengrunska-zasti',
   },
   {
     id: 'druha-bitva-na-kosove-poli',
@@ -183,6 +195,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1449,
     end: 1450,
     regions: ['hrr'],
+    detailHref: '/prehled-vojenskych-akci/prvni-markrabska-valka',
   },
   {
     id: 'jihonemecka-mestska-valka',
@@ -190,6 +203,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1449,
     end: 1450,
     regions: ['hrr'],
+    detailHref: '/prehled-vojenskych-akci/jihonemecka-mestska-valka',
   },
   {
     id: 'valka-jiriho-proti-strakonicke-jednote',
@@ -197,6 +211,8 @@ export const CONFLICTS: Conflict[] = [
     start: 1449,
     end: 1450,
     regions: ['cechy'],
+    detailHref:
+      '/prehled-vojenskych-akci/valka-jiriho-proti-strakonicke-jednote',
   },
   {
     id: 'spor-o-ladislava-pohrobka',
@@ -204,6 +220,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1452,
     end: 1453,
     regions: ['cechy', 'rakousy', 'uhry'],
+    detailHref: '/prehled-vojenskych-akci/spor-o-ladislava-pohrobka',
   },
   {
     id: 'pruske-povstani',
@@ -211,6 +228,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1454,
     end: 1454,
     regions: ['polsko-litva'],
+    detailHref: '/prehled-vojenskych-akci/pruske-povstani',
   },
   {
     id: 'trinactileta-valka',
@@ -242,6 +260,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1458,
     end: 1459,
     regions: ['osmani'],
+    detailHref: '/prehled-vojenskych-akci/osmanske-dobyti-srbska',
   },
   {
     id: 'bavorska-valka',
@@ -257,6 +276,8 @@ export const CONFLICTS: Conflict[] = [
     start: 1459,
     end: 1463,
     regions: ['uhry', 'rakousy'],
+    detailHref:
+      '/prehled-vojenskych-akci/povstani-magnatu-proti-matyasovi-1459',
   },
   {
     id: 'mohucska-zasti',
@@ -280,6 +301,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1463,
     end: 1463,
     regions: ['osmani'],
+    detailHref: '/prehled-vojenskych-akci/osmanske-dobyti-bosny',
   },
   {
     id: 'osmansko-uherska-valka-1463-1483',
@@ -287,6 +309,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1463,
     end: 1483,
     regions: ['osmani', 'uhry'],
+    detailHref: '/prehled-vojenskych-akci/osmansko-uherska-valka-1463-1483',
   },
   {
     id: 'stetinska-dedicka-valka',
@@ -294,6 +317,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1464,
     end: 1472,
     regions: ['hrr'],
+    detailHref: '/prehled-vojenskych-akci/stetinska-dedicka-valka',
   },
   {
     id: 'valka-proti-zelenohorske-jednote',
@@ -301,6 +325,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1465,
     end: 1471,
     regions: ['cechy'],
+    detailHref: '/prehled-vojenskych-akci/valka-proti-zelenohorske-jednote',
   },
   {
     id: 'knezska-valka',
@@ -308,6 +333,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1467,
     end: 1479,
     regions: ['polsko-litva'],
+    detailHref: '/prehled-vojenskych-akci/knezska-valka',
   },
   {
     id: 'cesko-uherska-valka',
@@ -331,6 +357,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1469,
     end: 1474,
     regions: ['hrr'],
+    detailHref: '/prehled-vojenskych-akci/falcka-valka-fridricha-vitezneho',
   },
   {
     id: 'spiknuti-vitez-janus-pannonius',
@@ -338,6 +365,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1471,
     end: 1472,
     regions: ['uhry'],
+    detailHref: '/prehled-vojenskych-akci/spiknuti-vitez-janus-pannonius',
   },
   {
     id: 'polsko-uherska-valka-1474',
@@ -345,6 +373,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1474,
     end: 1474,
     regions: ['polsko-litva', 'uhry'],
+    detailHref: '/prehled-vojenskych-akci/polsko-uherska-valka-1474',
   },
   {
     id: 'hlohovsky-dedicky-spor',
@@ -352,6 +381,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1476,
     end: 1482,
     regions: ['hrr'],
+    detailHref: '/prehled-vojenskych-akci/hlohovsky-dedicky-spor',
   },
   {
     id: 'rakousko-uherska-valka-matyase',
@@ -367,6 +397,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1482,
     end: 1482,
     regions: ['polsko-litva'],
+    detailHref: '/prehled-vojenskych-akci/tatarsky-vpad-1482',
   },
   {
     id: 'polsko-turecka-valka',
@@ -374,6 +405,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1485,
     end: 1503,
     regions: ['polsko-litva'],
+    detailHref: '/prehled-vojenskych-akci/polsko-turecka-valka',
   },
   {
     id: 'rezenska-valka',
@@ -381,6 +413,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1486,
     end: 1492,
     regions: ['hrr'],
+    detailHref: '/prehled-vojenskych-akci/rezenska-valka',
   },
   {
     id: 'valka-o-uhersky-trun-1490-1492',
@@ -388,6 +421,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1490,
     end: 1492,
     regions: ['uhry'],
+    detailHref: '/prehled-vojenskych-akci/valka-o-uhersky-trun-1490-1492',
   },
   {
     id: 'cerne-vojsko-vzpoura',
@@ -403,6 +437,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1492,
     end: 1492,
     regions: ['uhry'],
+    detailHref: '/prehled-vojenskych-akci/povstani-szekelyu-1492',
   },
   {
     id: 'prvni-litevsko-moskevska',
@@ -410,6 +445,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1492,
     end: 1494,
     regions: ['polsko-litva'],
+    detailHref: '/prehled-vojenskych-akci/prvni-litevsko-moskevska',
   },
   {
     id: 'osmansko-uherska-valka-1492-1495',
@@ -417,6 +453,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1492,
     end: 1495,
     regions: ['osmani', 'uhry'],
+    detailHref: '/prehled-vojenskych-akci/osmansko-uherska-valka-1492-1495',
   },
   {
     id: 'bitva-na-krbavskem-poli',
@@ -432,6 +469,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1496,
     end: 1496,
     regions: ['cechy'],
+    detailHref: '/prehled-vojenskych-akci/kutnohorska-bourka',
   },
   {
     id: 'bukovinska-vyprava',
@@ -455,6 +493,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1500,
     end: 1503,
     regions: ['polsko-litva'],
+    detailHref: '/prehled-vojenskych-akci/druha-litevsko-moskevska',
   },
   {
     id: 'tatarske-vpady-1500',
@@ -462,6 +501,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1500,
     end: 1502,
     regions: ['polsko-litva'],
+    detailHref: '/prehled-vojenskych-akci/tatarske-vpady-1500',
   },
   {
     id: 'glatzska-valka',
@@ -469,6 +509,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1501,
     end: 1501,
     regions: ['cechy'],
+    detailHref: '/prehled-vojenskych-akci/glatzska-valka',
   },
   {
     id: 'landshutska-dedicka-valka',
@@ -484,6 +525,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1506,
     end: 1506,
     regions: ['polsko-litva'],
+    detailHref: '/prehled-vojenskych-akci/bitva-u-kleckeho',
   },
   {
     id: 'treti-litevsko-moskevska',
@@ -491,6 +533,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1507,
     end: 1508,
     regions: ['polsko-litva'],
+    detailHref: '/prehled-vojenskych-akci/treti-litevsko-moskevska',
   },
   {
     id: 'ctvrta-litevsko-moskevska',
@@ -506,6 +549,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1512,
     end: 1512,
     regions: ['polsko-litva'],
+    detailHref: '/prehled-vojenskych-akci/tatarsky-vpad-lopuszno',
   },
   {
     id: 'berlichingenova-zasti',
@@ -513,6 +557,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1512,
     end: 1514,
     regions: ['hrr'],
+    detailHref: '/prehled-vojenskych-akci/berlichingenova-zasti',
   },
   {
     id: 'dozsovo-povstani',
@@ -520,6 +565,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1514,
     end: 1514,
     regions: ['uhry'],
+    detailHref: '/prehled-vojenskych-akci/dozsovo-povstani',
   },
   {
     id: 'povstani-1517',
@@ -527,6 +573,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1517,
     end: 1517,
     regions: ['cechy'],
+    detailHref: '/prehled-vojenskych-akci/povstani-1517',
   },
   {
     id: 'wurttemberska-valka',
@@ -534,6 +581,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1519,
     end: 1519,
     regions: ['hrr'],
+    detailHref: '/prehled-vojenskych-akci/wurttemberska-valka',
   },
   {
     id: 'hildesheimska-kolegiatni-zasti',
@@ -541,6 +589,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1519,
     end: 1523,
     regions: ['hrr'],
+    detailHref: '/prehled-vojenskych-akci/hildesheimska-kolegiatni-zasti',
   },
   {
     id: 'reiterkrieg',
@@ -548,6 +597,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1519,
     end: 1521,
     regions: ['polsko-litva'],
+    detailHref: '/prehled-vojenskych-akci/reiterkrieg',
   },
   {
     id: 'osmansko-uherska-valka-1521-1526',
@@ -555,6 +605,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1521,
     end: 1526,
     regions: ['osmani', 'uhry'],
+    detailHref: '/prehled-vojenskych-akci/osmansko-uherska-valka-1521-1526',
   },
   {
     id: 'rytirska-valka',
@@ -562,6 +613,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1522,
     end: 1523,
     regions: ['hrr'],
+    detailHref: '/prehled-vojenskych-akci/rytirska-valka',
   },
   {
     id: 'nemecka-selska-valka',
@@ -569,6 +621,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1524,
     end: 1526,
     regions: ['hrr'],
+    detailHref: '/prehled-vojenskych-akci/nemecka-selska-valka',
   },
   {
     id: 'sekularizace-pruska',
@@ -576,6 +629,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1525,
     end: 1525,
     regions: ['polsko-litva'],
+    detailHref: '/prehled-vojenskych-akci/sekularizace-pruska',
   },
   {
     id: 'hornicke-povstani-jachymov',
@@ -583,6 +637,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1525,
     end: 1525,
     regions: ['cechy'],
+    detailHref: '/prehled-vojenskych-akci/hornicke-povstani-jachymov',
   },
   {
     id: 'povstani-slovenskych-hornich-mest',
@@ -590,6 +645,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1525,
     end: 1526,
     regions: ['uhry'],
+    detailHref: '/prehled-vojenskych-akci/povstani-slovenskych-hornich-mest',
   },
   {
     id: 'bitva-u-mohace',
@@ -605,6 +661,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1437,
     end: 1437,
     regions: ['cechy'],
+    detailHref: '/prehled-vojenskych-akci/oblehani-sionu',
   },
   {
     id: 'tazeni-sestimesti-proti-vartemberkum',
@@ -612,6 +669,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1444,
     end: 1444,
     regions: ['cechy'],
+    detailHref: '/prehled-vojenskych-akci/tazeni-sestimesti-proti-vartemberkum',
   },
   {
     id: 'poprava-jana-smirickeho',
@@ -619,6 +677,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1453,
     end: 1454,
     regions: ['cechy'],
+    detailHref: '/prehled-vojenskych-akci/poprava-jana-smirickeho',
   },
   {
     id: 'kaplirovo-zasti-pasov',
@@ -634,6 +693,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1466,
     end: 1482,
     regions: ['cechy', 'hrr'],
+    detailHref: '/prehled-vojenskych-akci/spor-z-plavna-vladislav',
   },
   {
     id: 'bitva-u-domazlic-1466',
@@ -641,6 +701,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1466,
     end: 1466,
     regions: ['cechy', 'hrr'],
+    detailHref: '/prehled-vojenskych-akci/bitva-u-domazlic-1466',
   },
   {
     id: 'dobyti-tepelskeho-klastera-1467',
@@ -648,6 +709,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1467,
     end: 1467,
     regions: ['cechy'],
+    detailHref: '/prehled-vojenskych-akci/dobyti-tepelskeho-klastera-1467',
   },
   {
     id: 'boje-u-nyrska-1467',
@@ -655,6 +717,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1467,
     end: 1467,
     regions: ['cechy', 'hrr'],
+    detailHref: '/prehled-vojenskych-akci/boje-u-nyrska-1467',
   },
   {
     id: 'bocklerska-valka',
@@ -670,6 +733,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1468,
     end: 1468,
     regions: ['hrr', 'cechy'],
+    detailHref: '/prehled-vojenskych-akci/dobyti-degenberga-1468',
   },
   {
     id: 'tazeni-pluha-tachov-plzen-1468',
@@ -677,6 +741,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1468,
     end: 1468,
     regions: ['cechy', 'hrr'],
+    detailHref: '/prehled-vojenskych-akci/tazeni-pluha-tachov-plzen-1468',
   },
   {
     id: 'dobyti-vimperka-vlachova-brezi-budkova-1468',
@@ -684,6 +749,8 @@ export const CONFLICTS: Conflict[] = [
     start: 1468,
     end: 1468,
     regions: ['cechy', 'hrr'],
+    detailHref:
+      '/prehled-vojenskych-akci/dobyti-vimperka-vlachova-brezi-budkova-1468',
   },
   {
     id: 'bitva-u-nyrska-1468',
@@ -691,6 +758,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1468,
     end: 1468,
     regions: ['cechy', 'hrr'],
+    detailHref: '/prehled-vojenskych-akci/bitva-u-nyrska-1468',
   },
   {
     id: 'trestne-tazeni-vevodu-proti-bocklerum',
@@ -698,6 +766,8 @@ export const CONFLICTS: Conflict[] = [
     start: 1468,
     end: 1469,
     regions: ['hrr', 'cechy'],
+    detailHref:
+      '/prehled-vojenskych-akci/trestne-tazeni-vevodu-proti-bocklerum',
   },
   {
     id: 'tazeni-gutstejna-plavna-cheb-1469',
@@ -705,6 +775,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1469,
     end: 1469,
     regions: ['cechy', 'hrr'],
+    detailHref: '/prehled-vojenskych-akci/tazeni-gutstejna-plavna-cheb-1469',
   },
   {
     id: 'tazeni-podebrad-proti-plavnu-1469',
@@ -712,6 +783,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1469,
     end: 1469,
     regions: ['cechy', 'hrr'],
+    detailHref: '/prehled-vojenskych-akci/tazeni-podebrad-proti-plavnu-1469',
   },
   {
     id: 'zasti-volfstejna-na-trebli',
@@ -719,6 +791,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1469,
     end: 1471,
     regions: ['cechy', 'hrr'],
+    detailHref: '/prehled-vojenskych-akci/zasti-volfstejna-na-trebli',
   },
   {
     id: 'razie-albrechta-iv-na-lupice-1470',
@@ -726,6 +799,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1470,
     end: 1470,
     regions: ['hrr'],
+    detailHref: '/prehled-vojenskych-akci/razie-albrechta-iv-na-lupice-1470',
   },
   {
     id: 'boj-o-loket-1471',
@@ -733,6 +807,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1471,
     end: 1471,
     regions: ['cechy', 'hrr'],
+    detailHref: '/prehled-vojenskych-akci/boj-o-loket-1471',
   },
   {
     id: 'utok-kolovratsko-volfstejnskeho-klanu-na-chebsko-1471',
@@ -740,6 +815,8 @@ export const CONFLICTS: Conflict[] = [
     start: 1471,
     end: 1471,
     regions: ['cechy', 'hrr'],
+    detailHref:
+      '/prehled-vojenskych-akci/utok-kolovratsko-volfstejnskeho-klanu-na-chebsko-1471',
   },
   {
     id: 'zasti-elsenbergu-nothaftu-proti-virspekum-1471',
@@ -747,6 +824,8 @@ export const CONFLICTS: Conflict[] = [
     start: 1471,
     end: 1471,
     regions: ['cechy', 'hrr'],
+    detailHref:
+      '/prehled-vojenskych-akci/zasti-elsenbergu-nothaftu-proti-virspekum-1471',
   },
   {
     id: 'dobyti-pajreka-1471-1472',
@@ -762,6 +841,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1473,
     end: 1473,
     regions: ['cechy', 'hrr'],
+    detailHref: '/prehled-vojenskych-akci/oblehani-loket-sliky',
   },
   {
     id: 'dobyti-pusperka-1473',
@@ -769,6 +849,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1473,
     end: 1473,
     regions: ['cechy', 'hrr'],
+    detailHref: '/prehled-vojenskych-akci/dobyti-pusperka-1473',
   },
   {
     id: 'tazeni-waldekara-na-klatovsko-1473',
@@ -776,6 +857,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1473,
     end: 1473,
     regions: ['cechy', 'hrr'],
+    detailHref: '/prehled-vojenskych-akci/tazeni-waldekara-na-klatovsko-1473',
   },
   {
     id: 'boj-o-leno-ostroh-seeberg-1474-1475',
@@ -783,6 +865,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1474,
     end: 1475,
     regions: ['cechy', 'hrr'],
+    detailHref: '/prehled-vojenskych-akci/boj-o-leno-ostroh-seeberg-1474-1475',
   },
   {
     id: 'dobyti-noveho-herstejna-1475',
@@ -790,6 +873,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1475,
     end: 1475,
     regions: ['cechy', 'hrr'],
+    detailHref: '/prehled-vojenskych-akci/dobyti-noveho-herstejna-1475',
   },
   {
     id: 'zasti-bronska-kocovskeho-s-wittelsbachy-1475-1476',
@@ -806,6 +890,8 @@ export const CONFLICTS: Conflict[] = [
     start: 1475,
     end: 1479,
     regions: ['cechy'],
+    detailHref:
+      '/prehled-vojenskych-akci/rezenska-zasti-zaunruda-gutstejna-svamberku-1475-1479',
   },
   {
     id: 'trestne-tazeni-chebu-proti-hyncikovi-pluhovi-1477',
@@ -813,6 +899,8 @@ export const CONFLICTS: Conflict[] = [
     start: 1477,
     end: 1477,
     regions: ['cechy', 'hrr'],
+    detailHref:
+      '/prehled-vojenskych-akci/trestne-tazeni-chebu-proti-hyncikovi-pluhovi-1477',
   },
   {
     id: 'oblezeni-veseli-a-horazdovic-1477-1478',
@@ -820,6 +908,8 @@ export const CONFLICTS: Conflict[] = [
     start: 1477,
     end: 1478,
     regions: ['cechy'],
+    detailHref:
+      '/prehled-vojenskych-akci/oblezeni-veseli-a-horazdovic-1477-1478',
   },
   {
     id: 'porazka-gutstejna-u-plzne-1478',
@@ -827,6 +917,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1478,
     end: 1478,
     regions: ['cechy', 'hrr'],
+    detailHref: '/prehled-vojenskych-akci/porazka-gutstejna-u-plzne-1478',
   },
   {
     id: 'prazska-defenestrace-1483',
@@ -834,6 +925,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1483,
     end: 1485,
     regions: ['cechy'],
+    detailHref: '/prehled-vojenskych-akci/prazska-defenestrace-1483',
   },
   {
     id: 'odboj-podebradskych-vs-korvin',
@@ -841,6 +933,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1488,
     end: 1490,
     regions: ['polsko-litva'],
+    detailHref: '/prehled-vojenskych-akci/odboj-podebradskych-vs-korvin',
   },
   {
     id: 'valka-se-sliky-1501',
@@ -848,6 +941,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1501,
     end: 1504,
     regions: ['cechy', 'hrr'],
+    detailHref: '/prehled-vojenskych-akci/valka-se-sliky-1501',
   },
   {
     id: 'kopidlanska-valka-1507-1517',
@@ -855,6 +949,7 @@ export const CONFLICTS: Conflict[] = [
     start: 1507,
     end: 1517,
     regions: ['cechy'],
+    detailHref: '/prehled-vojenskych-akci/kopidlanska-valka-1507-1517',
   },
   {
     id: 'bitva-u-baia',
