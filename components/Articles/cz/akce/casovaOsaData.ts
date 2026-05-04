@@ -1047,34 +1047,6 @@ export const CZECH_MERCENARIES: Record<string, CzechMercenaryEntry> = {
       'https://cs.wikipedia.org/wiki/Bitva_u_Moh%C3%A1%C4%8De',
     ],
   },
-  'hunyadiho-dlouhe-tazeni': {
-    confirmed: true,
-    sources: [
-      'https://www.hungarianottomanwars.com/1372-1490/hunyadis-long-campaign-in-1443-44/',
-      'https://en.wikipedia.org/wiki/John_Hunyadi',
-    ],
-  },
-  'druha-bitva-na-kosove-poli': {
-    confirmed: true,
-    sources: [
-      'https://en.wikipedia.org/wiki/Battle_of_Kosovo_(1448)',
-      'https://www.e-stredovek.cz/post/druha-bitva-na-kosove-poli-1448/',
-    ],
-  },
-  'oblehani-belehradu-1456': {
-    confirmed: true,
-    sources: [
-      'https://en.wikipedia.org/wiki/Siege_of_Belgrade_(1456)',
-      'https://historynet.com/ottoman-hungarian-wars-siege-of-belgrade-in-1456/',
-    ],
-  },
-  'bukovinska-vyprava': {
-    confirmed: true,
-    sources: [
-      'https://www.konflikty.pl/historia/sredniowiecze/wyprawa-moldawska-jana-olbrachta/',
-      'https://en.wikipedia.org/wiki/Battle_of_the_Cosmin_Forest',
-    ],
-  },
   'ctvrta-litevsko-moskevska': {
     confirmed: true,
     sources: [
@@ -1113,13 +1085,6 @@ export const CZECH_MERCENARIES: Record<string, CzechMercenaryEntry> = {
     confirmed: true,
     sources: [
       'https://cs.wikipedia.org/wiki/Bitva_na_%C5%99%C3%AD%C4%8Dce_Valov%C3%A9',
-    ],
-  },
-  'vpad-kazimira-1471': {
-    confirmed: true,
-    sources: [
-      'https://en.wikipedia.org/wiki/Matthias_Corvinus',
-      'https://en.wikipedia.org/wiki/Black_Army_of_Hungary',
     ],
   },
   'bitva-u-thomaswaldu': {
