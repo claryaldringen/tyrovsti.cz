@@ -1,0 +1,1189 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Vojenské akce s českou účastí 1434–1526</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reset.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Source+Sans+3:wght@300;400;600&display=swap" />
+
+    <style>
+      :root {
+        --color-bg: #1a1310;
+        --color-bg-deep: #0e0a08;
+        --color-text: #efe4cf;
+        --color-muted: #b8a988;
+        --color-accent: #8b1b1b;
+        --color-accent-light: #c44545;
+        --color-bezova: #d4b896;
+        --color-gold: #c9a55c;
+      }
+
+      .reveal {
+        font-family: 'Source Sans 3', system-ui, -apple-system, sans-serif;
+        font-weight: 300;
+        font-size: 30px;
+        color: var(--color-text);
+        background: var(--color-bg);
+      }
+      .reveal .slides { text-align: left; }
+      .reveal .slides section { padding: 1.5em 2em; }
+
+      .reveal h1, .reveal h2, .reveal h3, .reveal h4 {
+        font-family: 'Cinzel', 'Playfair Display', Georgia, serif;
+        font-weight: 700;
+        color: var(--color-bezova);
+        text-transform: none;
+        letter-spacing: 0.02em;
+        line-height: 1.15;
+      }
+      .reveal h1 { font-size: 2.4em; color: var(--color-gold); }
+      .reveal h2 { font-size: 1.6em; }
+      .reveal h3 { font-size: 1.25em; color: var(--color-gold); }
+      .reveal h4 { font-size: 1.05em; color: var(--color-muted); font-weight: 500; }
+
+      .reveal p { line-height: 1.45; }
+      .reveal strong { color: var(--color-gold); font-weight: 600; }
+      .reveal em { color: var(--color-accent-light); font-style: italic; }
+
+      .reveal ul { list-style: none; margin-left: 0; }
+      .reveal ul li {
+        position: relative;
+        padding-left: 1.4em;
+        margin-bottom: 0.5em;
+        line-height: 1.4;
+      }
+      .reveal ul li::before {
+        content: '◆';
+        position: absolute;
+        left: 0;
+        color: var(--color-accent);
+        font-size: 0.7em;
+        top: 0.45em;
+      }
+
+      .reveal blockquote {
+        border-left: 4px solid var(--color-accent);
+        padding: 0.6em 1.2em;
+        font-style: italic;
+        color: var(--color-bezova);
+        background: rgba(139, 27, 27, 0.08);
+        font-size: 0.95em;
+      }
+      .reveal blockquote cite {
+        display: block;
+        margin-top: 0.6em;
+        font-size: 0.8em;
+        color: var(--color-muted);
+        font-style: normal;
+      }
+
+      /* Title slide */
+      .title-slide { text-align: center; padding-top: 2em; }
+      .title-slide h1 {
+        font-size: 2.6em;
+        margin-bottom: 0.2em;
+        color: var(--color-gold);
+      }
+      .title-slide .subtitle {
+        font-family: 'Cinzel', serif;
+        font-size: 1.5em;
+        color: var(--color-bezova);
+        letter-spacing: 0.1em;
+        margin-bottom: 2em;
+      }
+      .title-slide .meta {
+        margin-top: 3em;
+        color: var(--color-muted);
+        font-size: 0.85em;
+        line-height: 1.6;
+      }
+
+      /* Section divider */
+      .section-divider {
+        text-align: center;
+        background: linear-gradient(180deg, var(--color-bg-deep), var(--color-bg));
+        padding-top: 3em;
+      }
+      .section-divider .section-num {
+        font-family: 'Cinzel', serif;
+        color: var(--color-accent);
+        font-size: 1em;
+        letter-spacing: 0.3em;
+        margin-bottom: 1em;
+      }
+      .section-divider h1 {
+        font-size: 2.2em;
+        margin-bottom: 0.3em;
+      }
+      .section-divider .section-sub {
+        font-size: 1.1em;
+        color: var(--color-muted);
+        max-width: 24em;
+        margin: 1em auto 0;
+        line-height: 1.4;
+      }
+
+      /* Two-column layout */
+      .two-col { display: grid; grid-template-columns: 1.2fr 1fr; gap: 1.4em; align-items: start; }
+      .two-col .visual {
+        border: 1px dashed var(--color-muted);
+        background: rgba(139, 27, 27, 0.05);
+        border-radius: 4px;
+        padding: 1.2em;
+        font-style: italic;
+        color: var(--color-muted);
+        font-size: 0.85em;
+        text-align: center;
+        min-height: 8em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .visual-marker {
+        display: inline-block;
+        font-style: normal;
+        color: var(--color-bezova);
+      }
+      .visual-marker::before { content: '◧ '; color: var(--color-accent-light); }
+
+      /* Mini-timeline footer */
+      .timeline-footer {
+        position: absolute;
+        bottom: 0.6em;
+        left: 1.5em;
+        right: 1.5em;
+        font-family: 'Source Sans 3', sans-serif;
+        font-size: 0.5em;
+        color: var(--color-muted);
+        display: flex;
+        align-items: center;
+        gap: 0.6em;
+      }
+      .timeline-footer .bar {
+        flex: 1;
+        height: 2px;
+        background: rgba(196, 168, 92, 0.25);
+        position: relative;
+      }
+      .timeline-footer .marker {
+        position: absolute;
+        top: -3px;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: var(--color-accent);
+        transform: translateX(-50%);
+      }
+      .timeline-footer .label {
+        position: absolute;
+        top: -1.6em;
+        transform: translateX(-50%);
+        color: var(--color-bezova);
+        white-space: nowrap;
+        font-weight: 600;
+      }
+
+      /* Stat slide */
+      .big-stat { text-align: center; padding-top: 1em; }
+      .big-stat .stat {
+        font-family: 'Cinzel', serif;
+        font-size: 5em;
+        color: var(--color-gold);
+        line-height: 1;
+        margin-bottom: 0.1em;
+      }
+      .big-stat .stat-label {
+        font-size: 1.1em;
+        color: var(--color-bezova);
+        margin-bottom: 0.5em;
+      }
+
+      /* Pull quote */
+      .pull-quote {
+        text-align: center;
+        padding: 2em 4em;
+      }
+      .pull-quote .quote {
+        font-family: 'Cinzel', serif;
+        font-size: 1.5em;
+        line-height: 1.4;
+        color: var(--color-bezova);
+        font-style: italic;
+      }
+      .pull-quote .attribution {
+        margin-top: 1.5em;
+        color: var(--color-muted);
+        font-size: 0.85em;
+      }
+
+      /* Tables */
+      .reveal table {
+        font-size: 0.78em;
+        border-collapse: collapse;
+        width: 100%;
+        margin-top: 0.6em;
+      }
+      .reveal table th {
+        background: rgba(139, 27, 27, 0.2);
+        color: var(--color-gold);
+        padding: 0.5em 0.7em;
+        text-align: left;
+        border-bottom: 1px solid var(--color-accent);
+        font-family: 'Cinzel', serif;
+        font-weight: 500;
+      }
+      .reveal table td {
+        padding: 0.4em 0.7em;
+        border-bottom: 1px solid rgba(196, 168, 92, 0.15);
+      }
+
+      /* Source note */
+      .source-note {
+        position: absolute;
+        bottom: 0.4em;
+        right: 1.5em;
+        font-size: 0.5em;
+        color: var(--color-muted);
+        font-style: italic;
+      }
+
+      /* Theme tag */
+      .theme-tag {
+        display: inline-block;
+        background: rgba(139, 27, 27, 0.25);
+        color: var(--color-accent-light);
+        font-family: 'Cinzel', serif;
+        font-size: 0.6em;
+        letter-spacing: 0.15em;
+        padding: 0.25em 0.7em;
+        border-radius: 2px;
+        margin-bottom: 0.6em;
+        text-transform: uppercase;
+      }
+
+      .reveal .progress { color: var(--color-accent); }
+
+      /* Notes for the user */
+      .placeholder {
+        background: rgba(196, 168, 92, 0.08);
+        border-left: 3px solid var(--color-gold);
+        padding: 0.8em 1em;
+        font-size: 0.85em;
+        color: var(--color-muted);
+        font-style: italic;
+        margin-top: 0.5em;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <!-- ============================================ -->
+        <!-- SLIDE 1: TITULNÍ                              -->
+        <!-- ============================================ -->
+        <section class="title-slide">
+          <h1>Vojenské akce<br />s českou účastí</h1>
+          <div class="subtitle">1434 — 1526</div>
+          <div class="meta">
+            Martin Zadražil<br />
+            <em>tyrovsti.cz</em><br /><br />
+            <span style="color: var(--color-muted)">[konference / datum]</span>
+          </div>
+        </section>
+
+        <!-- ============================================ -->
+        <!-- SEKCE 1: INTRO                                -->
+        <!-- ============================================ -->
+        <section class="section-divider">
+          <div class="section-num">I.</div>
+          <h1>Úvod</h1>
+          <div class="section-sub">Co dělalo z českých žoldnéřů žádanou komoditu napříč střední Evropou?</div>
+        </section>
+
+        <section>
+          <span class="theme-tag">RÁMEC</span>
+          <h2>Časová osa: české vojenské akce</h2>
+          <div class="placeholder">
+            <span class="visual-marker">Vizuál:</span> Gantt-styl tabulka konfliktů v Českých zemích
+            1434–1526 (export z webu, komponenta <code>CasovaOsa.tsx</code>, filtrované na region <code>cechy</code>).
+            Zobrazit zde jako screenshot, zvýraznit Lipany, Doznívání husitských válek, Bavorská válka,
+            Boje o český trůn, Kutnohorská bouřka apod.
+          </div>
+        </section>
+
+        <section>
+          <span class="theme-tag">RÁMEC</span>
+          <h2>Časová osa: zahraniční akce s českou účastí</h2>
+          <div class="placeholder">
+            <span class="visual-marker">Vizuál:</span> Druhá Gantt tabulka — pouze konflikty mimo
+            České země s doloženou účastí českých žoldnéřů (Soestská zášť, Černá rota / uherské
+            kampaně, Landshutská dědická válka, Čtvrtá litevsko-moskevská, Mohács …).
+            Vyfiltrovaný subset z časové osy webu, ručně vybraný.
+          </div>
+        </section>
+
+        <section class="big-stat">
+          <span class="theme-tag">KLÍČOVÁ TEZE</span>
+          <div class="stat">≈ 50 % | 70 %</div>
+          <div class="stat-label">
+            konfliktů v okolních zemích / v Říši<br />
+            mělo doloženou účast českých žoldnéřů
+          </div>
+          <p style="margin-top: 1.5em; color: var(--color-muted); font-size: 0.85em">
+            Zdroj odhadu: prosté spočítání položek v časové ose, kde je v podkladech doložen
+            český kontingent. <em>(metodika a robustnost dat — diskuse v Q&amp;A)</em>
+          </p>
+        </section>
+
+        <section class="pull-quote">
+          <div class="quote">
+            „Co dělalo z českých žoldnéřů<br />
+            <strong>žádanou komoditu</strong>?"
+          </div>
+          <div class="attribution">
+            Vodicí otázka přednášky.<br />
+            Odpověď bude trojí: <strong>organizace, taktika, kontrast se Švýcary</strong>.
+          </div>
+        </section>
+
+        <!-- ============================================ -->
+        <!-- SEKCE 2: DOZNÍVÁNÍ HUSITSKÝCH VÁLEK           -->
+        <!-- ============================================ -->
+        <section class="section-divider">
+          <div class="section-num">II. — 1434 / 1438</div>
+          <h1>Doznívání husitských válek</h1>
+          <div class="section-sub">
+            Lipany a Želenice: tentýž taktický manévr na obou stranách barikády.
+            Konec polních obcí, počátek žoldnéřského režimu.
+          </div>
+        </section>
+
+        <section>
+          <h2>Lipany 1434 — kontext</h2>
+          <span class="theme-tag">TAKTIKA</span>
+          <ul>
+            <li><strong>30. května 1434</strong> mezi vsí Hřiby a Lipskou horou východně od Českého Brodu</li>
+            <li>Panská jednota (<strong>Diviš Bořek z Miletínka</strong>): 12–13 000 pěších, 1 200 jezdců, <strong>720 vozů</strong></li>
+            <li>Polní obce táborů a sirotků (<strong>Prokop Holý</strong>): 9–10 000 pěších, 700 jezdců, 480–600 vozů</li>
+            <li>Po bitvě v kraji <strong>tisíce vycvičených bojovníků bez práce</strong> — bod zrodu česky mluvícího pozdně-středověkého žoldnéřství</li>
+          </ul>
+          <div class="placeholder">
+            <span class="visual-marker">Vizuál:</span> Mapa Čech s vyznačením Lipan + zjednodušené schéma bitvy.
+            Zdroj: <code>BitvaULipan.tsx</code> + <code>DoznivaniHusitskychValek.tsx</code>.
+          </div>
+          <div class="timeline-footer">
+            <span>1434</span>
+            <div class="bar"><div class="marker" style="left: 0%"></div><div class="label" style="left: 0%">Lipany</div></div>
+            <span>1526</span>
+          </div>
+        </section>
+
+        <section>
+          <h2>Lipany 1434 — manévr</h2>
+          <span class="theme-tag">TAKTIKA</span>
+          <ol style="counter-reset: step;">
+            <li><strong>Dělostřelecká přestřelka</strong>; polní obce za vozovou hradbou v defenzivním postavení</li>
+            <li>Diviš Bořek nasadí <strong>předstíraný útok a stažení</strong></li>
+            <li>Polní obce vyrazí z hradby pronásledovat; <strong>vlastní jezdci jim při výpadu rozporcují řady</strong></li>
+            <li><strong>Krchlebcova jízda</strong> přeletí přes údolí Bylanky, vpadne do otevřené hradby z boku</li>
+            <li>Polní obce zhroutí; <strong>1 300 padlých v boji, 700 zajatců upáleno</strong> u Českého Brodu (Prokop Holý padl); panská jednota: ~200 padlých</li>
+          </ol>
+          <div class="placeholder">
+            <span class="visual-marker">Vizuál:</span> Schéma bitvy ve třech krocích (vozová hradba → výpad → Krchlebcův úder z boku).
+          </div>
+          <div class="placeholder">
+            <span class="visual-marker">Pointa:</span> „taktická léčka" se vrací v <strong>Želenicích, u Orše i u Moháče</strong> — předstíraný ústup je páteř bojišť 1434–1526 (i protivník Čechů ji použije proti Maďarům).
+          </div>
+          <div class="timeline-footer">
+            <span>1434</span>
+            <div class="bar"><div class="marker" style="left: 0%"></div></div>
+            <span>1526</span>
+          </div>
+        </section>
+
+        <section>
+          <h2>Želenice 1438 — kontext</h2>
+          <span class="theme-tag">TAKTIKA</span>
+          <ul>
+            <li><strong>23. září 1438</strong> u Želenic na Mostecku</li>
+            <li>Polsko-husitské vojsko (<strong>Mikuláš Sokol z Lamberka</strong>, podpora Kazimíra Jagellonského) <em>vs.</em> vojsko Albrechta II. Habsburského</li>
+            <li>Kontext: <strong>boje o český trůn</strong> po smrti Zikmunda — polsko-husitská strana proti Habsburkovi</li>
+          </ul>
+          <div class="placeholder">
+            <span class="visual-marker">Vizuál:</span> Mapa severozápadních Čech s vyznačením Želenic. Zdroj: cs.wikipedia.org/wiki/Bitva_u_Želenic.
+          </div>
+          <div class="timeline-footer">
+            <span>1434</span>
+            <div class="bar"><div class="marker" style="left: 4.3%"></div><div class="label" style="left: 4.3%">Želenice</div></div>
+            <span>1526</span>
+          </div>
+        </section>
+
+        <section>
+          <h2>Želenice 1438 — tentýž manévr</h2>
+          <span class="theme-tag">TAKTIKA</span>
+          <ul>
+            <li>Albrechtovo vojsko v defenzivní pozici, čeká útok</li>
+            <li>Husitská <strong>pěchota provede předstíraný ústup</strong></li>
+            <li>Albrechtovi jezdci vyrazí pronásledovat — <strong>rozpadnou si formaci</strong></li>
+            <li>Husitská <strong>jízda udeří do rozvolněného protivníka</strong> a rozprášila ho</li>
+          </ul>
+          <div class="placeholder">
+            <span class="visual-marker">Pointa:</span> stejný taktický vzorec jako u Lipan, jen s otočenými stranami.
+            Předstíraný ústup pěchoty + úder jízdy je <strong>pozdně-husitský standard</strong>, který přežívá rozpad polních obcí.
+          </div>
+          <div class="placeholder">
+            <span class="visual-marker">Bridging slide do další sekce:</span> Po Želenicích husitští veteráni nemají kde válčit doma.
+            Začnou prodávat své umění do ciziny — vstup na trh.
+          </div>
+          <div class="timeline-footer">
+            <span>1434</span>
+            <div class="bar"><div class="marker" style="left: 4.3%"></div></div>
+            <span>1526</span>
+          </div>
+        </section>
+
+        <!-- ============================================ -->
+        <!-- SEKCE 3: SOESTSKÁ ZÁŠŤ                        -->
+        <!-- ============================================ -->
+        <section class="section-divider">
+          <div class="section-num">III. — 1444 / 1449</div>
+          <h1>Soestská zášť</h1>
+          <div class="section-sub">
+            Nejkomplexnější doložený pohled na český žoldnéřský trh.
+            Kdo, kým, kolik, za co, jak dlouho.
+          </div>
+        </section>
+
+        <section>
+          <h2>Soestská zášť — kontext</h2>
+          <span class="theme-tag">ORGANIZACE</span>
+          <ul>
+            <li><strong>5. června 1444</strong> přijetí Jana I. z Kleve jako zeměpána Soestu; <strong>25. června 1444</strong> formální vyhlášení záště arcibiskupem</li>
+            <li>Soest se postavil <strong>kolínskému arcibiskupu Dietrichovi II. von Moers</strong>; spojencem města <strong>vévoda Jan I. z Kleve</strong></li>
+            <li>1444–1446: partyzánská válka, <strong>plenění</strong> (Duisburg, Sassendorf, Lohne, Erwitte, Blomberg)</li>
+            <li>Eskalace: <strong>květen 1447 — Naumburská smlouva</strong> mezi saským vévodou Vilémem III. a arcibiskupem: <strong>~12 000 mužů za 1 rýnský zlatý týdně/hlavu</strong></li>
+          </ul>
+          <div class="placeholder">
+            <span class="visual-marker">Vizuál:</span> Mapa Vestfálska + erby Soestu, Kolína, Kleve.
+            Zdroj: <code>SoesterskaZasti.tsx</code> (~860 řádků obsahu).
+          </div>
+          <div class="timeline-footer">
+            <span>1434</span>
+            <div class="bar"><div class="marker" style="left: 14%"></div><div class="label" style="left: 14%">Soest</div></div>
+            <span>1526</span>
+          </div>
+        </section>
+
+        <section>
+          <h2>Český kontingent v Soestu</h2>
+          <span class="theme-tag">ORGANIZACE</span>
+          <ul>
+            <li><strong>Hlavní nábor leden–květen 1447</strong>; verbíři <strong>Bedřich z Donína</strong> (Friedrich von Dohna) a <strong>Petr Holický ze Šternberka</strong></li>
+            <li>Sběrné místo Durynsko: <strong>2 500 mužů + 200 vozů</strong> v květnu 1447</li>
+            <li>Letní tažení 1447 pod saským vévodou Vilémem III.: kombinovaná síla ~8 000, z toho <strong>„něco málo přes 6 000 Čechů"</strong></li>
+            <li>V dobových pramenech <em>böhmische Söldner</em> nebo <em>Hussitenkrieger</em></li>
+          </ul>
+          <blockquote>
+            „Letní tažení roku 1447, opírající se o více než šest tisíc Čechů, představuje vůbec <strong>nejrozsáhlejší doloženou námezdní akci českých bojovníků v západní části Říše</strong> ve druhé čtvrtině 15. století."
+            <cite>článek Soesterská zášť, tyrovsti.cz</cite>
+          </blockquote>
+          <div class="timeline-footer">
+            <span>1434</span>
+            <div class="bar"><div class="marker" style="left: 14%"></div></div>
+            <span>1526</span>
+          </div>
+        </section>
+
+        <section>
+          <h2>Ekonomika kontraktu</h2>
+          <span class="theme-tag">ORGANIZACE</span>
+          <table>
+            <thead><tr><th>Kdo platí</th><th>Komu</th><th>Kolik (týdně, na hlavu)</th></tr></thead>
+            <tbody>
+              <tr><td>Arcibiskup Dietrich</td><td>Saskému vévodovi (= zaměstnavatel kontingentu)</td><td><strong>1 rýnský zlatý</strong> = 24 grošů</td></tr>
+              <tr><td>Saský vévoda Vilém III.</td><td>Vlastním německým mužům</td><td>20 grošů</td></tr>
+              <tr><td>Saský vévoda Vilém III.</td><td>Českým žoldnéřům</td><td>10 grošů</td></tr>
+            </tbody>
+          </table>
+          <p style="margin-top: 0.6em">
+            <strong>Marže vévody: 4–14 grošů na hlavu týdně.</strong> Plus paušál 50 000 zlatých a třetina kořisti a výkupného.
+          </p>
+          <p style="color: var(--color-bezova); margin-top: 0.6em">
+            Soest je první moment, kdy lze český žoldnéřský trh <strong>kvantifikovat</strong>. Je to průmyslové odvětví, ne dobrovolnická výprava.
+          </p>
+          <div class="timeline-footer">
+            <span>1434</span>
+            <div class="bar"><div class="marker" style="left: 14%"></div></div>
+            <span>1526</span>
+          </div>
+        </section>
+
+        <section>
+          <h2>Soestský model</h2>
+          <span class="theme-tag">ORGANIZACE</span>
+          <ul>
+            <li><strong>Hejtman (rotmistr)</strong> uzavírá kontrakt s objednavatelem</li>
+            <li>On sám si <strong>najímá své muže</strong>, často staré spolubojovníky z domácího pole</li>
+            <li>Plat dostává on, on dál distribuuje — <strong>vícestupňová odpovědnost</strong></li>
+            <li>Délka kontraktu je <strong>týdny až měsíce</strong>, často s opcí na prodloužení</li>
+            <li>Po skončení rota se rozpadne, nebo putuje za další zakázkou</li>
+          </ul>
+          <div class="placeholder">
+            <span class="visual-marker">Pointa:</span> Tento model přežije a vyvine se v tom, co o pár dekád později
+            uvidíme jako Korvínovu Černou rotu. Jen ve větším měřítku a pro jednoho zaměstnavatele.
+          </div>
+          <div class="timeline-footer">
+            <span>1434</span>
+            <div class="bar"><div class="marker" style="left: 14%"></div></div>
+            <span>1526</span>
+          </div>
+        </section>
+
+        <!-- ============================================ -->
+        <!-- SEKCE 4: WALDSHUTERKRIEG                      -->
+        <!-- ============================================ -->
+        <section class="section-divider">
+          <div class="section-num">IV. — 1468</div>
+          <h1>Waldshuterkrieg</h1>
+          <div class="section-sub">
+            První přímé setkání Čechů se Švýcary v terénu.
+          </div>
+        </section>
+
+        <section>
+          <h2>Waldshuterkrieg — kontext</h2>
+          <span class="theme-tag">SROVNÁNÍ SE ŠVÝCARY</span>
+          <ul>
+            <li><strong>1468</strong>, oblast Waldshut na horním Rýně</li>
+            <li>Spor mezi <strong>Habsburky</strong> (vévoda Sigismund Tirolský) a <strong>Spříseženstvem</strong> osmi švýcarských kantonů</li>
+            <li>Habsburkové najímají na pomoc <strong>český kontingent</strong> — v té době už zavedený standard</li>
+          </ul>
+          <div class="placeholder">
+            <span class="visual-marker">Vizuál:</span> Mapa horního Rýna + erby kantonů a Habsburků.
+            Zdroj: <code>Waldshuterkrieg.tsx</code> (na main).
+          </div>
+          <div class="timeline-footer">
+            <span>1434</span>
+            <div class="bar"><div class="marker" style="left: 37%"></div><div class="label" style="left: 37%">Waldshut</div></div>
+            <span>1526</span>
+          </div>
+        </section>
+
+        <section>
+          <h2>Co se v té době dělo se Švýcary</h2>
+          <span class="theme-tag">SROVNÁNÍ SE ŠVÝCARY</span>
+          <ul>
+            <li><strong>Pikenýrské čtverce</strong> — masivní bloky pěchoty s dlouhými píkami</li>
+            <li>Disciplína a drill — schopnost <strong>manévrovat čtvercem v boji</strong></li>
+            <li>Po vítězstvích u Murten/Granson 1476 budou Švýcaři nejvyhledávanější pěchotou Evropy</li>
+            <li>V 1468 jsou ale ještě <strong>krátce před vrcholem</strong> — Waldshut je rozcvička</li>
+          </ul>
+          <div class="placeholder">
+            <span class="visual-marker">Vizuál:</span> Dobové vyobrazení švýcarského čtverce (Diebold Schilling chronicle, případně Holbein).
+          </div>
+          <div class="timeline-footer">
+            <span>1434</span>
+            <div class="bar"><div class="marker" style="left: 37%"></div></div>
+            <span>1526</span>
+          </div>
+        </section>
+
+        <section>
+          <h2>Co tam dělali Češi</h2>
+          <span class="theme-tag">SROVNÁNÍ SE ŠVÝCARY</span>
+          <ul>
+            <li><strong>~1 600 Čechů</strong> (podle Diebolda Schillinga), poslaných bavorským vévodou <strong>Ludvíkem IX. Bavorským</strong> v rámci spojenecké smlouvy</li>
+            <li>Stáli u <strong>St. Blasiena</strong>, čekali na švýcarský útok — bitva nepadla</li>
+            <li>Schilling: čím dále byli od Čech, tím <strong>více rabovali</strong> — vyžírali vlastní spojence</li>
+            <li>Iluminace v Schillingových kronikách Čechy zobrazují jako <strong>„pohany a orientálce"</strong> — narážka na trvající kacířskou pověst</li>
+          </ul>
+          <blockquote>
+            „Bylo tehdy, když se tábořilo před Waldshutem, z říše od vévody posláno asi šestnáct set Čechů na pomoc panstvu; a když přišli, přesto se z jejich strany proti Spříseženectví <strong>nejednalo válečně, neboť způsobili více škody přátelům než Spříseženectví</strong>."
+            <cite>Diebold Schilling, kronika</cite>
+          </blockquote>
+          <div class="timeline-footer">
+            <span>1434</span>
+            <div class="bar"><div class="marker" style="left: 37%"></div></div>
+            <span>1526</span>
+          </div>
+        </section>
+
+        <section>
+          <h2>Český profil vs. švýcarský</h2>
+          <span class="theme-tag">SROVNÁNÍ SE ŠVÝCARY</span>
+          <table>
+            <thead>
+              <tr><th>Aspekt</th><th>Češi</th><th>Švýcaři</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Páteř formace</td><td>Pavézníci + střelci</td><td>Pikenýři + halberdníci</td></tr>
+              <tr><td>Palné zbraně</td><td><strong>Mnoho</strong> (kuše, hákovnice, ruční děla)</td><td>Méně, postupně přibývá</td></tr>
+              <tr><td>Vozová hradba</td><td>Stále součást doktríny</td><td>Nepoužívá</td></tr>
+              <tr><td>Disciplína</td><td>Kontraktem, hejtmanem</td><td>Komunální, kantonální</td></tr>
+              <tr><td>Cíl manévru</td><td>Kontrolovaný střet</td><td>Drcení čelně</td></tr>
+            </tbody>
+          </table>
+          <div class="placeholder" style="margin-top: 0.4em">
+            <span class="visual-marker">DOPLNIT:</span> tahle tabulka je rámcová — upřesnit po přečtení článku, případně označit
+            sloupce, které jsou diskutabilní.
+          </div>
+          <div class="timeline-footer">
+            <span>1434</span>
+            <div class="bar"><div class="marker" style="left: 37%"></div></div>
+            <span>1526</span>
+          </div>
+        </section>
+
+        <!-- ============================================ -->
+        <!-- SEKCE 5: ČERNÁ ROTA                           -->
+        <!-- ============================================ -->
+        <section class="section-divider">
+          <div class="section-num">V. — 1458 / 1490</div>
+          <h1>Černá rota Matyáše Korvína</h1>
+          <div class="section-sub">
+            Nejlépe doložený popis toho, jak byli čeští vojáci ozbrojení, vybavení a jak bojovali.
+          </div>
+        </section>
+
+        <section>
+          <h2>Černá rota — kontext</h2>
+          <span class="theme-tag">ORGANIZACE</span>
+          <ul>
+            <li>Stálá žoldnéřská armáda <strong>Matyáše Korvína</strong> (~1458–1494)</li>
+            <li>Počátek: <strong>500 těžkooděných jezdců</strong> zapůjčil Jiří z Poděbrad v roce 1458</li>
+            <li>1463 (mír ve Vídeňském Novém Městě): <strong>Jan Jiskra z Brandýsa</strong> přechází se svými do Matyášových služeb (25 000 dukátů odbytné)</li>
+            <li>Vrchol: přehlídka ve Vídni 1485 — <strong>~28 000 mužů</strong> (20 000 jezdců, 8 000 pěšáků)</li>
+            <li>Po Matyášově smrti (1490) <strong>vzpoura kvůli žoldu</strong>, rozprášena 1494</li>
+          </ul>
+          <div class="placeholder">
+            <span class="visual-marker">Vizuál:</span> Portrét Matyáše Korvína + rozsah jeho říše (mapa).
+            Zdroj: <code>CernaArmada.tsx</code> (~634 řádků).
+          </div>
+          <div class="timeline-footer">
+            <span>1434</span>
+            <div class="bar"><div class="marker" style="left: 26%"></div><div class="label" style="left: 26%">Černá rota</div></div>
+            <span>1526</span>
+          </div>
+        </section>
+
+        <section>
+          <h2>Český podíl v Černé rotě</h2>
+          <span class="theme-tag">ORGANIZACE</span>
+          <ul>
+            <li>„<strong>Vysoký po celou dobu... v některých obdobích, zejména v pěchotě, dokonce převažoval</strong>"</li>
+            <li>Pěchota 1479: <strong>16 000 mužů, z toho 10 000 z Čech a Moravy</strong>, 6 000 z Uher/Sedmihradska</li>
+            <li>Verbíři totožní jako v Soestu: <strong>Bedřich z Donína, Petr Holický ze Šternberka</strong> — stejná síť, větší kontrakt</li>
+            <li>Národnostní mix: Češi, Bavoři, Srbové (husaři), Poláci, Chorvati; po 1480 i Maďaři</li>
+          </ul>
+          <div class="placeholder">
+            <span class="visual-marker">Vizuál:</span> Rekonstrukční figurka českého žoldnéře (z webu) + iluminace z dobových uherských kronik.
+          </div>
+          <div class="timeline-footer">
+            <span>1434</span>
+            <div class="bar"><div class="marker" style="left: 26%"></div></div>
+            <span>1526</span>
+          </div>
+        </section>
+
+        <section>
+          <h2>Výzbroj — pěchota</h2>
+          <span class="theme-tag">VÝZBROJ</span>
+          <ul>
+            <li>Pavézníci, kopiníci, štítonoši, ruční střelci</li>
+            <li><strong>~25 % rotitistů s arkebuzami</strong> — extrémně vysoký poměr palných zbraní</li>
+            <li>Pro srovnání: západoevropská vojska 16. století mají standardně <strong>jen ~10 %</strong> ručních palných zbraní</li>
+            <li>Defenzivní princip: pěšáci s pavézami a hákovnicemi tvořili <strong>vozovou hradbu</strong> — husitský standard</li>
+          </ul>
+          <blockquote>
+            „<em>Armigeri apud nos muri loco habentur, qui nunquam se loco movent.</em>"<br />
+            (Těžkozbrojení jsou u nás považováni za zeď, která se z místa nikdy nepohne.)
+            <cite>Matyáš Korvín v dopise o své armádě</cite>
+          </blockquote>
+          <div class="timeline-footer">
+            <span>1434</span>
+            <div class="bar"><div class="marker" style="left: 26%"></div></div>
+            <span>1526</span>
+          </div>
+        </section>
+
+        <section>
+          <h2>Výzbroj — jízda</h2>
+          <span class="theme-tag">VÝZBROJ</span>
+          <ul>
+            <li><strong>Těžká jízda</strong> (převážně český původ): legie po ~100 mužích = 25členné turmy</li>
+            <li><strong>Lehká jízda</strong> (srbští husaři): průzkum, nárazové výpady, pronásledování</li>
+            <li>Standardní výzbroj těžké jízdy: kopí, meč, palcát, plátová zbroj</li>
+            <li>V přehlídce 1485 ve Vídni: <strong>20 000 jezdců : 8 000 pěších</strong> — jezdectvo dominovalo</li>
+          </ul>
+          <p style="color: var(--color-bezova); margin-top: 0.6em">
+            Černá armáda byla <strong>větší stálá žoldnéřská armáda než ta francouzského krále Ludvíka XI.</strong> — jediné dvě plně profesionální armády Evropy té doby.
+          </p>
+          <div class="timeline-footer">
+            <span>1434</span>
+            <div class="bar"><div class="marker" style="left: 26%"></div></div>
+            <span>1526</span>
+          </div>
+        </section>
+
+        <section>
+          <h2>Taktika Černé roty</h2>
+          <span class="theme-tag">TAKTIKA</span>
+          <ul>
+            <li><strong>Pěchota = stavba</strong>: pavézníci a hákovníci tvořili vozovou hradbu, „<em>clipei formant effigiem castelli</em>" (štíty tvoří podobu hradu)</li>
+            <li><strong>Lehká jízda</strong> (husaři) v nájezdech a průzkumu — flexibilní křídlo</li>
+            <li><strong>Těžká jízda</strong> rozhoduje bitvy nárazovým výpadem na rozvolněnou pěchotu</li>
+            <li>Odlišnost od švýcarského čtverce: <strong>kombinovaná zbraň</strong>, ne jednorozměrná pěchota</li>
+          </ul>
+          <div class="placeholder">
+            <span class="visual-marker">Vizuál:</span> Schéma bojové formace s rozlišením tří složek.
+          </div>
+          <div class="timeline-footer">
+            <span>1434</span>
+            <div class="bar"><div class="marker" style="left: 26%"></div></div>
+            <span>1526</span>
+          </div>
+        </section>
+
+        <section>
+          <h2>Klíčové kampaně</h2>
+          <span class="theme-tag">ORGANIZACE / TAKTIKA</span>
+          <ul>
+            <li><strong>Boje proti Janu Jiskrovi</strong> (1458–1462) — obsazení posledních bratřických hradů na Spiši a Pováží; po míru pak Jiskrovi muži přejdou do Černé roty</li>
+            <li><strong>Tažení do Bosny 1463</strong> — dobytí <strong>Jajce</strong>; vznik „jajeckého banátu", který blokuje osmanský postup</li>
+            <li><strong>Bitva u Valové 1470</strong>, <strong>Chlebové pole 1479</strong>, <strong>Leitzensdorf 1484</strong>, <strong>Thomaswalde 1488</strong> — přehlídka manévrovacího válčení proti Habsburkům i Polákům</li>
+            <li>Po Matyášově smrti 1490 se rota <strong>vzbouří kvůli žoldu</strong> a 1494 je uherským velmožstvem rozprášena</li>
+          </ul>
+          <div class="timeline-footer">
+            <span>1434</span>
+            <div class="bar"><div class="marker" style="left: 26%"></div></div>
+            <span>1526</span>
+          </div>
+        </section>
+
+        <section class="pull-quote">
+          <div class="quote">
+            „Černá rota je <strong>vrchol</strong> českého žoldnéřského řemesla.<br />
+            Po její vzpouře 1492 se trh rozpadne — ale řemeslo přežije."
+          </div>
+          <div class="attribution">
+            Bridging slide do další sekce.
+          </div>
+        </section>
+
+        <!-- ============================================ -->
+        <!-- SEKCE 6: ZEMSKÁ HOTOVOST                      -->
+        <!-- ============================================ -->
+        <section class="section-divider">
+          <div class="section-num">VI. — odbočka</div>
+          <h1>Zemská hotovost</h1>
+          <div class="section-sub">
+            Když nejsou peníze na žoldnéře, mobilizuje se země.
+          </div>
+        </section>
+
+        <section>
+          <h2>Co je zemská hotovost</h2>
+          <span class="theme-tag">ORGANIZACE</span>
+          <ul>
+            <li>Středověký <strong>obranný systém</strong> založený na povinnosti všech svobodných</li>
+            <li>Vyhlášena panovníkem nebo zemským sněmem v případě <strong>vnější hrozby</strong></li>
+            <li>Tři vrstvy: <strong>šlechta</strong> (těžká jízda), <strong>městské kontingenty</strong>, <strong>poddanské pohotovostní oddíly</strong></li>
+            <li>Teoreticky <strong>bezplatná</strong> — povinnost, ne kontrakt</li>
+          </ul>
+          <div class="placeholder">
+            <span class="visual-marker">Zdroj:</span> kniha v Google Docs (Martin doplní bibliografický záznam).
+          </div>
+        </section>
+
+        <section>
+          <h2>Co fungovalo, co ne</h2>
+          <span class="theme-tag">ORGANIZACE</span>
+          <ul>
+            <li>+ Dostupnost: <strong>velká masa mužů rychle</strong></li>
+            <li>+ Levně — bez žoldu</li>
+            <li>− Kvalita: <strong>nestandardní výcvik a výzbroj</strong></li>
+            <li>− Disciplína: po vyhlášení 30/40 dní → návrat domů, sklizeň, atd.</li>
+            <li>− Ne vždy se dostavili: vzpoury, vyhýbání, výmluvy</li>
+          </ul>
+          <div class="placeholder">
+            <span class="visual-marker">DOPLNIT z knihy:</span> konkrétní příklady — kdy zemská hotovost
+            zafungovala (např. proti Turkům?), kdy selhala (svolávání proti Matyášovi?).
+          </div>
+        </section>
+
+        <section>
+          <h2>Hotovost vs. žoldnéři</h2>
+          <span class="theme-tag">ORGANIZACE</span>
+          <table>
+            <thead>
+              <tr><th>Aspekt</th><th>Zemská hotovost</th><th>Žoldnéři</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Mobilizace</td><td>Týdny</td><td>Dny–týdny</td></tr>
+              <tr><td>Kvalita</td><td>Nerovnoměrná</td><td>Profesionální</td></tr>
+              <tr><td>Vydržení</td><td>30–40 dní</td><td>Délka kontraktu</td></tr>
+              <tr><td>Cena</td><td>Politická, nepřímá</td><td>Přímá, vysoká</td></tr>
+              <tr><td>Loajalita</td><td>K zemi</td><td>Ke smluvci</td></tr>
+            </tbody>
+          </table>
+          <div class="placeholder">
+            <span class="visual-marker">Pointa:</span> Oba systémy fungují <strong>paralelně</strong> celé období 1434–1526.
+            Žoldnéři expanduje, hotovost přežívá pro defenzivu.
+          </div>
+        </section>
+
+        <section>
+          <h2>Bridging do další části</h2>
+          <ul>
+            <li>Po vzpouře Černé roty 1492 se část jejích veteránů vrací <strong>do středoevropského trhu</strong></li>
+            <li>Dalším velkým zaměstnavatelem budou <strong>Wittelsbachové</strong> v Landshutské dědické válce</li>
+            <li>A tam přijde rok <strong>1504 — Schönberg</strong>, milník, kdy český žoldnéř na otevřeném poli proti rytířské jízdě</li>
+          </ul>
+        </section>
+
+        <!-- ============================================ -->
+        <!-- SEKCE 7: SCHÖNBERG                            -->
+        <!-- ============================================ -->
+        <section class="section-divider">
+          <div class="section-num">VII. — 12. září 1504</div>
+          <h1>Schönberg / Wenzenbach</h1>
+          <div class="section-sub">
+            Bitva, po které už čeští žoldnéři nejsou jen „dobré pomocné síly".
+          </div>
+        </section>
+
+        <section>
+          <h2>Schönberg — kontext</h2>
+          <span class="theme-tag">TAKTIKA / ORGANIZACE</span>
+          <ul>
+            <li>Součást <strong>Landshutské dědické války</strong> (1504–1505) — Wittelsbachové proti Wittelsbachům</li>
+            <li><strong>12. září 1504</strong>, u zámku Schönberg a vsi Wenzenbach severovýchodně od Řezna</li>
+            <li><strong>Falcký vévoda Ruprecht</strong> (s českými žoldnéři) <em>vs.</em> <strong>Albrecht IV. Mnichovský + král Maxmilián I.</strong> + Švábský spolek</li>
+            <li>Na obou stranách dohromady <strong>10 000–12 000 českých žoldnéřů</strong> v různých kontingentech — spojenci i nepřátelé</li>
+          </ul>
+          <div class="placeholder">
+            <span class="visual-marker">Vizuál:</span> Mapa okolí Řezna + zámek Schönberg.
+            Zdroj: <code>LandshutskaDedickaValka.tsx</code> (~734 řádků), sekce „Bitva u Schönbergu 12. září 1504".
+          </div>
+          <div class="timeline-footer">
+            <span>1434</span>
+            <div class="bar"><div class="marker" style="left: 76%"></div><div class="label" style="left: 76%">Schönberg</div></div>
+            <span>1526</span>
+          </div>
+        </section>
+
+        <section>
+          <h2>Velitelé českého kontingentu</h2>
+          <span class="theme-tag">PROFIL</span>
+          <ul>
+            <li><strong>Georg von Wispeck</strong> — vrchní velitel; v rozhodující chvíli <strong>opustil bojiště</strong> s 600 (některé zdroje 1 600) jezdci a stáhl se k Neuburgu</li>
+            <li><strong>Matyáš Libák z Radovesic</strong> — polní hejtman pěchoty, po útěku Wispecka <strong>převzal velení</strong> opuštěné pěchoty</li>
+            <li>Libák se z bitvy probil <strong>bez zranění</strong>, ale jeho hejtmani padli</li>
+            <li>Další doložení velitelé: <strong>Jan z Weitmile, Jindřich a Jetřich z Gutštejna, Albrecht ze Šternberka, Heřman Janovský z Janovic, Dobrohost z Ronšperka</strong></li>
+          </ul>
+          <div class="placeholder">
+            <span class="visual-marker">Vizuál:</span> erb pánů z Radovesic, případně portrét/epitaf jednoho z velitelů.
+          </div>
+          <div class="timeline-footer">
+            <span>1434</span>
+            <div class="bar"><div class="marker" style="left: 76%"></div></div>
+            <span>1526</span>
+          </div>
+        </section>
+
+        <section>
+          <h2>Bitva — průběh</h2>
+          <span class="theme-tag">TAKTIKA</span>
+          <ul>
+            <li>České vojsko: <strong>~3 000 pěších + 900 jezdců</strong> ve třech zástupech, sevřené mezi dvěma lesíky; vozová hradba u Hühnerbucklu <strong>nedokončena</strong></li>
+            <li>Maxmilián: ~4 000 pěších + 1 200 jezdců, polní dělostřelectvo, <strong>landsknechtský pluk Georga von Frundsberga</strong> s mušketami a hadicemi</li>
+            <li><strong>První útok</strong> markraběte Kazimíra Braniborského se 400 jezdci a 8 děly — pavézníci odrazili a vrhli se na jezdce</li>
+            <li>Maxmilián přivedl posily; <strong>kyrysníci roztrhli pavézy</strong>, landsknechti prolomili nedokončenou hradbu</li>
+            <li>Trvání: <strong>necelé dvě hodiny</strong>. Ztráty Čechů: <strong>1 600–2 500 padlých, 600–800 zajatých, 200–250 vozů ukořistěno</strong></li>
+          </ul>
+          <div class="placeholder">
+            <span class="visual-marker">Vizuál:</span> Schéma bitvy — tři zástupy, dva lesíky, koncentrický útok jízdy a landsknechtů.
+          </div>
+          <div class="timeline-footer">
+            <span>1434</span>
+            <div class="bar"><div class="marker" style="left: 76%"></div></div>
+            <span>1526</span>
+          </div>
+        </section>
+
+        <section>
+          <h2>Labutí píseň husitské tradice</h2>
+          <span class="theme-tag">SROVNÁNÍ SE ŠVÝCARY</span>
+          <p>
+            Schönberg = poslední velký střet, v němž bylo nasazeno české pěší vojsko se starou taktikou
+            <strong>pavézníků a vozové hradby</strong>. Dál už standardem jsou landsknechti.
+          </p>
+          <blockquote style="margin-top: 0.4em">
+            „Sekali jako divočáci, jejich křik byl strašný."<br />
+            „Bránili se rytířsky, bojovali jako lvi."
+            <cite>německé kroniky o českém kontingentu</cite>
+          </blockquote>
+          <p style="margin-top: 0.4em">
+            Čechové prokázali <strong>schopnost odolat těžké jízdě i landsknechtské pěchotě</strong> v otevřeném poli — i když nakonec poraženi. Současně poslední demonstrace husitského tvaru: po Schönbergu se Češi přizpůsobí, převezmou pikenýrskou píku a hákovnice začnou tvořit páteř formace.
+          </p>
+          <div class="timeline-footer">
+            <span>1434</span>
+            <div class="bar"><div class="marker" style="left: 76%"></div></div>
+            <span>1526</span>
+          </div>
+        </section>
+
+        <!-- ============================================ -->
+        <!-- SEKCE 8: ORŠA                                 -->
+        <!-- ============================================ -->
+        <section class="section-divider">
+          <div class="section-num">VIII. — 8. září 1514</div>
+          <h1>Bitva u Orše</h1>
+          <div class="section-sub">
+            Vrchol české pěchotní syntézy, doložený dobovým vyobrazením.
+          </div>
+        </section>
+
+        <section>
+          <h2>Orša — kontext</h2>
+          <span class="theme-tag">TAKTIKA</span>
+          <ul>
+            <li><strong>8. září 1514</strong> na Dněpru u Orše (dnes Bělorusko)</li>
+            <li>Součást <strong>Čtvrté litevsko-moskevské války</strong> (1512–1522); pozadí — pád Smolenska 30. července 1514</li>
+            <li>Polsko-litevská armáda <strong>(velký litevský hejtman Konstantin Ostrožský)</strong>: 12–16 000 mužů</li>
+            <li>Moskevská armáda (kníže <strong>Ivan Čeljadnin</strong>): 12–35 000 mužů (odhady kolísají)</li>
+            <li>V polsko-litevském vojsku ~3 000 nájemných pěších, z toho <strong>nejméně polovina Čechů a Moravanů</strong></li>
+          </ul>
+          <div class="placeholder">
+            <span class="visual-marker">Vizuál:</span> Mapa horního Dněpru, schéma Ostrožského překroku přes pontonové mosty.
+            Zdroj: <code>CtvrtaLitevskoMoskevska.tsx</code>.
+          </div>
+          <div class="timeline-footer">
+            <span>1434</span>
+            <div class="bar"><div class="marker" style="left: 87%"></div><div class="label" style="left: 87%">Orša</div></div>
+            <span>1526</span>
+          </div>
+        </section>
+
+        <section>
+          <h2>Obraz Bitvy u Orše</h2>
+          <span class="theme-tag">PRAMEN</span>
+          <ul>
+            <li><strong>Národní muzeum ve Varšavě</strong>, inv. č. MP 2475; vznik <strong>kolem 1525–1530</strong></li>
+            <li>Připisován <strong>Hansi Krellovi</strong> nebo „Mistru Bitvy u Orše"</li>
+            <li>Pravděpodobně objednaný triumfální propagandou Zikmunda I. Starého — <strong>vítězství mělo zastínit ztrátu Smolenska</strong></li>
+            <li>Obsahuje: husitsky inspirovanou pěchotu s <strong>hákovnicemi a pikami</strong>, vozové vagenburgy, polní dělostřelectvo — <strong>nejcennější ikonografický pramen</strong> k podobě středoevropské pěchoty počátku 16. století</li>
+          </ul>
+          <div class="placeholder">
+            <span class="visual-marker">Vizuál — KLÍČOVÝ:</span> reprodukce obrazu Bitva u Orše ve velké velikosti, výřez na pěchotní útvar (polovina obrazu) — ten by měl zabírat <strong>~70 % plochy slidu</strong>.
+          </div>
+          <div class="timeline-footer">
+            <span>1434</span>
+            <div class="bar"><div class="marker" style="left: 87%"></div></div>
+            <span>1526</span>
+          </div>
+        </section>
+
+        <section>
+          <h2>Manévr u Orše</h2>
+          <span class="theme-tag">TAKTIKA</span>
+          <ol>
+            <li>Ostrožský provede <strong>noční přepravu pontonovými mosty</strong> přes Dněpr — taktické překvapení</li>
+            <li><strong>Předstíraný ústup centra</strong> vyprovokoval moskevskou jízdu k frontálnímu útoku</li>
+            <li>Moskevská jízda vletěla do mezery → <strong>boční palba dělostřelectva a hákovnic</strong> z polních opevnění</li>
+            <li>Centrum se obrátilo k protiútoku, jezdecká křídla obklíčila Moskvany k řece Krapivně</li>
+            <li>Mnoho Moskvanů utopeno; do zajetí kníže <strong>Ivan Čeljadnin, Michail Bulgakov-Golica, Ivan Pronskij</strong> + 380 šlechticů</li>
+          </ol>
+          <p style="margin-top: 0.5em; color: var(--color-bezova)">
+            Tentýž manévr <strong>jako u Lipan a Želenic</strong> — předstíraný ústup pěchoty, úder z boku.
+            Po 80 letech, na druhém konci Evropy, jiným vojskem.
+          </p>
+          <div class="timeline-footer">
+            <span>1434</span>
+            <div class="bar"><div class="marker" style="left: 87%"></div></div>
+            <span>1526</span>
+          </div>
+        </section>
+
+        <section>
+          <h2>Co Orša znamenala</h2>
+          <span class="theme-tag">SROVNÁNÍ SE ŠVÝCARY</span>
+          <ul>
+            <li>Drtivé vítězství navzdory přesile; kombinace <strong>česko-moravská pěchota + polská jízda + dělostřelectvo</strong> funguje synergicky</li>
+            <li>Strategicky <strong>Smolensk zůstal moskevský</strong> až do roku 1611 — politický rozpor mezi triumfální propagandou a faktickou ztrátou</li>
+            <li>Zikmund I. rozeslal <strong>triumfální listy do celé Evropy</strong> včetně papeže Lva X.</li>
+            <li>Pro češství: <strong>vrchol pěchotní reputace</strong> — Češi v polské službě jsou rovni elitě nájemné pěchoty</li>
+            <li>Veteráni Orše se objevují v žoldnéřských rolích obrany Sedmihradska <strong>i po Moháči 1526</strong></li>
+          </ul>
+          <div class="timeline-footer">
+            <span>1434</span>
+            <div class="bar"><div class="marker" style="left: 87%"></div></div>
+            <span>1526</span>
+          </div>
+        </section>
+
+        <!-- ============================================ -->
+        <!-- SEKCE 9: MOHÁČ                                -->
+        <!-- ============================================ -->
+        <section class="section-divider">
+          <div class="section-num">IX. — 29. srpna 1526</div>
+          <h1>Bitva u Moháče</h1>
+          <div class="section-sub">
+            Konec éry. Co z českého žoldnéřského řemesla v Moháči ještě zaznělo, kde už zmlklo.
+          </div>
+        </section>
+
+        <section>
+          <h2>Moháč — kontext</h2>
+          <span class="theme-tag">KONEC ÉRY</span>
+          <ul>
+            <li><strong>29. srpna 1526</strong>, jižní Uhry u řeky Csele</li>
+            <li>Osmani (Sulejman Nádherný): <strong>50–100 000 mužů, 160–300 děl</strong></li>
+            <li>Uhři (Ludvík II. Jagellonský, vrchní velitel arcibiskup <strong>Pavel Tomori</strong>): 25–30 000 mužů, 85 děl</li>
+            <li><strong>Sedmihradský</strong> kontingent <strong>Jana Zápolského</strong> a <strong>chorvatské</strong> vojsko Krištofa Frankopana <strong>nedorazily</strong>; také hlavní český kontingent <strong>Jindřicha z Plavna</strong> přišel pozdě</li>
+          </ul>
+          <div class="placeholder">
+            <span class="visual-marker">Vizuál:</span> Mapa Uher s Moháčem + osmanský půlměsíc.
+            Zdroj: <code>BitvaUMohace.tsx</code>.
+          </div>
+          <div class="timeline-footer">
+            <span>1434</span>
+            <div class="bar"><div class="marker" style="left: 100%"></div><div class="label" style="left: 100%">Mohács</div></div>
+            <span>1526</span>
+          </div>
+        </section>
+
+        <section>
+          <h2>Český podíl v Moháči</h2>
+          <span class="theme-tag">KONEC ÉRY</span>
+          <ul>
+            <li>Doložení čeští a moravští žoldnéři: <strong>několik set až tisíc mužů</strong> — pěchota s palnými zbraněmi a kušemi</li>
+            <li>Hlavní český kontingent (Jindřich z Plavna) <strong>vyhlášen pozdě</strong> — české panstvo a moravské stavy mobilizovaly opožděně</li>
+            <li>Mezi padlými <strong>čeští šlechtici v Ludvíkově družině</strong>; očitý svědek <strong>Stjepan Brodarić</strong> (kancléř, autor zprávy De conflictu Hungarorum)</li>
+            <li>Brodarić uvádí celkem ~14 000 padlé pěchoty + 4 000 jezdců; následně 2 000 zajatců popraveno</li>
+            <li>Sulejmanův manévr: <strong>řízený ústup centra v půlměsíci</strong>, palba janičářských mušket a děl spojených řetězy, obkličování křídly</li>
+          </ul>
+          <div class="timeline-footer">
+            <span>1434</span>
+            <div class="bar"><div class="marker" style="left: 100%"></div></div>
+            <span>1526</span>
+          </div>
+        </section>
+
+        <section>
+          <h2>Co skončilo, co přežilo</h2>
+          <span class="theme-tag">SYNTÉZA</span>
+          <ul>
+            <li><strong>Ludvík utonul v rozvodněném potoce Csele</strong> — bez dědice. Konec Jagellonců v Uhrách a Čechách</li>
+            <li>Po komplikovaných jednáních <strong>Ferdinand I. Habsburský</strong> přebírá českou i (sporně) uherskou korunu</li>
+            <li>Trojí rozdělení Uher (habsburská, osmanská, sedmihradská) — přežije <strong>do konce 17. století</strong></li>
+            <li><strong>Český sněm od 1527: každoroční „turecký peníz"</strong> (contributio in Turcam) na žold vojáků na uherské hranici</li>
+            <li>Čeští žoldnéři se asimilují do habsburského systému; samostatná česká „značka" mizí, <strong>profesní étos a taktické prvky přežívají</strong></li>
+          </ul>
+          <div class="timeline-footer">
+            <span>1434</span>
+            <div class="bar"><div class="marker" style="left: 100%"></div></div>
+            <span>1526</span>
+          </div>
+        </section>
+
+        <!-- ============================================ -->
+        <!-- SEKCE 10: SYNTÉZA                             -->
+        <!-- ============================================ -->
+        <section class="section-divider">
+          <div class="section-num">X.</div>
+          <h1>Syntéza</h1>
+          <div class="section-sub">
+            Návrat ke třem analytickým tématům — bez nových faktů, jen rekapitulace přes case studies.
+          </div>
+        </section>
+
+        <section>
+          <h2>Tři osy, devět zastávek</h2>
+          <table>
+            <thead>
+              <tr><th>Case study</th><th>Organizace</th><th>Taktika</th><th>Švýcaři</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Lipany 1434</td><td>—</td><td>★</td><td>—</td></tr>
+              <tr><td>Želenice 1438</td><td>—</td><td>★</td><td>—</td></tr>
+              <tr><td>Soestská zášť 1444</td><td>★</td><td>—</td><td>—</td></tr>
+              <tr><td>Waldshut 1468</td><td>—</td><td>—</td><td>★</td></tr>
+              <tr><td>Černá rota 1458–90</td><td>★</td><td>★</td><td>—</td></tr>
+              <tr><td>Zemská hotovost</td><td>★</td><td>—</td><td>—</td></tr>
+              <tr><td>Schönberg 1504</td><td>—</td><td>★</td><td>★</td></tr>
+              <tr><td>Orša 1514</td><td>—</td><td>★</td><td>★</td></tr>
+              <tr><td>Mohács 1526</td><td>★</td><td>★</td><td>—</td></tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section>
+          <h2>Červená nit: předstíraný ústup</h2>
+          <span class="theme-tag">TAKTIKA</span>
+          <ul>
+            <li><strong>1434 Lipany</strong> — Diviš Bořek vyláká polní obce z hradby; Krchlebcova jízda úder z boku</li>
+            <li><strong>1438 Želenice</strong> — husitská pěchota tentýž manévr proti Albrechtovi II.</li>
+            <li><strong>1514 Orša</strong> — Ostrožského centrum předstírá ústup, dělostřelectvo udeří do mezery</li>
+            <li><strong>1526 Moháč</strong> — Sulejman tentýž princip v půlměsíci proti uherské jízdě</li>
+          </ul>
+          <p style="margin-top: 0.5em; color: var(--color-bezova)">
+            Stejný taktický motiv napříč 92 lety, různými vojsky, různými stranami konfliktu. Husitské
+            know-how se <strong>rozšířilo a internalizovalo</strong> jako standardní nástroj středoevropského válečnictví.
+          </p>
+        </section>
+
+        <section>
+          <h2>Závěr — tři teze</h2>
+          <ul>
+            <li><strong>Organizace.</strong> Žoldnéřský trh a zemská hotovost běží paralelně po celé období. Trh roste a profesionalizuje, hotovost přežívá pro defenzivu země.</li>
+            <li><strong>Taktika.</strong> Husitské dědictví — kombinace pěchoty, palné zbraně a jízdy — se transformuje, ale neztrácí. Vidíme ho od Lipan po Mohács.</li>
+            <li><strong>Vůči Švýcarům</strong> drží Češi <em>jinou značku</em>: víc střelců, kombinovaná zbraň, kontraktní logika. Ne nutně horší — jen jiná.</li>
+          </ul>
+        </section>
+
+        <section class="pull-quote">
+          <div class="quote">
+            „<strong>České vojenské řemeslo</strong> bylo nadprůměrně rozšířenou,<br />
+            ekonomicky významnou a takticky koherentní silou<br />
+            ve středoevropském prostoru."
+          </div>
+          <div class="attribution">
+            Hlavní pointa přednášky.
+          </div>
+        </section>
+
+        <section class="title-slide">
+          <h2 style="margin-bottom: 1em">Děkuji.</h2>
+          <p style="color: var(--color-muted); font-size: 0.85em">
+            Materiál a citace: <em>tyrovsti.cz</em><br />
+            <em>Q&amp;A</em>
+          </p>
+        </section>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.js"></script>
+    <script>
+      Reveal.initialize({
+        hash: true,
+        slideNumber: 'c/t',
+        transition: 'fade',
+        transitionSpeed: 'fast',
+        backgroundTransition: 'fade',
+        controls: true,
+        progress: true,
+        center: false,
+        width: 1400,
+        height: 850,
+        margin: 0.04,
+      })
+    </script>
+  </body>
+</html>
