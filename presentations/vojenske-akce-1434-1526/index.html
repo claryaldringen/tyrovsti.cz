@@ -274,19 +274,27 @@
         flex-direction: column;
         height: 100%;
         box-sizing: border-box;
+        overflow: hidden;
       }
       .gantt-slide h2 {
         font-size: 1.1em;
         margin-bottom: 0.1em;
+        flex-shrink: 0;
       }
       .gantt-slide .gantt-caption {
-        font-size: 0.6em;
+        font-size: 0.55em;
         color: var(--color-muted);
-        margin-bottom: 0.4em;
+        margin-bottom: 0.3em;
+        flex-shrink: 0;
       }
-      .gantt-slide .gantt { flex: 1; }
-      .gantt-cz .gantt { --row-h: 1.1em; --label-col-default: 260px; font-size: 0.46em; }
-      .gantt-foreign .gantt { --row-h: 1em; --label-col-default: 280px; font-size: 0.34em; }
+      .gantt-slide .gantt {
+        flex: 1 1 auto;
+        min-height: 0;
+        overflow: hidden;
+      }
+      .gantt-slide .gantt-legend { flex-shrink: 0; }
+      .gantt-cz .gantt { --row-h: 1em; --label-col-default: 340px; font-size: 0.42em; }
+      .gantt-foreign .gantt { --row-h: 0.95em; --label-col-default: 290px; font-size: 0.32em; }
       .gantt {
         display: grid;
         grid-template-columns: var(--label-col, var(--label-col-default, 240px)) repeat(93, 1fr);
@@ -416,7 +424,7 @@
         <section class="gantt-slide gantt-cz">
           <h2>Časová osa: české vojenské akce 1434–1526</h2>
           <div class="gantt-caption">47 doložených konfliktů v Českých zemích (s případným přesahem do Říše a Uher).</div>
-          <div class="gantt" style="--label-col: 240px;">
+          <div class="gantt">
             <div class="gantt-header">
               <div class="gantt-label-h"></div>
               <div class="gantt-decade" style="grid-column: 2 / span 6;">1434</div>
@@ -630,7 +638,7 @@
         <section class="gantt-slide gantt-foreign">
           <h2>Časová osa: zahraniční akce 1434–1526</h2>
           <div class="gantt-caption">Všech 68 zahraničních konfliktů ve středoevropském prostoru. <span class="gantt-legend-merc">označuje doloženou účast českých žoldnéřů</span> (zdroj: Tresp 2004) — celkem 17 z 68.</div>
-          <div class="gantt" style="--label-col: 270px;">
+          <div class="gantt">
             <div class="gantt-header">
               <div class="gantt-label-h"></div>
               <div class="gantt-decade" style="grid-column: 2 / span 6;">1434</div>
