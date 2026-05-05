@@ -91,3 +91,31 @@ Po doplnění nové statistiky:
 | **Celkem** | 22/115 = 19 % | **32/115 = 28 %** |
 
 Vyplývá z: kontroly statistik pro slide 5 prezentace, 5. 5. 2026, doplněno subagentem po průchodu uherských článků.
+
+## 2026-05-05 — Pohltit Bitvu u Moháče do Osmansko-uherské 1521–1526
+
+`bitva-u-mohace` (1526) je v `casovaOsaData.ts` jako samostatný `Conflict`, ale logicky patří **dovnitř** `osmansko-uherska-valka-1521-1526` jako vrcholná bitva tažení (paralela: Schönberg je pod Landshutskou dědickou, Orša pod Čtvrtou litevsko-moskevskou — neexistují jako samostatné položky časové osy).
+
+Návrh:
+
+- Odebrat `bitva-u-mohace` z pole `CONFLICTS`.
+- Odpovídající stránku `pages/prehled-vojenskych-akci/bitva-u-mohace.tsx` ponechat / nebo přesměrovat redirectem na `osmansko-uherska-valka-1521-1526` v `next.config.js`.
+- Obsah `BitvaUMohace.tsx` integrovat do `OsmanskoUherskaValka15211526.tsx` jako samostatnou H3 sekci „Bitva u Moháče 29. srpna 1526".
+- Klíč `'bitva-u-mohace'` z `CZECH_MERCENARIES` odebrat (česká účast u Moháče je pak součástí klíče `'osmansko-uherska-valka-1521-1526'`, který má být přidán — viz výše).
+
+Vyplývá z: kontroly konzistence časové osy — Mohács by neměl trčet samostatně, když jiné velké bitvy tohoto typu jsou „uvnitř" svých válek.
+
+## 2026-05-05 — Sloučit region `osmani` do `uhry`
+
+V `casovaOsaData.ts` je v `Region` typu i v `REGION_LABELS` / `REGION_COLORS` samostatný region `'osmani'`. V tomto historickém období ale veškeré osmanské vojenské aktivity v středoevropském prostoru spadají do **uherského kontextu** (uhersko-osmanské války, obrana uherské hranice) — `'osmani'` jako samostatný region není analyticky užitečný a tříští statistiky.
+
+Návrh:
+
+- Z `Region` typu odebrat `'osmani'`.
+- Z `REGION_LABELS`, `REGION_COLORS` odebrat odpovídající záznamy.
+- V `CONFLICTS` projít všechny položky a v `regions` nahradit `'osmani'` za `'uhry'` (s deduplikací, pokud už `uhry` v poli je).
+- Přepočítat / aktualizovat legendu na frontend Gantt komponentě.
+
+Po sloučení Uhry pohlcují 5 osmani-only konfliktů (např. Osmanské tažení do Sedmihradska 1438, Osmanské dobytí Bosny atd.) → Uhry mají 28 konfliktů, z toho 15 s českou účastí (54 %).
+
+Vyplývá z: kontroly statistik pro slide 5 prezentace, 5. 5. 2026.
