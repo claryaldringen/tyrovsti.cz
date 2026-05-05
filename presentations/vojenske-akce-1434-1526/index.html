@@ -267,6 +267,50 @@
 
       .reveal .progress { color: var(--color-accent); }
 
+      /* Two-column bitva layout */
+      .bitvy-slide { padding: 0.8em 1.4em !important; }
+      .bitvy-slide h2 { margin-bottom: 0.2em; }
+      .bitvy-lead {
+        color: var(--color-bezova);
+        font-size: 0.78em;
+        margin-bottom: 0.8em;
+        max-width: 50em;
+      }
+      .bitvy-col {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1.5em;
+      }
+      .bitva h3 {
+        font-family: 'Cinzel', serif;
+        color: var(--color-gold);
+        border-bottom: 1px solid rgba(196, 168, 92, 0.4);
+        padding-bottom: 0.2em;
+        margin-bottom: 0.4em;
+        font-size: 0.95em;
+      }
+      .bitva-meta {
+        font-size: 0.65em;
+        color: var(--color-muted);
+        line-height: 1.4;
+        margin-bottom: 0.5em;
+      }
+      .bitva ol {
+        font-size: 0.7em;
+        line-height: 1.35;
+        padding-left: 1.4em;
+      }
+      .bitva ol li { margin-bottom: 0.3em; padding-left: 0; }
+      .bitva ol li::before { content: none; }
+      .bitva-foot {
+        font-size: 0.62em;
+        color: var(--color-muted);
+        font-style: italic;
+        margin-top: 0.5em;
+        padding-top: 0.4em;
+        border-top: 1px solid rgba(196, 168, 92, 0.18);
+      }
+
       /* Gantt timeline */
       .gantt-slide {
         padding: 0.4em 0.8em !important;
@@ -961,87 +1005,38 @@
           </div>
         </section>
 
-        <section>
-          <h2>Lipany 1434 — kontext</h2>
-          <span class="theme-tag">TAKTIKA</span>
-          <ul>
-            <li><strong>30. května 1434</strong> mezi vsí Hřiby a Lipskou horou východně od Českého Brodu</li>
-            <li>Panská jednota (<strong>Diviš Bořek z Miletínka</strong>): 12–13 000 pěších, 1 200 jezdců, <strong>720 vozů</strong></li>
-            <li>Polní obce táborů a sirotků (<strong>Prokop Holý</strong>): 9–10 000 pěších, 700 jezdců, 480–600 vozů</li>
-            <li>Po bitvě v kraji <strong>tisíce vycvičených bojovníků bez práce</strong> — bod zrodu česky mluvícího pozdně-středověkého žoldnéřství</li>
-          </ul>
-          <div class="placeholder">
-            <span class="visual-marker">Vizuál:</span> Mapa Čech s vyznačením Lipan + zjednodušené schéma bitvy.
-            Zdroj: <code>BitvaULipan.tsx</code> + <code>DoznivaniHusitskychValek.tsx</code>.
+        <section class="bitvy-slide">
+          <h2>Lipany &amp; Želenice — tentýž manévr</h2>
+          <p class="bitvy-lead">Předstíraný ústup pěchoty + úder jízdy z boku. Pozdně-husitské taktické know-how, které tu vidíme <strong>na obou stranách barikády</strong> v rozmezí čtyř let.</p>
+          <div class="bitvy-col">
+            <div class="bitva">
+              <h3>Lipany — 30. května 1434</h3>
+              <p class="bitva-meta"><strong>Diviš Bořek z&nbsp;Miletínka</strong> (panská jednota, 12–13 000 pěch., 1 200 jezd., 720 vozů) <em>vs.</em> <strong>Prokop Holý</strong> (polní obce, 9–10 000 pěch., 700 jezd., 480–600 vozů)</p>
+              <ol>
+                <li>Dělostřelecká přestřelka, polní obce za vozovou hradbou</li>
+                <li>Diviš Bořek <strong>předstíraný útok a stažení</strong></li>
+                <li>Polní obce vyrazí z hradby; vlastní jezdci jim výpadem <strong>rozporcují řady</strong></li>
+                <li><strong>Krchlebcova jízda</strong> přes údolí Bylanky, úder z boku do otevřené hradby</li>
+                <li>Polní obce zhroutí: <strong>1 300 padlých</strong>, 700 zajatců upáleno; Prokop Holý padl</li>
+              </ol>
+              <p class="bitva-foot">Tisíce vycvičených bojovníků bez práce → bod zrodu pozdně-středověkého česky mluvícího žoldnéřství.</p>
+            </div>
+            <div class="bitva">
+              <h3>Želenice — 23. září 1438</h3>
+              <p class="bitva-meta"><strong>Polsko-husitské vojsko</strong> (Mikuláš Sokol z&nbsp;Lamberka, podpora Kazimíra Jagellonského) <em>vs.</em> vojsko <strong>Albrechta II. Habsburského</strong> v&nbsp;rámci bojů o&nbsp;český trůn po Zikmundovi.</p>
+              <ol>
+                <li>Albrechtovo vojsko v&nbsp;defenzivní pozici, čeká útok</li>
+                <li>Husitská pěchota <strong>předstírá ústup</strong></li>
+                <li>Albrechtovi jezdci pronásledují, <strong>rozpadají si formaci</strong></li>
+                <li>Husitská jízda <strong>úder do rozvolněné formace</strong></li>
+                <li>Albrechtovo vojsko rozprášeno</li>
+              </ol>
+              <p class="bitva-foot">Stejný vzorec, otočené strany. Husitské know-how přežívá rozpad polních obcí a stane se standardem.</p>
+            </div>
           </div>
           <div class="timeline-footer">
             <span>1434</span>
-            <div class="bar"><div class="marker" style="left: 0%"></div><div class="label" style="left: 0%">Lipany</div></div>
-            <span>1526</span>
-          </div>
-        </section>
-
-        <section>
-          <h2>Lipany 1434 — manévr</h2>
-          <span class="theme-tag">TAKTIKA</span>
-          <ol style="counter-reset: step;">
-            <li><strong>Dělostřelecká přestřelka</strong>; polní obce za vozovou hradbou v defenzivním postavení</li>
-            <li>Diviš Bořek nasadí <strong>předstíraný útok a stažení</strong></li>
-            <li>Polní obce vyrazí z hradby pronásledovat; <strong>vlastní jezdci jim při výpadu rozporcují řady</strong></li>
-            <li><strong>Krchlebcova jízda</strong> přeletí přes údolí Bylanky, vpadne do otevřené hradby z boku</li>
-            <li>Polní obce zhroutí; <strong>1 300 padlých v boji, 700 zajatců upáleno</strong> u Českého Brodu (Prokop Holý padl); panská jednota: ~200 padlých</li>
-          </ol>
-          <div class="placeholder">
-            <span class="visual-marker">Vizuál:</span> Schéma bitvy ve třech krocích (vozová hradba → výpad → Krchlebcův úder z boku).
-          </div>
-          <div class="placeholder">
-            <span class="visual-marker">Pointa:</span> „taktická léčka" se vrací v <strong>Želenicích, u Orše i u Moháče</strong> — předstíraný ústup je páteř bojišť 1434–1526 (i protivník Čechů ji použije proti Maďarům).
-          </div>
-          <div class="timeline-footer">
-            <span>1434</span>
-            <div class="bar"><div class="marker" style="left: 0%"></div></div>
-            <span>1526</span>
-          </div>
-        </section>
-
-        <section>
-          <h2>Želenice 1438 — kontext</h2>
-          <span class="theme-tag">TAKTIKA</span>
-          <ul>
-            <li><strong>23. září 1438</strong> u Želenic na Mostecku</li>
-            <li>Polsko-husitské vojsko (<strong>Mikuláš Sokol z Lamberka</strong>, podpora Kazimíra Jagellonského) <em>vs.</em> vojsko Albrechta II. Habsburského</li>
-            <li>Kontext: <strong>boje o český trůn</strong> po smrti Zikmunda — polsko-husitská strana proti Habsburkovi</li>
-          </ul>
-          <div class="placeholder">
-            <span class="visual-marker">Vizuál:</span> Mapa severozápadních Čech s vyznačením Želenic. Zdroj: cs.wikipedia.org/wiki/Bitva_u_Želenic.
-          </div>
-          <div class="timeline-footer">
-            <span>1434</span>
-            <div class="bar"><div class="marker" style="left: 4.3%"></div><div class="label" style="left: 4.3%">Želenice</div></div>
-            <span>1526</span>
-          </div>
-        </section>
-
-        <section>
-          <h2>Želenice 1438 — tentýž manévr</h2>
-          <span class="theme-tag">TAKTIKA</span>
-          <ul>
-            <li>Albrechtovo vojsko v defenzivní pozici, čeká útok</li>
-            <li>Husitská <strong>pěchota provede předstíraný ústup</strong></li>
-            <li>Albrechtovi jezdci vyrazí pronásledovat — <strong>rozpadnou si formaci</strong></li>
-            <li>Husitská <strong>jízda udeří do rozvolněného protivníka</strong> a rozprášila ho</li>
-          </ul>
-          <div class="placeholder">
-            <span class="visual-marker">Pointa:</span> stejný taktický vzorec jako u Lipan, jen s otočenými stranami.
-            Předstíraný ústup pěchoty + úder jízdy je <strong>pozdně-husitský standard</strong>, který přežívá rozpad polních obcí.
-          </div>
-          <div class="placeholder">
-            <span class="visual-marker">Bridging slide do další sekce:</span> Po Želenicích husitští veteráni nemají kde válčit doma.
-            Začnou prodávat své umění do ciziny — vstup na trh.
-          </div>
-          <div class="timeline-footer">
-            <span>1434</span>
-            <div class="bar"><div class="marker" style="left: 4.3%"></div></div>
+            <div class="bar"><div class="marker" style="left: 0%"></div><div class="label" style="left: 0%">Lipany</div><div class="marker" style="left: 4.3%"></div><div class="label" style="left: 4.3%">Želenice</div></div>
             <span>1526</span>
           </div>
         </section>
