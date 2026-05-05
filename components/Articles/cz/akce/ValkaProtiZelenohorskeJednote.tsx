@@ -148,7 +148,7 @@ export const ValkaProtiZelenohorskeJednote = ({ draft }: ArticleProps) => (
           na Moravu na jaře 1468.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://archive.org/details/geschichtederst02kunigoog"
+            href="https://archive.org/details/diestadtnrnberg00schugoog"
           />
         </p>
         <p>
@@ -159,7 +159,7 @@ export const ValkaProtiZelenohorskeJednote = ({ draft }: ArticleProps) => (
           Hájek z Libočan v <i>Kronice české</i> (1541).
           <Qt
             publication={PUBLICATIONS.STARI_LETOPISOVE}
-            href="https://archive.org/details/staricesti"
+            href="https://archive.org/details/scriptorumrerum02unkngoog"
           />
         </p>
         <p>
@@ -190,7 +190,7 @@ export const ValkaProtiZelenohorskeJednote = ({ draft }: ArticleProps) => (
           níž se broušily polní techniky pozdější Černé armády.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://cs.wikipedia.org/wiki/V%C3%A1clav_Vl%C4%8Dek_z_%C4%8Cenova"
+            href="https://cs.wikipedia.org/wiki/Zelenohorsk%C3%A1_jednota"
           />
         </p>
       </Col>

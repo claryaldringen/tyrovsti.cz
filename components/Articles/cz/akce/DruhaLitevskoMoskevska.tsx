@@ -46,7 +46,7 @@ export const DruhaLitevskoMoskevska = ({ draft }: ArticleProps) => (
           Moskvy.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://en.wikipedia.org/wiki/Muscovite%E2%80%93Lithuanian_War_(1500%E2%80%931503)"
+            href="https://en.wikipedia.org/wiki/Muscovite%E2%80%93Lithuanian_Wars"
           />
         </p>
         <p>
@@ -59,7 +59,7 @@ export const DruhaLitevskoMoskevska = ({ draft }: ArticleProps) => (
           Polsku, ve Slezsku a v českých zemích.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://de.wikipedia.org/wiki/Litauisch-Russischer_Krieg_(1500%E2%80%931503)"
+            href="https://de.wikipedia.org/wiki/Russisch-Litauische_Kriege"
           />
         </p>
       </Col>
@@ -93,7 +93,7 @@ export const DruhaLitevskoMoskevska = ({ draft }: ArticleProps) => (
           Moskvě těžkou porážku, ale celkový průběh války tím obrátit nedokázal.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://en.wikipedia.org/wiki/Muscovite%E2%80%93Lithuanian_War_(1500%E2%80%931503)"
+            href="https://en.wikipedia.org/wiki/Muscovite%E2%80%93Lithuanian_Wars"
           />
         </p>
       </Col>
@@ -113,7 +113,7 @@ export const DruhaLitevskoMoskevska = ({ draft }: ArticleProps) => (
           moci pod titulem „velkokníže veškeré Rusi&ldquo;.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://de.wikipedia.org/wiki/Litauisch-Russischer_Krieg_(1500%E2%80%931503)"
+            href="https://de.wikipedia.org/wiki/Russisch-Litauische_Kriege"
           />
         </p>
       </Col>
@@ -154,7 +154,7 @@ export const DruhaLitevskoMoskevska = ({ draft }: ArticleProps) => (
           />
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://en.wikipedia.org/wiki/Voskresensk_Chronicle"
+            href="https://en.wikipedia.org/wiki/Rus%27_chronicles"
           />
         </p>
         <h5>Účast českých žoldnéřů</h5>
@@ -183,7 +183,7 @@ export const DruhaLitevskoMoskevska = ({ draft }: ArticleProps) => (
           Orši roku 1514, kde se osobně účastnili odvety za porážku z roku 1500.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://en.wikipedia.org/wiki/Muscovite%E2%80%93Lithuanian_War_(1500%E2%80%931503)"
+            href="https://en.wikipedia.org/wiki/Muscovite%E2%80%93Lithuanian_Wars"
           />
         </p>
       </Col>

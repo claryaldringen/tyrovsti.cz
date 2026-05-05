@@ -58,7 +58,7 @@ export const KnezskaValka = ({ draft }: ArticleProps) => (
           <b>Vincence Kełbasu</b>; papež Pavel II. však potvrdil Tüngena.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://de.wikipedia.org/wiki/Pfaffenkrieg_(Ermland)"
+            href="https://de.wikipedia.org/wiki/Preu%C3%9Fischer_Pfaffenkrieg"
           />
         </p>
         <h5>Průběh sporu</h5>
@@ -87,7 +87,7 @@ export const KnezskaValka = ({ draft }: ArticleProps) => (
           Orneta) a dílčích polních střetnutí.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://de.wikipedia.org/wiki/Pfaffenkrieg_(Ermland)"
+            href="https://de.wikipedia.org/wiki/Preu%C3%9Fischer_Pfaffenkrieg"
           />
         </p>
         <h5>Smlouva v Piotrkowě (1479)</h5>
@@ -118,7 +118,7 @@ export const KnezskaValka = ({ draft }: ArticleProps) => (
           století.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://de.wikipedia.org/wiki/Pfaffenkrieg_(Ermland)"
+            href="https://de.wikipedia.org/wiki/Preu%C3%9Fischer_Pfaffenkrieg"
           />
         </p>
         <h5>Primární prameny</h5>
@@ -142,7 +142,7 @@ export const KnezskaValka = ({ draft }: ArticleProps) => (
           <i>Annales Toruniensis</i> a kronika kapitulního děkana Brunsberga.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://archive.org/details/codexdiplomaticv03frol"
+            href="https://archive.org/search?query=codex+diplomaticus+silesiae"
           />
         </p>
         <h5>Účast českých žoldnéřů</h5>

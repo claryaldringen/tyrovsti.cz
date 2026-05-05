@@ -25,7 +25,7 @@ export const KutnohorskaBourka = ({ draft }: ArticleProps) => (
           dlouhodobě financovaly chod českého státu.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://cs.wikipedia.org/wiki/Hornick%C3%A9_povst%C3%A1n%C3%AD_v_Kutn%C3%A9_Ho%C5%99e"
+            href="https://cs.wikipedia.org/wiki/Vzpoura_kutnohorsk%C3%BDch_hav%C3%AD%C5%99%C5%AF_(1496)"
           />
         </p>
       </Col>
@@ -59,7 +59,7 @@ export const KutnohorskaBourka = ({ draft }: ArticleProps) => (
           <i>novému rejstříku</i> propukl na podzim 1494 nejprve formou stávky.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://cs.wikipedia.org/wiki/Hornick%C3%A9_povst%C3%A1n%C3%AD_v_Kutn%C3%A9_Ho%C5%99e"
+            href="https://cs.wikipedia.org/wiki/Vzpoura_kutnohorsk%C3%BDch_hav%C3%AD%C5%99%C5%AF_(1496)"
           />
         </p>
       </Col>
@@ -80,7 +80,7 @@ export const KutnohorskaBourka = ({ draft }: ArticleProps) => (
           výplatního systému.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://cs.wikipedia.org/wiki/Hornick%C3%A9_povst%C3%A1n%C3%AD_v_Kutn%C3%A9_Ho%C5%99e"
+            href="https://cs.wikipedia.org/wiki/Vzpoura_kutnohorsk%C3%BDch_hav%C3%AD%C5%99%C5%AF_(1496)"
           />
         </p>
         <p>
@@ -95,7 +95,7 @@ export const KutnohorskaBourka = ({ draft }: ArticleProps) => (
           města a zabavením majetku.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://cs.wikipedia.org/wiki/Hornick%C3%A9_povst%C3%A1n%C3%AD_v_Kutn%C3%A9_Ho%C5%99e"
+            href="https://cs.wikipedia.org/wiki/Vzpoura_kutnohorsk%C3%BDch_hav%C3%AD%C5%99%C5%AF_(1496)"
           />
         </p>
       </Col>
@@ -132,7 +132,7 @@ export const KutnohorskaBourka = ({ draft }: ArticleProps) => (
           Bohemicarum (FRB).
           <Qt
             publication={PUBLICATIONS.STARI_LETOPISOVE}
-            href="https://archive.org/details/staricesti"
+            href="https://archive.org/details/scriptorumrerum02unkngoog"
           />
         </p>
         <p>
@@ -145,7 +145,7 @@ export const KutnohorskaBourka = ({ draft }: ArticleProps) => (
           <i>Matěje haviře</i>, tak detaily o městské hotovosti.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://kramerius.nkp.cz/search/?q=da%C4%8Dick%C3%BD+pam%C4%9Bti"
+            href="https://kramerius5.nkp.cz/"
           />
         </p>
         <p>
@@ -173,7 +173,7 @@ export const KutnohorskaBourka = ({ draft }: ArticleProps) => (
           době sloužily v Uhrách proti Osmanům.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://cs.wikipedia.org/wiki/Hornick%C3%A9_povst%C3%A1n%C3%AD_v_Kutn%C3%A9_Ho%C5%99e"
+            href="https://cs.wikipedia.org/wiki/Vzpoura_kutnohorsk%C3%BDch_hav%C3%AD%C5%99%C5%AF_(1496)"
           />
         </p>
       </Col>

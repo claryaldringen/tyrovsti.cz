@@ -106,7 +106,7 @@ export const RytirskaValka = ({ draft }: ArticleProps) => (
           výpravy z hlediska duchovních knížat.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://www.digitale-sammlungen.de/de/details/bsb10866015"
+            href="https://www.digitale-sammlungen.de/"
           />
         </p>
         <p>

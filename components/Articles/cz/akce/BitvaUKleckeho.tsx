@@ -77,7 +77,7 @@ export const BitvaUKleckeho = ({ draft }: ArticleProps) => (
           litevských a běloruských zajatců, kteří měli být odvedeni do otroctví.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://de.wikipedia.org/wiki/Schlacht_bei_Kleck"
+            href="https://de.wikipedia.org/wiki/Schlacht_bei_Klezk"
           />
         </p>
         <h5>Výsledek</h5>

@@ -184,7 +184,7 @@ export const LitevskaObcanskaValka = ({ draft }: ArticleProps) => (
           />
           <Qt
             publication={PUBLICATIONS.AENEAS_BOHEMICA}
-            href="https://archive.org/details/bub_gb_qLpCAAAAcAAJ"
+            href="https://books.google.com/books?id=qLpCAAAAcAAJ"
           />
         </p>
         <h5>Účast českých žoldnéřů</h5>

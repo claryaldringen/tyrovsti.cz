@@ -81,7 +81,7 @@ export const PrazskaDefenestrace1483 = ({ draft }: ArticleProps) => (
           sjednocování zemí Koruny.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://cs.wikipedia.org/wiki/Kutnohorsk%C3%BD_n%C3%A1bo%C5%BEensk%C3%BD_smluv"
+            href="https://cs.wikipedia.org/wiki/Kutnohorsk%C3%BD_n%C3%A1bo%C5%BEensk%C3%BD_m%C3%ADr"
           />
         </p>
         <h5>Primární prameny</h5>
@@ -94,7 +94,7 @@ export const PrazskaDefenestrace1483 = ({ draft }: ArticleProps) => (
           podkladem všech pozdějších kronikářských zpráv.
           <Qt
             publication={PUBLICATIONS.STARI_LETOPISOVE}
-            href="https://archive.org/details/staricesti"
+            href="https://archive.org/details/scriptorumrerum02unkngoog"
           />
         </p>
         <p>
@@ -118,7 +118,7 @@ export const PrazskaDefenestrace1483 = ({ draft }: ArticleProps) => (
           v Národním archivu (fond Stará manipulace).
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://cs.wikipedia.org/wiki/Kutnohorsk%C3%BD_n%C3%A1bo%C5%BEensk%C3%BD_smluv"
+            href="https://cs.wikipedia.org/wiki/Kutnohorsk%C3%BD_n%C3%A1bo%C5%BEensk%C3%BD_m%C3%ADr"
           />
         </p>
         <h5>Účast českých žoldnéřů</h5>

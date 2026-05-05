@@ -25,7 +25,7 @@ export const PolskoUherskaValka1474 = ({ draft }: ArticleProps) => (
           <i>Oblężenie Wrocławia</i>).
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://pl.wikipedia.org/wiki/Obl%C4%99%C5%BCenie_Wroc%C5%82awia_(1474)"
+            href="https://pl.wikipedia.org/wiki/Obl%C4%99%C5%BCenie_Wroc%C5%82awia"
           />
         </p>
       </Col>
@@ -62,7 +62,7 @@ export const PolskoUherskaValka1474 = ({ draft }: ArticleProps) => (
           otevřené bitvy zvolil taktiku spálené země.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://pl.wikipedia.org/wiki/Obl%C4%99%C5%BCenie_Wroc%C5%82awia_(1474)"
+            href="https://pl.wikipedia.org/wiki/Obl%C4%99%C5%BCenie_Wroc%C5%82awia"
           />
         </p>
         <p>
@@ -77,7 +77,7 @@ export const PolskoUherskaValka1474 = ({ draft }: ArticleProps) => (
           cíle.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://pl.wikipedia.org/wiki/Obl%C4%99%C5%BCenie_Wroc%C5%82awia_(1474)"
+            href="https://pl.wikipedia.org/wiki/Obl%C4%99%C5%BCenie_Wroc%C5%82awia"
           />
         </p>
         <h5>Výsledek</h5>
@@ -107,7 +107,7 @@ export const PolskoUherskaValka1474 = ({ draft }: ArticleProps) => (
           i&nbsp;v&nbsp;moderní polské historiografii.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://archive.org/details/geschichtederst02kunigoog"
+            href="https://archive.org/details/diestadtnrnberg00schugoog"
           />
         </p>
         <p>
@@ -148,7 +148,7 @@ export const PolskoUherskaValka1474 = ({ draft }: ArticleProps) => (
           stal páteří uherské královské armády.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://pl.wikipedia.org/wiki/Obl%C4%99%C5%BCenie_Wroc%C5%82awia_(1474)"
+            href="https://pl.wikipedia.org/wiki/Obl%C4%99%C5%BCenie_Wroc%C5%82awia"
           />
         </p>
       </Col>

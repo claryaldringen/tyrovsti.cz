@@ -121,7 +121,7 @@ export const BorsengrunskaZasti = ({ draft }: ArticleProps) => (
           tvoří základ pozdějších kompilací.
           <Qt
             publication={PUBLICATIONS.KURSCHNER}
-            href="https://archive.org/details/jobstvoneinsied00krgoog"
+            href="https://books.google.com/books?id=anO6h3vnx8kC"
           />
         </p>
         <p>
@@ -135,7 +135,7 @@ export const BorsengrunskaZasti = ({ draft }: ArticleProps) => (
           digitalizovány na archive.org.
           <Qt
             publication={PUBLICATIONS.SEDLACEK1}
-            href="https://archive.org/details/sedlacek-hrady"
+            href="https://archive.org/details/hrady-zamky-tvrze-1-chrudimsko"
           />
         </p>
         <p>

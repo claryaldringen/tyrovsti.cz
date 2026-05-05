@@ -27,7 +27,7 @@ export const TatarskeVpady1500 = ({ draft }: ArticleProps) => (
           území nebývalé intenzity.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://pl.wikipedia.org/wiki/Najazdy_tatarskie_na_Polsk%C4%99"
+            href="https://en.wikipedia.org/wiki/Crimean%E2%80%93Nogai_raids_into_East_Slavic_lands"
           />
         </p>
       </Col>
@@ -60,7 +60,7 @@ export const TatarskeVpady1500 = ({ draft }: ArticleProps) => (
           otevřené nepřátelství.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://pl.wikipedia.org/wiki/Najazdy_tatarskie_na_Polsk%C4%99"
+            href="https://en.wikipedia.org/wiki/Crimean%E2%80%93Nogai_raids_into_East_Slavic_lands"
           />
         </p>
       </Col>
@@ -99,7 +99,7 @@ export const TatarskeVpady1500 = ({ draft }: ArticleProps) => (
           jihovýchodu.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://pl.wikipedia.org/wiki/Najazdy_tatarskie_na_Polsk%C4%99"
+            href="https://en.wikipedia.org/wiki/Crimean%E2%80%93Nogai_raids_into_East_Slavic_lands"
           />
         </p>
       </Col>
@@ -175,7 +175,7 @@ export const TatarskeVpady1500 = ({ draft }: ArticleProps) => (
           <i>obrony potocznej</i> z prostředků královské pokladny.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://pl.wikipedia.org/wiki/Najazdy_tatarskie_na_Polsk%C4%99"
+            href="https://en.wikipedia.org/wiki/Crimean%E2%80%93Nogai_raids_into_East_Slavic_lands"
           />
         </p>
         <p>

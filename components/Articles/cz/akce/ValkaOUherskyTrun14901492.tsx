@@ -83,7 +83,7 @@ export const ValkaOUherskyTrun14901492 = ({ draft }: ArticleProps) => (
           počátkem roku 1491 nucen ustoupit zpět do Štýrska a Rakous.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://de.wikipedia.org/wiki/Wladislaw_II._(B%C3%B6hmen_und_Ungarn)"
+            href="https://de.wikipedia.org/wiki/Vladislav_II._(B%C3%B6hmen_und_Ungarn)"
           />
         </p>
         <p>
@@ -112,7 +112,7 @@ export const ValkaOUherskyTrun14901492 = ({ draft }: ArticleProps) => (
           stala podkladem habsburského nároku na uherský trůn.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://de.wikipedia.org/wiki/Wladislaw_II._(B%C3%B6hmen_und_Ungarn)"
+            href="https://de.wikipedia.org/wiki/Vladislav_II._(B%C3%B6hmen_und_Ungarn)"
           />
         </p>
       </Col>
@@ -198,7 +198,7 @@ export const ValkaOUherskyTrun14901492 = ({ draft }: ArticleProps) => (
           uherské vojenské hranice proti Osmanům.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://de.wikipedia.org/wiki/Wladislaw_II._(B%C3%B6hmen_und_Ungarn)"
+            href="https://de.wikipedia.org/wiki/Vladislav_II._(B%C3%B6hmen_und_Ungarn)"
           />
         </p>
       </Col>

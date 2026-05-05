@@ -105,7 +105,7 @@ export const TazeniSestimestiProtiVartemberkum = ({ draft }: ArticleProps) => (
           digitalizován na archive.org.
           <Qt
             publication={PUBLICATIONS.SEDLACEK1}
-            href="https://archive.org/details/sedlacek-hrady"
+            href="https://archive.org/details/hrady-zamky-tvrze-1-chrudimsko"
           />
         </p>
         <p>

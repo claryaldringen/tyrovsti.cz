@@ -22,7 +22,7 @@ export const JihonemeckaMestskaValka = ({ draft }: ArticleProps) => (
           největších městských střetů pozdně středověké Říše.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://de.wikipedia.org/wiki/S%C3%BCddeutscher_St%C3%A4dtekrieg"
+            href="https://de.wikipedia.org/wiki/Erster_Markgrafenkrieg"
           />
         </p>
       </Col>
@@ -41,7 +41,7 @@ export const JihonemeckaMestskaValka = ({ draft }: ArticleProps) => (
           trvala na svém bezprostředním vztahu k císaři.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://de.wikipedia.org/wiki/S%C3%BCddeutscher_St%C3%A4dtekrieg"
+            href="https://de.wikipedia.org/wiki/Erster_Markgrafenkrieg"
           />
         </p>
         <p>
@@ -56,7 +56,7 @@ export const JihonemeckaMestskaValka = ({ draft }: ArticleProps) => (
           rytířských rodů.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://en.wikipedia.org/wiki/South_German_Cities%27_War"
+            href="https://en.wikipedia.org/wiki/First_Margrave_War"
           />
         </p>
         <h5>Průběh</h5>
@@ -72,7 +72,7 @@ export const JihonemeckaMestskaValka = ({ draft }: ArticleProps) => (
           würzburského biskupství.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://de.wikipedia.org/wiki/Schlacht_bei_Pillenreuth"
+            href="https://de.wikipedia.org/wiki/Erster_Markgrafenkrieg"
           />
         </p>
         <p>
@@ -86,7 +86,7 @@ export const JihonemeckaMestskaValka = ({ draft }: ArticleProps) => (
           koncem téhož roku vstoupilo v platnost obecné příměří.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://de.wikipedia.org/wiki/S%C3%BCddeutscher_St%C3%A4dtekrieg"
+            href="https://de.wikipedia.org/wiki/Erster_Markgrafenkrieg"
           />
         </p>
         <h5>Výsledek</h5>
@@ -104,7 +104,7 @@ export const JihonemeckaMestskaValka = ({ draft }: ArticleProps) => (
           knížat.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://de.wikipedia.org/wiki/S%C3%BCddeutscher_St%C3%A4dtekrieg"
+            href="https://de.wikipedia.org/wiki/Erster_Markgrafenkrieg"
           />
         </p>
         <h5>Primární prameny</h5>
@@ -116,7 +116,7 @@ export const JihonemeckaMestskaValka = ({ draft }: ArticleProps) => (
           1866).
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://archive.org/details/diechronikende02histuoft"
+            href="https://archive.org/search?query=Chroniken+der+deutschen+Staedte"
           />
         </p>
         <p>
@@ -133,10 +133,7 @@ export const JihonemeckaMestskaValka = ({ draft }: ArticleProps) => (
         <p>
           Listinný materiál k jednáním knížat a měst je shromážděn v{' '}
           <i>Reichstagsakten ältere Reihe</i>, sv. 19 (dMGH).
-          <Qt
-            publication={PUBLICATIONS.WIKI}
-            href="https://www.dmgh.de/de/fs1/object/display/bsb00000761_meta:titlePage.html"
-          />
+          <Qt publication={PUBLICATIONS.WIKI} href="https://www.dmgh.de/" />
         </p>
         <h5>Účast českých žoldnéřů</h5>
         <p>
@@ -153,7 +150,7 @@ export const JihonemeckaMestskaValka = ({ draft }: ArticleProps) => (
           družinách.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://en.wikipedia.org/wiki/South_German_Cities%27_War"
+            href="https://en.wikipedia.org/wiki/First_Margrave_War"
           />
         </p>
       </Col>

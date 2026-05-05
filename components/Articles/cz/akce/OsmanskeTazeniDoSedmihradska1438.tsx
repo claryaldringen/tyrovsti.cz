@@ -161,7 +161,7 @@ export const OsmanskeTazeniDoSedmihradska1438 = ({ draft }: ArticleProps) => (
           bezprostřední osobní zkušenosti se zajetím při tažení 1438.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://en.wikipedia.org/wiki/Captive_of_Wallachia"
+            href="https://en.wikipedia.org/wiki/Vlad_the_Impaler"
           />
         </p>
         <p>

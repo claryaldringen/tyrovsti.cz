@@ -23,7 +23,7 @@ export const PruskePovstani = ({ draft }: ArticleProps) => (
           postavení polského léna.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://pl.wikipedia.org/wiki/Powstanie_Zwi%C4%85zku_Pruskiego"
+            href="https://pl.wikipedia.org/wiki/Zwi%C4%85zek_Pruski"
           />
         </p>
       </Col>
@@ -55,7 +55,7 @@ export const PruskePovstani = ({ draft }: ArticleProps) => (
           Polského království a převzal nad nimi ochranu.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://pl.wikipedia.org/wiki/Powstanie_Zwi%C4%85zku_Pruskiego"
+            href="https://pl.wikipedia.org/wiki/Zwi%C4%85zek_Pruski"
           />
         </p>
         <h5>Průběh</h5>
@@ -138,11 +138,11 @@ export const PruskePovstani = ({ draft }: ArticleProps) => (
           000 uherských zlatých.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://archive.org/details/scriptoresrerumP04hirs"
+            href="https://archive.org/search?query=scriptores+rerum+prussicarum"
           />
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://archive.org/details/geschichtepreuss08voig"
+            href="https://archive.org/details/voigt-geschichte-preussens.-bd.-9-1839"
           />
         </p>
         <h5>Účast českých žoldnéřů</h5>

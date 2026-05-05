@@ -26,7 +26,7 @@ export const SpiknutiVitezJanusPannonius = ({ draft }: ArticleProps) => (
           Jagellonského.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://hu.wikipedia.org/wiki/V%C3%A1radi_Vit%C3%A9z_J%C3%A1nos"
+            href="https://hu.wikipedia.org/wiki/Vit%C3%A9z_J%C3%A1nos"
           />
         </p>
       </Col>
@@ -78,7 +78,7 @@ export const SpiknutiVitezJanusPannonius = ({ draft }: ArticleProps) => (
           zpět do Polska.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://hu.wikipedia.org/wiki/V%C3%A1radi_Vit%C3%A9z_J%C3%A1nos"
+            href="https://hu.wikipedia.org/wiki/Vit%C3%A9z_J%C3%A1nos"
           />
         </p>
         <p>
@@ -107,7 +107,7 @@ export const SpiknutiVitezJanusPannonius = ({ draft }: ArticleProps) => (
           patřili k&nbsp;zakladatelské generaci budínského dvorského okruhu.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://hu.wikipedia.org/wiki/V%C3%A1radi_Vit%C3%A9z_J%C3%A1nos"
+            href="https://hu.wikipedia.org/wiki/Vit%C3%A9z_J%C3%A1nos"
           />
         </p>
         <h5>Primární prameny</h5>

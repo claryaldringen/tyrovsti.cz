@@ -121,7 +121,7 @@ export const Povstani1517 = ({ draft }: ArticleProps) => (
           městské knihy (AHMP) a manuálníky kanceláře nejvyššího hofmistra.
           <Qt
             publication={PUBLICATIONS.STARI_LETOPISOVE}
-            href="https://archive.org/details/staricesti"
+            href="https://archive.org/details/scriptorumrerum02unkngoog"
           />
         </p>
         <p>
@@ -133,7 +133,7 @@ export const Povstani1517 = ({ draft }: ArticleProps) => (
           Palacký).
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://kramerius.nkp.cz/search/?q=vladislavsk%C3%A9+z%C5%99%C3%ADzen%C3%AD"
+            href="https://kramerius5.nkp.cz/"
           />
         </p>
         <h5>Účast českých žoldnéřů</h5>

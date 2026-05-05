@@ -24,7 +24,7 @@ export const Reiterkrieg = ({ draft }: ArticleProps) => (
           lénu.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://pl.wikipedia.org/wiki/Wojna_pruska_(1519%E2%80%931521)"
+            href="https://pl.wikipedia.org/wiki/Wojna_polsko-krzy%C5%BCacka_(1519%E2%80%931521)"
           />
         </p>
       </Col>
@@ -74,7 +74,7 @@ export const Reiterkrieg = ({ draft }: ArticleProps) => (
           uzavřeno čtyřleté příměří.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://pl.wikipedia.org/wiki/Wojna_pruska_(1519%E2%80%931521)"
+            href="https://pl.wikipedia.org/wiki/Wojna_polsko-krzy%C5%BCacka_(1519%E2%80%931521)"
           />
         </p>
         <h5>Výsledek</h5>
@@ -126,7 +126,7 @@ export const Reiterkrieg = ({ draft }: ArticleProps) => (
           Pruského kulturního dědictví v Berlíně.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://archive.org/details/geschichtepreuss09voig"
+            href="https://archive.org/details/voigt-geschichte-preussens.-bd.-9-1839"
           />
         </p>
         <h5>Účast českých žoldnéřů</h5>
@@ -145,7 +145,7 @@ export const Reiterkrieg = ({ draft }: ArticleProps) => (
           například v jagellonských uherských válkách.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://pl.wikipedia.org/wiki/Wojna_pruska_(1519%E2%80%931521)"
+            href="https://pl.wikipedia.org/wiki/Wojna_polsko-krzy%C5%BCacka_(1519%E2%80%931521)"
           />
         </p>
       </Col>

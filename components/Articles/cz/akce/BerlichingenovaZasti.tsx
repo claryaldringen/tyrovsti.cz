@@ -106,7 +106,7 @@ export const BerlichingenovaZasti = ({ draft }: ArticleProps) => (
           bamberský konflikt i landshutské obléhání 1504, kde přišel o ruku.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://www.digitale-sammlungen.de/de/details/bsb10437330"
+            href="https://www.digitale-sammlungen.de/"
           />
         </p>
         <p>
@@ -114,10 +114,7 @@ export const BerlichingenovaZasti = ({ draft }: ArticleProps) => (
           <i>Reichstagsakten Mittlere Reihe</i> (jednání kolínského sněmu 1512 a
           augšpurského 1518); listy Albrechta Braniborského a Sickingenovy
           ochranné dopisy jsou v <i>Archivum Selectum</i> mohučské kapituly.
-          <Qt
-            publication={PUBLICATIONS.WIKI}
-            href="https://www.dmgh.de/de/fs1/object/display/bsb00000761_meta:titlePage.html"
-          />
+          <Qt publication={PUBLICATIONS.WIKI} href="https://www.dmgh.de/" />
         </p>
         <h5>Účast českých žoldnéřů</h5>
         <p>

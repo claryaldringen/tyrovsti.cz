@@ -107,7 +107,7 @@ export const SporZPlavnaVladislav = ({ draft }: ArticleProps) => (
           a&nbsp;nesleduje konflikt v&nbsp;úplnosti.
           <Qt
             publication={PUBLICATIONS.STARI_LETOPISOVE}
-            href="https://archive.org/details/staricesti"
+            href="https://archive.org/details/scriptorumrerum02unkngoog"
           />
         </p>
         <p>
@@ -122,7 +122,7 @@ export const SporZPlavnaVladislav = ({ draft }: ArticleProps) => (
           přehled.
           <Qt
             publication={PUBLICATIONS.SEDLACEK1}
-            href="https://archive.org/details/sedlacek-hrady"
+            href="https://archive.org/details/hrady-zamky-tvrze-1-chrudimsko"
           />
         </p>
         <h5>Účast českých žoldnéřů</h5>

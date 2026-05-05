@@ -74,7 +74,7 @@ export const PrvniMarkrabskaValka = ({ draft }: ArticleProps) => (
           markraběcím statkům.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://de.wikipedia.org/wiki/Schlacht_bei_Pillenreuth"
+            href="https://de.wikipedia.org/wiki/Erster_Markgrafenkrieg"
           />
         </p>
         <p>
@@ -118,7 +118,7 @@ export const PrvniMarkrabskaValka = ({ draft }: ArticleProps) => (
           <i>Chroniken der deutschen Städte</i>, sv. 3 (Lipsko 1864).
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://archive.org/details/diechronikende03histuoft"
+            href="https://archive.org/search?query=Burkhard+Zink+Augsburg+Chronik"
           />
         </p>
         <p>
@@ -127,10 +127,7 @@ export const PrvniMarkrabskaValka = ({ draft }: ArticleProps) => (
           Mnichovské bavorské akademie a digitalizované v rámci dMGH; obsahují
           listinné podklady k bamberskému příměří a k císařské intervenci
           Fridricha III.
-          <Qt
-            publication={PUBLICATIONS.WIKI}
-            href="https://www.dmgh.de/de/fs1/object/display/bsb00000761_meta:titlePage.html"
-          />
+          <Qt publication={PUBLICATIONS.WIKI} href="https://www.dmgh.de/" />
         </p>
         <h5>Účast českých žoldnéřů</h5>
         <p>

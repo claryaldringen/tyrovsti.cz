@@ -25,7 +25,7 @@ export const DobytiNovehoHerstejna1475 = ({ draft }: ArticleProps) => (
           pohraničního ražení.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://cs.wikipedia.org/wiki/Herstejn"
+            href="https://cs.wikipedia.org/wiki/Nov%C3%BD_Her%C5%A1tejn"
           />
         </p>
       </Col>

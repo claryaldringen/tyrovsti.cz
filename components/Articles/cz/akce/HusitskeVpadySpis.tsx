@@ -168,7 +168,7 @@ export const HusitskeVpadySpis = ({ draft }: ArticleProps) => (
           Polska a podávají jména některých kondotiérů.
           <Qt
             publication={PUBLICATIONS.STARI_LETOPISOVE}
-            href="https://cs.wikipedia.org/wiki/Star%C3%AD_letopisov%C3%A9_%C4%8De%C5%A1t%C3%AD"
+            href="https://cs.wikipedia.org/wiki/Star%C3%A9_letopisy_%C4%8Desk%C3%A9"
           />
         </p>
         <h5>Účast českých žoldnéřů</h5>

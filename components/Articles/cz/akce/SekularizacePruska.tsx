@@ -44,7 +44,7 @@ export const SekularizacePruska = ({ draft }: ArticleProps) => (
           podmínky finálně dohodnuty na sněmu v Krakově na jaře 1525.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://de.wikipedia.org/wiki/Krakauer_Vertrag_(1525)"
+            href="https://de.wikipedia.org/wiki/Preu%C3%9Fische_Huldigung"
           />
         </p>
         <h5>Průběh aktu</h5>
@@ -96,7 +96,7 @@ export const SekularizacePruska = ({ draft }: ArticleProps) => (
           slavnostního aktu očima dvořanů Zikmunda I.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://archive.org/details/geschichtepreuss09voig"
+            href="https://archive.org/details/voigt-geschichte-preussens.-bd.-9-1839"
           />
         </p>
         <p>

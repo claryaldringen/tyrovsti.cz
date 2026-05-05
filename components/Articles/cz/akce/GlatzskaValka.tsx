@@ -70,7 +70,7 @@ export const GlatzskaValka = ({ draft }: ArticleProps) => (
           mezi nimi i Vilém z Pernštejna a Zdeněk Lev z Rožmitálu.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://cs.wikipedia.org/wiki/Karel_I._Min%C5%A1tersk%C3%BD"
+            href="https://cs.wikipedia.org/wiki/Karel_I._Minsterbersk%C3%BD"
           />
         </p>
         <h5>Výsledek</h5>
@@ -102,7 +102,7 @@ export const GlatzskaValka = ({ draft }: ArticleProps) => (
           velkých říšských záští předchozí generace.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://cs.wikipedia.org/wiki/Karel_I._Min%C5%A1tersk%C3%BD"
+            href="https://cs.wikipedia.org/wiki/Karel_I._Minsterbersk%C3%BD"
           />
         </p>
       </Col>

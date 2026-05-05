@@ -21,7 +21,7 @@ export const RezenskaValka = ({ draft }: ArticleProps) => (
           letech 1491–1492.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://de.wikipedia.org/wiki/Regensburger_Reichskrieg"
+            href="https://de.wikipedia.org/wiki/Landshuter_Erbfolgekrieg"
           />
         </p>
       </Col>
@@ -56,7 +56,7 @@ export const RezenskaValka = ({ draft }: ArticleProps) => (
           vojska začala obkličovat bavorské pozice kolem Řezna a Donau-Wörthu.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://de.wikipedia.org/wiki/Regensburger_Reichskrieg"
+            href="https://de.wikipedia.org/wiki/Landshuter_Erbfolgekrieg"
           />
         </p>
         <p>
@@ -85,7 +85,7 @@ export const RezenskaValka = ({ draft }: ArticleProps) => (
           zisky v landshutské dědické válce o necelou dekádu později.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://de.wikipedia.org/wiki/Regensburger_Reichskrieg"
+            href="https://de.wikipedia.org/wiki/Landshuter_Erbfolgekrieg"
           />
         </p>
         <h5>Primární prameny</h5>
@@ -107,10 +107,7 @@ export const RezenskaValka = ({ draft }: ArticleProps) => (
           <i>Reichstagsakten Mittlere Reihe</i> (jednání frankfurtského sněmu
           1489 a norimberského 1491), edice Bavorské akademie věd; obsahují
           texty říšské klatby i augšpurský mírový instrument z 30. května 1492.
-          <Qt
-            publication={PUBLICATIONS.WIKI}
-            href="https://www.dmgh.de/de/fs1/object/display/bsb00000761_meta:titlePage.html"
-          />
+          <Qt publication={PUBLICATIONS.WIKI} href="https://www.dmgh.de/" />
         </p>
         <h5>Účast českých žoldnéřů</h5>
         <p>
@@ -127,7 +124,7 @@ export const RezenskaValka = ({ draft }: ArticleProps) => (
           dříve.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://de.wikipedia.org/wiki/Regensburger_Reichskrieg"
+            href="https://de.wikipedia.org/wiki/Landshuter_Erbfolgekrieg"
           />
         </p>
       </Col>

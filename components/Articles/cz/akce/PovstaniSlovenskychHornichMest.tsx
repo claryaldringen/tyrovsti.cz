@@ -25,7 +25,7 @@ export const PovstaniSlovenskychHornichMest = ({ draft }: ArticleProps) => (
           prvních velkých kapitálových konfliktů ve střední Evropě.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://hu.wikipedia.org/wiki/Beszterceb%C3%A1nyai_b%C3%A1ny%C3%A1szfelkel%C3%A9s"
+            href="https://hu.wikipedia.org/wiki/Beszterceb%C3%A1nya"
           />
         </p>
       </Col>
@@ -46,7 +46,7 @@ export const PovstaniSlovenskychHornichMest = ({ draft }: ArticleProps) => (
           odporem.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://hu.wikipedia.org/wiki/Beszterceb%C3%A1nyai_b%C3%A1ny%C3%A1szfelkel%C3%A9s"
+            href="https://hu.wikipedia.org/wiki/Beszterceb%C3%A1nya"
           />
         </p>
         <h5>Průběh</h5>
@@ -63,7 +63,7 @@ export const PovstaniSlovenskychHornichMest = ({ draft }: ArticleProps) => (
           čas drželi de facto kontrolu nad městy.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://de.wikipedia.org/wiki/Bergarbeiteraufstand_in_Neusohl"
+            href="https://de.wikipedia.org/wiki/Banska_Bystrica"
           />
         </p>
         <p>
@@ -77,7 +77,7 @@ export const PovstaniSlovenskychHornichMest = ({ draft }: ArticleProps) => (
           podmínky.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://hu.wikipedia.org/wiki/Beszterceb%C3%A1nyai_b%C3%A1ny%C3%A1szfelkel%C3%A9s"
+            href="https://hu.wikipedia.org/wiki/Beszterceb%C3%A1nya"
           />
         </p>
         <h5>Výsledek</h5>
@@ -92,7 +92,7 @@ export const PovstaniSlovenskychHornichMest = ({ draft }: ArticleProps) => (
           se zachovala jako přední evropské měďné centrum až do 17. století.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://de.wikipedia.org/wiki/Bergarbeiteraufstand_in_Neusohl"
+            href="https://de.wikipedia.org/wiki/Banska_Bystrica"
           />
         </p>
         <h5>Primární prameny</h5>
@@ -106,7 +106,7 @@ export const PovstaniSlovenskychHornichMest = ({ draft }: ArticleProps) => (
           soudní zápisy o popravách 1526–1527.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://www.archives.sk/en/state-archive-banska-bystrica"
+            href="https://www.minv.sk/?statny-archiv-v-banskej-bystrici"
           />
         </p>
         <p>
@@ -134,7 +134,7 @@ export const PovstaniSlovenskychHornichMest = ({ draft }: ArticleProps) => (
           <i>Pamätné knihy banskobystrické</i> (Bratislava 1956).
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://hu.wikipedia.org/wiki/Beszterceb%C3%A1nyai_b%C3%A1ny%C3%A1szfelkel%C3%A9s"
+            href="https://hu.wikipedia.org/wiki/Beszterceb%C3%A1nya"
           />
         </p>
         <h5>Účast českých žoldnéřů</h5>
@@ -150,7 +150,7 @@ export const PovstaniSlovenskychHornichMest = ({ draft }: ArticleProps) => (
           hlavně v personální, nikoliv vojenské rovině.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://hu.wikipedia.org/wiki/Beszterceb%C3%A1nyai_b%C3%A1ny%C3%A1szfelkel%C3%A9s"
+            href="https://hu.wikipedia.org/wiki/Beszterceb%C3%A1nya"
           />
         </p>
       </Col>

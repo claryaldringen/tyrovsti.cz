@@ -56,7 +56,7 @@ export const StetinskaDedickaValka = ({ draft }: ArticleProps) => (
           zprostředkovával ve prospěch Hohenzollernů.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://pl.wikipedia.org/wiki/Wojna_o_sukcesj%C4%99_szczeci%C5%84sk%C4%85"
+            href="https://de.wikipedia.org/wiki/Stettiner_Erbfolgekrieg"
           />
         </p>
         <h5>Průběh války</h5>
@@ -83,7 +83,7 @@ export const StetinskaDedickaValka = ({ draft }: ArticleProps) => (
           plenivých nájezdech, které sužovaly venkov.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://pl.wikipedia.org/wiki/Wojna_o_sukcesj%C4%99_szczeci%C5%84sk%C4%85"
+            href="https://de.wikipedia.org/wiki/Stettiner_Erbfolgekrieg"
           />
         </p>
         <h5>Pyrycská smlouva (1472)</h5>
@@ -113,7 +113,7 @@ export const StetinskaDedickaValka = ({ draft }: ArticleProps) => (
           vestfálském míru.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://pl.wikipedia.org/wiki/Wojna_o_sukcesj%C4%99_szczeci%C5%84sk%C4%85"
+            href="https://de.wikipedia.org/wiki/Stettiner_Erbfolgekrieg"
           />
         </p>
         <h5>Primární prameny</h5>
@@ -125,7 +125,7 @@ export const StetinskaDedickaValka = ({ draft }: ArticleProps) => (
           braniborským výpravám. Edice G. Gaebela, Štětín 1897–1898.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://archive.org/details/pomerania01kant"
+            href="https://archive.org/search?query=Kantzow+Pomerania"
           />
         </p>
         <p>
@@ -134,10 +134,7 @@ export const StetinskaDedickaValka = ({ draft }: ArticleProps) => (
           listinách edice <i>Geheimes Hausarchiv</i>; říšský diplomatický rámec
           představují <i>Reichstagsakten ältere Reihe</i>, sv. 22, dokumentující
           intervence Fridricha III.
-          <Qt
-            publication={PUBLICATIONS.WIKI}
-            href="https://www.dmgh.de/de/fs1/object/display/bsb00000761_meta:titlePage.html"
-          />
+          <Qt publication={PUBLICATIONS.WIKI} href="https://www.dmgh.de/" />
         </p>
         <h5>Účast českých žoldnéřů</h5>
         <p>

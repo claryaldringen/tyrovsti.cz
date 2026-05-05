@@ -48,7 +48,7 @@ export const PrvniLitevskoMoskevska = ({ draft }: ArticleProps) => (
           otevřeného konfliktu.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://en.wikipedia.org/wiki/Muscovite%E2%80%93Lithuanian_War_(1492%E2%80%931494)"
+            href="https://en.wikipedia.org/wiki/Muscovite%E2%80%93Lithuanian_Wars"
           />
         </p>
         <p>
@@ -60,7 +60,7 @@ export const PrvniLitevskoMoskevska = ({ draft }: ArticleProps) => (
           vojska k obsazení strategicky významných pevností.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://de.wikipedia.org/wiki/Litauisch-Russischer_Krieg_(1492%E2%80%931494)"
+            href="https://de.wikipedia.org/wiki/Russisch-Litauische_Kriege"
           />
         </p>
       </Col>
@@ -94,7 +94,7 @@ export const PrvniLitevskoMoskevska = ({ draft }: ArticleProps) => (
           <i>Věčný mír</i> a podepsaná v Moskvě <b>5. února 1494</b>.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://en.wikipedia.org/wiki/Muscovite%E2%80%93Lithuanian_War_(1492%E2%80%931494)"
+            href="https://en.wikipedia.org/wiki/Muscovite%E2%80%93Lithuanian_Wars"
           />
         </p>
       </Col>
@@ -115,7 +115,7 @@ export const PrvniLitevskoMoskevska = ({ draft }: ArticleProps) => (
           záminky pro novou válku už v roce 1500.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://de.wikipedia.org/wiki/Litauisch-Russischer_Krieg_(1492%E2%80%931494)"
+            href="https://de.wikipedia.org/wiki/Russisch-Litauische_Kriege"
           />
         </p>
       </Col>
@@ -150,7 +150,7 @@ export const PrvniLitevskoMoskevska = ({ draft }: ArticleProps) => (
           paměti volyňské šlechty.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://en.wikipedia.org/wiki/Voskresensk_Chronicle"
+            href="https://en.wikipedia.org/wiki/Rus%27_chronicles"
           />
           <Qt
             publication={PUBLICATIONS.WIKI}
@@ -182,7 +182,7 @@ export const PrvniLitevskoMoskevska = ({ draft }: ArticleProps) => (
           pohraničí v devadesátých letech 15. století.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://en.wikipedia.org/wiki/Muscovite%E2%80%93Lithuanian_War_(1492%E2%80%931494)"
+            href="https://en.wikipedia.org/wiki/Muscovite%E2%80%93Lithuanian_Wars"
           />
         </p>
       </Col>

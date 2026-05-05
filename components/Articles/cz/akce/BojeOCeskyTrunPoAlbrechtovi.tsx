@@ -155,7 +155,7 @@ export const BojeOCeskyTrunPoAlbrechtovi = ({ draft }: ArticleProps) => (
           archive.org.
           <Qt
             publication={PUBLICATIONS.STARI_LETOPISOVE}
-            href="https://archive.org/details/staricesti"
+            href="https://archive.org/details/scriptorumrerum02unkngoog"
           />
         </p>
         <p>

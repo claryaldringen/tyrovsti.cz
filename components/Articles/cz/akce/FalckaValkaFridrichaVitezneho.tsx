@@ -126,10 +126,7 @@ export const FalckaValkaFridrichaVitezneho = ({ draft }: ArticleProps) => (
           <b>Aenease Silvia Piccolominiho</b> (Pia II.) z období 1461–1463, v
           nichž jako papež komentuje mohučskou kolegiátní záští, a soudní akta
           wormského sněmu 1471 v <i>Reichstagsakten ältere Reihe</i>, sv. 22.
-          <Qt
-            publication={PUBLICATIONS.WIKI}
-            href="https://www.dmgh.de/de/fs1/object/display/bsb00000761_meta:titlePage.html"
-          />
+          <Qt publication={PUBLICATIONS.WIKI} href="https://www.dmgh.de/" />
         </p>
         <h5>Účast českých žoldnéřů</h5>
         <p>

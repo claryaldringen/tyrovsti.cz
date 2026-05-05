@@ -45,7 +45,7 @@ export const TretiLitevskoMoskevska = ({ draft }: ArticleProps) => (
           vzpouru.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://en.wikipedia.org/wiki/Muscovite%E2%80%93Lithuanian_War_(1507%E2%80%931508)"
+            href="https://en.wikipedia.org/wiki/Muscovite%E2%80%93Lithuanian_Wars"
           />
         </p>
         <h5>Průběh</h5>
@@ -77,7 +77,7 @@ export const TretiLitevskoMoskevska = ({ draft }: ArticleProps) => (
           za hranice s asi 700 muži vlastní družiny.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://de.wikipedia.org/wiki/Litauisch-Russischer_Krieg_(1507%E2%80%931508)"
+            href="https://de.wikipedia.org/wiki/Russisch-Litauische_Kriege"
           />
         </p>
         <h5>Výsledek</h5>
@@ -93,7 +93,7 @@ export const TretiLitevskoMoskevska = ({ draft }: ArticleProps) => (
           sblížení obou států vedoucí k Lublinské unii roku 1569.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://en.wikipedia.org/wiki/Muscovite%E2%80%93Lithuanian_War_(1507%E2%80%931508)"
+            href="https://en.wikipedia.org/wiki/Muscovite%E2%80%93Lithuanian_Wars"
           />
         </p>
         <h5>Primární prameny / Pohled starších kronik</h5>

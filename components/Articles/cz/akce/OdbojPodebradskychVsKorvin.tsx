@@ -98,7 +98,7 @@ export const OdbojPodebradskychVsKorvin = ({ draft }: ArticleProps) => (
           <i>Scriptores Rerum Silesiacarum</i>).
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://archive.org/details/geschichtederst02kunigoog"
+            href="https://archive.org/details/diestadtnrnberg00schugoog"
           />
         </p>
         <p>
@@ -122,7 +122,7 @@ export const OdbojPodebradskychVsKorvin = ({ draft }: ArticleProps) => (
           sáhnout do vratislavských a olomouckých kapitulních akt.
           <Qt
             publication={PUBLICATIONS.STARI_LETOPISOVE}
-            href="https://archive.org/details/staricesti"
+            href="https://archive.org/details/scriptorumrerum02unkngoog"
           />
         </p>
         <h5>Účast českých žoldnéřů</h5>

@@ -94,7 +94,7 @@ export const KopidlanskaValka15071517 = ({ draft }: ArticleProps) => (
           rukopisných tradicích vydaných ve Fontes rerum Bohemicarum (FRB).
           <Qt
             publication={PUBLICATIONS.STARI_LETOPISOVE}
-            href="https://archive.org/details/staricesti"
+            href="https://archive.org/details/scriptorumrerum02unkngoog"
           />
         </p>
         <p>

@@ -25,7 +25,7 @@ export const TatarskyVpad1482 = ({ draft }: ArticleProps) => (
           státu a&nbsp;výrazně otřásl rovnováhou sil v&nbsp;jihovýchodní Evropě.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://pl.wikipedia.org/wiki/Najazd_tatarski_na_Kij%C3%B3w_(1482)"
+            href="https://pl.wikipedia.org/wiki/Historia_Kijowa"
           />
         </p>
       </Col>
@@ -45,7 +45,7 @@ export const TatarskyVpad1482 = ({ draft }: ArticleProps) => (
           odhadů 30&nbsp;000 až 100&nbsp;000 jezdců.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://en.wikipedia.org/wiki/Sack_of_Kiev_(1482)"
+            href="https://en.wikipedia.org/wiki/Battle_of_Kyiv"
           />
         </p>
         <h5>Průběh</h5>
@@ -60,7 +60,7 @@ export const TatarskyVpad1482 = ({ draft }: ArticleProps) => (
           Kyjev téhož dne dobyt a&nbsp;vypleněn.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://pl.wikipedia.org/wiki/Najazd_tatarski_na_Kij%C3%B3w_(1482)"
+            href="https://pl.wikipedia.org/wiki/Historia_Kijowa"
           />
         </p>
         <p>
@@ -74,7 +74,7 @@ export const TatarskyVpad1482 = ({ draft }: ArticleProps) => (
           Podolí a&nbsp;v&nbsp;okolí Kyjeva ještě řadu týdnů.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://en.wikipedia.org/wiki/Sack_of_Kiev_(1482)"
+            href="https://en.wikipedia.org/wiki/Battle_of_Kyiv"
           />
         </p>
         <h5>Výsledek</h5>
@@ -90,7 +90,7 @@ export const TatarskyVpad1482 = ({ draft }: ArticleProps) => (
           vojenskou odplatu nikdy nepodnikl.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://pl.wikipedia.org/wiki/Najazd_tatarski_na_Kij%C3%B3w_(1482)"
+            href="https://pl.wikipedia.org/wiki/Historia_Kijowa"
           />
         </p>
         <h5>Primární prameny / Pohled starších kronik</h5>
@@ -122,7 +122,7 @@ export const TatarskyVpad1482 = ({ draft }: ArticleProps) => (
           />
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://en.wikipedia.org/wiki/Voskresensk_Chronicle"
+            href="https://en.wikipedia.org/wiki/Rus%27_chronicles"
           />
         </p>
         <h5>Účast českých žoldnéřů</h5>
@@ -140,7 +140,7 @@ export const TatarskyVpad1482 = ({ draft }: ArticleProps) => (
           Evropy.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://en.wikipedia.org/wiki/Sack_of_Kiev_(1482)"
+            href="https://en.wikipedia.org/wiki/Battle_of_Kyiv"
           />
         </p>
       </Col>

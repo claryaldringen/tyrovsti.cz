@@ -103,7 +103,7 @@ export const HornickePovstaniJachymov = ({ draft }: ArticleProps) => (
           mezd, řemeslnické obce i sociálních napětí.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://archive.org/details/saraptaoderbergp00math"
+            href="https://archive.org/search?query=Mathesius+Sarepta"
           />
         </p>
         <p>

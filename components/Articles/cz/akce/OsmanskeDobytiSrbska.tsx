@@ -41,7 +41,7 @@ export const OsmanskeDobytiSrbska = ({ draft }: ArticleProps) => (
           klíčový zdroj stříbra a mědi pro despotát.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://de.wikipedia.org/wiki/Despotat_Serbien"
+            href="https://en.wikipedia.org/wiki/Serbian_Despotate"
           />
         </p>
         <p>
@@ -129,7 +129,7 @@ export const OsmanskeDobytiSrbska = ({ draft }: ArticleProps) => (
           lib. VIII–X), sepsáno na dvoře Matyáše Korvína kolem 1488–1496.
           <Qt
             publication={PUBLICATIONS.BONFINI}
-            href="https://archive.org/details/antoniibonfiniir00bonf"
+            href="https://archive.org/details/bub_gb_NBPp2aOaL0AC"
           />
         </p>
         <h5>Účast českých žoldnéřů</h5>

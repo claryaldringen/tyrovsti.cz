@@ -109,10 +109,7 @@ export const WurttembergskaValka = ({ draft }: ArticleProps) => (
           spolku v <i>Reichstagsakten Mittlere Reihe</i> (sněmovní materiály
           augšpurského sněmu 1518 a wormského 1521), digitalizováno v rámci
           dMGH; obsahují i text spolkové smlouvy o exekuci proti Ulrichovi.
-          <Qt
-            publication={PUBLICATIONS.WIKI}
-            href="https://www.dmgh.de/de/fs1/object/display/bsb00000761_meta:titlePage.html"
-          />
+          <Qt publication={PUBLICATIONS.WIKI} href="https://www.dmgh.de/" />
         </p>
         <h5>Účast českých žoldnéřů</h5>
         <p>

@@ -78,7 +78,7 @@ export const DozsovoPovstani = ({ draft }: ArticleProps) => (
           mladší bratr Gergely Dózsa byl přesto rovněž popraven čtvrcením.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://de.wikipedia.org/wiki/Aufstand_des_Gy%C3%B6rgy_D%C3%B3zsa"
+            href="https://de.wikipedia.org/wiki/Gy%C3%B6rgy_D%C3%B3zsa"
           />
         </p>
         <h5>Výsledek</h5>
@@ -110,7 +110,7 @@ export const DozsovoPovstani = ({ draft }: ArticleProps) => (
           přímým svědkům události.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://en.wikipedia.org/wiki/Stephanus_Taurinus"
+            href="https://hu.wikipedia.org/wiki/Stephanus_Taurinus"
           />
         </p>
         <p>

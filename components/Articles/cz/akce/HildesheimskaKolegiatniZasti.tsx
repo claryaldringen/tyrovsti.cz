@@ -98,7 +98,7 @@ export const HildesheimskaKolegiatniZasti = ({ draft }: ArticleProps) => (
           dochované v rukopisu hildesheimské kapitulní knihovny.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://archive.org/details/urkundenbuchdes06hoog"
+            href="https://archive.org/search?query=Hoogeweg+Hochstift+Hildesheim"
           />
         </p>
         <p>
@@ -106,10 +106,7 @@ export const HildesheimskaKolegiatniZasti = ({ draft }: ArticleProps) => (
           projednávána říšská klatba na Hildesheim, jsou součástí{' '}
           <i>Reichstagsakten unter Kaiser Karl V.</i>, sv. 2–3 (Gotha 1896),
           edice A. Wrede.
-          <Qt
-            publication={PUBLICATIONS.WIKI}
-            href="https://www.dmgh.de/de/fs1/object/display/bsb00000761_meta:titlePage.html"
-          />
+          <Qt publication={PUBLICATIONS.WIKI} href="https://www.dmgh.de/" />
         </p>
         <h5>Účast českých žoldnéřů</h5>
         <p>

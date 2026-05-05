@@ -101,7 +101,7 @@ export const HlohovskyDedickySpor = ({ draft }: ArticleProps) => (
           Münster 2003; starší vydání J. G. Kunisch, Vratislav 1827–1828.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://archive.org/details/geschichtenderst01esch"
+            href="https://archive.org/search?query=Eschenloer+Geschichte+Breslau"
           />
         </p>
         <p>
@@ -112,7 +112,7 @@ export const HlohovskyDedickySpor = ({ draft }: ArticleProps) => (
           <i>Codex diplomaticus Silesiae</i>, sv. 9 (Vratislav 1869).
           <Qt
             publication={PUBLICATIONS.BONFINI}
-            href="https://archive.org/details/antoniibonfiniir00bonf"
+            href="https://archive.org/details/bub_gb_NBPp2aOaL0AC"
           />
         </p>
         <h5>Účast českých žoldnéřů</h5>

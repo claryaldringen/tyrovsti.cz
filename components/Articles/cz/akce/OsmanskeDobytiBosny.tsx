@@ -24,7 +24,7 @@ export const OsmanskeDobytiBosny = ({ draft }: ArticleProps) => (
           pevností v čele s pevností Jajce.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://en.wikipedia.org/wiki/Ottoman_conquest_of_Bosnia_(1463)"
+            href="https://en.wikipedia.org/wiki/Ottoman_conquest_of_Bosnia"
           />
         </p>
       </Col>
@@ -43,7 +43,7 @@ export const OsmanskeDobytiBosny = ({ draft }: ArticleProps) => (
           již od dob svého otce.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://hu.wikipedia.org/wiki/Bosznia_oszm%C3%A1n_megh%C3%B3d%C3%ADt%C3%A1sa"
+            href="https://hu.wikipedia.org/wiki/Bosznia-Hercegovina_t%C3%B6rt%C3%A9nelme"
           />
         </p>
         <p>
@@ -71,7 +71,7 @@ export const OsmanskeDobytiBosny = ({ draft }: ArticleProps) => (
           jako symbol vnitřního rozkladu království.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://en.wikipedia.org/wiki/Ottoman_conquest_of_Bosnia_(1463)"
+            href="https://en.wikipedia.org/wiki/Ottoman_conquest_of_Bosnia"
           />
         </p>
         <p>
@@ -86,7 +86,7 @@ export const OsmanskeDobytiBosny = ({ draft }: ArticleProps) => (
           přešla do osmanských rukou většina hradů středu a severozápadu země.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://hu.wikipedia.org/wiki/Bosznia_oszm%C3%A1n_megh%C3%B3d%C3%ADt%C3%A1sa"
+            href="https://hu.wikipedia.org/wiki/Bosznia-Hercegovina_t%C3%B6rt%C3%A9nelme"
           />
         </p>
         <h5>Matyášovo protitažení</h5>
@@ -103,7 +103,7 @@ export const OsmanskeDobytiBosny = ({ draft }: ArticleProps) => (
           království zůstala v osmanské držbě.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://en.wikipedia.org/wiki/Ottoman_conquest_of_Bosnia_(1463)"
+            href="https://en.wikipedia.org/wiki/Ottoman_conquest_of_Bosnia"
           />
         </p>
         <p>
@@ -115,7 +115,7 @@ export const OsmanskeDobytiBosny = ({ draft }: ArticleProps) => (
           nezdařilo.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://hu.wikipedia.org/wiki/Bosznia_oszm%C3%A1n_megh%C3%B3d%C3%ADt%C3%A1sa"
+            href="https://hu.wikipedia.org/wiki/Bosznia-Hercegovina_t%C3%B6rt%C3%A9nelme"
           />
         </p>
         <h5>Výsledek</h5>
@@ -155,7 +155,7 @@ export const OsmanskeDobytiBosny = ({ draft }: ArticleProps) => (
           uprchlíků.
           <Qt
             publication={PUBLICATIONS.BONFINI}
-            href="https://archive.org/details/antoniibonfiniir00bonf"
+            href="https://archive.org/details/bub_gb_NBPp2aOaL0AC"
           />
         </p>
         <h5>Účast českých žoldnéřů</h5>
@@ -173,7 +173,7 @@ export const OsmanskeDobytiBosny = ({ draft }: ArticleProps) => (
           institucionalizací <i>Černé armády</i> v 70. letech 15. století.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://en.wikipedia.org/wiki/Ottoman_conquest_of_Bosnia_(1463)"
+            href="https://en.wikipedia.org/wiki/Ottoman_conquest_of_Bosnia"
           />
         </p>
       </Col>
