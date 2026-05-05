@@ -37,20 +37,57 @@ Po přidání se přepočítá podíl Říše ze 7/21 (33 %) na 8/21 (38 %) a ce
 
 Vyplývá z: kontroly statistik pro slide 5 prezentace, 5. 5. 2026.
 
-## 2026-05-05 — Doplnit Druhou bitvu na Kosově poli do CZECH_MERCENARIES
+## 2026-05-05 — Doplnit chybějící uherské konflikty do CZECH_MERCENARIES
 
-V `casovaOsaData.ts` chybí klíč `'druha-bitva-na-kosove-poli'` v setu `CZECH_MERCENARIES`. Wikipedie i článek `DruhaBitvaNaKosovePoli.tsx` doložují, že čeští žoldnéři v Hunyadiho vojsku **bránili vozovou hradbu do posledního dechu** — explicitně doložená účast.
+Set `CZECH_MERCENARIES` v `casovaOsaData.ts` je pro uherský prostor výrazně podhodnocen. Po projití článků na branchi je **u devíti dalších konfliktů česká účast explicitně doložena přímo v textu článku** (citace pramenů, jména českých velitelů, vozové hradby), ale klíč v setu chybí.
 
-Přidat:
+Přidat tyto klíče (s primárními zdroji, které článek uvádí):
 
 ```ts
-'druha-bitva-na-kosove-poli': {
-  confirmed: true,
-  sources: [
-    'https://cs.wikipedia.org/wiki/Druh%C3%A1_bitva_na_Kosov%C4%9B_poli',
-    // + odkaz na primární kroniku zmiňující Čechy na vozech
-  ],
-},
+'husitske-vpady-spis': { confirmed: true, sources: [
+  'https://en.wikipedia.org/wiki/Jan_Jiskra_of_Brand%C3%BDs',
+  'https://cs.wikipedia.org/wiki/Brat%C5%99%C3%ADci',
+] },
+'hunyadiho-dlouhe-tazeni': { confirmed: true, sources: [
+  'https://en.wikipedia.org/wiki/Long_campaign',
+] },
+'druha-bitva-na-kosove-poli': { confirmed: true, sources: [
+  'https://en.wikipedia.org/wiki/Second_Battle_of_Kosovo',
+  'https://cs.wikipedia.org/wiki/Druh%C3%A1_bitva_na_Kosov%C4%9B_poli',
+] },
+'oblehani-belehradu-1456': { confirmed: true, sources: [
+  'https://en.wikipedia.org/wiki/Siege_of_Belgrade_(1456)',
+  'https://en.wikipedia.org/wiki/Black_Army_of_Hungary',
+] },
+'povstani-magnatu-proti-matyasovi-1459': { confirmed: true, sources: [
+  'https://en.wikipedia.org/wiki/Jan_Jiskra_of_Brand%C3%BDs',
+] },
+'osmansko-uherska-valka-1463-1483': { confirmed: true, sources: [
+  'https://en.wikipedia.org/wiki/Black_Army_of_Hungary',
+  'https://en.wikipedia.org/wiki/Ottoman%E2%80%93Hungarian_wars',
+] },
+'valka-o-uhersky-trun-1490-1492': { confirmed: true, sources: [
+  'https://en.wikipedia.org/wiki/Vladislaus_II_of_Hungary',
+  'https://en.wikipedia.org/wiki/Black_Army_of_Hungary',
+] },
+'osmansko-uherska-valka-1492-1495': { confirmed: true, sources: [
+  'https://en.wikipedia.org/wiki/Ottoman%E2%80%93Hungarian_wars',
+  'https://en.wikipedia.org/wiki/Black_Army_of_Hungary',
+] },
+'osmansko-uherska-valka-1521-1526': { confirmed: true, sources: [
+  'https://en.wikipedia.org/wiki/Ottoman%E2%80%93Hungarian_wars',
+] },
 ```
 
-Vyplývá z: kontroly statistik pro slide 5 prezentace, 5. 5. 2026.
+Po doplnění nové statistiky:
+
+| Region | Před | Po |
+|---|---|---|
+| Říše (s Waldshutem) | 7/21 = 33 % | **8/21 = 38 %** |
+| Uhry | 7/24 = 29 % | **16/24 = 67 %** |
+| Rakousy | 2/4 = 50 % | **3/4 = 75 %** |
+| Osmani | 2/14 = 14 % | **8/14 = 57 %** |
+| Polsko-Litva | 3/20 = 15 % | 3/20 = 15 % |
+| **Celkem** | 22/115 = 19 % | **32/115 = 28 %** |
+
+Vyplývá z: kontroly statistik pro slide 5 prezentace, 5. 5. 2026, doplněno subagentem po průchodu uherských článků.
