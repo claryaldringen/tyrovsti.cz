@@ -36,3 +36,21 @@ Přidat:
 Po přidání se přepočítá podíl Říše ze 7/21 (33 %) na 8/21 (38 %) a celkový počet doložených konfliktů s českou účastí z 22 na 23.
 
 Vyplývá z: kontroly statistik pro slide 5 prezentace, 5. 5. 2026.
+
+## 2026-05-05 — Doplnit Druhou bitvu na Kosově poli do CZECH_MERCENARIES
+
+V `casovaOsaData.ts` chybí klíč `'druha-bitva-na-kosove-poli'` v setu `CZECH_MERCENARIES`. Wikipedie i článek `DruhaBitvaNaKosovePoli.tsx` doložují, že čeští žoldnéři v Hunyadiho vojsku **bránili vozovou hradbu do posledního dechu** — explicitně doložená účast.
+
+Přidat:
+
+```ts
+'druha-bitva-na-kosove-poli': {
+  confirmed: true,
+  sources: [
+    'https://cs.wikipedia.org/wiki/Druh%C3%A1_bitva_na_Kosov%C4%9B_poli',
+    // + odkaz na primární kroniku zmiňující Čechy na vozech
+  ],
+},
+```
+
+Vyplývá z: kontroly statistik pro slide 5 prezentace, 5. 5. 2026.
