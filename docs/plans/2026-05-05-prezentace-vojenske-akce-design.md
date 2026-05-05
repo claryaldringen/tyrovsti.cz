@@ -34,7 +34,7 @@ Sekce                                            Délka     Slidy
 ───────────────────────────────────────────────  ────────  ─────
 1. Intro (rámec + dvě časové osy + statistika)    10 min   4–5
 2. Doznívání husitských válek                     15 min   6–8
-   (Lipany 1434, Řevničov, Želenice 1438)
+   (Lipany 1434, Želenice 1438)
 3. Soestská zášť 1444–1449                        12 min   5–6
 4. Waldshuterkrieg 1468                           10 min   4–5
 5. Černá rota Matyáše Korvína                     15 min   6–8
@@ -59,11 +59,10 @@ Sekce                                            Délka     Slidy
 
 #### 2. Doznívání husitských válek (15 min)
 
-Pointa: **kontinuita jízdy a husitského dědictví** + nástup žoldnéřského režimu po rozpadu polních obcí.
+Pointa: **kontinuita jízdy a husitského dědictví** + nástup žoldnéřského režimu po rozpadu polních obcí. Lipany a Želenice ukazují tentýž taktický manévr — **předstíraný ústup pěchoty s následným úderem jízdy** — to je důležitá kontinuita pozdně-husitské taktiky napříč protichůdnými stranami.
 
-- **Lipany 1434** — bratrstva proti sobě, vozová hradba, jezdecký proti-úder. Zdroj: `BitvaULipan.tsx`, `DoznivaniHusitskychValek.tsx`.
-- **Bitva u Řevničova** — jízda. *Off-web zdroj* (Martin doplní sekundárku).
-- **Želenice 1438** — polsko-husitské vojsko vs. Albrecht II. *Off-web zdroj*: cs.wikipedia.org/wiki/Bitva_u_Želenic.
+- **Lipany 1434** — bratrstva proti sobě, vozová hradba, předstíraný ústup pěchoty + jezdecký proti-úder. Zdroj: `BitvaULipan.tsx`, `DoznivaniHusitskychValek.tsx`.
+- **Želenice 1438** — polsko-husitské vojsko vs. Albrecht II.; tentýž manévr (předstíraný ústup pěchoty + úder jízdy). *Off-web zdroj*: cs.wikipedia.org/wiki/Bitva_u_Želenic.
 
 #### 3. Soestská zášť 1444–1449 (12 min)
 
@@ -139,7 +138,6 @@ Tři cesty k finální Google Slides prezentaci, k vyřešení v navazujícím p
 
 ## Otevřené body
 
-- Bibliografický záznam pro „Bitvu u Řevničova" — Martin doplní.
 - Bibliografický záznam pro knihu o zemské hotovosti — Martin doplní.
 - Volba mechaniky výroby (Apps Script vs. PPTX vs. manuál) — řeší se v navazujícím plánu.
 - Konkrétní seznam vyobrazení a map — projde se ve slide-by-slide outlinu.
