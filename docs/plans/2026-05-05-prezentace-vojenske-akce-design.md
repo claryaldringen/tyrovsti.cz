@@ -1,8 +1,9 @@
 # Prezentace: Vojenské akce s českou účastí 1434–1526 — návrh
 
 **Status:** schválený design, čeká na slide-level outline a výrobu
+**Akce:** Harnischfechten Workshop, Lipnice 2026
 **Kontext:** konferenční přednáška, slot 60–120 min (cílíme ~100 min + Q&A)
-**Publikum:** smíšené — šermíři / reenactoři, akademici, laici
+**Publikum:** smíšené — šermíři / reenactoři (těžiště, kontext akce), akademici, laici
 **Jazyk:** čeština
 **Datum vytvoření:** 5. 5. 2026
 **Sběrný soubor pro úpravy webu vyplývající z prezentace:** `2026-05-05-prezentace-followups-na-web.md`
@@ -141,4 +142,4 @@ Tři cesty k finální Google Slides prezentaci, k vyřešení v navazujícím p
 - Bibliografický záznam pro knihu o zemské hotovosti — Martin doplní.
 - Volba mechaniky výroby (Apps Script vs. PPTX vs. manuál) — řeší se v navazujícím plánu.
 - Konkrétní seznam vyobrazení a map — projde se ve slide-by-slide outlinu.
-- Identifikace konkrétní akce (název konference, datum) pro titulní slide.
+- Konkrétní datum workshopu na Lipnici 2026 (pro titulní slide).
