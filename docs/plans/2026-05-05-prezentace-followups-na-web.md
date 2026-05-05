@@ -119,3 +119,16 @@ Návrh:
 Po sloučení Uhry pohlcují 5 osmani-only konfliktů (např. Osmanské tažení do Sedmihradska 1438, Osmanské dobytí Bosny atd.) → Uhry mají 28 konfliktů, z toho 15 s českou účastí (54 %).
 
 Vyplývá z: kontroly statistik pro slide 5 prezentace, 5. 5. 2026.
+
+## 2026-05-05 — Přejmenovat „Soesterská záští" na „Soestské záští"
+
+V `casovaOsaData.ts` figuruje konflikt jako „Soesterská záští", v článku `SoesterskaZasti.tsx` je v textu obvykle „Soesterská zášť". Správný český tvar je **Soestské záští** (rod střední; viz cs.wikipedia.org/wiki/Soestské_záští). Německý ekvivalent je **Soesterfehde**.
+
+Návrh:
+
+- V `casovaOsaData.ts` přejmenovat `name: 'Soesterská záští'` → `'Soestské záští'`.
+- V `SoesterskaZasti.tsx` přejmenovat nadpis článku, projít text a sjednotit na „Soestské záští".
+- ID konfliktu (`'soester-fehde'` v `CZECH_MERCENARIES`) ponechat, je nezávislé na názvu.
+- Případně přidat do nadpisu i německou variantu jako podtitul: „Soestské záští · Soesterfehde".
+
+Vyplývá z: konzultace s Martinem 5. 5. 2026.
