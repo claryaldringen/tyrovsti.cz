@@ -267,6 +267,87 @@
 
       .reveal .progress { color: var(--color-accent); }
 
+      /* Gantt timeline */
+      .gantt-slide { padding: 0.8em 1.2em !important; }
+      .gantt-slide h2 {
+        font-size: 1.05em;
+        margin-bottom: 0.1em;
+      }
+      .gantt-slide .gantt-caption {
+        font-size: 0.6em;
+        color: var(--color-muted);
+        margin-bottom: 0.6em;
+      }
+      .gantt {
+        display: grid;
+        grid-template-columns: var(--label-col, 260px) repeat(93, 1fr);
+        column-gap: 0;
+        row-gap: 1px;
+        font-family: 'Source Sans 3', sans-serif;
+        font-size: 0.42em;
+        line-height: 1;
+        background:
+          repeating-linear-gradient(
+            to right,
+            transparent 0,
+            transparent calc((100% - var(--label-col, 260px)) / 93 * 10 - 1px),
+            rgba(196, 168, 92, 0.1) calc((100% - var(--label-col, 260px)) / 93 * 10 - 1px),
+            rgba(196, 168, 92, 0.1) calc((100% - var(--label-col, 260px)) / 93 * 10)
+          );
+      }
+      .gantt-header { display: contents; }
+      .gantt-header .gantt-label-h { grid-column: 1; }
+      .gantt-decade {
+        font-family: 'Cinzel', serif;
+        color: var(--color-gold);
+        font-size: 1.2em;
+        letter-spacing: 0.05em;
+        border-bottom: 1px solid rgba(196, 168, 92, 0.4);
+        padding: 0.1em 0.3em 0.2em;
+        text-align: left;
+      }
+      .gantt-row { display: contents; }
+      .gantt-row:hover .gantt-label { color: var(--color-gold); }
+      .gantt-label {
+        grid-column: 1;
+        padding: 0.15em 0.5em 0.15em 0;
+        color: var(--color-bezova);
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 1em;
+        line-height: 1.4;
+        text-align: right;
+        border-right: 1px solid rgba(196, 168, 92, 0.2);
+        padding-right: 0.5em;
+      }
+      .gantt-bar {
+        height: 0.85em;
+        margin: 0.1em 0;
+        border-radius: 1px;
+        align-self: center;
+        opacity: 0.92;
+      }
+      .gantt-legend {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.6em 1em;
+        font-size: 0.5em;
+        color: var(--color-muted);
+        margin-top: 0.4em;
+      }
+      .gantt-legend-item {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.4em;
+      }
+      .gantt-swatch {
+        display: inline-block;
+        width: 1em;
+        height: 0.7em;
+        border-radius: 1px;
+      }
+
       /* Notes for the user */
       .placeholder {
         background: rgba(196, 168, 92, 0.08);
@@ -302,28 +383,315 @@
         <section class="section-divider">
           <div class="section-num">I.</div>
           <h1>Úvod</h1>
-          <div class="section-sub">Co dělalo z českých žoldnéřů žádanou komoditu napříč střední Evropou?</div>
+          <div class="section-sub">Rámec přednášky, dvě časové osy, klíčová čísla.</div>
         </section>
 
-        <section>
-          <span class="theme-tag">RÁMEC</span>
-          <h2>Časová osa: české vojenské akce</h2>
-          <div class="placeholder">
-            <span class="visual-marker">Vizuál:</span> Gantt-styl tabulka konfliktů v Českých zemích
-            1434–1526 (export z webu, komponenta <code>CasovaOsa.tsx</code>, filtrované na region <code>cechy</code>).
-            Zobrazit zde jako screenshot, zvýraznit Lipany, Doznívání husitských válek, Bavorská válka,
-            Boje o český trůn, Kutnohorská bouřka apod.
+        <section class="gantt-slide">
+          <h2>Časová osa: české vojenské akce 1434–1526</h2>
+          <div class="gantt-caption">47 doložených konfliktů v Českých zemích (s případným přesahem do Říše a Uher).</div>
+          <div class="gantt" style="--label-col: 260px;">
+            <div class="gantt-header">
+              <div class="gantt-label-h"></div>
+              <div class="gantt-decade" style="grid-column: 2 / span 6;">1430s</div>
+              <div class="gantt-decade" style="grid-column: 8 / span 10;">1440s</div>
+              <div class="gantt-decade" style="grid-column: 18 / span 10;">1450s</div>
+              <div class="gantt-decade" style="grid-column: 28 / span 10;">1460s</div>
+              <div class="gantt-decade" style="grid-column: 38 / span 10;">1470s</div>
+              <div class="gantt-decade" style="grid-column: 48 / span 10;">1480s</div>
+              <div class="gantt-decade" style="grid-column: 58 / span 10;">1490s</div>
+              <div class="gantt-decade" style="grid-column: 68 / span 10;">1500s</div>
+              <div class="gantt-decade" style="grid-column: 78 / span 10;">1510s</div>
+              <div class="gantt-decade" style="grid-column: 88 / span 7;">1520s</div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Bitva u Lipan (1434–1434)">Bitva u Lipan</div>
+              <div class="gantt-bar" style="grid-column: 2 / 3; background: #8b1b1b;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Doznívání husitských válek (1434–1437)">Doznívání husitských válek</div>
+              <div class="gantt-bar" style="grid-column: 2 / 6; background: #8b1b1b;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Obležení hradu Sion a poslední odboj Jana Roháče z Dubé (1437–1437)">Obležení hradu Sion a poslední odboj Jana Roháče z Dubé</div>
+              <div class="gantt-bar" style="grid-column: 5 / 6; background: #8b1b1b;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Boje o český trůn po Albrechtovi II. (1440–1444)">Boje o český trůn po Albrechtovi II.</div>
+              <div class="gantt-bar" style="grid-column: 8 / 13; background: #8b1b1b;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Tažení Lužického šestiměstí proti Vartemberkům (1444–1444)">Tažení Lužického šestiměstí proti Vartemberkům</div>
+              <div class="gantt-bar" style="grid-column: 12 / 13; background: #8b1b1b;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Vpády bratříků na Moravu a do Slezska (1445–1467)">Vpády bratříků na Moravu a do Slezska</div>
+              <div class="gantt-bar" style="grid-column: 13 / 36; background: #8b1b1b;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Tažení Jiřího z Poděbrad na Prahu (1448–1448)">Tažení Jiřího z Poděbrad na Prahu</div>
+              <div class="gantt-bar" style="grid-column: 16 / 17; background: #8b1b1b;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Válka Jiřího z Poděbrad proti Strakonické jednotě (1449–1450)">Válka Jiřího z Poděbrad proti Strakonické jednotě</div>
+              <div class="gantt-bar" style="grid-column: 17 / 19; background: #8b1b1b;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Spor o korunu sv. Štěpána a Ladislava Pohrobka (1452–1453)">Spor o korunu sv. Štěpána a Ladislava Pohrobka</div>
+              <div class="gantt-bar" style="grid-column: 20 / 22; background: linear-gradient(90deg, #8b1b1b, #b8860b, #0f7a3b);"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Pád Jana Smiřického a boj o jeho dědictví (1453–1454)">Pád Jana Smiřického a boj o jeho dědictví</div>
+              <div class="gantt-bar" style="grid-column: 21 / 23; background: #8b1b1b;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Záští Mikuláše Kaplíře z Vimperka s pasovským biskupem (1458–1460)">Záští Mikuláše Kaplíře z Vimperka s pasovským biskupem</div>
+              <div class="gantt-bar" style="grid-column: 26 / 29; background: linear-gradient(90deg, #8b1b1b, #2c5282);"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Válka proti Zelenohorské jednotě (1465–1471)">Válka proti Zelenohorské jednotě</div>
+              <div class="gantt-bar" style="grid-column: 33 / 40; background: #8b1b1b;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Bitva u Domažlic – odražení bavorsko-falckých křižáků (1466–1466)">Bitva u Domažlic – odražení bavorsko-falckých křižáků</div>
+              <div class="gantt-bar" style="grid-column: 34 / 35; background: linear-gradient(90deg, #8b1b1b, #2c5282);"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Spory pánů z Plavna o Plavno, Bečov a Kynžvart (1466–1482)">Spory pánů z Plavna o Plavno, Bečov a Kynžvart</div>
+              <div class="gantt-bar" style="grid-column: 34 / 51; background: linear-gradient(90deg, #8b1b1b, #2c5282);"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Boje u Nýrska s bocklerskými křižáky (1467–1467)">Boje u Nýrska s bocklerskými křižáky</div>
+              <div class="gantt-bar" style="grid-column: 35 / 36; background: linear-gradient(90deg, #8b1b1b, #2c5282);"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Dobytí a vyloupení tepelského kláštera katolickými pány (1467–1467)">Dobytí a vyloupení tepelského kláštera katolickými pány</div>
+              <div class="gantt-bar" style="grid-column: 35 / 36; background: #8b1b1b;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Bocklerská válka (rytířský spolek Jednorožce vs. Albrecht IV.) (1467–1472)">Bocklerská válka (rytířský spolek Jednorožce vs. Albrecht IV.)</div>
+              <div class="gantt-bar" style="grid-column: 35 / 41; background: linear-gradient(90deg, #2c5282, #8b1b1b);"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Bitva u Nýrska – porážka křižáků a smrt Albrechta Nothafta (1468–1468)">Bitva u Nýrska – porážka křižáků a smrt Albrechta Nothafta</div>
+              <div class="gantt-bar" style="grid-column: 36 / 37; background: linear-gradient(90deg, #8b1b1b, #2c5282);"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Dobytí Vimperka, Vlachova Březí a Budkova pasovskými křižáky (1468–1468)">Dobytí Vimperka, Vlachova Březí a Budkova pasovskými křižáky</div>
+              <div class="gantt-bar" style="grid-column: 36 / 37; background: linear-gradient(90deg, #8b1b1b, #2c5282);"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Tažení Šebestiána Pluha s norimberskými křižáky k Tachovu a Plzni (1468–1468)">Tažení Šebestiána Pluha s norimberskými křižáky k Tachovu a Plzni</div>
+              <div class="gantt-bar" style="grid-column: 36 / 37; background: linear-gradient(90deg, #8b1b1b, #2c5282);"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Česko-uherská válka (1468–1478)">Česko-uherská válka</div>
+              <div class="gantt-bar" style="grid-column: 36 / 47; background: linear-gradient(90deg, #8b1b1b, #0f7a3b);"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Dobytí hradu Degenberga a konfiskace furthského Winkelu (1468–1468)">Dobytí hradu Degenberga a konfiskace furthského Winkelu</div>
+              <div class="gantt-bar" style="grid-column: 36 / 37; background: linear-gradient(90deg, #2c5282, #8b1b1b);"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Trestné tažení bavorských vévodů proti hradům bocklerů (1468–1469)">Trestné tažení bavorských vévodů proti hradům bocklerů</div>
+              <div class="gantt-bar" style="grid-column: 36 / 38; background: linear-gradient(90deg, #2c5282, #8b1b1b);"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Tažení Buriana z Gutštejna a Jindřicha z Plavna proti Chebu a Waldsassen (1469–1469)">Tažení Buriana z Gutštejna a Jindřicha z Plavna proti Chebu a Waldsassen</div>
+              <div class="gantt-bar" style="grid-column: 37 / 38; background: linear-gradient(90deg, #8b1b1b, #2c5282);"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Tažení Jiřího z Poděbrad proti hradům Jindřicha z Plavna (1469–1469)">Tažení Jiřího z Poděbrad proti hradům Jindřicha z Plavna</div>
+              <div class="gantt-bar" style="grid-column: 37 / 38; background: linear-gradient(90deg, #8b1b1b, #2c5282);"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Záští Viléma z Volfštejna na Třebli proti Chebu (1469–1471)">Záští Viléma z Volfštejna na Třebli proti Chebu</div>
+              <div class="gantt-bar" style="grid-column: 37 / 40; background: linear-gradient(90deg, #8b1b1b, #2c5282);"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Boj o Loket a záští na bayreuthské a ašské hranici (1471–1471)">Boj o Loket a záští na bayreuthské a ašské hranici</div>
+              <div class="gantt-bar" style="grid-column: 39 / 40; background: linear-gradient(90deg, #8b1b1b, #2c5282);"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Dobytí hradu Pajreka a zhroucení bocklerského odboje (1471–1472)">Dobytí hradu Pajreka a zhroucení bocklerského odboje</div>
+              <div class="gantt-bar" style="grid-column: 39 / 41; background: linear-gradient(90deg, #8b1b1b, #2c5282);"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Záští Elsenbergů, Nothaftů, Wallenfelsů a Wildensteinerů proti Viršperkům a Cedvicům (1471–1471)">Záští Elsenbergů, Nothaftů, Wallenfelsů a Wildensteinerů proti Viršperkům a Cedvicům</div>
+              <div class="gantt-bar" style="grid-column: 39 / 40; background: linear-gradient(90deg, #8b1b1b, #2c5282);"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Útok kolovratsko-volfštejnského klanu na Chebsko a chebská odveta (1471–1471)">Útok kolovratsko-volfštejnského klanu na Chebsko a chebská odveta</div>
+              <div class="gantt-bar" style="grid-column: 39 / 40; background: linear-gradient(90deg, #8b1b1b, #2c5282);"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Dobytí hradu Pušperka klatovským vojskem (1473–1473)">Dobytí hradu Pušperka klatovským vojskem</div>
+              <div class="gantt-bar" style="grid-column: 41 / 42; background: linear-gradient(90deg, #8b1b1b, #2c5282);"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Tažení Wolfganga Waldekara na Klatovsko (1473–1473)">Tažení Wolfganga Waldekara na Klatovsko</div>
+              <div class="gantt-bar" style="grid-column: 41 / 42; background: linear-gradient(90deg, #8b1b1b, #2c5282);"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Vpád Šliků do města Lokte a vypálení města (1473–1473)">Vpád Šliků do města Lokte a vypálení města</div>
+              <div class="gantt-bar" style="grid-column: 41 / 42; background: linear-gradient(90deg, #8b1b1b, #2c5282);"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Boj o léno Ostroh/Seeberg na Chebsku (1474–1475)">Boj o léno Ostroh/Seeberg na Chebsku</div>
+              <div class="gantt-bar" style="grid-column: 42 / 44; background: linear-gradient(90deg, #8b1b1b, #2c5282);"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Dobytí Nového Herštejna a smíření Hanse Degenberga s Albrechtem IV. (1475–1475)">Dobytí Nového Herštejna a smíření Hanse Degenberga s Albrechtem IV.</div>
+              <div class="gantt-bar" style="grid-column: 43 / 44; background: linear-gradient(90deg, #8b1b1b, #2c5282);"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Záští Břeňka z Ronšperka a Racka Kocovského s Wittelsbachy a pasovským biskupem (1475–1476)">Záští Břeňka z Ronšperka a Racka Kocovského s Wittelsbachy a pasovským biskupem</div>
+              <div class="gantt-bar" style="grid-column: 43 / 45; background: linear-gradient(90deg, #8b1b1b, #2c5282);"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Řezenská záští Žeberka, Zaunruda, Gutštejna a Švamberků (1475–1479)">Řezenská záští Žeberka, Zaunruda, Gutštejna a Švamberků</div>
+              <div class="gantt-bar" style="grid-column: 43 / 48; background: #8b1b1b;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Trestné tažení Chebu proti Hynčíkovi Pluhovi (1477–1477)">Trestné tažení Chebu proti Hynčíkovi Pluhovi</div>
+              <div class="gantt-bar" style="grid-column: 45 / 46; background: linear-gradient(90deg, #8b1b1b, #2c5282);"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Záští Racka Kocovského a obležení Veselí a Horažďovic (1477–1478)">Záští Racka Kocovského a obležení Veselí a Horažďovic</div>
+              <div class="gantt-bar" style="grid-column: 45 / 47; background: #8b1b1b;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Porážka Buriana z Gutštejna u Plzně a tažení Jana Planknára proti Chebsku (1478–1478)">Porážka Buriana z Gutštejna u Plzně a tažení Jana Planknára proti Chebsku</div>
+              <div class="gantt-bar" style="grid-column: 46 / 47; background: linear-gradient(90deg, #8b1b1b, #2c5282);"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Druhá pražská defenestrace a převrat utrakvistů (1483–1485)">Druhá pražská defenestrace a převrat utrakvistů</div>
+              <div class="gantt-bar" style="grid-column: 51 / 54; background: #8b1b1b;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Kutnohorská hornická bouře (1496–1496)">Kutnohorská hornická bouře</div>
+              <div class="gantt-bar" style="grid-column: 64 / 65; background: #8b1b1b;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Kladská válka (spor o Kladsko) (1501–1501)">Kladská válka (spor o Kladsko)</div>
+              <div class="gantt-bar" style="grid-column: 69 / 70; background: #8b1b1b;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Válka českých stavů se Šliky o loketskou enklávu (1501–1504)">Válka českých stavů se Šliky o loketskou enklávu</div>
+              <div class="gantt-bar" style="grid-column: 69 / 73; background: linear-gradient(90deg, #8b1b1b, #2c5282);"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Soukromá válka Jiřího Kopidlanského proti Praze (1507–1517)">Soukromá válka Jiřího Kopidlanského proti Praze</div>
+              <div class="gantt-bar" style="grid-column: 75 / 86; background: #8b1b1b;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Povstání nižší šlechty proti Zikmundu z Lobkovic (1517–1517)">Povstání nižší šlechty proti Zikmundu z Lobkovic</div>
+              <div class="gantt-bar" style="grid-column: 85 / 86; background: #8b1b1b;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Hornické povstání v Jáchymově (1525–1525)">Hornické povstání v Jáchymově</div>
+              <div class="gantt-bar" style="grid-column: 93 / 94; background: #8b1b1b;"></div>
+            </div>
+          </div>
+          <div class="gantt-legend">
+            <span class="gantt-legend-item"><span class="gantt-swatch" style="background:#8b1b1b"></span>České země</span>
+            <span class="gantt-legend-item"><span class="gantt-swatch" style="background:#2c5282"></span>Svatá říše římská</span>
+            <span class="gantt-legend-item"><span class="gantt-swatch" style="background:#b8860b"></span>Rakousy / Habsburkové</span>
+            <span class="gantt-legend-item"><span class="gantt-swatch" style="background:#0f7a3b"></span>Uhry</span>
           </div>
         </section>
 
-        <section>
-          <span class="theme-tag">RÁMEC</span>
+        <section class="gantt-slide">
           <h2>Časová osa: zahraniční akce s českou účastí</h2>
-          <div class="placeholder">
-            <span class="visual-marker">Vizuál:</span> Druhá Gantt tabulka — pouze konflikty mimo
-            České země s doloženou účastí českých žoldnéřů (Soestská zášť, Černá rota / uherské
-            kampaně, Landshutská dědická válka, Čtvrtá litevsko-moskevská, Mohács …).
-            Vyfiltrovaný subset z časové osy webu, ručně vybraný.
+          <div class="gantt-caption">17 konfliktů mimo České země s doloženou účastí českých žoldnéřů (zdroj: Uwe Tresp, <em>Söldner aus Böhmen</em>).</div>
+          <div class="gantt" style="--label-col: 300px;">
+            <div class="gantt-header">
+              <div class="gantt-label-h"></div>
+              <div class="gantt-decade" style="grid-column: 2 / span 6;">1430s</div>
+              <div class="gantt-decade" style="grid-column: 8 / span 10;">1440s</div>
+              <div class="gantt-decade" style="grid-column: 18 / span 10;">1450s</div>
+              <div class="gantt-decade" style="grid-column: 28 / span 10;">1460s</div>
+              <div class="gantt-decade" style="grid-column: 38 / span 10;">1470s</div>
+              <div class="gantt-decade" style="grid-column: 48 / span 10;">1480s</div>
+              <div class="gantt-decade" style="grid-column: 58 / span 10;">1490s</div>
+              <div class="gantt-decade" style="grid-column: 68 / span 10;">1500s</div>
+              <div class="gantt-decade" style="grid-column: 78 / span 10;">1510s</div>
+              <div class="gantt-decade" style="grid-column: 88 / span 7;">1520s</div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Boje o uherský trůn (Vladislav vs. Habsburkové) (1440–1442)">Boje o uherský trůn (Vladislav vs. Habsburkové)</div>
+              <div class="gantt-bar" style="grid-column: 8 / 11; background: linear-gradient(90deg, #0f7a3b, #5e3784);"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Působení Jana Jiskry z Brandýsa v Horních Uhrách (1440–1462)">Působení Jana Jiskry z Brandýsa v Horních Uhrách</div>
+              <div class="gantt-bar" style="grid-column: 8 / 31; background: #0f7a3b;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Soesterská záští (1444–1449)">Soesterská záští</div>
+              <div class="gantt-bar" style="grid-column: 12 / 18; background: #2c5282;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Bitva u Varny (1444–1444)">Bitva u Varny</div>
+              <div class="gantt-bar" style="grid-column: 12 / 13; background: linear-gradient(90deg, #7c4a00, #0f7a3b);"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Saská bratrovražedná válka (1446–1451)">Saská bratrovražedná válka</div>
+              <div class="gantt-bar" style="grid-column: 14 / 20; background: #2c5282;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Třináctiletá válka (1454–1466)">Třináctiletá válka</div>
+              <div class="gantt-bar" style="grid-column: 22 / 35; background: #5e3784;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Rakouská bratrovražedná válka (1458–1463)">Rakouská bratrovražedná válka</div>
+              <div class="gantt-bar" style="grid-column: 26 / 32; background: #b8860b;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Bavorská válka (knížecí válka) (1459–1463)">Bavorská válka (knížecí válka)</div>
+              <div class="gantt-bar" style="grid-column: 27 / 32; background: #2c5282;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Badensko-falcká válka (1461–1462)">Badensko-falcká válka</div>
+              <div class="gantt-bar" style="grid-column: 29 / 31; background: #2c5282;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Mohučská kolegiátní záští (1461–1463)">Mohučská kolegiátní záští</div>
+              <div class="gantt-bar" style="grid-column: 29 / 32; background: #2c5282;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Moldavské tažení a bitva u Baia (1467–1467)">Moldavské tažení a bitva u Baia</div>
+              <div class="gantt-bar" style="grid-column: 35 / 36; background: #0f7a3b;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Rakousko-uherská válka Matyáše Korvína (1477–1488)">Rakousko-uherská válka Matyáše Korvína</div>
+              <div class="gantt-bar" style="grid-column: 45 / 57; background: linear-gradient(90deg, #b8860b, #0f7a3b);"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Vzpoura a rozprášení Černého vojska (1492–1492)">Vzpoura a rozprášení Černého vojska</div>
+              <div class="gantt-bar" style="grid-column: 60 / 61; background: #0f7a3b;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Švábská válka (1499–1499)">Švábská válka</div>
+              <div class="gantt-bar" style="grid-column: 67 / 68; background: #2c5282;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Landshutská dědická válka (1503–1505)">Landshutská dědická válka</div>
+              <div class="gantt-bar" style="grid-column: 71 / 74; background: #2c5282;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Čtvrtá litevsko-moskevská válka (bitva u Orši) (1512–1522)">Čtvrtá litevsko-moskevská válka (bitva u Orši)</div>
+              <div class="gantt-bar" style="grid-column: 80 / 91; background: #5e3784;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Bitva u Moháče (1526–1526)">Bitva u Moháče</div>
+              <div class="gantt-bar" style="grid-column: 94 / 95; background: linear-gradient(90deg, #7c4a00, #0f7a3b);"></div>
+            </div>
+          </div>
+          <div class="gantt-legend">
+            <span class="gantt-legend-item"><span class="gantt-swatch" style="background:#2c5282"></span>Svatá říše římská</span>
+            <span class="gantt-legend-item"><span class="gantt-swatch" style="background:#b8860b"></span>Rakousy / Habsburkové</span>
+            <span class="gantt-legend-item"><span class="gantt-swatch" style="background:#0f7a3b"></span>Uhry</span>
+            <span class="gantt-legend-item"><span class="gantt-swatch" style="background:#5e3784"></span>Polsko-Litva</span>
+            <span class="gantt-legend-item"><span class="gantt-swatch" style="background:#7c4a00"></span>Osmani</span>
           </div>
         </section>
 
