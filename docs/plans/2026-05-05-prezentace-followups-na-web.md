@@ -16,3 +16,23 @@ Lipany a Želenice patří strukturně dovnitř článku „Doznívání husitsk
 V `casovaOsaData.ts` rozšířit `doznivani-husitskych-valek` z 1434–1437 minimálně na 1434–1438 (kvůli Želenicím).
 
 Vyplývá z: brainstormingu prezentace 5. 5. 2026.
+
+## 2026-05-05 — Doplnit Waldshuterkrieg do CZECH_MERCENARIES
+
+V `casovaOsaData.ts` chybí klíč `'waldshuterkrieg'` v setu `CZECH_MERCENARIES`, ačkoli článek `Waldshuterkrieg.tsx` obsahuje doslovnou citaci Diebolda Schillinga: „bylo z říše od vévody posláno asi šestnáct set Čechů" — tj. doložená účast 1 600 českých žoldnéřů na straně Habsburků (poslal je bavorský vévoda Ludvík IX.).
+
+Přidat:
+
+```ts
+'waldshuterkrieg': {
+  confirmed: true,
+  sources: [
+    'https://cs.wikipedia.org/wiki/Waldshutsk%C3%A1_v%C3%A1lka',
+    // + odkaz na Schillingovu kroniku, primární pramen
+  ],
+},
+```
+
+Po přidání se přepočítá podíl Říše ze 7/21 (33 %) na 8/21 (38 %) a celkový počet doložených konfliktů s českou účastí z 22 na 23.
+
+Vyplývá z: kontroly statistik pro slide 5 prezentace, 5. 5. 2026.
