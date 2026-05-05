@@ -269,46 +269,40 @@
 
       /* Two-column bitva layout */
       .bitvy-slide { padding: 0.8em 1.4em !important; }
-      .bitvy-slide h2 { margin-bottom: 0.2em; }
-      .bitvy-lead {
-        color: var(--color-bezova);
-        font-size: 0.78em;
-        margin-bottom: 0.8em;
-        max-width: 50em;
-      }
+      .bitvy-slide h2 { margin-bottom: 0.6em; }
       .bitvy-col {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 1.5em;
+        gap: 1.8em;
       }
       .bitva h3 {
         font-family: 'Cinzel', serif;
         color: var(--color-gold);
         border-bottom: 1px solid rgba(196, 168, 92, 0.4);
         padding-bottom: 0.2em;
-        margin-bottom: 0.4em;
-        font-size: 0.95em;
-      }
-      .bitva-meta {
-        font-size: 0.65em;
-        color: var(--color-muted);
-        line-height: 1.4;
         margin-bottom: 0.5em;
+        font-size: 1em;
       }
-      .bitva ol {
-        font-size: 0.7em;
-        line-height: 1.35;
-        padding-left: 1.4em;
+      dl.bitva-info {
+        display: grid;
+        grid-template-columns: max-content 1fr;
+        gap: 0.4em 0.9em;
+        font-size: 0.6em;
+        line-height: 1.4;
+        margin: 0;
       }
-      .bitva ol li { margin-bottom: 0.3em; padding-left: 0; }
-      .bitva ol li::before { content: none; }
-      .bitva-foot {
-        font-size: 0.62em;
+      dl.bitva-info dt {
         color: var(--color-muted);
-        font-style: italic;
-        margin-top: 0.5em;
-        padding-top: 0.4em;
-        border-top: 1px solid rgba(196, 168, 92, 0.18);
+        font-family: 'Cinzel', serif;
+        font-size: 0.85em;
+        letter-spacing: 0.05em;
+        text-align: right;
+        white-space: nowrap;
+        padding-top: 0.15em;
+      }
+      dl.bitva-info dd {
+        color: var(--color-bezova);
+        margin: 0;
       }
 
       /* Gantt timeline */
@@ -997,32 +991,31 @@
         <!-- SEKCE 2: DOZNÍVÁNÍ HUSITSKÝCH VÁLEK           -->
         <!-- ============================================ -->
         <section class="bitvy-slide">
-          <h2>Lipany &amp; Želenice — tentýž manévr</h2>
-          <p class="bitvy-lead">Předstíraný ústup pěchoty + úder jízdy z boku. Pozdně-husitské taktické know-how, které tu vidíme <strong>na obou stranách barikády</strong> v rozmezí čtyř let.</p>
+          <h2>Doznívání husitských válek — Lipany &amp; Želenice</h2>
           <div class="bitvy-col">
             <div class="bitva">
-              <h3>Lipany — 30. května 1434</h3>
-              <p class="bitva-meta"><strong>Diviš Bořek z&nbsp;Miletínka</strong> (panská jednota, 12–13 000 pěch., 1 200 jezd., 720 vozů) <em>vs.</em> <strong>Prokop Holý</strong> (polní obce, 9–10 000 pěch., 700 jezd., 480–600 vozů)</p>
-              <ol>
-                <li>Dělostřelecká přestřelka, polní obce za vozovou hradbou</li>
-                <li>Diviš Bořek <strong>předstíraný útok a stažení</strong></li>
-                <li>Polní obce vyrazí z hradby; vlastní jezdci jim výpadem <strong>rozporcují řady</strong></li>
-                <li><strong>Krchlebcova jízda</strong> přes údolí Bylanky, úder z boku do otevřené hradby</li>
-                <li>Polní obce zhroutí: <strong>1 300 padlých</strong>, 700 zajatců upáleno; Prokop Holý padl</li>
-              </ol>
-              <p class="bitva-foot">Tisíce vycvičených bojovníků bez práce → bod zrodu pozdně-středověkého česky mluvícího žoldnéřství.</p>
+              <h3>Bitva u Lipan</h3>
+              <dl class="bitva-info">
+                <dt>Datum</dt><dd>30. května 1434</dd>
+                <dt>Místo</dt><dd>mezi Hřiby a Lipskou horou, východně od Českého Brodu</dd>
+                <dt>Strany</dt><dd>panská jednota (umírnění utrakvisté, pražská města, katolická šlechta) <em>vs.</em> polní obce táborů a sirotků</dd>
+                <dt>Velitelé</dt><dd><strong>Diviš Bořek z&nbsp;Miletínka</strong> (panská jednota) <em>vs.</em> <strong>Prokop Holý</strong> a <strong>Prokop Malý</strong> (polní obce)</dd>
+                <dt>Síly</dt><dd>panská jednota: <strong>12–13 000 pěch., 1 200 jezdců, 720 vozů</strong><br />polní obce: <strong>9–10 000 pěch., 700 jezdců, 480–600 vozů</strong></dd>
+                <dt>Ztráty</dt><dd>panská jednota ~200 padlých<br />polní obce <strong>1 300 padlých</strong> + 700 zajatců upáleno u&nbsp;Českého Brodu; Prokop Holý i&nbsp;Prokop Malý padli</dd>
+                <dt>Výsledek</dt><dd>Rozhodující vítězství panské jednoty; konec polních obcí, tisíce veteránů bez práce → vznik česky mluvícího žoldnéřského trhu</dd>
+              </dl>
             </div>
             <div class="bitva">
-              <h3>Želenice — 23. září 1438</h3>
-              <p class="bitva-meta"><strong>Polsko-husitské vojsko</strong> (Mikuláš Sokol z&nbsp;Lamberka, podpora Kazimíra Jagellonského) <em>vs.</em> vojsko <strong>Albrechta II. Habsburského</strong> v&nbsp;rámci bojů o&nbsp;český trůn po Zikmundovi.</p>
-              <ol>
-                <li>Albrechtovo vojsko v&nbsp;defenzivní pozici, čeká útok</li>
-                <li>Husitská pěchota <strong>předstírá ústup</strong></li>
-                <li>Albrechtovi jezdci pronásledují, <strong>rozpadají si formaci</strong></li>
-                <li>Husitská jízda <strong>úder do rozvolněné formace</strong></li>
-                <li>Albrechtovo vojsko rozprášeno</li>
-              </ol>
-              <p class="bitva-foot">Stejný vzorec, otočené strany. Husitské know-how přežívá rozpad polních obcí a stane se standardem.</p>
+              <h3>Bitva u Želenic</h3>
+              <dl class="bitva-info">
+                <dt>Datum</dt><dd>23. září 1438</dd>
+                <dt>Místo</dt><dd>u&nbsp;Želenic na Mostecku</dd>
+                <dt>Strany</dt><dd>polsko-husitská strana (kandidát <strong>Kazimír Jagellonský</strong>) <em>vs.</em> habsburská strana (král <strong>Albrecht II. Habsburský</strong>)</dd>
+                <dt>Velitelé</dt><dd><strong>Mikuláš Sokol z&nbsp;Lamberka</strong> (polsko-husitské vojsko) <em>vs.</em> Albrechtovi hejtmani</dd>
+                <dt>Síly</dt><dd>v&nbsp;pramenech přesně nezachycené; husitská strana měla převahu pěchoty s&nbsp;palnými zbraněmi a&nbsp;jízdu</dd>
+                <dt>Ztráty</dt><dd>v&nbsp;pramenech nezachycené</dd>
+                <dt>Výsledek</dt><dd>Rozprášení Albrechtova vojska; podpora Jagellonské kandidatury na český trůn po Zikmundovi</dd>
+              </dl>
             </div>
           </div>
           <div class="timeline-footer">
