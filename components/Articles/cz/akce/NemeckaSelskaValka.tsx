@@ -66,13 +66,14 @@ export const NemeckaSelskaValka = ({ draft }: ArticleProps) => (
           Knížecí protiofenzíva začala koncem března 1525. Velitel Švábského
           spolku Jiří Truchsess z Waldburgu, zvaný <i>Bauernjörg</i>, rozdrtil
           jihošvábské oddíly v bitvě u Wurzachu <b>14. dubna 1525</b> a u
-          Leipheimu <b>4. dubna 1525</b>. Frankové padli u Königshofenu{' '}
-          <b>2. června 1525</b>. Klíčová bitva proti Müntzerově skupině se
-          odehrála <b>15. května 1525</b> u Frankenhausenu — sjednocené oddíly
-          hesenského lankraběte Filipa I. a saských vévodů zde za několik hodin
-          zničily přes 5 000 sedláků; Müntzer byl zajat a po mučení popraven.
-          Tyroly a Salcbursko byly pacifikovány do podzimu 1525. Celkové ztráty
-          selských oddílů odhadují prameny na 70 000 až 100 000 mrtvých.
+          Leipheimu <b>4. dubna 1525</b>. Hlavní franské síly byly rozdrceny u
+          Königshofenu (na Tauberu) <b>2. června 1525</b>. Klíčová bitva proti
+          Müntzerově skupině se odehrála <b>15. května 1525</b> u Frankenhausenu
+          — sjednocené oddíly hesenského lankraběte Filipa I. a saských vévodů
+          zde za několik hodin zničily přes 5 000 sedláků; Müntzer byl zajat a
+          po mučení popraven. Tyroly a Salcbursko byly pacifikovány do podzimu
+          1525. Celkové ztráty selských oddílů odhadují prameny na 70 000 až 100
+          000 mrtvých.
           <Qt
             publication={PUBLICATIONS.WIKI}
             href="https://de.wikipedia.org/wiki/Deutscher_Bauernkrieg"

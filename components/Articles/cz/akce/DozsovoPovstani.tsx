@@ -57,8 +57,8 @@ export const DozsovoPovstani = ({ draft }: ArticleProps) => (
           května a června ovládli rozsáhlou oblast od Stoličného Bělehradu po
           Tisu; dobyli Cegléd, Békés, Csanád a Lippu, vyplenili desítky panství
           a popravili řadu šlechticů — nejznámější obětí byl čanádský biskup
-          Mikuláš Csáky, jehož povstalci napadli a zabili na základě lidového
-          soudu při dobytí Csanádu <b>23. května 1514</b>.
+          Mikuláš Csáky, jehož povstalci zajali v bitvě u Nagylaku{' '}
+          <b>23. května 1514</b> a po dobytí Csanádu narazili na kůl.
           <Qt
             publication={PUBLICATIONS.WIKI}
             href="https://hu.wikipedia.org/wiki/D%C3%B3zsa-f%C3%A9le_parasztfelkel%C3%A9s"

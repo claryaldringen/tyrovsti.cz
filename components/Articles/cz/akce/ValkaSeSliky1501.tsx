@@ -11,7 +11,7 @@ export const ValkaSeSliky1501 = ({ draft }: ArticleProps) => (
       <Col>
         <div className="anchor" id="valka-se-sliky-1501" />
         <h4>
-          Válka českých stavů se Šliky o&nbsp;loketskou enklávu (1501–1505)
+          Spor českých stavů se Šliky o&nbsp;loketskou enklávu (od 1501)
           {draft && <DraftBadge />}
         </h4>
         <p>
@@ -23,8 +23,10 @@ export const ValkaSeSliky1501 = ({ draft }: ArticleProps) => (
           poloviny 15. století udržoval díky stříbrnému a&nbsp;cínovému
           bohatství Krušnohoří. Vladislavův pokus Loket vykoupit a&nbsp;vrátit
           do královských rukou narazil na šlikovský odpor a&nbsp;vyústil
-          v&nbsp;sérii ozbrojených i&nbsp;právních střetů, které skončily teprve
-          roku 1505 vrácením Lokte koruně.
+          v&nbsp;sérii ozbrojených i&nbsp;právních střetů. Loket si Šlikové
+          udrželi i&nbsp;přes královy diplomatické a&nbsp;administrativní
+          zákroky — definitivně byl koruně navrácen teprve roku 1547 po bitvě
+          u&nbsp;Mühlberka.
           <Qt
             publication={PUBLICATIONS.WIKI}
             href="https://cs.wikipedia.org/wiki/%C5%A0likov%C3%A9"
@@ -71,13 +73,16 @@ export const ValkaSeSliky1501 = ({ draft }: ArticleProps) => (
         </p>
         <h5>Výsledek</h5>
         <p>
-          V&nbsp;roce 1505 byl Loket vrácen do královských rukou; král
-          Vladislav&nbsp;II. jej získal výkupem a&nbsp;loketská krajina se opět
-          stala bezprostředně královským majetkem. Šlikové si však udrželi
-          jáchymovské doly a&nbsp;stříbrné výnosy, na nichž stála jejich
-          pozdější moc — ve&nbsp;dvacátých letech 16. století se rod stal
-          hlavním finančníkem habsburského dvora v&nbsp;saském regionu
-          a&nbsp;jeho mincovna v&nbsp;Jáchymově se stala jednou
+          Akutní fáze sporu odezněla v&nbsp;průběhu let 1502–1505: Vladislav II.
+          roku 1502 jmenoval loketským hejtmanem Jindřicha z&nbsp;Plavna, tomu
+          však loketští Šlikové odepřeli poslušnost. Spor pokračoval v rovině
+          právních a&nbsp;sněmovních jednání a&nbsp;Loket fakticky zůstal
+          v&nbsp;rukou Šliků. Definitivně byl koruně navrácen teprve roku 1547
+          po bitvě u&nbsp;Mühlberka. Šlikové si však udrželi jáchymovské doly
+          a&nbsp;stříbrné výnosy, na nichž stála jejich pozdější moc —
+          ve&nbsp;dvacátých letech 16. století se rod stal hlavním finančníkem
+          habsburského dvora v&nbsp;saském regionu a&nbsp;jeho mincovna
+          v&nbsp;Jáchymově (založená Štěpánem Šlikem 1516) se stala jednou
           z&nbsp;nejvýznamnějších v&nbsp;Říši.
           <Qt
             publication={PUBLICATIONS.WIKI}
@@ -116,8 +121,7 @@ export const ValkaSeSliky1501 = ({ draft }: ArticleProps) => (
           zčásti digitalizovány v <i>digi20</i> Bavorské státní knihovny (BSB) —
           v mnichovských sbírkách jsou zastoupeny šlikovské mincovní patenty a
           léna pro krušnohorské doly. <b>Staří letopisové čeští</b> spor
-          zaznamenávají velmi stručně, akcent kladou až na uzavření výkupu roku
-          1505.
+          zaznamenávají velmi stručně.
           <Qt
             publication={PUBLICATIONS.STARI_LETOPISOVE}
             href="https://archive.org/details/scriptorumrerum02unkngoog"

@@ -62,7 +62,7 @@ export const PruskePovstani = ({ draft }: ArticleProps) => (
         <p>
           Otevřená válka trvala třináct let (<b>1454–1466</b>) a stala se jedním
           z nejdelších a nejnákladnějších konfliktů 15. století ve střední
-          Evropě. Polská hotovost utrpěla v září <b>1454</b> velkou porážku v
+          Evropě. Polská hotovost utrpěla <b>18. září 1454</b> velkou porážku v
           bitvě u Chojnice, postupem let však získala převahu díky finanční síle
           pruských měst, zejména Gdaňska, a díky soustavnému využívání žoldnéřů.
           Klíčovými vítězstvími polské strany byla bitva u Świecina (

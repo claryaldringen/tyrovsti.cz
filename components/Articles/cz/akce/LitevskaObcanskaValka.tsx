@@ -67,7 +67,7 @@ export const LitevskaObcanskaValka = ({ draft }: ArticleProps) => (
         <h5>Spojenecké systémy</h5>
         <p>
           Svidrigailo vytvořil rozsáhlou koalici. Klíčovým partnerem se stal
-          Livonský řád pod velmistrem Frankem Kerskorffem; spojenecká smlouva
+          Livonský řád pod velmistrem Francem Kerskorffem; spojenecká smlouva
           s&nbsp;ním byla uzavřena <b>15. května 1433</b>. Dalšími spojenci byli
           Tatarská zlatá horda, moldavský vévoda Štěpán II. a část ruské
           pravoslavné šlechty. Vojenskou špičku tvořil Zikmund Korybutovič,
@@ -111,7 +111,7 @@ export const LitevskaObcanskaValka = ({ draft }: ArticleProps) => (
           Rozhodující střetnutí celé války proběhlo <b>1. září 1435</b> u
           městečka Pabaiskas (pol. <i>Wiłkomierz</i>, něm. <i>Wilkomir</i>) na
           řece Sventoji ve&nbsp;střední Litvě. Svidrigailovo vojsko vedené
-          Zikmundem Korybutovičem a livonským velmistrem Frankem Kerskorffem
+          Zikmundem Korybutovičem a livonským velmistrem Francem Kerskorffem
           čítalo podle dobových odhadů kolem 11 000 mužů (současné kroniky
           uvádějí přehnaných 30 000), z čehož významnou část tvořili Livonští
           rytíři a čeští husitští žoldnéři. Vojsko Zikmunda Kejstutoviče pod

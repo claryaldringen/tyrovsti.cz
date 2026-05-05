@@ -17,14 +17,15 @@ export const OdbojPodebradskychVsKorvin = ({ draft }: ArticleProps) => (
         </h4>
         <p>
           Po smrti krále <b>Jiřího z&nbsp;Poděbrad</b> (<b>22. března 1471</b>)
-          zdědili jeho synové <b>Hynek z&nbsp;Poděbrad</b>,{' '}
-          <b>Jindřich starší</b> a&nbsp;<b>Viktorin</b> minsterberské vévodství
-          ve Slezsku a&nbsp;rodové statky v&nbsp;Čechách. Z&nbsp;jejich pozice
-          slezských knížat se však po nástupu Vladislava&nbsp;II. Jagellonského
-          a&nbsp;po vleklé válce mezi Vladislavem a&nbsp;Matyášem Korvínem stala
-          jednou z&nbsp;nejtěžších: Korvín jako fakticky vládnoucí pán Slezska
-          a&nbsp;Moravy systematicky tlačil na minsterberské Poděbrady, dokud je
-          z&nbsp;velké části nezbavil rodového dědictví.
+          zdědili jeho synové <b>Jindřich starší</b> z&nbsp;Minsterberka,{' '}
+          <b>Hynek z&nbsp;Poděbrad</b> a&nbsp;<b>Viktorin</b> rodové statky;
+          slezská minsterberská knížectví připadla zejména Jindřichovi staršímu,
+          který si vybral za sídlo Kladsko. Z&nbsp;jejich pozice se po nástupu
+          Vladislava&nbsp;II. Jagellonského a&nbsp;po vleklé válce mezi
+          Vladislavem a&nbsp;Matyášem Korvínem stala jednou z&nbsp;nejtěžších:
+          Korvín jako fakticky vládnoucí pán Slezska a&nbsp;Moravy systematicky
+          tlačil na minsterberské Poděbrady, dokud je z&nbsp;velké části
+          nezbavil rodového dědictví.
           <Qt
             publication={PUBLICATIONS.WIKI}
             href="https://cs.wikipedia.org/wiki/Minsterberkov%C3%A9"

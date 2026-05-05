@@ -68,14 +68,15 @@ export const DruhaLitevskoMoskevska = ({ draft }: ArticleProps) => (
       <Col>
         <h5>Průběh</h5>
         <p>
-          Moskevské vojsko pod knížetem <b>Daniilem Ščeňou</b> postupovalo na
-          západ od Brjanska a obsadilo na jaře 1500 Putyvl, Novgorod-Severský,
-          Rylsk, Mceńsk i Brjansk. Litevská protiofenziva pod Ostrožským se
-          vydala k řece Vedroši (přítok Trobňy poblíž Dorogobuže), kde se{' '}
-          <b>14. července 1500</b> odehrála rozhodující polní bitva. Ostrožského
-          vojsko (odhadem 3 500–4 000 mužů) bylo přečísleno moskevskými silami
-          knížete Ščeni (10 000–12 000 mužů); litevské vojsko bylo z velké části
-          obklíčeno, rozdrceno a sám Ostrožský padl do moskevského zajetí —
+          Moskevské vojsko pod bojarem <b>Daniilem Ščeňou</b> a velitelem{' '}
+          <b>Jakovem Koškinem-Zacharjinem</b> postupovalo na západ od Brjanska a
+          obsadilo na jaře 1500 Putyvl, Novgorod-Severský, Rylsk, Mceńsk i
+          Brjansk. Litevská protiofenziva pod Ostrožským se vydala k řece
+          Vedroši poblíž Dorogobuže, kde se <b>14. července 1500</b> odehrála
+          rozhodující polní bitva. Ostrožského vojsko (odhadem 3 500–4 000 mužů)
+          bylo přečísleno moskevskými silami (20 000–40 000 mužů); litevský
+          předvoj byl vlákán do dobře připraveného přepadu, celé velitelské
+          jádro padlo do moskevského zajetí včetně samotného Ostrožského —
           propuštěn byl až roku 1507, kdy z Moskvy uprchl a převzal velení nad
           litevskými vojsky pro další konflikty.
           <Qt
@@ -102,7 +103,7 @@ export const DruhaLitevskoMoskevska = ({ draft }: ArticleProps) => (
       <Col>
         <h5>Výsledek</h5>
         <p>
-          V roce <b>1503</b> bylo uzavřeno šestileté příměří v Moskvě (
+          Dne <b>28. března 1503</b> bylo uzavřeno šestileté příměří v Moskvě (
           <i>Blagověščenský mír</i>), jež potvrdilo územní status quo: Moskva
           získala přibližně třetinu litevského území — celou Severskou zemi
           (Černigov, Novgorod-Severský, Putyvl, Rylsk, Brjansk, Starodub) a dále

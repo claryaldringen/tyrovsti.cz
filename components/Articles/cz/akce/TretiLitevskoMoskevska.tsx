@@ -50,16 +50,17 @@ export const TretiLitevskoMoskevska = ({ draft }: ArticleProps) => (
         </p>
         <h5>Průběh</h5>
         <p>
-          Válka byla formálně vyhlášena Moskvou na jaře <b>1507</b>; Vasilij
-          III. odmítl uznat Zikmundovu vládu a požadoval navrácení území
-          ztracených v předchozích válkách. Hlavní bojiště se rozprostřela na
-          horním Dněpru a v okolí Smolenska. <b>2. února 1508</b> propukla
-          otevřená vzpoura Glinského: ten zaútočil na sídlo Jana Zaberezinského
-          v Grodně a soka osobně zabil. Současně se zmocnil opevněných měst
-          Mozyr, Klecký a Turov a žádal, aby mu Vasilij III. potvrdil držbu jako
-          moskevské léno. Moskevské vojsko vstoupilo do Litvy několika proudy:
-          hlavní oddíl pod velením Vasilije Šemjačiče směřoval k Minsku, druhý k
-          Smolensku, třetí měl podpořit Glinského povstání v jihozápadní Litvě.
+          Stav války mezi Litvou a Moskvou byl konstatován usnesením litevského
+          sejmu <b>2. února 1507</b>; Vasilij III. odmítl uznat Zikmundovu vládu
+          a požadoval navrácení území ztracených v předchozích válkách. Hlavní
+          bojiště se rozprostřela na horním Dněpru a v okolí Smolenska.{' '}
+          <b>2. února 1508</b> propukla otevřená vzpoura Glinského: ten zaútočil
+          na sídlo Jana Zaberezinského v Grodně a soka osobně zabil. Současně se
+          zmocnil opevněných měst Mozyr, Klecký a Turov a žádal, aby mu Vasilij
+          III. potvrdil držbu jako moskevské léno. Moskevské vojsko vstoupilo do
+          Litvy několika proudy: hlavní oddíl pod velením Vasilije Šemjačiče
+          směřoval k Minsku, druhý k Smolensku, třetí měl podpořit Glinského
+          povstání v jihozápadní Litvě.
           <Qt
             publication={PUBLICATIONS.WIKI}
             href="https://pl.wikipedia.org/wiki/Wojna_litewsko-moskiewska_(1507%E2%80%931508)"

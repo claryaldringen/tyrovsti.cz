@@ -70,8 +70,8 @@ export const OsmanskoUherskaValka14631483 = ({ draft }: ArticleProps) => (
           osmanské odvety v podobě plenivých vpádů akindžíů do Slavonie,
           Sedmihradska a Chorvatska. Dramatickým bodem byl rok <b>1474</b>, kdy
           se obrovský osmanský nájezd Aliho Mihaloglu vlomil do Velkovaradínu
-          (maď. <i>Nagyvárad</i>), avšak <b>13. října 1474</b> byl Pavlem
-          Kinizsim a Štěpánem Báthorym tvrdě potrestán u Şabacu.
+          (maď. <i>Nagyvárad</i>); uherské pohraniční oddíly nájezdníky následně
+          pronásledovaly při zpáteční cestě.
           <Qt
             publication={PUBLICATIONS.WIKI}
             href="https://en.wikipedia.org/wiki/Ottoman%E2%80%93Hungarian_wars"
@@ -79,15 +79,15 @@ export const OsmanskoUherskaValka14631483 = ({ draft }: ArticleProps) => (
         </p>
         <p>
           Roku <b>1476</b> Matyáš osobně vedl kampaň proti pevnosti <b>Šabac</b>{' '}
-          na Sávě, kterou po dlouhém obléhání <b>15. února 1476</b> dobyl. Téhož
-          roku se o uherské vítězství v Sedmihradsku zasloužil Štěpán Báthory v
-          bitvě u Vaslui (paralelně se Štěpánem Velkým Moldavským). V letech{' '}
-          <b>1479</b> a <b>1480</b> dosáhli uherští velitelé dvou velkých
-          vítězství, jež byla vrcholem celé války: <b>13. října 1479</b>{' '}
-          rozdrtili Pavel Kinizsi a Štěpán Báthory osmanský vpád v{' '}
-          <b>bitvě na Chlebovém poli</b> (maď. <i>kenyérmezei csata</i>) a v
-          letech <b>1480–1481</b> Kinizsi zaútočil přes hranici do severního
-          Srbska, kde dobyl Krušuvac.
+          na Sávě, kterou po dlouhém obléhání <b>15. února 1476</b> dobyl. O rok
+          dříve (<b>10. ledna 1475</b>) se moldavský vojvoda Štěpán Veliký
+          společně s pomocnými uherskými oddíly proslavil drtivým vítězstvím nad
+          Osmany v bitvě u Vaslui. V letech <b>1479</b> a <b>1480</b> dosáhli
+          uherští velitelé dvou velkých vítězství, jež byla vrcholem celé války:{' '}
+          <b>13. října 1479</b> rozdrtili Pavel Kinizsi a Štěpán Báthory
+          osmanský vpád v <b>bitvě na Chlebovém poli</b> (maď.{' '}
+          <i>kenyérmezei csata</i>) a v letech <b>1480–1481</b> Kinizsi zaútočil
+          přes hranici do severního Srbska, kde dobyl Krušuvac.
           <Qt
             publication={PUBLICATIONS.WIKI}
             href="https://hu.wikipedia.org/wiki/Magyar%E2%80%93t%C3%B6r%C3%B6k_h%C3%A1bor%C3%BAk"

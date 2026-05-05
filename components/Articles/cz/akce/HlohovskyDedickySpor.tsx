@@ -18,10 +18,11 @@ export const HlohovskyDedickySpor = ({ draft }: ArticleProps) => (
           Jindřicha&nbsp;XI. Hlohovského roku 1476. Hlavními aktéry byli vdova
           po Jindřichovi Barbora Braniborská a&nbsp;její otec, kurfiřt
           Albrecht&nbsp;III. Achilles Braniborský, na straně jedné,
-          a&nbsp;hlohovský bratranec zesnulého{' '}
-          <b>Jan&nbsp;II. Hlohovský zvaný Šílený</b>, na straně druhé. Spor se
-          ihned protkl s&nbsp;velkou politikou, neboť do něj vstoupili Matyáš
-          Korvín a&nbsp;obě hlavy Jagellonského domu.
+          a&nbsp;bratranec zesnulého <b>Jan&nbsp;II. Zaháňský zvaný Šílený</b>{' '}
+          (něm. <i>Hans der Grausame</i>, pol.{' '}
+          <i>Jan&nbsp;II. żagański Szalony</i>), kníže Zaháňský, na straně
+          druhé. Spor se ihned protkl s&nbsp;velkou politikou, neboť do něj
+          vstoupili Matyáš Korvín a&nbsp;obě hlavy Jagellonského domu.
           <Qt
             publication={PUBLICATIONS.WIKI}
             href="https://de.wikipedia.org/wiki/Glogauer_Erbfolgestreit"
@@ -35,12 +36,13 @@ export const HlohovskyDedickySpor = ({ draft }: ArticleProps) => (
         <p>
           Po smrti Jindřicha&nbsp;XI. <b>22. února 1476</b> nechtěl Jan&nbsp;II.
           ustoupit braniborským nárokům. Albrecht&nbsp;III. Achilles získal pro
-          svou dceru Barboru souhlas Matyáše Korvína, který jako uherský král
-          vykonával lenní svrchovanost nad Slezskem od olomoucké dohody 1469.
-          Jan&nbsp;II. oproti tomu hledal podporu u&nbsp;jagellonského dvora;
-          jeho mladší bratr Václav Hlohovský byl ostatně dlouholetým služebníkem
-          Vladislava Jagellonského. Konflikt tak rychle nabyl mezinárodního
-          rozměru.
+          svou dceru Barboru souhlas Matyáše Korvína, který jako uherský král si
+          nárokoval lenní svrchovanost nad Slezskem od svého zvolení olomouckým
+          sněmem katolických stavů roku 1469 (definitivně potvrzeno olomouckým
+          mírem 1479). Jan&nbsp;II. oproti tomu hledal podporu
+          u&nbsp;jagellonského dvora; jeho mladší bratr Václav Zaháňský byl
+          ostatně dlouholetým služebníkem Vladislava Jagellonského. Konflikt tak
+          rychle nabyl mezinárodního rozměru.
           <Qt
             publication={PUBLICATIONS.WIKI}
             href="https://pl.wikipedia.org/wiki/Wojna_o_sukcesj%C4%99_g%C5%82ogowsk%C4%85"
@@ -63,15 +65,16 @@ export const HlohovskyDedickySpor = ({ draft }: ArticleProps) => (
           />
         </p>
         <p>
-          Spor se vlekl řadu let. Roku 1480 dosáhl Jan&nbsp;II. dílčího
-          vyrovnání s&nbsp;braniborskou stranou (Kamenecká dohoda), jímž si
-          potvrdil držbu jádra knížectví výměnou za vyplacení odstupného
-          Barboře. Po smrti Albrechta Achilla roku 1486 se však konflikt znovu
-          rozhořel. Matyáš Korvín tentokrát zasáhl rozhodným způsobem: roku{' '}
-          <b>1488</b> vyslal do Slezska oddíly své armády, Jana&nbsp;II.
-          Hlohovského zajal, uvěznil ho na Hlohově a&nbsp;uvalil na knížectví
-          přímou královskou správu. Jan&nbsp;II. Hlohovský zemřel v&nbsp;zajetí{' '}
-          <b>22. dubna 1504</b>.
+          Spor se vlekl řadu let. Roku <b>1482</b> dosáhl Jan&nbsp;II. dílčího
+          vyrovnání s&nbsp;braniborskou stranou (Kamenecká dohoda
+          z&nbsp;Kamieńce Ząbkowického, 20.&nbsp;září 1482), jímž si potvrdil
+          držbu jádra knížectví výměnou za vyplacení odstupného Barboře. Po
+          smrti Albrechta Achilla roku 1486 se však konflikt znovu rozhořel.
+          Matyáš Korvín tentokrát zasáhl rozhodným způsobem: roku <b>1488</b>{' '}
+          vyslal do Slezska oddíly své armády a&nbsp;28.&nbsp;prosince 1488
+          přinutil Jana&nbsp;II. ve Vídni přijmout dohodu, jíž se vzdal většiny
+          knížectví ve prospěch koruny svatováclavské. Jan&nbsp;II. Zaháňský
+          zemřel <b>22.&nbsp;září 1504</b>.
           <Qt
             publication={PUBLICATIONS.WIKI}
             href="https://pl.wikipedia.org/wiki/Wojna_o_sukcesj%C4%99_g%C5%82ogowsk%C4%85"
@@ -123,7 +126,7 @@ export const HlohovskyDedickySpor = ({ draft }: ArticleProps) => (
           v&nbsp;rámci <i>Černé armády</i> roty pod českými hejtmany, mezi nimi
           Jan Haugvic z&nbsp;Biskupic a&nbsp;František z&nbsp;Háje; právě jejich
           rychlá akce vedla k&nbsp;zajetí Jana&nbsp;II. roku 1488. Na straně
-          Jana&nbsp;II. Hlohovského působili v&nbsp;různých etapách polští
+          Jana&nbsp;II. Zaháňského působili v&nbsp;různých etapách polští
           žoldnéři i&nbsp;drobní šlechtici z&nbsp;Lužice a&nbsp;slezských
           knížectví, mezi nimiž byli i&nbsp;jednotliví čeští rotmistři. Konflikt
           je dobrým příkladem dynastického sporu, v&nbsp;němž se čeští žoldnéři

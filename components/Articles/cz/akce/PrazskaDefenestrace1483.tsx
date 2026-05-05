@@ -43,8 +43,8 @@ export const PrazskaDefenestrace1483 = ({ draft }: ArticleProps) => (
           v&nbsp;Praze rostly obavy z&nbsp;rekatolizace, ze ztráty
           kompaktátových svobod a&nbsp;z&nbsp;potlačení utrakvistické církevní
           organizace. Pražská utrakvistická městská elita ve&nbsp;spojení
-          s&nbsp;univerzitou a&nbsp;s&nbsp;Janem z&nbsp;Rabštejna připravila
-          ozbrojený protiúder.
+          s&nbsp;univerzitou a&nbsp;s&nbsp;radikálními kališnickými kazateli
+          připravila ozbrojený protiúder.
           <Qt
             publication={PUBLICATIONS.WIKI}
             href="https://cs.wikipedia.org/wiki/Pra%C5%BEsk%C3%A1_defenestrace_(1483)"
@@ -54,14 +54,15 @@ export const PrazskaDefenestrace1483 = ({ draft }: ArticleProps) => (
         <p>
           Akce vypukla současně ve všech třech pražských městech ráno{' '}
           <b>24. září 1483</b>. Ozbrojené tlupy obsadily radnice, vyhnaly
-          královsky jmenované konšely a&nbsp;několik z&nbsp;nich přitom zabily —
-          tělo staroměstského purkmistra bylo vyhozeno z&nbsp;okna radnice,
-          podobně skončili i&nbsp;hejtmani Pražského hradu. Současně byly
-          přepadeny kláštery, zejména dominikánské a&nbsp;františkánské,
-          a&nbsp;mniši pobiti nebo vyhnáni; akce měla otevřeně protikatolický
-          charakter. Vladislav, který v&nbsp;té době pobýval mimo Prahu, neměl
-          prostředky k&nbsp;ozbrojené reakci a&nbsp;postaven před hotovou věc
-          musel vzít převrat na vědomí.
+          královsky jmenované konšely a&nbsp;několik z&nbsp;nich přitom zabily.
+          Staroměstský purkmistr <b>Jan od Klobouků</b> byl vyhozen z&nbsp;okna
+          radnice (podle pramenů však pád přežil), z oken novoměstské radnice
+          byla shozena těla sedmi pobitých konšelů, podobně skončili
+          i&nbsp;hejtmani Pražského hradu. Současně byly přepadeny kláštery,
+          zejména dominikánské a&nbsp;františkánské, a&nbsp;mniši pobiti nebo
+          vyhnáni; akce měla otevřeně protikatolický charakter. Vladislav, který
+          v&nbsp;té době pobýval mimo Prahu, neměl prostředky k&nbsp;ozbrojené
+          reakci a&nbsp;postaven před hotovou věc musel vzít převrat na vědomí.
           <Qt
             publication={PUBLICATIONS.WIKI}
             href="https://cs.wikipedia.org/wiki/Pra%C5%BEsk%C3%A1_defenestrace_(1483)"

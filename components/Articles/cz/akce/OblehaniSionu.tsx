@@ -70,14 +70,15 @@ export const OblehaniSionu = ({ draft }: ArticleProps) => (
         <p>
           Roháč byl spolu s&nbsp;přibližně padesáti zajatými druhy odveden do
           Prahy, souzen pro velezradu a&nbsp;<b>9. září 1437</b> popraven
-          oběšením ve&nbsp;Starém Městě pražském; podle pramenů byl coby
-          šlechtic věšen na zlaceném provaze, ale ve&nbsp;společnosti svých
-          kumpánů, což mělo zdůraznit jeho ponížení. Sion byl pobořen
-          a&nbsp;v&nbsp;následujících letech zanikl, takže se z&nbsp;něj
-          dochovaly jen torzovité zříceniny. Roháčova poprava se stala
-          symbolickým ukončením husitské revoluce — Zikmund Lucemburský zemřel
-          jen tři měsíce po popravě (<b>9. prosince 1437</b>) a&nbsp;Čechy se
-          vzápětí ponořily do bezvládí a&nbsp;bojů o&nbsp;trůn po jeho smrti.
+          oběšením na popravišti pod vrchem Vítkov (poblíž dnešní křižovatky
+          Bulhar); podle pramenů byl coby šlechtic věšen na zlaceném provaze,
+          ale ve&nbsp;společnosti svých kumpánů, což mělo zdůraznit jeho
+          ponížení. Sion byl pobořen a&nbsp;v&nbsp;následujících letech zanikl,
+          takže se z&nbsp;něj dochovaly jen torzovité zříceniny. Roháčova
+          poprava se stala symbolickým ukončením husitské revoluce — Zikmund
+          Lucemburský zemřel jen tři měsíce po popravě (<b>9. prosince 1437</b>)
+          a&nbsp;Čechy se vzápětí ponořily do bezvládí a&nbsp;bojů o&nbsp;trůn
+          po jeho smrti.
           <Qt
             publication={PUBLICATIONS.WIKI}
             href="https://cs.wikipedia.org/wiki/Jan_Roh%C3%A1%C4%8D_z_Dub%C3%A9"

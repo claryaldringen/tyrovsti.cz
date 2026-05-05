@@ -35,7 +35,7 @@ export const ValkaProtiZelenohorskeJednote = ({ draft }: ArticleProps) => (
         <p>
           Po nástupu Jiřího z Poděbrad na český trůn roku 1458 se postupně
           prohlubovalo napětí mezi králem a katolickou částí české šlechty.
-          Klíčový zlom přinesla papežská politika: <b>16. dubna 1462</b> Pius
+          Klíčový zlom přinesla papežská politika: <b>31. března 1462</b> Pius
           II. oficiálně zrušil <i>basilejská kompaktáta</i>, čímž Jiřímu odňal
           legitimní oporu jeho konfesního programu. Reakcí na rostoucí tlak
           kurie byl Jiřího mírový projekt evropského sněmu (1463–1464) a
@@ -52,12 +52,13 @@ export const ValkaProtiZelenohorskeJednote = ({ draft }: ArticleProps) => (
           Dne <b>28. listopadu 1465</b> se na hradě <b>Zelená Hora</b> u
           Nepomuku sjelo asi šestnáct předních katolických pánů a zformulovalo
           tzv. <i>Zelenohorský zápis</i> — odbojnou jednotu proti králi. V čele
-          stáli <b>Zdeněk ze Šternberka</b> (nejvyšší purkrabí pražský, někdejší
-          blízký Jiřího spolupracovník), Jan z Hradce, Oldřich Zajíc z
-          Hazmburka, Děpolt z Riesenburka, Bohuslav ze Švamberka a další.
-          Jednota formálně setrvávala na pozicích loajality vůči Říši a kurii a
-          vyzývala krále k <i>nápravě</i> v náboženských věcech; ve skutečnosti
-          se však stala politickou základnou pro otevřenou válku proti králi.
+          stáli <b>Zdeněk Konopišťský ze Šternberka</b> (někdejší nejvyšší
+          purkrabí pražský a blízký Jiřího spolupracovník), Jindřich IV. z
+          Hradce, bratři Zajícové z Hazmburka, Bohuslav Krušina ze Švamberka,
+          Vilém z Ilburka a další. Jednota formálně setrvávala na pozicích
+          loajality vůči Říši a kurii a vyzývala krále k <i>nápravě</i> v
+          náboženských věcech; ve skutečnosti se však stala politickou základnou
+          pro otevřenou válku proti králi.
           <Qt
             publication={PUBLICATIONS.WIKI}
             href="https://cs.wikipedia.org/wiki/Zelenohorsk%C3%A1_jednota"
@@ -80,13 +81,13 @@ export const ValkaProtiZelenohorskeJednote = ({ draft }: ArticleProps) => (
         </p>
         <h5>Vstup Matyáše Korvína (1468)</h5>
         <p>
-          Vojenská situace se zvrátila <b>31. března 1468</b>, kdy do války jako
+          Vojenská situace se zvrátila roku <b>1468</b>, kdy do války jako
           spojenec jednoty a kurie vstoupil uherský král Matyáš Korvín. Ten po
           prohlášení křížové výpravy proti českému králi vpadl na jaře{' '}
           <b>1468</b> na Moravu a obsadil Špilberk, Olomouc, Brno a další opěrné
           body. Boje na Moravě, na česko-rakouské hranici a na západě Čech se
           vlekly. Klíčovou situací byla bitva u <b>Vilémova</b> (Vilémovský
-          úskok) <b>27. února 1469</b>, kde Jiří obklíčil Matyášovu armádu v
+          úskok) <b>26. února 1469</b>, kde Jiří obklíčil Matyášovu armádu v
           terénu, ale propustil ji po dvorních jednáních — rozhodnutí, jež
           vyvolávalo dobové i pozdější kontroverze.
           <Qt

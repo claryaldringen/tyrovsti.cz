@@ -20,7 +20,7 @@ export const StetinskaDedickaValka = ({ draft }: ArticleProps) => (
           <b>Albrechtem III. Achillem</b> na straně druhé. Šlo o dědický spor o
           vévodství <b>Štětín</b> (něm. <i>Stettin</i>, pol. <i>Szczecin</i>),
           jež po smrti vévody Otty III. v roce 1464 zůstalo bez mužského dědice.
-          Konflikt byl ukončen Pyrycskou smlouvou (něm.{' '}
+          Konflikt byl ukončen prenzlauskou smlouvou (něm.{' '}
           <i>Vertrag von Prenzlau</i>) v roce <b>1472</b>.
           <Qt
             publication={PUBLICATIONS.WIKI}
@@ -86,16 +86,16 @@ export const StetinskaDedickaValka = ({ draft }: ArticleProps) => (
             href="https://de.wikipedia.org/wiki/Stettiner_Erbfolgekrieg"
           />
         </p>
-        <h5>Pyrycská smlouva (1472)</h5>
+        <h5>Prenzlauská smlouva (1472)</h5>
         <p>
-          Konflikt byl uzavřen <b>30. května 1472</b> v Prenzlau (Pyrycích) za
-          intervence císaře Fridricha III. Smlouvou byla uznána držba Štětína
-          wolgastskými vévody Erikem II. a Wartislavem X. — avšak za podmínky
-          braniborské lenní svrchovanosti. Albrecht Achilles získal symbolickou
-          satisfakci v podobě holdovní přísahy pomořanských vévodů a postoupení
-          některých pohraničních území v Uckermarku. Lenní svrchovanost
-          Braniborska nad Pomořanskem se stala dlouhodobou politickou rezervou
-          Hohenzollernů, k níž se vraceli ještě v 16. století.
+          Konflikt byl uzavřen <b>30. května 1472</b> v Prenzlau za intervence
+          císaře Fridricha III. Smlouvou byla uznána držba Štětína wolgastskými
+          vévody Erikem II. a Wartislavem X. — avšak za podmínky braniborské
+          lenní svrchovanosti. Albrecht Achilles získal symbolickou satisfakci v
+          podobě holdovní přísahy pomořanských vévodů a postoupení některých
+          pohraničních území v Uckermarku. Lenní svrchovanost Braniborska nad
+          Pomořanskem se stala dlouhodobou politickou rezervou Hohenzollernů, k
+          níž se vraceli ještě v 16. století.
           <Qt
             publication={PUBLICATIONS.WIKI}
             href="https://de.wikipedia.org/wiki/Stettiner_Erbfolgekrieg"

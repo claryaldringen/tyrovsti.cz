@@ -81,9 +81,9 @@ export const OsmanskeDobytiBosny = ({ draft }: ArticleProps) => (
           milosti. Sultán však tento závazek nedodržel: na základě <i>fatvy</i>{' '}
           perského učence Aliho al-Bistámího byla Mahmudova přísaha prohlášena
           za nezávaznou a Štěpán Tomašević byl spolu se strýcem Radivojem
-          popraven u Jajce, pravděpodobně v polovině června <b>1463</b>. Pádem
-          krále se zhroutil i centrální mocenský aparát a během několika týdnů
-          přešla do osmanských rukou většina hradů středu a severozápadu země.
+          popraven u Jajce <b>25. května 1463</b>. Pádem krále se zhroutil i
+          centrální mocenský aparát a během několika týdnů přešla do osmanských
+          rukou většina hradů středu a severozápadu země.
           <Qt
             publication={PUBLICATIONS.WIKI}
             href="https://hu.wikipedia.org/wiki/Bosznia-Hercegovina_t%C3%B6rt%C3%A9nelme"

@@ -75,14 +75,15 @@ export const GlatzskaValka = ({ draft }: ArticleProps) => (
         </p>
         <h5>Výsledek</h5>
         <p>
-          Konflikt byl ukončen v roce <b>1503</b> dohodou, podle níž Karel I. z
-          Münsterberka odkoupil hrabství Kladsko od Vladislava II. za 70 000
-          uherských zlatých a sjednotil je s knížectvím münsterberským. Tímto
-          aktem skončila třicet let trvající nejistota o osudu Kladska: hrabství
-          zůstalo v rukou českých Poděbradů jako autonomní říšské panství až do
-          počátku 17. století. Pro krále znamenala dohoda ekonomicky výhodné
-          řešení, které mu umožnilo splatit část jagellonských dluhů, aniž by
-          musel pokračovat v nákladné drobné válce.
+          Spor byl urovnán už v roce <b>1501</b>: synové Jindřicha staršího
+          (Albrecht, Jiří a Karel) byli v důsledku zděděných dluhů nuceni
+          hrabství Kladsko prodat svému budoucímu švagrovi Oldřichu z Hardeggu.
+          Hardeggové drželi kladské hrabství až do roku 1534, kdy je Janova
+          linie prodala králi Ferdinandovi I. Habsburskému. Münsterberkové si
+          podrželi pouze knížectví münsterberské a oleśnické ve Slezsku.
+          Konflikt let 1501–1503 ukázal slabost jagellonské vlády vůči dědickým
+          sporům slezských knížat a předznamenal pokračující redukci
+          poděbradského rodu na status české panské rodiny.
           <Qt
             publication={PUBLICATIONS.WIKI}
             href="https://de.wikipedia.org/wiki/Grafschaft_Glatz"

@@ -39,12 +39,12 @@ export const ValkaOUherskyTrun14901492 = ({ draft }: ArticleProps) => (
           nemanželský syn Jan Korvín, kterého král za svého života postupně
           zaopatřil rozsáhlými statky a jenž v dubnu 1490 ovládal královskou
           pokladnici, korunu sv. Štěpána i hlavní hrad Budín. Část uherské
-          šlechty kolem palatina <b>Štěpána Zápolského</b> a arcibiskupa{' '}
-          <b>Tamáše Bakócze</b> ovšem odmítla pokračování korvínovské dynastie a
-          klonila se k volbě Vladislava II. Jagellonského, který již deset let
-          panoval v Čechách a slíbil zachovat šlechtické svobody — především
-          zrušit těžké daně z Matyášova období a rozpustit drahou{' '}
-          <i>Černou armádu</i>.
+          šlechty kolem nádvorních hodnostářů <b>Štěpána Báthoryho</b>,{' '}
+          <b>Pavla Kinizsiho</b> a arcibiskupa <b>Tamáše Bakócze</b> ovšem
+          odmítla pokračování korvínovské dynastie a klonila se k volbě
+          Vladislava II. Jagellonského, který již deset let panoval v Čechách a
+          slíbil zachovat šlechtické svobody — především zrušit těžké daně z
+          Matyášova období a rozpustit drahou <i>Černou armádu</i>.
           <Qt
             publication={PUBLICATIONS.WIKI}
             href="https://en.wikipedia.org/wiki/Vladislaus_II_of_Hungary"
@@ -57,7 +57,7 @@ export const ValkaOUherskyTrun14901492 = ({ draft }: ArticleProps) => (
           Jagellonský, mladší bratr Vladislava, vystoupil rovněž jako kandidát s
           podporou části severouherských pánů. Jan Korvín se poprvé pokusil
           prosadit silou, ale již <b>4. července 1490</b> byl v bitvě u Csonty
-          (u Szabaše) poražen šlechtickým vojskem pod velením Štěpána Zápolského
+          (u Szabaše) poražen šlechtickým vojskem pod velením Štěpána Báthoryho
           a Pavla Kinizsiho a vzdal se nároku na korunu výměnou za potvrzení
           rozsáhlých rodových statků.
           <Qt

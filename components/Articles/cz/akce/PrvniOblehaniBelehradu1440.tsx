@@ -56,9 +56,9 @@ export const PrvniOblehaniBelehradu1440 = ({ draft }: ArticleProps) => (
           <i>Tallóczy János</i>, srb. <i>Jovan Talovac</i>), chorvatský bán a
           převor johanitského řádu sv. Jana ve Vraně. Jeho bratr Matija Tallóci
           měl správu Banátu. Ivan Tallóci byl zkušený správce, jenž do Bělehradu
-          shromáždil zhruba 3 000 až 5 000 mužů — chorvatské banderiální oddíly,
-          italské a české žoldnéřské střelce, srbské uprchlíky ze Smedereva a
-          místní obyvatelstvo schopné nosit zbraň. Pevnost byla v posledních
+          shromáždil přibližně 500 mužů jako stálou posádku, doplněnou italskými
+          a českými žoldnéřskými střelci, srbskými uprchlíky ze Smedereva a
+          místním obyvatelstvem schopným nosit zbraň. Pevnost byla v posledních
           letech dobře udržována a doplněna o dělostřelectvo.
           <Qt
             publication={PUBLICATIONS.WIKI}

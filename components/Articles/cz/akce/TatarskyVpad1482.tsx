@@ -38,11 +38,12 @@ export const TatarskyVpad1482 = ({ draft }: ArticleProps) => (
           Osmanské říše; Mengli&nbsp;I. Girej přijal svrchovanost sultána
           Mehmeda&nbsp;II. roku 1475. Současně vedla litevsko-moskevská
           diplomacie k&nbsp;uzavření spojenectví mezi velkoknížetem moskevským
-          Ivanem&nbsp;III. a&nbsp;Mengli Girejem proti polsko-litevskému státu.
-          Roku 1481 navrhl Ivan&nbsp;III. krymskému chánovi tažení proti Litvě
-          a&nbsp;slíbil za ně bohaté dary. Mengli Girej nabídku přijal
-          a&nbsp;v&nbsp;létě 1482 zorganizoval výpravu o&nbsp;síle podle různých
-          odhadů 30&nbsp;000 až 100&nbsp;000 jezdců.
+          Ivanem&nbsp;III. a&nbsp;Mengli Girejem proti polsko-litevskému státu
+          (smlouva 1480). Po stabilizaci spojenectví navrhl Ivan&nbsp;III.
+          krymskému chánovi tažení proti Litvě a&nbsp;slíbil za ně bohaté dary.
+          Mengli Girej nabídku přijal a&nbsp;v&nbsp;létě 1482 zorganizoval
+          výpravu o&nbsp;síle podle různých odhadů 30&nbsp;000 až 100&nbsp;000
+          jezdců.
           <Qt
             publication={PUBLICATIONS.WIKI}
             href="https://en.wikipedia.org/wiki/Battle_of_Kyiv"
@@ -95,13 +96,13 @@ export const TatarskyVpad1482 = ({ draft }: ArticleProps) => (
         </p>
         <h5>Primární prameny / Pohled starších kronik</h5>
         <p>
-          Nejstarším a&nbsp;klíčovým narativem o&nbsp;pádu Kyjeva je závěr{' '}
-          <i>Annales seu cronicae</i> Jana Długosze, kniha XII <i>ad annum</i>{' '}
-          1482; Długosz dokončil tuto pasáž jen několik měsíců před smrtí (
-          <b>19. května 1480</b> přepsal), takže zpráva o&nbsp;vpádu vznikla
-          bezprostředně po události a&nbsp;jeho pokračovatelé ji doplnili
-          z&nbsp;polské dvorské kanceláře. Długosz líčí roli Mengliho&nbsp;I.
-          Gireje jako moskevského spojence i&nbsp;symbolický dar zlatého kalicha
+          Jan Długosz zemřel <b>19.&nbsp;května 1480</b>, tedy ještě před
+          tatarským vpádem, a&nbsp;vlastní <i>Annales seu cronicae</i> tudíž pád
+          Kyjeva nezachycují; pasáž <i>ad annum</i> 1482 v&nbsp;rukopisných
+          pokračováních Długoszových <i>Annales</i> a&nbsp;v&nbsp;raných
+          tištěných edicích doplnili jeho pokračovatelé z&nbsp;polské dvorské
+          kanceláře. Pokračovatelská zpráva líčí roli Mengliho&nbsp;I. Gireje
+          jako moskevského spojence i&nbsp;symbolický dar zlatého kalicha
           a&nbsp;patény ze Sofie Kyjevské velkoknížeti Ivanu&nbsp;III.
           <Qt
             publication={PUBLICATIONS.DLUGOSZ}

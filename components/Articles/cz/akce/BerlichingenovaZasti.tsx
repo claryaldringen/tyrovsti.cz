@@ -39,11 +39,11 @@ export const BerlichingenovaZasti = ({ draft }: ArticleProps) => (
           Francích jako jedenácté dítě rytíře Kiliana z Berlichingenu. Výcvik
           získal ve službách markraběte Fridricha IV. Braniborsko-ansbašského a
           brzy se osamostatnil jako velitel polních oddílů. Při obléhání
-          Landshutu v září 1504, ve službách falckraběte Ruprechta v landshutské
-          dědické válce, mu kulka z polní hákovnice rozdrtila pravé předloktí.
-          Lékař v Heilbronnu mu protézu zhotovil podle šlechtických návrhů;
-          existují celkem dvě dochované verze protézy, obě s mechanickými prsty
-          schopnými svírat meč i kopí.
+          Landshutu <b>23. června 1504</b>, ve službách falckraběte Ruprechta v
+          landshutské dědické válce, mu kulka z polní hákovnice rozdrtila pravé
+          předloktí. Lékař v Heilbronnu mu protézu zhotovil podle šlechtických
+          návrhů; existují celkem dvě dochované verze protézy, obě s
+          mechanickými prsty schopnými svírat meč i kopí.
           <Qt
             publication={PUBLICATIONS.WIKI}
             href="https://en.wikipedia.org/wiki/G%C3%B6tz_von_Berlichingen"

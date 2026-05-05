@@ -79,8 +79,10 @@ export const TatarskeVpady1500 = ({ draft }: ArticleProps) => (
           hejtmanem <b>Mikulášem Kameneckým</b> a Janem Olbrachtem osobně, ale
           následně se opakoval i v dalších letech. Mezi největší tehdejší
           úspěchy obrany patřila bitva u Klecka <b>5. srpna 1506</b>, v níž
-          knížata Michał Glinski a Konstantin Ostrožský porazili tatarskou hordu
-          o síle asi 12 000 mužů a osvobodili tisíce zajatců.
+          litevský dvorský maršálek <b>Michał Glinski</b> v čele přibližně 7 000
+          mužů porazil krymsko-tatarskou hordu pod vedením synů chána Mengli I.
+          Gireje (Feth Giraje a Burnaše) o síle asi 20 000 mužů a osvobodil
+          tisíce zajatců.
           <Qt
             publication={PUBLICATIONS.WIKI}
             href="https://en.wikipedia.org/wiki/Crimean%E2%80%93Nogai_raids_into_East_Slavic_lands"
@@ -93,9 +95,10 @@ export const TatarskeVpady1500 = ({ draft }: ArticleProps) => (
           financovaného z výnosů jihovýchodních korunních statků a později z
           tzv. <i>kvarty</i>. Litevská strana stavěla na obrnění klíčových
           pevností — Lucka, Vladimíra Volyňského, Kamence Podolského — a
-          posilovala jezdeckou hotovost. V této obraně se výrazně projevili
-          knížata Glinski a Ostrožský; právě jejich úspěch u Klecka roku 1506 a
-          později u Vyšněvce dlouhodobě zformoval polsko-litevský model obrany
+          posilovala jezdeckou hotovost. V této obraně se výrazně projevil
+          Michał Glinski (a po roce 1507 i osvobozený Konstantin Ostrožský);
+          právě Glinského úspěch u Klecka roku 1506 a Ostrožského pozdější
+          vítězství dlouhodobě zformovaly polsko-litevský model obrany
           jihovýchodu.
           <Qt
             publication={PUBLICATIONS.WIKI}

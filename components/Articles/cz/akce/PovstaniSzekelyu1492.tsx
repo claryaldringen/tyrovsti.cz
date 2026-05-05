@@ -100,9 +100,10 @@ export const PovstaniSzekelyu1492 = ({ draft }: ArticleProps) => (
         <h5>Výsledek</h5>
         <p>
           Povstání bylo potlačeno, ale Vladislav II. byl nucen v zájmu klidu na
-          východní hranici sikulská privilegia v zásadě zachovat. Báthoryho
-          tvrdý postup byl královskou kanceláří částečně zmírněn, vrácena byla
-          většina pokutovaných statků a sikulské shromáždění obnovilo svou
+          východní hranici sikulská privilegia v zásadě zachovat — počátkem
+          ledna <b>1493</b> Báthoryho z funkce sedmihradského vojvody odvolal a
+          jeho tvrdý postup byl královskou kanceláří částečně zmírněn. Vrácena
+          byla většina pokutovaných statků a sikulské shromáždění obnovilo svou
           činnost. Konflikt nicméně nevyřešil hlubší napětí mezi rostoucími
           finančními nároky koruny a starobylými stavovskými svobodami; podobné
           povstání vypuklo znovu v roce 1506 a větší vzpoura ve dvacátých letech

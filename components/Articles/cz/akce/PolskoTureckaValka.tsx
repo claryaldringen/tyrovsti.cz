@@ -50,11 +50,11 @@ export const PolskoTureckaValka = ({ draft }: ArticleProps) => (
           Catlabugy a později <b>6. března 1486</b> u Šeptelnic; přesto se mu
           nepodařilo přístavy znovu získat. V dalších letech se konflikt
           omezoval na pohraniční nájezdy a šarvátky. Velkou polskou bukovinskou
-          výpravu zorganizoval roku 1497 polský král Jan I. Olbracht s asi 80
-          000 muži; tažení skončilo katastrofou v Kozminském lese (pol.{' '}
-          <i>Kozminský les</i>) <b>26. října 1497</b>, kde moldavské oddíly
-          Štěpána Velikého společně s Tatary rozdrtily ustupující polskou
-          armádu.
+          výpravu zorganizoval roku 1497 polský král Jan I. Olbracht s asi 40
+          000 muži a přibližně 200 děly; tažení skončilo katastrofou
+          v&nbsp;Kozminském lese (pol. <i>Kozminský les</i>){' '}
+          <b>26. října 1497</b>, kde moldavské oddíly Štěpána Velikého společně
+          s Tatary rozdrtily ustupující polskou armádu.
           <Qt
             publication={PUBLICATIONS.WIKI}
             href="https://pl.wikipedia.org/wiki/Wojna_polsko-turecka_(1485%E2%80%931503)"
@@ -66,9 +66,10 @@ export const PolskoTureckaValka = ({ draft }: ArticleProps) => (
           oddíly Podolím, Haličí a dolním Polskem až k Sandoměři, Lvovu a
           Přemyšli. Polská obrana se opírala o lokální polní hejtmany a o
           najímané žoldnéřské roty. Mírová jednání s Vysokou portou se táhla
-          několik let; teprve <b>1503</b> bylo v Konstantinopoli uzavřeno
-          příměří, které potvrdilo osmanskou držbu Kilie a Akermánu a polskou
-          ztrátu přístupu k Černému moři.
+          několik let; teprve <b>9. října 1503</b> bylo uzavřeno pětileté
+          příměří (sjednané králem Alexandrem Jagellonským), které potvrdilo
+          osmanskou držbu Kilie a Akermánu a polskou ztrátu přístupu k Černému
+          moři.
           <Qt
             publication={PUBLICATIONS.WIKI}
             href="https://en.wikipedia.org/wiki/Polish%E2%80%93Ottoman_War_(1485%E2%80%931503)"

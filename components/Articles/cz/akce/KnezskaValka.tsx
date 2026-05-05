@@ -50,8 +50,8 @@ export const KnezskaValka = ({ draft }: ArticleProps) => (
           />
         </p>
         <p>
-          Spor propukl po smrti biskupa <b>Pavla Legendorfa</b> v únoru{' '}
-          <b>1467</b>. Kapitula bez konzultace s králem zvolila{' '}
+          Spor propukl po smrti biskupa <b>Pavla Legendorfa</b>{' '}
+          <b>23. července 1467</b>. Kapitula bez konzultace s králem zvolila{' '}
           <b>Mikuláše Tüngena</b>, exponovaného přívržence Řádu úzce spjatého s
           velmistrovým dvorem. Kazimír volbu odmítl uznat a na biskupský stolec
           doporučil svého kandidáta — kaplana a sekretáře{' '}

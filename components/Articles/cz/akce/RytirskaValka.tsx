@@ -69,10 +69,10 @@ export const RytirskaValka = ({ draft }: ArticleProps) => (
           obléhací dělostřelectvo — jeden z prvních systematických případů
           použití velkých kusů proti rytířskému hradu — a po několika dnech
           ostřelování srovnala hradby se zemí. Sickingen byl vážně zraněn
-          padajícím trámem, vzdal pevnost <b>6. května 1523</b> a téhož dne v
-          podzemním krytu zemřel. Spojenci pak zlikvidovali další Sickingenovy
-          hrady; Ulrich von Hutten uprchl do Švýcarska, kde téhož roku zemřel u
-          Curychu.
+          padajícím trámem, vzdal pevnost <b>7. května 1523</b> a téhož dne v
+          podzemním krytu zemřel zraněním. Spojenci pak zlikvidovali další
+          Sickingenovy hrady; Ulrich von Hutten uprchl do Švýcarska, kde téhož
+          roku zemřel u Curychu.
           <Qt
             publication={PUBLICATIONS.WIKI}
             href="https://en.wikipedia.org/wiki/Knights%27_Revolt"

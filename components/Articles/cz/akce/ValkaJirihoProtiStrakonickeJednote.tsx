@@ -66,7 +66,7 @@ export const ValkaJirihoProtiStrakonickeJednote = ({ draft }: ArticleProps) => (
           otevřené války. Jiří z Poděbrad, posílený utrakvistickou hotovostí a
           zkušenými polními roty, postupně vytlačoval rožmberské oddíly z jejich
           opěrných bodů. Klíčovým střetnutím se stala bitva u Rokycan{' '}
-          <b>4. září 1450</b> (někdy označovaná též jako bitva u Vildštejna),
+          <b>4. června 1450</b> (někdy označovaná též jako bitva u Vildštejna),
           kde poděbradská strana zvítězila a oslabila polní možnosti Strakonické
           jednoty.
           <Qt

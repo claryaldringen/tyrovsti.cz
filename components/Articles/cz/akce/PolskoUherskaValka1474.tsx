@@ -140,12 +140,12 @@ export const PolskoUherskaValka1474 = ({ draft }: ArticleProps) => (
           jako královské oddíly českých zemí, na Matyášově straně jako jádro
           jeho stálé armády, kterou v&nbsp;té době tvořili z&nbsp;velké části
           veteráni husitských a&nbsp;pohusitských válek. Kapitáni jako František
-          Hag z&nbsp;Jamnice nebo František z&nbsp;Háje (později{' '}
-          <i>fekete sereg</i>, Černá armáda) veleli českým rotám ve Slezsku;
-          Matyášovy lehké jezdecké a&nbsp;vozové oddíly drtily polské zásobovací
-          kolony právě díky této husitské bojové tradici. Tažení 1474
-          představuje moment, kdy se českojazyčný vojenský živel definitivně
-          stal páteří uherské královské armády.
+          Hag (z&nbsp;Háje), pozdější kapitán uherské královské armády (jádra
+          budoucí <i>fekete sereg</i>, Černé armády), velel českým rotám
+          v&nbsp;Matyášově službě; Matyášovy lehké jezdecké a&nbsp;vozové oddíly
+          drtily polské zásobovací kolony právě díky této husitské bojové
+          tradici. Tažení 1474 představuje moment, kdy se českojazyčný vojenský
+          živel definitivně stal páteří uherské královské armády.
           <Qt
             publication={PUBLICATIONS.WIKI}
             href="https://pl.wikipedia.org/wiki/Obl%C4%99%C5%BCenie_Wroc%C5%82awia"

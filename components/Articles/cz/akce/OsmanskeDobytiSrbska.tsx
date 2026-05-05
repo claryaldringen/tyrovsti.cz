@@ -48,9 +48,9 @@ export const OsmanskeDobytiSrbska = ({ draft }: ArticleProps) => (
           Uhry pod vedením Jánoše Hunyadiho a od roku 1456 jeho syna Ladislava
           Hunyadiho a Matyáše Korvína vystupovaly jako hlavní vnější obránce
           srbského despotátu. Hunyadiho odražení sultána u Bělehradu{' '}
-          <b>22. července 1456</b> bylo zlomovým úspěchem Uherska, ale o dva
-          týdny později <b>11. srpna 1456</b> Hunyadi v Zemuni zemřel na mor.
-          Brzy nato (24. prosince 1456) zemřel i despota Jiří Branković.
+          <b>22. července 1456</b> bylo zlomovým úspěchem Uherska, ale tři týdny
+          po skončení obléhání <b>11. srpna 1456</b> Hunyadi v Zemuni zemřel na
+          mor. Brzy nato (24. prosince 1456) zemřel i despota Jiří Branković.
           <Qt
             publication={PUBLICATIONS.WIKI}
             href="https://en.wikipedia.org/wiki/George_Brankovi%C4%87"

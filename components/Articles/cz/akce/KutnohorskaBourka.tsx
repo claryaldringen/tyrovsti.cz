@@ -84,15 +84,15 @@ export const KutnohorskaBourka = ({ draft }: ArticleProps) => (
           />
         </p>
         <p>
-          V roce <b>1496</b> přerostla stávka v otevřené ozbrojené povstání:
-          horníci ovládli městské brány, obsadili část mincovny a pokusili se
-          získat podporu venkovského lidu na Čáslavsku a Kouřimsku. Královské
-          vojsko pod nejvyšším mincmistrem <b>Benešem z Veitmile</b> a se
-          souhlasem horních šlechtických rodů Kutnou Horu obsadilo a povstání
-          tvrdě potlačilo. Vůdci hornické bouře byli zatčeni a v letech
-          1496–1497 popraveni — podle některých pramenů bylo popraveno až deset
-          hlavních organizátorů, další desítky byly potrestány vyhoštěním z
-          města a zabavením majetku.
+          V červenci <b>1496</b> přerostla stávka v otevřené ozbrojené povstání:
+          na 6 000 ozbrojených havířů ovládlo městské brány, obsadilo část
+          mincovny a pokusilo se získat podporu venkovského lidu na Čáslavsku a
+          Kouřimsku. Královské vojsko pod poděbradským hejtmanem{' '}
+          <b>Oněkem Kamenickým</b> a se souhlasem horních šlechtických rodů
+          Kutnou Horu obsadilo a povstání tvrdě potlačilo. Třináct vůdců bylo
+          zatčeno během vyjednávání — deset jich bylo popraveno na Poděbradech
+          kolem 5.–13. srpna 1496, další tři na Křivoklátě. Vladislav II. byl v
+          té době v Uhrách a o událostech se dozvěděl až dodatečně.
           <Qt
             publication={PUBLICATIONS.WIKI}
             href="https://cs.wikipedia.org/wiki/Vzpoura_kutnohorsk%C3%BDch_hav%C3%AD%C5%99%C5%AF_(1496)"
@@ -126,8 +126,8 @@ export const KutnohorskaBourka = ({ draft }: ArticleProps) => (
         <p>
           Hlavním vyprávěcím pramenem k hornické bouři jsou{' '}
           <b>Staří letopisové čeští</b> v záznamech ad annos 1494–1497, kteří
-          stručně líčí stávku, ozbrojené střety v městě, zákrok královského
-          mincmistra Beneše z Veitmile i následné popravy vůdců. Záznamy se
+          stručně líčí stávku, ozbrojené střety v městě, zákrok poděbradského
+          hejtmana Oněka Kamenického i následné popravy vůdců. Záznamy se
           zachovaly v několika rukopisných tradicích a vyšly ve Fontes rerum
           Bohemicarum (FRB).
           <Qt

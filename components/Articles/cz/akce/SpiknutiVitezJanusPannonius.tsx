@@ -58,8 +58,10 @@ export const SpiknutiVitezJanusPannonius = ({ draft }: ArticleProps) => (
           strana viděla v&nbsp;nabídce příležitost obnovit svrchovanost nad
           Uhrami z&nbsp;časů Vladislava Jagellonského a&nbsp;začala mobilizovat.
           K&nbsp;Vitézovi a&nbsp;Janusovi Pannoniovi se přidala část horních
-          uherských pánů, mezi nimi Mikuláš Bátori, Štěpán Zápolský
-          a&nbsp;kapitáni hradů v&nbsp;okolí Trnavy.
+          uherských prelátů a&nbsp;baronů; konkrétní jména účastníků mimo Vitéze
+          a&nbsp;Pannonia uvádějí prameny opatrně, obecně se počítá
+          s&nbsp;kapitány hradů v&nbsp;okolí Trnavy a&nbsp;se severouherskou
+          šlechtou nakloněnou jagellonské orientaci.
           <Qt
             publication={PUBLICATIONS.WIKI}
             href="https://en.wikipedia.org/wiki/Janus_Pannonius"

@@ -78,16 +78,16 @@ export const PrvniMarkrabskaValka = ({ draft }: ArticleProps) => (
           />
         </p>
         <p>
-          Pod tlakem císaře Fridricha III. a kurfiřtů uzavřely strany v roce{' '}
-          <b>1450</b> v Bambergu příměří. Spory však pokračovaly a v roce{' '}
-          <b>1452</b> přerostly v druhou fázi otevřených bojů. V této etapě
+          Pod tlakem císaře Fridricha III. a kurfiřtů uzavřely strany{' '}
+          <b>22. června 1450</b> v Bambergu příměří. Spory však pokračovaly a v
+          roce <b>1452</b> přerostly v druhou fázi otevřených bojů. V této etapě
           získal Albrecht převahu, vypálil řadu vesnic v okolí Norimberka a
-          zatlačil městský spolek do defenzivy. <b>22. června 1453</b> byl v
-          Lauf an der Pegnitz uzavřen mírový protokol; konečná norimberská
-          dohoda potvrzená císařem následovala v roce <b>1453</b>. Mír v
-          podstatě potvrdil status quo: markrabě nezískal pravomoc nad
-          Norimberkem, ale město muselo zaplatit válečné odškodnění a uznat
-          některé Albrechtovy zemské nároky v okolních franských oblastech.
+          zatlačil městský spolek do defenzivy. <b>27. dubna 1453</b> byl v Lauf
+          an der Pegnitz uzavřen mírový protokol; konečná norimberská dohoda
+          potvrzená císařem následovala v roce <b>1453</b>. Mír v podstatě
+          potvrdil status quo: markrabě nezískal pravomoc nad Norimberkem, ale
+          město muselo zaplatit válečné odškodnění a uznat některé Albrechtovy
+          zemské nároky v okolních franských oblastech.
           <Qt
             publication={PUBLICATIONS.WIKI}
             href="https://en.wikipedia.org/wiki/First_Margrave_War"

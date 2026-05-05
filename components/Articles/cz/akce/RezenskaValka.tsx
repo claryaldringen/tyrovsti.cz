@@ -32,13 +32,13 @@ export const RezenskaValka = ({ draft }: ArticleProps) => (
         <p>
           Řezno bylo od 13. století svobodným říšským městem, ale procházelo
           opakovanými hospodářskými a politickými krizemi. Vévoda Albrecht IV.
-          Bavorský využil jedné z nich a po jednáních s městskou radou byl{' '}
-          <b>17. června 1486</b> uznán za městského pána Řezna; v listopadu
-          téhož roku přijel do města a převzal jeho správu. Tento akt byl v
-          příkrém rozporu s říšskou ústavou, neboť svobodná říšská města
-          podléhala přímo císaři. Fridrich III. uvalil na město i vévodu říšskou
-          klatbu; jeho syn Maximilián I., zvolený roku 1486 římským králem, pak
-          obnovil otázku v plné šíři.
+          Bavorský využil jedné z nich a po jednáních s městskou radou byl v
+          červnu <b>1486</b> uznán za městského pána Řezna; v srpnu téhož roku
+          okázale vjel do města a převzal jeho správu. Tento akt byl v příkrém
+          rozporu s říšskou ústavou, neboť svobodná říšská města podléhala přímo
+          císaři. Fridrich III. uvalil na město i vévodu říšskou klatbu; jeho
+          syn Maximilián I., zvolený roku 1486 římským králem, pak obnovil
+          otázku v plné šíři.
           <Qt
             publication={PUBLICATIONS.WIKI}
             href="https://de.wikipedia.org/wiki/Reichsstadt_Regensburg"
