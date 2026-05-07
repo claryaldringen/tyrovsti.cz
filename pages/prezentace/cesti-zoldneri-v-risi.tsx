@@ -42,16 +42,17 @@ const Page = () => {
                   <div className={styles.langStatus}>Otevřít</div>
                 </a>
 
-                <span
-                  className={`${styles.card} ${styles.cardDisabled}`}
-                  aria-disabled="true"
+                <a
+                  href="/prezentace/cesti-zoldneri-v-risi/en"
+                  className={`${styles.card} ${styles.cardActive}`}
+                  hrefLang="en"
                 >
                   <div className={styles.flag} aria-hidden="true">
                     🇬🇧
                   </div>
                   <div className={styles.lang}>English</div>
-                  <div className={styles.langStatus}>Coming soon</div>
-                </span>
+                  <div className={styles.langStatus}>Open</div>
+                </a>
 
                 <span
                   className={`${styles.card} ${styles.cardDisabled}`}
