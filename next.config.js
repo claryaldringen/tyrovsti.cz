@@ -30,6 +30,15 @@ module.exports = {
     ]
   },
 
+  async rewrites() {
+    return [
+      {
+        source: '/prezentace/cesti-zoldneri-v-risi/:lang(cs|en|de|it)',
+        destination: '/prezentace/cesti-zoldneri-v-risi/:lang/index.html',
+      },
+    ]
+  },
+
   async redirects() {
     return [
       {
