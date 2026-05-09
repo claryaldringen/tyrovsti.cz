@@ -65,16 +65,17 @@ const Page = () => {
                   <div className={styles.langStatus}>In Vorbereitung</div>
                 </span>
 
-                <span
-                  className={`${styles.card} ${styles.cardDisabled}`}
-                  aria-disabled="true"
+                <a
+                  href="/prezentace/cesti-zoldneri-v-risi/it"
+                  className={`${styles.card} ${styles.cardActive}`}
+                  hrefLang="it"
                 >
                   <div className={styles.flag} aria-hidden="true">
                     🇮🇹
                   </div>
                   <div className={styles.lang}>Italiano</div>
-                  <div className={styles.langStatus}>In preparazione</div>
-                </span>
+                  <div className={styles.langStatus}>Apri</div>
+                </a>
               </div>
             </div>
           </Col>
