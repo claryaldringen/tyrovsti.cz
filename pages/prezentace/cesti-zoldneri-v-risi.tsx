@@ -54,16 +54,17 @@ const Page = () => {
                   <div className={styles.langStatus}>Open</div>
                 </a>
 
-                <span
-                  className={`${styles.card} ${styles.cardDisabled}`}
-                  aria-disabled="true"
+                <a
+                  href="/prezentace/cesti-zoldneri-v-risi/de"
+                  className={`${styles.card} ${styles.cardActive}`}
+                  hrefLang="de"
                 >
                   <div className={styles.flag} aria-hidden="true">
                     🇩🇪
                   </div>
                   <div className={styles.lang}>Deutsch</div>
-                  <div className={styles.langStatus}>In Vorbereitung</div>
-                </span>
+                  <div className={styles.langStatus}>Öffnen</div>
+                </a>
 
                 <a
                   href="/prezentace/cesti-zoldneri-v-risi/it"

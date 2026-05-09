@@ -1,0 +1,1803 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Böhmische Söldner im Reich 1434–1526</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reset.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Source+Sans+3:wght@300;400;600&display=swap" />
+
+    <style>
+      :root {
+        --color-bg: #1a1310;
+        --color-bg-deep: #0e0a08;
+        --color-text: #efe4cf;
+        --color-muted: #b8a988;
+        --color-accent: #8b1b1b;
+        --color-accent-light: #c44545;
+        --color-bezova: #d4b896;
+        --color-gold: #c9a55c;
+      }
+
+      .reveal {
+        font-family: 'Source Sans 3', system-ui, -apple-system, sans-serif;
+        font-weight: 300;
+        font-size: 30px;
+        color: var(--color-text);
+        background: var(--color-bg);
+      }
+      .reveal .slides { text-align: left; }
+      .reveal .slides section { padding: 1.5em 2em; }
+
+      .reveal h1, .reveal h2, .reveal h3, .reveal h4 {
+        font-family: 'Cinzel', 'Playfair Display', Georgia, serif;
+        font-weight: 700;
+        color: var(--color-bezova);
+        text-transform: none;
+        letter-spacing: 0.02em;
+        line-height: 1.15;
+      }
+      .reveal h1 { font-size: 2.4em; color: var(--color-gold); }
+      .reveal h2 { font-size: 1.6em; }
+      .reveal h3 { font-size: 1.25em; color: var(--color-gold); }
+      .reveal h4 { font-size: 1.05em; color: var(--color-muted); font-weight: 500; }
+
+      .reveal p { line-height: 1.45; }
+      .reveal strong { color: var(--color-gold); font-weight: 600; }
+      .reveal em { color: var(--color-accent-light); font-style: italic; }
+
+      .reveal ul { list-style: none; margin-left: 0; }
+      .reveal ul li {
+        position: relative;
+        padding-left: 1.4em;
+        margin-bottom: 0.5em;
+        line-height: 1.4;
+      }
+      .reveal ul li::before {
+        content: '◆';
+        position: absolute;
+        left: 0;
+        color: var(--color-accent);
+        font-size: 0.7em;
+        top: 0.45em;
+      }
+
+      .reveal blockquote {
+        border-left: 4px solid var(--color-accent);
+        padding: 0.6em 1.2em;
+        font-style: italic;
+        color: var(--color-bezova);
+        background: rgba(139, 27, 27, 0.08);
+        font-size: 0.95em;
+      }
+      .reveal blockquote cite {
+        display: block;
+        margin-top: 0.6em;
+        font-size: 0.8em;
+        color: var(--color-muted);
+        font-style: normal;
+      }
+
+      /* Title slide */
+      .title-slide { text-align: center; padding-top: 2em; }
+      .title-slide h1 {
+        font-size: 2.6em;
+        margin-bottom: 0.2em;
+        color: var(--color-gold);
+      }
+      .title-slide .subtitle {
+        font-family: 'Cinzel', serif;
+        font-size: 1.5em;
+        color: var(--color-bezova);
+        letter-spacing: 0.1em;
+        margin-bottom: 2em;
+      }
+      .title-slide .meta {
+        margin-top: 3em;
+        color: var(--color-muted);
+        font-size: 0.85em;
+        line-height: 1.6;
+      }
+
+      /* Section divider */
+      .section-divider {
+        text-align: center;
+        background: linear-gradient(180deg, var(--color-bg-deep), var(--color-bg));
+        padding-top: 3em;
+      }
+      .section-divider .section-num {
+        font-family: 'Cinzel', serif;
+        color: var(--color-accent);
+        font-size: 1em;
+        letter-spacing: 0.3em;
+        margin-bottom: 1em;
+      }
+      .section-divider h1 {
+        font-size: 2.2em;
+        margin-bottom: 0.3em;
+      }
+      .section-divider .section-sub {
+        font-size: 1.1em;
+        color: var(--color-muted);
+        max-width: 24em;
+        margin: 1em auto 0;
+        line-height: 1.4;
+      }
+
+      /* Two-column layout */
+      .two-col { display: grid; grid-template-columns: 1.2fr 1fr; gap: 1.4em; align-items: start; }
+      .two-col .visual {
+        border: 1px dashed var(--color-muted);
+        background: rgba(139, 27, 27, 0.05);
+        border-radius: 4px;
+        padding: 1.2em;
+        font-style: italic;
+        color: var(--color-muted);
+        font-size: 0.85em;
+        text-align: center;
+        min-height: 8em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .visual-marker {
+        display: inline-block;
+        font-style: normal;
+        color: var(--color-bezova);
+      }
+      .visual-marker::before { content: '◧ '; color: var(--color-accent-light); }
+
+      /* Mini-timeline footer */
+      .timeline-footer {
+        position: absolute;
+        bottom: 0.6em;
+        left: 1.5em;
+        right: 1.5em;
+        font-family: 'Source Sans 3', sans-serif;
+        font-size: 0.5em;
+        color: var(--color-muted);
+        display: flex;
+        align-items: center;
+        gap: 0.6em;
+      }
+      .timeline-footer .bar {
+        flex: 1;
+        height: 2px;
+        background: rgba(196, 168, 92, 0.25);
+        position: relative;
+      }
+      .timeline-footer .marker {
+        position: absolute;
+        top: -3px;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: var(--color-accent);
+        transform: translateX(-50%);
+      }
+      .timeline-footer .label {
+        position: absolute;
+        top: -1.6em;
+        transform: translateX(-50%);
+        color: var(--color-bezova);
+        white-space: nowrap;
+        font-weight: 600;
+      }
+
+      /* Stat slide */
+      .big-stat { text-align: center; padding-top: 1em; }
+      .big-stat .stat {
+        font-family: 'Cinzel', serif;
+        font-size: 5em;
+        color: var(--color-gold);
+        line-height: 1;
+        margin-bottom: 0.1em;
+      }
+      .big-stat .stat-label {
+        font-size: 1.1em;
+        color: var(--color-bezova);
+        margin-bottom: 0.5em;
+      }
+
+      /* Pull quote */
+      .pull-quote {
+        text-align: center;
+        padding: 2em 4em;
+      }
+      .pull-quote .quote {
+        font-family: 'Cinzel', serif;
+        font-size: 1.5em;
+        line-height: 1.4;
+        color: var(--color-bezova);
+        font-style: italic;
+      }
+      .pull-quote .attribution {
+        margin-top: 1.5em;
+        color: var(--color-muted);
+        font-size: 0.85em;
+      }
+
+      /* Tables */
+      .reveal table {
+        font-size: 0.78em;
+        border-collapse: collapse;
+        width: 100%;
+        margin-top: 0.6em;
+      }
+      .reveal table th {
+        background: rgba(139, 27, 27, 0.2);
+        color: var(--color-gold);
+        padding: 0.5em 0.7em;
+        text-align: left;
+        border-bottom: 1px solid var(--color-accent);
+        font-family: 'Cinzel', serif;
+        font-weight: 500;
+      }
+      .reveal table td {
+        padding: 0.4em 0.7em;
+        border-bottom: 1px solid rgba(196, 168, 92, 0.15);
+      }
+
+      /* Source note */
+      .source-note {
+        position: absolute;
+        bottom: 0.4em;
+        right: 1.5em;
+        font-size: 0.5em;
+        color: var(--color-muted);
+        font-style: italic;
+      }
+
+      /* Theme tag */
+      .theme-tag {
+        display: inline-block;
+        background: rgba(139, 27, 27, 0.25);
+        color: var(--color-accent-light);
+        font-family: 'Cinzel', serif;
+        font-size: 0.6em;
+        letter-spacing: 0.15em;
+        padding: 0.25em 0.7em;
+        border-radius: 2px;
+        margin-bottom: 0.6em;
+        text-transform: uppercase;
+      }
+
+      .reveal .progress { color: var(--color-accent); }
+
+      /* Two-column bitva layout */
+      .bitvy-slide { padding: 0.8em 1.4em !important; }
+      .bitvy-slide h2 { margin-bottom: 0.6em; font-size: 1.2em; }
+      .bitvy-col {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2em;
+      }
+      .bitva h3 {
+        font-family: 'Cinzel', serif;
+        color: var(--color-gold);
+        border-bottom: 1px solid rgba(196, 168, 92, 0.4);
+        padding-bottom: 0.25em;
+        margin-bottom: 0.55em;
+        font-size: 1.1em;
+      }
+      dl.bitva-info {
+        display: grid;
+        grid-template-columns: max-content 1fr;
+        gap: 0.5em 1em;
+        font-size: 0.74em;
+        line-height: 1.4;
+        margin: 0;
+      }
+      dl.bitva-info dt {
+        color: var(--color-muted);
+        font-family: 'Cinzel', serif;
+        font-size: 0.85em;
+        letter-spacing: 0.05em;
+        text-align: right;
+        white-space: nowrap;
+        padding-top: 0.15em;
+      }
+      dl.bitva-info dd {
+        color: var(--color-bezova);
+        margin: 0;
+      }
+      .bitva > p {
+        font-size: 0.72em;
+        line-height: 1.5;
+        margin: 0 0 0.7em 0;
+        color: var(--color-bezova);
+      }
+
+      /* Gantt timeline */
+      .gantt-slide {
+        padding: 0.4em 0.8em !important;
+        display: flex !important;
+        flex-direction: column;
+        height: 100%;
+        box-sizing: border-box;
+        overflow: hidden;
+      }
+      .gantt-slide h2 {
+        font-size: 1.1em;
+        margin-bottom: 0.1em;
+        flex-shrink: 0;
+      }
+      .gantt-slide .gantt-caption {
+        font-size: 0.55em;
+        color: var(--color-muted);
+        margin-bottom: 0.3em;
+        flex-shrink: 0;
+      }
+      .gantt-slide .gantt {
+        flex: 1 1 auto;
+        min-height: 0;
+        overflow: hidden;
+      }
+      .gantt-slide .gantt-legend { flex-shrink: 0; }
+      .gantt-cz .gantt { --row-h: 1em; --label-col-default: 340px; font-size: 0.42em; }
+      .gantt-foreign .gantt { --row-h: 0.95em; --label-col-default: 290px; font-size: 0.32em; }
+      .gantt {
+        display: grid;
+        grid-template-columns: var(--label-col, var(--label-col-default, 240px)) repeat(93, 1fr);
+        column-gap: 0;
+        row-gap: 0;
+        font-family: 'Source Sans 3', sans-serif;
+        line-height: 1;
+        background:
+          repeating-linear-gradient(
+            to right,
+            transparent 0,
+            transparent calc((100% - var(--label-col, 240px)) / 93 * 10 - 1px),
+            rgba(196, 168, 92, 0.1) calc((100% - var(--label-col, 240px)) / 93 * 10 - 1px),
+            rgba(196, 168, 92, 0.1) calc((100% - var(--label-col, 240px)) / 93 * 10)
+          );
+      }
+      .gantt-header { display: contents; }
+      .gantt-header .gantt-label-h { grid-column: 1; }
+      .gantt-decade {
+        font-family: 'Cinzel', serif;
+        color: var(--color-gold);
+        font-size: 1.4em;
+        letter-spacing: 0.05em;
+        border-bottom: 1px solid rgba(196, 168, 92, 0.4);
+        padding: 0.1em 0.3em 0.2em;
+        text-align: left;
+      }
+      .gantt-row { display: contents; }
+      .gantt-row-merc .gantt-label { color: var(--color-gold); }
+      .gantt-label {
+        grid-column: 1;
+        padding: 0.05em 0.5em 0.05em 0;
+        color: var(--color-bezova);
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 1em;
+        line-height: 1.3;
+        text-align: right;
+        border-right: 1px solid rgba(196, 168, 92, 0.2);
+        padding-right: 0.5em;
+        height: var(--row-h, 0.95em);
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+      }
+      .gantt-merc-flag {
+        color: #c9a55c;
+        font-size: 1.1em;
+        margin-right: 0.3em;
+        flex-shrink: 0;
+      }
+      .gantt-bar {
+        height: calc(var(--row-h, 0.95em) - 2px);
+        margin: 1px 0;
+        border-radius: 1px;
+        align-self: center;
+        opacity: 0.92;
+      }
+      .gantt-legend {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5em 1.2em;
+        font-size: 0.6em;
+        color: var(--color-muted);
+        margin-top: 0.5em;
+        align-items: center;
+      }
+      .gantt-legend-item {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.4em;
+      }
+      .gantt-swatch {
+        display: inline-block;
+        width: 1em;
+        height: 0.7em;
+        border-radius: 1px;
+      }
+      .gantt-legend-merc {
+        color: #c9a55c;
+        font-weight: 600;
+      }
+      .gantt-legend-merc::before {
+        content: '⚔';
+        margin-right: 0.3em;
+      }
+
+      /* Notes for the user */
+      .placeholder {
+        background: rgba(196, 168, 92, 0.08);
+        border-left: 3px solid var(--color-gold);
+        padding: 0.8em 1em;
+        font-size: 0.85em;
+        color: var(--color-muted);
+        font-style: italic;
+        margin-top: 0.5em;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <!-- ============================================ -->
+        <!-- SLIDE 1: TITELFOLIE                           -->
+        <!-- ============================================ -->
+        <section class="title-slide">
+          <h1>Böhmische Söldner<br />im Reich</h1>
+          <div class="subtitle">1434 — 1526</div>
+          <div class="meta">
+            Martin Zadražil<br />
+            <em>tyrovsti.cz</em><br /><br />
+            <span style="color: var(--color-muted)">Harnischfechten Workshop · Lipnice 2026</span>
+          </div>
+        </section>
+
+        <!-- ============================================ -->
+        <!-- SEKTION 1: EINLEITUNG                         -->
+        <!-- ============================================ -->
+        <section class="section-divider">
+          <div class="section-num">I.</div>
+          <h1>Einleitung</h1>
+          <div style="display: flex; align-items: center; justify-content: center; gap: 2.5em; margin: 1.4em auto 0; max-width: 900px">
+            <img src="/prezentace/cesti-zoldneri-v-risi/images/qr-rozcestnik.svg" alt="QR: https://tyrovsti.cz/prezentace/cesti-zoldneri-v-risi" style="width: 220px; height: 220px; flex-shrink: 0" />
+            <ul style="list-style: none; padding: 0; margin: 0; font-size: 0.62em; line-height: 1.7; color: var(--color-bezova); text-align: left">
+              <li><strong style="color: var(--color-muted); font-family: 'Cinzel', serif; letter-spacing: 0.1em; margin-right: 0.5em">CS</strong> Naskenujte pro zobrazení této prezentace ve vašem jazyce</li>
+              <li><strong style="color: var(--color-muted); font-family: 'Cinzel', serif; letter-spacing: 0.1em; margin-right: 0.5em">EN</strong> Scan to view this presentation in your language</li>
+              <li><strong style="color: var(--color-muted); font-family: 'Cinzel', serif; letter-spacing: 0.1em; margin-right: 0.5em">IT</strong> Scansiona per vedere questa presentazione nella tua lingua</li>
+            </ul>
+          </div>
+          <div style="margin-top: 1.4em; font-family: 'Cinzel', serif; font-size: 0.85em; letter-spacing: 0.02em">
+            <a href="https://tyrovsti.cz/prezentace/cesti-zoldneri-v-risi" style="color: var(--color-gold); text-decoration: none; border-bottom: 1px solid rgba(196, 168, 92, 0.4); padding-bottom: 0.1em">https://tyrovsti.cz/prezentace/cesti-zoldneri-v-risi</a>
+          </div>
+        </section>
+
+        <section class="gantt-slide gantt-cz">
+          <h2>Zeitleiste: böhmische militärische Aktionen 1434–1526</h2>
+          <div class="gantt-caption">47 belegte Konflikte in den böhmischen Ländern (mit eventuellem Übergreifen ins Reich und nach Ungarn).</div>
+          <div class="gantt">
+            <div class="gantt-header">
+              <div class="gantt-label-h"></div>
+              <div class="gantt-decade" style="grid-column: 2 / span 6;">1434</div>
+              <div class="gantt-decade" style="grid-column: 8 / span 10;">1440</div>
+              <div class="gantt-decade" style="grid-column: 18 / span 10;">1450</div>
+              <div class="gantt-decade" style="grid-column: 28 / span 10;">1460</div>
+              <div class="gantt-decade" style="grid-column: 38 / span 10;">1470</div>
+              <div class="gantt-decade" style="grid-column: 48 / span 10;">1480</div>
+              <div class="gantt-decade" style="grid-column: 58 / span 10;">1490</div>
+              <div class="gantt-decade" style="grid-column: 68 / span 10;">1500</div>
+              <div class="gantt-decade" style="grid-column: 78 / span 10;">1510</div>
+              <div class="gantt-decade" style="grid-column: 88 / span 7;">1520</div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Schlacht bei Lipan (1434–1434)">Schlacht bei Lipan</div>
+              <div class="gantt-bar" style="grid-column: 2 / 3; background: #8b1b1b;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Ausklang der Hussitenkriege (1434–1437)">Ausklang der Hussitenkriege</div>
+              <div class="gantt-bar" style="grid-column: 2 / 6; background: #8b1b1b;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Belagerung der Burg Sion und letzter Aufstand des Jan Roháč von Dubá (1437–1437)">Belagerung der Burg Sion und letzter Aufstand des Jan Roháč von Dubá</div>
+              <div class="gantt-bar" style="grid-column: 5 / 6; background: #8b1b1b;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Kämpfe um den böhmischen Thron nach Albrecht II. (1440–1444)">Kämpfe um den böhmischen Thron nach Albrecht II.</div>
+              <div class="gantt-bar" style="grid-column: 8 / 13; background: #8b1b1b;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Feldzug des Lausitzer Sechsstädtebundes gegen die Wartenberger (1444–1444)">Feldzug des Lausitzer Sechsstädtebundes gegen die Wartenberger</div>
+              <div class="gantt-bar" style="grid-column: 12 / 13; background: #8b1b1b;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Einfälle der Bratrici nach Mähren und Schlesien (1445–1467)">Einfälle der Bratrici nach Mähren und Schlesien</div>
+              <div class="gantt-bar" style="grid-column: 13 / 36; background: #8b1b1b;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Feldzug Georgs von Podiebrad gegen Prag (1448–1448)">Feldzug Georgs von Podiebrad gegen Prag</div>
+              <div class="gantt-bar" style="grid-column: 16 / 17; background: #8b1b1b;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Krieg Georgs von Podiebrad gegen den Strakonitzer Bund (1449–1450)">Krieg Georgs von Podiebrad gegen den Strakonitzer Bund</div>
+              <div class="gantt-bar" style="grid-column: 17 / 19; background: #8b1b1b;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Streit um die Stephanskrone und Ladislaus Postumus (1452–1453)">Streit um die Stephanskrone und Ladislaus Postumus</div>
+              <div class="gantt-bar" style="grid-column: 20 / 22; background: repeating-linear-gradient(45deg, #8b1b1b 0px, #8b1b1b 6px, #b8860b 6px, #b8860b 12px, #0f7a3b 12px, #0f7a3b 18px);"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Sturz des Jan Smiřický und Streit um sein Erbe (1453–1454)">Sturz des Jan Smiřický und Streit um sein Erbe</div>
+              <div class="gantt-bar" style="grid-column: 21 / 23; background: #8b1b1b;"></div>
+            </div>
+            <div class="gantt-row gantt-row-merc">
+              <div class="gantt-label" title="Fehde des Mikuláš Kaplíř von Vimperk mit dem Bischof von Passau (1458–1460)"><span class="gantt-merc-flag" title="Belegte Beteiligung böhmischer Söldner">⚔</span> Fehde des Mikuláš Kaplíř von Vimperk mit dem Bischof von Passau</div>
+              <div class="gantt-bar" style="grid-column: 26 / 29; background: repeating-linear-gradient(45deg, #8b1b1b 0px, #8b1b1b 6px, #2c5282 6px, #2c5282 12px);"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Krieg gegen den Grünberger Bund (1465–1471)">Krieg gegen den Grünberger Bund</div>
+              <div class="gantt-bar" style="grid-column: 33 / 40; background: #8b1b1b;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Schlacht bei Taus – Abwehr der bayerisch-pfälzischen Kreuzfahrer (1466–1466)">Schlacht bei Taus – Abwehr der bayerisch-pfälzischen Kreuzfahrer</div>
+              <div class="gantt-bar" style="grid-column: 34 / 35; background: repeating-linear-gradient(45deg, #8b1b1b 0px, #8b1b1b 6px, #2c5282 6px, #2c5282 12px);"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Streitigkeiten der Herren von Plauen um Plauen, Petschau und Königswart (1466–1482)">Streitigkeiten der Herren von Plauen um Plauen, Petschau und Königswart</div>
+              <div class="gantt-bar" style="grid-column: 34 / 51; background: repeating-linear-gradient(45deg, #8b1b1b 0px, #8b1b1b 6px, #2c5282 6px, #2c5282 12px);"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Kämpfe bei Neuern mit den Böcklern (1467–1467)">Kämpfe bei Neuern mit den Böcklern</div>
+              <div class="gantt-bar" style="grid-column: 35 / 36; background: repeating-linear-gradient(45deg, #8b1b1b 0px, #8b1b1b 6px, #2c5282 6px, #2c5282 12px);"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Eroberung und Plünderung des Klosters Tepl durch katholische Herren (1467–1467)">Eroberung und Plünderung des Klosters Tepl durch katholische Herren</div>
+              <div class="gantt-bar" style="grid-column: 35 / 36; background: #8b1b1b;"></div>
+            </div>
+            <div class="gantt-row gantt-row-merc">
+              <div class="gantt-label" title="Böcklerkrieg (Rittergesellschaft Einhorn vs. Albrecht IV.) (1467–1472)"><span class="gantt-merc-flag" title="Belegte Beteiligung böhmischer Söldner">⚔</span> Böcklerkrieg (Rittergesellschaft Einhorn vs. Albrecht IV.)</div>
+              <div class="gantt-bar" style="grid-column: 35 / 41; background: repeating-linear-gradient(45deg, #2c5282 0px, #2c5282 6px, #8b1b1b 6px, #8b1b1b 12px);"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Schlacht bei Neuern – Niederlage der Kreuzfahrer und Tod Albrecht Nothafts (1468–1468)">Schlacht bei Neuern – Niederlage der Kreuzfahrer und Tod Albrecht Nothafts</div>
+              <div class="gantt-bar" style="grid-column: 36 / 37; background: repeating-linear-gradient(45deg, #8b1b1b 0px, #8b1b1b 6px, #2c5282 6px, #2c5282 12px);"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Eroberung von Winterberg, Wallern und Budweis durch Passauer Kreuzfahrer (1468–1468)">Eroberung von Winterberg, Wallern und Budkau durch Passauer Kreuzfahrer</div>
+              <div class="gantt-bar" style="grid-column: 36 / 37; background: repeating-linear-gradient(45deg, #8b1b1b 0px, #8b1b1b 6px, #2c5282 6px, #2c5282 12px);"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Feldzug des Šebestián Pluh mit Nürnberger Kreuzfahrern gegen Tachau und Pilsen (1468–1468)">Feldzug des Šebestián Pluh mit Nürnberger Kreuzfahrern gegen Tachau und Pilsen</div>
+              <div class="gantt-bar" style="grid-column: 36 / 37; background: repeating-linear-gradient(45deg, #8b1b1b 0px, #8b1b1b 6px, #2c5282 6px, #2c5282 12px);"></div>
+            </div>
+            <div class="gantt-row gantt-row-merc">
+              <div class="gantt-label" title="Böhmisch-ungarischer Krieg (1468–1478)"><span class="gantt-merc-flag" title="Belegte Beteiligung böhmischer Söldner">⚔</span> Böhmisch-ungarischer Krieg</div>
+              <div class="gantt-bar" style="grid-column: 36 / 47; background: repeating-linear-gradient(45deg, #8b1b1b 0px, #8b1b1b 6px, #0f7a3b 6px, #0f7a3b 12px);"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Eroberung der Burg Degenberg und Konfiszierung des Furthschen Winkels (1468–1468)">Eroberung der Burg Degenberg und Konfiszierung des Furthschen Winkels</div>
+              <div class="gantt-bar" style="grid-column: 36 / 37; background: repeating-linear-gradient(45deg, #2c5282 0px, #2c5282 6px, #8b1b1b 6px, #8b1b1b 12px);"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Strafzug der bayerischen Herzöge gegen die Burgen der Böckler (1468–1469)">Strafzug der bayerischen Herzöge gegen die Burgen der Böckler</div>
+              <div class="gantt-bar" style="grid-column: 36 / 38; background: repeating-linear-gradient(45deg, #2c5282 0px, #2c5282 6px, #8b1b1b 6px, #8b1b1b 12px);"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Feldzug des Burian von Gutenstein und Heinrichs von Plauen gegen Eger und Waldsassen (1469–1469)">Feldzug des Burian von Gutenstein und Heinrichs von Plauen gegen Eger und Waldsassen</div>
+              <div class="gantt-bar" style="grid-column: 37 / 38; background: repeating-linear-gradient(45deg, #8b1b1b 0px, #8b1b1b 6px, #2c5282 6px, #2c5282 12px);"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Feldzug Georgs von Podiebrad gegen die Burgen Heinrichs von Plauen (1469–1469)">Feldzug Georgs von Podiebrad gegen die Burgen Heinrichs von Plauen</div>
+              <div class="gantt-bar" style="grid-column: 37 / 38; background: repeating-linear-gradient(45deg, #8b1b1b 0px, #8b1b1b 6px, #2c5282 6px, #2c5282 12px);"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Fehde des Wilhelm von Wolfstein auf Triebel gegen Eger (1469–1471)">Fehde des Wilhelm von Wolfstein auf Triebel gegen Eger</div>
+              <div class="gantt-bar" style="grid-column: 37 / 40; background: repeating-linear-gradient(45deg, #8b1b1b 0px, #8b1b1b 6px, #2c5282 6px, #2c5282 12px);"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Kampf um Elbogen und Fehden an der Bayreuther und Ascher Grenze (1471–1471)">Kampf um Elbogen und Fehden an der Bayreuther und Ascher Grenze</div>
+              <div class="gantt-bar" style="grid-column: 39 / 40; background: repeating-linear-gradient(45deg, #8b1b1b 0px, #8b1b1b 6px, #2c5282 6px, #2c5282 12px);"></div>
+            </div>
+            <div class="gantt-row gantt-row-merc">
+              <div class="gantt-label" title="Eroberung der Burg Pajrek und Zusammenbruch des Böckleraufstandes (1471–1472)"><span class="gantt-merc-flag" title="Belegte Beteiligung böhmischer Söldner">⚔</span> Eroberung der Burg Pajrek und Zusammenbruch des Böckleraufstandes</div>
+              <div class="gantt-bar" style="grid-column: 39 / 41; background: repeating-linear-gradient(45deg, #8b1b1b 0px, #8b1b1b 6px, #2c5282 6px, #2c5282 12px);"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Fehde der Elsenberger, Nothafte, Wallenfelser und Wildensteiner gegen die Wirsperger und Zedwitz (1471–1471)">Fehde der Elsenberger, Nothafte, Wallenfelser und Wildensteiner gegen die Wirsperger und Zedwitz</div>
+              <div class="gantt-bar" style="grid-column: 39 / 40; background: repeating-linear-gradient(45deg, #8b1b1b 0px, #8b1b1b 6px, #2c5282 6px, #2c5282 12px);"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Angriff des Kolowrat-Wolfsteinschen Klans auf das Egerland und Egerer Vergeltung (1471–1471)">Angriff des Kolowrat-Wolfsteinschen Klans auf das Egerland und Egerer Vergeltung</div>
+              <div class="gantt-bar" style="grid-column: 39 / 40; background: repeating-linear-gradient(45deg, #8b1b1b 0px, #8b1b1b 6px, #2c5282 6px, #2c5282 12px);"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Eroberung der Burg Puschberg durch das Klattauer Heer (1473–1473)">Eroberung der Burg Puschberg durch das Klattauer Heer</div>
+              <div class="gantt-bar" style="grid-column: 41 / 42; background: repeating-linear-gradient(45deg, #8b1b1b 0px, #8b1b1b 6px, #2c5282 6px, #2c5282 12px);"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Feldzug Wolfgang Waldeckers ins Klattauer Land (1473–1473)">Feldzug Wolfgang Waldeckers ins Klattauer Land</div>
+              <div class="gantt-bar" style="grid-column: 41 / 42; background: repeating-linear-gradient(45deg, #8b1b1b 0px, #8b1b1b 6px, #2c5282 6px, #2c5282 12px);"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Einfall der Schlick in die Stadt Elbogen und Niederbrennung der Stadt (1473–1473)">Einfall der Schlick in die Stadt Elbogen und Niederbrennung der Stadt</div>
+              <div class="gantt-bar" style="grid-column: 41 / 42; background: repeating-linear-gradient(45deg, #8b1b1b 0px, #8b1b1b 6px, #2c5282 6px, #2c5282 12px);"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Kampf um das Lehen Seeberg im Egerland (1474–1475)">Kampf um das Lehen Seeberg im Egerland</div>
+              <div class="gantt-bar" style="grid-column: 42 / 44; background: repeating-linear-gradient(45deg, #8b1b1b 0px, #8b1b1b 6px, #2c5282 6px, #2c5282 12px);"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Eroberung von Neu-Herrnstein und Aussöhnung des Hans Degenberger mit Albrecht IV. (1475–1475)">Eroberung von Neu-Herrnstein und Aussöhnung des Hans Degenberger mit Albrecht IV.</div>
+              <div class="gantt-bar" style="grid-column: 43 / 44; background: repeating-linear-gradient(45deg, #8b1b1b 0px, #8b1b1b 6px, #2c5282 6px, #2c5282 12px);"></div>
+            </div>
+            <div class="gantt-row gantt-row-merc">
+              <div class="gantt-label" title="Fehde des Břeněk von Ronsperg und Racek von Kotzov mit den Wittelsbachern und dem Bischof von Passau (1475–1476)"><span class="gantt-merc-flag" title="Belegte Beteiligung böhmischer Söldner">⚔</span> Fehde des Břeněk von Ronsperg und Racek von Kotzov mit den Wittelsbachern und dem Bischof von Passau</div>
+              <div class="gantt-bar" style="grid-column: 43 / 45; background: repeating-linear-gradient(45deg, #8b1b1b 0px, #8b1b1b 6px, #2c5282 6px, #2c5282 12px);"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Regensburger Fehden der Seeberg, Zaunrud, Gutenstein und Schwanberg (1475–1479)">Regensburger Fehden der Seeberg, Zaunrud, Gutenstein und Schwanberg</div>
+              <div class="gantt-bar" style="grid-column: 43 / 48; background: #8b1b1b;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Strafzug Egers gegen Hynčík Pluh (1477–1477)">Strafzug Egers gegen Hynčík Pluh</div>
+              <div class="gantt-bar" style="grid-column: 45 / 46; background: repeating-linear-gradient(45deg, #8b1b1b 0px, #8b1b1b 6px, #2c5282 6px, #2c5282 12px);"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Fehde des Racek von Kotzov und Belagerung von Wesely und Horaschdiowitz (1477–1478)">Fehde des Racek von Kotzov und Belagerung von Wesely und Horaschdiowitz</div>
+              <div class="gantt-bar" style="grid-column: 45 / 47; background: #8b1b1b;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Niederlage des Burian von Gutenstein bei Pilsen und Feldzug des Jan Planknár gegen das Egerland (1478–1478)">Niederlage des Burian von Gutenstein bei Pilsen und Feldzug des Jan Planknár gegen das Egerland</div>
+              <div class="gantt-bar" style="grid-column: 46 / 47; background: repeating-linear-gradient(45deg, #8b1b1b 0px, #8b1b1b 6px, #2c5282 6px, #2c5282 12px);"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Zweiter Prager Fenstersturz und Umsturz der Utraquisten (1483–1485)">Zweiter Prager Fenstersturz und Umsturz der Utraquisten</div>
+              <div class="gantt-bar" style="grid-column: 51 / 54; background: #8b1b1b;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Kuttenberger Bergmannsaufstand (1496–1496)">Kuttenberger Bergmannsaufstand</div>
+              <div class="gantt-bar" style="grid-column: 64 / 65; background: #8b1b1b;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Glatzer Krieg (Streit um Glatz) (1501–1501)">Glatzer Krieg (Streit um Glatz)</div>
+              <div class="gantt-bar" style="grid-column: 69 / 70; background: #8b1b1b;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Krieg der böhmischen Stände gegen die Schlick um die Elbogener Enklave (1501–1504)">Krieg der böhmischen Stände gegen die Schlick um die Elbogener Enklave</div>
+              <div class="gantt-bar" style="grid-column: 69 / 73; background: repeating-linear-gradient(45deg, #8b1b1b 0px, #8b1b1b 6px, #2c5282 6px, #2c5282 12px);"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Privatkrieg des Jiří Kopidlanský gegen Prag (1507–1517)">Privatkrieg des Jiří Kopidlanský gegen Prag</div>
+              <div class="gantt-bar" style="grid-column: 75 / 86; background: #8b1b1b;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Aufstand des niederen Adels gegen Zikmund von Lobkowitz (1517–1517)">Aufstand des niederen Adels gegen Zikmund von Lobkowitz</div>
+              <div class="gantt-bar" style="grid-column: 85 / 86; background: #8b1b1b;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Bergmannsaufstand in Joachimsthal (1525–1525)">Bergmannsaufstand in Joachimsthal</div>
+              <div class="gantt-bar" style="grid-column: 93 / 94; background: #8b1b1b;"></div>
+            </div>
+          </div>
+          <div class="gantt-legend">
+            <span class="gantt-legend-item"><span class="gantt-swatch" style="background:#8b1b1b"></span>Böhmische Länder</span>
+            <span class="gantt-legend-item"><span class="gantt-swatch" style="background:#2c5282"></span>Heiliges Römisches Reich</span>
+            <span class="gantt-legend-item"><span class="gantt-swatch" style="background:#b8860b"></span>Österreich / Habsburger</span>
+            <span class="gantt-legend-item"><span class="gantt-swatch" style="background:#0f7a3b"></span>Ungarn</span>
+          </div>
+        </section>
+
+        <section class="gantt-slide gantt-foreign">
+          <h2>Zeitleiste: auswärtige Aktionen 1434–1526</h2>
+          <div class="gantt-caption">Alle 67 auswärtigen Konflikte im mitteleuropäischen Raum. <span class="gantt-legend-merc">kennzeichnet die belegte Beteiligung böhmischer Söldner</span> (Quelle: Tresp 2004) — insgesamt 26 von 67.</div>
+          <div class="gantt">
+            <div class="gantt-header">
+              <div class="gantt-label-h"></div>
+              <div class="gantt-decade" style="grid-column: 2 / span 6;">1434</div>
+              <div class="gantt-decade" style="grid-column: 8 / span 10;">1440</div>
+              <div class="gantt-decade" style="grid-column: 18 / span 10;">1450</div>
+              <div class="gantt-decade" style="grid-column: 28 / span 10;">1460</div>
+              <div class="gantt-decade" style="grid-column: 38 / span 10;">1470</div>
+              <div class="gantt-decade" style="grid-column: 48 / span 10;">1480</div>
+              <div class="gantt-decade" style="grid-column: 58 / span 10;">1490</div>
+              <div class="gantt-decade" style="grid-column: 68 / span 10;">1500</div>
+              <div class="gantt-decade" style="grid-column: 78 / span 10;">1510</div>
+              <div class="gantt-decade" style="grid-column: 88 / span 7;">1520</div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Litauischer Bürgerkrieg (Švitrigaila vs. Sigismund Kęstutaitis) (1434–1438)">Litauischer Bürgerkrieg (Švitrigaila vs. Sigismund Kęstutaitis)</div>
+              <div class="gantt-bar" style="grid-column: 2 / 7; background: #5e3784;"></div>
+            </div>
+            <div class="gantt-row gantt-row-merc">
+              <div class="gantt-label" title="Hussitische Einfälle in die Zips und in die Slowakei (1434–1444)"><span class="gantt-merc-flag" title="Belegte Beteiligung böhmischer Söldner">⚔</span> Hussitische Einfälle in die Zips und in die Slowakei</div>
+              <div class="gantt-bar" style="grid-column: 2 / 13; background: #0f7a3b;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Osmanischer Feldzug nach Siebenbürgen (1438–1438)">Osmanischer Feldzug nach Siebenbürgen</div>
+              <div class="gantt-bar" style="grid-column: 6 / 7; background: #0f7a3b;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Osmanische Belagerung von Smederevo (1439–1439)">Osmanische Belagerung von Smederevo</div>
+              <div class="gantt-bar" style="grid-column: 7 / 8; background: #0f7a3b;"></div>
+            </div>
+            <div class="gantt-row gantt-row-merc">
+              <div class="gantt-label" title="Kämpfe um den ungarischen Thron (Wladislaw vs. Habsburger) (1440–1442)"><span class="gantt-merc-flag" title="Belegte Beteiligung böhmischer Söldner">⚔</span> Kämpfe um den ungarischen Thron (Wladislaw vs. Habsburger)</div>
+              <div class="gantt-bar" style="grid-column: 8 / 11; background: repeating-linear-gradient(45deg, #0f7a3b 0px, #0f7a3b 6px, #5e3784 6px, #5e3784 12px);"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Erste osmanische Belagerung von Belgrad (1440–1440)">Erste osmanische Belagerung von Belgrad</div>
+              <div class="gantt-bar" style="grid-column: 8 / 9; background: #0f7a3b;"></div>
+            </div>
+            <div class="gantt-row gantt-row-merc">
+              <div class="gantt-label" title="Wirken des Jan Jiskra von Brandeis in Oberungarn (1440–1462)"><span class="gantt-merc-flag" title="Belegte Beteiligung böhmischer Söldner">⚔</span> Wirken des Jan Jiskra von Brandeis in Oberungarn</div>
+              <div class="gantt-bar" style="grid-column: 8 / 31; background: #0f7a3b;"></div>
+            </div>
+            <div class="gantt-row gantt-row-merc">
+              <div class="gantt-label" title="Langer Feldzug des János Hunyadi auf den Balkan (1443–1444)"><span class="gantt-merc-flag" title="Belegte Beteiligung böhmischer Söldner">⚔</span> Langer Feldzug des János Hunyadi auf den Balkan</div>
+              <div class="gantt-bar" style="grid-column: 11 / 13; background: #0f7a3b;"></div>
+            </div>
+            <div class="gantt-row gantt-row-merc">
+              <div class="gantt-label" title="Soester Fehde (1444–1449)"><span class="gantt-merc-flag" title="Belegte Beteiligung böhmischer Söldner">⚔</span> Soester Fehde</div>
+              <div class="gantt-bar" style="grid-column: 12 / 18; background: #2c5282;"></div>
+            </div>
+            <div class="gantt-row gantt-row-merc">
+              <div class="gantt-label" title="Schlacht bei Warna (1444–1444)"><span class="gantt-merc-flag" title="Belegte Beteiligung böhmischer Söldner">⚔</span> Schlacht bei Warna</div>
+              <div class="gantt-bar" style="grid-column: 12 / 13; background: #0f7a3b;"></div>
+            </div>
+            <div class="gantt-row gantt-row-merc">
+              <div class="gantt-label" title="Sächsischer Bruderkrieg (1446–1451)"><span class="gantt-merc-flag" title="Belegte Beteiligung böhmischer Söldner">⚔</span> Sächsischer Bruderkrieg</div>
+              <div class="gantt-bar" style="grid-column: 14 / 20; background: #2c5282;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Feldzug Hunyadis gegen Friedrich III. (1446–1446)">Feldzug Hunyadis gegen Friedrich III.</div>
+              <div class="gantt-bar" style="grid-column: 14 / 15; background: repeating-linear-gradient(45deg, #b8860b 0px, #b8860b 6px, #0f7a3b 6px, #0f7a3b 12px);"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Borschengrüner Fehde (1448–1453)">Borschengrüner Fehde</div>
+              <div class="gantt-bar" style="grid-column: 16 / 22; background: #2c5282;"></div>
+            </div>
+            <div class="gantt-row gantt-row-merc">
+              <div class="gantt-label" title="Zweite Schlacht auf dem Amselfeld (1448–1448)"><span class="gantt-merc-flag" title="Belegte Beteiligung böhmischer Söldner">⚔</span> Zweite Schlacht auf dem Amselfeld</div>
+              <div class="gantt-bar" style="grid-column: 16 / 17; background: #0f7a3b;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Süddeutscher Städtekrieg (1449–1450)">Süddeutscher Städtekrieg</div>
+              <div class="gantt-bar" style="grid-column: 17 / 19; background: #2c5282;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Erster Markgrafenkrieg (1449–1450)">Erster Markgrafenkrieg</div>
+              <div class="gantt-bar" style="grid-column: 17 / 19; background: #2c5282;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Preußischer Aufstand gegen den Orden (1454–1454)">Preußischer Aufstand gegen den Orden</div>
+              <div class="gantt-bar" style="grid-column: 22 / 23; background: #5e3784;"></div>
+            </div>
+            <div class="gantt-row gantt-row-merc">
+              <div class="gantt-label" title="Dreizehnjähriger Krieg (1454–1466)"><span class="gantt-merc-flag" title="Belegte Beteiligung böhmischer Söldner">⚔</span> Dreizehnjähriger Krieg</div>
+              <div class="gantt-bar" style="grid-column: 22 / 35; background: #5e3784;"></div>
+            </div>
+            <div class="gantt-row gantt-row-merc">
+              <div class="gantt-label" title="Belagerung von Belgrad (1456–1456)"><span class="gantt-merc-flag" title="Belegte Beteiligung böhmischer Söldner">⚔</span> Belagerung von Belgrad</div>
+              <div class="gantt-bar" style="grid-column: 24 / 25; background: #0f7a3b;"></div>
+            </div>
+            <div class="gantt-row gantt-row-merc">
+              <div class="gantt-label" title="Österreichischer Bruderkrieg (1458–1463)"><span class="gantt-merc-flag" title="Belegte Beteiligung böhmischer Söldner">⚔</span> Österreichischer Bruderkrieg</div>
+              <div class="gantt-bar" style="grid-column: 26 / 32; background: #b8860b;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Osmanische Eroberung Serbiens (1458–1459)">Osmanische Eroberung Serbiens</div>
+              <div class="gantt-bar" style="grid-column: 26 / 28; background: #0f7a3b;"></div>
+            </div>
+            <div class="gantt-row gantt-row-merc">
+              <div class="gantt-label" title="Bayerischer Krieg (Fürstenkrieg) (1459–1463)"><span class="gantt-merc-flag" title="Belegte Beteiligung böhmischer Söldner">⚔</span> Bayerischer Krieg (Fürstenkrieg)</div>
+              <div class="gantt-bar" style="grid-column: 27 / 32; background: #2c5282;"></div>
+            </div>
+            <div class="gantt-row gantt-row-merc">
+              <div class="gantt-label" title="Magnatenaufstand und Wahl Friedrichs III. zum ungarischen König (1459–1463)"><span class="gantt-merc-flag" title="Belegte Beteiligung böhmischer Söldner">⚔</span> Magnatenaufstand und Wahl Friedrichs III. zum ungarischen König</div>
+              <div class="gantt-bar" style="grid-column: 27 / 32; background: repeating-linear-gradient(45deg, #0f7a3b 0px, #0f7a3b 6px, #b8860b 6px, #b8860b 12px);"></div>
+            </div>
+            <div class="gantt-row gantt-row-merc">
+              <div class="gantt-label" title="Badisch-Pfälzischer Krieg (1461–1462)"><span class="gantt-merc-flag" title="Belegte Beteiligung böhmischer Söldner">⚔</span> Badisch-Pfälzischer Krieg</div>
+              <div class="gantt-bar" style="grid-column: 29 / 31; background: #2c5282;"></div>
+            </div>
+            <div class="gantt-row gantt-row-merc">
+              <div class="gantt-label" title="Mainzer Stiftsfehde (1461–1463)"><span class="gantt-merc-flag" title="Belegte Beteiligung böhmischer Söldner">⚔</span> Mainzer Stiftsfehde</div>
+              <div class="gantt-bar" style="grid-column: 29 / 32; background: #2c5282;"></div>
+            </div>
+            <div class="gantt-row gantt-row-merc">
+              <div class="gantt-label" title="Osmanisch-ungarischer Krieg des Matthias Corvinus (1463–1483)"><span class="gantt-merc-flag" title="Belegte Beteiligung böhmischer Söldner">⚔</span> Osmanisch-ungarischer Krieg des Matthias Corvinus</div>
+              <div class="gantt-bar" style="grid-column: 31 / 52; background: #0f7a3b;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Osmanische Eroberung Bosniens (1463–1463)">Osmanische Eroberung Bosniens</div>
+              <div class="gantt-bar" style="grid-column: 31 / 32; background: #0f7a3b;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Stettiner Erbfolgekrieg (1464–1472)">Stettiner Erbfolgekrieg</div>
+              <div class="gantt-bar" style="grid-column: 32 / 41; background: #2c5282;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Pfaffenkrieg um das Bistum Ermland (1467–1479)">Pfaffenkrieg um das Bistum Ermland</div>
+              <div class="gantt-bar" style="grid-column: 35 / 48; background: #5e3784;"></div>
+            </div>
+            <div class="gantt-row gantt-row-merc">
+              <div class="gantt-label" title="Moldauischer Feldzug und Schlacht bei Baia (1467–1467)"><span class="gantt-merc-flag" title="Belegte Beteiligung böhmischer Söldner">⚔</span> Moldauischer Feldzug und Schlacht bei Baia</div>
+              <div class="gantt-bar" style="grid-column: 35 / 36; background: #0f7a3b;"></div>
+            </div>
+            <div class="gantt-row gantt-row-merc">
+              <div class="gantt-label" title="Waldshuterkrieg (1468–1468)"><span class="gantt-merc-flag" title="Belegte Beteiligung böhmischer Söldner">⚔</span> Waldshuterkrieg</div>
+              <div class="gantt-bar" style="grid-column: 36 / 37; background: #2c5282;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Pfälzischer Krieg Friedrichs des Siegreichen (1469–1474)">Pfälzischer Krieg Friedrichs des Siegreichen</div>
+              <div class="gantt-bar" style="grid-column: 37 / 43; background: #2c5282;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Razzia Albrechts IV. gegen die Räuber Peter Gewolf von Degenberg und Hans Nußberger (1470–1470)">Razzia Albrechts IV. gegen die Räuber Peter Gewolf von Degenberg und Hans Nußberger</div>
+              <div class="gantt-bar" style="grid-column: 38 / 39; background: #2c5282;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Einfall Kasimirs IV. Jagiellonen in Ungarn (1471–1471)">Einfall Kasimirs IV. Jagiellonen in Ungarn</div>
+              <div class="gantt-bar" style="grid-column: 39 / 40; background: repeating-linear-gradient(45deg, #5e3784 0px, #5e3784 6px, #0f7a3b 6px, #0f7a3b 12px);"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Verschwörung des Johann Vitéz und Janus Pannonius gegen Matthias (1471–1472)">Verschwörung des Johann Vitéz und Janus Pannonius gegen Matthias</div>
+              <div class="gantt-bar" style="grid-column: 39 / 41; background: #0f7a3b;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Einfall Kasimirs IV. Jagiellonen in Ungarn (1474–1474)">Einfall Kasimirs IV. Jagiellonen in Ungarn</div>
+              <div class="gantt-bar" style="grid-column: 42 / 43; background: repeating-linear-gradient(45deg, #5e3784 0px, #5e3784 6px, #0f7a3b 6px, #0f7a3b 12px);"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Glogauer Erbfolgestreit (1476–1482)">Glogauer Erbfolgestreit</div>
+              <div class="gantt-bar" style="grid-column: 44 / 51; background: #2c5282;"></div>
+            </div>
+            <div class="gantt-row gantt-row-merc">
+              <div class="gantt-label" title="Österreichisch-ungarischer Krieg des Matthias Corvinus (1477–1488)"><span class="gantt-merc-flag" title="Belegte Beteiligung böhmischer Söldner">⚔</span> Österreichisch-ungarischer Krieg des Matthias Corvinus</div>
+              <div class="gantt-bar" style="grid-column: 45 / 57; background: repeating-linear-gradient(45deg, #b8860b 0px, #b8860b 6px, #0f7a3b 6px, #0f7a3b 12px);"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Einfall der Krimtataren unter Mengli Giray ins Kiewer Land (1482–1482)">Einfall der Krimtataren unter Mengli Giray ins Kiewer Land</div>
+              <div class="gantt-bar" style="grid-column: 50 / 51; background: #5e3784;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Polnisch-türkischer Krieg um die Schwarzmeerhäfen (1485–1503)">Polnisch-türkischer Krieg um die Schwarzmeerhäfen</div>
+              <div class="gantt-bar" style="grid-column: 53 / 72; background: #5e3784;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Regensburger Krieg (1486–1492)">Regensburger Krieg</div>
+              <div class="gantt-bar" style="grid-column: 54 / 61; background: #2c5282;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Aufstand des Hynek und Heinrich von Podiebrad gegen Corvinus in Schlesien (1488–1490)">Aufstand des Hynek und Heinrich von Podiebrad gegen Corvinus in Schlesien</div>
+              <div class="gantt-bar" style="grid-column: 56 / 59; background: #5e3784;"></div>
+            </div>
+            <div class="gantt-row gantt-row-merc">
+              <div class="gantt-label" title="Krieg um den ungarischen Thron nach dem Tod des Matthias Corvinus (1490–1492)"><span class="gantt-merc-flag" title="Belegte Beteiligung böhmischer Söldner">⚔</span> Krieg um den ungarischen Thron nach dem Tod des Matthias Corvinus</div>
+              <div class="gantt-bar" style="grid-column: 58 / 61; background: #0f7a3b;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Erster litauisch-moskowitischer Krieg (1492–1494)">Erster litauisch-moskowitischer Krieg</div>
+              <div class="gantt-bar" style="grid-column: 60 / 63; background: #5e3784;"></div>
+            </div>
+            <div class="gantt-row gantt-row-merc">
+              <div class="gantt-label" title="Osmanische Streifzüge nach Ungarn und Kroatien (1492–1495)"><span class="gantt-merc-flag" title="Belegte Beteiligung böhmischer Söldner">⚔</span> Osmanische Streifzüge nach Ungarn und Kroatien</div>
+              <div class="gantt-bar" style="grid-column: 60 / 64; background: #0f7a3b;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Aufstand der Szekler in Siebenbürgen (1492–1492)">Aufstand der Szekler in Siebenbürgen</div>
+              <div class="gantt-bar" style="grid-column: 60 / 61; background: #0f7a3b;"></div>
+            </div>
+            <div class="gantt-row gantt-row-merc">
+              <div class="gantt-label" title="Aufruhr und Auflösung des Schwarzen Heeres (1492–1492)"><span class="gantt-merc-flag" title="Belegte Beteiligung böhmischer Söldner">⚔</span> Aufruhr und Auflösung des Schwarzen Heeres</div>
+              <div class="gantt-bar" style="grid-column: 60 / 61; background: #0f7a3b;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Schlacht auf dem Krbavafeld (1493–1493)">Schlacht auf dem Krbavafeld</div>
+              <div class="gantt-bar" style="grid-column: 61 / 62; background: #0f7a3b;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Bukowina-(Moldau-)Feldzug des Jan Olbracht (1497–1497)">Bukowina-(Moldau-)Feldzug des Jan Olbracht</div>
+              <div class="gantt-bar" style="grid-column: 65 / 66; background: #5e3784;"></div>
+            </div>
+            <div class="gantt-row gantt-row-merc">
+              <div class="gantt-label" title="Schwabenkrieg (1499–1499)"><span class="gantt-merc-flag" title="Belegte Beteiligung böhmischer Söldner">⚔</span> Schwabenkrieg</div>
+              <div class="gantt-bar" style="grid-column: 67 / 68; background: #2c5282;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Zweiter litauisch-moskowitischer Krieg (um Sewerien) (1500–1503)">Zweiter litauisch-moskowitischer Krieg (um Sewerien)</div>
+              <div class="gantt-bar" style="grid-column: 68 / 72; background: #5e3784;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Einfälle der Krimtataren nach Polen und Litauen (1500–1502)">Einfälle der Krimtataren nach Polen und Litauen</div>
+              <div class="gantt-bar" style="grid-column: 68 / 71; background: #5e3784;"></div>
+            </div>
+            <div class="gantt-row gantt-row-merc">
+              <div class="gantt-label" title="Landshuter Erbfolgekrieg (1503–1505)"><span class="gantt-merc-flag" title="Belegte Beteiligung böhmischer Söldner">⚔</span> Landshuter Erbfolgekrieg</div>
+              <div class="gantt-bar" style="grid-column: 71 / 74; background: #2c5282;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Tatareneinfall und Schlacht bei Kletzk (1506–1506)">Tatareneinfall und Schlacht bei Kletzk</div>
+              <div class="gantt-bar" style="grid-column: 74 / 75; background: #5e3784;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Dritter litauisch-moskowitischer Krieg und Aufstand des Michail Glinski (1507–1508)">Dritter litauisch-moskowitischer Krieg und Aufstand des Michail Glinski</div>
+              <div class="gantt-bar" style="grid-column: 75 / 77; background: #5e3784;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Fehde des Götz von Berlichingen (1512–1514)">Fehde des Götz von Berlichingen</div>
+              <div class="gantt-bar" style="grid-column: 80 / 83; background: #2c5282;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Tatareneinfall in Wolhynien und Schlacht bei Łopuszno (1512–1512)">Tatareneinfall in Wolhynien und Schlacht bei Łopuszno</div>
+              <div class="gantt-bar" style="grid-column: 80 / 81; background: #5e3784;"></div>
+            </div>
+            <div class="gantt-row gantt-row-merc">
+              <div class="gantt-label" title="Vierter litauisch-moskowitischer Krieg (Schlacht bei Orscha) (1512–1522)"><span class="gantt-merc-flag" title="Belegte Beteiligung böhmischer Söldner">⚔</span> Vierter litauisch-moskowitischer Krieg (Schlacht bei Orscha)</div>
+              <div class="gantt-bar" style="grid-column: 80 / 91; background: #5e3784;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Bauernaufstand des György Dózsa (1514–1514)">Bauernaufstand des György Dózsa</div>
+              <div class="gantt-bar" style="grid-column: 82 / 83; background: #0f7a3b;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Hildesheimer Stiftsfehde (1519–1523)">Hildesheimer Stiftsfehde</div>
+              <div class="gantt-bar" style="grid-column: 87 / 92; background: #2c5282;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Württembergischer Krieg (1519–1519)">Württembergischer Krieg</div>
+              <div class="gantt-bar" style="grid-column: 87 / 88; background: #2c5282;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Letzter polnisch-Ordens-Krieg (Reiterkrieg) (1519–1521)">Letzter polnisch-Ordens-Krieg (Reiterkrieg)</div>
+              <div class="gantt-bar" style="grid-column: 87 / 90; background: #5e3784;"></div>
+            </div>
+            <div class="gantt-row gantt-row-merc">
+              <div class="gantt-label" title="Osmanisch-ungarischer Krieg Suleimans I. (1521–1526)"><span class="gantt-merc-flag" title="Belegte Beteiligung böhmischer Söldner">⚔</span> Osmanisch-ungarischer Krieg Suleimans I.</div>
+              <div class="gantt-bar" style="grid-column: 89 / 95; background: #0f7a3b;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Ritterkrieg (Sickingenscher Aufstand) (1522–1523)">Ritterkrieg (Sickingenscher Aufstand)</div>
+              <div class="gantt-bar" style="grid-column: 90 / 92; background: #2c5282;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Deutscher Bauernkrieg (1524–1526)">Deutscher Bauernkrieg</div>
+              <div class="gantt-bar" style="grid-column: 92 / 95; background: #2c5282;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Krakauer Vertrag — Säkularisation des Ordensstaates (1525–1525)">Krakauer Vertrag — Säkularisation des Ordensstaates</div>
+              <div class="gantt-bar" style="grid-column: 93 / 94; background: #5e3784;"></div>
+            </div>
+            <div class="gantt-row">
+              <div class="gantt-label" title="Aufstand der slowakischen Bergleute (Banská Bystrica) (1525–1526)">Aufstand der slowakischen Bergleute (Banská Bystrica)</div>
+              <div class="gantt-bar" style="grid-column: 93 / 95; background: #0f7a3b;"></div>
+            </div>
+          </div>
+          <div class="gantt-legend">
+            <span class="gantt-legend-item"><span class="gantt-swatch" style="background:#2c5282"></span>Heiliges Römisches Reich</span>
+            <span class="gantt-legend-item"><span class="gantt-swatch" style="background:#b8860b"></span>Österreich / Habsburger</span>
+            <span class="gantt-legend-item"><span class="gantt-swatch" style="background:#0f7a3b"></span>Ungarn</span>
+            <span class="gantt-legend-item"><span class="gantt-swatch" style="background:#5e3784"></span>Polen-Litauen</span>
+                      </div>
+        </section>
+
+        <section class="big-stat">
+          <div class="stat" style="font-size: 4.2em">31 / 114</div>
+          <div class="stat-label">
+            belegter Konflikte im mitteleuropäischen Raum mit <strong>böhmischer Söldnerbeteiligung</strong><br />
+            <span style="color: var(--color-muted); font-size: 0.8em">(etwa jeder dritte Konflikt der Zeit 1434–1526)</span>
+          </div>
+
+          <table style="max-width: 1000px; margin: 1.6em auto 0; font-size: 0.95em">
+            <thead>
+              <tr><th>Region</th><th style="text-align:right">Konflikte</th><th style="text-align:right">Mit böhmischer Beteiligung</th><th style="text-align:right">Anteil</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Heiliges Römisches Reich</td><td style="text-align:right">21</td><td style="text-align:right"><strong>8</strong></td><td style="text-align:right">38 %</td></tr>
+              <tr><td>Ungarn (inkl. osmanischer Feldzüge)</td><td style="text-align:right">28</td><td style="text-align:right"><strong>15</strong></td><td style="text-align:right">54 %</td></tr>
+              <tr><td>Österreich / Habsburger</td><td style="text-align:right">4</td><td style="text-align:right"><strong>3</strong></td><td style="text-align:right">75 %</td></tr>
+              <tr><td>Polen-Litauen</td><td style="text-align:right">20</td><td style="text-align:right"><strong>3</strong></td><td style="text-align:right">15 %</td></tr>
+            </tbody>
+          </table>
+        </section>
+
+        <!-- ============================================ -->
+        <!-- SEKTION 2: AUSKLANG DER HUSSITENKRIEGE        -->
+        <!-- ============================================ -->
+        <section class="bitvy-slide">
+          <h2>Ausklang der Hussitenkriege — Lipan &amp; Želenice</h2>
+          <div class="bitvy-col">
+            <div class="bitva">
+              <h3>Schlacht bei Lipan</h3>
+              <dl class="bitva-info">
+                <dt>Datum</dt><dd>30. Mai 1434</dd>
+                <dt>Ort</dt><dd>zwischen Hřiby und dem Lipská hora, östlich von Český Brod</dd>
+                <dt>Parteien</dt><dd>Herrenbund (gemäßigte Utraquisten, Prager Städte, katholischer Adel) <em>vs.</em> Feldgemeinden der Taboriten und Waisen</dd>
+                <dt>Befehlshaber</dt><dd><strong>Diviš Bořek von&nbsp;Miletínek</strong> (Herrenbund) <em>vs.</em> <strong>Prokop der Große</strong> und <strong>Prokop der Kleine</strong> (Feldgemeinden)</dd>
+                <dt>Stärken</dt><dd>Herrenbund: <strong>12.000–13.000 Fußvolk, 1.200 Reiter, 720 Wagen</strong><br />Feldgemeinden: <strong>9.000–10.000 Fußvolk, 700 Reiter, 480–600 Wagen</strong></dd>
+                <dt>Verluste</dt><dd>Herrenbund ~200 Gefallene<br />Feldgemeinden <strong>1.300 Gefallene</strong>, 700 Gefangene bei Český Brod verbrannt; sowohl Prokop der Große als auch Prokop der Kleine fielen</dd>
+                <dt>Ergebnis</dt><dd>Entscheidender Sieg des Herrenbundes</dd>
+              </dl>
+            </div>
+            <div class="bitva">
+              <h3>Schlacht bei Želenice</h3>
+              <dl class="bitva-info">
+                <dt>Datum</dt><dd>23. September 1438</dd>
+                <dt>Ort</dt><dd>bei&nbsp;Želenice (Bezirk Most), unweit von Bilin</dd>
+                <dt>Parteien</dt><dd>sächsisch-brandenburgische Truppen + böhmische Verbände zur Unterstützung <strong>Albrechts II. Habsburg</strong> <em>vs.</em> böhmische utraquistische Verbände, Saazer-Launer Bund und polnische Verbündete zur Unterstützung <strong>Kasimirs IV. Jagiellonen</strong></dd>
+                <dt>Befehlshaber</dt><dd><strong>Friedrich II. von Sachsen</strong>, <strong>Jakoubek von&nbsp;Vřesovice</strong> (Albrechts Partei) <em>vs.</em> <strong>Petr Holický ze&nbsp;Šternberka</strong>, Petr von&nbsp;Zvířetice, Václav Carda von&nbsp;Petrovice, Svojše von&nbsp;Zahrádka (jagiellonische Partei)</dd>
+                <dt>Stärken</dt><dd>in den Quellen nicht überliefert</dd>
+                <dt>Verluste</dt><dd>besiegte Partei: <strong>&gt;&nbsp;500 Gefallene, 1.657 Gefangene</strong></dd>
+                <dt>Ergebnis</dt><dd>Vernichtender Sieg von Albrechts Partei</dd>
+              </dl>
+            </div>
+          </div>
+        </section>
+
+        <!-- ============================================ -->
+        <!-- SEKTION 3: SOESTER FEHDE                      -->
+        <!-- ============================================ -->
+        <section class="section-divider">
+          <div class="section-num">III. — 1444 / 1449</div>
+          <h1>Soester Fehde</h1>
+          <div class="section-sub" style="font-family: 'Cinzel', serif; color: var(--color-muted); font-style: italic; font-size: 1.05em; margin-bottom: 0.6em">Soester Fehde</div>
+
+          <blockquote style="margin: 2em auto 0; max-width: 56em; border-left: 3px solid var(--color-accent); padding: 0.8em 1.6em; background: rgba(139, 27, 27, 0.06); text-align: left">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.4em; font-family: 'Cinzel', serif; font-size: 1em; line-height: 1.7; font-style: italic; color: var(--color-bezova)">
+              <div>
+                Ein Deckel auff der Daeschen <span style="color: var(--color-gold); font-style: normal">(M)</span><br />
+                Vier Oer an der Flaeschen <span style="color: var(--color-gold); font-style: normal">(CCCC)</span><br />
+                ein <span style="color: var(--color-gold); font-style: normal">XL</span>, sieben <span style="color: var(--color-gold); font-style: normal">I</span><br />
+                da waren die Boehmen hie.
+              </div>
+              <div style="border-left: 1px solid rgba(196,168,92,0.25); padding-left: 1.2em">
+                Ein Deckel auf der Tasche <span style="color: var(--color-gold); font-style: normal">(M)</span><br />
+                Vier Ohren an der Flasche <span style="color: var(--color-gold); font-style: normal">(CCCC)</span><br />
+                eins <span style="color: var(--color-gold); font-style: normal">XL</span>, sieben <span style="color: var(--color-gold); font-style: normal">I</span><br />
+                da waren die Böhmen hier.
+              </div>
+            </div>
+            <p style="margin: 0.9em 0 0; font-size: 0.55em; color: var(--color-muted); font-style: normal; text-align: right">
+              J. Piderit, <em>Lippische Chronik</em>, 1627
+            </p>
+          </blockquote>
+        </section>
+
+        <section class="bitvy-slide">
+          <h2>Ursachen und Verlauf</h2>
+          <div class="bitvy-col">
+            <div class="bitva">
+              <h3>Ursachen</h3>
+              <ul>
+                <li>Soest — wohlhabende westfälische Hansestadt unter dem Erzbistum Köln, jedoch mit hoher Selbstverwaltung</li>
+                <li>Erzbischof <strong>Dietrich II. von Moers</strong> drängt auf festere landesherrliche Kontrolle</li>
+                <li>Soest sucht Rückhalt bei Herzog <strong>Johann I. von&nbsp;Kleve</strong> — dem machtpolitischen Gegenspieler der Moerser am Niederrhein</li>
+                <li>Doppelter Charakter des Konflikts: Landesherr × Stadt, zugleich <strong>Moerser × Kleve-Mark</strong></li>
+                <li><strong>5. Juni 1444</strong> Aufnahme durch Kleve, <strong>25. Juni 1444</strong> Fehdebrief</li>
+              </ul>
+            </div>
+            <div class="bitva">
+              <h3>Verlauf</h3>
+              <ul>
+                <li><strong>1444–1446:</strong> Kleinkrieg — Streifzüge, Plünderungen, Scharmützel um Burgen (Bilstein, Fredeburg)</li>
+                <li>Erfolgloser Angriff der Kölner auf <strong>Duisburg</strong> (1445)</li>
+                <li><strong>Wende 1447:</strong> der Naumburger Vertrag lenkt die böhmischen Söldner in Diensten Wilhelms III. von Sachsen nach Westfalen um</li>
+                <li>Der Sommerfeldzug 1447 plündert das Grenzland; Soest selbst kann nicht eingenommen werden</li>
+                <li><strong>1449</strong> Vergleich — Soest behält seine Selbstverwaltung unter Kleve</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <h2>Der Weg der böhmischen Söldner nach Westfalen</h2>
+          <h3 style="margin-top: 0.4em">Sächsischer Bruderkrieg <span style="color: var(--color-muted); font-size: 0.7em; font-weight: 400">Sächsischer Bruderkrieg · 1446–1451</span></h3>
+          <ul>
+            <li>Brüder aus dem Hause Wettin: Kurfürst <strong>Friedrich II.</strong> (der Sanftmütige) × der jüngere Herzog <strong>Wilhelm III.</strong> in Thüringen</li>
+            <li>Der <strong>Hallesche Teilungsspruch von 1445</strong> sollte den Erbschaftsstreit beilegen — blieb aber unklar (Stellung des Erben <strong>Ernst</strong>, das erzgebirgische Silber, die Aufsicht über Erfurt)</li>
+            <li>Friedrich besteht auf der Unteilbarkeit der kurfürstlichen Befugnisse, Wilhelm fordert volle Souveränität über sein Teil; <strong>1446 Mobilmachung</strong>, Wilhelm setzt auf die Anwerbung fremder Truppen in Böhmen</li>
+            <li><strong>Opl von Fictum</strong> (Apel Vitzthum der Ältere von&nbsp;Roßla, ~1400–~1470) — Wilhelms Hofmeister und Hauptarchitekt der böhmischen Anwerbung; zeitgenössische Quellen bezichtigen ihn, Wilhelm gegen den älteren Bruder aufgewiegelt zu haben</li>
+            <li>Im <strong>Januar 1447</strong> startet er in Böhmen eine groß angelegte Anwerbung (Bedřich von Donín, Petr Holický ze Šternberka)</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Böhmische Befehlshaber und Kontingente der Anwerbung 1447</h2>
+          <table style="font-size: 0.7em; max-width: 1000px; margin: 0.4em auto 0">
+            <thead>
+              <tr><th>Befehlshaber</th><th style="text-align:right">Mannschaft</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Jan Calta z&nbsp;Kamenné Hory</td><td style="text-align:right"><strong>über 1.200</strong></td></tr>
+              <tr><td>Jindřich Cecek von&nbsp;Pakoměřice</td><td style="text-align:right">600–700</td></tr>
+              <tr><td>Jan Sádlo von&nbsp;Smílkov</td><td style="text-align:right">600–700</td></tr>
+              <tr><td>Dobeš Vrš von&nbsp;Modřejovice</td><td style="text-align:right">600–700</td></tr>
+              <tr><td>Hynek Krušina von&nbsp;Schwanberg</td><td style="text-align:right">~520</td></tr>
+              <tr><td>Ješek Svojanovský von&nbsp;Boskowitz</td><td style="text-align:right">300–400</td></tr>
+              <tr><td>Petr Holický ze&nbsp;Šternberka <em>(Hauptanwerber)</em></td><td style="text-align:right">300–400</td></tr>
+              <tr><td>Wilhelm von&nbsp;Ilburg</td><td style="text-align:right">300–400</td></tr>
+              <tr><td>Jindřich Libštejnský z&nbsp;Kolovrat</td><td style="text-align:right">300–400</td></tr>
+              <tr><td>Albrecht Krakovský von&nbsp;Kolowrat</td><td style="text-align:right">unter 100</td></tr>
+              <tr><td>Jan Zajíc von&nbsp;Hasenburg</td><td style="text-align:right">unter 100</td></tr>
+              <tr><td>Jan Holub von&nbsp;Stokov</td><td style="text-align:right">~50</td></tr>
+              <tr><td>Wilhelm von&nbsp;Stropčice</td><td style="text-align:right">~50</td></tr>
+              <tr><td>Bedřich von Donín (Friedrich von Dohna) <em>(Hauptanwerber)</em></td><td style="text-align:right">ohne Angabe</td></tr>
+              <tr><td>Jan von&nbsp;Mošnov</td><td style="text-align:right">ohne Angabe</td></tr>
+              <tr style="border-top: 2px solid var(--color-accent);"><td><strong>Insgesamt im Mai 1447</strong></td><td style="text-align:right"><strong>~6.000 Mann + 200 Wagen</strong></td></tr>
+            </tbody>
+          </table>
+          <p style="font-size: 0.5em; color: var(--color-muted); margin-top: 0.5em; text-align: center">
+            Quelle: Uwe Tresp, <em>Söldner aus Böhmen</em> (2004), S. 144.
+          </p>
+        </section>
+
+        <section>
+          <h2>Aus Thüringen nach Westfalen — Naumburg 1447</h2>
+          <ul>
+            <li>Zu dieser Zeit wirkt in Sachsen <strong>Georg Spiegel</strong>, Gesandter des Kölner Erzbischofs <strong>Dietrich II. von Moers</strong> — er soll über den sächsischen Kurfürsten Friedrich Böhmen für die Soester Fehde anwerben</li>
+            <li><strong>12. Mai 1447</strong> · Naumburg · Waffenstillstand zwischen den Brüdern</li>
+            <li>Naumburg · Spiegel trifft Wilhelm mit der böhmischen Feldgemeinde — es entsteht ein <strong>dreiseitiger Plan</strong>:
+              <ul>
+                <li>Erzbischof Dietrich übernimmt das böhmische Kontingent <strong>als Ganzes</strong></li>
+                <li><strong>Wilhelm III. bleibt Oberbefehlshaber</strong> (<em>Soldunternehmer</em>) und führt den Feldzug nach Westfalen</li>
+                <li>Kurfürst Friedrich hilft indirekt mit und entledigt sich des Wilhelmschen Heeres in Thüringen</li>
+              </ul>
+            </li>
+            <li>Spiegel und <strong>Apel Vitzthum (Opl von Fictum)</strong> reisen nach <strong>Köln</strong>, um die Vertragsbedingungen auszuhandeln</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Finanzielle Vertragsbedingungen</h2>
+          <p style="font-size: 0.7em; color: var(--color-muted); margin-bottom: 0.5em">Vertrag geschlossen in&nbsp;Naumburg, Mai 1447 — Erzbischof Dietrich II. ↔ Wilhelm III. von Sachsen</p>
+          <table style="font-size: 0.78em; max-width: 1050px; margin: 0.4em auto 0">
+            <thead>
+              <tr><th>Was</th><th>An wen</th><th style="text-align:right">Wieviel</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Sold pro Kopf, wöchentlich</td><td>Erzbischof&nbsp;→&nbsp;Wilhelm III.</td><td style="text-align:right"><strong>1 rheinischer Gulden</strong> (= 24 Groschen)</td></tr>
+              <tr><td>Sold für eigene Reiter</td><td>Wilhelm&nbsp;→&nbsp;Reiter</td><td style="text-align:right">20 Groschen wöchentlich</td></tr>
+              <tr><td>Sold für Fußknechte</td><td>Wilhelm&nbsp;→&nbsp;Trabanten</td><td style="text-align:right">10 Groschen wöchentlich</td></tr>
+              <tr><td><strong>Wilhelms Marge</strong></td><td>pro Reiter / Fußknecht</td><td style="text-align:right"><strong>4 / 14 Groschen</strong> wöchentlich pro Kopf</td></tr>
+              <tr><td>Pauschalhonorar für Wilhelm</td><td>einmalig</td><td style="text-align:right"><strong>50.000 Gulden</strong></td></tr>
+              <tr><td>Wilhelms Anteil</td><td>an&nbsp;Beute und&nbsp;Gefangenen</td><td style="text-align:right"><strong>ein Drittel</strong></td></tr>
+              <tr><td>Zugesagte Heeresstärke</td><td>Wilhelm&nbsp;→&nbsp;Westfalen</td><td style="text-align:right">~12.000 Mann</td></tr>
+              <tr><td>Tatsächlich versammelt</td><td>im&nbsp;Mai bei&nbsp;Weimar</td><td style="text-align:right">über 6.000 Mann</td></tr>
+            </tbody>
+          </table>
+          <p style="font-size: 0.5em; color: var(--color-muted); margin-top: 0.5em; text-align: center">
+            Quelle: Uwe Tresp, <em>Söldner aus Böhmen</em> (2004), S. 141–142.
+          </p>
+        </section>
+
+        <section class="bitvy-slide">
+          <h2>Westfälischer Feldzug 1447 — Eckpunkte</h2>
+          <div class="bitvy-col">
+            <div class="bitva">
+              <h3>Route und&nbsp;Daten</h3>
+              <ol style="font-size: 0.78em; line-height: 1.5; padding-left: 1.4em">
+                <li><strong>Ende Mai 1447 · Weimar</strong> — Sammlung des sechstausend Mann starken Heeres</li>
+                <li><strong>30. Mai / 1. Juni · Frankenhausen</strong> — Übergang über die Unstrut</li>
+                <li><strong>2. Juni · Körner</strong> — Verkündung des Artikelbriefs (letzter Ort von Wilhelms Herzogtum)</li>
+                <li><strong>14. Juni · Blomberg</strong> — eingenommen und niedergebrannt, anschließend Plünderung des Lippischen Landes (Hörn, Lemgo, Detmold, Herford)</li>
+                <li><strong>Mitte Juni · Bielefeld</strong> — Übergang über den Teutoburger Wald</li>
+                <li><strong>20.–29. Juni · Lippstadt</strong> — Belagerung, erfolglos</li>
+                <li><strong>30. Juni · Soest</strong> — Belagerung beginnt; Besetzung des St.-Walburga-Klosters im Vorfeld → Beschuss der Mauern; Abwehr eines Ausfalls Soester Reiter</li>
+                <li><strong>19. Juli · Generalsturm</strong> des gesamten Heeres auf die Mauern</li>
+                <li><strong>21. Juli</strong> — Abzug von Soest, Zerfall der Koalition</li>
+                <li><strong>Erste Augustdekade · Rückkehr</strong> nach Eger über Mühlhausen</li>
+              </ol>
+            </div>
+            <div class="bitva">
+              <h3>Feldzugsroute</h3>
+              <img src="/prezentace/cesti-zoldneri-v-risi/images/soestske-tazeni-mapa.jpg" alt="Karte der Feldzugsroute 1447: Eger → Jena → Erfurt → Göttingen → Bielefeld → Soest, ca. 505 km" style="width: 100%; max-width: 100%; height: auto; display: block; border: 1px solid rgba(196,168,92,0.25); border-radius: 4px" />
+              <p style="font-size: 0.55em; color: var(--color-muted); margin-top: 0.4em; text-align: center">Route <strong>Eger → Soest</strong>, ~505 km. Kartengrundlage: Mapy.cz</p>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <h2>Nachspiel des Feldzugs</h2>
+          <table style="font-size: 0.6em; max-width: 1050px; margin: 0.3em auto 0.4em">
+            <thead>
+              <tr><th>Befehlshaber</th><th>Status nach Hülfensberg</th><th>Route</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Jindřich Libštejnský z&nbsp;Kolovrat</td><td><strong>Heimkehr</strong></td><td>Mühlhausen → Weimar → Hof → <strong>Eger</strong> (3.–4. 8.)</td></tr>
+              <tr><td>Jan Calta z&nbsp;Kamenné Hory</td><td><strong>Heimkehr</strong></td><td>Mühlhausen → Weimar → Hof → <strong>Eger</strong> (3.–4. 8.)</td></tr>
+              <tr><td>Petr Holický ze&nbsp;Šternberka</td><td><strong>bleibt</strong>, weitere Verträge mit&nbsp;Wilhelm</td><td>Eisenach → Meiningen → Hildburghausen → <strong>Coburg</strong></td></tr>
+              <tr><td>Hynek Krušina von&nbsp;Schwanberg</td><td>bleibt in&nbsp;Thüringen</td><td></td></tr>
+              <tr><td>Dobeš Vrš von&nbsp;Modřejovice</td><td>bleibt in&nbsp;Thüringen</td><td></td></tr>
+              <tr><td>Ješek Svojanovský von&nbsp;Boskowitz</td><td>bleibt in&nbsp;Thüringen</td><td></td></tr>
+              <tr><td>Wilhelm von&nbsp;Ilburg</td><td>bleibt in&nbsp;Thüringen</td><td></td></tr>
+              <tr><td>Bedřich von&nbsp;Donín</td><td>bleibt in&nbsp;Thüringen</td><td></td></tr>
+              <tr style="border-top: 1px solid rgba(196,168,92,0.3)"><td colspan="3" style="text-align: center; padding-top: 0.3em; font-style: italic; color: var(--color-muted)">Bei&nbsp;Hülfensberg am 30. Juli 1447 spaltete sich das Heer ungefähr in zwei Hälften</td></tr>
+            </tbody>
+          </table>
+          <ul style="font-size: 0.74em; line-height: 1.45">
+            <li><strong>29. Juli 1447 · Hülfensberg</strong> — Spaltung im&nbsp;Lager: Libštejnský + Calta trennen sich und ziehen heim, die übrigen ziehen mit&nbsp;Wilhelm Richtung Eisenach</li>
+            <li><strong>3.–4. August 1447 · Eger</strong> — die abgespaltene Hälfte des Heeres erreicht die Heimat. <strong>Am 6. August</strong> eröffnen Libštejnský und Calta von dort einen Streit mit&nbsp;Wilhelm um die ausstehende Soldzahlung, begleitet von scharfen Drohungen. <strong>Am 9. August</strong> treffen Wilhelms Beamte mit&nbsp;Geld ein — sie zahlen nur Schadenersatz an diejenigen aus, die bei&nbsp;Wilhelm geblieben sind, die anderen erhalten <strong>Schuldscheine</strong></li>
+            <li><strong>Schiedsverhandlungen 1448:</strong> <strong>Aleš Holický</strong> + <strong>Georg von Podiebrad</strong> als Vermittler. Entscheidung im März, im Mai 1448 Teilauszahlung bei&nbsp;Eger</li>
+            <li><strong>Der Prager Landtag 1448</strong> wies weitere Forderungen zurück; in&nbsp;Böhmen ist <strong>Wilhelms Ruf beschädigt</strong></li>
+            <li>Allein Calta forderte für die Anwerbung <strong>17.000 Gulden</strong> — Wilhelm zahlt sie schrittweise ab und die Schuldenlast belastet den wettinischen Hof <strong>die ganzen 1450er Jahre hindurch</strong></li>
+          </ul>
+          <p style="font-size: 0.5em; color: var(--color-muted); text-align: center; margin-top: 0.3em">
+            Quelle: Tresp 2004, S. 150–156. Befehlshaber in der Tabelle belegt in sächsischen Rechnungsquellen 1448–1450.
+          </p>
+        </section>
+
+        <section>
+          <h2>Die Soester Rechnungen — 85 Jahre Streit</h2>
+          <table style="font-size: 0.6em; max-width: 1100px; margin: 0.3em auto 0.4em">
+            <thead>
+              <tr><th>Jahr</th><th>Streitlinie</th><th>Was geschah</th><th style="text-align:right">Summe</th></tr>
+            </thead>
+            <tbody>
+              <tr><td><strong>1447</strong></td><td>beide</td><td>Gesamtkosten des westfälischen Feldzugs</td><td style="text-align:right"><strong>242.093 fl. 23 gr.</strong></td></tr>
+              <tr><td></td><td></td><td>↳ davon allein für das <strong>böhmische Heer</strong> (Sold 48.852 + Schadenersatz 56.760)</td><td style="text-align:right"><strong>156.351 fl. 23 gr.</strong></td></tr>
+              <tr><td>Juni 1447</td><td>Zwangszahlung</td><td><strong>Einbeck</strong> wird zu außerordentlichem Brandschatz + Proviantlieferungen gezwungen</td><td style="text-align:right"><strong>10.000 fl.</strong></td></tr>
+              <tr><td>Sommer 1447</td><td>Erzbischof → Wilhelm</td><td>Versprechen, den Sold gegen die <strong>Verpfändung von 7 thüringischen Burgen</strong> zu zahlen (Dietrich + Ernst von Sachsen) — <em>blieben auf dem Papier</em>; tatsächlich während des Feldzugs nur ausgezahlt</td><td style="text-align:right"><strong>11.674 fl.</strong></td></tr>
+              <tr><td>August 1447 – Mai 1448</td><td>Böhmen → Wilhelm</td><td>Eger &amp; Prag — Schiedsverhandlungen (<strong>Aleš Holický + Georg von Podiebrad</strong>), Teilauszahlung; <strong>der Prager Landtag 1448</strong> wies weitere Forderungen zurück</td><td style="text-align:right">—</td></tr>
+              <tr><td>1448–1459</td><td>Wilhelm → Erzbischof</td><td>Wiederholte Verhandlungen ohne Ergebnis; der Erzbischof <em>finanziell überfordert</em></td><td style="text-align:right">—</td></tr>
+              <tr style="background: rgba(196, 168, 92, 0.08)"><td><strong>1459</strong></td><td><strong>beide</strong></td><td><strong>Egerer Tag</strong> — Georg von Podiebrad als böhmischer König vermittelt einen Durchbruch in beiden Strängen</td><td style="text-align:right">—</td></tr>
+              <tr><td>Dezember 1460 Eger<br />Juli 1462 Brüx</td><td>Böhmen → Wilhelm</td><td>Schlusszahlungen an die verbliebenen böhmischen Söldner — <strong>15 Jahre nach dem Feldzug</strong></td><td style="text-align:right">geregelt</td></tr>
+              <tr><td>1462</td><td>Wilhelm → Erzbischof</td><td>Kassel — Landgraf <strong>Ludwig</strong> von Hessen vermittelt</td><td style="text-align:right">—</td></tr>
+              <tr><td><strong>1487</strong></td><td>Wilhelm → Erzbischof</td><td>Die Herzöge <strong>Friedrich, Johann, Albrecht von Sachsen</strong> reduzieren die Forderung</td><td style="text-align:right"><strong>100.000 fl.</strong></td></tr>
+              <tr><td><strong>1492</strong></td><td>Wilhelm → Erzbischof</td><td><strong>Endgültige Einigung:</strong> Raten von <strong>2.000 fl./Jahr</strong></td><td style="text-align:right"><strong>31.000 fl.</strong></td></tr>
+              <tr><td>1530er Jahre</td><td>Wilhelm → Erzbischof</td><td>Kurfürst <strong>Johann Friedrich von Sachsen</strong> erwähnt in der Diplomatie noch immer die <em>„Kölner Schulden aus dem Feldzug gegen Soest 1447"</em></td><td style="text-align:right">—</td></tr>
+            </tbody>
+          </table>
+          <p style="font-size: 0.5em; color: var(--color-muted); text-align: center; margin-top: 0.4em">
+            Quelle: Uwe Tresp, <em>Söldner aus Böhmen</em> (2004), S. 153–156.
+          </p>
+        </section>
+
+        <!-- ============================================ -->
+        <!-- SEKTION 4: BAYERISCHER KRIEG                  -->
+        <!-- ============================================ -->
+        <section class="section-divider">
+          <div class="section-num">IV. — 1459 / 1463</div>
+          <h1>Bayerischer Krieg</h1>
+          <div class="section-sub" style="font-family: 'Cinzel', serif; color: var(--color-muted); font-style: italic; font-size: 1.05em">Bayerischer Krieg · Fürstenkrieg</div>
+        </section>
+
+        <section class="bitvy-slide">
+          <h2>Bayerischer Krieg — Ursachen und Hauptpersonen</h2>
+          <div class="bitvy-col">
+            <div class="bitva">
+              <h3>Ursachen</h3>
+              <ul style="font-size: 0.7em; line-height: 1.4">
+                <li><strong>Wittelsbachisches Bündnissystem</strong> — ein Bund von Landfrieden, der als Sicherheitsbündnis begann und allmählich zu einem Machtblock Süddeutschlands anwuchs:
+                  <ul style="margin-top: 0.2em; font-size: 0.95em">
+                    <li><strong>17.&nbsp;12.&nbsp;1451</strong> · Gründer: <strong>Ludwig IX. der Reiche</strong> (Bayern-Landshut), <strong>Friedrich I. der Siegreiche</strong> (Pfalz) und <strong>Albrecht III.</strong> (Bayern-München) — alle Wittelsbacher</li>
+                    <li>nach und nach kommen die <strong>schwäbischen Reichsstädte</strong> hinzu</li>
+                    <li><strong>1455</strong> · Herzog <strong>Sigmund von Tirol</strong> (Habsburger, aber Verbündeter)</li>
+                    <li><strong>1457</strong> · der böhmische König <strong>Ladislaus Postumus</strong></li>
+                    <li><strong>1458</strong> · Ludwig + Friedrich erneuern das Bündnis durch ein <strong>lebenslanges Einungsverhältnis</strong></li>
+                  </ul>
+                </li>
+                <li><strong>Albrechts Ehrgeiz:</strong> Wiederherstellung des Herzogtums <strong>Franken unter Hohenzollernscher Herrschaft</strong> → damit gerät er sowohl mit der <strong>Pfalz</strong> (Friedrich I. von der Pfalz) als auch mit <strong>Bayern</strong> (Ludwig IX. von Bayern) in Konflikt</li>
+                <li><strong>Antipfälzische Allianz 1458</strong>: Albrecht + Wilhelm III. von Sachsen + Baden + Württemberg + der Mainzer Erzbischof</li>
+              </ul>
+            </div>
+            <div class="bitva">
+              <h3>Hauptpersonen</h3>
+              <p style="font-size: 0.65em; color: var(--color-gold); font-family: 'Cinzel', serif; margin: 0.3em 0 0.15em">Wittelsbacher und ihre Verbündeten</p>
+              <ul style="font-size: 0.65em; line-height: 1.35; margin-top: 0">
+                <li><strong>Ludwig IX. der Reiche</strong> — Bayern-Landshut, Stütze des Bundes</li>
+                <li><strong>Friedrich I. der Siegreiche</strong> — Kurfürst von der Pfalz</li>
+                <li><strong>Albrecht III.</strong> — Bayern-München († 1460)</li>
+                <li><strong>Albrecht VI. von Österreich</strong> — Habsburger, Bruder des Kaisers</li>
+                <li><strong>Sigmund von Tirol</strong> — Habsburger, ab 1455 im&nbsp;Bund</li>
+              </ul>
+              <p style="font-size: 0.65em; color: var(--color-gold); font-family: 'Cinzel', serif; margin: 0.3em 0 0.15em">Antipfälzische Allianz (Hohenzollern + Verbündete)</p>
+              <ul style="font-size: 0.65em; line-height: 1.35; margin-top: 0">
+                <li><strong>Albrecht III. Achilles</strong> — Markgraf von Brandenburg (Hohenzollern), Hauptgegner</li>
+                <li><strong>Wilhelm III. von Sachsen</strong> — Vollstrecker der Acht, schon aus Soest bekannt</li>
+                <li><strong>Karl I. von Baden</strong> — Markgraf</li>
+                <li><strong>Ulrich V. von Württemberg-Stuttgart</strong> — Graf</li>
+                <li><strong>Diether von Isenburg</strong> — Erzbischof von Mainz</li>
+                <li><strong>Johann von Eich</strong> — Bischof von Eichstätt</li>
+              </ul>
+              <p style="font-size: 0.65em; color: var(--color-gold); font-family: 'Cinzel', serif; margin: 0.3em 0 0.15em">Außerhalb des offenen Konflikts</p>
+              <ul style="font-size: 0.65em; line-height: 1.35; margin-top: 0">
+                <li><strong>Kaiser Friedrich III. von Habsburg</strong> — verhängt die Acht, hält sich aus den Aktionen heraus</li>
+                <li><strong>Ladislaus Postumus</strong> († 1457) — trat 1457 in den Bund ein</li>
+                <li><strong>Georg von Podiebrad</strong> — böhmischer König, ab 1460 Wende zu den Wittelsbachern</li>
+                <li><strong>Papst Pius II.</strong> — interveniert bei Georg gegen die Anwerbung von Böhmen durch Ludwig</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <h2>Bayerischer Krieg — Vorspiel (1455–1460)</h2>
+          <table style="font-size: 0.65em; max-width: 1100px; margin: 0.4em auto 0; line-height: 1.4">
+            <thead>
+              <tr><th>Datum</th><th>Was geschah</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>1450er Jahre</td><td>Albrecht Achilles als Nürnberger Burggraf <strong>erhob das Nürnberger Landgericht zum kaiserlichen Hofgericht</strong> — ein Rechtshebel für Eingriffe in benachbarte Fürstentümer, ein Gerichtsbarkeitsanspruch im Namen des Kaisers</td></tr>
+              <tr><td>Oktober 1458</td><td>Ludwig IX. (mit Hilfe Albrechts) besetzte <strong>Donauwörth</strong> — eine strategisch wichtige Reichsstadt an der Donau</td></tr>
+              <tr><td><strong>4. Juni 1459</strong></td><td>Der Kaiser verhängte über <strong>Ludwig IX.</strong> die <strong>Reichsacht</strong> und ernannte zu deren Vollstreckern <strong>Albrecht Achilles</strong> und&nbsp;<strong>Wilhelm III. von Sachsen</strong></td></tr>
+              <tr><td>Juni – Juli 1459</td><td>Ludwig stützt sich auf das Bündnis mit den Habsburgern (Albrecht VI. von Österreich, Sigmund von Tirol) und beginnt, <strong>böhmische Söldner anzuwerben</strong>. Nach der Intervention von <strong>Papst Pius II.</strong> und wegen strittiger territorialer Punkte mit&nbsp;Bayern <strong>verbietet jedoch Georg von Podiebrad die Anwerbung</strong> — Ludwig verliert die Hoffnung auf eine entscheidende Schlagkraft</td></tr>
+              <tr><td>16. Juli 1459</td><td>Ludwig <strong>musste Donauwörth dem Kaiser übergeben</strong> und vor einem Schiedsgericht erscheinen</td></tr>
+              <tr><td>Juli 1459</td><td><strong>„Blinde Verdikte"</strong> des Schiedsgerichts in&nbsp;Nürnberg — gegen die Wittelsbacher</td></tr>
+              <tr><td>Herbst 1459 – 1460</td><td>Die Wittelsbacher arbeiten an einer <strong>Verbesserung der Beziehungen zu Georg von Podiebrad</strong>; vorsichtige Annäherung wächst zu einem festen Bündnis, untermauert durch die <strong>Verlobung Ludmilas</strong> (Tochter Georgs) <strong>mit Georg dem Reichen</strong> (Sohn Ludwigs IX.)</td></tr>
+              <tr><td>Frühjahr 1460</td><td>Die bayerischen Kriegsvorbereitungen nehmen rasch Gestalt an. Ludwig setzt vor allem auf <strong>böhmische Söldner</strong> — die Anwerbung läuft jetzt offen, in seine Dienste treten <strong>mindestens 5.000 Böhmen</strong> ein</td></tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section>
+          <h2>Bayerischer Krieg — 1. Phase (1460)</h2>
+          <table style="font-size: 0.62em; max-width: 1100px; margin: 0.4em auto 0; line-height: 1.4">
+            <thead>
+              <tr><th>Datum</th><th>Was geschah</th></tr>
+            </thead>
+            <tbody>
+              <tr style="background: rgba(196, 168, 92, 0.08)"><td><strong>März 1460</strong></td><td>Die Verbündeten <strong>Albrechts III. Achilles</strong> — <strong>Ulrich V. von Württemberg</strong> und <strong>Ludwig der Pfälzer-Zweibrückener</strong> — greifen das Kurfürstentum Pfalz an (Badisch-Pfälzischer Krieg). Ludwig IX. stellt sich auf die Seite Friedrichs von der Pfalz und schickt unter dem Vorwand des Bündnisvertrages seine seit langem vorbereiteten Truppen gegen <strong>Albrecht III. Achilles</strong> ins <strong>Hohenzollernsche Franken</strong></td></tr>
+              <tr><td>7.–11. April 1460</td><td>Eroberung von <strong>Eichstätt</strong>; Bischof <strong>Johann von Eich</strong> wird zu einem einschränkenden Vertrag gezwungen</td></tr>
+              <tr><td>27. April 1460</td><td>Ludwig belagert <strong>Roth</strong> (markgräfliche Stadt) mit einem Heer von ~20.000 Mann</td></tr>
+              <tr><td>5. Mai 1460</td><td><strong>Albrecht III. Achilles</strong> mit ~10.000 Mann vor Roth; <strong>7 Wochen</strong> kleinere Scharmützel und&nbsp;Beschuss aus der Wagenburg; die Böhmen brennen Windsbach und das Kloster Pillenreuth nieder. Beiden Seiten kommen weitere Verstärkungen — Ludwig erreicht schließlich <strong>~30.000 Mann</strong>, Albrecht III. Achilles <strong>~27.000</strong></td></tr>
+              <tr style="background: rgba(196, 168, 92, 0.08)"><td><strong>24. Juni 1460</strong></td><td><strong>Rother Richtung</strong> — wittelsbachischer Erfolg: <strong>Annullierung der „blinden Verdikte"</strong> aus Nürnberg, Beschränkung der Zuständigkeit des Nürnberger Gerichts, Eichstätt unter bayerischem Einfluss, Ludwig behält die besetzten Gebiete</td></tr>
+              <tr><td>4. Juli 1460</td><td>Schlacht bei&nbsp;<strong>Pfeddersheim</strong> — Pfalzgraf <strong>Friedrich I.</strong> besiegt seine Gegner im Badisch-Pfälzischen Krieg; die Wittelsbacher triumphieren auf der ganzen Linie</td></tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section>
+          <h2>Bayerischer Krieg — 2. Phase (1461–1463)</h2>
+          <table style="font-size: 0.55em; max-width: 1150px; margin: 0.3em auto 0; line-height: 1.35">
+            <thead>
+              <tr><th>Datum</th><th>Was geschah</th></tr>
+            </thead>
+            <tbody>
+              <tr style="background: rgba(196, 168, 92, 0.08)"><td><strong>Sommer 1461</strong></td><td><strong>Albrecht VI. von Österreich</strong> (Bruder und dynastischer Rivale des Kaisers) eröffnet im Streit um das österreichische Erbe einen <strong>offenen Krieg gegen Kaiser Friedrich III.</strong>; Ludwig IX. leistet ihm militärische Hilfe</td></tr>
+              <tr><td>Juli 1461</td><td>Vorwand: Der Kaiser erklärt <strong>Ludwig den Krieg</strong>; zu Reichshauptleuten ernennt er <strong>Karl von Baden, Ulrich von Württemberg</strong> und <strong>Albrecht III. Achilles</strong> — der darin eine Gelegenheit sieht, die <strong>Rother Richtung zu revidieren</strong></td></tr>
+              <tr><td>ab August 1461</td><td>Neue Anwerbung: <strong>2.000+ Böhmen</strong>, insgesamt ~16.000 Mann bei Ludwig (Racek von Janovice ~500, Přibík Šatava ~400, Jan Jenec ~250)</td></tr>
+              <tr><td>November 1461</td><td>Verhandlungen in&nbsp;<strong>Prag</strong> unter Georg von Podiebrad — erfolglos</td></tr>
+              <tr><td>Dezember 1461</td><td>Ein Waffenstillstand wird geschlossen, doch <strong>Albrecht Achilles ignoriert ihn</strong> (mit dem Argument, der Reichskrieg gegen Ludwig gelte weiter)</td></tr>
+              <tr><td>Januar 1462</td><td>Albrecht Achilles eröffnet erneut offen den Krieg gegen die Wittelsbacher</td></tr>
+              <tr><td>30. Juni 1462</td><td>Schlacht bei&nbsp;<strong>Seckenheim</strong> — Pfalzgraf Friedrich I. besiegt vernichtend seine süddeutschen Gegner; <strong>Karl von Baden und Ulrich von Württemberg</strong> geraten in pfälzische Gefangenschaft</td></tr>
+              <tr style="background: rgba(196, 168, 92, 0.08)"><td><strong>19. Juli 1462</strong></td><td>Schlacht bei&nbsp;<strong>Giengen</strong> — Sieg Ludwigs IX. über Albrecht Achilles</td></tr>
+              <tr><td>Sommer 1462</td><td>Die bayerischen Finanzen sind erschöpft — Ludwig muss die Mehrzahl der Söldner entlassen; Georg von Podiebrad übernimmt die Vermittlerrolle und fordert Ludwig zur Entlassung der Böhmen auf</td></tr>
+              <tr><td>Juli 1463</td><td>Friedenskongress in&nbsp;<strong>Prag</strong> unter Georg von Podiebrad (inzwischen mit dem Kaiser ausgesöhnt)</td></tr>
+              <tr style="background: rgba(196, 168, 92, 0.08)"><td><strong>22.–23. August 1463</strong></td><td><strong>Prager Frieden</strong> — Albrecht III. Achilles gibt seine Pläne zur Beherrschung Frankens auf, Ludwig räumt das besetzte markgräfliche Gebiet und&nbsp;zahlt eine Entschädigung</td></tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section class="bitvy-slide">
+          <h2>Böhmische Söldner und&nbsp;ihr Preis</h2>
+          <div class="bitvy-col">
+            <div class="bitva">
+              <h3>1. Phase · 1460</h3>
+              <p style="font-size: 0.7em; line-height: 1.4">Nach der Annäherung Ludwigs an Georg treten in bayerische Dienste <strong>mindestens 5.000 Böhmen</strong> ein; sie bilden den Stoßkern von Ludwigs Heer.</p>
+              <table style="font-size: 0.62em; width: 100%; line-height: 1.4">
+                <thead>
+                  <tr><th>Befehlshaber</th><th style="text-align:right">Mannschaft</th></tr>
+                </thead>
+                <tbody>
+                  <tr><td>Jan Calta z&nbsp;Kamenné Hory</td><td style="text-align:right">~1.500</td></tr>
+                  <tr><td>Dobrohost von&nbsp;Ronsperg <em>(Bischofteinitz)</em></td><td style="text-align:right">über 1.300</td></tr>
+                  <tr><td>Racek von&nbsp;Janovice <em>(Riesenberg)</em></td><td style="text-align:right">~1.000</td></tr>
+                  <tr><td>Mikuláš Kaplíř von&nbsp;Sulewitz <em>(Winterberg)</em></td><td style="text-align:right">~900</td></tr>
+                  <tr style="border-top: 1px solid rgba(196,168,92,0.3)"><td><strong>Insgesamt im Fünftausend-Korps</strong></td><td style="text-align:right"><strong>5.000+ Mann</strong></td></tr>
+                </tbody>
+              </table>
+              <p style="font-size: 0.62em; line-height: 1.4; margin-top: 0.6em">
+                <strong>Preis (pauschal):</strong> 13.500 rheinische Gulden + 3.000 bayerische Mark + 3.000 ungarische Dukaten — umgerechnet rund <strong>~30.000–35.000 fl.</strong>
+              </p>
+            </div>
+            <div class="bitva">
+              <h3>2. Phase · 1461 (und&nbsp;1462)</h3>
+              <p style="font-size: 0.7em; line-height: 1.4">Nach Wiederausbruch des Krieges wirbt Ludwig erneut in&nbsp;Böhmen; <strong>ab August 1461 mindestens 2.000 Böhmen</strong>; insgesamt ~16.000 Mann im Heer.</p>
+              <table style="font-size: 0.62em; width: 100%; line-height: 1.4">
+                <thead>
+                  <tr><th>Befehlshaber</th><th style="text-align:right">Mannschaft</th></tr>
+                </thead>
+                <tbody>
+                  <tr><td>Racek von&nbsp;Janovice <em>(Riesenberg)</em></td><td style="text-align:right">~500</td></tr>
+                  <tr><td>Přibík Šatava <em>(Südböhmen)</em></td><td style="text-align:right">über 400</td></tr>
+                  <tr><td>Jan Jenec von&nbsp;Janovice <em>(Petersburg)</em></td><td style="text-align:right">~250</td></tr>
+                  <tr style="border-top: 1px solid rgba(196,168,92,0.3)"><td><strong>Belegter Kern</strong></td><td style="text-align:right"><strong>2.000+ Mann</strong></td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
+        <!-- ============================================ -->
+        <!-- SEKTION 5: WALDSHUTERKRIEG                    -->
+        <!-- ============================================ -->
+        <section class="section-divider">
+          <div class="section-num">V. — 1468</div>
+          <h1>Waldshuterkrieg</h1>
+          <div class="section-sub" style="font-family: 'Cinzel', serif; color: var(--color-muted); font-style: italic; font-size: 1.05em; margin-bottom: 1em">Waldshuterkrieg · Schaffhauser Krieg</div>
+          <img src="/images/waldshuterkrieg-uvod.png" alt="Das böhmische Heer kommt 1468 dem belagerten Waldshut zu Hilfe" style="max-height: 48vh; max-width: 50%; margin: 0 auto; box-shadow: 0 4px 24px rgba(0,0,0,0.6); border: 1px solid rgba(196, 168, 92, 0.3)" />
+          <p style="font-size: 0.5em; color: var(--color-muted); margin-top: 0.5em; font-style: italic">
+            Das böhmische Heer kommt 1468 dem belagerten Waldshut zu Hilfe &middot; Amtliche Berner Chronik (1478–1483)
+          </p>
+        </section>
+
+        <section class="bitvy-slide">
+          <h2>Waldshuterkrieg — Ursachen und Hauptpersonen</h2>
+          <div class="bitvy-col">
+            <div class="bitva">
+              <h3>Ursachen</h3>
+              <ul style="font-size: 0.7em; line-height: 1.4">
+                <li>Zweite Hälfte des 15. Jahrhunderts: zunehmende Streitigkeiten zwischen dem <strong>habsburgischen Adel</strong> (Raubritter) und den <strong>Städten</strong> im süddeutschen Raum</li>
+                <li>Nördlich des Rheins wenden sich die Städte <strong>Schaffhausen (1454)</strong>, <strong>Rottweil (1463)</strong> und <strong>Mülhausen (1466)</strong> an die <strong>Eidgenossen</strong> und schließen mit ihnen <strong>Schutzbündnisse</strong>, um sich gegen die Streifzüge des Adels zu wehren</li>
+              </ul>
+              <p style="font-size: 0.7em; color: var(--color-gold); font-family: 'Cinzel', serif; margin: 0.5em 0 0.2em">Zwei Brennpunkte des Streits</p>
+              <ul style="font-size: 0.7em; line-height: 1.4; margin-top: 0">
+                <li><strong>1467 — Schaffhausen:</strong> <strong>Bilgeri von Heudorf</strong> versucht Schaffhausen wieder <strong>unter habsburgische Herrschaft</strong> zu bringen — bei Anselfingen nimmt er den Schaffhauser Bürgermeister <strong>Hans Amstad</strong> gefangen und gibt ihn erst gegen Lösegeld von <strong>1.800 Gulden</strong> frei, woraufhin die Eidgenossen Truppen entsenden</li>
+                <li><strong>April 1468 — Mülhausen:</strong> gestützt auf den Bündnisvertrag mit Bern und Solothurn geht die Stadt nach Jahren <strong>unerklärten Kleinkriegs</strong> seitens des umliegenden Adels <strong>in die Offensive</strong> und überfällt die Adelsdörfer <strong>Rixheim und Sausheim</strong>. Am <strong>15. Mai 1468</strong> antworten die Vorderösterreichischen Lande mit einem Feldzug von <strong>4.000 Mann</strong> vor Mülhausen und plündern die Umgebung</li>
+              </ul>
+              <p style="font-size: 0.7em; color: var(--color-gold); font-family: 'Cinzel', serif; margin: 0.5em 0 0.2em">Kriegserklärung</p>
+              <ul style="font-size: 0.7em; line-height: 1.4; margin-top: 0">
+                <li><strong>18. Juni 1468</strong> · <strong>Bern, Solothurn und Freiburg</strong> erklären Herzog Sigmund den <strong>Krieg</strong> und&nbsp;bald folgen weitere eidgenössische Städte</li>
+              </ul>
+            </div>
+            <div class="bitva">
+              <h3>Hauptpersonen</h3>
+              <p style="font-size: 0.65em; color: var(--color-gold); font-family: 'Cinzel', serif; margin: 0.3em 0 0.15em">Habsburger und&nbsp;ihre Partei</p>
+              <ul style="font-size: 0.65em; line-height: 1.35; margin-top: 0">
+                <li><strong>Herzog Sigmund der Münzreiche</strong> — Tirol und Vorderösterreich</li>
+                <li><strong>Werner von Schienen</strong> — Befehlshaber der Verteidigung Waldshuts (~800 Mann)</li>
+                <li><strong>Bilgeri von Heudorf</strong> — Provokateur der Gefangennahme Hans Amstads</li>
+                <li><strong>Jakob Trapp</strong> — herzoglicher Hofmarschall, Versorgungsversuche</li>
+                <li><strong>Thüring III. von Hallwyl</strong> — Landvogt, Befestigung bei&nbsp;Albbruck</li>
+                <li><strong>Ludwig IX. von Bayern</strong> — Verbündeter, schickt <strong>~1.600 böhmische Söldner</strong></li>
+              </ul>
+              <p style="font-size: 0.65em; color: var(--color-gold); font-family: 'Cinzel', serif; margin: 0.3em 0 0.15em">Eidgenossen</p>
+              <ul style="font-size: 0.65em; line-height: 1.35; margin-top: 0">
+                <li><strong>Eberhard Ottikon</strong> (Zürich) — erster Hauptmann</li>
+                <li><strong>Hans Waldmann</strong> (Zürich) — späterer Bürgermeister und Heerführer</li>
+                <li><strong>Felix Keller</strong> (Zürich) — Hauptmann des Schaffhauser Zuges</li>
+                <li><strong>Petermann von Wabern, Niklaus von Scharnachthal, Niklaus von Diesbach</strong> (Bern)</li>
+                <li><strong>Petermann Etterlin</strong> (Luzern) — späterer Chronist</li>
+              </ul>
+              <p style="font-size: 0.65em; color: var(--color-gold); font-family: 'Cinzel', serif; margin: 0.3em 0 0.15em">Vermittler und auswärtige Akteure</p>
+              <ul style="font-size: 0.65em; line-height: 1.35; margin-top: 0">
+                <li><strong>Peter Rot</strong> — Bürgermeister von Basel, Anführer der Friedensbemühungen</li>
+                <li><strong>Johann V. von Venningen</strong> (Basel) und <strong>Hermann III. von Breitenlandenberg</strong> (Konstanz) — Bischöfe, Vermittler</li>
+                <li><strong>Karl der Kühne von Burgund</strong> — leiht Sigmund später 50.000 fl.</li>
+                <li><strong>Diebold Schilling</strong> — Berner Chronist, Hauptquelle über die Böhmen</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <h2>Waldshuterkrieg — Sundgauer Feldzug (Juni–Juli 1468)</h2>
+          <table style="font-size: 0.62em; max-width: 1100px; margin: 0.4em auto 0; line-height: 1.4">
+            <thead><tr><th>Datum</th><th>Was geschah</th></tr></thead>
+            <tbody>
+              <tr style="background: rgba(196, 168, 92, 0.08)"><td><strong>25. Juni 1468</strong></td><td>Berner und Solothurner <strong>fallen aus dem Sundgau bei Basel ein</strong> und&nbsp;ziehen über Blotzheim, Bartenheim und Habsheim auf Mülhausen — geplündert wird, es folgen Zürcher und Schwyzer</td></tr>
+              <tr><td>27. Juni 1468</td><td><strong>Felix Keller</strong> (Zürich) führt 2.000 Mann von Schaffhausen in den <strong>Klettgau</strong> — Verwüstung</td></tr>
+              <tr><td>29. Juni 1468</td><td>Die Eidgenossen erobern <strong>Erzingen</strong></td></tr>
+              <tr><td>6. Juli 1468</td><td><strong>Ochsenfeld</strong> (zwischen Thann und Mülhausen) — die Eidgenossen erwarteten eine offene Feldschlacht, die Habsburger erschienen nicht</td></tr>
+              <tr><td>6.–7. Juli 1468</td><td><strong>Einfall in den Schwarzwald</strong>: Ziel ist das <strong>Kloster St. Blasien</strong>, Abt <strong>Christoph von Greuth</strong> kauft die Eidgenossen für <strong>1.500 Gulden</strong> los. Auf dem Weg werden <strong>Waldkirch</strong> niedergebrannt und <strong>Tiengen</strong> besetzt</td></tr>
+              <tr><td>16. Juli 1468</td><td>Ende des Sundgauer Feldzugs — die Eidgenossen ziehen sich über Basel zurück und&nbsp;der Schwerpunkt verlagert sich nach Osten</td></tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section>
+          <h2>Belagerung von Waldshut (Juli–August 1468)</h2>
+          <table style="font-size: 0.55em; max-width: 1150px; margin: 0.3em auto 0; line-height: 1.35">
+            <thead><tr><th>Datum</th><th>Was geschah</th></tr></thead>
+            <tbody>
+              <tr><td>19.–20. Juli 1468</td><td>Die Hauptverbände sammeln sich auf dem Rafzerfeld; die Tagsatzung in&nbsp;Luzern beschließt den Feldzug gegen Waldshut (Kantone Uri, Schwyz, Unterwalden, Zug, Glarus, Schaffhausen)</td></tr>
+              <tr style="background: rgba(196, 168, 92, 0.08)"><td><strong>22. Juli 1468</strong></td><td>Luzerner, Glarner, Schwyzer und Zuger stehen vor <strong>Waldshut</strong>, Zürcher und Schaffhauser ziehen aus Tiengen auf die Stadt zu</td></tr>
+              <tr><td>29. Juli 1468</td><td><strong>Erste Kanonade</strong> aus Zürcher und Berner schweren Bombarden — insgesamt während der Belagerung ~<strong>280 steinerne Kugeln</strong> und 248 Geschosse aus Mörsern</td></tr>
+              <tr><td>Nacht vom 3.–4. August</td><td><strong>1. Versorgungsversuch</strong>: Jakob Trapp entsendet <strong>1.200 Mann</strong> aus Laufenburg — nur <strong>~200</strong> gelangen mit kleineren Vorräten in die Stadt</td></tr>
+              <tr><td>Nacht vom 8.–9. August</td><td><strong>2. Versorgungsversuch scheitert</strong> und&nbsp;die Eidgenossen haben inzwischen die Verteidigung auf 400 Mann verstärkt</td></tr>
+              <tr><td>~10. August</td><td>Die Eidgenossen fordern Verstärkung an und&nbsp;das Belagerungsheer wächst auf <strong>~16.000 Mann</strong> an</td></tr>
+              <tr><td>14.–16. August</td><td>Vermittler (Basel, Bischöfe) nehmen Kontakt auf; <strong>am 16. 8. beginnen die Verhandlungen in&nbsp;Dogern</strong></td></tr>
+              <tr><td>17. August</td><td>Plan eines Generalsturms am 19. 8. — wegen der Verhandlungen aufgeschoben; im&nbsp;Lager <strong>Streit zwischen Zürich und Bern</strong></td></tr>
+              <tr><td>21. August</td><td>Beutezug der <strong>Luzerner</strong> (+ Schwyz, Glarus, Appenzell) in den Schwarzwald — <strong>Bonndorf</strong> niedergebrannt, beim Rückzug von Sigmunds Truppen angegriffen, die Unterstützung von <strong>Zürich und Zug</strong> rettet die Beute (~400 Stück Vieh)</td></tr>
+              <tr style="background: rgba(196, 168, 92, 0.08)"><td><strong>27. August 1468</strong></td><td>Unterzeichnung der <strong>Waldshuter Richtung</strong></td></tr>
+              <tr><td>28. August 1468</td><td>Ende der Belagerung</td></tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section>
+          <h2>Die Waldshuter Richtung und ihr Nachspiel</h2>
+          <ul style="font-size: 0.78em; line-height: 1.5">
+            <li><strong>27. August 1468</strong> · <strong>Waldshuter Richtung</strong> — Sigmund verpflichtet sich, bis zum <strong>24. Juni 1469</strong> <strong>10.000 Gulden</strong> Kriegskontribution zu zahlen, und&nbsp;bis dahin dienen <strong>Waldshut</strong> und der vorderösterreichische Schwarzwaldteil als Pfand</li>
+            <li><strong>23. Juni 1469</strong> · der Termin wird eingehalten und&nbsp;die Kontribution gezahlt; der Schaffhauser Bürgermeister <strong>Hans Amstad</strong> erhält sein Lösegeld von <strong>1.800 fl.</strong> jedoch erst <strong>1476</strong> zurück</li>
+            <li><strong>November 1468</strong> · durch den Vertrag von <strong>Saint-Omer</strong> leiht Sigmund von <strong>Karl dem Kühnen</strong> <strong>50.000 Gulden</strong> gegen Verpfändung des <strong>Breisgaus und Oberelsasses</strong>, Landvogt der Pfandschaft wird <strong>Peter von Hagenbach</strong></li>
+            <li><strong>26. Mai 1469</strong> · Kaiser <strong>Friedrich III.</strong> (Sigmunds Vetter) erklärt den Waldshuter Frieden für <strong>ungültig</strong> und verhängt am <strong>31. August</strong> über die Eidgenossenschaft die <strong>Reichsacht</strong> — ohne reale Folgen</li>
+            <li><strong>Territoriale Auswirkung minimal</strong> — der einzige Gewinn der Eidgenossenschaft: die Herrschaft <strong>Wessenberg</strong> (Hottwil, Mandach) fällt an Bern</li>
+            <li><strong>1474</strong> · die <em>Ewige Richtung</em> unter der Schirmherrschaft <strong>Ludwigs XI. von Frankreich</strong> stiftet den dauerhaften Frieden zwischen Habsburgern und Eidgenossen. Nach dem Sturz <strong>Karls des Kühnen bei Nancy</strong> (1477) übernimmt Sigmund die Pfänder zurück, <strong>ohne die 50.000 fl. zurückzuzahlen</strong></li>
+          </ul>
+        </section>
+
+        <section class="bitvy-slide">
+          <h2>Böhmische Söldner in Waldshut</h2>
+          <div class="bitvy-col">
+            <div class="bitva">
+              <blockquote style="font-size: 0.62em; line-height: 1.45">
+                „Es wurden damals, als man vor Waldshut lag, etwa sechzehnhundert Böhmen vom Herzog aus dem Reich der Herrschaft zu Hilfe gesandt; und als sie kamen, wurde ihrerseits dennoch nicht kriegerisch gegen die Eidgenossenschaft vorgegangen, denn sie richteten mehr Schaden bei den Freunden an als bei der Eidgenossenschaft. Dennoch ließ der Reichsherzog der Eidgenossenschaft durch seine Botschaft erklären, er stehe mit Herzog Sigmund von Österreich in einer Abmachung, derzufolge er ihm Leute schicken müsse, und auch wenn diejenigen, die er ihm schickte, irgendwo unterwegs blieben und nicht heimkehrten, läge ihm daran nicht viel, denn er müsse sie ihm aus Ehre und aufgrund seiner früheren schriftlichen Abmachung, die sie noch vor diesem Krieg miteinander getroffen hatten, schicken; was er aber sonst für Frieden und Wohl in dieser Sache tun und vermitteln könne, das wolle er mit gutem Willen tun, so wie er und seine Vorfahren es während jener früheren fünfzehnjährigen Frieden und in anderen Angelegenheiten getan hatten."
+                <cite>Diebold Schilling, Berner Chronik</cite>
+              </blockquote>
+            </div>
+            <div class="bitva">
+              <ul style="font-size: 0.78em; line-height: 1.5">
+                <li><strong>Ludwig IX. von Bayern</strong> schickte etwa <strong>1.600 böhmische Söldner</strong>, um den Bündnisvertrag mit Sigmund von Tirol einzuhalten</li>
+                <li>Er selbst <strong>wollte diesen Konflikt nicht</strong> und engagierte sich im Gegenteil bei der Vermittlung von Friedensverhandlungen</li>
+                <li>Die Böhmen standen daher im Raum <strong>St. Blasien</strong> im Schwarzwald und griffen <strong>nicht aktiv</strong> in die Kämpfe ein</li>
+                <li>Die Illuminationen der Schillingschen Chroniken stellen die Böhmen als <strong>„Heiden und Orientalen"</strong> mit langen Haaren dar — Anspielung auf den Ruf als Ketzer</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- ============================================ -->
+        <!-- SEKTION 6: LANDSHUTER ERBFOLGEKRIEG           -->
+        <!-- ============================================ -->
+        <section class="section-divider">
+          <div class="section-num">VI. — 1503 / 1505</div>
+          <h1>Landshuter Erbfolgekrieg</h1>
+        </section>
+
+        <section class="bitvy-slide">
+          <h2>Landshuter Erbfolgekrieg — Ursachen und Hauptpersonen</h2>
+          <div class="bitvy-col">
+            <div class="bitva">
+              <h3>Ursachen</h3>
+              <p style="font-size: 0.7em; color: var(--color-gold); font-family: 'Cinzel', serif; margin: 0.3em 0 0.15em">Dynastischer Hintergrund</p>
+              <ul style="font-size: 0.7em; line-height: 1.4; margin-top: 0">
+                <li><strong>Georg der Reiche</strong> (Bayern-Landshut), letzter männlicher Vertreter der Landshuter Wittelsbacherlinie, hatte keinen männlichen Erben — nur eine Tochter, <strong>Elisabeth</strong>, die sich 1499 mit ihrem Vetter <strong>Ruprecht von der Pfalz</strong> vermählte</li>
+                <li>Elisabeth war zugleich <strong>Nichte des böhmischen Königs Wladislaw II. Jagiellonen</strong></li>
+              </ul>
+              <p style="font-size: 0.7em; color: var(--color-gold); font-family: 'Cinzel', serif; margin: 0.5em 0 0.15em">Strittiges Testament</p>
+              <ul style="font-size: 0.7em; line-height: 1.4; margin-top: 0">
+                <li><strong>1496</strong> · Georg vermacht das Herzogtum testamentarisch der Tochter und&nbsp;Ruprecht — damit verstößt er sowohl gegen das <strong>Reichsrecht</strong> (Mannesstamm) als auch gegen die <strong>wittelsbachischen Erbverträge von 1392 und&nbsp;1450</strong>, nach denen der Landshuter Besitz beim Aussterben der männlichen Linie der <strong>bayerisch-münchner Linie</strong> zufallen sollte</li>
+                <li><strong>1. Dezember 1503</strong> · Georg stirbt in&nbsp;Ingolstadt und&nbsp;das Testament wird umgehend von <strong>Albrecht IV. dem Weisen</strong> und&nbsp;<strong>Maximilian I.</strong> abgelehnt</li>
+              </ul>
+              <p style="font-size: 0.7em; color: var(--color-gold); font-family: 'Cinzel', serif; margin: 0.5em 0 0.15em">Kriegserklärung</p>
+              <ul style="font-size: 0.7em; line-height: 1.4; margin-top: 0">
+                <li>Anfang 1504 lehnt Ruprecht Maximilians Kompromisse ab und&nbsp;seine Hauptleute besetzen <strong>Landshut und&nbsp;Burghausen</strong></li>
+                <li><strong>17. April 1504</strong> · der Krieg bricht formell aus, Maximilian verhängt über Ruprecht und&nbsp;Elisabeth die <strong>Reichsacht</strong> und&nbsp;belehnt am <strong>23. April</strong> Albrecht IV. mit dem Landshuter Erbe</li>
+              </ul>
+            </div>
+            <div class="bitva">
+              <h3>Hauptpersonen</h3>
+              <p style="font-size: 0.65em; color: var(--color-gold); font-family: 'Cinzel', serif; margin: 0.2em 0 0.1em">Pfälzische Partei</p>
+              <ul style="font-size: 0.65em; line-height: 1.35; margin-top: 0">
+                <li><strong>Ruprecht von der Pfalz</strong> (1481 – 20. 8. 1504) — Erbe des Landshuter Besitzes, stirbt mitten im Krieg</li>
+                <li><strong>Philipp von der Pfalz</strong> — Kurfürst, Vater Ruprechts</li>
+                <li><strong>Georg von Wispeck</strong> — Oberbefehlshaber bei&nbsp;Schönberg</li>
+              </ul>
+              <p style="font-size: 0.65em; color: var(--color-gold); font-family: 'Cinzel', serif; margin: 0.5em 0 0.1em">Bayerisch-münchner und&nbsp;Reichspartei</p>
+              <ul style="font-size: 0.65em; line-height: 1.35; margin-top: 0">
+                <li><strong>Albrecht IV. der Weise</strong> — Herzog von Bayern-München, Bewerber um das Erbe</li>
+                <li><strong>Maximilian I.</strong> — römischer König</li>
+                <li><strong>Georg von Frundsberg</strong> — debütiert bei&nbsp;Schönberg mit einem Landsknechtsregiment</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <h2>Zeitleiste des Krieges (April 1504 – Juli 1505)</h2>
+          <table style="font-size: 0.6em; max-width: 1150px; margin: 0.3em auto 0; line-height: 1.4">
+            <thead><tr><th>Datum</th><th>Was geschah</th></tr></thead>
+            <tbody>
+              <tr style="background: rgba(196, 168, 92, 0.08)"><td><strong>17. April 1504</strong></td><td>Der Krieg <strong>bricht formell aus</strong>. Maximilian verhängt über Ruprecht und&nbsp;Elisabeth die <strong>Reichsacht</strong> und&nbsp;belehnt <strong>Albrecht&nbsp;IV.</strong> mit dem Landshuter Erbe</td></tr>
+              <tr><td>April – Juli</td><td>Ruprechts Feldzug durch Bayern führt von Amberg über Neuburg auf Landshut. In Cham, Furth im Wald und&nbsp;Tachau sammeln sich nach und nach die <strong>böhmischen Kontingente</strong> (10.000 – 12.000 Mann). Es wird um Landau und&nbsp;Landshut gekämpft</td></tr>
+              <tr><td>August</td><td>Pfälzische Truppen und&nbsp;Böhmen belagern <strong>Schwandorf</strong> und&nbsp;<strong>Braunau</strong>; bei&nbsp;Neuburg geraten 100–200 Böhmen in die Gefangenschaft von Albrechts Hauptmann <strong>Sonnenberg</strong></td></tr>
+              <tr style="background: rgba(196, 168, 92, 0.08)"><td><strong>20. August 1504</strong></td><td>In Landshut <strong>stirbt Herzog Ruprecht</strong>. Die Regierung übernimmt die Witwe Elisabeth, ins Oberkommando kehrt <strong>Wispeck</strong> zurück. Die pfälzische Partei versucht die Todesnachricht geheim zu halten</td></tr>
+              <tr><td>29. August – 5. September</td><td>Das böhmische Heer (<strong>9.000 Mann</strong>, die Quellen geben auch 14.000 an) belagert unter Eyb <strong>Sulzbach</strong>. Hier sind alle großen Unternehmer — Weitmühl, beide Gutensteiner und&nbsp;ein Sternberger — aber die Belagerung endet ergebnislos</td></tr>
+              <tr><td>4. September</td><td>Maximilian gibt den Beschluss bekannt, <strong>persönlich gegen die böhmischen Söldner zu ziehen</strong></td></tr>
+              <tr style="background: rgba(196, 168, 92, 0.18); font-weight: 600"><td><strong>12. September 1504</strong></td><td><strong>Schlacht bei&nbsp;Schönberg / Wenzenbach</strong></td></tr>
+              <tr><td>15. September</td><td><strong>Elisabeth stirbt</strong> an der <strong>Pest</strong>. Die Vormundschaft über die Waisen Otto Heinrich und&nbsp;Philipp fällt an Ruprechts Bruder Friedrich</td></tr>
+              <tr><td>Oktober – Dezember 1504</td><td>Maximilian erobert das Tiroler <strong>Kufstein</strong> (viele Böhmen werden hingerichtet, den Befehlshaber Pinzenauer lässt er als abschreckendes Beispiel hinrichten). Das Bündnisheer zerfällt, die böhmischen Söldner kehren in Massen heim und&nbsp;<strong>Heřman Janovský</strong> erklärt sogar der Pfalz wegen unbezahlter Solde Krieg. Das pfälzische Heer belagert noch Vilshofen</td></tr>
+              <tr><td>Februar – 13. April 1505</td><td>Der vorübergehende Waffenstillstand geht in einen Frieden über. Die Pfalz räumt <strong>Landshut, Burghausen und&nbsp;Braunau</strong>; Maximilian beruft den Reichstag in&nbsp;<strong>Köln am Rhein</strong> ein</td></tr>
+              <tr style="background: rgba(196, 168, 92, 0.18); font-weight: 600"><td><strong>30. Juli 1505</strong></td><td><strong>Kölner Schiedsspruch</strong> — der Großteil des Erbes fällt an <strong>Albrecht&nbsp;IV.</strong> (Grundlage des neuzeitlichen Bayerns), für die Söhne Ruprechts und&nbsp;Elisabeths entsteht das <strong>Herzogtum Pfalz-Neuburg</strong> und&nbsp;Maximilian erhält Kufstein, Kitzbühel und&nbsp;Rattenberg</td></tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section class="bitvy-slide">
+          <h2>Böhmische Söldnerunternehmer im&nbsp;Landshuter Erbfolgekrieg</h2>
+          <div class="bitvy-col">
+            <div class="bitva">
+              <h3>Pfälzische Partei &middot; <strong>10.000 – 12.000 Böhmen</strong></h3>
+              <table style="font-size: 0.65em; line-height: 1.4">
+                <thead><tr><th>Befehlshaber</th><th>Kontingent</th><th>Ausgezahlt</th></tr></thead>
+                <tbody>
+                  <tr><td><strong>Matyáš Libák von&nbsp;Radowesitz</strong></td><td>1.000+ Mann</td><td style="text-align:right">100 fl./Mon. + 1.000 fl. Ausrüstung</td></tr>
+                  <tr><td><strong>Heinrich von&nbsp;Gutenstein</strong></td><td>1.000 Fußvolk + 300 Reiter</td><td style="text-align:right">7.600 fl.</td></tr>
+                  <tr><td><strong>Dietrich von&nbsp;Gutenstein</strong></td><td>1.000 Fußvolk + 100 Reiter</td><td style="text-align:right">6.000 fl.</td></tr>
+                  <tr><td><strong>Jan von&nbsp;Weitmühl</strong></td><td>1.000 Fußvolk + 200 Reiter</td><td style="text-align:right">6.800 fl.</td></tr>
+                  <tr><td><strong>Albrecht von&nbsp;Sternberg</strong></td><td>1.000 Fußvolk + 200 Reiter</td><td style="text-align:right">6.800 fl.</td></tr>
+                  <tr><td><strong>Heřman Janovský von&nbsp;Janovice</strong></td><td>300 Fußvolk</td><td style="text-align:right">1.442 fl.</td></tr>
+                  <tr><td><strong>Jan Klášterský von&nbsp;Wallenstein</strong></td><td>700 Fußvolk</td><td style="text-align:right">—</td></tr>
+                  <tr><td><strong>Dobrohost von&nbsp;Ronsperg</strong></td><td>300 Fußvolk + 200 Reiter</td><td style="text-align:right">—</td></tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="bitva">
+              <h3>Reichs-bayerische Partei &middot; <strong>~150 Reiter</strong></h3>
+              <p style="font-size: 0.65em; line-height: 1.45">
+                Der Versuch <strong>Albrechts IV.</strong>, <strong>6.000 böhmische Fußsoldaten</strong> anzuwerben (Verhandlungen am <strong>4.–5. Februar 1504</strong> in&nbsp;<strong>Schüttenhofen, Klattau und&nbsp;Taus</strong>) <strong>scheiterte am Geldmangel</strong>. Auf böhmischer Seite verhandelten der Kanzler <em>von Smichau</em>, <strong>Jan Klenovský von&nbsp;Klenová</strong>, <strong>Otík Kamýcký von&nbsp;Stropčice</strong>, <strong>Heřman Janovský von&nbsp;Janovice</strong> (schließt sich später der Pfalz an) und&nbsp;<strong>Lukavský</strong>. Auch <strong>Václav Vlček von&nbsp;Čenov</strong> sollte gewonnen werden — „der beste böhmische Hauptmann seiner Zeit" (er ritt allerdings nicht mehr und&nbsp;wurde auf einem Wagen gefahren).
+              </p>
+              <p style="font-size: 0.65em; line-height: 1.45; margin-top: 0.7em">
+                <strong>Belegt gefochten</strong> haben nur kleine Einzelpersonen in Maximilians Heer und&nbsp;<strong>~150 böhmische Reiter</strong> im&nbsp;<strong>Nürnberger Kontingent</strong> (Erasbach bei&nbsp;Berching, 8.–10. September 1504).
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="bitvy-slide">
+          <h2>Schlacht bei&nbsp;Schönberg</h2>
+          <div class="bitvy-col">
+            <div class="bitva">
+              <dl class="bitva-info">
+                <dt>Datum</dt><dd><strong>12. September 1504</strong></dd>
+                <dt>Ort</dt><dd><strong>Hafenreuther Feld</strong> bei&nbsp;Wenzenbach, nordöstlich von Regensburg</dd>
+                <dt>Parteien</dt><dd>böhmische Söldner in pfälzischen Diensten <em>vs.</em> reichs-bayerische Koalition (Bayern-München, Nürnberg, Brandenburg, Braunschweig, Schwäbischer Bund)</dd>
+                <dt>Befehlshaber</dt><dd><strong>Georg von Wispeck</strong>, <strong>Matyáš Libák von&nbsp;Radowesitz</strong> (Feldhauptmann der Infanterie) <em>vs.</em> <strong>Maximilian I.</strong> persönlich, <strong>Albrecht IV. der Weise</strong>, Friedrich von Brandenburg + Söhne <strong>Kasimir</strong> und Georg, Erich von Braunschweig, Andreas von Sonnenberg, <strong>Georg von Frundsberg</strong> (Debüt mit Landsknechten)</dd>
+                <dt>Stärken</dt><dd>Böhmen: <strong>~3.000 Fußvolk, 180 Wagen</strong><br />Verbündete: <strong>~4.000 Fußvolk, 1.200 – 1.600 Reiter, mindestens 8 – 12 Geschütze</strong></dd>
+                <dt>Verluste</dt><dd>Böhmen: <strong>~1.600 Gefallene, ~650 Gefangene</strong>, ~180 Wagen erbeutet, 7 Nürnberger + 4 Straßburger Banner<br />Verbündete: <strong>~200 Gefallene, davon 40 Ritter</strong>; auch ~100 Pferde getötet</dd>
+                <dt>Dauer</dt><dd>3 – 4 Stunden</dd>
+                <dt>Ergebnis</dt><dd>Vernichtender Sieg der reichs-bayerischen Koalition</dd>
+              </dl>
+            </div>
+            <div class="bitva">
+              <h3>Verlauf der Schlacht</h3>
+              <ul style="font-size: 0.7em; line-height: 1.45">
+                <li>Sonnenbergs Reiterei holt das böhmische Heer ein, das <strong>in Richtung Cham im Rückzug</strong> ist, und <strong>ab 8 Uhr morgens</strong> kommt es zu kleineren Scharmützeln mit den abrückenden Böhmen (~1,5 Stunden), in denen <strong>Peter von Wintern</strong>, Mundschenk Maximilians I., fällt</li>
+                <li>Maximilian fürchtet die Flucht der Böhmen und schickt einen <strong>„verlorenen Haufen"</strong> (<em>verloren houif</em>) gegen sie — <strong>400 Reiter</strong> unter Markgraf <strong>Kasimir von Brandenburg</strong>; der Angriff zwingt die Böhmen, sich endgültig zur Verteidigung zu formieren, dabei fällt der <strong>Bruder des obersten Schreibmeisters</strong></li>
+                <li>Libák formiert in Eile <strong>~2.200 Mann zur Verteidigung</strong> auf dem <strong>Hafenreuther Feld</strong> zwischen zwei Wäldchen bei&nbsp;Wenzenbach</li>
+                <li>Die <strong>verbleibenden 800 Mann</strong> lässt er hinter ihrem Rücken auf der benachbarten Anhöhe <strong>Hühnerbuckl</strong> eine <strong>Wagenburg</strong> errichten</li>
+                <li>Inzwischen sammeln sich nach und nach Maximilians Hauptkräfte (nach einem zermürbenden Nachtmarsch) — u.&nbsp;a. <strong>Frundsbergs Landsknechtsregiment</strong> und&nbsp;weitere Geschütze</li>
+                <li>Durch den <strong>anhaltenden Druck aller drei Komponenten</strong> (Reiterei, Landsknechte und&nbsp;Artillerie) werden die Böhmen Schritt für Schritt überwältigt — <strong>die Schlacht endet gegen 14 Uhr</strong>. Während des Kampfes <strong>fällt König Maximilian aus dem Sattel</strong>; <strong>Herzog Erich von Braunschweig</strong>, selbst verwundet, hilft ihm zurück in den Sattel</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <h2>Regensburger Gefangenenliste</h2>
+          <p style="font-size: 0.6em; color: var(--color-muted); text-align: center; margin: 0 0 0.5em; font-style: italic">
+            <strong>630 Namen</strong> in Alttschechisch &middot; Bayerisches Hauptstaatsarchiv München · Sig. 1227, fol. 115 ff. (Sladkovská 2009, Anhang 1 und 4)
+          </p>
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5em; max-width: 1200px; margin: 0 auto">
+            <div>
+              <p style="font-size: 0.7em; color: var(--color-gold); font-family: 'Cinzel', serif; margin: 0 0 0.2em; text-align: center">Nach Beruf</p>
+              <table style="font-size: 0.6em; line-height: 1.3; width: 100%">
+                <thead><tr><th>Handwerk</th><th style="text-align:right">Anzahl</th></tr></thead>
+                <tbody>
+                  <tr><td><strong>Metzger, Fleischer</strong></td><td style="text-align:right"><strong>19</strong></td></tr>
+                  <tr><td>Mälzer</td><td style="text-align:right">11</td></tr>
+                  <tr><td>Schmied</td><td style="text-align:right">8</td></tr>
+                  <tr><td>Schneider</td><td style="text-align:right">7</td></tr>
+                  <tr><td>Schuster</td><td style="text-align:right">6</td></tr>
+                  <tr><td>Bäcker</td><td style="text-align:right">5</td></tr>
+                  <tr><td>Brauer</td><td style="text-align:right">4</td></tr>
+                  <tr><td>Schreiber, Töpfer, Wagenschmierer, Wagner, Koch, Maurer, Gerber, Schenkwirt, Böttcher, Messerschmied, Bergmann</td><td style="text-align:right">je 3</td></tr>
+                  <tr><td>Bader, Wirt, Schlosser</td><td style="text-align:right">je 2</td></tr>
+                  <tr><td>Brauer, Müller, Drechsler, Schüsselmacher, Tagelöhner, Pferdeknecht, Zimmermann, Färber, Weber, Kessler, Schwertfeger, Dachdecker</td><td style="text-align:right">je 1</td></tr>
+                </tbody>
+              </table>
+            </div>
+            <div>
+              <p style="font-size: 0.7em; color: var(--color-gold); font-family: 'Cinzel', serif; margin: 0 0 0.2em; text-align: center">Nach Herkunftsort</p>
+              <table style="font-size: 0.6em; line-height: 1.3; width: 100%">
+                <thead><tr><th>Ort</th><th style="text-align:right">Anzahl</th></tr></thead>
+                <tbody>
+                  <tr><td><strong>Prag</strong></td><td style="text-align:right"><strong>40</strong></td></tr>
+                  <tr><td>Rakonitz</td><td style="text-align:right">18</td></tr>
+                  <tr><td>Beraun</td><td style="text-align:right">16</td></tr>
+                  <tr><td>Klattau</td><td style="text-align:right">13</td></tr>
+                  <tr><td>Kuttenberg</td><td style="text-align:right">11</td></tr>
+                  <tr><td>Kourim</td><td style="text-align:right">9</td></tr>
+                  <tr><td>Luditz</td><td style="text-align:right">8</td></tr>
+                  <tr><td>Pribram, Horaschdiowitz</td><td style="text-align:right">je 7</td></tr>
+                  <tr><td>Tschaslau, Leitmeritz, Jungbunzlau, Hohenmauth</td><td style="text-align:right">je 6</td></tr>
+                  <tr><td>Chrudim, Chiesch</td><td style="text-align:right">je 5</td></tr>
+                  <tr><td>Hořowitz, Jitschin, Knieschewes, Nepomuk, Pilsen, Přeschtitz, Reichenau, Mies, Trentschin (SK), Trzebowa</td><td style="text-align:right">je 4</td></tr>
+                </tbody>
+              </table>
+              <p style="font-size: 0.55em; color: var(--color-muted); margin-top: 0.4em; line-height: 1.35; font-style: italic">
+                + weitere &gt;150 Orte mit je 1–3 Gefangenen (Slowakei: Bánovce n. Bebravou, Banská Štiavnica; Polen: Tschenstochau, Krakau, Lublin, Posen, Schlesien; Litauen: Wilno; Ukraine: Lemberg)
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <h2>Beispiele aus der Regensburger Liste</h2>
+          <p style="font-size: 0.6em; color: var(--color-muted); text-align: center; margin: 0 0 0.5em; font-style: italic">
+            so wie der Schreiber sie in Alttschechisch in&nbsp;Regensburg zwischen dem 12.–16. September 1504 aufgezeichnet hat
+          </p>
+          <table style="font-size: 0.7em; line-height: 1.45; max-width: 1150px; margin: 0.4em auto 0; width: 100%">
+            <tbody>
+              <tr><td><em>Pan Bohuslaw Losky rotmistr z&nbsp;Rabsstyna</em></td><td><em>Buryan Ffrana z&nbsp;Przib(ra)mie</em></td></tr>
+              <tr><td><em>Jan Sliwka rzeznik z&nbsp;Prahy</em></td><td><em>Waniek Koktanek desatnik z&nbsp;Beruna</em></td></tr>
+              <tr><td><em>Prokop lazebnik s&nbsp;Kurzima</em></td><td><em>Jan Kukla Slibil sswez s&nbsp;Chotieborze</em></td></tr>
+              <tr><td><em>Wit kowarz z&nbsp;Brzeznize</em></td><td><em>Wit Kaderzawek z&nbsp;Chrudimie</em></td></tr>
+              <tr><td><em>Jan Holota desatnik z&nbsp;Brodu</em></td><td><em>Petr Wyzrzi wey z&nbsp;Wiestowa</em></td></tr>
+              <tr><td><em>Tobiass Chrudimsky paweznik</em></td><td><em>Jan Chlup z&nbsp;P(ra)hy</em></td></tr>
+              <tr><td><em>Wazlaw Pyczka z&nbsp;Nepomuka</em></td><td><em>Hawel Trzesstik z&nbsp;Przesstiz</em></td></tr>
+              <tr><td><em>Bartoss Lahwiczka z&nbsp;Swin</em></td><td><em>Yan Hawranek z&nbsp;Braniz</em></td></tr>
+              <tr><td><em>Hawel Koza z&nbsp;Raudnize</em></td><td><em>Toman Nediele z&nbsp;Banowiz</em></td></tr>
+              <tr><td><em>Mikulass Kobyla z&nbsp;Bosonohy</em></td><td><em>Mikulass Holy z&nbsp;Kurzimie</em></td></tr>
+              <tr><td><em>Prokop Kokrda z&nbsp;Wylemowa</em></td><td><em>Wazlaw Ssilhawy z&nbsp;Horazdieyowic</em></td></tr>
+              <tr><td><em>Sstiepan Pawluow syn ze&nbsp;Pcher</em></td><td><em>Hloziek Waniek z&nbsp;Lukawize</em></td></tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section>
+          <h2>Folgen für das böhmische Söldnerwesen im&nbsp;Reich</h2>
+          <table style="font-size: 0.55em; line-height: 1.35; max-width: 1200px; margin: 0.3em auto 0; width: 100%; border-collapse: collapse">
+            <thead>
+              <tr style="background: rgba(196, 168, 92, 0.15); border-bottom: 1px solid var(--color-gold)">
+                <th style="padding: 0.4em 0.6em; text-align: left; width: 22%">Faktor</th>
+                <th style="padding: 0.4em 0.6em; text-align: left">Böhmen (Kondottiere-Modell)</th>
+                <th style="padding: 0.4em 0.6em; text-align: left">Landsknechte (institutionelles Modell)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td style="padding: 0.3em 0.6em; font-weight: 600; color: var(--color-gold)">Sold des Fußsoldaten</td><td style="padding: 0.3em 0.6em">4 rheinische Gulden monatlich</td><td style="padding: 0.3em 0.6em">4 rheinische Gulden monatlich</td></tr>
+              <tr><td style="padding: 0.3em 0.6em; font-weight: 600; color: var(--color-gold)">Geldfluss</td><td style="padding: 0.3em 0.6em">Pfalz → <strong>Unternehmer</strong> → Rottmeister → Soldat</td><td style="padding: 0.3em 0.6em"><em>Kriegszahlmeister</em> → <strong>direkt an den Soldaten</strong> (Musterung)</td></tr>
+              <tr><td style="padding: 0.3em 0.6em; font-weight: 600; color: var(--color-gold)">Anteil des Befehlshabers</td><td style="padding: 0.3em 0.6em"><strong>15–30 %</strong> des Pakets (Jahrsold + Rüstgeld + Kostgeld + Boni)</td><td style="padding: 0.3em 0.6em">~10 % als <strong>festes Gehalt des Hauptmanns</strong> (transparent)</td></tr>
+              <tr><td style="padding: 0.3em 0.6em; font-weight: 600; color: var(--color-gold)">Schadenersatz (Schaden)</td><td style="padding: 0.3em 0.6em"><strong>vertraglich garantiert</strong> (Schadenbrief / Schadlosbrief)</td><td style="padding: 0.3em 0.6em">vor 1507 ad hoc; <strong>erst in Konstanz 1507 kodifiziert</strong></td></tr>
+              <tr><td style="padding: 0.3em 0.6em; font-weight: 600; color: var(--color-gold)">Zahlung für Gefallene / Gefangene</td><td style="padding: 0.3em 0.6em"><strong>ja</strong> — die Pfalz zahlte dem Kondottiere (zum Schutz seiner Investition in die Anwerbung)</td><td style="padding: 0.3em 0.6em">nein — der Hauptmann warb einen neuen an</td></tr>
+              <tr><td style="padding: 0.3em 0.6em; font-weight: 600; color: var(--color-gold)">Politische Kosten der Anwerbung</td><td style="padding: 0.3em 0.6em">Bestechungsgelder an den Herrscher (60.000 fl. Wladislaw II. angeboten, 10.000 fl. an Kolowrat)</td><td style="padding: 0.3em 0.6em"><strong>keine</strong></td></tr>
+              <tr><td style="padding: 0.3em 0.6em; font-weight: 600; color: var(--color-gold)">Durchsetzbarkeit</td><td style="padding: 0.3em 0.6em">jahrzehntelange Prozesse (Loský × Gutenstein 1511, Libák 1506–1518)</td><td style="padding: 0.3em 0.6em"><strong>Reichsrecht</strong>, einheitlicher <em>Artikelbrief</em></td></tr>
+              <tr><td style="padding: 0.3em 0.6em; font-weight: 600; color: var(--color-gold)">Ko-Finanzierung</td><td style="padding: 0.3em 0.6em">alles aus der pfälzischen Schatulle (Landshut)</td><td style="padding: 0.3em 0.6em"><strong>Reichsstände und&nbsp;Städte zahlen ihre Kontingente selbst</strong> (Nürnberg, Schwäbischer Bund)</td></tr>
+              <tr style="background: rgba(196, 168, 92, 0.08); border-top: 1px solid rgba(196, 168, 92, 0.4)"><td style="padding: 0.4em 0.6em; font-weight: 600; color: var(--color-gold)">Risiko für den Auftraggeber</td><td style="padding: 0.4em 0.6em"><strong>hoch</strong> — Heřman Janovský erklärte der Pfalz wegen ausstehender Zahlungen den Krieg (1504)</td><td style="padding: 0.4em 0.6em"><strong>geringer</strong> — institutionelle Stütze des Reichsrechts</td></tr>
+            </tbody>
+          </table>
+          <ul style="font-size: 0.5em; color: var(--color-muted); line-height: 1.5; max-width: 1100px; margin: 0.6em auto 0; list-style: none; padding-left: 0">
+            <li style="margin-bottom: 0.3em"><strong style="color: var(--color-gold)">Jahrsold</strong> (= Dienstgeld) — regelmäßige jährliche Rente für den Kriegsunternehmer, damit er sein Gefolge bereithält (Ronsperg 200–500 fl./Jahr)</li>
+            <li style="margin-bottom: 0.3em"><strong style="color: var(--color-gold)">Rüstgeld</strong> — einmalige Summe bei Vertragsabschluss formell zur Bewaffnung der Männer (4 fl./Fuß + 8 fl./Reiter); der Unternehmer erhielt sie als Pauschalbetrag und teilte sie selbst zu</li>
+            <li><strong style="color: var(--color-gold)">Kostgeld</strong> — Pauschale für die Verpflegung des persönlichen Gefolges des Befehlshabers (Knappen, Fuhrleute, Pferdefutter), außerhalb der Söldnerrotte</li>
+          </ul>
+        </section>
+
+        <!-- ============================================ -->
+        <!-- SCHLUSS: DANK                                 -->
+        <!-- ============================================ -->
+        <section class="title-slide">
+          <h1>Vielen Dank für Ihre Aufmerksamkeit</h1>
+          <div class="subtitle">Fragen &amp; Diskussion</div>
+          <div class="meta">
+            Martin Zadražil<br />
+            <em>tyrovsti.cz</em><br /><br />
+            <span style="color: var(--color-muted)">Harnischfechten Workshop · Lipnice 2026</span>
+          </div>
+        </section>
+
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.js"></script>
+    <script>
+      Reveal.initialize({
+        hash: true,
+        slideNumber: 'c/t',
+        transition: 'fade',
+        transitionSpeed: 'fast',
+        backgroundTransition: 'fade',
+        controls: true,
+        progress: true,
+        center: false,
+        width: 1400,
+        height: 850,
+        margin: 0.04,
+      })
+    </script>
+  </body>
+</html>
