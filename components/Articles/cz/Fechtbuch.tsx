@@ -15,7 +15,7 @@ export const Fechtbuch = ({ draft }: ArticleProps) => (
           <b>MS Bibl. 2465</b> je německý fechtbuch sepsaný Joachimem Meyerem
           roku 1561. Originál je v současnosti uložen ve sbírkách Bavorského
           národního muzea v Mnichově v Německu. Tento rukopis, který může být
-          Meyerovým nejstarším dílem, byl vytvořen pro Georga Johanna II.,
+          Meyerovým nejstarším dílem, byl vytvořen pro Georga Johanna I.,
           hraběte Falckého z Veldenzu. Od poloviny 20. století se věřilo, že je
           ztracen, ale Olivier Dupuis v červnu 2021 oznámil, že jej znovu
           nalezl.
@@ -57,7 +57,7 @@ export const Fechtbuch = ({ draft }: ArticleProps) => (
         </p>
       </Col>
       <Col md={6}>
-        <h4>O pěším boji a boji ve zbroji, stručně popsáno</h4>
+        <h4>O zápasu a šermu ve zbroji pěšky, stručně popsáno</h4>
         <p>
           Protože boj má mnoho způsobů, nelze stanovit žádné pevné pravidlo. Kdo
           má být vyzván k boji, má tu výhodu, že si může promyslet, co mu
@@ -111,8 +111,8 @@ export const Fechtbuch = ({ draft }: ArticleProps) => (
       </Col>
       <Col md={6}>
         <p>
-          Navíc má svou levou paži holou, ve které drží dýku, aby se mohl
-          bránit. Levák však pevně drží svou pravou paži s dýkou k obraně a
+          Navíc má svou levou paži holou, ve které drží dýku, aby s ní bodal
+          (sich zu schießen). Levák však pevně drží svou pravou paži s dýkou k obraně a
           bojuje levou paží. Tak utrpí pravák větší škodu od sebe samého než od
           protivníka.
           <br />
@@ -233,15 +233,14 @@ export const Fechtbuch = ({ draft }: ArticleProps) => (
           Když člověk ucítí, že je čepel v těle, uvolní pružinu a nechá vysunout
           silnější hrot, který protivník jen tak nevytáhne.
           <br />
-          Dýka se používá, jakmile ji protivník dostane do těla. Pokud se zbraň
-          zadrhne, dýka se snadno opět uvolní a dá se znovu použít. Musí být ale
-          zhotovena tak, aby pružiny nebyly vidět, aby při pohledu na zbraň
-          nebyly patrné a protivník ji jen těžko rozeznal.
+          Dýku máš použít tehdy, když jsi ho povalil. Pokud se zbraň zadrhne,
+          dá se snadno opět uvolnit a použít znovu. Musí být ale zhotovena tak,
+          aby pružiny nebyly viditelné – aby je soupeř, až ji vneseš do šranků
+          (kolbiště), nedokázal snadno otevřít/odjistit.
           <br />
           Ten, kdo tuto zbraň používá, by si ji měl předem dobře nacvičit a
           hledat v ní svou výhodu, protože protivník ji tak rychle ve zbrani
-          nerozezná ani nepoužije.
-          <br />
+          nerozezná ani nezaregistruje.
         </p>
       </Col>
     </Row>
@@ -255,10 +254,14 @@ export const Fechtbuch = ({ draft }: ArticleProps) => (
       />
       <Col>
         <p>
-          thun das Er dich nit mit Ein donerschlag übereill / vnnd las Inn
-          vorver¬ thobenn / vnnd merck wenn Er dür Ein schlag thut das du Im den
-          ver¬ sezest zwischen dein beidt hendt / vnd schaw ob du im megest
-          Annsetzenn <br />
+          mercken kan / vnnd ob im die federn im dolchen schon gezeigt werden /
+          dir doch noch fortheill gemacht send / das er sie nit baldt greüffenn
+          khann / zum erstenn soltu gut achtung habenn / ob dich dein gegen mann
+          wolle behendt mit sterck über eilen oder mit gewalt auff dich thringt
+          / so soltu gernh thun das Er dich nit mit Ein donerschlag übereill /
+          vnnd las Inn vorver¬ thobenn / vnnd merck wenn Er dür Ein schlag thut
+          das du Im den ver¬ sezest zwischen dein beidt hendt / vnd schaw ob du
+          im megest Annsetzenn <br />
           Zum anndern hab Acht das dür nit angesezt weret / so dür Aber angesezt
           ist Ann dein linck so thrit mit dem lincken zu Ruck oder sez dein
           knopff auf dein brust vnnd Erlang der ortt / vnd sez Im auch ann / vnd
@@ -274,9 +277,13 @@ export const Fechtbuch = ({ draft }: ArticleProps) => (
       </Col>
       <Col>
         <p>
-          Dbej na to, aby tě nepřekvapil drtivým úderem, a nech ho nejprve
-          udeřit naprázdno. Pamatuj si, že když on udeří, máš mu to zachytit
-          mezi svýma rukama – a sleduj, zda mu můžeš zasadit úder.
+          A i kdyby mu byly pružiny v dýce již ukázány, máš stále výhodu –
+          nedokáže je rychle uchopit (zacházet s nimi). Za prvé měj dobrý pozor:
+          zda tě protivník chce obratně silou (mit sterck) předběhnout
+          (übereilen), nebo na tebe násilím dotírá – tak máš ochotně (gernh)
+          učinit, aby tě nepředběhl jediným drtivým úderem (donerschlag), a nech
+          ho ten úder napřed pronést. A všimni si, když ti zasadí ránu, abys mu
+          ji odrazil mezi obě své ruce, a viz, zda mu můžeš nasadit (úder).
           <br />
           Dále dávej pozor, aby tě nezaskočil nasazením hrotu. Pokud však už ti
           byl hrot nasazen na tvou levou stranu, ustup levou nohou vzad nebo
@@ -324,8 +331,9 @@ export const Fechtbuch = ({ draft }: ArticleProps) => (
       </Col>
       <Col>
         <p>
-          Osvoboď se a případně mu zlom postoj. Také do něj vejdi úderem do
-          slabin, prolomením nohy nebo kloubu.
+          [pak mu prst] uvolni a zlom mu ho směrem nahoru. Také: zlomení paže
+          (<i>Annbrich</i>), úder do slabin (<i>gemecht stos</i>), zlomení nohy
+          (<i>Bein bruch</i>) nebo úder do kolene (<i>knüstos</i>).
           <br />
           Za prvé chci projít příklady boje ve zbroji a poté popíšu výhody výše
           zmíněných zbraní.
@@ -419,7 +427,7 @@ export const Fechtbuch = ({ draft }: ArticleProps) => (
         <p>
           gelennckenn. Ittem sez im denn stich ab / vnnd du desgleichen / vnnd
           so offt du Im angesezt hast / so schlag dein knopff vnnder die vchsenn
-          so du dein forteil E¬ sichest / Annsezenn sündt vier Eins Ins gesicht
+          so du dein forteil Er¬ sichest / Annsezenn sündt vier Eins Ins gesicht
           / ann thrisell Ittem ann die Linck vchsenn oder vnnder die Reht
           achtsell <br /> vnnd merck so du Im an dj Linck ansezest / so kum mit
           dem Lincken fus vor sez du Im vnder die recht Achsell / so thritt mit
@@ -449,9 +457,9 @@ export const Fechtbuch = ({ draft }: ArticleProps) => (
           <br />
           Pamatuj: když mu zasazuješ úder z levé strany, tak přistup s levou
           nohou vepředu a zasáhni ho pod pravé rameno a pak udělej pravou nohou
-          krok vpřed. Dále bys měl vždy, když zasazuješ, tlačit přes jeho
-          těžiště. Když je však menší než ty, spusť rukojeť dolů k jeho boku a
-          tlač přes něj a pryč od sebe. Když se ale stáhne do boku, udeř ho do
+          krok vpřed. Dále, jakmile jsi nasadil, máš jím vždy tlačit směrem
+          vzhůru (übersich). Když je však menší než ty, spusť rukojeť dolů k
+          jeho boku a tlač přes něj a pryč od sebe. Když se ale stáhne do boku, udeř ho do
           helmy, tam je nejzranitelnější.
           <br />
           A kdykoli mu zasadíš úder (ansezest), dbej, abys ho dobře zavázal,
@@ -597,7 +605,7 @@ export const Fechtbuch = ({ draft }: ArticleProps) => (
         <p>
           Merck thritt Inn der ober hutt zu Im / fas dein bündt nahett bej dem
           knopf vnnd greif mit der linncken hanndt In die klingen beim kreutz
-          vnnd stich Im knefftiglich zu seim visier / zuck wüder An dich vnnd
+          vnnd stich Im krefftiglich zu seim visier / zuck wüder An dich vnnd
           stich mit sterck / vonn vnnden zu seim gemecht / domit Er dür nit zu
           nahe khum / Ruck dein wehr wüder ab / vnnd greüff mit der Lincken
           hanndt Inn das Erßette theill deiner klingen dringt Er auff dich so
@@ -619,7 +627,7 @@ export const Fechtbuch = ({ draft }: ArticleProps) => (
         <h4>Druhý kus</h4>
         <p>
           Pamatuj: Přistup k němu v horním střehu, chyť sevření blízko u hlavice
-          a uchop levou rukou čepel u záštity a bodni mu tvrdě (knefftiglich) do
+          a uchop levou rukou čepel u záštity a bodni mu mocně (krefftiglich) do
           jeho hledí, cukni zpět k sobě a bodni silně odspodu do jeho přirození
           tak aby se neodvážil přijít příliš blízko.
           <br />
@@ -802,10 +810,10 @@ export const Fechtbuch = ({ draft }: ArticleProps) => (
           bodni silou do jeho hledí. Když se brání a snaží se tvůj úder odrazit,
           stáhni se stranou a bodni ho pod jeho levé rameno. Dávej si pozor,
           abys pevně stál a nepřeklonil se příliš dopředu ani dozadu. Pamatuj,
-          jakmile tvůj hrot pevně zasáhne při sevření, udeř svou rukojetí pod
-          jeho pravé podpaží a tlač ho před sebe nebo ho udeř pod jeho pravé
-          podpaží a udeř hlavicí pod své levé podpaží a tlač ho od sebe a nenech
-          ho z toho uniknout. Pak vytáhni pravou rukou šavli a zasáhni ho do
+          jakmile tvůj hrot uvázne v kroužcích zbroje, zaklesni si jílec pod
+          své pravé podpaží a tlač ho [hrotem] před sebou pryč – nebo mu nasaď
+          [hrot] pod jeho pravé podpaží a hlavici si zaklesni pod své levé
+          podpaží a tlač od sebe a nenech ho z toho uniknout. Pak vytáhni pravou rukou šavli a zasáhni ho do
           kloubu nebo spodním sekem.
           <br />
           Také dělej, jako bys mu chtěl zasáhnout obličej záštitou, a jakmile
@@ -1001,9 +1009,10 @@ export const Fechtbuch = ({ draft }: ArticleProps) => (
           ruku nebo pusť jeho meč a uchop jeho pravou ruku. Přitáhni ji k sobě a
           bodni nebo udeř hlavicí šavle do jeho kloubu.
           <br />
-          Shrnutí: s mečem mu máš rozsekat brnění, hlavicí nebo záštitou
-          zasáhnout kolenní klouby a nohy, s křížem (záštitou) podlomit a klouby
-          a údy lámat a ohýbat, a s tím také přistupovat k sevření.
+          Shrnutí: mečem mu máš rozsekat zbroj, zobcem (Bickel) nebo ostřím
+          (hawer) [zasáhnout] kolenní jamku či spáry zbroje (fügen), a hlavicí
+          (klos) ho ochromit (lemen), klouby a údy lámat a otřásat. Také tím
+          nasazuj (Ansetzen).
         </p>
       </Col>
     </Row>
@@ -1068,7 +1077,7 @@ export const Fechtbuch = ({ draft }: ArticleProps) => (
         <p>
           die gethrente fügen <br /> Ittem las denn dolchenn gar las mit allenn
           spietzen vnnd Arbeüdt mit deim kleinern zum helm wo Er offenn ist{' '}
-          <br /> Wo an¬ dene blößenn zu finden sündt ist vor gelert wordenn50
+          <br /> Wo an¬ dene blößenn zu finden sündt ist vor gelert wordenn{' '}
           Ittem felt Er auff denn bauch so fall Im auff die gelennck seines arms
           mit deinem knÿ vnnd brich Im die arm / Ittem fall im auf dz schlos am
           Rucken <br />
