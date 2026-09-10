@@ -47,7 +47,7 @@ export const SoesterskaZasti = ({ draft }: ArticleProps) => (
             publication={PUBLICATIONS.WIKI}
             href="https://de.wikipedia.org/wiki/Soest"
           />{' '}
-          Od staletí byl Soest formálně součástí kolínského kurfiřtství, ovšem
+          Po staletí byl Soest formálně součástí kolínského kurfiřtství, ovšem
           jeho měšťané si dlouhodobě hájili rozsáhlou samosprávu, vlastní
           soudnictví i svobodu hospodářské politiky. Kolínský arcibiskup nad
           městem fakticky vládl jen velmi volně.
@@ -63,12 +63,12 @@ export const SoesterskaZasti = ({ draft }: ArticleProps) => (
           bohatým Soestem a obrannou politikou městské rady, která se naopak
           snažila své svobody dále rozšiřovat. Dietrich II., příslušník mocného
           porýnského hraběcího rodu Moers, patřil k&nbsp;nejaktivnějším
-          teritoriálním politikům své doby – kromě kolínské arcidiecéze ovládali
-          jeho příbuzní biskupské stolce v&nbsp;Münsteru a Paderbornu a
-          usilovali o&nbsp;další expanzi v&nbsp;severozápadní Říši. Tato
-          koncentrace moci stála proti sobě s&nbsp;rostoucí ambicí domu
-          Kleve-Mark, jehož mladý vévoda Jan I. budoval na Dolním Rýně vlastní
-          mocenský blok.
+          teritoriálním politikům své doby – kromě kolínské arcidiecéze, kterou
+          držel sám, ovládali jeho příbuzní biskupské stolce v&nbsp;Münsteru a
+          Paderbornu a usilovali o&nbsp;další expanzi v&nbsp;severozápadní Říši.
+          Tato koncentrace moci stála proti rostoucí ambici domu Kleve-Mark,
+          jehož mladý vévoda Jan I. budoval na Dolním Rýně vlastní mocenský
+          blok.
           <Qt
             publication={PUBLICATIONS.WIKI}
             href="https://de.wikipedia.org/wiki/Dietrich_II._von_Moers"
@@ -79,7 +79,7 @@ export const SoesterskaZasti = ({ draft }: ArticleProps) => (
           využila příležitosti a po vleklých jednáních ohlásila vystoupení
           z&nbsp;arcibiskupské svrchovanosti. Dne <b>5. června 1444</b> přijali
           soestští občané za svého nového zeměpána Jana I. z&nbsp;Kleve, který
-          výslovně potvrdil veškerá staré výsady města a zaručil mu i&nbsp;práva
+          výslovně potvrdil veškeré staré výsady města a zaručil mu i&nbsp;práva
           nová. Necelé tři týdny nato, <b>25. června 1444</b>, vyhlásilo město
           arcibiskupovi formální záští (<i>Fehdebrief</i>); arcibiskupská strana
           takový krok nemohla přijmout, neboť v&nbsp;jejích očích šlo o&nbsp;
@@ -96,7 +96,7 @@ export const SoesterskaZasti = ({ draft }: ArticleProps) => (
           vnitřní spor mezi zeměpánem a městem, na straně druhé o mocenské
           střetnutí mezi dvěma porýnsko-vestfálskými dynastiemi – Moersy a
           Klevsko-Marky. Brzy se k&nbsp;Soestu připojila biskupská města Münster
-          a Paderborn (kde tamní kapituly v&nbsp; téže době svrhly Moersovy
+          a Paderborn (kde tamní kapituly v&nbsp;téže době svrhly Moersovy
           příbuzné), zatímco Dietrich získal podporu Dortmundu a
           sasko-durynských Wettinů.
         </p>
@@ -107,16 +107,16 @@ export const SoesterskaZasti = ({ draft }: ArticleProps) => (
         <h5>Průběh záští v letech 1444–1446</h5>
         <p>
           První tři roky záští probíhaly převážně v&nbsp;režimu vyčerpávající
-          partyzánské války. Žádná ze stran nedisponovala dostatečnými
+          záškodnické války. Žádná ze stran nedisponovala dostatečnými
           prostředky na trvalé polní vojsko, takže boje měly podobu řetězce
           drobných výpadů, plenění hellwegské oblasti a šarvátek
           o&nbsp;jednotlivé opěrné body. V&nbsp;březnu <b>1445</b> se kolínské
           oddíly pokusily o&nbsp;překvapivý úder na <b>Duisburg</b> na Dolním
-          Rýně, který se však nezdařil a obránci je odrazili. Hlavní pohraniční
-          válka se přesunula do prostoru kolem hradů <b>Bilstein</b> a{' '}
-          <b>Fredeburg</b> v&nbsp;sauerlandské části kolínského teritoria, na
-          něž si nárokovala klevská strana, a do oblasti Hellwegu mezi Soestem,
-          Werlem a&nbsp;Dortmundem.
+          Rýně, který se však nezdařil a obránci útok odrazili. Hlavní
+          pohraniční válka se přesunula do prostoru kolem hradů <b>Bilstein</b>{' '}
+          a <b>Fredeburg</b> v&nbsp;sauerlandské části kolínského teritoria, na
+          které si dělala nárok klevská strana, a do oblasti Hellwegu mezi
+          Soestem, Werlem a&nbsp;Dortmundem.
           <Qt
             publication={PUBLICATIONS.WIKI}
             href="https://de.wikipedia.org/wiki/Soester_Fehde"
@@ -125,8 +125,8 @@ export const SoesterskaZasti = ({ draft }: ArticleProps) => (
         <p>
           Arcibiskupské oddíly se snažily odříznout Soest od jeho zázemí
           a&nbsp;systematicky pleníly vesnice v&nbsp;okruhu Sassendorfu, Lohne,
-          Erwitte, Geseke a Salzkotten. Klevská strana vedla protivýpady proti
-          kolínskému teritoriu na Dolním Rýně a v&nbsp;okolí Bochumu,
+          Erwitte, Geseke a Salzkotten. Klevská strana vedla odvetné výpady do
+          kolínského teritoria na Dolním Rýně a v&nbsp;okolí Bochumu,
           Wattenscheidu a&nbsp;Steele. Z&nbsp;menších měst byl těžce postižen
           zejména <b>Blomberg</b> v&nbsp;Lippské krajině, který byl roku 1447
           v&nbsp;průběhu hlavního saského tažení téměř úplně zničen. Hlavní
@@ -178,22 +178,6 @@ export const SoesterskaZasti = ({ draft }: ArticleProps) => (
           />
         </p>
         <p>
-          Příchod Čechů na západoříšské bojiště byl zákonitým důsledkem poměrů
-          v&nbsp;tehdejších Čechách. Po smrti císaře Zikmunda v&nbsp;roce 1437 a
-          po pádu projektu Albrechta II. Habsburského se země ocitla
-          v&nbsp;dlouhém bezvládí (<i>interregnum</i> 1439–1453). Mladičký
-          Ladislav Pohrobek pobýval pod Friedrichovou poručnickou rukou, zatímco
-          správu země fakticky drželi zemští hejtmani v&nbsp;čele s&nbsp;Jiřím
-          z&nbsp;Poděbrad. Vojenské družiny bývalých husitů, sirotků a táboritů
-          – nyní nazývané spíše <i>bratři</i>, případně <i>polní obce</i> – byly
-          jen těžko vstřebatelné do mírové ekonomiky a hledaly živobytí
-          v&nbsp;námezdné službě za hranicemi.
-          <Qt
-            publication={PUBLICATIONS.TRESP}
-            href="https://digi20.digitale-sammlungen.de/en/fs1/object/display/bsb00045259_00133.html"
-          />
-        </p>
-        <p>
           Ústřední epizoda českého angažmá v&nbsp;Soesterské záští spadá až do
           roku <b>1447</b>. Vlastní rekrutace začala v&nbsp;
           <b>lednu 1447</b>, kdy s&nbsp;ní vévoda Vilém III. Saský – tehdy
@@ -227,7 +211,7 @@ export const SoesterskaZasti = ({ draft }: ArticleProps) => (
           />
         </p>
         <p>
-          Naumburské pobratrské příměří přerostlo bezprostředně v&nbsp;jednání
+          Naumburské bratrské příměří přerostlo bezprostředně v&nbsp;jednání
           mezi vévodou a vyslanci kolínského arcibiskupa, kterými byli{' '}
           <b>Georg Spiegel</b> a&nbsp;<b>Apel Vitzthum</b> – nejvlivnější
           poradce Vilémův. Smlouva, uzavřená v&nbsp;
@@ -239,7 +223,7 @@ export const SoesterskaZasti = ({ draft }: ArticleProps) => (
           a&nbsp;výkupného. Z&nbsp;těchto podmínek plynul Vilémovi mimořádný
           zisk – vlastním jezdcům totiž platil pouhých 20 grošů a&nbsp;pěšákům
           jen 10 grošů týdně, zatímco od arcibiskupa pobíral plný zlatý (24
-          grošů). Marže vojensko-podnikatelské činnosti tak činila 4 grošů
+          grošů). Marže vojensko-podnikatelské činnosti tak činila 4 groše
           u&nbsp;jezdce, resp. 14 grošů u&nbsp;pěšáka týdně z&nbsp;každé hlavy.
           <Qt
             publication={PUBLICATIONS.TRESP}
@@ -249,7 +233,7 @@ export const SoesterskaZasti = ({ draft }: ArticleProps) => (
         <p>
           Skutečný počet českých žoldnéřů, který se nakonec u&nbsp;Výmaru
           shromáždil, byl výrazně nižší než smlouvou slibovaných dvanáct tisíc
-          mužů: ke koni i&nbsp;k&nbsp;noze jich jejich počet je doložen na{' '}
+          mužů: skutečně doložený počet – k&nbsp;jezdcům i&nbsp;pěšákům – činil{' '}
           <b>něco málo přes 6&nbsp;000</b>. Doplnily je menší durynské
           a&nbsp;saské oddíly, takže celková síla vojska Viléma III. se
           pohybovala kolem osmi tisíc bojovníků. České jádro však zůstávalo
@@ -269,8 +253,8 @@ export const SoesterskaZasti = ({ draft }: ArticleProps) => (
           s&nbsp;ručními palnými zbraněmi a lehkou jízdou, schopnost rychlého
           přesunu na velké vzdálenosti i tvrdá disciplína při pleněních. Právě
           tyto vlastnosti byly důvodem, proč po nich tolik říšských knížat
-          sahalo, ač zároveň hluboce nedůvěřovalo jejich konfesijní a sociální
-          nespolehlivosti – v&nbsp;očích katolických Vestfálců byli
+          sahalo, byť zároveň hluboce pochybovalo o&nbsp;jejich konfesijní a
+          sociální spolehlivosti – v&nbsp;očích katolických Vestfálců byli
           českobratrští bojovníci nadále kacíři, byť bojovali za arcibiskupa.
           <Qt
             publication={PUBLICATIONS.TRESP}
@@ -285,7 +269,7 @@ export const SoesterskaZasti = ({ draft }: ArticleProps) => (
         <p>
           Patnáct českých kondotiérů, kteří se v&nbsp;
           <b>posledních dnech května 1447</b> shromáždili u&nbsp;Výmaru se svými
-          oddíly, jsou doloženy v&nbsp;saských účetních knih jmenovitě – a tato
+          oddíly, je v&nbsp;saských účetních knihách doloženo jmenovitě – a tato
           pasáž představuje jeden z&nbsp;nejdetailnějších dochovaných seznamů
           české žoldnéřské velitelské vrstvy poloviny 15. století. Šestitisícové
           české vojsko se dělilo mezi následující kapitány:
@@ -364,7 +348,7 @@ export const SoesterskaZasti = ({ draft }: ArticleProps) => (
           i&nbsp;v&nbsp;táboře a&nbsp;důsledně oddělující české oddíly od
           německých. Již na samém začátku tažení přitom musel vévoda zápasit
           s&nbsp;neochotou některých českých kapitánů, kteří se zdráhali vyrazit
-          do daleké a nejasné kampaně proti neznámým nepřátelům – část
+          do daleké a nejasné výpravy proti neznámým nepřátelům – část
           z&nbsp;nich se nechala k&nbsp;účasti dotlačit jen sliby dalších
           plateb.
           <Qt
@@ -408,7 +392,7 @@ export const SoesterskaZasti = ({ draft }: ArticleProps) => (
           českého sboru, najatého vévodou Ludvíkem IX. Bavorsko-landshutským za{' '}
           <b>13&nbsp;500 rýnských zlatých</b>, 3&nbsp;000 bavorských hřiven
           a&nbsp;3&nbsp;000 uherských dukátů. Doma se mezitím prosadil jako
-          diplomat: od roku 1454 zasedal mezi nižšešlechtickými přísedícími
+          diplomat: od roku 1454 zasedal mezi přísedícími z&nbsp;nižší šlechty
           zemského soudu, v&nbsp;roce 1455 se stal radou a&nbsp;komorníkem krále
           Ladislava Pohrobka a&nbsp;v&nbsp;letech 1457–1458 zastával úřad
           nejvyššího mincmistra. Jeho životopis je názorným příkladem toho, jak
@@ -517,7 +501,7 @@ export const SoesterskaZasti = ({ draft }: ArticleProps) => (
           verbířů: na jaře 1447 svolával Bedřich – společně s&nbsp;Petrem
           Holickým – v&nbsp;Čechách žoldnéřské oddíly a&nbsp;sám pak do Výmaru
           přivedl jednotku o&nbsp;síle asi 200 mužů. Jeho rolí tedy bylo nejen
-          velení v&nbsp; poli, ale i&nbsp;překládání mezi saskou politikou
+          velení v&nbsp;poli, ale i&nbsp;překládání mezi saskou politikou
           a&nbsp;českým žoldnéřským trhem; bez tohoto jazykově a&nbsp;sociálně
           dvojího prostředníka by se nábor v&nbsp;tak krátkém čase pravděpodobně
           nezdařil.
@@ -532,11 +516,11 @@ export const SoesterskaZasti = ({ draft }: ArticleProps) => (
         </p>
         <p>
           <b>Apel Vitzthum starší ze&nbsp;Roßly</b> (asi 1400–asi 1470) nebyl
-          český kondotiér, ale wettinský dvořan, jehož rolí stojí a&nbsp;padá
-          celá organizace náboru. Od roku 1437 sloužil jako hofmistr kurfiřta
-          Friedricha II. Pokojného, na přelomu let 1444/1445 přešel ke svému
-          mladšímu bratru Vilémovi III. a&nbsp;ujal se hofmistrovské funkce na
-          jeho durynském dvoře. Spolu s&nbsp;bratrem Bussem Vitzthumem
+          český kondotiér, ale wettinský dvořan, na&nbsp;jehož roli stojí
+          a&nbsp;padá celá organizace náboru. Od roku 1437 sloužil jako hofmistr
+          kurfiřta Friedricha II. Pokojného, na přelomu let 1444/1445 přešel ke
+          svému mladšímu bratru Vilémovi III. a&nbsp;ujal se hofmistrovské
+          funkce na jeho durynském dvoře. Spolu s&nbsp;bratrem Bussem Vitzthumem
           a&nbsp;rytíři Friedrichem von&nbsp;Witzleben a&nbsp;Bernhardem
           von&nbsp;Kochberg patřil k&nbsp;jádru pánů, kteří vévodu Viléma
           vehnali do otevřeného konfliktu s&nbsp;Friedrichem II. – pro tuto roli
@@ -566,7 +550,7 @@ export const SoesterskaZasti = ({ draft }: ArticleProps) => (
           mezi <b>Göttingenem</b> a&nbsp;<b>Einbeckem</b> přibližně týden.
           Einbeck byl přinucen zaplatit mimořádný výpalný ve výši{' '}
           <b>10&nbsp;000 zlatých</b> a&nbsp;dodávat proviant. Ve dnech{' '}
-          <b>11.–12. června 1447</b> přešlo vojsko Vesseru u&nbsp;
+          <b>11.–12. června 1447</b> přešlo vojsko Veseru u&nbsp;
           <b>Holzmindenu</b> a&nbsp;u&nbsp;<b>Höxteru</b> převzal vrchní velení
           sám arcibiskup Dietrich II.
           <Qt
@@ -578,15 +562,15 @@ export const SoesterskaZasti = ({ draft }: ArticleProps) => (
           Vstup do Lippské krajiny provázelo systematické plenění. Dne{' '}
           <b>14. června 1447</b> bylo dobyto a vypáleno město i hrad{' '}
           <b>Blomberg</b>, dále byly těžce postiženy <b>Hörn, Lemgo, Detmold</b>{' '}
-          a&nbsp;<b>Herford</b>. Zásobování tisícihlavého vojska se však stalo
-          téměř neřešitelným problémem: místní obyvatelstvo se v&nbsp;davech
-          utíkalo do opevněných měst, kraj se vyprazdňoval a&nbsp;arcibiskup,
-          navzdory smlouvě uzavřené v&nbsp;Naumburku, nebyl schopen zajistit ani
-          pravidelný žold, ani řádný proviant. Hladovějící české oddíly přešly
-          k&nbsp;samostatným loupežným výpravám, plenily kostely a&nbsp;kláštery
-          a&nbsp;jejich pověst v&nbsp;katolickém Vestfálsku se rychle zhoršovala
-          – byť šlo o&nbsp;přímý důsledek arcibiskupova selhání jako vrchního
-          velitele.
+          a&nbsp;<b>Herford</b>. Zásobování několikatisícového vojska se však
+          stalo téměř neřešitelným problémem: místní obyvatelstvo se
+          v&nbsp;davech utíkalo do opevněných měst, kraj se vyprazdňoval
+          a&nbsp;arcibiskup, navzdory smlouvě uzavřené v&nbsp;Naumburku, nebyl
+          schopen zajistit ani pravidelný žold, ani řádný proviant. Hladovějící
+          české oddíly přešly k&nbsp;samostatným loupežným výpravám, plenily
+          kostely a&nbsp;kláštery a&nbsp;jejich pověst v&nbsp;katolickém
+          Vestfálsku se rychle zhoršovala – byť šlo o&nbsp;přímý důsledek
+          arcibiskupova selhání jako vrchního velitele.
           <Qt
             publication={PUBLICATIONS.TRESP}
             href="https://digi20.digitale-sammlungen.de/en/fs1/object/display/bsb00045259_00146.html"
@@ -598,7 +582,7 @@ export const SoesterskaZasti = ({ draft }: ArticleProps) => (
           <b>20.–29. června 1447</b>. Pevně opevněné město se ubránilo, avšak
           okolí bylo zpustošeno. Hlavní úder pak směřoval na samotný{' '}
           <b>Soest</b>: obléhání bylo zahájeno <b>30. června 1447</b>.
-          Strategickou výhodu si české oddíly vydobyly obsazením klášterа&nbsp;
+          Strategickou výhodu si české oddíly vydobyly obsazením kláštera&nbsp;
           <b>sv. Walburgy</b> v&nbsp;předpolí města, odkud bylo možné vést
           dělostřelbu z&nbsp;<i>Büchsen</i> (děl) přímo na hradby. Ve{' '}
           <i>Schermutzelu</i> – drobném kavalerijním střetnutí – se Čechům
@@ -679,7 +663,7 @@ export const SoesterskaZasti = ({ draft }: ArticleProps) => (
         <p>
           Cesta zpět nebyla snadná. Místní představitelé v&nbsp;Durynsku se –
           aniž by Čechy přímo napadali – stavěli žoldnéřským oddílům do cesty,
-          kdykoli se odchýlili z&nbsp;nejkratší trasy, aby plenili nebo
+          kdykoli se oddíly odchýlily z&nbsp;nejkratší trasy, aby plenili nebo
           odpočívali. Hladovějící a&nbsp;ztrátami oslabené vojsko dorazilo do{' '}
           <b>Chebu</b> kolem <b>3.–4. srpna 1447</b> a&nbsp;čekalo zde na
           vyslance vévody Viléma. Vilém sám započal vyplácet poslední splátky{' '}
@@ -708,7 +692,7 @@ export const SoesterskaZasti = ({ draft }: ArticleProps) => (
           zapadalo do dlouhodobé burgundské politiky pronikání do severoporýnské
           a vestfálské oblasti. Kolínský arcibiskup a&nbsp;wettinští vévodové
           měli na západě Říše „<i>gleichgelagerte Interessen</i>&ldquo; – tedy
-          souběžné zájmy proti burgundské hegemonii, a právě proto Wilhelm III.
+          souběžné zájmy proti burgundské hegemonii, a právě proto Vilém III.
           tak ochotně přijal Dietrichovu nabídku na západní tažení.
           <Qt
             publication={PUBLICATIONS.TRESP}
@@ -751,7 +735,7 @@ export const SoesterskaZasti = ({ draft }: ArticleProps) => (
           zastaveny v&nbsp;<b>dubnu 1449</b>. K&nbsp;vlastnímu mírovému jednání
           došlo v&nbsp;<b>Maastrichtu</b> pod patronací burgundského vévody
           Filipa Dobrého a&nbsp;dvou vyslanců papežské stolice – kardinála{' '}
-          <b>Mikuláše Kusánského</b> (Nikolaus von&nbsp;Kues) a&nbsp;{' '}
+          <b>Mikuláše Kusánského</b> (Nikolaus von&nbsp;Kues) a&nbsp;
           <b>Juana Carvajala</b>. Smlouva byla uzavřena <b>27. dubna 1449</b>.
           <Qt
             publication={PUBLICATIONS.WIKI}
