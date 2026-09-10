@@ -103,12 +103,9 @@ export const JostTyrovsky = ({ draft }: ArticleProps) => (
           Joštův další významný výstup spadá do roku 1450, když Jiří z Poděbrad
           podniknul po porážce Strakonické jednoty v bitvě u Mýta&nbsp;
           <b>4.&nbsp;června&nbsp;1450</b>
-          <Qt
-            publication={PUBLICATIONS.MACEK}
-            href="https://www.vhu.cz/exhibit/macek-josef-jiri-z-podebrad/"
-          />{' '}
-          v čele své strany tažení proti jejím spojencům, zejména vévodovi
-          Friedrichu Saskému, přičemž bylo dobyto město Gera a den na to&nbsp;
+          <Qt publication={PUBLICATIONS.MACEK} /> v čele své strany tažení proti
+          jejím spojencům, zejména vévodovi Friedrichu Saskému, přičemž bylo
+          dobyto město Gera a den na to&nbsp;
           <b>23.&nbsp;října&nbsp;1450</b> (některé zdroje uvádějí&nbsp;
           <b>16. října 1450</b>) uzavřeno příměří. Jošt z Einsiedlu, který se
           účastnil tohoto tažení v družině pána Petra Holického ze Šternberka,

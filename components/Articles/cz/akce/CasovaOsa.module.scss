@@ -1,0 +1,236 @@
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 18px;
+  margin-bottom: 8px;
+  font-size: 0.9rem;
+}
+
+.legendItem {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: none;
+  border: none;
+  padding: 2px 6px;
+  margin: 0;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: opacity 0.15s, background 0.15s;
+  &:hover {
+    background: rgba(0, 0, 0, 0.05);
+  }
+  &:focus-visible {
+    outline: 2px solid #555;
+    outline-offset: 2px;
+  }
+}
+
+.legendItemInactive {
+  opacity: 0.35;
+  text-decoration: line-through;
+}
+
+.mercToggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: none;
+  border: 1px solid #b8860b;
+  padding: 2px 8px;
+  margin: 0 0 0 12px;
+  font: inherit;
+  font-size: 0.9rem;
+  color: #b8860b;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background 0.15s, color 0.15s;
+  &:hover {
+    background: rgba(184, 134, 11, 0.1);
+  }
+  &:focus-visible {
+    outline: 2px solid #555;
+    outline-offset: 2px;
+  }
+}
+
+.mercToggleActive {
+  background: #b8860b;
+  color: #fff;
+  &:hover {
+    background: #9a7009;
+  }
+}
+
+.mercToggleIcon {
+  font-size: 1.05em;
+  line-height: 1;
+}
+
+.legendSwatch {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border-radius: 2px;
+}
+
+.scrollHint {
+  font-size: 0.8rem;
+  color: #777;
+  margin: 4px 0 8px 0;
+}
+
+.scrollContainer {
+  overflow-x: auto;
+  margin: 8px 0 24px 0;
+  border: 1px solid #ddd;
+  background: #fff;
+  position: relative;
+}
+
+.gantt {
+  --label-col: 200px;
+  --year-col: 14px;
+  --row-height: 24px;
+  --header-height: 26px;
+
+  display: grid;
+  grid-auto-rows: var(--row-height);
+  position: relative;
+  background: #fff;
+}
+
+.headerLabel {
+  grid-row: 1;
+  grid-column: 1;
+  position: sticky;
+  left: 0;
+  background: #f3f3f3;
+  border-bottom: 1px solid #bbb;
+  border-right: 1px solid #bbb;
+  padding: 4px 8px;
+  font-weight: 600;
+  z-index: 4;
+  height: var(--header-height);
+  display: flex;
+  align-items: center;
+  font-size: 0.85rem;
+}
+
+.headerDecade {
+  grid-row: 1;
+  background: #f3f3f3;
+  border-bottom: 1px solid #bbb;
+  border-left: 1px solid #ccc;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #555;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 4px;
+  height: var(--header-height);
+  z-index: 1;
+}
+
+.decadeDivider {
+  border-left: 1px dashed rgba(0, 0, 0, 0.18);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.rowLabel {
+  grid-column: 1;
+  position: sticky;
+  left: 0;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  border-right: 1px solid #bbb;
+  padding: 2px 8px;
+  z-index: 3;
+  height: var(--row-height);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.82rem;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.rowName {
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.rowNameLink {
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: rgba(0, 0, 0, 0.35);
+  text-underline-offset: 2px;
+  &:hover {
+    color: #5a3030;
+    text-decoration-color: currentColor;
+  }
+}
+
+.rowDates {
+  color: #777;
+  font-size: 0.78em;
+  flex-shrink: 0;
+}
+
+.mercFlag {
+  flex-shrink: 0;
+  color: #b8860b;
+  font-size: 1em;
+  line-height: 1;
+  cursor: help;
+}
+
+.bar {
+  height: calc(var(--row-height) - 6px);
+  align-self: center;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  padding: 0 4px;
+  color: #fff;
+  font-size: 0.68rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  z-index: 1;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.barLink {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  &:hover {
+    color: #fff;
+    filter: brightness(1.15);
+  }
+  &:focus {
+    outline: 2px solid #fff;
+    outline-offset: -2px;
+  }
+}
+
+.barLabel {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: block;
+}

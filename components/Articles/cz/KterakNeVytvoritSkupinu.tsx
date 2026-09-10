@@ -275,7 +275,7 @@ export const KterakNeVytvoritSkupinu = ({ draft }: ArticleProps) => (
                 Přijde žena s koštetem a s pokřikem:{' '}
                 <i>
                   &bdquo;Co se mi tu perete holoto, já tu musím uklidit!&rdquo;
-                </i>
+                </i>{' '}
                 všechny vyžene koštětem z pódia. Poslední je zpacifikován
                 hrozivý bojovník (tomu se diváci vždy velmi smějí).
               </li>

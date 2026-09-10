@@ -110,14 +110,11 @@ export const JobstVonEinsiedl = ({ draft }: ArticleProps) => (
           Jobsts nächstes bedeutendes Wirken fand 1450 statt, als Georg von
           Podiebrad nach dem Sieg über die Strakonitzer Union in der Schlacht
           bei Mýto am <b>4. Juni 1450</b>
-          <Qt
-            publication={PUBLICATIONS.MACEK}
-            href="https://www.vhu.cz/exhibit/macek-josef-jiri-z-podebrad/"
-          />{' '}
-          seinen Feldzug gegen deren Verbündete führte, insbesondere gegen
-          Herzog Friedrich von Sachsen, was zur Eroberung der Stadt Gera führte.
-          Am folgenden Tag, dem <b>23. Oktober 1450</b> (einige Quellen nennen
-          den <b>16. Oktober 1450</b>), wurde ein Waffenstillstand geschlossen.
+          <Qt publication={PUBLICATIONS.MACEK} /> seinen Feldzug gegen deren
+          Verbündete führte, insbesondere gegen Herzog Friedrich von Sachsen,
+          was zur Eroberung der Stadt Gera führte. Am folgenden Tag, dem{' '}
+          <b>23. Oktober 1450</b> (einige Quellen nennen den{' '}
+          <b>16. Oktober 1450</b>), wurde ein Waffenstillstand geschlossen.
           Jobst von Einsiedl, der an diesem Feldzug im Gefolge des Herrn Petr
           Holický von Šternberk teilgenommen hatte, schrieb seinen Brief am{' '}
           <b>25. Oktober 1450</b> aus dem Feldlager bei Salza, nahe Plavno, den
