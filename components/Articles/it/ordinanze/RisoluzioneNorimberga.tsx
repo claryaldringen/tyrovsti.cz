@@ -2,6 +2,8 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { ArticleProps } from '../../../../types'
 import { DraftBadge } from '../../../DraftBadge'
+import { Qt } from '../../../Quote/Qt'
+import { PUBLICATIONS } from '../../../../shared/constants'
 
 export const RisoluzioneNorimberga = ({ draft }: ArticleProps) => (
   <>
@@ -44,6 +46,10 @@ export const RisoluzioneNorimberga = ({ draft }: ArticleProps) => (
             Item ein wagenketten, die als lang sei, als sunst ander drei sind.
           </li>
         </ol>
+        <Qt
+          publication={PUBLICATIONS.TOMAN}
+          href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:fdfeb0c4-7c80-460c-b70e-77199df5b2bd"
+        />
       </Col>
       <Col md={6}>
         <ol>

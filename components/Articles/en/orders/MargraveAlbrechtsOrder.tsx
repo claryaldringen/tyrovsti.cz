@@ -2,6 +2,8 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { ArticleProps } from '../../../../types'
 import { DraftBadge } from '../../../DraftBadge'
+import { Qt } from '../../../Quote/Qt'
+import { PUBLICATIONS } from '../../../../shared/constants'
 
 export const MargraveAlbrechtsOrder = ({ draft }: ArticleProps) => (
   <>
@@ -133,6 +135,10 @@ export const MargraveAlbrechtsOrder = ({ draft }: ArticleProps) => (
             machen, einen Steinwurf von der Wagenburg.
           </li>
         </ol>
+        <Qt
+          publication={PUBLICATIONS.TOMAN}
+          href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:5828962a-3453-4f26-aa48-2b7b2e47b931"
+        />
       </Col>
       <Col md={6}>
         <ol>

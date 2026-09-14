@@ -4,6 +4,7 @@ import { HeadExtended } from '../components/HeadExtended'
 import { LANG_IT } from '../shared/constants'
 import { ImageWithTitle } from '../components/ImageWithTitle/ImageWithTitle'
 import { Payment } from '../components/Payment'
+import { Sources } from '../components/Quote/Sources'
 import { RisoluzioneNorimberga } from '../components/Articles/it/ordinanze/RisoluzioneNorimberga'
 import { OrdinanzaCarriCavalieriTedeschi } from '../components/Articles/it/ordinanze/OrdinanzaCarriCavalieriTedeschi'
 import { OrdinanzaCarriFrancoforte } from '../components/Articles/it/ordinanze/OrdinanzaCarriFrancoforte'
@@ -40,18 +41,7 @@ const Page = () => {
             <IstruzioneFormazioneCarri />
             <OrdinanzaDelMargravioAlbrecht />
             <OrdinanzaCarriSeldeneck />
-            <Row>
-              <Col>
-                <h3>Riferimenti:</h3>
-                <ul>
-                  <li>
-                    Hugo Toman:{' '}
-                    <i>Husitské válečnictví za doby Žižkovy a Prokopovy</i>,
-                    Praha 1898
-                  </li>
-                </ul>
-              </Col>
-            </Row>
+            <Sources />
             <Payment />
           </Col>
         </Row>

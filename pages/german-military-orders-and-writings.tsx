@@ -4,6 +4,7 @@ import { HeadExtended } from '../components/HeadExtended'
 import { LANG_EN } from '../shared/constants'
 import { ImageWithTitle } from '../components/ImageWithTitle/ImageWithTitle'
 import { Payment } from '../components/Payment'
+import { Sources } from '../components/Quote/Sources'
 import { NurembergResolution } from '../components/Articles/en/orders/NurembergResolution'
 import { WagonOrderOfGermanKnights } from '../components/Articles/en/orders/WagonOrderOfGermanKnights'
 import { FrankfurtWagonOrder } from '../components/Articles/en/orders/FrankfurtWagonOrder'
@@ -40,18 +41,7 @@ const Page = () => {
             <MargravesInstructionOnWagonFormation />
             <MargraveAlbrechtsOrder />
             <PhilipOfSeldenecksWagonOrder />
-            <Row>
-              <Col>
-                <h3>References:</h3>
-                <ul>
-                  <li>
-                    Hugo Toman:{' '}
-                    <i>Husitské válečnictví za doby Žižkovy a Prokopovy</i>,
-                    Praha 1898
-                  </li>
-                </ul>
-              </Col>
-            </Row>
+            <Sources />
             <Payment />
           </Col>
         </Row>

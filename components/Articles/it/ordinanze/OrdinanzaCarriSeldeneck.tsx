@@ -2,6 +2,8 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { ArticleProps } from '../../../../types'
 import { DraftBadge } from '../../../DraftBadge'
+import { Qt } from '../../../Quote/Qt'
+import { PUBLICATIONS } from '../../../../shared/constants'
 
 export const OrdinanzaCarriSeldeneck = ({ draft }: ArticleProps) => (
   <>
@@ -598,6 +600,10 @@ export const OrdinanzaCarriSeldeneck = ({ draft }: ArticleProps) => (
             bessern.
           </li>
         </ol>
+        <Qt
+          publication={PUBLICATIONS.TOMAN}
+          href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:0f255aab-b59c-4264-afd5-d7b478bccea2"
+        />
       </Col>
       <Col md={6}>
         <p>

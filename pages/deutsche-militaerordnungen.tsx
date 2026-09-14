@@ -4,6 +4,7 @@ import { HeadExtended } from '../components/HeadExtended'
 import { LANG_DE } from '../shared/constants'
 import { ImageWithTitle } from '../components/ImageWithTitle/ImageWithTitle'
 import { Payment } from '../components/Payment'
+import { Sources } from '../components/Quote/Sources'
 import { NuernbergerBeschluss } from '../components/Articles/de/ordnungen/NuernbergerBeschluss'
 import { WagenordnungDerDeutschenRitter } from '../components/Articles/de/ordnungen/WagenordnungDerDeutschenRitter'
 import { FrankfurterWagenordnung } from '../components/Articles/de/ordnungen/FrankfurterWagenordnung'
@@ -40,18 +41,7 @@ const Page = () => {
             <InstruktionWagenaufstellung />
             <OrdnungDesMarkgrafenAlbrecht />
             <PhilippVonSeldeneckWagenordnung />
-            <Row>
-              <Col>
-                <h3>Literaturverzeichnis:</h3>
-                <ul>
-                  <li>
-                    Hugo Toman:{' '}
-                    <i>Husitské válečnictví za doby Žižkovy a Prokopovy</i>,
-                    Praha 1898
-                  </li>
-                </ul>
-              </Col>
-            </Row>
+            <Sources />
             <Payment />
           </Col>
         </Row>

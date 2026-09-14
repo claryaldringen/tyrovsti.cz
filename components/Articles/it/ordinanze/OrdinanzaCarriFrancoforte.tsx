@@ -2,6 +2,8 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { ArticleProps } from '../../../../types'
 import { DraftBadge } from '../../../DraftBadge'
+import { Qt } from '../../../Quote/Qt'
+import { PUBLICATIONS } from '../../../../shared/constants'
 
 export const OrdinanzaCarriFrancoforte = ({ draft }: ArticleProps) => (
   <>
@@ -38,6 +40,10 @@ export const OrdinanzaCarriFrancoforte = ({ draft }: ArticleProps) => (
           mögent mit uch bringen. <br />
           Dat. ut supra.
         </p>
+        <Qt
+          publication={PUBLICATIONS.TOMAN}
+          href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:576e88b9-8260-4b59-8423-a1850108b081"
+        />
       </Col>
       <Col md={6}>
         <p>

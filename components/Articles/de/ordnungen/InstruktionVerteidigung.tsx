@@ -2,6 +2,8 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { ArticleProps } from '../../../../types'
 import { DraftBadge } from '../../../DraftBadge'
+import { Qt } from '../../../Quote/Qt'
+import { PUBLICATIONS } from '../../../../shared/constants'
 
 export const InstruktionVerteidigung = ({ draft }: ArticleProps) => (
   <>
@@ -64,6 +66,10 @@ export const InstruktionVerteidigung = ({ draft }: ArticleProps) => (
             Abtheilungen bestimmt.)
           </li>
         </ol>
+        <Qt
+          publication={PUBLICATIONS.TOMAN}
+          href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:d9b9294a-9488-4e4f-961e-1984eba3e4fd"
+        />
       </Col>
       <Col md={6}>
         <ol>

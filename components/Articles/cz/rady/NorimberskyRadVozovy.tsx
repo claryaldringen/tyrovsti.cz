@@ -2,6 +2,8 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { ArticleProps } from '../../../../types'
 import { DraftBadge } from '../../../DraftBadge'
+import { Qt } from '../../../Quote/Qt'
+import { PUBLICATIONS } from '../../../../shared/constants'
 
 export const NorimberskyRadVozovy = ({ draft }: ArticleProps) => (
   <>
@@ -108,6 +110,10 @@ export const NorimberskyRadVozovy = ({ draft }: ArticleProps) => (
             gab man dieselben wochen kein sold.
           </li>
         </ol>
+        <Qt
+          publication={PUBLICATIONS.TOMAN}
+          href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:bab9ad31-14b9-402f-8533-bfb4dd580fd5"
+        />
       </Col>
       <Col md={6}>
         <b>O smyslu vozové hradby.</b>

@@ -2,6 +2,8 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { ArticleProps } from '../../../../types'
 import { DraftBadge } from '../../../DraftBadge'
+import { Qt } from '../../../Quote/Qt'
+import { PUBLICATIONS } from '../../../../shared/constants'
 
 export const IstruzioneFormazioneCarri = ({ draft }: ArticleProps) => (
   <>
@@ -76,6 +78,10 @@ export const IstruzioneFormazioneCarri = ({ draft }: ArticleProps) => (
           habe uber tausend heerwagen, ane (ohne) futterwagen, nechstmals im
           felde gehabt.
         </p>
+        <Qt
+          publication={PUBLICATIONS.TOMAN}
+          href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:1a5fff7e-12a4-4ef8-9374-71fcfbdf16cd"
+        />
       </Col>
       <Col md={6}>
         <ol>

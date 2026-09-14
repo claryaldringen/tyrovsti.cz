@@ -3,6 +3,8 @@ import React from 'react'
 import { Cit } from '../../../Citation'
 import { ArticleProps } from '../../../../types'
 import { DraftBadge } from '../../../DraftBadge'
+import { Qt } from '../../../Quote/Qt'
+import { PUBLICATIONS } from '../../../../shared/constants'
 
 export const OrdinanzaCarriCavalieriTedeschi = ({ draft }: ArticleProps) => (
   <>
@@ -74,6 +76,10 @@ export const OrdinanzaCarriCavalieriTedeschi = ({ draft }: ArticleProps) => (
             und gute vier pferde darzu usrichten.
           </li>
         </ol>
+        <Qt
+          publication={PUBLICATIONS.TOMAN}
+          href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:daae406d-40b6-4334-b6a9-6761b28fca56"
+        />
       </Col>
       <Col md={6}>
         <ol>

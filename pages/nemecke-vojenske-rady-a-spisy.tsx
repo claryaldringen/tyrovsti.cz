@@ -11,6 +11,7 @@ import { FilipaSeldeneckaRadVozovy } from '../components/Articles/cz/rady/Filipa
 import { HeadExtended } from '../components/HeadExtended'
 import { ImageWithTitle } from '../components/ImageWithTitle/ImageWithTitle'
 import { Payment } from '../components/Payment'
+import { Sources } from '../components/Quote/Sources'
 import { LANG_CS } from '../shared/constants'
 
 const Page = () => {
@@ -40,18 +41,7 @@ const Page = () => {
             <InstrukceMarkrabiAlbrechtaOSikovaniVozu />
             <RadMarkrabiAlbrechta />
             <FilipaSeldeneckaRadVozovy />
-            <Row>
-              <Col>
-                <h3>Použitá literatura:</h3>
-                <ul>
-                  <li>
-                    Hugo Toman:{' '}
-                    <i>Husitské válečnictví za doby Žižkovy a Prokopovy</i>,
-                    Praha 1898
-                  </li>
-                </ul>
-              </Col>
-            </Row>
+            <Sources />
             <Payment />
           </Col>
         </Row>
