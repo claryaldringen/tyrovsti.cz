@@ -1,8 +1,9 @@
 import { Col, Row } from 'reactstrap'
-import Link from 'next/link'
 import React from 'react'
 import { ArticleProps } from '../../../../types'
 import { DraftBadge } from '../../../DraftBadge'
+import { Qt } from '../../../Quote/Qt'
+import { PUBLICATIONS } from '../../../../shared/constants'
 
 export const ZizkuvVojenskyRad = ({ draft }: ArticleProps) => (
   <>
@@ -10,22 +11,25 @@ export const ZizkuvVojenskyRad = ({ draft }: ArticleProps) => (
       <Col>
         <div className="anchor" id="zizkuv-vojensky-rad" />
         <h4>Tzv. Žižkův vojenský řád{draft && <DraftBadge />}</h4>
-        <p>
-          Přepis byl převzat ze stránek školy{' '}
-          <Link href="https://www.digladior.cz/historicky-serm/zizkuv-vojensky-rad/">
-            Digladior
-          </Link>
-        </p>
+        <p>Přepis byl převzat ze stránek školy Digladior</p>
         <p>
           Takzvaný Žižkův vojenský řád, který se dochoval v krasopisném opisu z
-          2. poloviny 16. století, není bohužel datován. Ani jeho tradiční
-          označení není úplně přesné. Ve skutečnosti jde o ustavující zápis,
-          programové prohlášení a kázeňský řád Žižkova východočeského svazu,
-          hlavně jeho vojenské složky. Pravděpodobně vznikl v první polovině
-          září 1423, i když nelze zcela vyloučit jeho vznik v průběhu první
-          poloviny listopadu 1423. Začíná čtyřmi pražskými artikuly, pokračuje
-          výčtem signatářů a poté již následují organizační opatření, zejména
-          kázeňského charakteru.
+          2. poloviny 16. století, není bohužel datován.
+          <Qt
+            publication={PUBLICATIONS.WIKI}
+            href="https://cs.wikipedia.org/wiki/%C5%BDi%C5%BEk%C5%AFv_vojensk%C3%BD_%C5%99%C3%A1d"
+          />{' '}
+          Ani jeho tradiční označení není úplně přesné. Ve skutečnosti jde o
+          ustavující zápis, programové prohlášení a kázeňský řád Žižkova
+          východočeského svazu, hlavně jeho vojenské složky. Pravděpodobně
+          vznikl v první polovině září 1423, i když nelze zcela vyloučit jeho
+          vznik v průběhu první poloviny listopadu 1423.
+          <Qt
+            publication={PUBLICATIONS.TOMAN}
+            href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:956e3859-9fca-4287-93f8-4c33d455d0f3"
+          />{' '}
+          Začíná čtyřmi pražskými artikuly, pokračuje výčtem signatářů a poté
+          již následují organizační opatření, zejména kázeňského charakteru.
         </p>
         <p>&nbsp;</p>
       </Col>
@@ -230,7 +234,10 @@ export const ZizkuvVojenskyRad = ({ draft }: ArticleProps) => (
           svolujeme, a svolujeme jej skutečně držeti a zachovati i ostříhati s
           pomocí nestvořené a na věky požehnané Trojice svaté. Amen.
         </p>
-        <p>Tak Pán Buoh dej!</p>
+        <p>
+          Tak Pán Buoh dej!
+          <Qt publication={PUBLICATIONS.VYBOR1} note="Str. 502–506" />
+        </p>
       </Col>
     </Row>
   </>

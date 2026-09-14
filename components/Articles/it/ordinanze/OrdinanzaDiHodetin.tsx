@@ -1,9 +1,10 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
-import Link from 'next/link'
 import { Cit } from '../../../Citation'
 import { ArticleProps } from '../../../../types'
 import { DraftBadge } from '../../../DraftBadge'
+import { Qt } from '../../../Quote/Qt'
+import { PUBLICATIONS } from '../../../../shared/constants'
 
 export const OrdinanzaDiHodetin = ({ draft }: ArticleProps) => (
   <>
@@ -17,30 +18,36 @@ export const OrdinanzaDiHodetin = ({ draft }: ArticleProps) => (
           La cosiddetta ordinanza militare di Jan Hájek di Hodětín
           {draft && <DraftBadge />}
         </h4>
-        <p>
-          La trascrizione è stata tratta dal sito scolastico{' '}
-          <Link href="https://www.digladior.cz/historicky-serm/vojenske-zrizeni-dle-vaclava-iv/">
-            Digladior
-          </Link>
-        </p>
+        <p>La trascrizione è stata tratta dal sito scolastico Digladior</p>
         <p>
           La datazione e la paternità di quest&apos;opera sono difficili da
           stabilire. Sebbene l&apos;introduzione dell&apos;ordinanza indichi
           l&apos;anno 1413 e nomini Jan Hájek di Hodětín, ciambellano del re
           Venceslao IV, come autore, la creazione di questa ordinanza nel 1413
-          fu già messa in discussione da Palacký e Toman. Jan Durdík propendeva
-          per l&apos;opinione che il testo originale fosse stato redatto in
-          quell&apos;anno, ma che ne sia sopravvissuta soltanto una versione
-          riveduta, il che, secondo lui, è dimostrato dall&apos;articolo che
-          vieta il saccheggio di chiese e monasteri, il quale a suo avviso fu
-          scritto sulla base delle esperienze del periodo delle guerre hussite.
-          È inoltre singolare la precisione con cui viene descritta
-          l&apos;organizzazione del campo di carri da guerra. La stesura
-          dell&apos;ordinanza è pertanto datata piuttosto al 1431. Purtroppo il
-          manoscritto originale non è giunto fino ai nostri giorni, poiché fu
-          distrutto nell&apos;incendio del Municipio della Città Vecchia nel
-          maggio 1945. Oggi è noto grazie a copie più recenti e a edizioni
-          successive.
+          fu già messa in discussione da Palacký e Toman.
+          <Qt
+            publication={PUBLICATIONS.TOMAN}
+            href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:b20c2763-1196-4237-b865-63d45ed3cb7c"
+          />{' '}
+          Jan Durdík propendeva per l&apos;opinione che il testo originale fosse
+          stato redatto in quell&apos;anno, ma che ne sia sopravvissuta soltanto
+          una versione riveduta, il che, secondo lui, è dimostrato
+          dall&apos;articolo che vieta il saccheggio di chiese e monasteri, il
+          quale a suo avviso fu scritto sulla base delle esperienze del periodo
+          delle guerre hussite.
+          <Qt publication={PUBLICATIONS.DURDIK} note="p. 52–53" /> È inoltre
+          singolare la precisione con cui viene descritta l&apos;organizzazione
+          del campo di carri da guerra. La stesura dell&apos;ordinanza è
+          pertanto datata piuttosto al 1431.
+          <Qt
+            publication={PUBLICATIONS.TOMAN}
+            href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:feb8df51-1b85-4bc4-a67b-a9e558de37d2"
+          />{' '}
+          Purtroppo il manoscritto originale non è giunto fino ai nostri giorni,
+          poiché fu distrutto nell&apos;incendio del Municipio della Città
+          Vecchia nel maggio 1945.
+          <Qt publication={PUBLICATIONS.VYBOR1} note="p. 522" /> Oggi è noto
+          grazie a copie più recenti e a edizioni successive.
         </p>
         <p>&nbsp;</p>
       </Col>
@@ -352,6 +359,7 @@ export const OrdinanzaDiHodetin = ({ draft }: ArticleProps) => (
           kratcemi, rajči, lopatami a s sekyrami, bylo-li by kde cest potřebie
           opravováti; a odtud aby neodcházeli pod vsazením do řetězuov za tři
           dni.
+          <Qt publication={PUBLICATIONS.VYBOR1} note="p. 511–515" />
         </p>
       </Col>
       <Col md={6}>

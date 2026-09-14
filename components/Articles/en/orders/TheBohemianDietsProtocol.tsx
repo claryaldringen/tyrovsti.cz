@@ -3,6 +3,8 @@ import React from 'react'
 import Image from 'next/image'
 import { ArticleProps } from '../../../../types'
 import { DraftBadge } from '../../../DraftBadge'
+import { Qt } from '../../../Quote/Qt'
+import { PUBLICATIONS } from '../../../../shared/constants'
 
 export const TheBohemianDietsProtocol = ({ draft }: ArticleProps) => (
   <>
@@ -29,6 +31,10 @@ export const TheBohemianDietsProtocol = ({ draft }: ArticleProps) => (
           all the regions shall be done, besides the laying down already
           written; and the coachmen shall be provided by the custom as it is
           written of the region of Hradec.
+          <Qt
+            publication={PUBLICATIONS.TOMAN}
+            href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:fe65a737-500c-424a-b8b2-102596b34834"
+          />
         </p>
       </Col>
     </Row>

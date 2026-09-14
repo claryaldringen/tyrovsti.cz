@@ -105,7 +105,7 @@ export const Qt = ({ publication, href, note }: QtProps) => {
               {getCity(publication.city, lang)} {publication.year}
             </span>
           )}
-          {note && <p>{note}</p>}
+          {note && <span className={styles.note}>{note}</span>}
         </span>
       )}
     </span>

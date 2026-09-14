@@ -2,6 +2,8 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { ArticleProps } from '../../../../types'
 import { DraftBadge } from '../../../DraftBadge'
+import { Qt } from '../../../Quote/Qt'
+import { PUBLICATIONS } from '../../../../shared/constants'
 
 export const ZizkasMilitaryCampaignToHungary = ({ draft }: ArticleProps) => (
   <>
@@ -50,6 +52,7 @@ export const ZizkasMilitaryCampaignToHungary = ({ draft }: ArticleProps) => (
           hard for six days and repels opponents, and on the seventh day he
           rightfully relaxes on Moravian territory. Modern historians date the
           creation of this description to after 1484.
+          <Qt publication={PUBLICATIONS.CORNEJ} note="p. 535–541" />
         </p>
         <p>&nbsp;</p>
       </Col>
@@ -173,6 +176,7 @@ export const ZizkasMilitaryCampaignToHungary = ({ draft }: ArticleProps) => (
           vytiskl mocnú rukú. Neb tak jemu těch vozuov vždy přibývalo ven, až
           jimi všemi vytáhl ven. A tak jemu pán Buoh pomohl z Uher vytáhnúti.
           Ale jakž jest Žižka počal bojovati, najtěžší jemu přišlo.
+          <Qt publication={PUBLICATIONS.VYBOR1} note="p. 507–510" />
         </p>
       </Col>
       <Col md={6}>

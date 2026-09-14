@@ -3,6 +3,8 @@ import React from 'react'
 import { ImageWithTitle } from '../../../ImageWithTitle'
 import { ArticleProps } from '../../../../types'
 import { DraftBadge } from '../../../DraftBadge'
+import { Qt } from '../../../Quote/Qt'
+import { PUBLICATIONS } from '../../../../shared/constants'
 
 export const YeWhoAreWarriorsOfGod = ({ draft }: ArticleProps) => (
   <>
@@ -27,10 +29,14 @@ export const YeWhoAreWarriorsOfGod = ({ draft }: ArticleProps) => (
       <Col>
         <p>
           The most famous Hussite battle chant, whose authorship is attributed
-          to the Tábor priest Jan Čapek from Klatovy, can also be considered the
-          first written Czech military order. Through the song, the soldiers,
-          often illiterate, instilled warrior principles, which then appeared in
-          later orders:
+          to the Tábor priest Jan Čapek from Klatovy,
+          <Qt
+            publication={PUBLICATIONS.WIKI}
+            href="https://cs.wikipedia.org/wiki/Jan_%C4%8Capek_(t%C3%A1borita)"
+          />{' '}
+          can also be considered the first written Czech military order. Through
+          the song, the soldiers, often illiterate, instilled warrior
+          principles, which then appeared in later orders:
           <br />
           1st - 4th stanza exhort to faith in God, His will and grace.
           <br />
@@ -42,6 +48,10 @@ export const YeWhoAreWarriorsOfGod = ({ draft }: ArticleProps) => (
           <br />
           8th stanza - all of you remember the motto issued, watch and obey your
           captains, protect one another and each keep to his own formation.
+          <Qt
+            publication={PUBLICATIONS.TOMAN}
+            href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:a422d79f-5a17-43e8-b8c4-6feb9f561810"
+          />
           <br />
         </p>
       </Col>
@@ -52,6 +62,7 @@ export const YeWhoAreWarriorsOfGod = ({ draft }: ArticleProps) => (
           <b>Ktoz jsu bozi boyownici</b>
           <br />
           (how it&apos;s written in Hymnal of Jistebnice)
+          <Qt publication={PUBLICATIONS.JISTEBNICE} />
         </p>
         <p>
           Ktoz jsu bozi boyownici

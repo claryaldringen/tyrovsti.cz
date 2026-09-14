@@ -2,6 +2,8 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { ArticleProps } from '../../../../types'
 import { DraftBadge } from '../../../DraftBadge'
+import { Qt } from '../../../Quote/Qt'
+import { PUBLICATIONS } from '../../../../shared/constants'
 
 export const CampagnaDiZizkaInUngheria = ({ draft }: ArticleProps) => (
   <>
@@ -53,6 +55,7 @@ export const CampagnaDiZizkaInUngheria = ({ draft }: ArticleProps) => (
           gli avversari, e il settimo giorno riposa legittimamente in territorio
           moravo. Gli storici moderni datano la creazione di questa descrizione
           a dopo il 1484.
+          <Qt publication={PUBLICATIONS.CORNEJ} note="p. 535–541" />
         </p>
         <p>&nbsp;</p>
       </Col>
@@ -176,6 +179,7 @@ export const CampagnaDiZizkaInUngheria = ({ draft }: ArticleProps) => (
           vytiskl mocnú rukú. Neb tak jemu těch vozuov vždy přibývalo ven, až
           jimi všemi vytáhl ven. A tak jemu pán Buoh pomohl z Uher vytáhnúti.
           Ale jakž jest Žižka počal bojovati, najtěžší jemu přišlo.
+          <Qt publication={PUBLICATIONS.VYBOR1} note="p. 507–510" />
         </p>
       </Col>
       <Col md={6}>

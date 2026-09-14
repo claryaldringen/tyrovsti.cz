@@ -2,6 +2,8 @@ import React from 'react'
 import { Col, Row } from 'reactstrap'
 import { ArticleProps } from '../../../../types'
 import { DraftBadge } from '../../../DraftBadge'
+import { Qt } from '../../../Quote/Qt'
+import { PUBLICATIONS } from '../../../../shared/constants'
 
 export const BoehmischeMilitaerordnungenEinfuehrung = ({
   draft,
@@ -21,18 +23,28 @@ export const BoehmischeMilitaerordnungenEinfuehrung = ({
           von 1158. Die älteste Militärordnung der Schweizer ist der sogenannte{' '}
           <i>Sempacherbrief</i>, der 1393 in Zürich verfasst wurde. Diese beiden
           Ordnungen wurden zur Grundlage und zum Vorbild für die meisten
-          späteren Schriften dieser Art im deutschen Raum. Abgesehen von der
-          umstrittenen Datierung der sogenannten Hodětín-Ordnung (verschiedene
-          Gelehrte datieren sie zwischen 1413 und 1431) wurde der erste Versuch
-          zur Einführung einer vollwertigen Militärordnung von Jan Hvězda von
-          Vícemilice im Oktober 1421 in Prag unternommen. Diese Ordnung ist
-          jedoch nicht erhalten geblieben und wird lediglich in einer Erwähnung
-          in der Hussitischen Chronik des Laurentius von Březová überliefert:{' '}
+          späteren Schriften dieser Art im deutschen Raum.
+          <Qt
+            publication={PUBLICATIONS.TOMAN}
+            href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:fd18f7bc-3cb3-4d13-a2c4-1cd3a9878f2d"
+          />{' '}
+          Abgesehen von der umstrittenen Datierung der sogenannten
+          Hodětín-Ordnung (verschiedene Gelehrte datieren sie zwischen 1413 und
+          1431) wurde der erste Versuch zur Einführung einer vollwertigen
+          Militärordnung von Jan Hvězda von Vícemilice im Oktober 1421 in Prag
+          unternommen. Diese Ordnung ist jedoch nicht erhalten geblieben und
+          wird lediglich in einer Erwähnung in der Hussitischen Chronik des
+          Laurentius von Březová überliefert
+          <Qt publication={PUBLICATIONS.VAVRINEC} note="S. 259–260" />:{' '}
           <i>
             dass bei Feldzügen niemand ohne den Willen der Hauptleute das Heer
             verlassen solle, noch, wenn es dazu käme, unter Verlust von Leib und
             Gut aus der Schlacht stehlen dürfe.
           </i>
+          <Qt
+            publication={PUBLICATIONS.TOMAN}
+            href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:956e3859-9fca-4287-93f8-4c33d455d0f3"
+          />
         </p>
         <p>
           Nach der Mitte des 15. Jahrhunderts nahmen Anzahl und Qualität der

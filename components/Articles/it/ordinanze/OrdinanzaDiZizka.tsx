@@ -1,8 +1,9 @@
 import { Col, Row } from 'reactstrap'
-import Link from 'next/link'
 import React from 'react'
 import { ArticleProps } from '../../../../types'
 import { DraftBadge } from '../../../DraftBadge'
+import { Qt } from '../../../Quote/Qt'
+import { PUBLICATIONS } from '../../../../shared/constants'
 
 export const OrdinanzaDiZizka = ({ draft }: ArticleProps) => (
   <>
@@ -12,25 +13,29 @@ export const OrdinanzaDiZizka = ({ draft }: ArticleProps) => (
         <h4>
           La cosiddetta Ordinanza militare di Žižka{draft && <DraftBadge />}
         </h4>
-        <p>
-          La trascrizione è stata tratta dal sito didattico{' '}
-          <Link href="https://www.digladior.cz/historicky-serm/zizkuv-vojensky-rad/">
-            Digladior
-          </Link>
-        </p>
+        <p>La trascrizione è stata tratta dal sito didattico Digladior</p>
         <p>
           La cosiddetta Ordinanza militare di Žižka, conservatasi in una copia
           calligrafica della seconda metà del XVI secolo, non è purtroppo
-          datata. Anche la sua denominazione tradizionale non è del tutto
-          corretta. Si tratta, in realtà, dell&apos;atto fondativo, della
-          dichiarazione programmatica e del codice disciplinare dell&apos;Unione
-          della Boemia orientale di Žižka, in particolare della sua componente
-          militare. Fu probabilmente redatta nella prima metà di settembre del
-          1423, sebbene non si possa escludere del tutto una datazione alla
-          prima metà di novembre del medesimo anno. Il testo si apre con i
-          quattro Articoli di Praga, seguiti dall&apos;elenco dei firmatari, e
-          prosegue con disposizioni organizzative, prevalentemente di carattere
-          disciplinare.
+          datata.
+          <Qt
+            publication={PUBLICATIONS.WIKI}
+            href="https://cs.wikipedia.org/wiki/%C5%BDi%C5%BEk%C5%AFv_vojensk%C3%BD_%C5%99%C3%A1d"
+          />{' '}
+          Anche la sua denominazione tradizionale non è del tutto corretta. Si
+          tratta, in realtà, dell&apos;atto fondativo, della dichiarazione
+          programmatica e del codice disciplinare dell&apos;Unione della Boemia
+          orientale di Žižka, in particolare della sua componente militare. Fu
+          probabilmente redatta nella prima metà di settembre del 1423, sebbene
+          non si possa escludere del tutto una datazione alla prima metà di
+          novembre del medesimo anno.
+          <Qt
+            publication={PUBLICATIONS.TOMAN}
+            href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:956e3859-9fca-4287-93f8-4c33d455d0f3"
+          />{' '}
+          Il testo si apre con i quattro Articoli di Praga, seguiti
+          dall&apos;elenco dei firmatari, e prosegue con disposizioni
+          organizzative, prevalentemente di carattere disciplinare.
         </p>
         <p>&nbsp;</p>
       </Col>
@@ -235,7 +240,10 @@ export const OrdinanzaDiZizka = ({ draft }: ArticleProps) => (
           svolujeme, a svolujeme jej skutečně držeti a zachovati i ostříhati s
           pomocí nestvořené a na věky požehnané Trojice svaté. Amen.
         </p>
-        <p>Tak Pán Buoh dej!</p>
+        <p>
+          Tak Pán Buoh dej!
+          <Qt publication={PUBLICATIONS.VYBOR1} note="p. 502–506" />
+        </p>
       </Col>
       <Col md={6}>
         <p>

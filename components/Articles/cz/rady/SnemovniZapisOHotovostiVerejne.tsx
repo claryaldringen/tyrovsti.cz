@@ -3,6 +3,8 @@ import React from 'react'
 import { ImageWithTitle } from '../../../ImageWithTitle/ImageWithTitle'
 import { ArticleProps } from '../../../../types'
 import { DraftBadge } from '../../../DraftBadge'
+import { Qt } from '../../../Quote/Qt'
+import { PUBLICATIONS } from '../../../../shared/constants'
 
 export const SnemovniZapisOHotovostiVerejne = ({ draft }: ArticleProps) => (
   <>
@@ -24,6 +26,10 @@ export const SnemovniZapisOHotovostiVerejne = ({ draft }: ArticleProps) => (
           jízdná. A tak ze všech krajův aby též spůsobeno bylo, vedle položení
           již psaného; a vozové aby byli opatřeni obyčejem, jakož se o Hradeckém
           kraji vypisuje.
+          <Qt
+            publication={PUBLICATIONS.TOMAN}
+            href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:fe65a737-500c-424a-b8b2-102596b34834"
+          />
         </p>
       </Col>
     </Row>

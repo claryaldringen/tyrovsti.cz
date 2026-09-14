@@ -383,4 +383,48 @@ export const PUBLICATIONS: Record<string, Publication> = {
     },
     year: 1497,
   },
+  ERBEN: {
+    name: 'Wýbor z literatury české II',
+    author: 'Karel Jaromír Erben',
+    city: { cs: 'Praha', en: 'Prague', de: 'Prag', it: 'Praga' },
+    year: 1868,
+    href: 'https://kramerius5.nkp.cz/view/uuid:3d010e30-967d-11dc-a3f5-000d606f5dc6',
+  },
+  TOMAN: {
+    name: 'Husitské válečnictví za doby Žižkovy a Prokopovy',
+    author: 'Hugo Toman',
+    city: { cs: 'Praha', en: 'Prague', de: 'Prag', it: 'Praga' },
+    year: 1898,
+    href: 'https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6',
+  },
+  CORNEJ: {
+    name: 'Jan Žižka: Život a doba husitského válečníka',
+    author: 'Petr Čornej',
+    city: { cs: 'Praha', en: 'Prague', de: 'Prag', it: 'Praga' },
+    year: 2019,
+  },
+  VAVRINEC: {
+    name: 'Husitská kronika',
+    author: 'Vavřinec z Březové',
+    city: { cs: 'Praha', en: 'Prague', de: 'Prag', it: 'Praga' },
+    year: 1979,
+  },
+  DURDIK: {
+    name: 'Husitské vojenství',
+    author: 'Jan Durdík',
+    city: { cs: 'Praha', en: 'Prague', de: 'Prag', it: 'Praga' },
+    year: 1953,
+  },
+  VYBOR1: {
+    name: 'Výbor z české literatury doby husitské I',
+    author: 'Bohuslav Havránek, Josef Hrabák, Jiří Daňhelka (ed.)',
+    city: { cs: 'Praha', en: 'Prague', de: 'Prag', it: 'Praga' },
+    year: 1963,
+  },
+  JISTEBNICE: {
+    name: 'Jistebnický kancionál (Knihovna Národního muzea, sign. II C 7)',
+    author: '',
+    city: '',
+    year: undefined,
+  },
 }

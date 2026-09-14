@@ -3,6 +3,8 @@ import React from 'react'
 import { ImageWithTitle } from '../../../ImageWithTitle'
 import { ArticleProps } from '../../../../types'
 import { DraftBadge } from '../../../DraftBadge'
+import { Qt } from '../../../Quote/Qt'
+import { PUBLICATIONS } from '../../../../shared/constants'
 
 export const IhrDieIhrGottesKriegerSeid = ({ draft }: ArticleProps) => (
   <>
@@ -28,11 +30,16 @@ export const IhrDieIhrGottesKriegerSeid = ({ draft }: ArticleProps) => (
       <Col>
         <p>
           Der berühmteste hussitische Schlachtgesang, dessen Urheberschaft dem
-          Taboriter Priester Jan Čapek aus Klatovy zugeschrieben wird, kann auch
-          als die erste schriftliche böhmische Militärordnung betrachtet werden.
-          Durch das Lied wurden den Soldaten, die oft des Lesens und Schreibens
-          unkundig waren, kriegerische Grundsätze vermittelt, die später in den
-          Militärordnungen wieder auftauchen:
+          Taboriter Priester Jan Čapek aus Klatovy
+          <Qt
+            publication={PUBLICATIONS.WIKI}
+            href="https://cs.wikipedia.org/wiki/Jan_%C4%8Capek_(t%C3%A1borita)"
+          />{' '}
+          zugeschrieben wird, kann auch als die erste schriftliche böhmische
+          Militärordnung betrachtet werden. Durch das Lied wurden den Soldaten,
+          die oft des Lesens und Schreibens unkundig waren, kriegerische
+          Grundsätze vermittelt, die später in den Militärordnungen wieder
+          auftauchen:
           <br />
           1. - 4. Strophe ermahnen zum Glauben an Gott, seinen Willen und seine
           Gnade.
@@ -47,6 +54,10 @@ export const IhrDieIhrGottesKriegerSeid = ({ draft }: ArticleProps) => (
           8. Strophe - Merkt euch alle die ausgegebene Losung, wacht und
           gehorcht euren Hauptleuten, schützt einander und jeder halte seine
           Aufstellung.
+          <Qt
+            publication={PUBLICATIONS.TOMAN}
+            href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:a422d79f-5a17-43e8-b8c4-6feb9f561810"
+          />
           <br />
         </p>
       </Col>
@@ -57,6 +68,7 @@ export const IhrDieIhrGottesKriegerSeid = ({ draft }: ArticleProps) => (
           <b>Ktoz jsu bozi boyownici</b>
           <br />
           (wie es im Jistebnicer Gesangbuch steht)
+          <Qt publication={PUBLICATIONS.JISTEBNICE} />
         </p>
         <p>
           Ktoz jsu bozi boyownici

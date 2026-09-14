@@ -2,6 +2,8 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { ArticleProps } from '../../../../types'
 import { DraftBadge } from '../../../DraftBadge'
+import { Qt } from '../../../Quote/Qt'
+import { PUBLICATIONS } from '../../../../shared/constants'
 
 export const ZizkasFeldzugNachUngarn = ({ draft }: ArticleProps) => (
   <>
@@ -53,6 +55,7 @@ export const ZizkasFeldzugNachUngarn = ({ draft }: ArticleProps) => (
           und am siebten Tag ruht er rechtmäßig auf mährischem Gebiet. Moderne
           Historiker datieren die Entstehung dieser Beschreibung auf die Zeit
           nach 1484.
+          <Qt publication={PUBLICATIONS.CORNEJ} note="S. 535–541" />
         </p>
         <p>&nbsp;</p>
       </Col>
@@ -176,6 +179,7 @@ export const ZizkasFeldzugNachUngarn = ({ draft }: ArticleProps) => (
           vytiskl mocnú rukú. Neb tak jemu těch vozuov vždy přibývalo ven, až
           jimi všemi vytáhl ven. A tak jemu pán Buoh pomohl z Uher vytáhnúti.
           Ale jakž jest Žižka počal bojovati, najtěžší jemu přišlo.
+          <Qt publication={PUBLICATIONS.VYBOR1} note="S. 507–510" />
         </p>
       </Col>
       <Col md={6}>

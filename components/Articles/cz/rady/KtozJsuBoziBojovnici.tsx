@@ -3,6 +3,8 @@ import React from 'react'
 import { ImageWithTitle } from '../../../ImageWithTitle'
 import { ArticleProps } from '../../../../types'
 import { DraftBadge } from '../../../DraftBadge'
+import { Qt } from '../../../Quote/Qt'
+import { PUBLICATIONS } from '../../../../shared/constants'
 
 export const KtozJsuBoziBojovnici = ({ draft }: ArticleProps) => (
   <>
@@ -27,10 +29,14 @@ export const KtozJsuBoziBojovnici = ({ draft }: ArticleProps) => (
       <Col>
         <p>
           Nejznámější husitský bojový chorál, jehož autorství je připisováno
-          táborskému knězi Janu Čapkovi z Klatov, lze zároveň považovat za první
-          zapsaný český vojenský řád. Prostřednictvím písně se tak vojákům,
-          mnohdy negramotným, vštěpují válečnické zásady, jež se pak objevují i
-          v řádech pozdějších:
+          táborskému knězi Janu Čapkovi z Klatov,
+          <Qt
+            publication={PUBLICATIONS.WIKI}
+            href="https://cs.wikipedia.org/wiki/Jan_%C4%8Capek_(t%C3%A1borita)"
+          />{' '}
+          lze zároveň považovat za první zapsaný český vojenský řád.
+          Prostřednictvím písně se tak vojákům, mnohdy negramotným, vštěpují
+          válečnické zásady, jež se pak objevují i v řádech pozdějších:
           <br />
           1. - 4. sloka nabádá k víře v Boha, jeho vůli a milost. <br />
           5. sloka - nehleďte na množství a neutíkejte z boje. <br />
@@ -40,6 +46,10 @@ export const KtozJsuBoziBojovnici = ({ draft }: ArticleProps) => (
           <br />
           8. sloka - všichni si pamatujte vydané heslo, pozorujte a poslouchejte
           své hejtmany, chraňte jeden druhého a každý se držte svého šiku.
+          <Qt
+            publication={PUBLICATIONS.TOMAN}
+            href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:a422d79f-5a17-43e8-b8c4-6feb9f561810"
+          />
           <br />
         </p>
       </Col>
@@ -50,6 +60,7 @@ export const KtozJsuBoziBojovnici = ({ draft }: ArticleProps) => (
           <b>Ktoz jsu bozi boyownici</b>
           <br />
           (jak zapsáno jest v Jistebnickém kancionálu)
+          <Qt publication={PUBLICATIONS.JISTEBNICE} />
         </p>
         <p>
           Ktoz jsu bozi boyownici

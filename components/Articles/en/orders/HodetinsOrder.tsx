@@ -1,9 +1,10 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
-import Link from 'next/link'
 import { Cit } from '../../../Citation'
 import { ArticleProps } from '../../../../types'
 import { DraftBadge } from '../../../DraftBadge'
+import { Qt } from '../../../Quote/Qt'
+import { PUBLICATIONS } from '../../../../shared/constants'
 
 export const HodetinsOrder = ({ draft }: ArticleProps) => (
   <>
@@ -17,27 +18,33 @@ export const HodetinsOrder = ({ draft }: ArticleProps) => (
           The So-Called Military Order of Jan Hájek of Hodětín
           {draft && <DraftBadge />}
         </h4>
-        <p>
-          The transcription was taken from the school website{' '}
-          <Link href="https://www.digladior.cz/historicky-serm/vojenske-zrizeni-dle-vaclava-iv/">
-            Digladior
-          </Link>
-        </p>
+        <p>The transcription was taken from the school website Digladior</p>
         <p>
           Dating and authorship of this work are difficult. Although the
           introduction of the order states the year 1413 and names Jan Hájek of
           Hodětín, the chamberlain of King Wenceslas IV, as the author, the
           creation of this order in 1413 was already questioned by Palacký and
-          Toman. Jan Durdík leaned towards the opinion that the original text
-          was created in that year, but only its revised version has survived to
+          Toman.
+          <Qt
+            publication={PUBLICATIONS.TOMAN}
+            href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:b20c2763-1196-4237-b865-63d45ed3cb7c"
+          />{' '}
+          Jan Durdík leaned towards the opinion that the original text was
+          created in that year, but only its revised version has survived to
           this day, which according to him is proven by the article prohibiting
           the plundering of churches and monasteries, which according to him was
           written based on experiences from the Hussite Wars period.
-          Furthermore, it is striking how precisely the work with the wagon fort
-          is described here. The creation of the order is thus rather dated to
-          1431. Unfortunately, the original manuscript has not survived to this
-          day because it was destroyed in the fire of the Old Town Hall in May
-          1945. Today it is known thanks to younger copies and editions.
+          <Qt publication={PUBLICATIONS.DURDIK} note="p. 52–53" /> Furthermore,
+          it is striking how precisely the work with the wagon fort is described
+          here. The creation of the order is thus rather dated to 1431.
+          <Qt
+            publication={PUBLICATIONS.TOMAN}
+            href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:feb8df51-1b85-4bc4-a67b-a9e558de37d2"
+          />{' '}
+          Unfortunately, the original manuscript has not survived to this day
+          because it was destroyed in the fire of the Old Town Hall in May 1945.
+          <Qt publication={PUBLICATIONS.VYBOR1} note="p. 522" /> Today it is
+          known thanks to younger copies and editions.
         </p>
         <p>&nbsp;</p>
       </Col>
@@ -349,6 +356,7 @@ export const HodetinsOrder = ({ draft }: ArticleProps) => (
           kratcemi, rajči, lopatami a s sekyrami, bylo-li by kde cest potřebie
           opravováti; a odtud aby neodcházeli pod vsazením do řetězuov za tři
           dni.
+          <Qt publication={PUBLICATIONS.VYBOR1} note="p. 511–515" />
         </p>
       </Col>
       <Col md={6}>

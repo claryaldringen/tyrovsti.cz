@@ -9,6 +9,7 @@ import { HodetinsOrdnung } from '../components/Articles/de/ordnungen/HodetinsOrd
 import { ZizkasOrdnung } from '../components/Articles/de/ordnungen/ZizkasOrdnung'
 import { ZizkasFeldzugNachUngarn } from '../components/Articles/de/ordnungen/ZizkasFeldzugNachUngarn'
 import { Payment } from '../components/Payment'
+import { Sources } from '../components/Quote/Sources'
 import { BoehmischeMilitaerordnungenEinfuehrung } from '../components/Articles/de/ordnungen/BoehmischeMilitaerordnungenEinfuehrung'
 
 const Page = () => {
@@ -29,30 +30,7 @@ const Page = () => {
             <BoehmischerLandtagsbeschluss />
             <ZizkasFeldzugNachUngarn />
             <VaclavVlceksHandbuch />
-            <Row>
-              <Col>
-                <h4>Literaturverzeichnis:</h4>
-                <ul>
-                  <li>
-                    Hugo Toman:{' '}
-                    <i>Husitské válečnictví za doby Žižkovy a Prokopovy</i>,
-                    Praha 1898
-                  </li>
-                  <li>
-                    Petr Čornej:{' '}
-                    <i>Jan Žižka: Život a doba husitského válečníka</i>, Praha
-                    2019
-                  </li>
-                  <li>
-                    Vavřinec z Březové: <i>Husitská kronika</i>, Praha 1979
-                  </li>
-                  <li>
-                    Karel Jaromír Erben: <i>Wýbor z literatury české</i>, Praha
-                    1868
-                  </li>
-                </ul>
-              </Col>
-            </Row>
+            <Sources />
             <Payment />
           </Col>
         </Row>

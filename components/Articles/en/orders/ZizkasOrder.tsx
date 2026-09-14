@@ -1,8 +1,9 @@
 import { Col, Row } from 'reactstrap'
-import Link from 'next/link'
 import React from 'react'
 import { ArticleProps } from '../../../../types'
 import { DraftBadge } from '../../../DraftBadge'
+import { Qt } from '../../../Quote/Qt'
+import { PUBLICATIONS } from '../../../../shared/constants'
 
 export const ZizkasOrder = ({ draft }: ArticleProps) => (
   <>
@@ -12,23 +13,28 @@ export const ZizkasOrder = ({ draft }: ArticleProps) => (
         <h4>
           The So-Called Žižka&apos;s Military Order{draft && <DraftBadge />}
         </h4>
-        <p>
-          The transcription was taken from the school website{' '}
-          <Link href="https://www.digladior.cz/historicky-serm/zizkuv-vojensky-rad/">
-            Digladior
-          </Link>
-        </p>
+        <p>The transcription was taken from the school website Digladior</p>
         <p>
           The so-called Žižka&apos;s Military Order, which has been preserved in
           a calligraphic copy from the second half of the 16th century, is
-          unfortunately not dated. Its traditional designation is also not
-          entirely accurate. In fact, it is the founding record, a programmatic
-          declaration, and the disciplinary code of Žižka&apos;s East Bohemian
-          Union, mainly its military component. It was probably created in the
-          first half of September 1423, although its creation in the first half
-          of November 1423 cannot be entirely ruled out. It begins with the four
-          Prague Articles, followed by a list of signatories, and then continues
-          with organizational measures, especially of a disciplinary nature.
+          unfortunately not dated.
+          <Qt
+            publication={PUBLICATIONS.WIKI}
+            href="https://cs.wikipedia.org/wiki/%C5%BDi%C5%BEk%C5%AFv_vojensk%C3%BD_%C5%99%C3%A1d"
+          />{' '}
+          Its traditional designation is also not entirely accurate. In fact, it
+          is the founding record, a programmatic declaration, and the
+          disciplinary code of Žižka&apos;s East Bohemian Union, mainly its
+          military component. It was probably created in the first half of
+          September 1423, although its creation in the first half of November
+          1423 cannot be entirely ruled out.
+          <Qt
+            publication={PUBLICATIONS.TOMAN}
+            href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:956e3859-9fca-4287-93f8-4c33d455d0f3"
+          />{' '}
+          It begins with the four Prague Articles, followed by a list of
+          signatories, and then continues with organizational measures,
+          especially of a disciplinary nature.
         </p>
         <p>&nbsp;</p>
       </Col>
@@ -233,7 +239,10 @@ export const ZizkasOrder = ({ draft }: ArticleProps) => (
           svolujeme, a svolujeme jej skutečně držeti a zachovati i ostříhati s
           pomocí nestvořené a na věky požehnané Trojice svaté. Amen.
         </p>
-        <p>Tak Pán Buoh dej!</p>
+        <p>
+          Tak Pán Buoh dej!
+          <Qt publication={PUBLICATIONS.VYBOR1} note="p. 502–506" />
+        </p>
       </Col>
       <Col md={6}>
         <p>

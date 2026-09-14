@@ -1,8 +1,9 @@
 import { Col, Row } from 'reactstrap'
-import Link from 'next/link'
 import React from 'react'
 import { ArticleProps } from '../../../../types'
 import { DraftBadge } from '../../../DraftBadge'
+import { Qt } from '../../../Quote/Qt'
+import { PUBLICATIONS } from '../../../../shared/constants'
 
 export const ZizkasOrdnung = ({ draft }: ArticleProps) => (
   <>
@@ -11,25 +12,30 @@ export const ZizkasOrdnung = ({ draft }: ArticleProps) => (
         <div className="anchor" id="the-so-called-zizkas-military-order" />
         <h4>Die sogenannte Žižka-Militärordnung{draft && <DraftBadge />}</h4>
         <p>
-          Die Transkription wurde von der Schulwebseite{' '}
-          <Link href="https://www.digladior.cz/historicky-serm/zizkuv-vojensky-rad/">
-            Digladior
-          </Link>{' '}
-          übernommen.
+          Die Transkription wurde von der Schulwebseite Digladior übernommen.
         </p>
         <p>
           Die sogenannte Žižka-Militärordnung, die in einer kalligraphischen
           Abschrift aus der zweiten Hälfte des 16. Jahrhunderts erhalten ist,
-          ist leider nicht datiert. Auch ihre herkömmliche Bezeichnung ist nicht
-          ganz zutreffend. Tatsächlich handelt es sich um die Gründungsurkunde,
-          eine programmatische Erklärung und den Disziplinarkodex von Žižkas
+          ist leider nicht datiert.
+          <Qt
+            publication={PUBLICATIONS.WIKI}
+            href="https://cs.wikipedia.org/wiki/%C5%BDi%C5%BEk%C5%AFv_vojensk%C3%BD_%C5%99%C3%A1d"
+          />{' '}
+          Auch ihre herkömmliche Bezeichnung ist nicht ganz zutreffend.
+          Tatsächlich handelt es sich um die Gründungsurkunde, eine
+          programmatische Erklärung und den Disziplinarkodex von Žižkas
           ostböhmischem Bund, vor allem seiner militärischen Komponente. Sie
           entstand wahrscheinlich in der ersten Septemberhälfte 1423, obwohl
           eine Entstehung in der ersten Novemberhälfte 1423 nicht völlig
-          ausgeschlossen werden kann. Sie beginnt mit den vier Prager Artikeln,
-          gefolgt von einer Liste der Unterzeichner, und setzt sich dann mit
-          organisatorischen Maßnahmen, insbesondere disziplinarischer Natur,
-          fort.
+          ausgeschlossen werden kann.
+          <Qt
+            publication={PUBLICATIONS.TOMAN}
+            href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:956e3859-9fca-4287-93f8-4c33d455d0f3"
+          />{' '}
+          Sie beginnt mit den vier Prager Artikeln, gefolgt von einer Liste der
+          Unterzeichner, und setzt sich dann mit organisatorischen Maßnahmen,
+          insbesondere disziplinarischer Natur, fort.
         </p>
         <p>&nbsp;</p>
       </Col>
@@ -234,7 +240,10 @@ export const ZizkasOrdnung = ({ draft }: ArticleProps) => (
           svolujeme, a svolujeme jej skutečně držeti a zachovati i ostříhati s
           pomocí nestvořené a na věky požehnané Trojice svaté. Amen.
         </p>
-        <p>Tak Pán Buoh dej!</p>
+        <p>
+          Tak Pán Buoh dej!
+          <Qt publication={PUBLICATIONS.VYBOR1} note="S. 502–506" />
+        </p>
       </Col>
       <Col md={6}>
         <p>

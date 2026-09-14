@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import { QuoteContext } from './QuoteProvider'
 import { Col, Row } from 'reactstrap'
-import { LANG_CS, LANG_DE } from '../../shared/constants'
+import { LANG_CS, LANG_DE, LANG_IT } from '../../shared/constants'
 import Link from 'next/link'
 import { useLanguage } from '../Language'
 import { getCity } from './utils'
@@ -18,7 +18,9 @@ export const Sources = () => {
             ? 'Použitá literatura'
             : lang === LANG_DE
               ? 'Quellenverzeichnis'
-              : 'Sources'}
+              : lang === LANG_IT
+                ? 'Riferimenti'
+                : 'Sources'}
           :
         </h4>
         <ol>

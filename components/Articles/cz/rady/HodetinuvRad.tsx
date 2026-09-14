@@ -1,8 +1,9 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
-import Link from 'next/link'
 import { ArticleProps } from '../../../../types'
 import { DraftBadge } from '../../../DraftBadge'
+import { Qt } from '../../../Quote/Qt'
+import { PUBLICATIONS } from '../../../../shared/constants'
 
 export const HodetinuvRad = ({ draft }: ArticleProps) => (
   <>
@@ -12,25 +13,32 @@ export const HodetinuvRad = ({ draft }: ArticleProps) => (
         <h4>
           Tzv. Jana Hájka z Hodětína řád vojenský{draft && <DraftBadge />}
         </h4>
-        <p>
-          Přepis byl převzat ze stránek školy{' '}
-          <Link href="https://www.digladior.cz/historicky-serm/vojenske-zrizeni-dle-vaclava-iv/">
-            Digladior
-          </Link>
-        </p>
+        <p>Přepis byl převzat ze stránek školy Digladior</p>
         <p>
           Datace a autorství tohoto díla je obtížná. V úvodu řádu je sice
-          uvedeno vročení 1431 a jako autor je uveden Jan Hájek z Hodětína,
+          uvedeno vročení 1413 a jako autor je uveden Jan Hájek z Hodětína,
           podkomoří krále Václava IV., ale vznik tohoto řádu v roce 1413
-          zpochybňoval již Palacký a Toman. Jan Durdík se přikláněl k názoru, že
-          původní text vznikl v tomto roce, ale nám se do dnešních dnů dochovala
-          pouze jeho zrevidovaná verze, což by podle něj dokazoval článek
-          zakazující plenění kostelů a klášterů, který podle něj vznikl až na
-          základě zkušeností z období husitských válek. Dále je zarážející, jak
-          přesně se zde popisuje práce s vozovou hradbou. Vznik řádu se tak
-          klade spíše do roku 1431. Originál rukopisu se bohužel do dnešních dnů
-          nedochoval, protože podlehl požáru Staroměstské radnice v květnu 1945.
-          Dnes je tak znám díky mladším opisům a edicím.
+          zpochybňoval již Palacký a Toman.
+          <Qt
+            publication={PUBLICATIONS.TOMAN}
+            href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:b20c2763-1196-4237-b865-63d45ed3cb7c"
+          />{' '}
+          Jan Durdík se přikláněl k názoru, že původní text vznikl v tomto roce,
+          ale nám se do dnešních dnů dochovala pouze jeho zrevidovaná verze, což
+          by podle něj dokazoval článek zakazující plenění kostelů a klášterů,
+          který podle něj vznikl až na základě zkušeností z období husitských
+          válek.
+          <Qt publication={PUBLICATIONS.DURDIK} note="Str. 52–53" /> Dále je
+          zarážející, jak přesně se zde popisuje práce s vozovou hradbou. Vznik
+          řádu se tak klade spíše do roku 1431.
+          <Qt
+            publication={PUBLICATIONS.TOMAN}
+            href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:feb8df51-1b85-4bc4-a67b-a9e558de37d2"
+          />{' '}
+          Originál rukopisu se bohužel do dnešních dnů nedochoval, protože
+          podlehl požáru Staroměstské radnice v květnu 1945.
+          <Qt publication={PUBLICATIONS.VYBOR1} note="Str. 522" /> Dnes je tak
+          znám díky mladším opisům a edicím.
         </p>
         <p>&nbsp;</p>
       </Col>
@@ -342,6 +350,7 @@ export const HodetinuvRad = ({ draft }: ArticleProps) => (
           kratcemi, rajči, lopatami a s sekyrami, bylo-li by kde cest potřebie
           opravováti; a odtud aby neodcházeli pod vsazením do řetězuov za tři
           dni.
+          <Qt publication={PUBLICATIONS.VYBOR1} note="Str. 511–515" />
         </p>
       </Col>
     </Row>

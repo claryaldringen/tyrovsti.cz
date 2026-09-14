@@ -1,9 +1,10 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
-import Link from 'next/link'
 import { Cit } from '../../../Citation'
 import { ArticleProps } from '../../../../types'
 import { DraftBadge } from '../../../DraftBadge'
+import { Qt } from '../../../Quote/Qt'
+import { PUBLICATIONS } from '../../../../shared/constants'
 
 export const HodetinsOrdnung = ({ draft }: ArticleProps) => (
   <>
@@ -18,28 +19,35 @@ export const HodetinsOrdnung = ({ draft }: ArticleProps) => (
           {draft && <DraftBadge />}
         </h4>
         <p>
-          Die Transkription wurde von der Schulwebseite{' '}
-          <Link href="https://www.digladior.cz/historicky-serm/vojenske-zrizeni-dle-vaclava-iv/">
-            Digladior
-          </Link>{' '}
-          übernommen.
+          Die Transkription wurde von der Schulwebseite Digladior übernommen.
         </p>
         <p>
           Die Datierung und Urheberschaft dieses Werkes sind umstritten. Obwohl
           die Einleitung der Ordnung das Jahr 1413 angibt und Jan Hájek von
           Hodětín, den Unterkämmerer König Wenzels IV., als Verfasser nennt,
           wurde die Entstehung dieser Ordnung im Jahre 1413 bereits von Palacký
-          und Toman in Frage gestellt. Jan Durdík neigte zu der Ansicht, dass
-          der ursprüngliche Text in jenem Jahr entstand, jedoch nur seine
-          überarbeitete Fassung bis heute erhalten geblieben ist, was seiner
-          Meinung nach durch den Artikel belegt wird, der die Plünderung von
-          Kirchen und Klöstern verbietet und laut ihm auf Erfahrungen aus der
-          Zeit der Hussitenkriege zurückgeht. Darüber hinaus fällt auf, wie
-          genau die Arbeit mit der Wagenburg hier beschrieben wird. Die
-          Entstehung der Ordnung wird daher eher auf das Jahr 1431 datiert.
+          und Toman in Frage gestellt.
+          <Qt
+            publication={PUBLICATIONS.TOMAN}
+            href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:b20c2763-1196-4237-b865-63d45ed3cb7c"
+          />{' '}
+          Jan Durdík neigte zu der Ansicht, dass der ursprüngliche Text in jenem
+          Jahr entstand, jedoch nur seine überarbeitete Fassung bis heute
+          erhalten geblieben ist, was seiner Meinung nach durch den Artikel
+          belegt wird, der die Plünderung von Kirchen und Klöstern verbietet und
+          laut ihm auf Erfahrungen aus der Zeit der Hussitenkriege zurückgeht.
+          <Qt publication={PUBLICATIONS.DURDIK} note="S. 52–53" /> Darüber
+          hinaus fällt auf, wie genau die Arbeit mit der Wagenburg hier
+          beschrieben wird. Die Entstehung der Ordnung wird daher eher auf das
+          Jahr 1431 datiert.
+          <Qt
+            publication={PUBLICATIONS.TOMAN}
+            href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:feb8df51-1b85-4bc4-a67b-a9e558de37d2"
+          />{' '}
           Leider ist das Originalmanuskript nicht erhalten geblieben, da es beim
-          Brand des Altstädter Rathauses im Mai 1945 zerstört wurde. Heute ist
-          es dank jüngerer Abschriften und Editionen bekannt.
+          Brand des Altstädter Rathauses im Mai 1945 zerstört wurde.
+          <Qt publication={PUBLICATIONS.VYBOR1} note="S. 522" /> Heute ist es
+          dank jüngerer Abschriften und Editionen bekannt.
         </p>
         <p>&nbsp;</p>
       </Col>
@@ -351,6 +359,7 @@ export const HodetinsOrdnung = ({ draft }: ArticleProps) => (
           kratcemi, rajči, lopatami a s sekyrami, bylo-li by kde cest potřebie
           opravováti; a odtud aby neodcházeli pod vsazením do řetězuov za tři
           dni.
+          <Qt publication={PUBLICATIONS.VYBOR1} note="S. 511–515" />
         </p>
       </Col>
       <Col md={6}>

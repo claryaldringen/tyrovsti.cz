@@ -2,6 +2,8 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { ArticleProps } from '../../../../types'
 import { DraftBadge } from '../../../DraftBadge'
+import { Qt } from '../../../Quote/Qt'
+import { PUBLICATIONS } from '../../../../shared/constants'
 
 export const ZizkovoTazeniDoUher = ({ draft }: ArticleProps) => (
   <>
@@ -45,6 +47,7 @@ export const ZizkovoTazeniDoUher = ({ draft }: ArticleProps) => (
           Žižka tvrdě pracuje a odráží protivníky a sedmý den na moravském území
           zaslouženě relaxuje. Vznik tohoto popisu je moderními historiky kladen
           až za rok 1484.
+          <Qt publication={PUBLICATIONS.CORNEJ} note="Str. 535–541" />
         </p>
         <p>&nbsp;</p>
       </Col>
@@ -168,6 +171,7 @@ export const ZizkovoTazeniDoUher = ({ draft }: ArticleProps) => (
           vytiskl mocnú rukú. Neb tak jemu těch vozuov vždy přibývalo ven, až
           jimi všemi vytáhl ven. A tak jemu pán Buoh pomohl z Uher vytáhnúti.
           Ale jakž jest Žižka počal bojovati, najtěžší jemu přišlo.
+          <Qt publication={PUBLICATIONS.VYBOR1} note="Str. 507–510" />
         </p>
       </Col>
       <Col md={6}>

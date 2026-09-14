@@ -9,6 +9,7 @@ import { OrdinanzaDiHodetin } from '../components/Articles/it/ordinanze/Ordinanz
 import { OrdinanzaDiZizka } from '../components/Articles/it/ordinanze/OrdinanzaDiZizka'
 import { CampagnaDiZizkaInUngheria } from '../components/Articles/it/ordinanze/CampagnaDiZizkaInUngheria'
 import { Payment } from '../components/Payment'
+import { Sources } from '../components/Quote/Sources'
 import { IntroduzioneOrdinanzeCeche } from '../components/Articles/it/ordinanze/IntroduzioneOrdinanzeCeche'
 
 const Page = () => {
@@ -29,30 +30,7 @@ const Page = () => {
             <ProtocolloDellaDietaBoema />
             <CampagnaDiZizkaInUngheria />
             <ManualeVaclavVlcek />
-            <Row>
-              <Col>
-                <h4>Riferimenti:</h4>
-                <ul>
-                  <li>
-                    Hugo Toman:{' '}
-                    <i>Husitské válečnictví za doby Žižkovy a Prokopovy</i>,
-                    Praha 1898
-                  </li>
-                  <li>
-                    Petr Čornej:{' '}
-                    <i>Jan Žižka: Život a doba husitského válečníka</i>, Praha
-                    2019
-                  </li>
-                  <li>
-                    Vavřinec z Březové: <i>Husitská kronika</i>, Praha 1979
-                  </li>
-                  <li>
-                    Karel Jaromír Erben: <i>Wýbor z literatury české</i>, Praha
-                    1868
-                  </li>
-                </ul>
-              </Col>
-            </Row>
+            <Sources />
             <Payment />
           </Col>
         </Row>

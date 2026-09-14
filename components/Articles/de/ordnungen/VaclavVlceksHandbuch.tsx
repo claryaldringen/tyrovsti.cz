@@ -4,6 +4,8 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { ArticleProps } from '../../../../types'
 import { DraftBadge } from '../../../DraftBadge'
+import { Qt } from '../../../Quote/Qt'
+import { PUBLICATIONS } from '../../../../shared/constants'
 
 export const VaclavVlceksHandbuch = ({ draft }: ArticleProps) => (
   <>
@@ -338,6 +340,10 @@ export const VaclavVlceksHandbuch = ({ draft }: ArticleProps) => (
         <p>
           A když již k bitvě puojdete, poklekněte a proste milého pána Boha, at
           vám ráčí pomoci svítěziti. A tak se buohdá stane.
+          <Qt
+            publication={PUBLICATIONS.ERBEN}
+            href="https://kramerius5.nkp.cz/view/uuid:3d010e30-967d-11dc-a3f5-000d606f5dc6?page=uuid:ff375890-2e1c-11e9-9da6-5ef3fc9bb22f"
+          />
         </p>
       </Col>
       <Col md={6}>
@@ -778,6 +784,10 @@ export const VaclavVlceksHandbuch = ({ draft }: ArticleProps) => (
           odepřeli, a tito jiní ať před se šturmují. A když tak buohdá šturm
           zpravíte, uzříte bohdá, že všeho dobudete, a že proti vám nic
           neostojí. A tak se buohdá stane, Amen.
+          <Qt
+            publication={PUBLICATIONS.ERBEN}
+            href="https://kramerius5.nkp.cz/view/uuid:3d010e30-967d-11dc-a3f5-000d606f5dc6?page=uuid:001bc520-2e1d-11e9-9da6-5ef3fc9bb22f"
+          />
         </p>
       </Col>
       <Col md={6}>
@@ -979,6 +989,10 @@ export const VaclavVlceksHandbuch = ({ draft }: ArticleProps) => (
           jezdecky vyprav, aťby nemohli sezříti, by na ně s vozy táhl. A tak
           jest-li žeby se přihodilo, byť jměli dvadceti na jeden, nebudúť
           věděti, co mají činiti.
+          <Qt
+            publication={PUBLICATIONS.ERBEN}
+            href="https://kramerius5.nkp.cz/view/uuid:3d010e30-967d-11dc-a3f5-000d606f5dc6?page=uuid:0060e470-2e1d-11e9-9da6-5ef3fc9bb22f"
+          />
         </p>
       </Col>
       <Col md={6}>

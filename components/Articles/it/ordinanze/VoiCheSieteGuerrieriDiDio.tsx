@@ -3,6 +3,8 @@ import React from 'react'
 import { ImageWithTitle } from '../../../ImageWithTitle'
 import { ArticleProps } from '../../../../types'
 import { DraftBadge } from '../../../DraftBadge'
+import { Qt } from '../../../Quote/Qt'
+import { PUBLICATIONS } from '../../../../shared/constants'
 
 export const VoiCheSieteGuerrieriDiDio = ({ draft }: ArticleProps) => (
   <>
@@ -27,10 +29,15 @@ export const VoiCheSieteGuerrieriDiDio = ({ draft }: ArticleProps) => (
       <Col>
         <p>
           Il più celebre canto di battaglia hussita, la cui paternità è
-          attribuita al sacerdote taborita Jan Čapek da Klatovy, può essere
-          considerato anche la prima ordinanza militare ceca scritta. Attraverso
-          il canto, i soldati, spesso analfabeti, assimilavano i principi
-          guerreschi che sarebbero poi comparsi nelle ordinanze successive:
+          attribuita al sacerdote taborita Jan Čapek da Klatovy,
+          <Qt
+            publication={PUBLICATIONS.WIKI}
+            href="https://cs.wikipedia.org/wiki/Jan_%C4%8Capek_(t%C3%A1borita)"
+          />{' '}
+          può essere considerato anche la prima ordinanza militare ceca scritta.
+          Attraverso il canto, i soldati, spesso analfabeti, assimilavano i
+          principi guerreschi che sarebbero poi comparsi nelle ordinanze
+          successive:
           <br />
           1a - 4a strofa: esortano alla fede in Dio, alla Sua volontà e alla Sua
           grazia.
@@ -45,6 +52,10 @@ export const VoiCheSieteGuerrieriDiDio = ({ draft }: ArticleProps) => (
           8a strofa: ricordate tutti il motto emanato, vigilate e obbedite ai
           vostri capitani, proteggetevi a vicenda e ciascuno mantenga la propria
           formazione.
+          <Qt
+            publication={PUBLICATIONS.TOMAN}
+            href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:a422d79f-5a17-43e8-b8c4-6feb9f561810"
+          />
           <br />
         </p>
       </Col>
@@ -55,6 +66,7 @@ export const VoiCheSieteGuerrieriDiDio = ({ draft }: ArticleProps) => (
           <b>Ktoz jsu bozi boyownici</b>
           <br />
           (come scritto nell&apos;Innario di Jistebnice)
+          <Qt publication={PUBLICATIONS.JISTEBNICE} />
         </p>
         <p>
           Ktoz jsu bozi boyownici
