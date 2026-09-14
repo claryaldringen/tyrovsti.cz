@@ -112,9 +112,9 @@ export const Fechtbuch = ({ draft }: ArticleProps) => (
       <Col md={6}>
         <p>
           Navíc má svou levou paži holou, ve které drží dýku, aby s ní bodal
-          (sich zu schießen). Levák však pevně drží svou pravou paži s dýkou k obraně a
-          bojuje levou paží. Tak utrpí pravák větší škodu od sebe samého než od
-          protivníka.
+          (sich zu schießen). Levák však pevně drží svou pravou paži s dýkou k
+          obraně a bojuje levou paží. Tak utrpí pravák větší škodu od sebe
+          samého než od protivníka.
           <br />
           Z tohoto příkladu je snadné poznat, že vždy má nejlepší výhodu ten,
           kdo nechá zbraně vyrobit nebo je poskytuje. To jsem vyprávěl proto,
@@ -233,9 +233,9 @@ export const Fechtbuch = ({ draft }: ArticleProps) => (
           Když člověk ucítí, že je čepel v těle, uvolní pružinu a nechá vysunout
           silnější hrot, který protivník jen tak nevytáhne.
           <br />
-          Dýku máš použít tehdy, když jsi ho povalil. Pokud se zbraň zadrhne,
-          dá se snadno opět uvolnit a použít znovu. Musí být ale zhotovena tak,
-          aby pružiny nebyly viditelné – aby je soupeř, až ji vneseš do šranků
+          Dýku máš použít tehdy, když jsi ho povalil. Pokud se zbraň zadrhne, dá
+          se snadno opět uvolnit a použít znovu. Musí být ale zhotovena tak, aby
+          pružiny nebyly viditelné – aby je soupeř, až ji vneseš do šranků
           (kolbiště), nedokázal snadno otevřít/odjistit.
           <br />
           Ten, kdo tuto zbraň používá, by si ji měl předem dobře nacvičit a
@@ -331,9 +331,9 @@ export const Fechtbuch = ({ draft }: ArticleProps) => (
       </Col>
       <Col>
         <p>
-          [pak mu prst] uvolni a zlom mu ho směrem nahoru. Také: zlomení paže
-          (<i>Annbrich</i>), úder do slabin (<i>gemecht stos</i>), zlomení nohy
-          (<i>Bein bruch</i>) nebo úder do kolene (<i>knüstos</i>).
+          [pak mu prst] uvolni a zlom mu ho směrem nahoru. Také: zlomení paže (
+          <i>Annbrich</i>), úder do slabin (<i>gemecht stos</i>), zlomení nohy (
+          <i>Bein bruch</i>) nebo úder do kolene (<i>knüstos</i>).
           <br />
           Za prvé chci projít příklady boje ve zbroji a poté popíšu výhody výše
           zmíněných zbraní.
@@ -459,8 +459,8 @@ export const Fechtbuch = ({ draft }: ArticleProps) => (
           nohou vepředu a zasáhni ho pod pravé rameno a pak udělej pravou nohou
           krok vpřed. Dále, jakmile jsi nasadil, máš jím vždy tlačit směrem
           vzhůru (übersich). Když je však menší než ty, spusť rukojeť dolů k
-          jeho boku a tlač přes něj a pryč od sebe. Když se ale stáhne do boku, udeř ho do
-          helmy, tam je nejzranitelnější.
+          jeho boku a tlač přes něj a pryč od sebe. Když se ale stáhne do boku,
+          udeř ho do helmy, tam je nejzranitelnější.
           <br />
           A kdykoli mu zasadíš úder (ansezest), dbej, abys ho dobře zavázal,
           protože když mu správně zasadíš (úder) a správně jej tlačíš, tak
@@ -810,11 +810,11 @@ export const Fechtbuch = ({ draft }: ArticleProps) => (
           bodni silou do jeho hledí. Když se brání a snaží se tvůj úder odrazit,
           stáhni se stranou a bodni ho pod jeho levé rameno. Dávej si pozor,
           abys pevně stál a nepřeklonil se příliš dopředu ani dozadu. Pamatuj,
-          jakmile tvůj hrot uvázne v kroužcích zbroje, zaklesni si jílec pod
-          své pravé podpaží a tlač ho [hrotem] před sebou pryč – nebo mu nasaď
+          jakmile tvůj hrot uvázne v kroužcích zbroje, zaklesni si jílec pod své
+          pravé podpaží a tlač ho [hrotem] před sebou pryč – nebo mu nasaď
           [hrot] pod jeho pravé podpaží a hlavici si zaklesni pod své levé
-          podpaží a tlač od sebe a nenech ho z toho uniknout. Pak vytáhni pravou rukou šavli a zasáhni ho do
-          kloubu nebo spodním sekem.
+          podpaží a tlač od sebe a nenech ho z toho uniknout. Pak vytáhni pravou
+          rukou šavli a zasáhni ho do kloubu nebo spodním sekem.
           <br />
           Také dělej, jako bys mu chtěl zasáhnout obličej záštitou, a jakmile
           poznáš, že chce odrazit úder mezi oběma rukama, rychle stáhni úder
