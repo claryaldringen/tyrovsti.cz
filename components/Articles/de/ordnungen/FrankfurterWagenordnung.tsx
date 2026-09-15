@@ -10,9 +10,27 @@ export const FrankfurterWagenordnung = ({ draft }: ArticleProps) => (
     <Row>
       <Col>
         <div className="anchor" id="frankfurt-wagon-order" />
-        <h4>Frankfurter Wagenordnung von 1444{draft && <DraftBadge />}</h4>
+        <h4>
+          Die sogenannte Frankfurter Wagenordnung von 1444
+          {draft && <DraftBadge />}
+        </h4>
         <p>
           Übersetzt von PhDr. Zdeňka Kopková, Korrekturen von Daniel Burger.
+        </p>
+        <p>
+          Obwohl dieser Text traditionell als Frankfurter Wagenordnung
+          bezeichnet wird, handelt es sich nicht um eine Ordnung der Stadt
+          Frankfurt. Es ist ein eingelegter Zettel zu einem Rundschreiben des
+          Pfalzgrafen Ludwig&nbsp;IV., den der römische König
+          Friedrich&nbsp;III. zum obersten Reichshauptmann gegen die Armagnaken
+          ernannt hatte. Das Rundschreiben erging am 13. Oktober 1444 in
+          Heidelberg, und dieselbe Beilage erhielten auch andere Reichsstädte,
+          darunter Köln, St. Gallen und Nördlingen. Frankfurt war nur einer der
+          Empfänger.
+          <Qt
+            publication={PUBLICATIONS.DRA17}
+            href="https://sources.cms.flu.cas.cz/src/index.php?s=v&bookid=506&page=567"
+          />
         </p>
         <p>&nbsp;</p>
       </Col>

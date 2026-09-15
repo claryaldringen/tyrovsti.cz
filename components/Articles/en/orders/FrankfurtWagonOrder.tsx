@@ -10,8 +10,24 @@ export const FrankfurtWagonOrder = ({ draft }: ArticleProps) => (
     <Row>
       <Col>
         <div className="anchor" id="frankfurt-wagon-order" />
-        <h4>Frankfurt Wagon Order of 1444{draft && <DraftBadge />}</h4>
+        <h4>
+          The So-Called Frankfurt Wagon Order of 1444{draft && <DraftBadge />}
+        </h4>
         <p>Translated by PhDr. Zdeňka Kopková, corrections by Daniel Burger.</p>
+        <p>
+          Although this text is traditionally referred to as the Frankfurt wagon
+          order, it is not an ordinance of the city of Frankfurt. It is an
+          enclosure to a circular letter of Louis&nbsp;IV, Count Palatine of the
+          Rhine, whom the Roman King Frederick&nbsp;III had appointed supreme
+          imperial captain against the Armagnacs. He issued the circular in
+          Heidelberg on 13 October 1444 and sent the same enclosure to other
+          imperial cities as well, including Cologne, St. Gallen and Nördlingen.
+          Frankfurt was only one of the recipients.
+          <Qt
+            publication={PUBLICATIONS.DRA17}
+            href="https://sources.cms.flu.cas.cz/src/index.php?s=v&bookid=506&page=567"
+          />
+        </p>
         <p>&nbsp;</p>
       </Col>
     </Row>

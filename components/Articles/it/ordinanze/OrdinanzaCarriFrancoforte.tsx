@@ -11,9 +11,25 @@ export const OrdinanzaCarriFrancoforte = ({ draft }: ArticleProps) => (
       <Col>
         <div className="anchor" id="ordinanza-dei-carri-di-francoforte" />
         <h4>
-          Ordinanza dei carri di Francoforte del 1444{draft && <DraftBadge />}
+          La cosiddetta ordinanza dei carri di Francoforte del 1444
+          {draft && <DraftBadge />}
         </h4>
         <p>Traduzione di PhDr. Zdeňka Kopková, revisione di Daniel Burger.</p>
+        <p>
+          Sebbene questo testo sia tradizionalmente indicato come ordinanza dei
+          carri di Francoforte, non si tratta di un&apos;ordinanza della città
+          di Francoforte. È un allegato alla lettera circolare del conte
+          palatino Ludovico&nbsp;IV, che il re dei Romani Federico&nbsp;III
+          aveva nominato capitano supremo dell&apos;Impero contro gli
+          Armagnacchi. Egli emanò la circolare a Heidelberg il 13 ottobre 1444 e
+          inviò lo stesso allegato anche ad altre città imperiali, tra cui
+          Colonia, San Gallo e Nördlingen. Francoforte fu soltanto uno dei
+          destinatari.
+          <Qt
+            publication={PUBLICATIONS.DRA17}
+            href="https://sources.cms.flu.cas.cz/src/index.php?s=v&bookid=506&page=567"
+          />
+        </p>
         <p>&nbsp;</p>
       </Col>
     </Row>

@@ -10,8 +10,23 @@ export const VozovyRadFrankfurtsky = ({ draft }: ArticleProps) => (
     <Row>
       <Col>
         <div className="anchor" id="vozovy-rad-frankfurtsky" />
-        <h4>Vozový řád frankfurtský z roku 1444{draft && <DraftBadge />}</h4>
+        <h4>
+          Tzv. vozový řád frankfurtský z roku 1444{draft && <DraftBadge />}
+        </h4>
         <p>Přeložila PhDr. Zdeňka Kopková, korekce provedl Daniel Burger.</p>
+        <p>
+          Přestože se tento text tradičně označuje jako frankfurtský, nejde o
+          řád města Frankfurtu. Je to vložená příloha k oběžníku falckraběte
+          Ludvíka&nbsp;IV., kterého římský král Fridrich&nbsp;III. jmenoval
+          nejvyšším říšským hejtmanem proti Armaňakům. Oběžník vydal v
+          Heidelbergu 13.&nbsp;října 1444 a stejnou přílohu rozeslal i dalším
+          říšským městům, mj. Kolínu, St. Gallenu a Nördlingenu. Frankfurt byl
+          jen jedním z adresátů.
+          <Qt
+            publication={PUBLICATIONS.DRA17}
+            href="https://sources.cms.flu.cas.cz/src/index.php?s=v&bookid=506&page=567"
+          />
+        </p>
         <p>&nbsp;</p>
       </Col>
     </Row>
