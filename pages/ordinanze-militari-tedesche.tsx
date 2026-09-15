@@ -5,6 +5,7 @@ import { LANG_IT } from '../shared/constants'
 import { ImageWithTitle } from '../components/ImageWithTitle/ImageWithTitle'
 import { Payment } from '../components/Payment'
 import { Sources } from '../components/Quote/Sources'
+import { IntroduzioneOrdinanzeTedesche } from '../components/Articles/it/ordinanze/IntroduzioneOrdinanzeTedesche'
 import { RisoluzioneNorimberga } from '../components/Articles/it/ordinanze/RisoluzioneNorimberga'
 import { OrdinanzaCarriCavalieriTedeschi } from '../components/Articles/it/ordinanze/OrdinanzaCarriCavalieriTedeschi'
 import { OrdinanzaCarriFrancoforte } from '../components/Articles/it/ordinanze/OrdinanzaCarriFrancoforte'
@@ -33,6 +34,7 @@ const Page = () => {
             <Row>
               <ImageWithTitle src="husite.jpg" width={1920} height={1404} />
             </Row>
+            <IntroduzioneOrdinanzeTedesche />
             <RisoluzioneNorimberga />
             <OrdinanzaCarriCavalieriTedeschi />
             <OrdinanzaCarriFrancoforte />

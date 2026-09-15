@@ -5,6 +5,7 @@ import { LANG_EN } from '../shared/constants'
 import { ImageWithTitle } from '../components/ImageWithTitle/ImageWithTitle'
 import { Payment } from '../components/Payment'
 import { Sources } from '../components/Quote/Sources'
+import { GermanMilitaryOrdersIntro } from '../components/Articles/en/orders/GermanMilitaryOrdersIntro'
 import { NurembergResolution } from '../components/Articles/en/orders/NurembergResolution'
 import { WagonOrderOfGermanKnights } from '../components/Articles/en/orders/WagonOrderOfGermanKnights'
 import { FrankfurtWagonOrder } from '../components/Articles/en/orders/FrankfurtWagonOrder'
@@ -33,6 +34,7 @@ const Page = () => {
             <Row>
               <ImageWithTitle src="husite.jpg" width={1920} height={1404} />
             </Row>
+            <GermanMilitaryOrdersIntro />
             <NurembergResolution />
             <WagonOrderOfGermanKnights />
             <FrankfurtWagonOrder />

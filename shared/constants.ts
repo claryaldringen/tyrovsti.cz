@@ -519,6 +519,13 @@ export const PUBLICATIONS: Record<string, Publication> = {
     year: 1889,
     href: 'https://archive.org/details/geschichtederkr00jhgoog',
   },
+  WULF1889: {
+    name: 'Die husitische Wagenburg',
+    author: 'Maximilian von Wulf',
+    city: { cs: 'Berlín', en: 'Berlin', de: 'Berlin', it: 'Berlino' },
+    year: 1889,
+    href: 'https://www.digitale-sammlungen.de/de/view/bsb11551340',
+  },
   PRUB_DH207: {
     name: 'Preußisches Urkundenbuch (online), DH 207',
     author: 'Dieter Heckmann (ed.)',

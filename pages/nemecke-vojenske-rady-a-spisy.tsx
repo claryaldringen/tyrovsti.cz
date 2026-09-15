@@ -1,5 +1,6 @@
 import React from 'react'
 import { Col, Container, Row } from 'reactstrap'
+import { NemeckeVojenskeRadyUvod } from '../components/Articles/cz/rady/NemeckeVojenskeRadyUvod'
 import { UsneseniNorimberske } from '../components/Articles/cz/rady/UsneseniNorimberske'
 import { RadVozovyRytiruNemeckych } from '../components/Articles/cz/rady/RadVozovyRytiruNemeckych'
 import { VozovyRadFrankfurtsky } from '../components/Articles/cz/rady/VozovyRadFrankfurtsky'
@@ -33,6 +34,7 @@ const Page = () => {
             <Row>
               <ImageWithTitle src="husite.jpg" width={1920} height={1404} />
             </Row>
+            <NemeckeVojenskeRadyUvod />
             <UsneseniNorimberske />
             <RadVozovyRytiruNemeckych />
             <VozovyRadFrankfurtsky />
