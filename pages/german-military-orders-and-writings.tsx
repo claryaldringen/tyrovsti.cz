@@ -7,6 +7,10 @@ import { Payment } from '../components/Payment'
 import { Sources } from '../components/Quote/Sources'
 import { GermanMilitaryOrdersIntro } from '../components/Articles/en/orders/GermanMilitaryOrdersIntro'
 import { GrottkauAgreement } from '../components/Articles/en/orders/GrottkauAgreement'
+import { FrankfurtResolution1427 } from '../components/Articles/en/orders/FrankfurtResolution1427'
+import { NurembergProposals1430 } from '../components/Articles/en/orders/NurembergProposals1430'
+import { NurembergOrderForTheBohemianCampaign1431 } from '../components/Articles/en/orders/NurembergOrderForTheBohemianCampaign1431'
+import { DukeAlbrechtOfAustriasOrder } from '../components/Articles/en/orders/DukeAlbrechtOfAustriasOrder'
 import { ElectorsProposals1426 } from '../components/Articles/en/orders/ElectorsProposals1426'
 import { SilesianResolution1429 } from '../components/Articles/en/orders/SilesianResolution1429'
 import { NurembergResolution } from '../components/Articles/en/orders/NurembergResolution'
@@ -40,8 +44,12 @@ const Page = () => {
             <GermanMilitaryOrdersIntro />
             <GrottkauAgreement draft />
             <ElectorsProposals1426 draft />
+            <FrankfurtResolution1427 draft />
             <NurembergResolution />
             <SilesianResolution1429 draft />
+            <NurembergProposals1430 draft />
+            <NurembergOrderForTheBohemianCampaign1431 draft />
+            <DukeAlbrechtOfAustriasOrder draft />
             <WagonOrderOfGermanKnights />
             <FrankfurtWagonOrder />
             <NurembergWagonOrder />

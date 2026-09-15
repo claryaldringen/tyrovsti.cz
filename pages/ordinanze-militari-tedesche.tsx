@@ -7,6 +7,10 @@ import { Payment } from '../components/Payment'
 import { Sources } from '../components/Quote/Sources'
 import { IntroduzioneOrdinanzeTedesche } from '../components/Articles/it/ordinanze/IntroduzioneOrdinanzeTedesche'
 import { AccordoDiGrottkau } from '../components/Articles/it/ordinanze/AccordoDiGrottkau'
+import { RisoluzioneFrancoforte1427 } from '../components/Articles/it/ordinanze/RisoluzioneFrancoforte1427'
+import { ProposteNorimberga1430 } from '../components/Articles/it/ordinanze/ProposteNorimberga1430'
+import { OrdinanzaNorimbergaCampagnaBoema1431 } from '../components/Articles/it/ordinanze/OrdinanzaNorimbergaCampagnaBoema1431'
+import { OrdinanzaDucaAlbertoAustria } from '../components/Articles/it/ordinanze/OrdinanzaDucaAlbertoAustria'
 import { ProposteDeiPrincipiElettori1426 } from '../components/Articles/it/ordinanze/ProposteDeiPrincipiElettori1426'
 import { RisoluzioneSlesiana1429 } from '../components/Articles/it/ordinanze/RisoluzioneSlesiana1429'
 import { RisoluzioneNorimberga } from '../components/Articles/it/ordinanze/RisoluzioneNorimberga'
@@ -40,8 +44,12 @@ const Page = () => {
             <IntroduzioneOrdinanzeTedesche />
             <AccordoDiGrottkau draft />
             <ProposteDeiPrincipiElettori1426 draft />
+            <RisoluzioneFrancoforte1427 draft />
             <RisoluzioneNorimberga />
             <RisoluzioneSlesiana1429 draft />
+            <ProposteNorimberga1430 draft />
+            <OrdinanzaNorimbergaCampagnaBoema1431 draft />
+            <OrdinanzaDucaAlbertoAustria draft />
             <OrdinanzaCarriCavalieriTedeschi />
             <OrdinanzaCarriFrancoforte />
             <OrdinanzaCarriNorimberga />

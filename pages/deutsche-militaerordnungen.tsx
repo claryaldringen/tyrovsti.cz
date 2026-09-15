@@ -7,6 +7,10 @@ import { Payment } from '../components/Payment'
 import { Sources } from '../components/Quote/Sources'
 import { DeutscheMilitaerordnungenEinfuehrung } from '../components/Articles/de/ordnungen/DeutscheMilitaerordnungenEinfuehrung'
 import { EinungZuGrottkau } from '../components/Articles/de/ordnungen/EinungZuGrottkau'
+import { FrankfurterBeschluss1427 } from '../components/Articles/de/ordnungen/FrankfurterBeschluss1427'
+import { NuernbergerVorschlaege1430 } from '../components/Articles/de/ordnungen/NuernbergerVorschlaege1430'
+import { NuernbergerOrdnungBoehmenzug1431 } from '../components/Articles/de/ordnungen/NuernbergerOrdnungBoehmenzug1431'
+import { OrdnungHerzogAlbrechtsVonOesterreich } from '../components/Articles/de/ordnungen/OrdnungHerzogAlbrechtsVonOesterreich'
 import { VorschlaegeDerKurfuersten1426 } from '../components/Articles/de/ordnungen/VorschlaegeDerKurfuersten1426'
 import { SchlesischerBeschluss1429 } from '../components/Articles/de/ordnungen/SchlesischerBeschluss1429'
 import { NuernbergerBeschluss } from '../components/Articles/de/ordnungen/NuernbergerBeschluss'
@@ -40,8 +44,12 @@ const Page = () => {
             <DeutscheMilitaerordnungenEinfuehrung />
             <EinungZuGrottkau draft />
             <VorschlaegeDerKurfuersten1426 draft />
+            <FrankfurterBeschluss1427 draft />
             <NuernbergerBeschluss />
             <SchlesischerBeschluss1429 draft />
+            <NuernbergerVorschlaege1430 draft />
+            <NuernbergerOrdnungBoehmenzug1431 draft />
+            <OrdnungHerzogAlbrechtsVonOesterreich draft />
             <WagenordnungDerDeutschenRitter />
             <FrankfurterWagenordnung />
             <NuernbergerWagenordnung />

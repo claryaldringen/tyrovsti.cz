@@ -2,6 +2,10 @@ import React from 'react'
 import { Col, Container, Row } from 'reactstrap'
 import { NemeckeVojenskeRadyUvod } from '../components/Articles/cz/rady/NemeckeVojenskeRadyUvod'
 import { UmluvaVGrotkove } from '../components/Articles/cz/rady/UmluvaVGrotkove'
+import { UsneseniFrankfurtske1427 } from '../components/Articles/cz/rady/UsneseniFrankfurtske1427'
+import { NavrhyNorimberske1430 } from '../components/Articles/cz/rady/NavrhyNorimberske1430'
+import { RadNorimberskyProTazeniDoCech1431 } from '../components/Articles/cz/rady/RadNorimberskyProTazeniDoCech1431'
+import { RadVevodyAlbrechtaRakouskeho } from '../components/Articles/cz/rady/RadVevodyAlbrechtaRakouskeho'
 import { NavrhyKurfirstu1426 } from '../components/Articles/cz/rady/NavrhyKurfirstu1426'
 import { UsneseniSlezske1429 } from '../components/Articles/cz/rady/UsneseniSlezske1429'
 import { UsneseniNorimberske } from '../components/Articles/cz/rady/UsneseniNorimberske'
@@ -40,8 +44,12 @@ const Page = () => {
             <NemeckeVojenskeRadyUvod />
             <UmluvaVGrotkove draft />
             <NavrhyKurfirstu1426 draft />
+            <UsneseniFrankfurtske1427 draft />
             <UsneseniNorimberske />
             <UsneseniSlezske1429 draft />
+            <NavrhyNorimberske1430 draft />
+            <RadNorimberskyProTazeniDoCech1431 draft />
+            <RadVevodyAlbrechtaRakouskeho draft />
             <RadVozovyRytiruNemeckych />
             <VozovyRadFrankfurtsky />
             <NorimberskyRadVozovy />

@@ -533,6 +533,32 @@ export const PUBLICATIONS: Record<string, Publication> = {
     year: 1873,
     href: 'https://archive.org/details/urkundlichebeitr01pala',
   },
+  PALACKY_UB2: {
+    name: 'Urkundliche Beiträge zur Geschichte des Hussitenkrieges vom Jahre 1419 an II',
+    author: 'František Palacký',
+    city: { cs: 'Praha', en: 'Prague', de: 'Prag', it: 'Praga' },
+    year: 1873,
+    href: 'https://archive.org/details/urkundlichebeitr02pala',
+  },
+  ANZEIGER1872: {
+    name: 'Anzeiger für Kunde der deutschen Vorzeit, Neue Folge XIX',
+    author: 'Joseph Würdinger',
+    city: {
+      cs: 'Norimberk',
+      en: 'Nuremberg',
+      de: 'Nürnberg',
+      it: 'Norimberga',
+    },
+    year: 1872,
+    href: 'https://archive.org/details/anzeigerfrkunde01nrgoog',
+  },
+  KURZ1825: {
+    name: 'Oesterreichs Militärverfassung in älteren Zeiten',
+    author: 'Franz Kurz',
+    city: { cs: 'Linec', en: 'Linz', de: 'Linz', it: 'Linz' },
+    year: 1825,
+    href: 'https://archive.org/details/bub_gb_8eEpAAAAYAAJ',
+  },
   GRUNHAGEN1872: {
     name: 'Die Hussitenkämpfe der Schlesier 1420–1435',
     author: 'Colmar Grünhagen',
