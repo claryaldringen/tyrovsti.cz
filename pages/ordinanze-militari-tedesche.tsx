@@ -20,6 +20,7 @@ import { OrdinanzaCarriNorimberga } from '../components/Articles/it/ordinanze/Or
 import { IstruzioneDifesaCarri } from '../components/Articles/it/ordinanze/IstruzioneDifesaCarri'
 import { IstruzioneFormazioneCarri } from '../components/Articles/it/ordinanze/IstruzioneFormazioneCarri'
 import { OrdinanzaDelMargravioAlbrecht } from '../components/Articles/it/ordinanze/OrdinanzaDelMargravioAlbrecht'
+import { VegezioSulForteDeiCarriCgm356 } from '../components/Articles/it/ordinanze/VegezioSulForteDeiCarriCgm356'
 import { OrdinanzaCarriSeldeneck } from '../components/Articles/it/ordinanze/OrdinanzaCarriSeldeneck'
 
 const Page = () => {
@@ -57,6 +58,7 @@ const Page = () => {
             <IstruzioneFormazioneCarri />
             <OrdinanzaDelMargravioAlbrecht />
             <OrdinanzaCarriSeldeneck />
+            <VegezioSulForteDeiCarriCgm356 draft />
             <Sources />
             <Payment />
           </Col>

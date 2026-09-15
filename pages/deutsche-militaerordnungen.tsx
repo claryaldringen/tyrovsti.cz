@@ -20,6 +20,7 @@ import { NuernbergerWagenordnung } from '../components/Articles/de/ordnungen/Nue
 import { InstruktionVerteidigung } from '../components/Articles/de/ordnungen/InstruktionVerteidigung'
 import { InstruktionWagenaufstellung } from '../components/Articles/de/ordnungen/InstruktionWagenaufstellung'
 import { OrdnungDesMarkgrafenAlbrecht } from '../components/Articles/de/ordnungen/OrdnungDesMarkgrafenAlbrecht'
+import { VegetiusUeberDieWagenburgCgm356 } from '../components/Articles/de/ordnungen/VegetiusUeberDieWagenburgCgm356'
 import { PhilippVonSeldeneckWagenordnung } from '../components/Articles/de/ordnungen/PhilippVonSeldeneckWagenordnung'
 
 const Page = () => {
@@ -57,6 +58,7 @@ const Page = () => {
             <InstruktionWagenaufstellung />
             <OrdnungDesMarkgrafenAlbrecht />
             <PhilippVonSeldeneckWagenordnung />
+            <VegetiusUeberDieWagenburgCgm356 draft />
             <Sources />
             <Payment />
           </Col>

@@ -15,6 +15,7 @@ import { NorimberskyRadVozovy } from '../components/Articles/cz/rady/Norimbersky
 import { InstrukceMarkrabiAlbrechtaOHajeniVozovehoSiku } from '../components/Articles/cz/rady/InstrukceMarkrabiAlbrechtaOHajeniVozovehoSiku'
 import { InstrukceMarkrabiAlbrechtaOSikovaniVozu } from '../components/Articles/cz/rady/InstrukceMarkrabiAlbrechtaOSikovaniVozu'
 import { RadMarkrabiAlbrechta } from '../components/Articles/cz/rady/RadMarkrabiAlbrechta'
+import { VegetiusOVozoveHradbeCgm356 } from '../components/Articles/cz/rady/VegetiusOVozoveHradbeCgm356'
 import { FilipaSeldeneckaRadVozovy } from '../components/Articles/cz/rady/FilipaSeldeneckaRadVozovy'
 import { HeadExtended } from '../components/HeadExtended'
 import { ImageWithTitle } from '../components/ImageWithTitle/ImageWithTitle'
@@ -57,6 +58,7 @@ const Page = () => {
             <InstrukceMarkrabiAlbrechtaOSikovaniVozu />
             <RadMarkrabiAlbrechta />
             <FilipaSeldeneckaRadVozovy />
+            <VegetiusOVozoveHradbeCgm356 draft />
             <Sources />
             <Payment />
           </Col>

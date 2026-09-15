@@ -559,6 +559,28 @@ export const PUBLICATIONS: Record<string, Publication> = {
     year: 1825,
     href: 'https://archive.org/details/bub_gb_8eEpAAAAYAAJ',
   },
+  CGM356: {
+    name: 'Cgm 356 (Bayerische Staatsbibliothek München)',
+    author: '',
+    city: '',
+    year: undefined,
+    href: 'https://www.digitale-sammlungen.de/de/view/bsb00135889',
+  },
+  SCHNEIDER1973: {
+    name: 'Die deutschen Handschriften der Bayerischen Staatsbibliothek München. Cgm 351–500',
+    author: 'Karin Schneider',
+    city: 'Wiesbaden',
+    year: 1973,
+    href: 'https://handschriftenportal.de/search?hspobjectid=HSP-ab1f2e94-505c-3efe-ae59-e996710ab174',
+  },
+  HOHENWANG: {
+    name: 'Red von der Ritterschaft (Vegetius, Epitoma rei militaris), [Augsburg: Johann Wiener, ca. 1475]',
+    author: 'Ludwig Hohenwang (transl.)',
+    city: '',
+    year: undefined,
+    href: 'https://www.digitale-sammlungen.de/de/view/bsb00038208',
+  },
+
   GRUNHAGEN1872: {
     name: 'Die Hussitenkämpfe der Schlesier 1420–1435',
     author: 'Colmar Grünhagen',

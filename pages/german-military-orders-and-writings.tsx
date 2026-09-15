@@ -20,6 +20,7 @@ import { NurembergWagonOrder } from '../components/Articles/en/orders/NurembergW
 import { MargravesInstructionOnDefendingTheWagonFort } from '../components/Articles/en/orders/MargravesInstructionOnDefendingTheWagonFort'
 import { MargravesInstructionOnWagonFormation } from '../components/Articles/en/orders/MargravesInstructionOnWagonFormation'
 import { MargraveAlbrechtsOrder } from '../components/Articles/en/orders/MargraveAlbrechtsOrder'
+import { VegetiusOnTheWagonFortCgm356 } from '../components/Articles/en/orders/VegetiusOnTheWagonFortCgm356'
 import { PhilipOfSeldenecksWagonOrder } from '../components/Articles/en/orders/PhilipOfSeldenecksWagonOrder'
 
 const Page = () => {
@@ -57,6 +58,7 @@ const Page = () => {
             <MargravesInstructionOnWagonFormation />
             <MargraveAlbrechtsOrder />
             <PhilipOfSeldenecksWagonOrder />
+            <VegetiusOnTheWagonFortCgm356 draft />
             <Sources />
             <Payment />
           </Col>
