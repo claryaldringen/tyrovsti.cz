@@ -11,30 +11,57 @@ export const PhilippVonSeldeneckWagenordnung = ({ draft }: ArticleProps) => (
       <Col>
         <div className="anchor" id="philip-of-seldenecks-wagon-order" />
         <h4>
-          Philipp von Seldenecks Wagenordnung, um 1480{draft && <DraftBadge />}
+          Die sogenannte Wagenordnung Philipps von Seldeneck, Ende des 15.
+          Jahrhunderts
+          {draft && <DraftBadge />}
         </h4>
         <p>
-          Diese Wagenordnung in der Handschrift Philipps von Seldeneck, eines
-          fränkischen Adligen, die in der Großherzoglichen Bibliothek von
-          Baden-Baden unter der Signatur Durlach 18 aufbewahrt wird, enthält
-          eine deutsche Übersetzung des Vegetius in Abschrift und anschließend
-          eine Abschrift der <i>Ordnung und geschick der vagenburg</i>. In
-          diesen Kodex schrieb Seldeneck an leeren Stellen verschiedene
-          Abhandlungen für seine Söhne, die sich insbesondere auf die
-          Heeresaufstellung und das Militärwesen im Allgemeinen bezogen. Aus
-          Anmerkungen auf den Blättern 111b und 115b, die seine Person
-          betreffen, geht hervor, dass er seine Ergänzungen als alter Mann
-          verfasste, der sich an die Kriege in Böhmen, Polen und Preußen
-          erinnerte, als seien sie in seiner Jugend geführt worden, also etwa 50
-          Jahre zuvor. Die Ordnung zur Wagenaufstellung wurde, wie bereits oben
-          erwähnt, nicht von Seldenecks Hand geschrieben und umfasst 76
-          Paragraphen. Dazu fügte Seldeneck einen Nachtrag von 7 Paragraphen
-          hinzu, <i>Wie du mit wenig wägen ein wagenburg machen sollt</i>, der
-          für kleinere Verhältnisse bestimmt war, die er mit Blick auf seine
-          Söhne bedachte. Diese Ordnung ist besonders bedeutsam, weil sie
-          weitgehend die Art und Weise des Manövrierens mit Wagen und die
-          Wagenaufstellung sowohl auf dem Marsch als auch in der Schlacht
-          erläutert. Leider sind ihre Erklärungen bisweilen unverständlich.
+          Diese Wagenordnung ist in einem Kodex überliefert, den der fränkische
+          Adlige Philipp von Seldeneck anlegen ließ. Die Handschrift wird heute
+          in der Badischen Landesbibliothek in Karlsruhe (früher Großherzogliche
+          Bibliothek) unter der Signatur Cod. Durlach 18 aufbewahrt und ist
+          vollständig digitalisiert.
+          <Qt publication={PUBLICATIONS.DURLACH18} /> Sie enthält eine deutsche
+          Übersetzung des Vegetius und danach auf den Blättern 78r–87r die{' '}
+          <i>Ordnung und geschick der wagenburg</i> mit 76 Paragraphen. Auf
+          Blatt 87r schließt sich ein Nachtrag von 7 Paragraphen an,{' '}
+          <i>Wie du mit wenig wägen ein wagenburg machen sollt</i>, der für
+          kleinere Verhältnisse bestimmt ist. Auf weiteren Blättern wurden
+          verschiedene Abhandlungen über die Heeresaufstellung und das
+          Militärwesen im Allgemeinen eingetragen, die für Seldenecks Söhne
+          bestimmt waren. Aus Anmerkungen auf den Blättern 111b und 115b geht
+          hervor, dass der Schreiber sie als alter Mann verfasste, der sich an
+          die Kriege in Böhmen, Polen und Preußen als Ereignisse seiner Jugend
+          erinnerte.
+          <Qt
+            publication={PUBLICATIONS.TOMAN}
+            href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:93623095-6ff0-44b0-b4cd-e22e76c52925"
+          />{' '}
+          Toman nahm an, dass diese Einträge und der Nachtrag zur Wagenordnung
+          von Seldenecks eigener Hand stammen. Die neuere Beschreibung der
+          Handschrift schreibt die Ordnung und den Nachtrag jedoch einem
+          einzigen Schreiber zu und die späteren Einträge nach Kurt Neubauer
+          Seldenecks Sohn Hans.
+          <Qt publication={PUBLICATIONS.KDIH} /> Auch die Datierung weicht ab:
+          Max Jähns setzte die Einträge spätestens in das Jahr 1480,
+          <Qt
+            publication={PUBLICATIONS.JAHNS1889}
+            href="https://archive.org/details/geschichtederkr00jhgoog/page/325/mode/1up"
+          />{' '}
+          Neubauer datiert die Handschrift auf 1480–1493,
+          <Qt publication={PUBLICATIONS.MRFH} /> und das Wasserzeichen des
+          Papiers weist auf das letzte Viertel des 15. Jahrhunderts.
+          <Qt publication={PUBLICATIONS.KDIH} /> Jähns bezweifelte zudem, dass
+          Seldeneck die Wagenordnung selbst verfasst hat, und hielt sie eher für
+          überliefertes Gut.
+          <Qt
+            publication={PUBLICATIONS.JAHNS1889}
+            href="https://archive.org/details/geschichtederkr00jhgoog/page/325/mode/1up"
+          />{' '}
+          Diese Ordnung ist besonders bedeutsam, weil sie weitgehend die Art und
+          Weise des Manövrierens mit Wagen und die Wagenaufstellung sowohl auf
+          dem Marsch als auch in der Schlacht erläutert. Leider sind ihre
+          Erklärungen bisweilen unverständlich.
         </p>
         <p>Übersetzt von PhDr. Zdeňka Kopková.</p>
         <p>&nbsp;</p>

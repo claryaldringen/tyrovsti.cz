@@ -11,29 +11,53 @@ export const PhilipOfSeldenecksWagonOrder = ({ draft }: ArticleProps) => (
       <Col>
         <div className="anchor" id="philip-of-seldenecks-wagon-order" />
         <h4>
-          Philip of Seldeneck&apos;s Wagon Order, circa 1480
+          The So-Called Wagon Order of Philip of Seldeneck, Late 15th Century
           {draft && <DraftBadge />}
         </h4>
         <p>
-          This wagon order in the manuscript of Philip of Seldeneck, a
-          Franconian nobleman, preserved in the Grand Ducal Library of
-          Baden-Baden under signature Durlach 18, contains a German translation
-          of Vegetius in transcription and then a transcription of{' '}
-          <i>Ordnung und geschick der vagenburg</i>. Into this codex, in empty
-          spaces, Seldeneck wrote various treatises for his sons, relating
-          especially to army formation and military matters in general. From
-          notes on folios 111b and 115b, concerning his person, it is evident
-          that he made his additions as an old man who recalled the wars in
-          Bohemia, Poland, and Prussia as though they had been waged in his
-          youth, i.e. about 50 years earlier. The order on wagon formation was
-          not, as already mentioned above, written in Seldeneck&apos;s hand and
-          contains 76 paragraphs. To this, Seldeneck added a supplement of 7
-          paragraphs, <i>Wie du mit wenig wägen ein wagenburg machen sollt</i>,
-          intended for smaller circumstances, which he considered with regard to
-          his sons. This order is particularly significant because it largely
-          explains the manner of manoeuvring with wagons and the wagon formation
-          both on the march and in battle. Unfortunately, its explanations are
-          sometimes incomprehensible.
+          This wagon order has survived in a codex commissioned by the
+          Franconian nobleman Philip of Seldeneck. The manuscript is now kept in
+          the Badische Landesbibliothek in Karlsruhe (formerly the Grand Ducal
+          Library) under the shelfmark Cod. Durlach 18 and is fully digitised.
+          <Qt publication={PUBLICATIONS.DURLACH18} /> It contains a German
+          translation of Vegetius followed, on folios 78r–87r, by the order{' '}
+          <i>Ordnung und geschick der wagenburg</i> in 76 paragraphs. On folio
+          87r it is followed by a supplement of 7 paragraphs,{' '}
+          <i>Wie du mit wenig wägen ein wagenburg machen sollt</i>, intended for
+          smaller circumstances. Various treatises on army formation and
+          military matters in general, intended for Seldeneck&apos;s sons, were
+          written on further folios. Notes on folios 111b and 115b show that the
+          writer made them as an old man who recalled the wars in Bohemia,
+          Poland and Prussia as events of his youth.
+          <Qt
+            publication={PUBLICATIONS.TOMAN}
+            href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:93623095-6ff0-44b0-b4cd-e22e76c52925"
+          />{' '}
+          Toman believed that these additions and the supplement to the wagon
+          order were written in Seldeneck&apos;s own hand. A more recent
+          description of the manuscript, however, attributes the order and the
+          supplement to a single scribe and, following Kurt Neubauer, the later
+          additions to Seldeneck&apos;s son Hans.
+          <Qt publication={PUBLICATIONS.KDIH} /> The dating also differs: Max
+          Jähns placed the additions no later than 1480,
+          <Qt
+            publication={PUBLICATIONS.JAHNS1889}
+            href="https://archive.org/details/geschichtederkr00jhgoog/page/325/mode/1up"
+          />{' '}
+          Neubauer dates the manuscript to 1480–1493,
+          <Qt publication={PUBLICATIONS.MRFH} /> and the watermark of the paper
+          points to the last quarter of the 15th century.
+          <Qt publication={PUBLICATIONS.KDIH} /> Jähns also doubted that
+          Seldeneck himself composed the wagon order and considered it rather an
+          inherited text.
+          <Qt
+            publication={PUBLICATIONS.JAHNS1889}
+            href="https://archive.org/details/geschichtederkr00jhgoog/page/325/mode/1up"
+          />{' '}
+          This order is particularly significant because it largely explains the
+          manner of manoeuvring with wagons and the wagon formation both on the
+          march and in battle. Unfortunately, its explanations are sometimes
+          incomprehensible.
         </p>
         <p>Translated by PhDr. Zdeňka Kopková.</p>
         <p>&nbsp;</p>

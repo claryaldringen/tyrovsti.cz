@@ -11,26 +11,50 @@ export const FilipaSeldeneckaRadVozovy = ({ draft }: ArticleProps) => (
       <Col>
         <div className="anchor" id="filipa-seldenecka-rad-vozovy" />
         <h4>
-          Filipa Seldenecka řád vozový okolo roku 1480{draft && <DraftBadge />}
+          Tzv. Filipa Seldenecka řád vozový z konce 15. století
+          {draft && <DraftBadge />}
         </h4>
         <p>
-          Tento vozový řád v rukopisu Filipa Seldenecka, franského šlechtice,
-          dochovaný v Baden-Badenské velkovévodské knihovně pod sign. Durlach 18
-          obsahuje německý překlad Vegetia v přepisu a pak přepis{' '}
-          <i>Ordnung und geschick der vagenburg</i>. Do tohoto kodexu, na
-          prázdná místa, vepsal Seldeneck pro své syny různé stati, týkající se
-          zvláště šikování vojsk a věcí vojenských vůbec. Z poznámek na listu
-          111b a 115b, týkajících se jeho osoby, vyplývá že své přípisky
-          pořizoval již jako stařec, který vzpomíná na války v Čechách, Polsku a
-          Prusku, jako kdyby byly vedeny za jeho mladých let, tj. asi před 50
-          lety. Řád o šikování vozů není, jak již bylo uvedeno výše, psán
-          Seldeneckovou rukou a obsahuje 76 odstavců. K tomu byl Seldeneckem
-          připsán přídavek o 7 odstavcích{' '}
-          <i>Wie du mit wenig wägen ein wagenburg machen sollt</i> určený pro
-          malé poměry, které bral na zřetel vůči svým synům. Tento řád je
-          významný zejména proto, že vykládá z velké části způsob manévrování s
-          vozy a šikem vozovým jak při pochodu, tak v boji. Bohužel jsou však
-          někdy jeho výklady nesrozumitelné.
+          Tento vozový řád se dochoval v kodexu, který si nechal pořídit franský
+          šlechtic Filip Seldeneck. Rukopis je dnes uložen v Badische
+          Landesbibliothek v Karlsruhe (dříve velkovévodská knihovna) pod
+          signaturou Cod. Durlach 18 a je celý digitalizovaný.
+          <Qt publication={PUBLICATIONS.DURLACH18} /> Obsahuje německý překlad
+          Vegetia a za ním na listech 78r–87r řád{' '}
+          <i>Ordnung und geschick der wagenburg</i> o 76 odstavcích. Na listu
+          87r na něj navazuje přídavek o 7 odstavcích{' '}
+          <i>Wie du mit wenig wägen ein wagenburg machen sollt</i>, určený pro
+          malé poměry. Na další listy byly vepsány různé stati o šikování vojsk
+          a o vojenství vůbec, určené Seldeneckovým synům. Z poznámek na listech
+          111b a 115b vyplývá, že je pisatel pořizoval již jako stařec, který
+          vzpomíná na války v Čechách, Polsku a Prusku jako na události svého
+          mládí.
+          <Qt
+            publication={PUBLICATIONS.TOMAN}
+            href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:93623095-6ff0-44b0-b4cd-e22e76c52925"
+          />{' '}
+          Toman soudil, že tyto přípisky i přídavek k vozovému řádu psal
+          Seldeneck vlastní rukou. Novější popis rukopisu však řád i přídavek
+          připisuje jednomu písaři a pozdější přípisky podle Kurta Neubauera
+          Seldeneckovu synu Hansovi.
+          <Qt publication={PUBLICATIONS.KDIH} /> Liší se i datace: Max Jähns
+          kladl vznik přípisků nejpozději do roku 1480,
+          <Qt
+            publication={PUBLICATIONS.JAHNS1889}
+            href="https://archive.org/details/geschichtederkr00jhgoog/page/325/mode/1up"
+          />{' '}
+          Neubauer rukopis datuje do let 1480–1493
+          <Qt publication={PUBLICATIONS.MRFH} /> a vodoznak papíru ukazuje na
+          poslední čtvrtinu 15. století.
+          <Qt publication={PUBLICATIONS.KDIH} /> Jähns navíc pochyboval, že by
+          Seldeneck vozový řád sám sepsal, a pokládal ho spíše za převzatý text.
+          <Qt
+            publication={PUBLICATIONS.JAHNS1889}
+            href="https://archive.org/details/geschichtederkr00jhgoog/page/325/mode/1up"
+          />{' '}
+          Tento řád je významný zejména proto, že vykládá z velké části způsob
+          manévrování s vozy a šikem vozovým jak při pochodu, tak v boji.
+          Bohužel jsou však někdy jeho výklady nesrozumitelné.
         </p>
         <p>Přeložila PhDr. Zdeňka Kopková</p>
         <p>&nbsp;</p>

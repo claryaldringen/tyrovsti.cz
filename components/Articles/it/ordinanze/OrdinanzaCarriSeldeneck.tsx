@@ -11,30 +11,56 @@ export const OrdinanzaCarriSeldeneck = ({ draft }: ArticleProps) => (
       <Col>
         <div className="anchor" id="ordinanza-dei-carri-di-seldeneck" />
         <h4>
-          Ordinanza dei carri di Filippo di Seldeneck, circa 1480
+          La cosiddetta ordinanza dei carri di Filippo di Seldeneck, fine del XV
+          secolo
           {draft && <DraftBadge />}
         </h4>
         <p>
-          Questa ordinanza dei carri nel manoscritto di Filippo di Seldeneck, un
-          nobile francone, conservata nella Biblioteca Granducale di Baden-Baden
-          con segnatura Durlach 18, contiene una traduzione tedesca di Vegezio
-          in trascrizione e poi una trascrizione di{' '}
-          <i>Ordnung und geschick der vagenburg</i>. In questo codice, negli
-          spazi vuoti, Seldeneck scrisse vari trattati per i suoi figli,
-          riguardanti soprattutto la formazione dell&apos;esercito e le
-          questioni militari in generale. Dalle annotazioni sui fogli 111b e
-          115b, riguardanti la sua persona, risulta evidente che egli apportò le
-          sue aggiunte da anziano, ricordando le guerre in Boemia, Polonia e
-          Prussia come se fossero state combattute nella sua giovinezza, ossia
-          circa 50 anni prima. L&apos;ordinanza sulla formazione dei carri non
-          fu, come già menzionato sopra, scritta dalla mano di Seldeneck e
-          contiene 76 paragrafi. A questa, Seldeneck aggiunse un supplemento di
-          7 paragrafi, <i>Wie du mit wenig wägen ein wagenburg machen sollt</i>,
-          destinato a circostanze più modeste, che egli considerò avendo in
-          mente i propri figli. Questa ordinanza è particolarmente significativa
-          perché spiega in gran parte il modo di manovrare con i carri e la
-          formazione dei carri sia in marcia che in battaglia. Purtroppo, le sue
-          spiegazioni sono talvolta incomprensibili.
+          Questa ordinanza dei carri si è conservata in un codice fatto
+          allestire dal nobile francone Filippo di Seldeneck. Il manoscritto è
+          oggi conservato presso la Badische Landesbibliothek di Karlsruhe (già
+          Biblioteca Granducale) con la segnatura Cod. Durlach 18 ed è
+          interamente digitalizzato.
+          <Qt publication={PUBLICATIONS.DURLACH18} /> Contiene una traduzione
+          tedesca di Vegezio e, di seguito, ai fogli 78r–87r, l&apos;ordinanza{' '}
+          <i>Ordnung und geschick der wagenburg</i> in 76 paragrafi. Al foglio
+          87r segue un supplemento di 7 paragrafi,{' '}
+          <i>Wie du mit wenig wägen ein wagenburg machen sollt</i>, destinato a
+          circostanze più modeste. Sui fogli successivi furono trascritti vari
+          trattati sulla formazione dell&apos;esercito e sulle questioni
+          militari in generale, destinati ai figli di Seldeneck. Dalle
+          annotazioni sui fogli 111b e 115b risulta che chi le scrisse era ormai
+          anziano e ricordava le guerre in Boemia, Polonia e Prussia come eventi
+          della propria giovinezza.
+          <Qt
+            publication={PUBLICATIONS.TOMAN}
+            href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:93623095-6ff0-44b0-b4cd-e22e76c52925"
+          />{' '}
+          Toman riteneva che queste aggiunte e il supplemento all&apos;ordinanza
+          dei carri fossero di mano dello stesso Seldeneck. Una descrizione più
+          recente del manoscritto attribuisce invece l&apos;ordinanza e il
+          supplemento a un unico copista e, secondo Kurt Neubauer, le aggiunte
+          successive al figlio di Seldeneck, Hans.
+          <Qt publication={PUBLICATIONS.KDIH} /> Anche la datazione diverge: Max
+          Jähns collocava le aggiunte al più tardi nel 1480,
+          <Qt
+            publication={PUBLICATIONS.JAHNS1889}
+            href="https://archive.org/details/geschichtederkr00jhgoog/page/325/mode/1up"
+          />{' '}
+          Neubauer data il manoscritto al 1480–1493
+          <Qt publication={PUBLICATIONS.MRFH} /> e la filigrana della carta
+          rimanda all&apos;ultimo quarto del XV secolo.
+          <Qt publication={PUBLICATIONS.KDIH} /> Jähns dubitava inoltre che
+          Seldeneck avesse composto personalmente l&apos;ordinanza dei carri e
+          la riteneva piuttosto un testo tramandato.
+          <Qt
+            publication={PUBLICATIONS.JAHNS1889}
+            href="https://archive.org/details/geschichtederkr00jhgoog/page/325/mode/1up"
+          />{' '}
+          Questa ordinanza è particolarmente significativa perché spiega in gran
+          parte il modo di manovrare con i carri e la formazione dei carri sia
+          in marcia che in battaglia. Purtroppo, le sue spiegazioni sono
+          talvolta incomprensibili.
         </p>
         <p>Traduzione di PhDr. Zdeňka Kopková.</p>
         <p>&nbsp;</p>

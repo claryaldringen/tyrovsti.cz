@@ -519,6 +519,20 @@ export const PUBLICATIONS: Record<string, Publication> = {
     year: 1889,
     href: 'https://archive.org/details/geschichtederkr00jhgoog',
   },
+  KDIH: {
+    name: 'Katalog der deutschsprachigen illustrierten Handschriften des Mittelalters, Nr. 39.7.4 (Cod. Durlach 18)',
+    author: 'Rainer Leng',
+    city: '',
+    year: undefined,
+    href: 'https://kdih.badw.de/datenbank/handschrift/39/7/4',
+  },
+  MRFH: {
+    name: 'Marburger Repertorium zur Übersetzungsliteratur im deutschen Frühhumanismus, Nr. 10475 (Cod. Durlach 18)',
+    author: '',
+    city: '',
+    year: undefined,
+    href: 'https://mrfh.de/10475',
+  },
   DURLACH18: {
     name: 'Cod. Durlach 18 (Badische Landesbibliothek Karlsruhe)',
     author: '',
