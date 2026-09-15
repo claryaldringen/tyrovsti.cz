@@ -16,9 +16,23 @@ export const WagonOrderOfGermanKnights = ({ draft }: ArticleProps) => (
           {draft && <DraftBadge />}
         </h4>
         <p>
+          The order was an enclosure to a letter sent by the Grand Master of the
+          Teutonic Order from Marienburg (Malbork) to the city council of Danzig
+          (Gdańsk) on 19 April 1433. In it he requested that Danzig equip thirty
+          good iron-clad war wagons according to the enclosed description.
+          <Qt publication={PUBLICATIONS.TOEPPEN1} note="No. 448, p. 593" />{' '}
+          Compared with Toman&apos;s edition, one reading differs in the
+          original. Toman gives that the wagon should be wider{' '}
+          <Cit>dann andere weyen</Cit>, i.e. than the other wagons. However,
+          both the Danzig original and the surviving draft in Königsberg read{' '}
+          <Cit>denne unser wagen</Cit>, i.e. wider than <i>our</i> wagons.
+          <Qt publication={PUBLICATIONS.TOEPPEN1} note="No. 448, p. 593" />
+          <Qt publication={PUBLICATIONS.PRUB_DH207} />
+        </p>
+        <p>
           Translation notes: After consideration, I translated the term{' '}
           <Cit>fuhrweyn</Cit> as <Cit>war wagon</Cit>. Based on the description,
-          it refers to a sturdy wagon, somewhat larger than the others.
+          it refers to a sturdy wagon, somewhat wider than the others.
           <br />
           The term <Cit>lotbuchse</Cit> has so far only been found in connection
           with the Teutonic Order. It should refer to a firearm shooting lead
@@ -88,8 +102,8 @@ export const WagonOrderOfGermanKnights = ({ draft }: ArticleProps) => (
         <ol>
           <li>
             First, a good, strong, large war wagon with tall wheels that are
-            iron-clad, and it shall be somewhat wider than the other wagons,
-            then the other wagons, and good horses for it, five or six.
+            iron-clad, and it shall be somewhat wider than the other wagons, and
+            good horses for it, five or six.
           </li>
           <li>
             To each wagon, ten men and four or five good crossbows with bolts in

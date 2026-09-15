@@ -16,10 +16,25 @@ export const WagenordnungDerDeutschenRitter = ({ draft }: ArticleProps) => (
           {draft && <DraftBadge />}
         </h4>
         <p>
+          Die Ordnung war die Beilage zu einem Brief, den der Hochmeister des
+          Deutschen Ordens am 19. April 1433 aus der Marienburg an den Rat der
+          Stadt Danzig sandte. Darin forderte er, dass Danzig nach der
+          beigelegten Beschreibung dreißig gute beschlagene Kriegswagen
+          ausrüste.
+          <Qt publication={PUBLICATIONS.TOEPPEN1} note="Nr. 448, S. 593" />{' '}
+          Gegenüber Tomans Abdruck weicht im Original eine Lesart ab. Toman gibt
+          an, der Wagen solle breiter sein <Cit>dann andere weyen</Cit>, also
+          als die anderen Wagen. Das Danziger Original wie auch das erhaltene
+          Konzept in Königsberg haben jedoch <Cit>denne unser wagen</Cit>, also
+          breiter als <i>unsere</i> Wagen.
+          <Qt publication={PUBLICATIONS.TOEPPEN1} note="Nr. 448, S. 593" />
+          <Qt publication={PUBLICATIONS.PRUB_DH207} />
+        </p>
+        <p>
           Übersetzungshinweise: Nach reiflicher Überlegung habe ich den Begriff{' '}
           <Cit>fuhrweyn</Cit> als <Cit>Kriegswagen</Cit> übersetzt. Der
           Beschreibung nach handelt es sich um einen robusten Wagen, etwas
-          größer als die übrigen.
+          breiter als die übrigen.
           <br />
           Der Begriff <Cit>lotbuchse</Cit> wurde bisher nur im Zusammenhang mit
           dem Deutschen Orden gefunden. Er dürfte eine Feuerwaffe bezeichnen,

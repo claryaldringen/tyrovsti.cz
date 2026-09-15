@@ -519,6 +519,13 @@ export const PUBLICATIONS: Record<string, Publication> = {
     year: 1889,
     href: 'https://archive.org/details/geschichtederkr00jhgoog',
   },
+  PRUB_DH207: {
+    name: 'Preußisches Urkundenbuch (online), DH 207',
+    author: 'Dieter Heckmann (ed.)',
+    city: '',
+    year: 2004,
+    href: 'https://www.spaetmittelalter.uni-hamburg.de/Urkundenbuch/pub/dh/dh207.htm',
+  },
   KDIH: {
     name: 'Katalog der deutschsprachigen illustrierten Handschriften des Mittelalters, Nr. 39.7.4 (Cod. Durlach 18)',
     author: 'Rainer Leng',

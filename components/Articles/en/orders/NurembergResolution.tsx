@@ -12,6 +12,25 @@ export const NurembergResolution = ({ draft }: ArticleProps) => (
         <div className="anchor" id="nuremberg-resolution" />
         <h4>Nuremberg Resolution of 23 April 1428{draft && <DraftBadge />}</h4>
         <p>Translated by PhDr. Zdeňka Kopková.</p>
+        <p>
+          The text is the last, seventh article of the resolutions of the
+          assembly in Nuremberg. The preceding articles concern the convening of
+          a further assembly and the share of the common people to be called up:
+          a quarter, or half in an emergency. The document itself is undated.
+          The date of around 23 April 1428 was only assigned to it by the editor
+          of the <i>Deutsche Reichstagsakten</i>; earlier editors placed it in
+          1422 without any basis.
+          <Qt
+            publication={PUBLICATIONS.DRA9}
+            href="https://www.digitale-sammlungen.de/de/view/bsb11833357?page=180"
+          />{' '}
+          The campaign never took place, so according to Toman the resolution
+          remained only on paper.
+          <Qt
+            publication={PUBLICATIONS.TOMAN}
+            href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:e4297c33-ec66-4340-8470-3edba8f333cb"
+          />
+        </p>
         <p>&nbsp;</p>
       </Col>
     </Row>

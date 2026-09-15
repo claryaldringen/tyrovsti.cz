@@ -14,6 +14,26 @@ export const RisoluzioneNorimberga = ({ draft }: ArticleProps) => (
           Risoluzione di Norimberga del 23 aprile 1428{draft && <DraftBadge />}
         </h4>
         <p>Traduzione di PhDr. Zdeňka Kopková.</p>
+        <p>
+          Il testo è l&apos;ultimo, il settimo articolo delle deliberazioni
+          della dieta di Norimberga. Gli articoli precedenti riguardano la
+          convocazione di un&apos;ulteriore riunione e la quota di popolo comune
+          da mobilitare: un quarto, in caso di necessità la metà. Il documento
+          in sé non è datato. La data intorno al 23 aprile 1428 gli è stata
+          attribuita soltanto dall&apos;editore dei{' '}
+          <i>Deutsche Reichstagsakten</i>; gli editori precedenti lo collocavano
+          senza fondamento nel 1422.
+          <Qt
+            publication={PUBLICATIONS.DRA9}
+            href="https://www.digitale-sammlungen.de/de/view/bsb11833357?page=180"
+          />{' '}
+          La spedizione alla fine non ebbe luogo, cosicché, secondo Toman, la
+          deliberazione rimase soltanto sulla carta.
+          <Qt
+            publication={PUBLICATIONS.TOMAN}
+            href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:e4297c33-ec66-4340-8470-3edba8f333cb"
+          />
+        </p>
         <p>&nbsp;</p>
       </Col>
     </Row>

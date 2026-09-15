@@ -14,6 +14,24 @@ export const UsneseniNorimberske = ({ draft }: ArticleProps) => (
           Usnesení norimberské ze dne 23. dubna 1428{draft && <DraftBadge />}
         </h4>
         <p>Přeložila PhDr. Zdeňka Kopková.</p>
+        <p>
+          Text je posledním, sedmým článkem usnesení sjezdu v Norimberku.
+          Předchozí články se týkají svolání dalšího sjezdu a toho, jaký podíl
+          obecného lidu má vytáhnout do pole: čtvrtina, v nouzi polovina.
+          Listina sama datována není. Datum kolem 23.&nbsp;dubna 1428 jí
+          přiřadil až editor <i>Deutsche Reichstagsakten</i>, starší vydavatelé
+          ji bez opory kladli do roku 1422.
+          <Qt
+            publication={PUBLICATIONS.DRA9}
+            href="https://www.digitale-sammlungen.de/de/view/bsb11833357?page=180"
+          />{' '}
+          K výpravě nakonec nedošlo, takže usnesení podle Tomana zůstalo jen na
+          papíře.
+          <Qt
+            publication={PUBLICATIONS.TOMAN}
+            href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:e4297c33-ec66-4340-8470-3edba8f333cb"
+          />
+        </p>
         <p>&nbsp;</p>
       </Col>
     </Row>

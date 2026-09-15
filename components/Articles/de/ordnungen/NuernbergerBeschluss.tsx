@@ -14,6 +14,25 @@ export const NuernbergerBeschluss = ({ draft }: ArticleProps) => (
           Nürnberger Beschluss vom 23. April 1428{draft && <DraftBadge />}
         </h4>
         <p>Übersetzt von PhDr. Zdeňka Kopková.</p>
+        <p>
+          Der Text ist der letzte, siebte Artikel der Beschlüsse des Nürnberger
+          Tages. Die vorangehenden Artikel betreffen die Einberufung einer
+          weiteren Zusammenkunft und den Anteil des gemeinen Volkes, der
+          ausziehen soll: ein Viertel, im Notfall die Hälfte. Das Schriftstück
+          selbst ist undatiert. Das Datum um den 23. April 1428 hat ihm erst der
+          Herausgeber der <i>Deutschen Reichstagsakten</i> zugewiesen; ältere
+          Herausgeber setzten es ohne Begründung in das Jahr 1422.
+          <Qt
+            publication={PUBLICATIONS.DRA9}
+            href="https://www.digitale-sammlungen.de/de/view/bsb11833357?page=180"
+          />{' '}
+          Zu dem Feldzug kam es schließlich nicht, sodass der Beschluss nach
+          Toman nur auf dem Papier blieb.
+          <Qt
+            publication={PUBLICATIONS.TOMAN}
+            href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:e4297c33-ec66-4340-8470-3edba8f333cb"
+          />
+        </p>
         <p>&nbsp;</p>
       </Col>
     </Row>

@@ -16,9 +16,25 @@ export const RadVozovyRytiruNemeckych = ({ draft }: ArticleProps) => (
           {draft && <DraftBadge />}
         </h4>
         <p>
+          Řád byl přílohou listu, který velmistr Řádu německých rytířů poslal
+          19.&nbsp;dubna 1433 z Malborku gdaňské městské radě. Žádal v něm, aby
+          Gdaňsk podle přiloženého popisu vypravil třicet dobrých okovaných
+          válečných vozů.
+          <Qt
+            publication={PUBLICATIONS.TOEPPEN1}
+            note="Č. 448, str. 593"
+          />{' '}
+          Oproti Tomanovu otisku se v originálu liší jedno čtení. Toman uvádí,
+          že vůz má být širší <Cit>dann andere weyen</Cit>, tedy než ostatní
+          vozy. Gdaňský originál i dochovaný koncept v Královci však mají{' '}
+          <Cit>denne unser wagen</Cit>, tedy širší než <i>naše</i> vozy.
+          <Qt publication={PUBLICATIONS.TOEPPEN1} note="Č. 448, str. 593" />
+          <Qt publication={PUBLICATIONS.PRUB_DH207} />
+        </p>
+        <p>
           Poznámky k překladu: Termín <Cit>fuhrweyn</Cit> jsem po úvaze přeložil
           jako <Cit>válečný vůz</Cit>. Podle popisu se jedná o bytelný vůz, o
-          něco větší než ostatní.
+          něco širší než ostatní.
           <br />
           Termín <Cit>lotbuchse</Cit> jsem zatím nalezl vždy jen v souvislosti s
           Řádem Německých rytířů. Mělo by se jednat o palnou zbraň, střílící
@@ -88,8 +104,8 @@ export const RadVozovyRytiruNemeckych = ({ draft }: ArticleProps) => (
         <ol>
           <li>
             Jako první dobrý, silný, velký válečný vůz s vysokými koly, která
-            jsou okovaná, a ať je o něco dále než ostatní vozy, pak ostatní vozy
-            a k tomu dobré koně, pět nebo šest.
+            jsou okovaná, a ať je o něco širší než ostatní vozy, a k tomu dobré
+            koně, pět nebo šest.
           </li>
           <li>
             K vozu deset mužů a čtyři nebo pět dobrých kuší a k nim šipky v

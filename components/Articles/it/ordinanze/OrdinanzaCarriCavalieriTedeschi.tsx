@@ -19,10 +19,25 @@ export const OrdinanzaCarriCavalieriTedeschi = ({ draft }: ArticleProps) => (
           {draft && <DraftBadge />}
         </h4>
         <p>
+          L&apos;ordinanza era un allegato alla lettera che il Gran Maestro
+          dell&apos;Ordine Teutonico inviò il 19 aprile 1433 da Marienburg
+          (Malbork) al consiglio cittadino di Danzica. In essa chiedeva che
+          Danzica allestisse, secondo la descrizione allegata, trenta buoni
+          carri da guerra cerchiati in ferro.
+          <Qt publication={PUBLICATIONS.TOEPPEN1} note="N. 448, p. 593" />{' '}
+          Rispetto all&apos;edizione di Toman, nell&apos;originale differisce
+          una lezione. Toman riporta che il carro debba essere più largo{' '}
+          <Cit>dann andere weyen</Cit>, cioè degli altri carri. L&apos;originale
+          di Danzica e la minuta conservata a Königsberg riportano però{' '}
+          <Cit>denne unser wagen</Cit>, cioè più largo dei <i>nostri</i> carri.
+          <Qt publication={PUBLICATIONS.TOEPPEN1} note="N. 448, p. 593" />
+          <Qt publication={PUBLICATIONS.PRUB_DH207} />
+        </p>
+        <p>
           Note di traduzione: dopo attenta considerazione, ho tradotto il
           termine <Cit>fuhrweyn</Cit> come <Cit>carro da guerra</Cit>. Sulla
           base della descrizione, si tratta di un carro robusto, alquanto più
-          grande degli altri.
+          largo degli altri.
           <br />
           Il termine <Cit>lotbuchse</Cit> è stato finora riscontrato
           esclusivamente in relazione all&apos;Ordine Teutonico. Dovrebbe
