@@ -21,6 +21,29 @@ export const MargravesInstructionOnDefendingTheWagonFort = ({
           {draft && <DraftBadge />}
         </h4>
         <p>Translated by PhDr. Zdeňka Kopková</p>
+        <p>
+          The instruction dates from the time when the imperial army marched to
+          relieve Neuss, besieged by Duke Charles the Bold of Burgundy, and
+          Margrave Albrecht Achilles was among its leading commanders. The text
+          on this page follows Toman, who took it from Joseph Würdinger.
+          Würdinger dated the instruction to 15 May 1475, citing the Nuremberg
+          archive, and does not give it in its original wording but in a
+          retelling in 19th-century German.
+          <Qt
+            publication={PUBLICATIONS.WURDINGER2}
+            href="https://www.digitale-sammlungen.de/de/view/bsb11684126?page=411"
+          />{' '}
+          The original wording of the same order was published by Felix
+          Priebatsch among the documents relating to the council of war of 25
+          April 1475, from a copy in the Strasbourg city archive. In it,
+          Margrave Albrecht is referred to in the third person, Lutz Schott and
+          Köckeritz are named as wagon masters, and the order also reckons with
+          gunfire from the town of Zons on the Rhine.
+          <Qt
+            publication={PUBLICATIONS.PRIEBATSCH2}
+            href="https://archive.org/details/politischecorres02albr/page/143/mode/1up"
+          />
+        </p>
 
         <p>&nbsp;</p>
       </Col>

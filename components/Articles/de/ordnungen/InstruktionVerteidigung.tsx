@@ -19,6 +19,30 @@ export const InstruktionVerteidigung = ({ draft }: ArticleProps) => (
           {draft && <DraftBadge />}
         </h4>
         <p>Übersetzt von PhDr. Zdeňka Kopková</p>
+        <p>
+          Die Instruktion stammt aus der Zeit, als das Reichsheer dem vom
+          burgundischen Herzog Karl dem Kühnen belagerten Neuss zu Hilfe zog;
+          Markgraf Albrecht Achilles gehörte zu seinen führenden Befehlshabern.
+          Der Text auf dieser Seite folgt Toman, der ihn von Joseph Würdinger
+          übernahm. Würdinger datierte die Instruktion unter Berufung auf das
+          Nürnberger Archiv auf den 15. Mai 1475 und gibt sie nicht im
+          ursprünglichen Wortlaut wieder, sondern in einer Nacherzählung im
+          Deutsch des 19. Jahrhunderts.
+          <Qt
+            publication={PUBLICATIONS.WURDINGER2}
+            href="https://www.digitale-sammlungen.de/de/view/bsb11684126?page=411"
+          />{' '}
+          Den ursprünglichen Wortlaut desselben Befehls veröffentlichte Felix
+          Priebatsch unter den Schriftstücken zum Kriegsrat vom 25. April 1475
+          nach einer Abschrift im Straßburger Stadtarchiv. Markgraf Albrecht
+          wird darin in der dritten Person genannt, als Wagenburgmeister werden
+          Lutz Schott und Köckeritz angeführt, und der Befehl rechnet auch mit
+          Beschuss aus der Stadt Zons am Rhein.
+          <Qt
+            publication={PUBLICATIONS.PRIEBATSCH2}
+            href="https://archive.org/details/politischecorres02albr/page/143/mode/1up"
+          />
+        </p>
 
         <p>&nbsp;</p>
       </Col>

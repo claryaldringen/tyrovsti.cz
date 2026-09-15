@@ -14,10 +14,29 @@ export const MargraveAlbrechtsOrder = ({ draft }: ArticleProps) => (
           Military Order of Margrave Albrecht of 1478{draft && <DraftBadge />}
         </h4>
         <p>
-          This order was issued by Elector Albrecht Achilles of Brandenburg for
-          the Pomeranian War. It was first printed in{' '}
-          <i>Archiv für die Geschichtskunde des Preussischen Staates I</i> in
-          1830.
+          The order has survived in a codex of the Electoral Brandenburg feudal
+          archive containing records of the war that Elector Albrecht Achilles
+          of Brandenburg waged against Pomerania in 1478–1479. It was first
+          printed by Raumer in 1830 in the{' '}
+          <i>
+            Allgemeines Archiv für die Geschichtskunde des Preußischen Staates
+          </i>
+          .
+          <Qt
+            publication={PUBLICATIONS.ALLGARCHIV1}
+            href="https://www.digitale-sammlungen.de/de/view/bsb10013503?page=262"
+          />{' '}
+          In that edition the order is undated and only follows a levy list from
+          Easter 1479.
+          <Qt
+            publication={PUBLICATIONS.ALLGARCHIV1}
+            href="https://www.digitale-sammlungen.de/de/view/bsb10013503?page=267"
+          />{' '}
+          The year 1478 was assigned to it by Max Jähns.
+          <Qt
+            publication={PUBLICATIONS.JAHNS1889}
+            href="https://archive.org/details/geschichtederkr00jhgoog/page/312/mode/1up"
+          />
         </p>
         <p>Translated by PhDr. Zdeňka Kopková.</p>
         <p>&nbsp;</p>

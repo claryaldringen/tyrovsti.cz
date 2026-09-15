@@ -21,6 +21,28 @@ export const InstrukceMarkrabiAlbrechtaOHajeniVozovehoSiku = ({
           {draft && <DraftBadge />}
         </h4>
         <p>Přeložila PhDr. Zdeňka Kopková</p>
+        <p>
+          Instrukce pochází z doby, kdy říšské vojsko táhlo na pomoc Neussu
+          obléhanému burgundským vévodou Karlem Smělým a markrabě Albrecht
+          Achilles patřil k jeho předním velitelům. Text na webu vychází z
+          Tomana, který ho převzal od Josepha Würdingera. Würdinger instrukci s
+          odkazem na norimberský archiv datoval k 15.&nbsp;květnu 1475 a
+          nepodává ji v původním znění, ale v převyprávění do němčiny 19.
+          století.
+          <Qt
+            publication={PUBLICATIONS.WURDINGER2}
+            href="https://www.digitale-sammlungen.de/de/view/bsb11684126?page=411"
+          />{' '}
+          Původní znění téhož rozkazu vydal Felix Priebatsch mezi písemnostmi k
+          válečné poradě z 25.&nbsp;dubna 1475, podle opisu ve štrasburském
+          městském archivu. Markrabě Albrecht je v něm zmíněn ve třetí osobě,
+          jako vozoví mistři jsou jmenováni Lutz Schott a Köckeritz a rozkaz
+          počítá i s ostřelováním z města Zonsu na Rýně.
+          <Qt
+            publication={PUBLICATIONS.PRIEBATSCH2}
+            href="https://archive.org/details/politischecorres02albr/page/143/mode/1up"
+          />
+        </p>
 
         <p>&nbsp;</p>
       </Col>

@@ -19,6 +19,31 @@ export const IstruzioneDifesaCarri = ({ draft }: ArticleProps) => (
           {draft && <DraftBadge />}
         </h4>
         <p>Traduzione di PhDr. Zdeňka Kopková</p>
+        <p>
+          L&apos;istruzione risale al periodo in cui l&apos;esercito imperiale
+          marciava in soccorso di Neuss, assediata dal duca di Borgogna Carlo il
+          Temerario, e il margravio Albrecht Achille era tra i suoi principali
+          comandanti. Il testo di questa pagina segue Toman, che lo riprese da
+          Joseph Würdinger. Würdinger datò l&apos;istruzione al 15 maggio 1475
+          citando l&apos;archivio di Norimberga e non la riporta nella
+          formulazione originale, ma in una rielaborazione nel tedesco del XIX
+          secolo.
+          <Qt
+            publication={PUBLICATIONS.WURDINGER2}
+            href="https://www.digitale-sammlungen.de/de/view/bsb11684126?page=411"
+          />{' '}
+          La formulazione originale dello stesso ordine fu pubblicata da Felix
+          Priebatsch tra i documenti relativi al consiglio di guerra del 25
+          aprile 1475, sulla base di una copia conservata nell&apos;archivio
+          cittadino di Strasburgo. In essa il margravio Albrecht è menzionato in
+          terza persona, come maestri dei carri sono nominati Lutz Schott e
+          Köckeritz e l&apos;ordine tiene conto anche del tiro dalla città di
+          Zons sul Reno.
+          <Qt
+            publication={PUBLICATIONS.PRIEBATSCH2}
+            href="https://archive.org/details/politischecorres02albr/page/143/mode/1up"
+          />
+        </p>
 
         <p>&nbsp;</p>
       </Col>

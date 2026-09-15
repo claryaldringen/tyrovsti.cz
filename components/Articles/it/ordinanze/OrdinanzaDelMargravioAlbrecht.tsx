@@ -18,10 +18,30 @@ export const OrdinanzaDelMargravioAlbrecht = ({ draft }: ArticleProps) => (
           {draft && <DraftBadge />}
         </h4>
         <p>
-          Questa ordinanza fu emanata dall&apos;elettore Albrecht Achille di
-          Brandeburgo per la guerra di Pomerania. Fu stampata per la prima volta
-          in <i>Archiv für die Geschichtskunde des Preussischen Staates I</i>{' '}
-          nel 1830.
+          L&apos;ordinanza si è conservata in un codice dell&apos;archivio
+          feudale della Marca elettorale di Brandeburgo contenente documenti
+          della guerra che l&apos;elettore Albrecht Achille di Brandeburgo
+          condusse contro la Pomerania nel 1478–1479. Fu pubblicata per la prima
+          volta da Raumer nel 1830 nell&apos;
+          <i>
+            Allgemeines Archiv für die Geschichtskunde des Preußischen Staates
+          </i>
+          .
+          <Qt
+            publication={PUBLICATIONS.ALLGARCHIV1}
+            href="https://www.digitale-sammlungen.de/de/view/bsb10013503?page=262"
+          />{' '}
+          In questa edizione l&apos;ordinanza non è datata e segue soltanto un
+          elenco delle leve militari della Pasqua del 1479.
+          <Qt
+            publication={PUBLICATIONS.ALLGARCHIV1}
+            href="https://www.digitale-sammlungen.de/de/view/bsb10013503?page=267"
+          />{' '}
+          L&apos;anno 1478 le fu attribuito da Max Jähns.
+          <Qt
+            publication={PUBLICATIONS.JAHNS1889}
+            href="https://archive.org/details/geschichtederkr00jhgoog/page/312/mode/1up"
+          />
         </p>
         <p>Traduzione di PhDr. Zdeňka Kopková.</p>
         <p>&nbsp;</p>

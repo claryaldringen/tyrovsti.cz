@@ -16,6 +16,27 @@ export const InstruktionWagenaufstellung = ({ draft }: ArticleProps) => (
         </h4>
         <p>Übersetzt von PhDr. Zdeňka Kopková</p>
         <p>
+          Der Text stammt aus den sogenannten <i>Praeparatoria</i>, den
+          Weisungen des Kurfürsten Albrecht Achilles von Brandenburg für die
+          Aufstellung und den Dienst eines Heeres, das 1477 für den Krieg gegen
+          Herzog Hans von Sagan bestimmt war. Sie sind im Preußischen Geheimen
+          Staatsarchiv in Berlin überliefert und wurden 1884 vom Großen
+          Generalstab vollständig herausgegeben; Toman druckte daraus nur eine
+          Auswahl ab.
+          <Qt
+            publication={PUBLICATIONS.MOBILMACHUNG1477}
+            href="https://www.digitale-sammlungen.de/de/view/bsb11655625?page=7"
+          />{' '}
+          Der Abschnitt <i>Ordenung eines heerzoges</i> ist von anderer Hand
+          geschrieben. Die Herausgeber vermuten, dass es sich um Anweisungen
+          handelt, die auf Befehl des Kurfürsten entworfen wurden, seine
+          Billigung fanden und dann dem übrigen Text beigefügt wurden.
+          <Qt
+            publication={PUBLICATIONS.MOBILMACHUNG1477}
+            href="https://www.digitale-sammlungen.de/de/view/bsb11655625?page=27"
+          />
+        </p>
+        <p>
           Übersetzungshinweise: Im Deutschen wird der Begriff <i>Wagenberg</i>{' '}
           für die Wagenburg verwendet, was eher der Übersetzung{' '}
           <i>Wagenschloss</i> entspricht. Wenn im Text von der Wagenburg die

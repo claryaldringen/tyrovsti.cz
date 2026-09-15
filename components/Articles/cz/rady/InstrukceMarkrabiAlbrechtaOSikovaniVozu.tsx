@@ -21,6 +21,24 @@ export const InstrukceMarkrabiAlbrechtaOSikovaniVozu = ({
         </h4>
         <p>Přeložila PhDr. Zdeňka Kopková</p>
         <p>
+          Text pochází z tzv. <i>Praeparatorií</i>, pokynů kurfiřta Albrechta
+          Achilla Braniborského k sestavení a službě vojska určeného pro válku s
+          vévodou Janem Zaháňským v roce 1477. Dochovaly se v pruském Tajném
+          státním archivu v Berlíně a celé je roku 1884 vydal Velký generální
+          štáb; Toman z nich otiskl jen výběr.
+          <Qt
+            publication={PUBLICATIONS.MOBILMACHUNG1477}
+            href="https://www.digitale-sammlungen.de/de/view/bsb11655625?page=7"
+          />{' '}
+          Oddíl <i>Ordenung eines heerzoges</i> je psán jinou rukou. Vydavatelé
+          předpokládají, že jde o pokyny vypracované na kurfiřtův rozkaz, které
+          kurfiřt schválil a které pak byly připojeny k ostatnímu textu.
+          <Qt
+            publication={PUBLICATIONS.MOBILMACHUNG1477}
+            href="https://www.digitale-sammlungen.de/de/view/bsb11655625?page=27"
+          />
+        </p>
+        <p>
           Poznámky k překladu: V němčině se pro vozovou hradbu užívá termínu{' '}
           <i>wagenberg</i>, což odpovídá spíše překladu <i>vozový hrad</i>.
           Mluví-li se tedy v textu o vozové hradbě, jsou tím myšleny úplně

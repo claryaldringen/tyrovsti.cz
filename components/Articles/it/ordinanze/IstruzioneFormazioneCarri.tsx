@@ -19,6 +19,27 @@ export const IstruzioneFormazioneCarri = ({ draft }: ArticleProps) => (
         </h4>
         <p>Traduzione di PhDr. Zdeňka Kopková</p>
         <p>
+          Il testo proviene dai cosiddetti <i>Praeparatoria</i>, le istruzioni
+          dell&apos;elettore Albrecht Achille di Brandeburgo per la formazione e
+          il servizio di un esercito destinato alla guerra contro il duca
+          Giovanni di Sagan nel 1477. Sono conservati nell&apos;Archivio segreto
+          di Stato prussiano a Berlino e furono pubblicati integralmente dallo
+          Stato maggiore generale nel 1884; Toman ne pubblicò soltanto una
+          selezione.
+          <Qt
+            publication={PUBLICATIONS.MOBILMACHUNG1477}
+            href="https://www.digitale-sammlungen.de/de/view/bsb11655625?page=7"
+          />{' '}
+          La sezione <i>Ordenung eines heerzoges</i> è scritta da un&apos;altra
+          mano. Gli editori ipotizzano che si tratti di istruzioni redatte per
+          ordine dell&apos;elettore, da lui approvate e poi aggiunte al resto
+          del testo.
+          <Qt
+            publication={PUBLICATIONS.MOBILMACHUNG1477}
+            href="https://www.digitale-sammlungen.de/de/view/bsb11655625?page=27"
+          />
+        </p>
+        <p>
           Note di traduzione: in tedesco, il termine <i>wagenberg</i> è
           utilizzato per il forte dei carri, il che corrisponde più strettamente
           alla traduzione <i>castello dei carri</i>. Quando il testo parla del

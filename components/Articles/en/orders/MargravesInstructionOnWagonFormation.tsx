@@ -18,6 +18,26 @@ export const MargravesInstructionOnWagonFormation = ({
         </h4>
         <p>Translated by PhDr. Zdeňka Kopková</p>
         <p>
+          The text comes from the so-called <i>Praeparatoria</i>, the
+          instructions of Elector Albrecht Achilles of Brandenburg for
+          assembling and deploying an army intended for the war against Duke
+          John of Sagan in 1477. They are preserved in the Prussian Privy State
+          Archives in Berlin and were published in full by the Great General
+          Staff in 1884; Toman printed only a selection.
+          <Qt
+            publication={PUBLICATIONS.MOBILMACHUNG1477}
+            href="https://www.digitale-sammlungen.de/de/view/bsb11655625?page=7"
+          />{' '}
+          The section <i>Ordenung eines heerzoges</i> is written in a different
+          hand. The editors assume that these are instructions drawn up on the
+          Elector&apos;s order, approved by him and then added to the rest of
+          the text.
+          <Qt
+            publication={PUBLICATIONS.MOBILMACHUNG1477}
+            href="https://www.digitale-sammlungen.de/de/view/bsb11655625?page=27"
+          />
+        </p>
+        <p>
           Translation notes: In German, the term <i>wagenberg</i> is used for
           the wagon fort, which corresponds more closely to the translation{' '}
           <i>wagon castle</i>. When the text speaks of the wagon fort, it refers

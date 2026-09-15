@@ -15,10 +15,29 @@ export const OrdnungDesMarkgrafenAlbrecht = ({ draft }: ArticleProps) => (
           {draft && <DraftBadge />}
         </h4>
         <p>
-          Diese Ordnung wurde von Kurfürst Albrecht Achilles von Brandenburg für
-          den Pommerischen Krieg erlassen. Sie wurde erstmals 1830 im{' '}
-          <i>Archiv für die Geschichtskunde des Preussischen Staates I</i>{' '}
-          gedruckt.
+          Die Ordnung ist in einem Kodex des kurmärkischen Lehnsarchivs
+          überliefert, der Aufzeichnungen aus dem Krieg enthält, den Kurfürst
+          Albrecht Achilles von Brandenburg 1478–1479 gegen Pommern führte.
+          Erstmals abgedruckt hat sie Raumer 1830 im{' '}
+          <i>
+            Allgemeinen Archiv für die Geschichtskunde des Preußischen Staates
+          </i>
+          .
+          <Qt
+            publication={PUBLICATIONS.ALLGARCHIV1}
+            href="https://www.digitale-sammlungen.de/de/view/bsb10013503?page=262"
+          />{' '}
+          In dieser Edition ist die Ordnung undatiert und steht erst nach einem
+          Anschlag des Aufgebots von Ostern 1479.
+          <Qt
+            publication={PUBLICATIONS.ALLGARCHIV1}
+            href="https://www.digitale-sammlungen.de/de/view/bsb10013503?page=267"
+          />{' '}
+          Das Jahr 1478 hat ihr Max Jähns zugewiesen.
+          <Qt
+            publication={PUBLICATIONS.JAHNS1889}
+            href="https://archive.org/details/geschichtederkr00jhgoog/page/312/mode/1up"
+          />
         </p>
         <p>Übersetzt von PhDr. Zdeňka Kopková.</p>
         <p>&nbsp;</p>

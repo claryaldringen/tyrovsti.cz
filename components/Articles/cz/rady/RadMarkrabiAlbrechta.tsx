@@ -14,10 +14,28 @@ export const RadMarkrabiAlbrechta = ({ draft }: ArticleProps) => (
           Řád vojenský markrabí Albrechta z roku 1478{draft && <DraftBadge />}
         </h4>
         <p>
-          Tento řád byl vydán kurfiřtem Albrechtem Achillem brandenburským pro
-          válku pomořanskou. Poprvé otištěn v&nbsp;
-          <i>Archiv für die Geschichtskunde des Preussischen Staates I</i> roku
-          1830.
+          Řád se dochoval v kodexu kurmarského lenního archivu se záznamy z
+          války, kterou kurfiřt Albrecht Achilles Braniborský vedl v letech
+          1478–1479 proti Pomořanům. Poprvé ho roku 1830 otiskl Raumer v{' '}
+          <i>
+            Allgemeines Archiv für die Geschichtskunde des Preußischen Staates
+          </i>
+          .
+          <Qt
+            publication={PUBLICATIONS.ALLGARCHIV1}
+            href="https://www.digitale-sammlungen.de/de/view/bsb10013503?page=262"
+          />{' '}
+          V edici není řád datován a stojí až za rozpisem vojenské hotovosti z
+          Velikonoc 1479.
+          <Qt
+            publication={PUBLICATIONS.ALLGARCHIV1}
+            href="https://www.digitale-sammlungen.de/de/view/bsb10013503?page=267"
+          />{' '}
+          Rok 1478 mu přisoudil Max Jähns.
+          <Qt
+            publication={PUBLICATIONS.JAHNS1889}
+            href="https://archive.org/details/geschichtederkr00jhgoog/page/312/mode/1up"
+          />
         </p>
         <p>Přeložila PhDr. Zdeňka Kopková</p>
         <p>&nbsp;</p>
