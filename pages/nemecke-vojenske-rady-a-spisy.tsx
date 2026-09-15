@@ -1,6 +1,9 @@
 import React from 'react'
 import { Col, Container, Row } from 'reactstrap'
 import { NemeckeVojenskeRadyUvod } from '../components/Articles/cz/rady/NemeckeVojenskeRadyUvod'
+import { UmluvaVGrotkove } from '../components/Articles/cz/rady/UmluvaVGrotkove'
+import { NavrhyKurfirstu1426 } from '../components/Articles/cz/rady/NavrhyKurfirstu1426'
+import { UsneseniSlezske1429 } from '../components/Articles/cz/rady/UsneseniSlezske1429'
 import { UsneseniNorimberske } from '../components/Articles/cz/rady/UsneseniNorimberske'
 import { RadVozovyRytiruNemeckych } from '../components/Articles/cz/rady/RadVozovyRytiruNemeckych'
 import { VozovyRadFrankfurtsky } from '../components/Articles/cz/rady/VozovyRadFrankfurtsky'
@@ -35,7 +38,10 @@ const Page = () => {
               <ImageWithTitle src="husite.jpg" width={1920} height={1404} />
             </Row>
             <NemeckeVojenskeRadyUvod />
+            <UmluvaVGrotkove draft />
+            <NavrhyKurfirstu1426 draft />
             <UsneseniNorimberske />
+            <UsneseniSlezske1429 draft />
             <RadVozovyRytiruNemeckych />
             <VozovyRadFrankfurtsky />
             <NorimberskyRadVozovy />

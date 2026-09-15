@@ -35,6 +35,24 @@ export const DeutscheMilitaerordnungenEinfuehrung = () => (
         />
       </p>
       <p>
+        Die Wagenburg war jedoch nicht das einzige Thema. Aus den Beratungen der
+        Reichstage gingen nach Toman während der Hussitenkriege drei allgemeine
+        Kriegsordnungen für die geplanten Feldzüge nach Böhmen hervor. Sie
+        behandeln die Vorbereitung des Feldzugs, die Zucht im Heer und die
+        Verteilung der Geschütze. Die Vorschläge der Kurfürsten von 1426 sind
+        nach ihm nur ein dürftiger Versuch, der Frankfurter Beschluss von 1427
+        bildet bereits eine geschlossene Ordnung in 48 Artikeln, und die dritte
+        Ordnung erließ der Nürnberger Reichstag 1431.
+        <Qt
+          publication={PUBLICATIONS.TOMAN}
+          href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:8b817ac0-57b2-408e-83e4-6a2585b6ccc2"
+        />
+        <Qt
+          publication={PUBLICATIONS.TOMAN}
+          href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:b20c2763-1196-4237-b865-63d45ed3cb7c"
+        />
+      </p>
+      <p>
         Maximilian von Wulf bemerkt, dass sich die Ordnungen der Jahre
         1428–1450, was die Wagenburg betrifft, auf die Ausrüstung der Wagen
         beschränken. Der Nürnberger Beschluss von 1428 enthält nach ihm

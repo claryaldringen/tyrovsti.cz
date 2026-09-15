@@ -35,6 +35,24 @@ export const GermanMilitaryOrdersIntro = () => (
         />
       </p>
       <p>
+        The wagon fort was not the only subject, however. According to Toman,
+        three general military ordinances for the planned campaigns into Bohemia
+        emerged from the deliberations of the imperial diets during the Hussite
+        wars. They deal with the preparation of the campaign, discipline in the
+        army and the allocation of artillery. The electors&apos; proposals of
+        1426 are in his view merely a poor attempt, the Frankfurt resolution of
+        1427 already forms a complete ordinance of 48 articles, and the third
+        ordinance was issued by the Nuremberg diet in 1431.
+        <Qt
+          publication={PUBLICATIONS.TOMAN}
+          href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:8b817ac0-57b2-408e-83e4-6a2585b6ccc2"
+        />
+        <Qt
+          publication={PUBLICATIONS.TOMAN}
+          href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:b20c2763-1196-4237-b865-63d45ed3cb7c"
+        />
+      </p>
+      <p>
         Maximilian von Wulf observes that, as far as the wagon fort is
         concerned, the ordinances of 1428–1450 are limited to the equipment of
         the wagons. In his view, the Nuremberg resolution of 1428 contains the

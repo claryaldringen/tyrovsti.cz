@@ -33,6 +33,22 @@ export const NemeckeVojenskeRadyUvod = () => (
         />
       </p>
       <p>
+        Vozová hradba ale nebyla jediným tématem. Z porad říšských sněmů vzešly
+        za husitských válek podle Tomana tři obecné vojenské řády pro chystané
+        výpravy do Čech. Řeší přípravu tažení, kázeň ve vojsku a rozvrh střelby.
+        Návrhy kurfiřtů z roku 1426 jsou podle něj jen chudým pokusem,
+        frankfurtské usnesení z roku 1427 už tvoří ucelený řád o 48 článcích a
+        třetí řád vydal norimberský sněm roku 1431.
+        <Qt
+          publication={PUBLICATIONS.TOMAN}
+          href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:8b817ac0-57b2-408e-83e4-6a2585b6ccc2"
+        />
+        <Qt
+          publication={PUBLICATIONS.TOMAN}
+          href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:b20c2763-1196-4237-b865-63d45ed3cb7c"
+        />
+      </p>
+      <p>
         Maximilian von Wulf si všímá, že řády z let 1428–1450 se, pokud jde o
         vozovou hradbu, omezují na výbavu vozů. Norimberské usnesení z roku 1428
         podle něj obsahuje vůbec nejstarší ustanovení o válečných vozech

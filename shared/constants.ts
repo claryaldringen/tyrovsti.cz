@@ -519,6 +519,27 @@ export const PUBLICATIONS: Record<string, Publication> = {
     year: 1889,
     href: 'https://archive.org/details/geschichtederkr00jhgoog',
   },
+  DRA8: {
+    name: 'Deutsche Reichstagsakten unter Kaiser Sigmund. Zweite Abtheilung: 1421–1426 (Deutsche Reichstagsakten VIII)',
+    author: 'Dietrich Kerler (ed.)',
+    city: 'Gotha',
+    year: 1883,
+    href: 'https://www.digitale-sammlungen.de/de/view/bsb11833356',
+  },
+  PALACKY_UB1: {
+    name: 'Urkundliche Beiträge zur Geschichte des Hussitenkrieges vom Jahre 1419 an I',
+    author: 'František Palacký',
+    city: { cs: 'Praha', en: 'Prague', de: 'Prag', it: 'Praga' },
+    year: 1873,
+    href: 'https://archive.org/details/urkundlichebeitr01pala',
+  },
+  GRUNHAGEN1872: {
+    name: 'Die Hussitenkämpfe der Schlesier 1420–1435',
+    author: 'Colmar Grünhagen',
+    city: { cs: 'Vratislav', en: 'Breslau', de: 'Breslau', it: 'Breslavia' },
+    year: 1872,
+    href: 'https://archive.org/details/bub_gb_s0kJAAAAQAAJ',
+  },
   WULF1889: {
     name: 'Die husitische Wagenburg',
     author: 'Maximilian von Wulf',

@@ -6,6 +6,9 @@ import { ImageWithTitle } from '../components/ImageWithTitle/ImageWithTitle'
 import { Payment } from '../components/Payment'
 import { Sources } from '../components/Quote/Sources'
 import { DeutscheMilitaerordnungenEinfuehrung } from '../components/Articles/de/ordnungen/DeutscheMilitaerordnungenEinfuehrung'
+import { EinungZuGrottkau } from '../components/Articles/de/ordnungen/EinungZuGrottkau'
+import { VorschlaegeDerKurfuersten1426 } from '../components/Articles/de/ordnungen/VorschlaegeDerKurfuersten1426'
+import { SchlesischerBeschluss1429 } from '../components/Articles/de/ordnungen/SchlesischerBeschluss1429'
 import { NuernbergerBeschluss } from '../components/Articles/de/ordnungen/NuernbergerBeschluss'
 import { WagenordnungDerDeutschenRitter } from '../components/Articles/de/ordnungen/WagenordnungDerDeutschenRitter'
 import { FrankfurterWagenordnung } from '../components/Articles/de/ordnungen/FrankfurterWagenordnung'
@@ -35,7 +38,10 @@ const Page = () => {
               <ImageWithTitle src="husite.jpg" width={1920} height={1404} />
             </Row>
             <DeutscheMilitaerordnungenEinfuehrung />
+            <EinungZuGrottkau draft />
+            <VorschlaegeDerKurfuersten1426 draft />
             <NuernbergerBeschluss />
+            <SchlesischerBeschluss1429 draft />
             <WagenordnungDerDeutschenRitter />
             <FrankfurterWagenordnung />
             <NuernbergerWagenordnung />

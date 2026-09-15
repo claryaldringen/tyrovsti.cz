@@ -36,6 +36,25 @@ export const IntroduzioneOrdinanzeTedesche = () => (
         />
       </p>
       <p>
+        Il forte dei carri non era tuttavia l&apos;unico tema. Secondo Toman,
+        durante le guerre hussite dalle consultazioni delle diete imperiali
+        scaturirono tre ordinanze militari generali per le spedizioni progettate
+        in Boemia. Trattano della preparazione della campagna, della disciplina
+        nell&apos;esercito e della ripartizione dell&apos;artiglieria. Le
+        proposte dei principi elettori del 1426 sono a suo avviso soltanto un
+        povero tentativo, la risoluzione di Francoforte del 1427 costituisce già
+        un&apos;ordinanza compiuta di 48 articoli e la terza ordinanza fu
+        emanata dalla dieta di Norimberga nel 1431.
+        <Qt
+          publication={PUBLICATIONS.TOMAN}
+          href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:8b817ac0-57b2-408e-83e4-6a2585b6ccc2"
+        />
+        <Qt
+          publication={PUBLICATIONS.TOMAN}
+          href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:b20c2763-1196-4237-b865-63d45ed3cb7c"
+        />
+      </p>
+      <p>
         Maximilian von Wulf osserva che, per quanto riguarda il forte dei carri,
         le ordinanze degli anni 1428–1450 si limitano all&apos;equipaggiamento
         dei carri. A suo avviso, la risoluzione di Norimberga del 1428 contiene

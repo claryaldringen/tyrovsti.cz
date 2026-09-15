@@ -6,6 +6,9 @@ import { ImageWithTitle } from '../components/ImageWithTitle/ImageWithTitle'
 import { Payment } from '../components/Payment'
 import { Sources } from '../components/Quote/Sources'
 import { GermanMilitaryOrdersIntro } from '../components/Articles/en/orders/GermanMilitaryOrdersIntro'
+import { GrottkauAgreement } from '../components/Articles/en/orders/GrottkauAgreement'
+import { ElectorsProposals1426 } from '../components/Articles/en/orders/ElectorsProposals1426'
+import { SilesianResolution1429 } from '../components/Articles/en/orders/SilesianResolution1429'
 import { NurembergResolution } from '../components/Articles/en/orders/NurembergResolution'
 import { WagonOrderOfGermanKnights } from '../components/Articles/en/orders/WagonOrderOfGermanKnights'
 import { FrankfurtWagonOrder } from '../components/Articles/en/orders/FrankfurtWagonOrder'
@@ -35,7 +38,10 @@ const Page = () => {
               <ImageWithTitle src="husite.jpg" width={1920} height={1404} />
             </Row>
             <GermanMilitaryOrdersIntro />
+            <GrottkauAgreement draft />
+            <ElectorsProposals1426 draft />
             <NurembergResolution />
+            <SilesianResolution1429 draft />
             <WagonOrderOfGermanKnights />
             <FrankfurtWagonOrder />
             <NurembergWagonOrder />
