@@ -1,6 +1,7 @@
 {
   "name": "tyrovsti",
   "version": "0.1.0",
+  "packageManager": "yarn@4.18.0",
   "private": true,
   "scripts": {
     "dev": "next dev -p 3005",
@@ -37,7 +38,9 @@
       "plugin:prettier/recommended",
       "next"
     ],
-    "ignorePatterns": ["next-env.d.ts"],
+    "ignorePatterns": [
+      "next-env.d.ts"
+    ],
     "rules": {
       "prettier/prettier": "error",
       "react/prop-types": "off",
