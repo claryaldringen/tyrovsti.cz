@@ -74,12 +74,12 @@ export const OrdinanzaCarriCavalieriTedeschi = ({ draft }: ArticleProps) => (
             bestellen, dass man von zween oder drien warpen oder speiseweyen
             usrichte einen guten fuhrweyn, und dass die leute zusampen spannen
             und gute vier pferde darzu usrichten.
+            <Qt
+              publication={PUBLICATIONS.TOMAN}
+              href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:daae406d-40b6-4334-b6a9-6761b28fca56"
+            />
           </li>
         </ol>
-        <Qt
-          publication={PUBLICATIONS.TOMAN}
-          href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:daae406d-40b6-4334-b6a9-6761b28fca56"
-        />
       </Col>
       <Col md={6}>
         <ol>

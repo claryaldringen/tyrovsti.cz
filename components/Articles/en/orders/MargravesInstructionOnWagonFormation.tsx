@@ -75,11 +75,11 @@ export const MargravesInstructionOnWagonFormation = ({
           hinden oder vorn ein rad abgehen, sunderlich als ich gehort, E. F. G.
           habe uber tausend heerwagen, ane (ohne) futterwagen, nechstmals im
           felde gehabt.
+          <Qt
+            publication={PUBLICATIONS.TOMAN}
+            href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:1a5fff7e-12a4-4ef8-9374-71fcfbdf16cd"
+          />
         </p>
-        <Qt
-          publication={PUBLICATIONS.TOMAN}
-          href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:1a5fff7e-12a4-4ef8-9374-71fcfbdf16cd"
-        />
       </Col>
       <Col md={6}>
         <ol>

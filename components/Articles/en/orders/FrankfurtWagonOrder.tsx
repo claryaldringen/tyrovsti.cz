@@ -37,11 +37,11 @@ export const FrankfurtWagonOrder = ({ draft }: ArticleProps) => (
           zustellen, und auch stein, pulver, blei und pfeil, so ihr meiste
           mögent mit uch bringen. <br />
           Dat. ut supra.
+          <Qt
+            publication={PUBLICATIONS.TOMAN}
+            href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:576e88b9-8260-4b59-8423-a1850108b081"
+          />
         </p>
-        <Qt
-          publication={PUBLICATIONS.TOMAN}
-          href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:576e88b9-8260-4b59-8423-a1850108b081"
-        />
       </Col>
       <Col md={6}>
         <p>

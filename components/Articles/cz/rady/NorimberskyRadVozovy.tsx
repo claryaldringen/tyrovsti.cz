@@ -108,12 +108,12 @@ export const NorimberskyRadVozovy = ({ draft }: ArticleProps) => (
             Item mer hätt bestellt bretter, und wenn man auszoch, so mussten sie
             die bretter an die wägen hängen, und welcher sie nicht anhieng, dem
             gab man dieselben wochen kein sold.
+            <Qt
+              publication={PUBLICATIONS.TOMAN}
+              href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:bab9ad31-14b9-402f-8533-bfb4dd580fd5"
+            />
           </li>
         </ol>
-        <Qt
-          publication={PUBLICATIONS.TOMAN}
-          href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:bab9ad31-14b9-402f-8533-bfb4dd580fd5"
-        />
       </Col>
       <Col md={6}>
         <b>O smyslu vozové hradby.</b>

@@ -44,12 +44,12 @@ export const NuernbergerBeschluss = ({ draft }: ArticleProps) => (
           </li>
           <li>
             Item ein wagenketten, die als lang sei, als sunst ander drei sind.
+            <Qt
+              publication={PUBLICATIONS.TOMAN}
+              href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:fdfeb0c4-7c80-460c-b70e-77199df5b2bd"
+            />
           </li>
         </ol>
-        <Qt
-          publication={PUBLICATIONS.TOMAN}
-          href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:fdfeb0c4-7c80-460c-b70e-77199df5b2bd"
-        />
       </Col>
       <Col md={6}>
         <ol>

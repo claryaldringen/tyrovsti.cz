@@ -594,12 +594,12 @@ export const FilipaSeldeneckaRadVozovy = ({ draft }: ArticleProps) => (
             sein, und wo das not thut, so sollen die fürschlagen und zu statten
             kommen, das alles konn ein verständiger geübter hauptmann wohl
             bessern.
+            <Qt
+              publication={PUBLICATIONS.TOMAN}
+              href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:0f255aab-b59c-4264-afd5-d7b478bccea2"
+            />
           </li>
         </ol>
-        <Qt
-          publication={PUBLICATIONS.TOMAN}
-          href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:0f255aab-b59c-4264-afd5-d7b478bccea2"
-        />
       </Col>
       <Col md={6}>
         <p>

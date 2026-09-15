@@ -134,12 +134,12 @@ export const OrdnungDesMarkgrafenAlbrecht = ({ draft }: ArticleProps) => (
           <li>
             Item alle Nacht je über 10 Wagen bei der Nacht ein klein Feuer zu
             machen, einen Steinwurf von der Wagenburg.
+            <Qt
+              publication={PUBLICATIONS.TOMAN}
+              href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:5828962a-3453-4f26-aa48-2b7b2e47b931"
+            />
           </li>
         </ol>
-        <Qt
-          publication={PUBLICATIONS.TOMAN}
-          href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:5828962a-3453-4f26-aa48-2b7b2e47b931"
-        />
       </Col>
       <Col md={6}>
         <ol>
