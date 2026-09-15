@@ -105,7 +105,10 @@ export const OrdinanzaCarriNorimberga = ({ draft }: ArticleProps) => (
             füllen mit wasser und auf den wagen legen, wann der wein was gar
             teuer; auch was bei einem jeden wagen ein haue und ein schaufel.
           </li>
-          <li>Item dieselben wägen sammten sich am markt und den bott auf</li>
+          <li>
+            Item dieselben wägen sammten sich am markt und den bott auf der
+            Puchner und die aufdinger.
+          </li>
           <li>
             Item mer hätt bestellt bretter, und wenn man auszoch, so mussten sie
             die bretter an die wägen hängen, und welcher sie nicht anhieng, dem
@@ -206,8 +209,8 @@ export const OrdinanzaCarriNorimberga = ({ draft }: ArticleProps) => (
             pala.
           </li>
           <li>
-            Questi stessi carri si radunavano al mercato e venivano comandati
-            (non sappiamo da chi, il nome è mancante).
+            Questi stessi carri si radunavano al mercato e venivano convocati
+            dal Puchner e dagli incaricati della chiamata.
           </li>
           <li>
             Inoltre, furono ordinate assi, e durante la marcia dovevano

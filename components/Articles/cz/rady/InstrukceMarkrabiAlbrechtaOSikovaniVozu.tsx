@@ -35,14 +35,17 @@ export const InstrukceMarkrabiAlbrechtaOSikovaniVozu = ({
       <Col md={6}>
         <ol>
           <li>Zu der macht des heerzugs muss man haben tausend wagen </li>
-          <li>Item IIm dort in, ausserhalb der frunt ...</li>
+          <li>
+            Item II<sup>m</sup> dort in, ausserhalb der frunt ...
+          </li>
           <li>
             Item zu den tausent wagen sollen zu iglichen wagen X mann geordnet
             werden, das macht: X tausend mann, nemlich tausend wagenknecht,
             tausend schäufler, die da graben zu befestigung und notdurft des
-            heers und gewinnung der sloss, und VIII guter gerüster drabanten;
-            das ist die austeilung der zehner, die zu einem jeden wagen gehören,
-            die bleiben halb bei den wagen, und halbe uf den platz.
+            heers und gewinnung der sloss, und VIII<sup>m</sup> guter gerüster
+            drabanten; das ist die austeilung der zehner, die zu einem jeden
+            wagen gehören, die bleiben halb bei den wagen, und halbe uf den
+            platz.
           </li>
           <li>
             Item ein iglicher wagen muss haben zwei schaufel, einen bickel, ein
@@ -53,16 +56,16 @@ export const InstrukceMarkrabiAlbrechtaOSikovaniVozu = ({
             uf das geringst mit einer groben leinwand uberdeckt.
           </li>
           <li>
-            Item under den tausent wagen mussen IV wagen sein, die zu der
-            äussersten zeil, die man beschliessen muss, dienen; der jeder muss
-            haben ein britt, das man of der äusseren seiten anhenkt zu notdurft
-            der wagenburg, das zuoberst an den leiterbaum gehenkt werden und
-            herabreichen soll bis zu halbem rad, und unden an dem wagen zwuschen
-            den rädern ein angehangen britt. Es mussen auch dieselben IIII wagen
-            haben: ketten, damit man sie zusammen schleusset. Und die andern VI
-            wagen sollen haben seil, damit man sie sperret als ander wagen, und
-            mussen alle sein nach dem muster, das wir zu Berlin gelassen
-            haben...
+            Item under den tausent wagen mussen IV<sup>c</sup> wagen sein, die
+            zu der äussersten zeil, die man beschliessen muss, dienen; der jeder
+            muss haben ein britt, das man of der äusseren seiten anhenkt zu
+            notdurft der wagenburg, das zuoberst an den leiterbaum gehenkt
+            werden und herabreichen soll bis zu halbem rad, und unden an dem
+            wagen zwuschen den rädern ein angehangen britt. Es mussen auch
+            dieselben IIII<sup>c</sup> wagen haben: ketten, damit man sie
+            zusammen schleusset. Und die andern VI<sup>c</sup> wagen sollen
+            haben seil, damit man sie sperret als ander wagen, und mussen alle
+            sein nach dem muster, das wir zu Berlin gelassen haben...
           </li>
         </ol>
         <h5>Ordenung eines heerzoges.</h5>
@@ -87,11 +90,11 @@ export const InstrukceMarkrabiAlbrechtaOSikovaniVozu = ({
       <Col md={6}>
         <ol>
           <li>K&nbsp;síle vojenského tažení je třeba mít tisíc vozů …</li>
-          <li>Tam k&nbsp;mimo frontu…</li>
+          <li>Dále 2000 tam uvnitř, mimo frontu…</li>
           <li>
             K&nbsp;tisícům vozů musí být ke každému vozu přiřazeno X mužů, tj. X
             tisíc mužů, tedy tisíc vozových pacholků, tisíc kopáčů, kteří kopají
-            zeminu pro opevnění a potřebu vojska a dobytí zámku a VIII dobře
+            zeminu pro opevnění a potřebu vojska a dobytí zámku a 8000 dobře
             vyzbrojených trabantů; to je rozdělení do desítek, které patří ke
             každému vozu a ti zůstanou z&nbsp;poloviny na voze a z&nbsp;poloviny
             na místě.
@@ -105,14 +108,15 @@ export const InstrukceMarkrabiAlbrechtaOSikovaniVozu = ({
             plátnem.
           </li>
           <li>
-            Mezi tisíci vozy musí být IV vozy, které slouží
+            Mezi tisíci vozy musí být 400 vozů, které slouží
             k&nbsp;nejkrajnějšímu konci, který se musí uzavřít; každý musí mít
-            jednu uzdu, kterou v&nbsp;případě nutnosti zavěsí na vnější stranu
+            jedno prkno, které v&nbsp;případě nutnosti zavěsí na vnější stranu
             vozové hradby, které se zavěsí úplně nahoru na štafle a musí sahat
-            dolů až do poloviny kola a dole u dvou vozů mezi dvěma koly zavěšená
-            uzda. Také tytéž IIII vozy musí mít řetězy, aby se společně svázaly.
-            A ostatní VI vozy musí mít provaz, aby se zavřely jako jiné vozy, a
-            všechny musí být podle vzoru, který jsme nechali v&nbsp;Berlíně….
+            dolů až do poloviny kola a dole u dvou vozů mezi dvěma koly zavěšené
+            prkno. Také těchto 400 vozů musí mít řetězy, aby se společně
+            svázaly. A ostatních 600 vozů musí mít provaz, aby se zavřely jako
+            jiné vozy, a všechny musí být podle vzoru, který jsme nechali
+            v&nbsp;Berlíně….
           </li>
         </ol>
         <h5>Pořadí vojenského tažení</h5>

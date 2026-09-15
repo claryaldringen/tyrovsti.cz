@@ -103,7 +103,10 @@ export const NorimberskyRadVozovy = ({ draft }: ArticleProps) => (
             füllen mit wasser und auf den wagen legen, wann der wein was gar
             teuer; auch was bei einem jeden wagen ein haue und ein schaufel.
           </li>
-          <li>Item dieselben wägen sammten sich am markt und den bott auf</li>
+          <li>
+            Item dieselben wägen sammten sich am markt und den bott auf der
+            Puchner und die aufdinger.
+          </li>
           <li>
             Item mer hätt bestellt bretter, und wenn man auszoch, so mussten sie
             die bretter an die wägen hängen, und welcher sie nicht anhieng, dem
@@ -193,8 +196,8 @@ export const NorimberskyRadVozovy = ({ draft }: ArticleProps) => (
             bylo příliš drahé; také byla u každého vozu motyka a lopata.
           </li>
           <li>
-            Tytéž vozy se shromažďovaly na trhu a byly objednány (nevíme kým,
-            jméno chybí)
+            Tytéž vozy se shromažďovaly na trhu a svolávali je Puchner a
+            svolavatelé.
           </li>
           <li>
             Navíc se objednaly desky, a když se vyrazilo, musely se desky

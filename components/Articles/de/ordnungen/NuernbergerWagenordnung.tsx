@@ -103,7 +103,10 @@ export const NuernbergerWagenordnung = ({ draft }: ArticleProps) => (
             füllen mit wasser und auf den wagen legen, wann der wein was gar
             teuer; auch was bei einem jeden wagen ein haue und ein schaufel.
           </li>
-          <li>Item dieselben wägen sammten sich am markt und den bott auf</li>
+          <li>
+            Item dieselben wägen sammten sich am markt und den bott auf der
+            Puchner und die aufdinger.
+          </li>
           <li>
             Item mer hätt bestellt bretter, und wenn man auszoch, so mussten sie
             die bretter an die wägen hängen, und welcher sie nicht anhieng, dem
@@ -195,8 +198,8 @@ export const NuernbergerWagenordnung = ({ draft }: ArticleProps) => (
             hatte jeder Wagen eine Haue und eine Schaufel.
           </li>
           <li>
-            Dieselben Wagen versammelten sich auf dem Marktplatz und wurden
-            aufgeboten (wir wissen nicht von wem, der Name fehlt).
+            Dieselben Wagen versammelten sich auf dem Marktplatz und wurden vom
+            Puchner und den Aufbietern aufgeboten.
           </li>
           <li>
             Weiterhin wurden Bretter bestellt, und beim Ausmarsch mussten sie

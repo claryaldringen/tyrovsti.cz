@@ -34,14 +34,17 @@ export const IstruzioneFormazioneCarri = ({ draft }: ArticleProps) => (
       <Col md={6}>
         <ol>
           <li>Zu der macht des heerzugs muss man haben tausend wagen </li>
-          <li>Item IIm dort in, ausserhalb der frunt ...</li>
+          <li>
+            Item II<sup>m</sup> dort in, ausserhalb der frunt ...
+          </li>
           <li>
             Item zu den tausent wagen sollen zu iglichen wagen X mann geordnet
             werden, das macht: X tausend mann, nemlich tausend wagenknecht,
             tausend schäufler, die da graben zu befestigung und notdurft des
-            heers und gewinnung der sloss, und VIII guter gerüster drabanten;
-            das ist die austeilung der zehner, die zu einem jeden wagen gehören,
-            die bleiben halb bei den wagen, und halbe uf den platz.
+            heers und gewinnung der sloss, und VIII<sup>m</sup> guter gerüster
+            drabanten; das ist die austeilung der zehner, die zu einem jeden
+            wagen gehören, die bleiben halb bei den wagen, und halbe uf den
+            platz.
           </li>
           <li>
             Item ein iglicher wagen muss haben zwei schaufel, einen bickel, ein
@@ -52,16 +55,16 @@ export const IstruzioneFormazioneCarri = ({ draft }: ArticleProps) => (
             uf das geringst mit einer groben leinwand uberdeckt.
           </li>
           <li>
-            Item under den tausent wagen mussen IV wagen sein, die zu der
-            äussersten zeil, die man beschliessen muss, dienen; der jeder muss
-            haben ein britt, das man of der äusseren seiten anhenkt zu notdurft
-            der wagenburg, das zuoberst an den leiterbaum gehenkt werden und
-            herabreichen soll bis zu halbem rad, und unden an dem wagen zwuschen
-            den rädern ein angehangen britt. Es mussen auch dieselben IIII wagen
-            haben: ketten, damit man sie zusammen schleusset. Und die andern VI
-            wagen sollen haben seil, damit man sie sperret als ander wagen, und
-            mussen alle sein nach dem muster, das wir zu Berlin gelassen
-            haben...
+            Item under den tausent wagen mussen IV<sup>c</sup> wagen sein, die
+            zu der äussersten zeil, die man beschliessen muss, dienen; der jeder
+            muss haben ein britt, das man of der äusseren seiten anhenkt zu
+            notdurft der wagenburg, das zuoberst an den leiterbaum gehenkt
+            werden und herabreichen soll bis zu halbem rad, und unden an dem
+            wagen zwuschen den rädern ein angehangen britt. Es mussen auch
+            dieselben IIII<sup>c</sup> wagen haben: ketten, damit man sie
+            zusammen schleusset. Und die andern VI<sup>c</sup> wagen sollen
+            haben seil, damit man sie sperret als ander wagen, und mussen alle
+            sein nach dem muster, das wir zu Berlin gelassen haben...
           </li>
         </ol>
         <h5>Ordenung eines heerzoges.</h5>
@@ -89,12 +92,12 @@ export const IstruzioneFormazioneCarri = ({ draft }: ArticleProps) => (
             Per la forza della campagna militare, è necessario disporre di mille
             carri...
           </li>
-          <li>Inoltre, al di fuori del fronte...</li>
+          <li>Inoltre 2000 là dentro, al di fuori del fronte...</li>
           <li>
             Ai mille carri, X uomini dovranno essere assegnati a ciascun carro,
             per un totale di X mila uomini, ossia mille serventi dei carri,
             mille guastatori che scavano la terra per la fortificazione e le
-            necessità dell&apos;esercito e la conquista dei castelli, e VIII
+            necessità dell&apos;esercito e la conquista dei castelli, e 8000
             fanti ben armati; questa è la suddivisione in gruppi di dieci che
             appartengono a ciascun carro, e rimangono metà presso il carro e
             metà sulla piazza.
@@ -108,16 +111,16 @@ export const IstruzioneFormazioneCarri = ({ draft }: ArticleProps) => (
             baldacchino coperto almeno con un tessuto di lino grezzo.
           </li>
           <li>
-            Tra i mille carri, ve ne devono essere IV che servono per la fila
+            Tra i mille carri, ve ne devono essere 400 che servono per la fila
             più esterna, la quale deve essere chiusa; ciascuno deve avere
             un&apos;asse che viene appesa sul lato esterno per le necessità del
             forte dei carri, la quale deve essere agganciata alla sommità della
             trave a scala e deve raggiungere in basso fino a metà della ruota, e
             sotto il carro, tra le ruote, un&apos;asse sospesa. Questi stessi
-            IIII carri devono inoltre avere catene per serrarli insieme. E gli
-            altri VI carri devono avere funi per sbarrarli come gli altri carri,
-            e tutti devono essere conformi al modello che abbiamo lasciato a
-            Berlino...
+            400 carri devono inoltre avere catene per serrarli insieme. E gli
+            altri 600 carri devono avere funi per sbarrarli come gli altri
+            carri, e tutti devono essere conformi al modello che abbiamo
+            lasciato a Berlino...
           </li>
         </ol>
         <h5>Ordine della campagna militare</h5>
