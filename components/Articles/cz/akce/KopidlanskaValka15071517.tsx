@@ -2,18 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const KopidlanskaValka15071517 = ({ draft }: ArticleProps) => (
+export const KopidlanskaValka15071517 = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="kopidlanska-valka-1507-1517" />
-        <h4>
-          Soukromá válka Jiřího Kopidlanského proti Praze (1507–1517)
-          {draft && <DraftBadge />}
-        </h4>
+        <h4>Soukromá válka Jiřího Kopidlanského proti Praze (1507–1517)</h4>
         <p>
           Soukromá válka <b>Jiřího Kopidlanského z&nbsp;Kopidlna</b> proti městu
           Praze patří k&nbsp;nejdéle trvajícím českým záštím přelomu 15.

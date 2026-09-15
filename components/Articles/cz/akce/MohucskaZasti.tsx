@@ -2,15 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const MohucskaZasti = ({ draft }: ArticleProps) => (
+export const MohucskaZasti = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="mohucska-zasti" />
-        <h4>Mohučská kolegiátní záští (1461–1463){draft && <DraftBadge />}</h4>
+        <h4>Mohučská kolegiátní záští (1461–1463)</h4>
         <p>
           Mohučská kolegiátní záští (něm. <i>Mainzer Stiftsfehde</i>) byl
           ozbrojený spor o obsazení mohučského arcibiskupského stolce mezi

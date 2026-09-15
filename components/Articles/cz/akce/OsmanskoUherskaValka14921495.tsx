@@ -2,18 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const OsmanskoUherskaValka14921495 = ({ draft }: ArticleProps) => (
+export const OsmanskoUherskaValka14921495 = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="osmansko-uherska-valka-1492-1495" />
-        <h4>
-          Osmanské nájezdy do Uher a Chorvatska (1492–1495)
-          {draft && <DraftBadge />}
-        </h4>
+        <h4>Osmanské nájezdy do Uher a Chorvatska (1492–1495)</h4>
         <p>
           Po smrti Matyáše Korvína v dubnu 1490 a v průběhu zápasu o uherský
           trůn se na jižní hranici uherského království opět rozhořely osmanské

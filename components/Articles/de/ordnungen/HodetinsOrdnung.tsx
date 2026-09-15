@@ -1,12 +1,10 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Cit } from '../../../Citation'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
 
-export const HodetinsOrdnung = ({ draft }: ArticleProps) => (
+export const HodetinsOrdnung = () => (
   <>
     <Row>
       <Col>
@@ -14,10 +12,7 @@ export const HodetinsOrdnung = ({ draft }: ArticleProps) => (
           className="anchor"
           id="the-so-called-military-order-of-jan-hajek-of-hodetin"
         />
-        <h4>
-          Die sogenannte Militärordnung des Jan Hájek von Hodětín
-          {draft && <DraftBadge />}
-        </h4>
+        <h4>Die sogenannte Militärordnung des Jan Hájek von Hodětín</h4>
         <p>
           Die Transkription wurde von der Schulwebseite Digladior übernommen.
         </p>

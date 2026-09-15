@@ -2,18 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const TatarskyVpadLopuszno = ({ draft }: ArticleProps) => (
+export const TatarskyVpadLopuszno = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="tatarsky-vpad-lopuszno" />
-        <h4>
-          Tatarský vpád na Volyň a bitva u Lopuszna / Wiśniowce (1512)
-          {draft && <DraftBadge />}
-        </h4>
+        <h4>Tatarský vpád na Volyň a bitva u Lopuszna / Wiśniowce (1512)</h4>
         <p>
           Bitva u Lopuszna (pol. <i>bitwa pod Wiśniowcem</i>) z{' '}
           <b>28. dubna 1512</b> byla rozhodujícím střetem mezi spojeným

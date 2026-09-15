@@ -2,15 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const NemeckaSelskaValka = ({ draft }: ArticleProps) => (
+export const NemeckaSelskaValka = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="nemecka-selska-valka" />
-        <h4>Německá selská válka (1524–1525){draft && <DraftBadge />}</h4>
+        <h4>Německá selská válka (1524–1525)</h4>
         <p>
           Německá selská válka (něm. <i>Deutscher Bauernkrieg</i>) byla rozsáhlá
           rolnická vzpoura v jižním a středním Německu v letech 1524–1525. Šlo o

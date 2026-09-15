@@ -1,12 +1,10 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Cit } from '../../../Citation'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
 
-export const AccordoDiGrottkau = ({ draft }: ArticleProps) => (
+export const AccordoDiGrottkau = () => (
   <>
     <Row>
       <Col>
@@ -14,9 +12,7 @@ export const AccordoDiGrottkau = ({ draft }: ArticleProps) => (
         <h4>
           Accordo dei principi, dei vassalli e delle città slesiane a Grottkau
           (1421 o 1427)
-          {draft && <DraftBadge />}
         </h4>
-        <p>Traduzione provvisoria, non ancora revisionata.</p>
         <p>
           L&apos;accordo contro gli hussiti fu concluso dai principi slesiani
           insieme alle terre e alle città di Breslavia e di Schweidnitz-Jauer.

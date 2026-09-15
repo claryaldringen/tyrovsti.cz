@@ -1,21 +1,17 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Cit } from '../../../Citation'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
 
-export const UmluvaVGrotkove = ({ draft }: ArticleProps) => (
+export const UmluvaVGrotkove = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="umluva-v-grotkove" />
         <h4>
           Úmluva slezských knížat, manů a měst v Grotkově (1421, nebo 1427)
-          {draft && <DraftBadge />}
         </h4>
-        <p>Pracovní překlad, zatím bez odborné korektury.</p>
         <p>
           Úmluvu proti husitům uzavřela slezská knížata spolu s vratislavskou a
           svídnicko-javorskou zemí a jejich městy. Upravuje obsazení

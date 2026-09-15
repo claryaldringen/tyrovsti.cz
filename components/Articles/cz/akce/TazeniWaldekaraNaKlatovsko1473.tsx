@@ -2,18 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const TazeniWaldekaraNaKlatovsko1473 = ({ draft }: ArticleProps) => (
+export const TazeniWaldekaraNaKlatovsko1473 = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="tazeni-waldekara-na-klatovsko-1473" />
-        <h4>
-          Tažení Wolfganga Waldekara na Klatovsko (1473)
-          {draft && <DraftBadge />}
-        </h4>
+        <h4>Tažení Wolfganga Waldekara na Klatovsko (1473)</h4>
         <p>
           V&nbsp;průběhu roku <b>1473</b> podnikl bavorský pán{' '}
           <b>Wolfgang Waldekar</b> (psáno též <i>Waldecker</i>) odvetné tažení

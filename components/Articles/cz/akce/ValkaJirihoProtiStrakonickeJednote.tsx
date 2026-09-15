@@ -2,18 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const ValkaJirihoProtiStrakonickeJednote = ({ draft }: ArticleProps) => (
+export const ValkaJirihoProtiStrakonickeJednote = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="valka-jiriho-proti-strakonicke-jednote" />
-        <h4>
-          Válka Jiřího z Poděbrad proti Strakonické jednotě (1450–1452)
-          {draft && <DraftBadge />}
-        </h4>
+        <h4>Válka Jiřího z Poděbrad proti Strakonické jednotě (1450–1452)</h4>
         <p>
           Strakonická jednota byla katolická šlechtická koalice utvořená{' '}
           <b>8. února 1449</b> ve Strakonicích pod vedením Oldřicha II. z

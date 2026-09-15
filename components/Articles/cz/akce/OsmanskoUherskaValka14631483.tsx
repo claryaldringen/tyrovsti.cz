@@ -2,18 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const OsmanskoUherskaValka14631483 = ({ draft }: ArticleProps) => (
+export const OsmanskoUherskaValka14631483 = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="osmansko-uherska-valka-1463-1483" />
-        <h4>
-          Osmansko-uherská válka Matyáše Korvína (1463–1483)
-          {draft && <DraftBadge />}
-        </h4>
+        <h4>Osmansko-uherská válka Matyáše Korvína (1463–1483)</h4>
         <p>
           Osmansko-uherská válka let <b>1463–1483</b> (maď.{' '}
           <i>magyar–török háborúk</i>) byla rozsáhlou sérií bojů na jižní

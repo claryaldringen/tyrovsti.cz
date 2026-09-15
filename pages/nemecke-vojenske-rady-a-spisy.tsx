@@ -43,14 +43,14 @@ const Page = () => {
               <ImageWithTitle src="husite.jpg" width={1920} height={1404} />
             </Row>
             <NemeckeVojenskeRadyUvod />
-            <UmluvaVGrotkove draft />
-            <NavrhyKurfirstu1426 draft />
-            <UsneseniFrankfurtske1427 draft />
+            <UmluvaVGrotkove />
+            <NavrhyKurfirstu1426 />
+            <UsneseniFrankfurtske1427 />
             <UsneseniNorimberske />
-            <UsneseniSlezske1429 draft />
-            <NavrhyNorimberske1430 draft />
-            <RadNorimberskyProTazeniDoCech1431 draft />
-            <RadVevodyAlbrechtaRakouskeho draft />
+            <UsneseniSlezske1429 />
+            <NavrhyNorimberske1430 />
+            <RadNorimberskyProTazeniDoCech1431 />
+            <RadVevodyAlbrechtaRakouskeho />
             <RadVozovyRytiruNemeckych />
             <VozovyRadFrankfurtsky />
             <NorimberskyRadVozovy />
@@ -58,7 +58,7 @@ const Page = () => {
             <InstrukceMarkrabiAlbrechtaOSikovaniVozu />
             <RadMarkrabiAlbrechta />
             <FilipaSeldeneckaRadVozovy />
-            <VegetiusOVozoveHradbeCgm356 draft />
+            <VegetiusOVozoveHradbeCgm356 />
             <Sources />
             <Payment />
           </Col>

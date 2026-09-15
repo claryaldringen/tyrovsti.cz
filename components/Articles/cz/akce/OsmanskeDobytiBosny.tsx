@@ -2,15 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const OsmanskeDobytiBosny = ({ draft }: ArticleProps) => (
+export const OsmanskeDobytiBosny = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="osmanske-dobyti-bosny" />
-        <h4>Osmanské dobytí Bosny (1463){draft && <DraftBadge />}</h4>
+        <h4>Osmanské dobytí Bosny (1463)</h4>
         <p>
           Osmanské dobytí Bosenského království (něm.{' '}
           <i>Osmanische Eroberung Bosniens</i>, maď.{' '}

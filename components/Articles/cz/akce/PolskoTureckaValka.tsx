@@ -2,18 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const PolskoTureckaValka = ({ draft }: ArticleProps) => (
+export const PolskoTureckaValka = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="polsko-turecka-valka" />
-        <h4>
-          Polsko-turecká válka o černomořské porty (1485–1503)
-          {draft && <DraftBadge />}
-        </h4>
+        <h4>Polsko-turecká válka o černomořské porty (1485–1503)</h4>
         <p>
           Polsko-turecká válka let 1485–1503 (pol. <i>Wojna polsko-turecka</i>)
           byla dlouhým nízkointenzivním konfliktem mezi polsko-litevským státem

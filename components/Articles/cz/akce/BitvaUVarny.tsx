@@ -2,15 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const BitvaUVarny = ({ draft }: ArticleProps) => (
+export const BitvaUVarny = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="bitva-u-varny" />
-        <h4>Bitva u Varny (1444){draft && <DraftBadge />}</h4>
+        <h4>Bitva u Varny (1444)</h4>
         <p>
           Bitva u Varny se odehrála <b>10. listopadu 1444</b> u stejnojmenného
           města na pobřeží Černého moře v dnešním Bulharsku. Křesťanské vojsko

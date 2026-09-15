@@ -2,17 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const FalckaValkaFridrichaVitezneho = ({ draft }: ArticleProps) => (
+export const FalckaValkaFridrichaVitezneho = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="falcka-valka-fridricha-vitezneho" />
-        <h4>
-          Falcká válka Fridricha Vítězného (1471){draft && <DraftBadge />}
-        </h4>
+        <h4>Falcká válka Fridricha Vítězného (1471)</h4>
         <p>
           Pojem <i>falcká válka Fridricha Vítězného</i> (něm.{' '}
           <i>Pfälzischer Krieg</i> Friedrichs des Siegreichen) označuje sérii

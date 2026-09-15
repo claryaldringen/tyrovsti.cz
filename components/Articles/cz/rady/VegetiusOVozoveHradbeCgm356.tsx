@@ -1,21 +1,17 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Cit } from '../../../Citation'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
 
-export const VegetiusOVozoveHradbeCgm356 = ({ draft }: ArticleProps) => (
+export const VegetiusOVozoveHradbeCgm356 = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="vegetius-o-vozove-hradbe-cgm-356" />
         <h4>
           Vegetiovo učení o vozové hradbě z rukopisu Cgm 356, konec 15. století
-          {draft && <DraftBadge />}
         </h4>
-        <p>Pracovní přepis a překlad, zatím bez odborné korektury.</p>
         <p>
           Text je zapsán v rukopisu Cgm 356 Bavorské státní knihovny v Mnichově,
           anonymní knize o ohňostrojích a puškařství. Celý rukopis psala jedna

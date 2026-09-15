@@ -4,15 +4,13 @@ import { ImageWithTitle } from '../../../ImageWithTitle'
 import { Cit } from '../../../Citation'
 import { PUBLICATIONS } from '../../../../shared/constants'
 import { Qt } from '../../../Quote/Qt'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const Tartsche = ({ draft }: ArticleProps) => (
+export const Tartsche = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="targe" />
-        <h3>Die Tartsche{draft && <DraftBadge />}</h3>
+        <h3>Die Tartsche</h3>
       </Col>
     </Row>
     <Row>

@@ -1,18 +1,14 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
 
-export const RisoluzioneNorimberga = ({ draft }: ArticleProps) => (
+export const RisoluzioneNorimberga = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="risoluzione-di-norimberga" />
-        <h4>
-          Risoluzione di Norimberga del 23 aprile 1428{draft && <DraftBadge />}
-        </h4>
+        <h4>Risoluzione di Norimberga del 23 aprile 1428</h4>
         <p>Traduzione di PhDr. Zdeňka Kopková.</p>
         <p>
           Il testo è l&apos;ultimo, il settimo articolo delle deliberazioni

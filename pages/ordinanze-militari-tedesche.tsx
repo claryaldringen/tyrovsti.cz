@@ -43,14 +43,14 @@ const Page = () => {
               <ImageWithTitle src="husite.jpg" width={1920} height={1404} />
             </Row>
             <IntroduzioneOrdinanzeTedesche />
-            <AccordoDiGrottkau draft />
-            <ProposteDeiPrincipiElettori1426 draft />
-            <RisoluzioneFrancoforte1427 draft />
+            <AccordoDiGrottkau />
+            <ProposteDeiPrincipiElettori1426 />
+            <RisoluzioneFrancoforte1427 />
             <RisoluzioneNorimberga />
-            <RisoluzioneSlesiana1429 draft />
-            <ProposteNorimberga1430 draft />
-            <OrdinanzaNorimbergaCampagnaBoema1431 draft />
-            <OrdinanzaDucaAlbertoAustria draft />
+            <RisoluzioneSlesiana1429 />
+            <ProposteNorimberga1430 />
+            <OrdinanzaNorimbergaCampagnaBoema1431 />
+            <OrdinanzaDucaAlbertoAustria />
             <OrdinanzaCarriCavalieriTedeschi />
             <OrdinanzaCarriFrancoforte />
             <OrdinanzaCarriNorimberga />
@@ -58,7 +58,7 @@ const Page = () => {
             <IstruzioneFormazioneCarri />
             <OrdinanzaDelMargravioAlbrecht />
             <OrdinanzaCarriSeldeneck />
-            <VegezioSulForteDeiCarriCgm356 draft />
+            <VegezioSulForteDeiCarriCgm356 />
             <Sources />
             <Payment />
           </Col>

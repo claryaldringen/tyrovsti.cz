@@ -2,15 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const PruskePovstani = ({ draft }: ArticleProps) => (
+export const PruskePovstani = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="pruske-povstani" />
-        <h4>Pruské povstání proti řádu (1454–){draft && <DraftBadge />}</h4>
+        <h4>Pruské povstání proti řádu (1454–)</h4>
         <p>
           Pruské povstání bylo vystoupením Pruského spolku (pol.{' '}
           <i>Związek Pruski</i>, něm. <i>Preußischer Bund</i>) proti vládě řádu

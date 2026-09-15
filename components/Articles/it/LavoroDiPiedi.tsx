@@ -1,15 +1,13 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { ImageWithTitle } from '../../ImageWithTitle/ImageWithTitle'
-import { ArticleProps } from '../../../types'
-import { DraftBadge } from '../../DraftBadge'
 
-export const LavoroDiPiedi = ({ draft }: ArticleProps) => (
+export const LavoroDiPiedi = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="footwork-or-manoeuvres" />
-        <h4>Lavoro di piedi, ovvero le manovre{draft && <DraftBadge />}</h4>
+        <h4>Lavoro di piedi, ovvero le manovre</h4>
         <p>
           Lo scopo di questo breve articolo è fornire una panoramica del lavoro
           di piedi, ossia le manovre essenziali per un ingaggio sicuro e

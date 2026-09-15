@@ -2,18 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const ValkaProtiZelenohorskeJednote = ({ draft }: ArticleProps) => (
+export const ValkaProtiZelenohorskeJednote = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="valka-proti-zelenohorske-jednote" />
-        <h4>
-          Válka Jiřího z Poděbrad proti Zelenohorské jednotě (1465–1471)
-          {draft && <DraftBadge />}
-        </h4>
+        <h4>Válka Jiřího z Poděbrad proti Zelenohorské jednotě (1465–1471)</h4>
         <p>
           Válka krále Jiřího z Poděbrad proti tzv. <b>Zelenohorské jednotě</b> v
           letech <b>1465–1471</b> byla závěrečnou domácí kapitolou

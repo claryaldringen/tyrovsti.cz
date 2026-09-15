@@ -2,18 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const RakouskoUherskaValka1446 = ({ draft }: ArticleProps) => (
+export const RakouskoUherskaValka1446 = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="rakousko-uherska-valka-1446" />
-        <h4>
-          Tažení Hunyadiho proti Fridrichu III. (1446)
-          {draft && <DraftBadge />}
-        </h4>
+        <h4>Tažení Hunyadiho proti Fridrichu III. (1446)</h4>
         <p>
           Tažení uherského správce Jánose Hunyadiho do dolnorakouských zemí v
           roce 1446 bylo ozbrojeným nátlakem na římského krále a posléze císaře

@@ -2,18 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const BojeUNyrska1467 = ({ draft }: ArticleProps) => (
+export const BojeUNyrska1467 = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="boje-u-nyrska-1467" />
-        <h4>
-          Boje u&nbsp;Nýrska s&nbsp;bocklerskými křižáky (1467)
-          {draft && <DraftBadge />}
-        </h4>
+        <h4>Boje u&nbsp;Nýrska s&nbsp;bocklerskými křižáky (1467)</h4>
         <p>
           Boje u&nbsp;Nýrska v&nbsp;<b>roce 1467</b> tvořily úvodní fázi
           ozbrojeného střetu mezi obhájci pohraničního Klatovska a&nbsp;skupinou

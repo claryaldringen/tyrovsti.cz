@@ -1,12 +1,10 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Cit } from '../../../Citation'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
 
-export const UsneseniFrankfurtske1427 = ({ draft }: ArticleProps) => (
+export const UsneseniFrankfurtske1427 = () => (
   <>
     <Row>
       <Col>
@@ -14,9 +12,7 @@ export const UsneseniFrankfurtske1427 = ({ draft }: ArticleProps) => (
         <h4>
           Usnesení říšských stavů ve Frankfurtu z&nbsp;doby krátce před
           4.&nbsp;květnem 1427
-          {draft && <DraftBadge />}
         </h4>
-        <p>Pracovní překlad, zatím bez odborné korektury.</p>
         <p>
           Usnesení přijali říšští stavové na sněmu ve Frankfurtu krátce před
           4.&nbsp;květnem 1427. Připravovali jím výpravu, která měla v&nbsp;létě

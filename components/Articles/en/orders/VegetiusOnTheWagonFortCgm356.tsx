@@ -1,21 +1,17 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Cit } from '../../../Citation'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
 
-export const VegetiusOnTheWagonFortCgm356 = ({ draft }: ArticleProps) => (
+export const VegetiusOnTheWagonFortCgm356 = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="vegetius-on-the-wagon-fort-cgm-356" />
         <h4>
           Vegetius on the Wagon Fort from Manuscript Cgm 356, Late 15th Century
-          {draft && <DraftBadge />}
         </h4>
-        <p>Working transcription and translation, not yet reviewed.</p>
         <p>
           The text is written in manuscript Cgm 356 of the Bavarian State
           Library in Munich, an anonymous book on fireworks and gunnery. The

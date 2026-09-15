@@ -2,17 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const BerlichingenovaZasti = ({ draft }: ArticleProps) => (
+export const BerlichingenovaZasti = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="berlichingenova-zasti" />
-        <h4>
-          Záští Götze z Berlichingenu (1512–1517){draft && <DraftBadge />}
-        </h4>
+        <h4>Záští Götze z Berlichingenu (1512–1517)</h4>
         <p>
           Götz (Gottfried) z Berlichingenu, zvaný <i>Götz se železnou rukou</i>{' '}
           (něm. <i>Götz mit der eisernen Hand</i>), byl franský rytíř a

@@ -1,11 +1,9 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
 
-export const OrdinanzaDelMargravioAlbrecht = ({ draft }: ArticleProps) => (
+export const OrdinanzaDelMargravioAlbrecht = () => (
   <>
     <Row>
       <Col>
@@ -13,10 +11,7 @@ export const OrdinanzaDelMargravioAlbrecht = ({ draft }: ArticleProps) => (
           className="anchor"
           id="ordinanza-militare-del-margravio-albrecht"
         />
-        <h4>
-          Ordinanza militare del margravio Albrecht del 1478
-          {draft && <DraftBadge />}
-        </h4>
+        <h4>Ordinanza militare del margravio Albrecht del 1478</h4>
         <p>
           L&apos;ordinanza si è conservata in un codice dell&apos;archivio
           feudale della Marca elettorale di Brandeburgo contenente documenti

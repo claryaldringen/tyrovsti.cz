@@ -2,17 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const DobytiPajreka = ({ draft }: ArticleProps) => (
+export const DobytiPajreka = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="dobyti-pajreka-1471-1472" />
-        <h4>
-          Bitva u Nýrska a dobytí Pajreka (1467 a 1472){draft && <DraftBadge />}
-        </h4>
+        <h4>Bitva u Nýrska a dobytí Pajreka (1467 a 1472)</h4>
         <p>
           Pajrek (něm. <i>Bayereck</i>, „bavorský roh&ldquo;) byl český
           pohraniční hrad nad Nýrskem, založený roku 1356 pány z Janovic — jeho

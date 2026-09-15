@@ -4,15 +4,13 @@ import { Cit } from '../../../Citation'
 import { ImageWithTitle } from '../../../ImageWithTitle'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const JobstOfEinsiedl = ({ draft }: ArticleProps) => (
+export const JobstOfEinsiedl = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="jobst-of-einsiedl" />
-        <h4>Jobst of Einsiedl (circa 1420 - 1474){draft && <DraftBadge />}</h4>
+        <h4>Jobst of Einsiedl (circa 1420 - 1474)</h4>
         <h5>Family and youth</h5>
         <p>
           Jobst was born into a bourgeois family in the small town of Einsiedl,

@@ -2,18 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const ValkaSeSliky1501 = ({ draft }: ArticleProps) => (
+export const ValkaSeSliky1501 = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="valka-se-sliky-1501" />
-        <h4>
-          Spor českých stavů se Šliky o&nbsp;loketskou enklávu (od 1501)
-          {draft && <DraftBadge />}
-        </h4>
+        <h4>Spor českých stavů se Šliky o&nbsp;loketskou enklávu (od 1501)</h4>
         <p>
           Spor mezi českým králem Vladislavem&nbsp;II. Jagellonským a&nbsp;rodem{' '}
           <b>Šliků</b> o&nbsp;loketskou zástavu představuje jeden

@@ -2,17 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const PrvniOblehaniBelehradu1440 = ({ draft }: ArticleProps) => (
+export const PrvniOblehaniBelehradu1440 = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="prvni-oblehani-belehradu-1440" />
-        <h4>
-          První osmanské obléhání Bělehradu (1440){draft && <DraftBadge />}
-        </h4>
+        <h4>První osmanské obléhání Bělehradu (1440)</h4>
         <p>
           První osmanské obléhání Bělehradu (maď. <i>Nándorfehérvár</i>, srb.{' '}
           <i>Београд</i>) probíhalo od konce <b>dubna do října 1440</b> a

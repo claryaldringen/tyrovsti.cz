@@ -1,21 +1,15 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Cit } from '../../../Citation'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
 
-export const ProposteNorimberga1430 = ({ draft }: ArticleProps) => (
+export const ProposteNorimberga1430 = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="proposte-di-norimberga-1430" />
-        <h4>
-          Proposte di Norimberga per il forte dei carri, 1430 circa
-          {draft && <DraftBadge />}
-        </h4>
-        <p>Traduzione provvisoria, non ancora revisionata.</p>
+        <h4>Proposte di Norimberga per il forte dei carri, 1430 circa</h4>
         <p>
           Si tratta di due documenti dell&apos;archivio di Norimberga, la minuta
           e la bella copia di una proposta su come allestire un forte dei carri

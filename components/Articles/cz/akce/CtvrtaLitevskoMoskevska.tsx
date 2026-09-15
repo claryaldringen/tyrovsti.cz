@@ -2,18 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const CtvrtaLitevskoMoskevska = ({ draft }: ArticleProps) => (
+export const CtvrtaLitevskoMoskevska = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="ctvrta-litevsko-moskevska" />
-        <h4>
-          Čtvrtá litevsko-moskevská válka a bitva u Orši (1512–1522)
-          {draft && <DraftBadge />}
-        </h4>
+        <h4>Čtvrtá litevsko-moskevská válka a bitva u Orši (1512–1522)</h4>
         <p>
           Čtvrtá válka mezi Velkoknížectvím litevským (v personální unii s
           Polským královstvím za Zikmunda I. Starého) a Velkoknížectvím

@@ -2,18 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const RytirskaValka = ({ draft }: ArticleProps) => (
+export const RytirskaValka = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="rytirska-valka" />
-        <h4>
-          Rytířská válka — Sickingenovo povstání (1522–1523)
-          {draft && <DraftBadge />}
-        </h4>
+        <h4>Rytířská válka — Sickingenovo povstání (1522–1523)</h4>
         <p>
           Rytířská válka (něm. <i>Pfälzischer Ritteraufstand</i>, též{' '}
           <i>Sickingenfehde</i>) byla vzpoura části říšského svobodného

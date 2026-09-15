@@ -1,21 +1,15 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Cit } from '../../../Citation'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
 
-export const NuernbergerVorschlaege1430 = ({ draft }: ArticleProps) => (
+export const NuernbergerVorschlaege1430 = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="nuernberger-vorschlaege-1430" />
-        <h4>
-          Nürnberger Vorschläge zur Wagenburg, um 1430
-          {draft && <DraftBadge />}
-        </h4>
-        <p>Arbeitsübersetzung, noch nicht fachlich geprüft.</p>
+        <h4>Nürnberger Vorschläge zur Wagenburg, um 1430</h4>
         <p>
           Es handelt sich um zwei Schriftstücke aus dem Nürnberger Archiv,
           Entwurf und Reinschrift eines Vorschlags, wie für einen geplanten Zug

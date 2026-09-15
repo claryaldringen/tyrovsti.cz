@@ -2,18 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const DobytiPusperka1473 = ({ draft }: ArticleProps) => (
+export const DobytiPusperka1473 = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="dobyti-pusperka-1473" />
-        <h4>
-          Dobytí hradu Pušperka klatovským vojskem (1473)
-          {draft && <DraftBadge />}
-        </h4>
+        <h4>Dobytí hradu Pušperka klatovským vojskem (1473)</h4>
         <p>
           Dobytí hradu <b>Pušperka</b> (něm. <i>Buschberg</i>) v&nbsp;červenci
           roku <b>1473</b> patří k&nbsp;protizáštním akcím královských měst

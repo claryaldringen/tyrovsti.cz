@@ -1,12 +1,10 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Cit } from '../../../Citation'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
 
-export const OrdinanzaDiHodetin = ({ draft }: ArticleProps) => (
+export const OrdinanzaDiHodetin = () => (
   <>
     <Row>
       <Col>
@@ -14,10 +12,7 @@ export const OrdinanzaDiHodetin = ({ draft }: ArticleProps) => (
           className="anchor"
           id="la-cosiddetta-ordinanza-militare-di-jan-hajek-di-hodetin"
         />
-        <h4>
-          La cosiddetta ordinanza militare di Jan Hájek di Hodětín
-          {draft && <DraftBadge />}
-        </h4>
+        <h4>La cosiddetta ordinanza militare di Jan Hájek di Hodětín</h4>
         <p>La trascrizione è stata tratta dal sito scolastico Digladior</p>
         <p>
           La datazione e la paternità di quest&apos;opera sono difficili da

@@ -2,15 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const TrinactiletaValka = ({ draft }: ArticleProps) => (
+export const TrinactiletaValka = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="trinactileta-valka" />
-        <h4>Třináctiletá válka (1454–1466){draft && <DraftBadge />}</h4>
+        <h4>Třináctiletá válka (1454–1466)</h4>
         <p>
           Třináctiletá válka byla rozsáhlým konfliktem mezi Polským královstvím
           a&nbsp;Pruským spolkem na jedné straně a&nbsp;Řádem německých rytířů

@@ -2,17 +2,15 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const TazeniPluhaTachovPlzen1468 = ({ draft }: ArticleProps) => (
+export const TazeniPluhaTachovPlzen1468 = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="tazeni-pluha-tachov-plzen-1468" />
         <h4>
           Tažení Šebestiána Pluha s&nbsp;norimberskými křižáky k&nbsp;Tachovu
-          a&nbsp;Plzni (1468){draft && <DraftBadge />}
+          a&nbsp;Plzni (1468)
         </h4>
         <p>
           Tažení <b>Šebestiána Pluha z&nbsp;Rabštejna</b> s&nbsp;oddíly

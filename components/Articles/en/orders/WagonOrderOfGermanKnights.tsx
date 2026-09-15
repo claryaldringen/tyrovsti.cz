@@ -1,20 +1,15 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Cit } from '../../../Citation'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
 
-export const WagonOrderOfGermanKnights = ({ draft }: ArticleProps) => (
+export const WagonOrderOfGermanKnights = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="wagon-order-of-german-knights" />
-        <h4>
-          Wagon Order of the Teutonic Knights of 19 April 1433
-          {draft && <DraftBadge />}
-        </h4>
+        <h4>Wagon Order of the Teutonic Knights of 19 April 1433</h4>
         <p>
           The order was an enclosure to a letter sent by the Grand Master of the
           Teutonic Order from Marienburg (Malbork) to the city council of Danzig

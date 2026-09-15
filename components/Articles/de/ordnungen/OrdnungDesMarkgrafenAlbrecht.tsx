@@ -1,19 +1,14 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
 
-export const OrdnungDesMarkgrafenAlbrecht = ({ draft }: ArticleProps) => (
+export const OrdnungDesMarkgrafenAlbrecht = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="margrave-albrechts-military-order" />
-        <h4>
-          Militärordnung des Markgrafen Albrecht von 1478
-          {draft && <DraftBadge />}
-        </h4>
+        <h4>Militärordnung des Markgrafen Albrecht von 1478</h4>
         <p>
           Die Ordnung ist in einem Kodex des kurmärkischen Lehnsarchivs
           überliefert, der Aufzeichnungen aus dem Krieg enthält, den Kurfürst

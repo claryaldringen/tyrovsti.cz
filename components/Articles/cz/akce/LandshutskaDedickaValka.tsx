@@ -2,15 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const LandshutskaDedickaValka = ({ draft }: ArticleProps) => (
+export const LandshutskaDedickaValka = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="landshutska-dedicka-valka" />
-        <h4>Landshutská dědická válka (1503–1505){draft && <DraftBadge />}</h4>
+        <h4>Landshutská dědická válka (1503–1505)</h4>
         <p>
           Landshutská dědická válka (něm. <i>Landshuter Erbfolgekrieg</i>, též{' '}
           <i>bayrischer Krieg</i> nebo <i>pfälzischer Krieg</i>) byla posledním

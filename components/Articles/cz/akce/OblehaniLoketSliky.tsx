@@ -2,18 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const OblehaniLoketSliky = ({ draft }: ArticleProps) => (
+export const OblehaniLoketSliky = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="oblehani-loket-sliky-1471" />
-        <h4>
-          Vpád Šliků do města Lokte a vypálení podhradí (1471)
-          {draft && <DraftBadge />}
-        </h4>
+        <h4>Vpád Šliků do města Lokte a vypálení podhradí (1471)</h4>
         <p>
           Záští mezi pány Šliky z&nbsp;Pasounu a&nbsp;Holíče a&nbsp;královským
           městem Loket představuje typický příklad pohraniční rozepře

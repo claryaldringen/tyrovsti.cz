@@ -1,13 +1,11 @@
 import React from 'react'
 import { Col, Row } from 'reactstrap'
-import { ArticleProps } from '../../../types'
-import { DraftBadge } from '../../DraftBadge'
 
-export const Taktika = ({ draft }: ArticleProps) => (
+export const Taktika = () => (
   <>
     <Row>
       <Col>
-        <h2>Taktika{draft && <DraftBadge />}</h2>
+        <h2>Taktika</h2>
         <p>
           Od bitvy u Hastingsu v roce 1066 po následujících 250 let dominovala
           evropským bojištím těžká rytířská jízda a soudobé vojenství řešilo

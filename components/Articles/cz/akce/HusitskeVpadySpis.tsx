@@ -2,18 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const HusitskeVpadySpis = ({ draft }: ArticleProps) => (
+export const HusitskeVpadySpis = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="husitske-vpady-spis" />
-        <h4>
-          Husitské vpády na Spiš a Slovensko (1434–1444)
-          {draft && <DraftBadge />}
-        </h4>
+        <h4>Husitské vpády na Spiš a Slovensko (1434–1444)</h4>
         <p>
           Husitské a později <i>bratřické</i> vpády na Spiš a do dalších částí
           Horních Uher (dnešního Slovenska) představují souvislou sérii

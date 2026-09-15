@@ -1,18 +1,14 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
 
-export const MargraveAlbrechtsOrder = ({ draft }: ArticleProps) => (
+export const MargraveAlbrechtsOrder = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="margrave-albrechts-military-order" />
-        <h4>
-          Military Order of Margrave Albrecht of 1478{draft && <DraftBadge />}
-        </h4>
+        <h4>Military Order of Margrave Albrecht of 1478</h4>
         <p>
           The order has survived in a codex of the Electoral Brandenburg feudal
           archive containing records of the war that Elector Albrecht Achilles

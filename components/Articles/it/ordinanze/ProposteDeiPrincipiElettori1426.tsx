@@ -1,12 +1,10 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Cit } from '../../../Citation'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
 
-export const ProposteDeiPrincipiElettori1426 = ({ draft }: ArticleProps) => (
+export const ProposteDeiPrincipiElettori1426 = () => (
   <>
     <Row>
       <Col>
@@ -14,9 +12,7 @@ export const ProposteDeiPrincipiElettori1426 = ({ draft }: ArticleProps) => (
         <h4>
           Proposte dei principi elettori a Norimberga del giugno 1426, articolo
           17
-          {draft && <DraftBadge />}
         </h4>
-        <p>Traduzione provvisoria, non ancora revisionata.</p>
         <p>
           Le proposte furono redatte dai principi elettori durante la loro
           riunione a Norimberga tra il 7 e il 10&nbsp;giugno 1426. Vi si tratta

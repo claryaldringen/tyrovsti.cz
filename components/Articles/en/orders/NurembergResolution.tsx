@@ -1,16 +1,14 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
 
-export const NurembergResolution = ({ draft }: ArticleProps) => (
+export const NurembergResolution = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="nuremberg-resolution" />
-        <h4>Nuremberg Resolution of 23 April 1428{draft && <DraftBadge />}</h4>
+        <h4>Nuremberg Resolution of 23 April 1428</h4>
         <p>Translated by PhDr. Zdeňka Kopková.</p>
         <p>
           The text is the last, seventh article of the resolutions of the

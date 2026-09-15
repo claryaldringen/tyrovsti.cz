@@ -1,8 +1,6 @@
 import { Col, Row } from 'reactstrap'
 import React, { useMemo } from 'react'
 import Link from 'next/link'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 import {
   CONFLICTS,
   CZECH_MERCENARIES,
@@ -33,7 +31,7 @@ const sortedConflicts = [...CONFLICTS].sort((a, b) => {
 
 export const ALL_REGIONS = Object.keys(REGION_LABELS) as Region[]
 
-export type CasovaOsaProps = ArticleProps & {
+export type CasovaOsaProps = {
   activeRegions: Set<Region>
   onlyMerc: boolean
   onToggleRegion: (r: Region) => void
@@ -41,7 +39,6 @@ export type CasovaOsaProps = ArticleProps & {
 }
 
 export const CasovaOsa = ({
-  draft,
   activeRegions,
   onlyMerc,
   onToggleRegion,
@@ -65,7 +62,7 @@ export const CasovaOsa = ({
     <Row>
       <Col>
         <div className="anchor" id="casova-osa" />
-        <h2>Časová osa konfliktů 1434–1526{draft && <DraftBadge />}</h2>
+        <h2>Časová osa konfliktů 1434–1526</h2>
         <p>
           Přehled vojenských konfliktů 15. a počátku 16. století v Čechách a
           okolním středoevropském prostoru. Tabulka slouží k orientaci v souběhu

@@ -1,11 +1,9 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
 
-export const OrdinanzaCarriSeldeneck = ({ draft }: ArticleProps) => (
+export const OrdinanzaCarriSeldeneck = () => (
   <>
     <Row>
       <Col>
@@ -13,7 +11,6 @@ export const OrdinanzaCarriSeldeneck = ({ draft }: ArticleProps) => (
         <h4>
           La cosiddetta ordinanza dei carri di Filippo di Seldeneck, fine del XV
           secolo
-          {draft && <DraftBadge />}
         </h4>
         <p>
           Questa ordinanza dei carri si è conservata in un codice fatto

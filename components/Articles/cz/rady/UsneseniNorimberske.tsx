@@ -1,18 +1,14 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
 
-export const UsneseniNorimberske = ({ draft }: ArticleProps) => (
+export const UsneseniNorimberske = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="usneseni-norimberske" />
-        <h4>
-          Usnesení norimberské ze dne 23. dubna 1428{draft && <DraftBadge />}
-        </h4>
+        <h4>Usnesení norimberské ze dne 23. dubna 1428</h4>
         <p>Přeložila PhDr. Zdeňka Kopková.</p>
         <p>
           Text je posledním, sedmým článkem usnesení sjezdu v Norimberku.

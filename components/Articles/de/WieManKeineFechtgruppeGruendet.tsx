@@ -1,16 +1,11 @@
 import React from 'react'
 import { Col, Row } from 'reactstrap'
-import { ArticleProps } from '../../../types'
-import { DraftBadge } from '../../DraftBadge'
 
-export const WieManKeineFechtgruppeGruendet = ({ draft }: ArticleProps) => (
+export const WieManKeineFechtgruppeGruendet = () => (
   <>
     <Row>
       <Col>
-        <h1>
-          Wie man (k)eine historische Fechtgruppe gründet...
-          {draft && <DraftBadge />}
-        </h1>
+        <h1>Wie man (k)eine historische Fechtgruppe gründet...</h1>
         <p>
           <i>
             Der Originaltext wurde auf der Website{' '}

@@ -2,15 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const BitvaNaKrbavskemPoli = ({ draft }: ArticleProps) => (
+export const BitvaNaKrbavskemPoli = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="bitva-na-krbavskem-poli" />
-        <h4>Bitva na Krbavském poli (1493){draft && <DraftBadge />}</h4>
+        <h4>Bitva na Krbavském poli (1493)</h4>
         <p>
           Bitva na Krbavském poli, svedená <b>9. září 1493</b> v Lice (dnešní
           Chorvatsko), byla zničující porážkou chorvatské bánské armády vedené

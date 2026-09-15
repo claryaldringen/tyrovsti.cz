@@ -2,18 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const KnezskaValka = ({ draft }: ArticleProps) => (
+export const KnezskaValka = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="knezska-valka" />
-        <h4>
-          Kněžská válka (Pfaffenkrieg) o varmijské biskupství (1467–1479)
-          {draft && <DraftBadge />}
-        </h4>
+        <h4>Kněžská válka (Pfaffenkrieg) o varmijské biskupství (1467–1479)</h4>
         <p>
           Kněžská válka (pol. <i>wojna księża</i>, něm. <i>Pfaffenkrieg</i>,
           lat. <i>bellum sacerdotale</i>) byla ozbrojeným sporem let{' '}

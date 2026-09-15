@@ -1,21 +1,15 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Cit } from '../../../Citation'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
 
-export const VorschlaegeDerKurfuersten1426 = ({ draft }: ArticleProps) => (
+export const VorschlaegeDerKurfuersten1426 = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="vorschlaege-der-kurfuersten-1426" />
-        <h4>
-          Vorschläge der Kurfürsten zu Nürnberg vom Juni 1426, Artikel 17
-          {draft && <DraftBadge />}
-        </h4>
-        <p>Arbeitsübersetzung, noch nicht fachlich geprüft.</p>
+        <h4>Vorschläge der Kurfürsten zu Nürnberg vom Juni 1426, Artikel 17</h4>
         <p>
           Die Vorschläge verfassten die Kurfürsten auf ihrer Zusammenkunft in
           Nürnberg zwischen dem 7. und 10.&nbsp;Juni 1426. Sie behandeln, wie

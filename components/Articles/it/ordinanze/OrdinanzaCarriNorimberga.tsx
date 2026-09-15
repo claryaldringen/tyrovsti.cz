@@ -1,18 +1,14 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
 
-export const OrdinanzaCarriNorimberga = ({ draft }: ArticleProps) => (
+export const OrdinanzaCarriNorimberga = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="ordinanza-dei-carri-di-norimberga" />
-        <h4>
-          Ordinanza dei carri di Norimberga del 1450{draft && <DraftBadge />}
-        </h4>
+        <h4>Ordinanza dei carri di Norimberga del 1450</h4>
         <p>Traduzione di PhDr. Zdeňka Kopková.</p>
         <p>
           Fu stampata in <i>Chroniken der deutschen Städte</i>, Nürnberg, II,

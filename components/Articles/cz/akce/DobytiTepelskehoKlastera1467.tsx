@@ -2,17 +2,14 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const DobytiTepelskehoKlastera1467 = ({ draft }: ArticleProps) => (
+export const DobytiTepelskehoKlastera1467 = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="dobyti-tepelskeho-klastera-1467" />
         <h4>
           Dobytí a&nbsp;vyloupení tepelského kláštera katolickými pány (1467)
-          {draft && <DraftBadge />}
         </h4>
         <p>
           Tepelský premonstrátský klášter — jeden z&nbsp;nejstarších

@@ -2,18 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const PrvniLitevskoMoskevska = ({ draft }: ArticleProps) => (
+export const PrvniLitevskoMoskevska = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="prvni-litevsko-moskevska" />
-        <h4>
-          První litevsko-moskevská válka (1492–1494)
-          {draft && <DraftBadge />}
-        </h4>
+        <h4>První litevsko-moskevská válka (1492–1494)</h4>
         <p>
           První litevsko-moskevská válka let 1492–1494 byla úvodním z řady
           konfliktů mezi Velkoknížectvím litevským a Velkoknížectvím moskevským

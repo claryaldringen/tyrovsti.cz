@@ -2,18 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const BitvaUKleckeho = ({ draft }: ArticleProps) => (
+export const BitvaUKleckeho = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="bitva-u-kleckeho" />
-        <h4>
-          Tatarský vpád a bitva u Kleckého (5. srpna 1506)
-          {draft && <DraftBadge />}
-        </h4>
+        <h4>Tatarský vpád a bitva u Kleckého (5. srpna 1506)</h4>
         <p>
           Bitva u Kleckého (pol. <i>bitwa pod Kleckiem</i>, bělor.{' '}
           <i>bitva pad Kleckam</i>) byla rozhodujícím střetem mezi

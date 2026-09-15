@@ -1,21 +1,15 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Cit } from '../../../Citation'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
 
-export const NurembergProposals1430 = ({ draft }: ArticleProps) => (
+export const NurembergProposals1430 = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="nuremberg-proposals-1430" />
-        <h4>
-          Nuremberg Proposals for the Wagon Fort, c. 1430
-          {draft && <DraftBadge />}
-        </h4>
-        <p>Working translation, not yet reviewed.</p>
+        <h4>Nuremberg Proposals for the Wagon Fort, c. 1430</h4>
         <p>
           These are two documents from the Nuremberg archive, a draft and a fair
           copy of a proposal on how to set up a wagon fort for a planned

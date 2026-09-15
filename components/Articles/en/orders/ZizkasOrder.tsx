@@ -1,18 +1,14 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
 
-export const ZizkasOrder = ({ draft }: ArticleProps) => (
+export const ZizkasOrder = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="the-so-called-zizkas-military-order" />
-        <h4>
-          The So-Called Žižka&apos;s Military Order{draft && <DraftBadge />}
-        </h4>
+        <h4>The So-Called Žižka&apos;s Military Order</h4>
         <p>The transcription was taken from the school website Digladior</p>
         <p>
           The so-called Žižka&apos;s Military Order, which has been preserved in

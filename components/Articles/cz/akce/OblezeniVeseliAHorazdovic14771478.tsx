@@ -2,10 +2,8 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const OblezeniVeseliAHorazdovic14771478 = ({ draft }: ArticleProps) => (
+export const OblezeniVeseliAHorazdovic14771478 = () => (
   <>
     <Row>
       <Col>
@@ -13,7 +11,6 @@ export const OblezeniVeseliAHorazdovic14771478 = ({ draft }: ArticleProps) => (
         <h4>
           Záští Racka Kocovského a&nbsp;obležení Veselí a&nbsp;Horažďovic
           (1477–1478)
-          {draft && <DraftBadge />}
         </h4>
         <p>
           Po doznění záští proti pasovskému biskupovi (1475–1476) se{' '}

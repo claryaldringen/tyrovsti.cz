@@ -2,18 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const TretiLitevskoMoskevska = ({ draft }: ArticleProps) => (
+export const TretiLitevskoMoskevska = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="treti-litevsko-moskevska" />
-        <h4>
-          Třetí litevsko-moskevská válka a vzpoura Glinského (1507–1508)
-          {draft && <DraftBadge />}
-        </h4>
+        <h4>Třetí litevsko-moskevská válka a vzpoura Glinského (1507–1508)</h4>
         <p>
           Třetí litevsko-moskevská válka (pol.{' '}
           <i>wojna litewsko-moskiewska 1507–1508</i>) byla ozbrojeným konfliktem

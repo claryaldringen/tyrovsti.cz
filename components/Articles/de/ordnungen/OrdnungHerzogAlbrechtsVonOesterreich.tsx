@@ -1,14 +1,10 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Cit } from '../../../Citation'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
 
-export const OrdnungHerzogAlbrechtsVonOesterreich = ({
-  draft,
-}: ArticleProps) => (
+export const OrdnungHerzogAlbrechtsVonOesterreich = () => (
   <>
     <Row>
       <Col>
@@ -16,9 +12,7 @@ export const OrdnungHerzogAlbrechtsVonOesterreich = ({
         <h4>
           Militärordnung Herzog Albrechts von Österreich, wohl vom 28. April
           1431
-          {draft && <DraftBadge />}
         </h4>
-        <p>Arbeitsübersetzung, noch nicht fachlich geprüft.</p>
         <p>
           Die Ordnung hält fest, worauf sich Herzog Albrecht von Österreich,
           Markgraf von Mähren, mit den Ständen seines Landes gegen die Hussiten

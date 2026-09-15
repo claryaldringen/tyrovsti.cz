@@ -1,12 +1,10 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Cit } from '../../../Citation'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
 
-export const OrdinanzaDucaAlbertoAustria = ({ draft }: ArticleProps) => (
+export const OrdinanzaDucaAlbertoAustria = () => (
   <>
     <Row>
       <Col>
@@ -17,9 +15,7 @@ export const OrdinanzaDucaAlbertoAustria = ({ draft }: ArticleProps) => (
         <h4>
           Ordinanza militare del duca Albrecht d&apos;Austria, probabilmente del
           28 aprile 1431
-          {draft && <DraftBadge />}
         </h4>
-        <p>Traduzione provvisoria, non ancora revisionata.</p>
         <p>
           L&apos;ordinanza registra quanto il duca Albrecht d&apos;Austria,
           margravio di Moravia, concordò con gli stati della sua terra contro

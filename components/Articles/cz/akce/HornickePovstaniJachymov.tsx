@@ -2,15 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const HornickePovstaniJachymov = ({ draft }: ArticleProps) => (
+export const HornickePovstaniJachymov = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="hornicke-povstani-jachymov" />
-        <h4>Hornické povstání v Jáchymově (1525){draft && <DraftBadge />}</h4>
+        <h4>Hornické povstání v Jáchymově (1525)</h4>
         <p>
           Hornické povstání v Jáchymově (něm. <i>Joachimsthal</i>) na jaře 1525
           bylo ozbrojeným protestem stříbrokopů a horníků jednoho z

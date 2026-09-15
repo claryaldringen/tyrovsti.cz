@@ -2,18 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const HunyadihoDlouheTazeni = ({ draft }: ArticleProps) => (
+export const HunyadihoDlouheTazeni = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="hunyadiho-dlouhe-tazeni" />
-        <h4>
-          Dlouhé tažení Jánose Hunyadiho na Balkán (1443 – 1444)
-          {draft && <DraftBadge />}
-        </h4>
+        <h4>Dlouhé tažení Jánose Hunyadiho na Balkán (1443 – 1444)</h4>
         <p>
           Tzv. <i>Dlouhé tažení</i> bylo protiosmanské zimní tažení uherského
           krále Vladislava I. (Vladislava III. Jagellonského) a sedmihradského

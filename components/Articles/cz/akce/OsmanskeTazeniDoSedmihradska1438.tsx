@@ -2,15 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const OsmanskeTazeniDoSedmihradska1438 = ({ draft }: ArticleProps) => (
+export const OsmanskeTazeniDoSedmihradska1438 = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="osmanske-tazeni-do-sedmihradska-1438" />
-        <h4>Osmanské tažení do Sedmihradska (1438){draft && <DraftBadge />}</h4>
+        <h4>Osmanské tažení do Sedmihradska (1438)</h4>
         <p>
           V létě roku <b>1438</b> podnikl osmanský sultán Murad II. velké
           plenící tažení do Sedmihradska (něm. <i>Siebenbürgen</i>, maď.{' '}

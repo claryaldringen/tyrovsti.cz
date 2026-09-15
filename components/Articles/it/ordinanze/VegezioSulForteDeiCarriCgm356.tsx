@@ -1,12 +1,10 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Cit } from '../../../Citation'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
 
-export const VegezioSulForteDeiCarriCgm356 = ({ draft }: ArticleProps) => (
+export const VegezioSulForteDeiCarriCgm356 = () => (
   <>
     <Row>
       <Col>
@@ -14,9 +12,7 @@ export const VegezioSulForteDeiCarriCgm356 = ({ draft }: ArticleProps) => (
         <h4>
           Vegezio sul forte dei carri dal manoscritto Cgm 356, fine del XV
           secolo
-          {draft && <DraftBadge />}
         </h4>
-        <p>Trascrizione e traduzione provvisorie, non ancora revisionate.</p>
         <p>
           Il testo si trova nel manoscritto Cgm 356 della Biblioteca di Stato
           bavarese di Monaco, un anonimo libro sui fuochi d&apos;artificio e

@@ -1,21 +1,15 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Cit } from '../../../Citation'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
 
-export const RadVevodyAlbrechtaRakouskeho = ({ draft }: ArticleProps) => (
+export const RadVevodyAlbrechtaRakouskeho = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="rad-vojensky-vevody-albrechta-rakouskeho" />
-        <h4>
-          Řád vojenský vévody Albrechta Rakouského, snad z 28. dubna 1431
-          {draft && <DraftBadge />}
-        </h4>
-        <p>Pracovní překlad, zatím bez odborné korektury.</p>
+        <h4>Řád vojenský vévody Albrechta Rakouského, snad z 28. dubna 1431</h4>
         <p>
           Řád zachycuje, na čem se vévoda Albrecht Rakouský, markrabě moravský,
           dohodl se stavy své země proti husitům. Dochoval se v současném opisu

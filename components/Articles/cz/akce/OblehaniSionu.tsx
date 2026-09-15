@@ -2,10 +2,8 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const OblehaniSionu = ({ draft }: ArticleProps) => (
+export const OblehaniSionu = () => (
   <>
     <Row>
       <Col>
@@ -13,7 +11,6 @@ export const OblehaniSionu = ({ draft }: ArticleProps) => (
         <h4>
           Obležení hradu Sion a&nbsp;poslední odboj Jana Roháče z&nbsp;Dubé
           (1437)
-          {draft && <DraftBadge />}
         </h4>
         <p>
           Obležení hradu Sion v&nbsp;létě roku 1437 představuje symbolický konec

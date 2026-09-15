@@ -2,15 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const BocklerskaValka = ({ draft }: ArticleProps) => (
+export const BocklerskaValka = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="bocklerska-valka" />
-        <h4>Bocklerská válka (1467–1469){draft && <DraftBadge />}</h4>
+        <h4>Bocklerská válka (1467–1469)</h4>
         <p>
           Bocklerská válka (Böcklerkrieg) byl konflikt mezi rytířským spolkem
           jednorožce – tzv. <i>Böcklerbund</i> – a&nbsp;mladým

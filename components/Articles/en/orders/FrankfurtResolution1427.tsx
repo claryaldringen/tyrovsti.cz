@@ -1,12 +1,10 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Cit } from '../../../Citation'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
 
-export const FrankfurtResolution1427 = ({ draft }: ArticleProps) => (
+export const FrankfurtResolution1427 = () => (
   <>
     <Row>
       <Col>
@@ -14,9 +12,7 @@ export const FrankfurtResolution1427 = ({ draft }: ArticleProps) => (
         <h4>
           Resolution of the Imperial Estates at Frankfurt, Shortly before
           4&nbsp;May 1427
-          {draft && <DraftBadge />}
         </h4>
-        <p>Working translation, not yet reviewed.</p>
         <p>
           The resolution was adopted by the imperial estates at the diet in
           Frankfurt shortly before 4&nbsp;May 1427. It prepared a campaign that

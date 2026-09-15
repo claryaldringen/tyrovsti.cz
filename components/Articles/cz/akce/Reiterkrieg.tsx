@@ -2,18 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const Reiterkrieg = ({ draft }: ArticleProps) => (
+export const Reiterkrieg = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="reiterkrieg" />
-        <h4>
-          Poslední polsko-řádová válka / Reiterkrieg (1519–1521)
-          {draft && <DraftBadge />}
-        </h4>
+        <h4>Poslední polsko-řádová válka / Reiterkrieg (1519–1521)</h4>
         <p>
           Poslední polsko-řádová válka (pol. <i>Wojna pruska 1519–1521</i>, něm.{' '}
           <i>Reiterkrieg</i>) byl poslední ozbrojený konflikt mezi královstvím

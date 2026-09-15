@@ -2,17 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const GlatzskaValka = ({ draft }: ArticleProps) => (
+export const GlatzskaValka = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="glatzska-valka" />
-        <h4>
-          Kladská válka — spor o Kladsko (1501–1503){draft && <DraftBadge />}
-        </h4>
+        <h4>Kladská válka — spor o Kladsko (1501–1503)</h4>
         <p>
           Kladská válka (něm. <i>Glatzer Krieg</i>) byla ozbrojeným sporem mezi
           českým a uherským králem Vladislavem II. Jagellonským a rodem

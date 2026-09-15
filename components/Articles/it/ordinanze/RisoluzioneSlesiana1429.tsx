@@ -1,21 +1,15 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Cit } from '../../../Citation'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
 
-export const RisoluzioneSlesiana1429 = ({ draft }: ArticleProps) => (
+export const RisoluzioneSlesiana1429 = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="risoluzione-slesiana-1429" />
-        <h4>
-          Risoluzione slesiana sulla formazione dei carri del maggio 1429
-          {draft && <DraftBadge />}
-        </h4>
-        <p>Traduzione provvisoria, non ancora revisionata.</p>
+        <h4>Risoluzione slesiana sulla formazione dei carri del maggio 1429</h4>
         <p>
           Secondo Toman, il re Sigismondo concordò con i principi slesiani
           un&apos;ordinanza sulla formazione dei carri e la fece inviare, in

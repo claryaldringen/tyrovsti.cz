@@ -1,11 +1,9 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
 
-export const NauceniKuKraliVladislavovi = ({ draft }: ArticleProps) => (
+export const NauceniKuKraliVladislavovi = () => (
   <>
     <Row>
       <Col>
@@ -16,7 +14,6 @@ export const NauceniKuKraliVladislavovi = ({ draft }: ArticleProps) => (
         <h4>
           Václava Vlčka z Čenova naučení ku králi Vladislavovi, kterak se mají
           šikovati jízdní, pěší i vozy
-          {draft && <DraftBadge />}
         </h4>
         <p>
           Václav Vlček, původně z Minic, byl významný český kondotiér a

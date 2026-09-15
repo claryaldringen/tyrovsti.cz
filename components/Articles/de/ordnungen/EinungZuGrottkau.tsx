@@ -1,12 +1,10 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Cit } from '../../../Citation'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
 
-export const EinungZuGrottkau = ({ draft }: ArticleProps) => (
+export const EinungZuGrottkau = () => (
   <>
     <Row>
       <Col>
@@ -14,9 +12,7 @@ export const EinungZuGrottkau = ({ draft }: ArticleProps) => (
         <h4>
           Einung der schlesischen Fürsten, Mannen und Städte zu Grottkau (1421
           oder 1427)
-          {draft && <DraftBadge />}
         </h4>
-        <p>Arbeitsübersetzung, noch nicht fachlich geprüft.</p>
         <p>
           Die Einung gegen die Hussiten schlossen die schlesischen Fürsten
           zusammen mit den Landen und Städten Breslau und Schweidnitz-Jauer. Sie

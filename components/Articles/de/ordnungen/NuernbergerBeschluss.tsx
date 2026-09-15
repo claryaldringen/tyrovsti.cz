@@ -1,18 +1,14 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
 
-export const NuernbergerBeschluss = ({ draft }: ArticleProps) => (
+export const NuernbergerBeschluss = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="nuremberg-resolution" />
-        <h4>
-          Nürnberger Beschluss vom 23. April 1428{draft && <DraftBadge />}
-        </h4>
+        <h4>Nürnberger Beschluss vom 23. April 1428</h4>
         <p>Übersetzt von PhDr. Zdeňka Kopková.</p>
         <p>
           Der Text ist der letzte, siebte Artikel der Beschlüsse des Nürnberger

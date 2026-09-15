@@ -3,12 +3,10 @@ import Link from 'next/link'
 import { LINKS, SOCIALS } from '../cz/OProjektu'
 import { Col, Row } from 'reactstrap'
 import { SocialLinks } from '../../SocialLinks/SocialLinks'
-import { ArticleProps } from '../../../types'
-import { DraftBadge } from '../../DraftBadge'
 
-export const InfoSulProgetto = ({ draft }: ArticleProps) => (
+export const InfoSulProgetto = () => (
   <>
-    <h2>Il progetto{draft && <DraftBadge />}</h2>
+    <h2>Il progetto</h2>
     <p>
       Ci occupiamo della ricostruzione (cosiddetto reenactment) della corte e
       del seguito di&nbsp;

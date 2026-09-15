@@ -2,18 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const TazeniSestimestiProtiVartemberkum = ({ draft }: ArticleProps) => (
+export const TazeniSestimestiProtiVartemberkum = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="tazeni-sestimesti-proti-vartemberkum" />
-        <h4>
-          Tažení Lužického šestiměstí proti Vartemberkům (1444–1450)
-          {draft && <DraftBadge />}
-        </h4>
+        <h4>Tažení Lužického šestiměstí proti Vartemberkům (1444–1450)</h4>
         <p>
           Série polních tažení a&nbsp;obléhání, jimiž se{' '}
           <b>Lužické šestiměstí</b> (Žitava, Budyšín, Görlitz, Löbau, Kamenec

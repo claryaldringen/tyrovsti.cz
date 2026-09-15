@@ -2,17 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const BukovinskaVyprava = ({ draft }: ArticleProps) => (
+export const BukovinskaVyprava = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="bukovinska-vyprava" />
-        <h4>
-          Bukovinská výprava Jana Olbrachta (1497){draft && <DraftBadge />}
-        </h4>
+        <h4>Bukovinská výprava Jana Olbrachta (1497)</h4>
         <p>
           Bukovinská výprava polského krále Jana I. Olbrachta proti Moldavskému
           knížectví v roce 1497 patří k nejhůře skončeným polským vojenským

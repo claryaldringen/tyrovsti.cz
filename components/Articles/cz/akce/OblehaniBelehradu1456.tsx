@@ -2,15 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const OblehaniBelehradu1456 = ({ draft }: ArticleProps) => (
+export const OblehaniBelehradu1456 = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="oblehani-belehradu-1456" />
-        <h4>Obléhání Bělehradu (1456){draft && <DraftBadge />}</h4>
+        <h4>Obléhání Bělehradu (1456)</h4>
         <p>
           Obléhání uherské pohraniční pevnosti Nándorfehérvár (dnešní Bělehrad)
           osmanskými vojsky sultána Mehmeda II. proběhlo mezi{' '}

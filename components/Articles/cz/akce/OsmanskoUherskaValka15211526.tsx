@@ -2,18 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const OsmanskoUherskaValka15211526 = ({ draft }: ArticleProps) => (
+export const OsmanskoUherskaValka15211526 = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="osmansko-uherska-valka-1521-1526" />
-        <h4>
-          Osmansko-uherská válka Sulejmana I. (1521–1526)
-          {draft && <DraftBadge />}
-        </h4>
+        <h4>Osmansko-uherská válka Sulejmana I. (1521–1526)</h4>
         <p>
           Po nástupu sultána Sulejmana I. <i>Velikého</i> (vládl 1520–1566)
           obnovila Osmanská říše ofenzivu na Balkáně a v Karpatské kotlině.

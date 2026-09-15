@@ -2,15 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const HlohovskyDedickySpor = ({ draft }: ArticleProps) => (
+export const HlohovskyDedickySpor = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="hlohovsky-dedicky-spor" />
-        <h4>Hlohovský dědický spor (1476–1488){draft && <DraftBadge />}</h4>
+        <h4>Hlohovský dědický spor (1476–1488)</h4>
         <p>
           Hlohovský dědický spor (něm. <i>Glogauer Erbfolgestreit</i>, pol.{' '}
           <i>Wojna o sukcesję głogowską</i>) byl ozbrojený konflikt

@@ -1,13 +1,11 @@
 import React from 'react'
 import { Col, Row } from 'reactstrap'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
 
-export const IntroduzioneOrdinanzeCeche = ({ draft }: ArticleProps) => (
+export const IntroduzioneOrdinanzeCeche = () => (
   <>
-    <h1>Ordinanze e scritti militari cechi{draft && <DraftBadge />}</h1>
+    <h1>Ordinanze e scritti militari cechi</h1>
     <Row>
       <Col>
         <p>

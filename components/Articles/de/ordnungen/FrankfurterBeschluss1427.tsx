@@ -1,21 +1,17 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Cit } from '../../../Citation'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
 
-export const FrankfurterBeschluss1427 = ({ draft }: ArticleProps) => (
+export const FrankfurterBeschluss1427 = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="frankfurt-resolution-1427" />
         <h4>
           Beschluss der Reichsstände zu Frankfurt, kurz vor dem 4.&nbsp;Mai 1427
-          {draft && <DraftBadge />}
         </h4>
-        <p>Arbeitsübersetzung, noch nicht fachlich geprüft.</p>
         <p>
           Den Beschluss fassten die Reichsstände auf dem Reichstag zu Frankfurt
           kurz vor dem 4.&nbsp;Mai 1427. Sie bereiteten damit einen Zug vor, der

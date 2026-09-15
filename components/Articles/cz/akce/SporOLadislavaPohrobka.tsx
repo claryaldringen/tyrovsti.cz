@@ -2,18 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const SporOLadislavaPohrobka = ({ draft }: ArticleProps) => (
+export const SporOLadislavaPohrobka = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="spor-o-ladislava-pohrobka" />
-        <h4>
-          Spor o korunu sv. Štěpána a Ladislava Pohrobka (1452–1457)
-          {draft && <DraftBadge />}
-        </h4>
+        <h4>Spor o korunu sv. Štěpána a Ladislava Pohrobka (1452–1457)</h4>
         <p>
           Spor o vydání mladého Ladislava Pohrobka, korunovaného uherského
           krále, jehož v poručnictví držel jeho strýc Fridrich III. Habsburský,

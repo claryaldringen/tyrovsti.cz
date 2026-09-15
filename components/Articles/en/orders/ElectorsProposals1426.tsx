@@ -1,21 +1,15 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Cit } from '../../../Citation'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
 
-export const ElectorsProposals1426 = ({ draft }: ArticleProps) => (
+export const ElectorsProposals1426 = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="electors-proposals-1426" />
-        <h4>
-          Proposals of the Electors at Nuremberg, June 1426, Article 17
-          {draft && <DraftBadge />}
-        </h4>
-        <p>Working translation, not yet reviewed.</p>
+        <h4>Proposals of the Electors at Nuremberg, June 1426, Article 17</h4>
         <p>
           The proposals were drawn up by the electors at their meeting in
           Nuremberg between 7 and 10&nbsp;June 1426. They deal with how to

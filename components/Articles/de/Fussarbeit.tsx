@@ -1,15 +1,13 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { ImageWithTitle } from '../../ImageWithTitle/ImageWithTitle'
-import { ArticleProps } from '../../../types'
-import { DraftBadge } from '../../DraftBadge'
 
-export const Fussarbeit = ({ draft }: ArticleProps) => (
+export const Fussarbeit = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="footwork-or-manoeuvres" />
-        <h4>Fußarbeit, oder Manöver{draft && <DraftBadge />}</h4>
+        <h4>Fußarbeit, oder Manöver</h4>
         <p>
           Der Zweck dieses kurzen Artikels ist es, einen Überblick über die
           Fußarbeit zu geben, d. h. die Manöver, die für ein sicheres und

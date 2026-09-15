@@ -1,16 +1,14 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
 
-export const ZizkuvVojenskyRad = ({ draft }: ArticleProps) => (
+export const ZizkuvVojenskyRad = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="zizkuv-vojensky-rad" />
-        <h4>Tzv. Žižkův vojenský řád{draft && <DraftBadge />}</h4>
+        <h4>Tzv. Žižkův vojenský řád</h4>
         <p>Přepis byl převzat ze stránek školy Digladior</p>
         <p>
           Takzvaný Žižkův vojenský řád, který se dochoval v krasopisném opisu z

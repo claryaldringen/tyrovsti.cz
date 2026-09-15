@@ -2,15 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const SvabskaValka = ({ draft }: ArticleProps) => (
+export const SvabskaValka = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="svabska-valka" />
-        <h4>Švábská válka (1499){draft && <DraftBadge />}</h4>
+        <h4>Švábská válka (1499)</h4>
         <p>
           Švábská válka byla posledním velkým konfliktem mezi Habsburky
           v&nbsp;čele s&nbsp;římským králem Maxmiliánem I. a&nbsp;Starou

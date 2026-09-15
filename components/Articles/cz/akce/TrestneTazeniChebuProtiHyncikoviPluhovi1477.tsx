@@ -2,12 +2,8 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const TrestneTazeniChebuProtiHyncikoviPluhovi1477 = ({
-  draft,
-}: ArticleProps) => (
+export const TrestneTazeniChebuProtiHyncikoviPluhovi1477 = () => (
   <>
     <Row>
       <Col>
@@ -15,10 +11,7 @@ export const TrestneTazeniChebuProtiHyncikoviPluhovi1477 = ({
           className="anchor"
           id="trestne-tazeni-chebu-proti-hyncikovi-pluhovi-1477"
         />
-        <h4>
-          Trestné tažení Chebu proti Hynčíkovi Pluhovi (1477)
-          {draft && <DraftBadge />}
-        </h4>
+        <h4>Trestné tažení Chebu proti Hynčíkovi Pluhovi (1477)</h4>
         <p>
           Trestná výprava říšského města Chebu (něm. <i>Eger</i>) proti{' '}
           <b>Hynčíkovi Pluhovi z&nbsp;Rabštejna</b> v&nbsp;roce <b>1477</b>{' '}

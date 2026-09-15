@@ -1,18 +1,15 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
 
-export const InstruktionWagenaufstellung = ({ draft }: ArticleProps) => (
+export const InstruktionWagenaufstellung = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="margraves-instruction-on-wagon-formation" />
         <h4>
           Instruktion des Markgrafen Albrecht von 1477 zur Wagenaufstellung
-          {draft && <DraftBadge />}
         </h4>
         <p>Übersetzt von PhDr. Zdeňka Kopková</p>
         <p>

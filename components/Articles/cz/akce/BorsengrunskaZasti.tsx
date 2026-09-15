@@ -2,15 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const BorsengrunskaZasti = ({ draft }: ArticleProps) => (
+export const BorsengrunskaZasti = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="borsengrunska-zasti" />
-        <h4>Boršengrýnská záští (1450–1454){draft && <DraftBadge />}</h4>
+        <h4>Boršengrýnská záští (1450–1454)</h4>
         <p>
           Boršengrýnská záští (něm. <i>Borschengrüner Fehde</i>) je souhrnné
           označení pro řadu pohraničních ozbrojených sporů mezi rody Gutštejnů,

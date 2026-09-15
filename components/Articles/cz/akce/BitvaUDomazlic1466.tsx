@@ -2,17 +2,14 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const BitvaUDomazlic1466 = ({ draft }: ArticleProps) => (
+export const BitvaUDomazlic1466 = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="bitva-u-domazlic-1466" />
         <h4>
           Bitva u&nbsp;Domažlic — odražení bavorsko-falckých křižáků (1466)
-          {draft && <DraftBadge />}
         </h4>
         <p>
           Bitva u&nbsp;Domažlic z&nbsp;<b>roku 1466</b> patří mezi první

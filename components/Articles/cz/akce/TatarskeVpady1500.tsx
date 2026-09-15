@@ -2,18 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const TatarskeVpady1500 = ({ draft }: ArticleProps) => (
+export const TatarskeVpady1500 = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="tatarske-vpady-1500" />
-        <h4>
-          Vpády krymských Tatarů na Polsko a Litvu (od 1500)
-          {draft && <DraftBadge />}
-        </h4>
+        <h4>Vpády krymských Tatarů na Polsko a Litvu (od 1500)</h4>
         <p>
           Pravidelné nájezdy krymských Tatarů na ruské, ukrajinské, polské a
           litevské země — v polské a ukrajinské tradici nazývané{' '}

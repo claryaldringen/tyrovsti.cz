@@ -2,15 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const WurttembergskaValka = ({ draft }: ArticleProps) => (
+export const WurttembergskaValka = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="wurttemberska-valka" />
-        <h4>Württemberská válka (1519){draft && <DraftBadge />}</h4>
+        <h4>Württemberská válka (1519)</h4>
         <p>
           Württemberská válka (něm. <i>Württembergischer Krieg</i>) byla
           vojenská exekuce Švábského spolku (něm. <i>Schwäbischer Bund</i>)

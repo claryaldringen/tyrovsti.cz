@@ -3,15 +3,13 @@ import React from 'react'
 import { PUBLICATIONS } from '../../../shared/constants'
 import { Qt } from '../../Quote/Qt'
 import { ImageWithTitle } from '../../ImageWithTitle'
-import { ArticleProps } from '../../../types'
-import { DraftBadge } from '../../DraftBadge'
 
-export const HansHarsdorfer = ({ draft }: ArticleProps) => (
+export const HansHarsdorfer = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="hans-harsdorfer" />
-        <h4>Hans (II.) Harsdorfer (ca. 1450–1511){draft && <DraftBadge />}</h4>
+        <h4>Hans (II.) Harsdorfer (ca. 1450–1511)</h4>
       </Col>
     </Row>
     <Row>

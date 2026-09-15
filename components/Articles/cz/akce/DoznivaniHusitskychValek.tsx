@@ -2,15 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const DoznivaniHusitskychValek = ({ draft }: ArticleProps) => (
+export const DoznivaniHusitskychValek = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="doznivani-husitskych-valek" />
-        <h4>Doznívání husitských válek (1434–1437){draft && <DraftBadge />}</h4>
+        <h4>Doznívání husitských válek (1434–1437)</h4>
         <p>
           Tříletým obdobím od bitvy u Lipan <b>30. května 1434</b> do smrti
           krále Zikmunda Lucemburského <b>9. prosince 1437</b> definitivně

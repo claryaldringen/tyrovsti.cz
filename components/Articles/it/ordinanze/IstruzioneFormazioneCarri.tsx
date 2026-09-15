@@ -1,11 +1,9 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
 
-export const IstruzioneFormazioneCarri = ({ draft }: ArticleProps) => (
+export const IstruzioneFormazioneCarri = () => (
   <>
     <Row>
       <Col>
@@ -15,7 +13,6 @@ export const IstruzioneFormazioneCarri = ({ draft }: ArticleProps) => (
         />
         <h4>
           Istruzione del margravio Albrecht del 1477 sulla formazione dei carri
-          {draft && <DraftBadge />}
         </h4>
         <p>Traduzione di PhDr. Zdeňka Kopková</p>
         <p>

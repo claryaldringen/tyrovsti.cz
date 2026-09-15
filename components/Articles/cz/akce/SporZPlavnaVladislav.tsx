@@ -2,17 +2,14 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const SporZPlavnaVladislav = ({ draft }: ArticleProps) => (
+export const SporZPlavnaVladislav = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="spor-z-plavna-vladislav" />
         <h4>
           Spory pánů z&nbsp;Plavna o&nbsp;Plavno, Bečov a&nbsp;Kynžvart (1481+)
-          {draft && <DraftBadge />}
         </h4>
         <p>
           Plavenští z&nbsp;Plavna (něm. <i>Reuß von Plauen</i>) patřili

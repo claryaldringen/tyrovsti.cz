@@ -1,21 +1,14 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
 
-export const MargravesInstructionOnWagonFormation = ({
-  draft,
-}: ArticleProps) => (
+export const MargravesInstructionOnWagonFormation = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="margraves-instruction-on-wagon-formation" />
-        <h4>
-          Instruction of Margrave Albrecht of 1477 on Wagon Formation
-          {draft && <DraftBadge />}
-        </h4>
+        <h4>Instruction of Margrave Albrecht of 1477 on Wagon Formation</h4>
         <p>Translated by PhDr. Zdeňka Kopková</p>
         <p>
           The text comes from the so-called <i>Praeparatoria</i>, the

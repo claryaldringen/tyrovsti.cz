@@ -1,18 +1,14 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
 
-export const FrankfurtWagonOrder = ({ draft }: ArticleProps) => (
+export const FrankfurtWagonOrder = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="frankfurt-wagon-order" />
-        <h4>
-          The So-Called Frankfurt Wagon Order of 1444{draft && <DraftBadge />}
-        </h4>
+        <h4>The So-Called Frankfurt Wagon Order of 1444</h4>
         <p>Translated by PhDr. Zdeňka Kopková, corrections by Daniel Burger.</p>
         <p>
           Although this text is traditionally referred to as the Frankfurt wagon

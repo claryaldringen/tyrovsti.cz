@@ -1,16 +1,14 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
 
-export const NurembergWagonOrder = ({ draft }: ArticleProps) => (
+export const NurembergWagonOrder = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="nuremberg-wagon-order" />
-        <h4>Nuremberg Wagon Order of 1450{draft && <DraftBadge />}</h4>
+        <h4>Nuremberg Wagon Order of 1450</h4>
         <p>Translated by PhDr. Zdeňka Kopková.</p>
         <p>
           It was printed in <i>Chroniken der deutschen Städte</i>, Nürnberg, II,

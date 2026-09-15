@@ -1,14 +1,10 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Cit } from '../../../Citation'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
 
-export const NurembergOrderForTheBohemianCampaign1431 = ({
-  draft,
-}: ArticleProps) => (
+export const NurembergOrderForTheBohemianCampaign1431 = () => (
   <>
     <Row>
       <Col>
@@ -19,9 +15,7 @@ export const NurembergOrderForTheBohemianCampaign1431 = ({
         <h4>
           Nuremberg Resolution of 9–10 March 1431 on the Order for the Campaign
           into Bohemia
-          {draft && <DraftBadge />}
         </h4>
-        <p>Working translation, not yet reviewed.</p>
         <p>
           Both texts came out of the negotiations of the Imperial Diet in
           Nuremberg in February and March 1431, which was preparing a great

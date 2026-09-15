@@ -2,18 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const KutnohorskaBourka = ({ draft }: ArticleProps) => (
+export const KutnohorskaBourka = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="kutnohorska-bourka" />
-        <h4>
-          Kutnohorská hornická bouře (1494–1496)
-          {draft && <DraftBadge />}
-        </h4>
+        <h4>Kutnohorská hornická bouře (1494–1496)</h4>
         <p>
           Hornická bouře v Kutné Hoře v letech 1494–1496 byla rozsáhlým
           povstáním horníků královského horního města proti zhoršujícím se

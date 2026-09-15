@@ -1,21 +1,15 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Cit } from '../../../Citation'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
 
-export const NavrhyNorimberske1430 = ({ draft }: ArticleProps) => (
+export const NavrhyNorimberske1430 = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="norimberske-navrhy-1430" />
-        <h4>
-          Norimberské návrhy pro šikování vozů z doby kolem roku 1430
-          {draft && <DraftBadge />}
-        </h4>
-        <p>Pracovní překlad, zatím bez odborné korektury.</p>
+        <h4>Norimberské návrhy pro šikování vozů z doby kolem roku 1430</h4>
         <p>
           Jde o dva spisy z norimberského archivu, koncept a čistopis návrhu,
           jak zřídit vozovou hradbu pro chystané tažení do Čech. Oba jsou psány

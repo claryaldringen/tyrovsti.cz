@@ -2,15 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const BojeOUherskyTrun1440 = ({ draft }: ArticleProps) => (
+export const BojeOUherskyTrun1440 = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="boje-o-uhersky-trun-1440" />
-        <h4>Boje o uherský trůn (1440 – 1442){draft && <DraftBadge />}</h4>
+        <h4>Boje o uherský trůn (1440 – 1442)</h4>
         <p>
           Občanská válka v Uherském království v letech 1440 až 1442 byla sporem
           dvou pretendentů uherské koruny – polského krále Vladislava III.

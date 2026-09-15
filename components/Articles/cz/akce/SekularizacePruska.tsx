@@ -2,18 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const SekularizacePruska = ({ draft }: ArticleProps) => (
+export const SekularizacePruska = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="sekularizace-pruska" />
-        <h4>
-          Krakovská smlouva — sekularizace řádového státu (1525)
-          {draft && <DraftBadge />}
-        </h4>
+        <h4>Krakovská smlouva — sekularizace řádového státu (1525)</h4>
         <p>
           Krakovský pruský hold (pol. <i>Hołd pruski</i>, něm.{' '}
           <i>Krakauer Vertrag</i>, <i>Preußische Huldigung</i>) ze{' '}

@@ -4,15 +4,13 @@ import { Cit } from '../../../Citation'
 import { ImageWithTitle } from '../../../ImageWithTitle'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const JostTyrovsky = ({ draft }: ArticleProps) => (
+export const JostTyrovsky = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="jost-z-einsiedlu" />
-        <h4>Jošt z Einsiedlu (asi 1420 - 1474){draft && <DraftBadge />}</h4>
+        <h4>Jošt z Einsiedlu (asi 1420 - 1474)</h4>
         <h5>Rodina a mládí</h5>
         <p>
           Jošt se narodil do měšťanské rodiny v městečku Einsiedl, dnešním

@@ -2,18 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const DruhaLitevskoMoskevska = ({ draft }: ArticleProps) => (
+export const DruhaLitevskoMoskevska = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="druha-litevsko-moskevska" />
-        <h4>
-          Druhá litevsko-moskevská válka o Severii (1500–1503)
-          {draft && <DraftBadge />}
-        </h4>
+        <h4>Druhá litevsko-moskevská válka o Severii (1500–1503)</h4>
         <p>
           Druhá litevsko-moskevská válka v letech 1500–1503 byla pokračováním
           mocenského zápasu mezi Velkoknížectvím litevským a Moskvou Ivana III.

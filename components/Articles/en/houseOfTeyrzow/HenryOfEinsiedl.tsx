@@ -4,18 +4,13 @@ import React from 'react'
 import { PUBLICATIONS } from '../../../../shared/constants'
 import { Qt } from '../../../Quote/Qt'
 import { Cit } from '../../../Citation'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const HenryOfEinsiedl = ({ draft }: ArticleProps) => (
+export const HenryOfEinsiedl = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="henry-of-einsiedl" />
-        <h4>
-          Jindřich (Henry) Týřovský of Einsiedl (c. 1466–1556)
-          {draft && <DraftBadge />}
-        </h4>
+        <h4>Jindřich (Henry) Týřovský of Einsiedl (c. 1466–1556)</h4>
         <p>
           Jobst died in 1474, but his last will could not be entered into the
           land tables because it was sealed only after his death. The surviving

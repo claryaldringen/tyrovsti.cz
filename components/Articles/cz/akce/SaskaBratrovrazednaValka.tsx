@@ -3,15 +3,13 @@ import React from 'react'
 import { Cit } from '../../../Citation'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const SaskaBratrovrazednaValka = ({ draft }: ArticleProps) => (
+export const SaskaBratrovrazednaValka = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="sasky-bratrovrazedny-valka" />
-        <h4>Saská bratrovražedná válka{draft && <DraftBadge />}</h4>
+        <h4>Saská bratrovražedná válka</h4>
       </Col>
     </Row>
     <Row>

@@ -2,18 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const VpadyBratriku = ({ draft }: ArticleProps) => (
+export const VpadyBratriku = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="vpady-bratriku" />
-        <h4>
-          Vpády bratříků na Moravu a do Slezska (1440–1467)
-          {draft && <DraftBadge />}
-        </h4>
+        <h4>Vpády bratříků na Moravu a do Slezska (1440–1467)</h4>
         <p>
           Bratříci (něm. <i>Bratrici</i>, lat. <i>fratres</i>) byli vojenské
           oddíly složené převážně z bývalých husitských bojovníků a jejich žáků,

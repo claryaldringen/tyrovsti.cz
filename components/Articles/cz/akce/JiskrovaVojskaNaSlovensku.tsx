@@ -2,18 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const JiskrovaVojskaNaSlovensku = ({ draft }: ArticleProps) => (
+export const JiskrovaVojskaNaSlovensku = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="jiskrova-vojska-na-slovensku" />
-        <h4>
-          Působení Jana Jiskry z Brandýsa v Horních Uhrách (1440 – 1462)
-          {draft && <DraftBadge />}
-        </h4>
+        <h4>Působení Jana Jiskry z Brandýsa v Horních Uhrách (1440 – 1462)</h4>
         <p>
           Jan Jiskra z Brandýsa, český šlechtic a zkušený žoldnéřský velitel,
           působil od roku 1440 v Horních Uhrách (dnešní Slovensko) ve službách

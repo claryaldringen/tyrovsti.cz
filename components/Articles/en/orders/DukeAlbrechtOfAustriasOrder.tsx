@@ -1,21 +1,17 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Cit } from '../../../Citation'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
 
-export const DukeAlbrechtOfAustriasOrder = ({ draft }: ArticleProps) => (
+export const DukeAlbrechtOfAustriasOrder = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="duke-albrecht-of-austrias-military-order" />
         <h4>
           Military Order of Duke Albrecht of Austria, Probably of 28 April 1431
-          {draft && <DraftBadge />}
         </h4>
-        <p>Working translation, not yet reviewed.</p>
         <p>
           The order records what Duke Albrecht of Austria, Margrave of Moravia,
           agreed with the estates of his land against the Hussites. It has

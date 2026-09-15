@@ -2,15 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const DozsovoPovstani = ({ draft }: ArticleProps) => (
+export const DozsovoPovstani = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="dozsovo-povstani" />
-        <h4>Selské povstání Györgye Dózsi (1514){draft && <DraftBadge />}</h4>
+        <h4>Selské povstání Györgye Dózsi (1514)</h4>
         <p>
           Selské povstání Györgye Dózsi (maď. <i>Dózsa-féle parasztfelkelés</i>,
           něm. <i>Aufstand des György Dózsa</i>) bylo největší rolnické povstání

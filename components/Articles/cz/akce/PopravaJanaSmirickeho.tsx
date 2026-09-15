@@ -2,18 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const PopravaJanaSmirickeho = ({ draft }: ArticleProps) => (
+export const PopravaJanaSmirickeho = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="poprava-jana-smirickeho" />
-        <h4>
-          Pád Jana Smiřického a&nbsp;boj o&nbsp;jeho dědictví (1453)
-          {draft && <DraftBadge />}
-        </h4>
+        <h4>Pád Jana Smiřického a&nbsp;boj o&nbsp;jeho dědictví (1453)</h4>
         <p>
           <b>Jan Smiřický ze&nbsp;Smiřic</b> patřil k&nbsp;nejvlivnějším
           příslušníkům utrakvistické šlechty 40. a&nbsp;počátku 50. let 15.

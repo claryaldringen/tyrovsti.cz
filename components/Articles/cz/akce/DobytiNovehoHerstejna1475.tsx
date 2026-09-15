@@ -2,17 +2,15 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const DobytiNovehoHerstejna1475 = ({ draft }: ArticleProps) => (
+export const DobytiNovehoHerstejna1475 = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="dobyti-noveho-herstejna-1475" />
         <h4>
           Dobytí Nového Herštejna a&nbsp;smíření Hanse Degenberga
-          s&nbsp;Albrechtem&nbsp;IV. (1475){draft && <DraftBadge />}
+          s&nbsp;Albrechtem&nbsp;IV. (1475)
         </h4>
         <p>
           Dobytí pohraničního hradu <b>Nový Herštejn</b> u&nbsp;Kdyně roku{' '}

@@ -3,15 +3,13 @@ import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
 import { Cit } from '../../../Citation'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const Zbroj = ({ draft }: ArticleProps) => (
+export const Zbroj = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="uvod" />
-        <h3>Zbroj{draft && <DraftBadge />}</h3>
+        <h3>Zbroj</h3>
       </Col>
     </Row>
     <Row>

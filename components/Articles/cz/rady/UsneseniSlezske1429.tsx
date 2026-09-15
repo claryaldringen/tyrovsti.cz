@@ -1,21 +1,15 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Cit } from '../../../Citation'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
 
-export const UsneseniSlezske1429 = ({ draft }: ArticleProps) => (
+export const UsneseniSlezske1429 = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="usneseni-slezske-1429" />
-        <h4>
-          Slezské usnesení o šikování vozů z května 1429
-          {draft && <DraftBadge />}
-        </h4>
-        <p>Pracovní překlad, zatím bez odborné korektury.</p>
+        <h4>Slezské usnesení o šikování vozů z května 1429</h4>
         <p>
           Podle Tomana se král Zikmund dohodl se slezskými knížaty na řádu
           šikování vozů a v německém překladu ho dal rozeslat říšským knížatům a

@@ -2,18 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const TrestneTazeniVevoduProtiBocklerum = ({ draft }: ArticleProps) => (
+export const TrestneTazeniVevoduProtiBocklerum = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="trestne-tazeni-vevodu-proti-bocklerum" />
-        <h4>
-          Trestné tažení bavorských vévodů proti hradům bocklerů (1468)
-          {draft && <DraftBadge />}
-        </h4>
+        <h4>Trestné tažení bavorských vévodů proti hradům bocklerů (1468)</h4>
         <p>
           Mezi listopadem <b>1468</b> a&nbsp;lednem <b>1469</b> provedl
           mnichovský vévoda <b>Albrecht IV.</b> ve spolupráci

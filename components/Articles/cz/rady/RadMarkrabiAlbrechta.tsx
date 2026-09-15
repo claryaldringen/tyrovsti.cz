@@ -1,18 +1,14 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
 
-export const RadMarkrabiAlbrechta = ({ draft }: ArticleProps) => (
+export const RadMarkrabiAlbrechta = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="rad-vojensky-markrabi-albrechta" />
-        <h4>
-          Řád vojenský markrabí Albrechta z roku 1478{draft && <DraftBadge />}
-        </h4>
+        <h4>Řád vojenský markrabí Albrechta z roku 1478</h4>
         <p>
           Řád se dochoval v kodexu kurmarského lenního archivu se záznamy z
           války, kterou kurfiřt Albrecht Achilles Braniborský vedl v letech

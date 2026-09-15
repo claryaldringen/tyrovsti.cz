@@ -1,12 +1,10 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Cit } from '../../../Citation'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
 
-export const RadNorimberskyProTazeniDoCech1431 = ({ draft }: ArticleProps) => (
+export const RadNorimberskyProTazeniDoCech1431 = () => (
   <>
     <Row>
       <Col>
@@ -17,9 +15,7 @@ export const RadNorimberskyProTazeniDoCech1431 = ({ draft }: ArticleProps) => (
         <h4>
           Usnesení norimberské ze dne 9.–10. března 1431 o řádu pro tažení do
           Čech
-          {draft && <DraftBadge />}
         </h4>
-        <p>Pracovní překlad, zatím bez odborné korektury.</p>
         <p>
           Oba texty vzešly z jednání říšského sněmu v Norimberku v únoru a
           březnu 1431, na kterém se připravovala velká výprava do Čech. Řád o

@@ -1,18 +1,15 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
 
-export const PhilipOfSeldenecksWagonOrder = ({ draft }: ArticleProps) => (
+export const PhilipOfSeldenecksWagonOrder = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="philip-of-seldenecks-wagon-order" />
         <h4>
           The So-Called Wagon Order of Philip of Seldeneck, Late 15th Century
-          {draft && <DraftBadge />}
         </h4>
         <p>
           This wagon order has survived in a codex commissioned by the

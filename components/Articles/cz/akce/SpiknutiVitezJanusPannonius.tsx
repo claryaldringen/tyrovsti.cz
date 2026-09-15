@@ -2,17 +2,14 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const SpiknutiVitezJanusPannonius = ({ draft }: ArticleProps) => (
+export const SpiknutiVitezJanusPannonius = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="spiknuti-vitez-janus-pannonius" />
         <h4>
           Spiknutí Jana Vitéze a Januse Pannonia proti Matyášovi (1471–1472)
-          {draft && <DraftBadge />}
         </h4>
         <p>
           Spiknutí ostřihomského arcibiskupa Jana Vitéze ze Sredny (maď.{' '}

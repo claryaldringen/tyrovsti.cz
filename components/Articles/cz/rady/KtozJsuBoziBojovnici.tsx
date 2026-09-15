@@ -1,17 +1,15 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { ImageWithTitle } from '../../../ImageWithTitle'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
 
-export const KtozJsuBoziBojovnici = ({ draft }: ArticleProps) => (
+export const KtozJsuBoziBojovnici = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="ktoz-jsu-bozi-bojovnici" />
-        <h4>Ktož jsú boží bojovníci{draft && <DraftBadge />}</h4>
+        <h4>Ktož jsú boží bojovníci</h4>
         <p>
           Přepis z Jistebnického kancionálu pořídil Ing. Roman Vaverka,
           korekturu provedla Mgr. Markéta Poskočilová

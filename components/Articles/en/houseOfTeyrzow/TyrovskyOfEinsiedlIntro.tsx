@@ -3,14 +3,12 @@ import { Col, Row } from 'reactstrap'
 import { ImageWithTitle } from '../../../ImageWithTitle'
 import { PUBLICATIONS } from '../../../../shared/constants'
 import { Qt } from '../../../Quote/Qt'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const TyrovskyOfEinsiedlIntro = ({ draft }: ArticleProps) => (
+export const TyrovskyOfEinsiedlIntro = () => (
   <>
     <Row>
       <Col md={6}>
-        <h1>Týřovský of Einsiedl{draft && <DraftBadge />}</h1>
+        <h1>Týřovský of Einsiedl</h1>
         <p>
           They derive their family name from the castle of Týřov, which the
           founder of the family Jobst of Einsiedl obtained as a pledge from King

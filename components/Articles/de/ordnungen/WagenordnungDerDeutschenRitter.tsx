@@ -1,20 +1,15 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Cit } from '../../../Citation'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
 
-export const WagenordnungDerDeutschenRitter = ({ draft }: ArticleProps) => (
+export const WagenordnungDerDeutschenRitter = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="wagon-order-of-german-knights" />
-        <h4>
-          Wagenordnung des Deutschen Ordens vom 19. April 1433
-          {draft && <DraftBadge />}
-        </h4>
+        <h4>Wagenordnung des Deutschen Ordens vom 19. April 1433</h4>
         <p>
           Die Ordnung war die Beilage zu einem Brief, den der Hochmeister des
           Deutschen Ordens am 19. April 1433 aus der Marienburg an den Rat der

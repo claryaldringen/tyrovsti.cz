@@ -1,19 +1,14 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
 
-export const FrankfurterWagenordnung = ({ draft }: ArticleProps) => (
+export const FrankfurterWagenordnung = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="frankfurt-wagon-order" />
-        <h4>
-          Die sogenannte Frankfurter Wagenordnung von 1444
-          {draft && <DraftBadge />}
-        </h4>
+        <h4>Die sogenannte Frankfurter Wagenordnung von 1444</h4>
         <p>
           Übersetzt von PhDr. Zdeňka Kopková, Korrekturen von Daniel Burger.
         </p>

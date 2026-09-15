@@ -124,7 +124,6 @@ import {
   Region,
 } from '../../components/Articles/cz/akce/casovaOsaData'
 import { LANG_CS } from '../../shared/constants'
-import { ArticleProps } from '../../types'
 
 type ArticleEntry = {
   // ID konfliktů, jejichž viditelnost v ose ovládá zobrazení článku.
@@ -132,7 +131,7 @@ type ArticleEntry = {
   conflictIds: string[]
   // Pořadí článku v seznamu — start roku.
   start: number
-  Component: React.ComponentType<ArticleProps>
+  Component: React.ComponentType
 }
 
 const ARTICLE_ENTRIES: ArticleEntry[] = (

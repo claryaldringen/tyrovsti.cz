@@ -1,15 +1,13 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { ImageWithTitle } from '../../ImageWithTitle/ImageWithTitle'
-import { ArticleProps } from '../../../types'
-import { DraftBadge } from '../../DraftBadge'
 
-export const Footwork = ({ draft }: ArticleProps) => (
+export const Footwork = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="footwork-or-manoeuvres" />
-        <h4>Footwork, or Manoeuvres{draft && <DraftBadge />}</h4>
+        <h4>Footwork, or Manoeuvres</h4>
         <p>
           The purpose of this short article is to provide an overview of
           footwork, i.e. the manoeuvres that are essential for a safe and

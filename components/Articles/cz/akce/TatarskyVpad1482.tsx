@@ -2,18 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const TatarskyVpad1482 = ({ draft }: ArticleProps) => (
+export const TatarskyVpad1482 = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="tatarsky-vpad-1482" />
-        <h4>
-          Vpád krymských Tatarů Mengli Gireje na Kyjevsko (1482)
-          {draft && <DraftBadge />}
-        </h4>
+        <h4>Vpád krymských Tatarů Mengli Gireje na Kyjevsko (1482)</h4>
         <p>
           Vpád krymského chána Mengliho&nbsp;I. Gireje na Kyjevsko v&nbsp;září
           1482 byl jedním z&nbsp;nejničivějších tatarských nájezdů na východní

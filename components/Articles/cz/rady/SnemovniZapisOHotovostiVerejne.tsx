@@ -1,19 +1,16 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { ImageWithTitle } from '../../../ImageWithTitle/ImageWithTitle'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
 
-export const SnemovniZapisOHotovostiVerejne = ({ draft }: ArticleProps) => (
+export const SnemovniZapisOHotovostiVerejne = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="snemovni-zapis-o-hotovosti" />
         <h4>
           Sněmovní zápis o hotovosti veřejné v krajích ze dne 14. března 1470
-          {draft && <DraftBadge />}
         </h4>
         <p>
           Rozvrh na jednotlivé kraje u výtahu: Hradecko. Na Hradecký kraj jest

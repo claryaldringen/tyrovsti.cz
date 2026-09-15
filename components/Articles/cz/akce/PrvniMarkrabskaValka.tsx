@@ -2,15 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const PrvniMarkrabskaValka = ({ draft }: ArticleProps) => (
+export const PrvniMarkrabskaValka = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="prvni-markrabska-valka" />
-        <h4>První markraběcí válka (1449–1453){draft && <DraftBadge />}</h4>
+        <h4>První markraběcí válka (1449–1453)</h4>
         <p>
           První markraběcí válka (něm. <i>Erster Markgrafenkrieg</i>) byla
           ozbrojeným konfliktem mezi braniborsko-ansbašským markrabětem

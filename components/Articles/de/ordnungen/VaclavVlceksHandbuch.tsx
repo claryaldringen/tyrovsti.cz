@@ -2,12 +2,10 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
 
-export const VaclavVlceksHandbuch = ({ draft }: ArticleProps) => (
+export const VaclavVlceksHandbuch = () => (
   <>
     <Row>
       <Col>
@@ -18,7 +16,6 @@ export const VaclavVlceksHandbuch = ({ draft }: ArticleProps) => (
         <h4>
           Václav Vlčeks von Čenov Handbuch für König Vladislav, wie man
           Formationen von Reiterei, Fußvolk und Wagen aufstellt
-          {draft && <DraftBadge />}
         </h4>
         <p>
           Transkription ins moderne Tschechisch: Martin &ldquo;Clary

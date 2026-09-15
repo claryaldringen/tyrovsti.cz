@@ -2,15 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const DruhaBitvaNaKosovePoli = ({ draft }: ArticleProps) => (
+export const DruhaBitvaNaKosovePoli = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="druha-bitva-na-kosove-poli" />
-        <h4>Druhá bitva na Kosově poli (1448){draft && <DraftBadge />}</h4>
+        <h4>Druhá bitva na Kosově poli (1448)</h4>
         <p>
           Druhá bitva na Kosově poli se odehrála ve dnech{' '}
           <b>17. – 20. října 1448</b> mezi vojskem uherského zemského správce

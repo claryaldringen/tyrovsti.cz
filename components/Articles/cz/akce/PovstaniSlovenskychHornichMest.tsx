@@ -2,18 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const PovstaniSlovenskychHornichMest = ({ draft }: ArticleProps) => (
+export const PovstaniSlovenskychHornichMest = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="povstani-slovenskych-hornich-mest" />
-        <h4>
-          Povstání slovenských horníků v Banské Bystrici (1525–1526)
-          {draft && <DraftBadge />}
-        </h4>
+        <h4>Povstání slovenských horníků v Banské Bystrici (1525–1526)</h4>
         <p>
           Povstání horníků v hornouherských horních městech (něm.{' '}
           <i>Bergarbeiteraufstand in Neusohl</i>, maď.{' '}

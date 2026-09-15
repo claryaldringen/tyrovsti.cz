@@ -2,17 +2,15 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const BojOLoket1471 = ({ draft }: ArticleProps) => (
+export const BojOLoket1471 = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="boj-o-loket-1471" />
         <h4>
           Boj o&nbsp;Loket a&nbsp;záští na bayreuthské a&nbsp;ašské hranici
-          (1471){draft && <DraftBadge />}
+          (1471)
         </h4>
         <p>
           Po smrti Jiřího z&nbsp;Poděbrad <b>22. března 1471</b> se

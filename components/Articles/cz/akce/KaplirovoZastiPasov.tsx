@@ -2,17 +2,14 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const KaplirovoZastiPasov = ({ draft }: ArticleProps) => (
+export const KaplirovoZastiPasov = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="kaplirovo-zasti-pasov" />
         <h4>
           Záští Mikuláše Kaplíře z Vimperka s pasovským biskupem (1458–1460)
-          {draft && <DraftBadge />}
         </h4>
         <p>
           Mikuláš Kaplíř ze Sulevic, pán na Vimperku a jeden z nejvýznamnějších

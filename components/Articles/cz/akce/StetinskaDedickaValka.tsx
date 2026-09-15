@@ -2,15 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const StetinskaDedickaValka = ({ draft }: ArticleProps) => (
+export const StetinskaDedickaValka = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="stetinska-dedicka-valka" />
-        <h4>Štětínská dědická válka (1464–1472){draft && <DraftBadge />}</h4>
+        <h4>Štětínská dědická válka (1464–1472)</h4>
         <p>
           Štětínská dědická válka (něm. <i>Stettiner Erbfolgekrieg</i>, pol.{' '}
           <i>wojna o sukcesję szczecińską</i>) byla ozbrojeným konfliktem let{' '}

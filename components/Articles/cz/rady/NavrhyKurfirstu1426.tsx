@@ -1,21 +1,15 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Cit } from '../../../Citation'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
 
-export const NavrhyKurfirstu1426 = ({ draft }: ArticleProps) => (
+export const NavrhyKurfirstu1426 = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="navrhy-kurfirstu-1426" />
-        <h4>
-          Návrhy kurfiřtů z Norimberku z června 1426, článek 17
-          {draft && <DraftBadge />}
-        </h4>
-        <p>Pracovní překlad, zatím bez odborné korektury.</p>
+        <h4>Návrhy kurfiřtů z Norimberku z června 1426, článek 17</h4>
         <p>
           Návrhy sepsali kurfiřti na sjezdu v Norimberku mezi 7. a
           10.&nbsp;červnem 1426. Řeší v nich, jak připravit a vést tažení proti

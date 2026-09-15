@@ -2,15 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const BitvaUMohace = ({ draft }: ArticleProps) => (
+export const BitvaUMohace = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="bitva-u-mohace" />
-        <h4>Bitva u Moháče (1526){draft && <DraftBadge />}</h4>
+        <h4>Bitva u Moháče (1526)</h4>
         <p>
           Bitva u Moháče svedená <b>29. srpna 1526</b> mezi uherskou armádou
           krále Ludvíka Jagellonského a osmanským vojskem sultána Sulejmana

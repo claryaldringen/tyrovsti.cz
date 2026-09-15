@@ -2,18 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const HildesheimskaKolegiatniZasti = ({ draft }: ArticleProps) => (
+export const HildesheimskaKolegiatniZasti = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="hildesheimska-kolegiatni-zasti" />
-        <h4>
-          Hildesheimská kolegiátní záští (1519–1523)
-          {draft && <DraftBadge />}
-        </h4>
+        <h4>Hildesheimská kolegiátní záští (1519–1523)</h4>
         <p>
           Hildesheimská kolegiátní záští (něm. <i>Hildesheimer Stiftsfehde</i>)
           bylo ozbrojeným sporem mezi biskupstvím Hildesheim pod biskupem Janem

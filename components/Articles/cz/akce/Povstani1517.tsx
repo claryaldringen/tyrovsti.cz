@@ -2,18 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const Povstani1517 = ({ draft }: ArticleProps) => (
+export const Povstani1517 = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="povstani-1517" />
-        <h4>
-          Povstání nižší šlechty proti Zikmundu z Lobkovic (1517)
-          {draft && <DraftBadge />}
-        </h4>
+        <h4>Povstání nižší šlechty proti Zikmundu z Lobkovic (1517)</h4>
         <p>
           Povstání nižší šlechty proti pánu z Lobkovic v roce 1517 představuje
           vyústění několikaletého stavovského sporu mezi rytířstvem (zemany) a

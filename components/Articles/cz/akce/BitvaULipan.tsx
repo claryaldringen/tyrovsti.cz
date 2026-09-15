@@ -2,15 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const BitvaULipan = ({ draft }: ArticleProps) => (
+export const BitvaULipan = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="lipany" />
-        <h4>Bitva u Lipan (30. května 1434){draft && <DraftBadge />}</h4>
+        <h4>Bitva u Lipan (30. května 1434)</h4>
         <p>
           Bitva u Lipan svedená <b>30. května 1434</b> mezi vsí Hřiby a Lipskou
           horou asi kilometr jižně od Lipan v dnešním okrese Kolín představuje

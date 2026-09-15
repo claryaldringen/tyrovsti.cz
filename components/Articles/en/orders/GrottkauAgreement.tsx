@@ -1,12 +1,10 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Cit } from '../../../Citation'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
 
-export const GrottkauAgreement = ({ draft }: ArticleProps) => (
+export const GrottkauAgreement = () => (
   <>
     <Row>
       <Col>
@@ -14,9 +12,7 @@ export const GrottkauAgreement = ({ draft }: ArticleProps) => (
         <h4>
           Agreement of the Silesian Princes, Vassals and Towns at Grottkau (1421
           or 1427)
-          {draft && <DraftBadge />}
         </h4>
-        <p>Working translation, not yet reviewed.</p>
         <p>
           The agreement against the Hussites was concluded by the Silesian
           princes together with the lands and towns of Breslau and

@@ -2,15 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const LitevskaObcanskaValka = ({ draft }: ArticleProps) => (
+export const LitevskaObcanskaValka = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="litevska-obcanska-valka" />
-        <h4>Litevská občanská válka (1432–1438){draft && <DraftBadge />}</h4>
+        <h4>Litevská občanská válka (1432–1438)</h4>
         <p>
           Litevská občanská válka (pol. <i>Wojna domowa na Litwie</i>, lit.{' '}
           <i>Lietuvos pilietinis karas</i>) byla dynastickým a mocenským zápasem

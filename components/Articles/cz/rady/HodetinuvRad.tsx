@@ -1,18 +1,14 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
 
-export const HodetinuvRad = ({ draft }: ArticleProps) => (
+export const HodetinuvRad = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="jana-hajka-z-hodetina-rad-vojensky" />
-        <h4>
-          Tzv. Jana Hájka z Hodětína řád vojenský{draft && <DraftBadge />}
-        </h4>
+        <h4>Tzv. Jana Hájka z Hodětína řád vojenský</h4>
         <p>Přepis byl převzat ze stránek školy Digladior</p>
         <p>
           Datace a autorství tohoto díla je obtížná. V úvodu řádu je sice

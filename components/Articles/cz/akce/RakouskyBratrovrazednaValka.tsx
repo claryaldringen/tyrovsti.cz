@@ -2,17 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const RakouskyBratrovrazednaValka = ({ draft }: ArticleProps) => (
+export const RakouskyBratrovrazednaValka = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="rakousky-bratrovrazedny-valka" />
-        <h4>
-          Rakouská bratrovražedná válka (1458–1463){draft && <DraftBadge />}
-        </h4>
+        <h4>Rakouská bratrovražedná válka (1458–1463)</h4>
         <p>
           Rakouská bratrovražedná válka (něm.{' '}
           <i>Österreichischer Bruderzwist</i>) byl dynastický spor mezi císařem

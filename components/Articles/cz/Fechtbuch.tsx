@@ -1,16 +1,12 @@
 import React from 'react'
 import { Col, Row } from 'reactstrap'
 import { ImageWithTitle } from '../../ImageWithTitle'
-import { ArticleProps } from '../../../types'
-import { DraftBadge } from '../../DraftBadge'
 
-export const Fechtbuch = ({ draft }: ArticleProps) => (
+export const Fechtbuch = () => (
   <>
     <Row>
       <Col>
-        <h1>
-          Fechtbuch Joachima Meyera (MS Bibl. 2465){draft && <DraftBadge />}
-        </h1>
+        <h1>Fechtbuch Joachima Meyera (MS Bibl. 2465)</h1>
         <p>
           <b>MS Bibl. 2465</b> je německý fechtbuch sepsaný Joachimem Meyerem
           roku 1561. Originál je v současnosti uložen ve sbírkách Bavorského
@@ -33,7 +29,6 @@ export const Fechtbuch = ({ draft }: ArticleProps) => (
       <Col md={6}>
         <h4>
           Vom Kempffenn Vnnd Fechtenn Im harnasch zu Fus kürtzlich beschrüben
-          {draft && <DraftBadge />}
         </h4>
         <p>
           Die weil des kempffenn manchlej Artt ist / so kann mann Auch khein

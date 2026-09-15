@@ -2,15 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const JihonemeckaMestskaValka = ({ draft }: ArticleProps) => (
+export const JihonemeckaMestskaValka = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="jihonemecka-mestska-valka" />
-        <h4>Jihoněmecká městská válka (1449–1450){draft && <DraftBadge />}</h4>
+        <h4>Jihoněmecká městská válka (1449–1450)</h4>
         <p>
           Jihoněmecká městská válka (něm. <i>Süddeutscher Städtekrieg</i>) byla
           rozsáhlým ozbrojeným konfliktem let <b>1449–1450</b> mezi spolkem

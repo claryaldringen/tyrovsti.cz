@@ -1,21 +1,15 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Cit } from '../../../Citation'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
 
-export const SilesianResolution1429 = ({ draft }: ArticleProps) => (
+export const SilesianResolution1429 = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="silesian-resolution-1429" />
-        <h4>
-          Silesian Resolution on Wagon Formation, May 1429
-          {draft && <DraftBadge />}
-        </h4>
-        <p>Working translation, not yet reviewed.</p>
+        <h4>Silesian Resolution on Wagon Formation, May 1429</h4>
         <p>
           According to Toman, King Sigismund agreed on an order for the
           formation of wagons with the Silesian princes and had it sent, in a

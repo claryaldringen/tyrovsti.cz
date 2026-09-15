@@ -1,13 +1,11 @@
 import React from 'react'
 import { Col, Row } from 'reactstrap'
-import { ArticleProps } from '../../../types'
-import { DraftBadge } from '../../DraftBadge'
 
-export const Tactics = ({ draft }: ArticleProps) => (
+export const Tactics = () => (
   <>
     <Row>
       <Col>
-        <h2>Tactics{draft && <DraftBadge />}</h2>
+        <h2>Tactics</h2>
         <p>
           From the Battle of Hastings in 1066, for the following 250 years,
           heavy knightly cavalry dominated European battlefields and

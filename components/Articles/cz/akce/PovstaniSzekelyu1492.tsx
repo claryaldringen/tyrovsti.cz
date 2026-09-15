@@ -2,18 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const PovstaniSzekelyu1492 = ({ draft }: ArticleProps) => (
+export const PovstaniSzekelyu1492 = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="povstani-szekelyu-1492" />
-        <h4>
-          Povstání Sikulů v Sedmihradsku (1492)
-          {draft && <DraftBadge />}
-        </h4>
+        <h4>Povstání Sikulů v Sedmihradsku (1492)</h4>
         <p>
           Povstání Sikulů (maď. <i>székelyek</i>, něm. <i>Szekler</i>) v
           Sedmihradsku v roce 1492 bylo důsledkem dlouhodobé sociální a daňové

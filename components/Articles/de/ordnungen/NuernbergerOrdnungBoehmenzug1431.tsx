@@ -1,12 +1,10 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Cit } from '../../../Citation'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
 
-export const NuernbergerOrdnungBoehmenzug1431 = ({ draft }: ArticleProps) => (
+export const NuernbergerOrdnungBoehmenzug1431 = () => (
   <>
     <Row>
       <Col>
@@ -17,9 +15,7 @@ export const NuernbergerOrdnungBoehmenzug1431 = ({ draft }: ArticleProps) => (
         <h4>
           Nürnberger Beschluss vom 9./10. März 1431 über die Ordnung für den Zug
           nach Böhmen
-          {draft && <DraftBadge />}
         </h4>
-        <p>Arbeitsübersetzung, noch nicht fachlich geprüft.</p>
         <p>
           Beide Texte gingen aus den Verhandlungen des Nürnberger Reichstags im
           Februar und März 1431 hervor, auf dem ein großer Zug nach Böhmen

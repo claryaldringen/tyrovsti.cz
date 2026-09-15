@@ -2,18 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const BojeOCeskyTrunPoAlbrechtovi = ({ draft }: ArticleProps) => (
+export const BojeOCeskyTrunPoAlbrechtovi = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="boje-o-cesky-trun-po-albrechtovi" />
-        <h4>
-          Boje o český trůn po Albrechtovi II. (1440–1453)
-          {draft && <DraftBadge />}
-        </h4>
+        <h4>Boje o český trůn po Albrechtovi II. (1440–1453)</h4>
         <p>
           Po smrti krále Albrechta II. Habsburského dne <b>27. října 1439</b>{' '}
           zůstaly České země bez panovníka. Albrechtova vdova Alžběta

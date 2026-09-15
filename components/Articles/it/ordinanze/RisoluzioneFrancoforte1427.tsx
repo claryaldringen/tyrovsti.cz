@@ -1,12 +1,10 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Cit } from '../../../Citation'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
 
-export const RisoluzioneFrancoforte1427 = ({ draft }: ArticleProps) => (
+export const RisoluzioneFrancoforte1427 = () => (
   <>
     <Row>
       <Col>
@@ -14,9 +12,7 @@ export const RisoluzioneFrancoforte1427 = ({ draft }: ArticleProps) => (
         <h4>
           Risoluzione degli stati imperiali a Francoforte, poco prima del
           4&nbsp;maggio 1427
-          {draft && <DraftBadge />}
         </h4>
-        <p>Traduzione provvisoria, non ancora revisionata.</p>
         <p>
           La risoluzione fu adottata dagli stati imperiali alla dieta di
           Francoforte poco prima del 4&nbsp;maggio 1427. Con essa preparavano

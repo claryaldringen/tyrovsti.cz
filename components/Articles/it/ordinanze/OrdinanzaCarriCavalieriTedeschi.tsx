@@ -1,12 +1,10 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Cit } from '../../../Citation'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
 
-export const OrdinanzaCarriCavalieriTedeschi = ({ draft }: ArticleProps) => (
+export const OrdinanzaCarriCavalieriTedeschi = () => (
   <>
     <Row>
       <Col>
@@ -14,10 +12,7 @@ export const OrdinanzaCarriCavalieriTedeschi = ({ draft }: ArticleProps) => (
           className="anchor"
           id="ordinanza-dei-carri-dei-cavalieri-teutonici"
         />
-        <h4>
-          Ordinanza dei carri dei Cavalieri Teutonici del 19 aprile 1433
-          {draft && <DraftBadge />}
-        </h4>
+        <h4>Ordinanza dei carri dei Cavalieri Teutonici del 19 aprile 1433</h4>
         <p>
           L&apos;ordinanza era un allegato alla lettera che il Gran Maestro
           dell&apos;Ordine Teutonico inviò il 19 aprile 1433 da Marienburg

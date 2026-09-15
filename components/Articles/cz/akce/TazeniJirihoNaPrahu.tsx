@@ -2,18 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const TazeniJirihoNaPrahu = ({ draft }: ArticleProps) => (
+export const TazeniJirihoNaPrahu = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="tazeni-jiriho-na-prahu" />
-        <h4>
-          Tažení Jiřího z Poděbrad na Prahu (3. září 1448)
-          {draft && <DraftBadge />}
-        </h4>
+        <h4>Tažení Jiřího z Poděbrad na Prahu (3. září 1448)</h4>
         <p>
           Tažení Jiřího z Poděbrad na Prahu v noci na <b>3. září 1448</b> bylo
           rychlou vojenskou akcí mladého hejtmana východočeské poděbradské

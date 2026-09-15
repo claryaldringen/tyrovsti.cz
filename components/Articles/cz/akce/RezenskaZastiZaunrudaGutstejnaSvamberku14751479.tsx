@@ -2,12 +2,8 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const RezenskaZastiZaunrudaGutstejnaSvamberku14751479 = ({
-  draft,
-}: ArticleProps) => (
+export const RezenskaZastiZaunrudaGutstejnaSvamberku14751479 = () => (
   <>
     <Row>
       <Col>
@@ -18,7 +14,6 @@ export const RezenskaZastiZaunrudaGutstejnaSvamberku14751479 = ({
         <h4>
           Řezenská záští Žeberka, Zaunruda, Gutštejna a&nbsp;Švamberků
           (1475–1479)
-          {draft && <DraftBadge />}
         </h4>
         <p>
           Vedle vlastní řezenské války (<i>Regensburger Krieg</i>) se

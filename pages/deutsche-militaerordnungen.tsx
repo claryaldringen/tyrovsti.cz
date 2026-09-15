@@ -43,14 +43,14 @@ const Page = () => {
               <ImageWithTitle src="husite.jpg" width={1920} height={1404} />
             </Row>
             <DeutscheMilitaerordnungenEinfuehrung />
-            <EinungZuGrottkau draft />
-            <VorschlaegeDerKurfuersten1426 draft />
-            <FrankfurterBeschluss1427 draft />
+            <EinungZuGrottkau />
+            <VorschlaegeDerKurfuersten1426 />
+            <FrankfurterBeschluss1427 />
             <NuernbergerBeschluss />
-            <SchlesischerBeschluss1429 draft />
-            <NuernbergerVorschlaege1430 draft />
-            <NuernbergerOrdnungBoehmenzug1431 draft />
-            <OrdnungHerzogAlbrechtsVonOesterreich draft />
+            <SchlesischerBeschluss1429 />
+            <NuernbergerVorschlaege1430 />
+            <NuernbergerOrdnungBoehmenzug1431 />
+            <OrdnungHerzogAlbrechtsVonOesterreich />
             <WagenordnungDerDeutschenRitter />
             <FrankfurterWagenordnung />
             <NuernbergerWagenordnung />
@@ -58,7 +58,7 @@ const Page = () => {
             <InstruktionWagenaufstellung />
             <OrdnungDesMarkgrafenAlbrecht />
             <PhilippVonSeldeneckWagenordnung />
-            <VegetiusUeberDieWagenburgCgm356 draft />
+            <VegetiusUeberDieWagenburgCgm356 />
             <Sources />
             <Payment />
           </Col>

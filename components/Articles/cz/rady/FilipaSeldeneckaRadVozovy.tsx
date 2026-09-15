@@ -1,19 +1,14 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
 
-export const FilipaSeldeneckaRadVozovy = ({ draft }: ArticleProps) => (
+export const FilipaSeldeneckaRadVozovy = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="filipa-seldenecka-rad-vozovy" />
-        <h4>
-          Tzv. Filipa Seldenecka řád vozový z konce 15. století
-          {draft && <DraftBadge />}
-        </h4>
+        <h4>Tzv. Filipa Seldenecka řád vozový z konce 15. století</h4>
         <p>
           Tento vozový řád se dochoval v kodexu, který si nechal pořídit franský
           šlechtic Filip Seldeneck. Rukopis je dnes uložen v Badische

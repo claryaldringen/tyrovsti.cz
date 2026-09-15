@@ -1,13 +1,11 @@
 import React from 'react'
 import { Col, Row } from 'reactstrap'
-import { ArticleProps } from '../../../types'
-import { DraftBadge } from '../../DraftBadge'
 
-export const Sattel = ({ draft }: ArticleProps) => (
+export const Sattel = () => (
   <>
     <Row>
       <Col>
-        <h1>Der Sattel{draft && <DraftBadge />}</h1>
+        <h1>Der Sattel</h1>
       </Col>
     </Row>
     <Row>
@@ -15,7 +13,6 @@ export const Sattel = ({ draft }: ArticleProps) => (
         <h4>
           Vybrané artikule sedlářů, které potvrdili konšelé Novoměstští 9. ledna
           1451
-          {draft && <DraftBadge />}
         </h4>
         <p>
           Druhé, ktož by sě chtěl za mistra posaditi, aby sě v přijímání

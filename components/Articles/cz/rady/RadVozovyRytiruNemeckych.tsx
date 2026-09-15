@@ -1,20 +1,15 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Cit } from '../../../Citation'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
 
-export const RadVozovyRytiruNemeckych = ({ draft }: ArticleProps) => (
+export const RadVozovyRytiruNemeckych = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="rad-vozovy-rytiru-nemeckych" />
-        <h4>
-          Řád vozový rytířů Německých ze dne 19. dubna 1433
-          {draft && <DraftBadge />}
-        </h4>
+        <h4>Řád vozový rytířů Německých ze dne 19. dubna 1433</h4>
         <p>
           Řád byl přílohou listu, který velmistr Řádu německých rytířů poslal
           19.&nbsp;dubna 1433 z Malborku gdaňské městské radě. Žádal v něm, aby

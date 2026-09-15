@@ -2,15 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const OblehaniSmedereva1439 = ({ draft }: ArticleProps) => (
+export const OblehaniSmedereva1439 = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="oblehani-smedereva-1439" />
-        <h4>Osmanské obléhání Smedereva (1439){draft && <DraftBadge />}</h4>
+        <h4>Osmanské obléhání Smedereva (1439)</h4>
         <p>
           Obléhání Smedereva v létě roku <b>1439</b> bylo druhým a definitivním
           osmanským útokem na hlavní pevnost srbské despotace. Po více než

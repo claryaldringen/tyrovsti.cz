@@ -1,16 +1,14 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
 
-export const NorimberskyRadVozovy = ({ draft }: ArticleProps) => (
+export const NorimberskyRadVozovy = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="norimbersky-rad-vozovy" />
-        <h4>Norimberský řád vozový z roku 1450{draft && <DraftBadge />}</h4>
+        <h4>Norimberský řád vozový z roku 1450</h4>
         <p>Přeložila PhDr. Zdeňka Kopková</p>
         <p>
           Byl otištěn v <i>Chroniken der deutschen Städte</i>, Nürnberg, II, na

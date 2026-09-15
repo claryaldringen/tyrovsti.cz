@@ -2,15 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const RezenskaValka = ({ draft }: ArticleProps) => (
+export const RezenskaValka = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="rezenska-valka" />
-        <h4>Řezenská válka (1486–1492){draft && <DraftBadge />}</h4>
+        <h4>Řezenská válka (1486–1492)</h4>
         <p>
           Řezenská válka (něm. <i>Regensburger Reichskrieg</i>) byla říšským
           ozbrojeným sporem o postavení svobodného říšského města Řezna mezi

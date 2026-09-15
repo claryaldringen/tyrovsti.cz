@@ -1,8 +1,6 @@
 import { Col, Row } from 'reactstrap'
 import React, { ReactNode } from 'react'
 import Link from 'next/link'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 import styles from './Rozrod.module.scss'
 
 interface Person {
@@ -93,12 +91,12 @@ const TreeNode = ({ person }: { person: Person }) => (
   </li>
 )
 
-export const Rozrod = ({ draft }: ArticleProps) => (
+export const Rozrod = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="rozrod" />
-        <h4>Rozrod Týřovských{draft && <DraftBadge />}</h4>
+        <h4>Rozrod Týřovských</h4>
       </Col>
     </Row>
     <Row>

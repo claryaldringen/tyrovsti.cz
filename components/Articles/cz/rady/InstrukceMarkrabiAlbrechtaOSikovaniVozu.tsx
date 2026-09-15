@@ -1,13 +1,9 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
 
-export const InstrukceMarkrabiAlbrechtaOSikovaniVozu = ({
-  draft,
-}: ArticleProps) => (
+export const InstrukceMarkrabiAlbrechtaOSikovaniVozu = () => (
   <>
     <Row>
       <Col>
@@ -15,10 +11,7 @@ export const InstrukceMarkrabiAlbrechtaOSikovaniVozu = ({
           className="anchor"
           id="instrukce-markrabi-albrechta-o-sikovani-vozu"
         />
-        <h4>
-          Instrukce markrabí Albrechta z roku 1477 o šikování vozů
-          {draft && <DraftBadge />}
-        </h4>
+        <h4>Instrukce markrabí Albrechta z roku 1477 o šikování vozů</h4>
         <p>Přeložila PhDr. Zdeňka Kopková</p>
         <p>
           Text pochází z tzv. <i>Praeparatorií</i>, pokynů kurfiřta Albrechta

@@ -1,11 +1,9 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
 
-export const PhilippVonSeldeneckWagenordnung = ({ draft }: ArticleProps) => (
+export const PhilippVonSeldeneckWagenordnung = () => (
   <>
     <Row>
       <Col>
@@ -13,7 +11,6 @@ export const PhilippVonSeldeneckWagenordnung = ({ draft }: ArticleProps) => (
         <h4>
           Die sogenannte Wagenordnung Philipps von Seldeneck, Ende des 15.
           Jahrhunderts
-          {draft && <DraftBadge />}
         </h4>
         <p>
           Diese Wagenordnung ist in einem Kodex überliefert, den der fränkische

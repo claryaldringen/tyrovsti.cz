@@ -2,15 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const OsmanskeDobytiSrbska = ({ draft }: ArticleProps) => (
+export const OsmanskeDobytiSrbska = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="osmanske-dobyti-srbska" />
-        <h4>Osmanské dobytí Srbska (1454–1459){draft && <DraftBadge />}</h4>
+        <h4>Osmanské dobytí Srbska (1454–1459)</h4>
         <p>
           Osmanské dobytí Srbska v letech <b>1454–1459</b> uzavřelo více než
           stoletý zápas srbského despotátu (<i>Despotat Serbien</i>) o uchování

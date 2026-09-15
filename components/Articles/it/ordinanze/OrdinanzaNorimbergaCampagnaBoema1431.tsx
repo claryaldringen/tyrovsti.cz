@@ -1,14 +1,10 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Cit } from '../../../Citation'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
 
-export const OrdinanzaNorimbergaCampagnaBoema1431 = ({
-  draft,
-}: ArticleProps) => (
+export const OrdinanzaNorimbergaCampagnaBoema1431 = () => (
   <>
     <Row>
       <Col>
@@ -19,9 +15,7 @@ export const OrdinanzaNorimbergaCampagnaBoema1431 = ({
         <h4>
           Risoluzione di Norimberga del 9–10 marzo 1431 sull&apos;ordinanza per
           la campagna in Boemia
-          {draft && <DraftBadge />}
         </h4>
-        <p>Traduzione provvisoria, non ancora revisionata.</p>
         <p>
           Entrambi i testi nacquero dalle trattative della dieta imperiale di
           Norimberga del febbraio e marzo 1431, che preparava una grande

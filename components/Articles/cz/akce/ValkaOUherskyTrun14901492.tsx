@@ -2,18 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const ValkaOUherskyTrun14901492 = ({ draft }: ArticleProps) => (
+export const ValkaOUherskyTrun14901492 = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="valka-o-uhersky-trun-1490-1492" />
-        <h4>
-          Válka o uherský trůn po smrti Matyáše Korvína (1490–1492)
-          {draft && <DraftBadge />}
-        </h4>
+        <h4>Válka o uherský trůn po smrti Matyáše Korvína (1490–1492)</h4>
         <p>
           Po náhlé smrti uherského krále Matyáše Korvína <b>6. dubna 1490</b> ve
           Vídni se rozpoutal složitý vnitropolitický a mezinárodní konflikt o

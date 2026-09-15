@@ -1,19 +1,14 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
 
-export const OrdinanzaCarriFrancoforte = ({ draft }: ArticleProps) => (
+export const OrdinanzaCarriFrancoforte = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="ordinanza-dei-carri-di-francoforte" />
-        <h4>
-          La cosiddetta ordinanza dei carri di Francoforte del 1444
-          {draft && <DraftBadge />}
-        </h4>
+        <h4>La cosiddetta ordinanza dei carri di Francoforte del 1444</h4>
         <p>Traduzione di PhDr. Zdeňka Kopková, revisione di Daniel Burger.</p>
         <p>
           Sebbene questo testo sia tradizionalmente indicato come ordinanza dei

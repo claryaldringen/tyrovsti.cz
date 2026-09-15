@@ -2,18 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const PovstaniMagnatuProtiMatyasovi1459 = ({ draft }: ArticleProps) => (
+export const PovstaniMagnatuProtiMatyasovi1459 = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="povstani-magnatu-proti-matyasovi-1459" />
-        <h4>
-          Povstání magnátů a volba Fridricha III. uherským králem (1459)
-          {draft && <DraftBadge />}
-        </h4>
+        <h4>Povstání magnátů a volba Fridricha III. uherským králem (1459)</h4>
         <p>
           Povstání části uherské magnátské opozice proti králi Matyášovi
           Korvínovi a souběžná volba císaře Fridricha III. Habsburského uherským

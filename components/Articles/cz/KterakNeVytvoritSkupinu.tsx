@@ -1,16 +1,11 @@
 import React from 'react'
 import { Col, Row } from 'reactstrap'
-import { ArticleProps } from '../../../types'
-import { DraftBadge } from '../../DraftBadge'
 
-export const KterakNeVytvoritSkupinu = ({ draft }: ArticleProps) => (
+export const KterakNeVytvoritSkupinu = () => (
   <>
     <Row>
       <Col>
-        <h1>
-          Kterak (ne)vytvořit skupinu historického šermu...
-          {draft && <DraftBadge />}
-        </h1>
+        <h1>Kterak (ne)vytvořit skupinu historického šermu...</h1>
         <p>
           <i>
             Původní text vyšel na serveru{' '}

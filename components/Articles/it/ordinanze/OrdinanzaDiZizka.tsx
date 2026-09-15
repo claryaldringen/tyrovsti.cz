@@ -1,18 +1,14 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
 
-export const OrdinanzaDiZizka = ({ draft }: ArticleProps) => (
+export const OrdinanzaDiZizka = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="the-so-called-zizkas-military-order" />
-        <h4>
-          La cosiddetta Ordinanza militare di Žižka{draft && <DraftBadge />}
-        </h4>
+        <h4>La cosiddetta Ordinanza militare di Žižka</h4>
         <p>La trascrizione è stata tratta dal sito didattico Digladior</p>
         <p>
           La cosiddetta Ordinanza militare di Žižka, conservatasi in una copia

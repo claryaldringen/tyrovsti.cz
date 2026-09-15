@@ -1,12 +1,10 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Cit } from '../../../Citation'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
 
-export const VegetiusUeberDieWagenburgCgm356 = ({ draft }: ArticleProps) => (
+export const VegetiusUeberDieWagenburgCgm356 = () => (
   <>
     <Row>
       <Col>
@@ -14,11 +12,7 @@ export const VegetiusUeberDieWagenburgCgm356 = ({ draft }: ArticleProps) => (
         <h4>
           Vegetius über die Wagenburg aus der Handschrift Cgm 356, Ende des 15.
           Jahrhunderts
-          {draft && <DraftBadge />}
         </h4>
-        <p>
-          Arbeitstranskription und -übersetzung, noch nicht fachlich geprüft.
-        </p>
         <p>
           Der Text steht in der Handschrift Cgm 356 der Bayerischen
           Staatsbibliothek in München, einem anonymen Feuerwerks- und

@@ -1,21 +1,17 @@
 import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Cit } from '../../../Citation'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
 
-export const SchlesischerBeschluss1429 = ({ draft }: ArticleProps) => (
+export const SchlesischerBeschluss1429 = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="silesian-resolution-1429" />
         <h4>
           Schlesischer Beschluss über die Aufstellung der Wagen vom Mai 1429
-          {draft && <DraftBadge />}
         </h4>
-        <p>Arbeitsübersetzung, noch nicht fachlich geprüft.</p>
         <p>
           Nach Toman vereinbarte König Sigmund mit den schlesischen Fürsten eine
           Ordnung für die Aufstellung der Wagen und ließ sie in deutscher

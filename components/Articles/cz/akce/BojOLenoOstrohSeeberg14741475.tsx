@@ -2,18 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const BojOLenoOstrohSeeberg14741475 = ({ draft }: ArticleProps) => (
+export const BojOLenoOstrohSeeberg14741475 = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="boj-o-leno-ostroh-seeberg-1474-1475" />
-        <h4>
-          Boj o&nbsp;léno Ostroh/Seeberg na Chebsku (1474–1475)
-          {draft && <DraftBadge />}
-        </h4>
+        <h4>Boj o&nbsp;léno Ostroh/Seeberg na Chebsku (1474–1475)</h4>
         <p>
           Spor o&nbsp;chebský hrad <b>Ostroh</b> (něm. <i>Seeberg</i>), ležící
           několik kilometrů severovýchodně od Chebu nad rybníkem Ostroh, byl

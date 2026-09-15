@@ -2,15 +2,13 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { Qt } from '../../../Quote/Qt'
 import { PUBLICATIONS } from '../../../../shared/constants'
-import { ArticleProps } from '../../../../types'
-import { DraftBadge } from '../../../DraftBadge'
 
-export const BadenskoFalckaValka = ({ draft }: ArticleProps) => (
+export const BadenskoFalckaValka = () => (
   <>
     <Row>
       <Col>
         <div className="anchor" id="badensko-falcka-valka" />
-        <h4>Bádensko-falcká válka (1461–1462){draft && <DraftBadge />}</h4>
+        <h4>Bádensko-falcká válka (1461–1462)</h4>
         <p>
           Bádensko-falcká válka byla ozbrojený konflikt mezi rýnským
           falckrabětem a kurfiřtem Fridrichem I. Vítězným a koalicí markraběte
