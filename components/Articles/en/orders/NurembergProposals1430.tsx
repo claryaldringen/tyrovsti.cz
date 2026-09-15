@@ -97,10 +97,7 @@ export const NurembergProposals1430 = ({ draft }: ArticleProps) => (
           <Qt
             publication={PUBLICATIONS.WURDINGER2}
             href="https://www.digitale-sammlungen.de/de/view/bsb11684126?page=402"
-          />
-          <Qt
-            publication={PUBLICATIONS.WURDINGER2}
-            href="https://www.digitale-sammlungen.de/de/view/bsb11684126?page=403"
+            note="pp. 378–379"
           />{' '}
           Conversely, <Cit>zu eim schutze</Cit> (a/5, b/3) and{' '}
           <Cit>antwerk</Cit> (a/14) are Toman&apos;s emendations; the edition
@@ -108,10 +105,7 @@ export const NurembergProposals1430 = ({ draft }: ArticleProps) => (
           <Qt
             publication={PUBLICATIONS.TOMAN}
             href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:45f83491-fe27-4de6-a650-51a03bbc9f6a"
-          />
-          <Qt
-            publication={PUBLICATIONS.TOMAN}
-            href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:fa60bc4f-e17a-4c47-909d-075119eb5eb8"
+            note="pp. 406–407"
           />
         </p>
         <p>

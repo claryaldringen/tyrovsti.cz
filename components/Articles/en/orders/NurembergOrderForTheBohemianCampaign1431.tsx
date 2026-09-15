@@ -75,10 +75,7 @@ export const NurembergOrderForTheBohemianCampaign1431 = ({
           <Qt
             publication={PUBLICATIONS.TOMAN}
             href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:d42e7297-de19-4587-83aa-febe945fea69"
-          />
-          <Qt
-            publication={PUBLICATIONS.TOMAN}
-            href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:a59e6d13-c4d5-4059-8ec4-1f8ec3ea48db"
+            note="pp. 411 and 413"
           />{' '}
           The <i>Deutsche Reichstagsakten</i> are based on other copies and
           differ even in places that Toman did not mark. In article 4 they also
@@ -96,10 +93,7 @@ export const NurembergOrderForTheBohemianCampaign1431 = ({
           <Qt
             publication={PUBLICATIONS.DRA9}
             href="https://www.digitale-sammlungen.de/de/view/bsb11833357?page=536"
-          />
-          <Qt
-            publication={PUBLICATIONS.DRA9}
-            href="https://www.digitale-sammlungen.de/de/view/bsb11833357?page=537"
+            note="pp. 520–521"
           />{' '}
           In the last article they read <Cit>nút angeslagen</Cit>, i.e. the
           princes and cities that are <i>not</i> listed in the schedule, whereas

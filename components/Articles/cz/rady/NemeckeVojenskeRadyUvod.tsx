@@ -42,10 +42,7 @@ export const NemeckeVojenskeRadyUvod = () => (
         <Qt
           publication={PUBLICATIONS.TOMAN}
           href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:8b817ac0-57b2-408e-83e4-6a2585b6ccc2"
-        />
-        <Qt
-          publication={PUBLICATIONS.TOMAN}
-          href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:b20c2763-1196-4237-b865-63d45ed3cb7c"
+          note="Str. 17–18"
         />
       </p>
       <p>

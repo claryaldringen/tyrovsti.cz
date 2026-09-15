@@ -72,10 +72,7 @@ export const RadNorimberskyProTazeniDoCech1431 = ({ draft }: ArticleProps) => (
           <Qt
             publication={PUBLICATIONS.TOMAN}
             href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:d42e7297-de19-4587-83aa-febe945fea69"
-          />
-          <Qt
-            publication={PUBLICATIONS.TOMAN}
-            href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:a59e6d13-c4d5-4059-8ec4-1f8ec3ea48db"
+            note="Str. 411 a 413"
           />{' '}
           <i>Deutsche Reichstagsakten</i> vycházejí z jiných opisů a liší se i
           na místech, která Toman nevyznačil. V článku 4 jmenují navíc bavorské
@@ -91,10 +88,7 @@ export const RadNorimberskyProTazeniDoCech1431 = ({ draft }: ArticleProps) => (
           <Qt
             publication={PUBLICATIONS.DRA9}
             href="https://www.digitale-sammlungen.de/de/view/bsb11833357?page=536"
-          />
-          <Qt
-            publication={PUBLICATIONS.DRA9}
-            href="https://www.digitale-sammlungen.de/de/view/bsb11833357?page=537"
+            note="Str. 520–521"
           />{' '}
           V posledním článku mají <Cit>nút angeslagen</Cit>, tedy knížata a
           města, která v rozpisu uvedena <i>nejsou</i>, kdežto Toman čte{' '}

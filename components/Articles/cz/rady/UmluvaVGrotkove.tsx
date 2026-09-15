@@ -41,10 +41,7 @@ export const UmluvaVGrotkove = ({ draft }: ArticleProps) => (
           <Qt
             publication={PUBLICATIONS.TOMAN}
             href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:175a8bf2-68d6-4f59-b376-5f0d3fe627ee"
-          />
-          <Qt
-            publication={PUBLICATIONS.TOMAN}
-            href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:85a1bfc6-5719-4321-af1f-69d710256207"
+            note="Str. 185–186"
           />
         </p>
         <p>

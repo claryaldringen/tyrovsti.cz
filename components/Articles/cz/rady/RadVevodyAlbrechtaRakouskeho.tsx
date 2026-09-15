@@ -79,10 +79,7 @@ export const RadVevodyAlbrechtaRakouskeho = ({ draft }: ArticleProps) => (
           <Qt
             publication={PUBLICATIONS.KURZ1825}
             href="https://archive.org/details/bub_gb_8eEpAAAAYAAJ/page/n430/mode/1up"
-          />
-          <Qt
-            publication={PUBLICATIONS.KURZ1825}
-            href="https://archive.org/details/bub_gb_8eEpAAAAYAAJ/page/n433/mode/1up"
+            note="Str. 419 a 422"
           />{' '}
           Překlad se v těchto místech řídí Kurzem.
         </p>
