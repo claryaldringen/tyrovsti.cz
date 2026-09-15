@@ -85,6 +85,10 @@ export const InstrukceMarkrabiAlbrechtaOSikovaniVozu = ({
             publication={PUBLICATIONS.TOMAN}
             href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:1a5fff7e-12a4-4ef8-9374-71fcfbdf16cd"
           />
+          <Qt
+            publication={PUBLICATIONS.MOBILMACHUNG1477}
+            href="https://www.digitale-sammlungen.de/de/view/bsb11655625?page=31"
+          />
         </p>
       </Col>
       <Col md={6}>

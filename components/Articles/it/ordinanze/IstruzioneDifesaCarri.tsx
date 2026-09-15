@@ -68,6 +68,14 @@ export const IstruzioneDifesaCarri = ({ draft }: ArticleProps) => (
               publication={PUBLICATIONS.TOMAN}
               href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:d9b9294a-9488-4e4f-961e-1984eba3e4fd"
             />
+            <Qt
+              publication={PUBLICATIONS.WURDINGER2}
+              href="https://www.digitale-sammlungen.de/de/view/bsb11684126?page=411"
+            />
+            <Qt
+              publication={PUBLICATIONS.PRIEBATSCH2}
+              href="https://archive.org/details/politischecorres02albr/page/143/mode/1up"
+            />
           </li>
         </ol>
       </Col>

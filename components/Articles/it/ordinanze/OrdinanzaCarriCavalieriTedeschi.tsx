@@ -78,6 +78,14 @@ export const OrdinanzaCarriCavalieriTedeschi = ({ draft }: ArticleProps) => (
               publication={PUBLICATIONS.TOMAN}
               href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:daae406d-40b6-4334-b6a9-6761b28fca56"
             />
+            <Qt
+              publication={PUBLICATIONS.TOEPPEN1}
+              note="N. 448, pp. 593–594"
+            />
+            <Qt
+              publication={PUBLICATIONS.KOHLER3}
+              href="https://archive.org/details/dieentwickelung02khgoog/page/n337/mode/1up"
+            />
           </li>
         </ol>
       </Col>

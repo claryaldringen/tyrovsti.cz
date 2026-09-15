@@ -46,6 +46,10 @@ export const NurembergResolution = ({ draft }: ArticleProps) => (
               publication={PUBLICATIONS.TOMAN}
               href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:fdfeb0c4-7c80-460c-b70e-77199df5b2bd"
             />
+            <Qt
+              publication={PUBLICATIONS.DRA9}
+              href="https://www.digitale-sammlungen.de/de/view/bsb11833357?page=181"
+            />
           </li>
         </ol>
       </Col>

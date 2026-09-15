@@ -141,6 +141,14 @@ export const OrdinanzaDelMargravioAlbrecht = ({ draft }: ArticleProps) => (
               publication={PUBLICATIONS.TOMAN}
               href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:5828962a-3453-4f26-aa48-2b7b2e47b931"
             />
+            <Qt
+              publication={PUBLICATIONS.ALLGARCHIV1}
+              href="https://www.digitale-sammlungen.de/de/view/bsb10013503?page=268"
+            />
+            <Qt
+              publication={PUBLICATIONS.JAHNS1889}
+              href="https://archive.org/details/geschichtederkr00jhgoog/page/312/mode/1up"
+            />
           </li>
         </ol>
       </Col>

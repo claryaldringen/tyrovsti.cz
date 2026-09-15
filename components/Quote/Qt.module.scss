@@ -6,6 +6,13 @@
   }
 }
 
+// víc citací za sebou oddělit čárkou, aby se čísla neslila („¹,²“ místo „¹²“)
+.wrapper + .wrapper::before {
+  content: ',';
+  vertical-align: super;
+  font-size: smaller;
+}
+
 .quote {
   cursor: pointer;
   color: #007bff;

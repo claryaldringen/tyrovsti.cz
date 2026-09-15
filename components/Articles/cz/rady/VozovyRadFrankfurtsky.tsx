@@ -41,6 +41,14 @@ export const VozovyRadFrankfurtsky = ({ draft }: ArticleProps) => (
             publication={PUBLICATIONS.TOMAN}
             href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:576e88b9-8260-4b59-8423-a1850108b081"
           />
+          <Qt
+            publication={PUBLICATIONS.DRA17}
+            href="https://sources.cms.flu.cas.cz/src/index.php?s=v&bookid=506&page=567"
+          />
+          <Qt
+            publication={PUBLICATIONS.WULCKER}
+            href="https://archive.org/details/bub_gb_LNVaAAAAcAAJ/page/n55/mode/1up"
+          />
         </p>
       </Col>
       <Col md={6}>

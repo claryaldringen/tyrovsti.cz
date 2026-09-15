@@ -598,6 +598,14 @@ export const FilipaSeldeneckaRadVozovy = ({ draft }: ArticleProps) => (
               publication={PUBLICATIONS.TOMAN}
               href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:0f255aab-b59c-4264-afd5-d7b478bccea2"
             />
+            <Qt
+              publication={PUBLICATIONS.DURLACH18}
+              href="https://digital.blb-karlsruhe.de/blbhs/content/pageview/2055344"
+            />
+            <Qt
+              publication={PUBLICATIONS.JAHNS1889}
+              href="https://archive.org/details/geschichtederkr00jhgoog/page/306/mode/1up"
+            />
           </li>
         </ol>
       </Col>

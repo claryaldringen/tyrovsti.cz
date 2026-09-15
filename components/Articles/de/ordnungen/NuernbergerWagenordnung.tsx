@@ -115,6 +115,10 @@ export const NuernbergerWagenordnung = ({ draft }: ArticleProps) => (
               publication={PUBLICATIONS.TOMAN}
               href="https://kramerius5.nkp.cz/view/uuid:0723c370-14ea-11dd-959f-000d606f5dc6?page=uuid:bab9ad31-14b9-402f-8533-bfb4dd580fd5"
             />
+            <Qt
+              publication={PUBLICATIONS.CHRONIKEN2}
+              href="https://www.digitale-sammlungen.de/de/view/bsb10800625?page=270"
+            />
           </li>
         </ol>
       </Col>
