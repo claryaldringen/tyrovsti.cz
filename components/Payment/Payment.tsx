@@ -6,7 +6,7 @@ import { LANG_CS, LANG_DE } from '../../shared/constants'
 import styles from './Payment.module.scss'
 
 export const Payment = () => {
-  const iban = 'CZ2220100000002700111675'
+  const iban = 'CZ3920100000002803462929'
   const bic = 'FIOBCZPPXXX'
 
   const paymentString = `SPD*1.0*ACC:${iban}+${bic}`
