@@ -24,7 +24,7 @@ export const Payment = () => {
               svém volném čase.
             </p>
             <p>
-              Číslo účtu: <b>2302111610/2010</b>
+              Číslo účtu: <b>2803462929/2010</b>
             </p>
           </>
         ) : lang === LANG_DE ? (
@@ -35,7 +35,7 @@ export const Payment = () => {
               sehr zeitaufwendig und wir tun es in unserer Freizeit.
             </p>
             <p>
-              IBAN: <b>CZ46 2010 0000 0023 0211 1610</b>
+              IBAN: <b>CZ39 2010 0000 0028 0346 2929</b>
             </p>
             <p>
               BIC/SWIFT: <b>FIOBCZPPXXX</b>
@@ -49,7 +49,7 @@ export const Payment = () => {
               and we do it in our free time.
             </p>
             <p>
-              IBAN: <b>CZ46 2010 0000 0023 0211 1610</b>
+              IBAN: <b>CZ39 2010 0000 0028 0346 2929</b>
             </p>
             <p>
               BIC/SWIFT: <b>FIOBCZPPXXX</b>
