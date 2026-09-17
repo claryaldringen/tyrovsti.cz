@@ -1,4 +1,6 @@
 import { Col, Row } from 'reactstrap'
+import { Qt } from '../../../Quote/Qt'
+import { PUBLICATIONS } from '../../../../shared/constants'
 import React from 'react'
 import { ImageWithTitle } from '../../../ImageWithTitle/ImageWithTitle'
 
@@ -97,11 +99,11 @@ export const Mantello = () => (
         <p>
           Un altro gruppo di mantelli comprende mantelli che alcuni studiosi
           oggi indicano con il termine artificiale <i>mantello-tunica</i>. Due
-          tipi di mantelli rientrano in questa categoria: il primo, che nella
-          sua forma ricorda l&apos;indumento italiano <i>giornea</i>, e il
-          secondo, che presenta aperture per le mani e si avvicina più a una{' '}
-          <i>veste</i> o all&apos;<i>houppelande</i> dell&apos;Europa
-          occidentale.
+          tipi di mantelli rientrano in questa categoria: il primo, chiamato{' '}
+          <i>huque</i>, e il secondo, che presenta aperture per le mani e si
+          avvicina più a una <i>veste</i> o all&apos;<i>houppelande</i>{' '}
+          dell&apos;Europa occidentale.
+          <Qt publication={PUBLICATIONS.FEYFRLIKOVA} note="pp. 83–85" />
         </p>
       </Col>
     </Row>
@@ -114,8 +116,8 @@ export const Mantello = () => (
         title={
           <>
             Il sarto norimberghese Hans Frumann crea pieghe su un mantello di
-            tipo <i>giornea</i>, una pagina dal Libro della Casa della
-            Fondazione dei Dodici Fratelli di Norimberga, 1446.
+            tipo <i>huque</i>, una pagina dal Libro della Casa della Fondazione
+            dei Dodici Fratelli di Norimberga, 1446.
           </>
         }
       />
@@ -126,7 +128,7 @@ export const Mantello = () => (
         height={520}
         title={
           <>
-            Un mantello di tipo <i>giornea</i>, estratto dalla Cronaca di
+            Un mantello di tipo <i>huque</i>, estratto dalla Cronaca di
             Richental (1470-1480).
           </>
         }

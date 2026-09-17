@@ -1,4 +1,6 @@
 import { Col, Row } from 'reactstrap'
+import { Qt } from '../../../Quote/Qt'
+import { PUBLICATIONS } from '../../../../shared/constants'
 import React from 'react'
 import { ImageWithTitle } from '../../../ImageWithTitle/ImageWithTitle'
 
@@ -97,9 +99,10 @@ export const Mantel = () => (
           Eine weitere Gruppe von Mänteln umfasst Mäntel, die von manchen
           Forschern heute mit dem Kunstbegriff <i>Mantel-Tunika</i> bezeichnet
           werden. Zwei Manteltypen fallen in diese Kategorie: der erste, der in
-          seiner Form dem italienischen Kleidungsstück <i>giornea</i> ähnelt,
-          und der zweite, der Schlitze für die Hände hat und eher einem{' '}
-          <i>Rock</i> oder der westeuropäischen <i>houppelande</i> nahesteht.
+          <i>huque</i> genannt wird, und der zweite, der Schlitze für die Hände
+          hat und eher einem <i>Rock</i> oder der westeuropäischen{' '}
+          <i>houppelande</i> nahesteht.
+          <Qt publication={PUBLICATIONS.FEYFRLIKOVA} note="S. 83–85" />
         </p>
       </Col>
     </Row>
@@ -112,7 +115,7 @@ export const Mantel = () => (
         title={
           <>
             Der Nürnberger Schneider Hans Frumann legt Falten an einem Mantel
-            vom Typ <i>giornea</i>, eine Seite aus dem Hausbuch der Nürnberger
+            vom Typ <i>huque</i>, eine Seite aus dem Hausbuch der Nürnberger
             Zwölfbrüderstiftung, 1446.
           </>
         }
@@ -124,7 +127,7 @@ export const Mantel = () => (
         height={520}
         title={
           <>
-            Ein Mantel vom Typ <i>giornea</i>, Ausschnitt aus der
+            Ein Mantel vom Typ <i>huque</i>, Ausschnitt aus der
             Richental-Chronik (1470-1480).
           </>
         }

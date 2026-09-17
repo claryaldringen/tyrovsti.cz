@@ -1,4 +1,6 @@
 import { Col, Row } from 'reactstrap'
+import { Qt } from '../../../Quote/Qt'
+import { PUBLICATIONS } from '../../../../shared/constants'
 import React from 'react'
 import { ImageWithTitle } from '../../../ImageWithTitle/ImageWithTitle'
 
@@ -90,9 +92,10 @@ export const Plast = () => (
         <p>
           Další skupinu plášťů tvoří pláště, dnes některými badateli označované
           umělým výrazem <i>plášťová tunika</i>. Spadají sem zejména dva typy
-          plášťů: První, který svým tvarem připomíná italský oděv <i>giornea</i>{' '}
-          a druhý, který má průstřihy na ruce a spíše se blíží <i>sukni</i> či
-          západoevropské <i>houppelande</i>.
+          plášťů: první, nazývaný <i>huque</i>, a druhý, který má průstřihy na
+          ruce a spíše se blíží <i>sukni</i> či západoevropské{' '}
+          <i>houppelande</i>.
+          <Qt publication={PUBLICATIONS.FEYFRLIKOVA} note="Str. 83–85" />
         </p>
       </Col>
     </Row>
@@ -105,7 +108,7 @@ export const Plast = () => (
         title={
           <>
             Norimberský krejčí Hans Frumann zhotovuje vrapy na plášti typu{' '}
-            <i>giornea</i>, stránka z Domácí knihy norimberské nadace dvanácti
+            <i>huque</i>, stránka z Domácí knihy norimberské nadace dvanácti
             bratří, 1446.
           </>
         }
@@ -117,7 +120,7 @@ export const Plast = () => (
         height={520}
         title={
           <>
-            Plášť typu <i>giornea</i>, výřez z Richentalovy kroniky (1470-1480).
+            Plášť typu <i>huque</i>, výřez z Richentalovy kroniky (1470-1480).
           </>
         }
       />

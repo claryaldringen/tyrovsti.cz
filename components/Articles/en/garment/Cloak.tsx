@@ -1,4 +1,6 @@
 import { Col, Row } from 'reactstrap'
+import { Qt } from '../../../Quote/Qt'
+import { PUBLICATIONS } from '../../../../shared/constants'
 import React from 'react'
 import { ImageWithTitle } from '../../../ImageWithTitle/ImageWithTitle'
 
@@ -93,10 +95,10 @@ export const Cloak = () => (
         <p>
           Another group of cloaks comprises cloaks that some scholars today
           refer to by the artificial term <i>cloak-tunic</i>. Two types of
-          cloaks fall into this category: the first, which in its shape
-          resembles the Italian garment <i>giornea</i>, and the second, which
-          has slits for the hands and is closer to a <i>gown</i> or the Western
-          European <i>houppelande</i>.
+          cloaks fall into this category: the first, called a <i>huque</i>, and
+          the second, which has slits for the hands and is closer to a{' '}
+          <i>gown</i> or the Western European <i>houppelande</i>.
+          <Qt publication={PUBLICATIONS.FEYFRLIKOVA} note="pp. 83–85" />
         </p>
       </Col>
     </Row>
@@ -109,7 +111,7 @@ export const Cloak = () => (
         title={
           <>
             Nuremberg tailor Hans Frumann creates pleats on a cloak of the{' '}
-            <i>giornea</i> type, a page from the House Book of the Nuremberg
+            <i>huque</i> type, a page from the House Book of the Nuremberg
             Twelve Brothers Foundation, 1446.
           </>
         }
@@ -121,7 +123,7 @@ export const Cloak = () => (
         height={520}
         title={
           <>
-            A cloak of the <i>giornea</i> type, excerpt from the Richental
+            A cloak of the <i>huque</i> type, excerpt from the Richental
             Chronicle (1470-1480).
           </>
         }
