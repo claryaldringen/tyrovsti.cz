@@ -110,9 +110,9 @@ export const Cloak = () => (
         height={1908}
         title={
           <>
-            Nuremberg tailor Hans Frumann creates pleats on a cloak of the{' '}
-            <i>huque</i> type, a page from the House Book of the Nuremberg
-            Twelve Brothers Foundation, 1446.
+            Nuremberg tailor Hans Frumann creates pleats on a <i>cloak-tunic</i>
+            , a page from the House Book of the Nuremberg Twelve Brothers
+            Foundation, 1446.
           </>
         }
       />

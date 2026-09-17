@@ -107,9 +107,9 @@ export const Plast = () => (
         height={1908}
         title={
           <>
-            Norimberský krejčí Hans Frumann zhotovuje vrapy na plášti typu{' '}
-            <i>huque</i>, stránka z Domácí knihy norimberské nadace dvanácti
-            bratří, 1446.
+            Norimberský krejčí Hans Frumann zhotovuje vrapy na{' '}
+            <i>plášťové tunice</i>, stránka z Domácí knihy norimberské nadace
+            dvanácti bratří, 1446.
           </>
         }
       />

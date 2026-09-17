@@ -114,8 +114,8 @@ export const Mantel = () => (
         height={1908}
         title={
           <>
-            Der Nürnberger Schneider Hans Frumann legt Falten an einem Mantel
-            vom Typ <i>huque</i>, eine Seite aus dem Hausbuch der Nürnberger
+            Der Nürnberger Schneider Hans Frumann legt Falten an einer{' '}
+            <i>Mantel-Tunika</i>, eine Seite aus dem Hausbuch der Nürnberger
             Zwölfbrüderstiftung, 1446.
           </>
         }

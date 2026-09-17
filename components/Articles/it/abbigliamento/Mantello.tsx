@@ -115,9 +115,9 @@ export const Mantello = () => (
         height={1908}
         title={
           <>
-            Il sarto norimberghese Hans Frumann crea pieghe su un mantello di
-            tipo <i>huque</i>, una pagina dal Libro della Casa della Fondazione
-            dei Dodici Fratelli di Norimberga, 1446.
+            Il sarto norimberghese Hans Frumann crea pieghe su un{' '}
+            <i>mantello-tunica</i>, una pagina dal Libro della Casa della
+            Fondazione dei Dodici Fratelli di Norimberga, 1446.
           </>
         }
       />
