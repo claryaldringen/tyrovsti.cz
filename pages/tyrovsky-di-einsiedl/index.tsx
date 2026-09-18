@@ -7,6 +7,11 @@ import { JobstDiEinsiedl } from '../../components/Articles/it/casaTyrovsky/Jobst
 import { EnricoDiEinsiedl } from '../../components/Articles/it/casaTyrovsky/EnricoDiEinsiedl'
 import { Stemma } from '../../components/Articles/it/casaTyrovsky/Stemma'
 import { AlberoGenealogico } from '../../components/Articles/it/casaTyrovsky/AlberoGenealogico'
+import { FigliDiEnrico } from '../../components/Articles/it/casaTyrovsky/FigliDiEnrico'
+import { GiovanniDiEinsiedl } from '../../components/Articles/it/casaTyrovsky/GiovanniDiEinsiedl'
+import { EnricoGiacomoDiEinsiedl } from '../../components/Articles/it/casaTyrovsky/EnricoGiacomoDiEinsiedl'
+import { AdamoEnricoDiEinsiedl } from '../../components/Articles/it/casaTyrovsky/AdamoEnricoDiEinsiedl'
+import { AdalbertoIgnazioDiEinsiedl } from '../../components/Articles/it/casaTyrovsky/AdalbertoIgnazioDiEinsiedl'
 import { Payment } from '../../components/Payment'
 import { IntroduzioneTyrovsky } from '../../components/Articles/it/casaTyrovsky/IntroduzioneTyrovsky'
 
@@ -23,6 +28,11 @@ const Page = () => (
           <IntroduzioneTyrovsky />
           <JobstDiEinsiedl />
           <EnricoDiEinsiedl />
+          <FigliDiEnrico />
+          <GiovanniDiEinsiedl />
+          <EnricoGiacomoDiEinsiedl />
+          <AdamoEnricoDiEinsiedl />
+          <AdalbertoIgnazioDiEinsiedl />
           <Stemma />
           <AlberoGenealogico />
           <Sources />

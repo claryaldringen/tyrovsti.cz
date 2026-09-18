@@ -31,9 +31,10 @@ export const JindrichTyrovsky = () => (
           Jindřich byl znamenitým hospodářem. V krátké době přikoupil dvory v
           Nezabudicích a Panoším Újezdě, vesnice Hřebečníky, Skryje, Tytry,
           Novosedly a stavěl dvůr Myslice. V Kožlanech obnovil kostel, jenž byl
-          pobořen od husitských válek a koupil zde dva pusté kmetcí dvory s
-          platem, které již mnoho let náležely ke Krakovci, od Jindřicha
-          Albrechta z Kolovrat.
+          sto let pustý, založil v něm rodinnou hrobku a koupil zde dva pusté
+          kmetcí dvory s platem, které již mnoho let náležely ke Krakovci, od
+          Jindřicha Albrechta z Kolovrat. Nad městečkem založil rybník s
+          potrubím.
           <Qt
             publication={PUBLICATIONS.KOCKA1}
             href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:2aeaba53-5238-4dde-bdff-90260eb8a2d2"
@@ -141,6 +142,16 @@ export const JindrichTyrovsky = () => (
           první sumě bylo připsáno ještě 100 kop grošů, a Jan starší z Lobkovic
           na Zbiroze dosáhl povolení, aby ves Mlečice, kterou držel v zástavě,
           mohl koupiti dědičně.
+        </p>
+        <p>
+          Roku 1550 si vydlužil od Jana Pešíka z Komárova 81 kop a dluh mu
+          zajistil na rybníce se dnem u Kožlan s okrajky a potrubím. Ke sklonku
+          života měl zastaveny vsi Mlečice, Tytry a Zavidov.
+          <Qt
+            publication={PUBLICATIONS.KOCKA1}
+            href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:2aeaba53-5238-4dde-bdff-90260eb8a2d2"
+            note="Str. 363"
+          />
         </p>
         <p>
           Jindřich byl roku 1546 krajským hejtmanem, roku 1545 prodal Slabce se

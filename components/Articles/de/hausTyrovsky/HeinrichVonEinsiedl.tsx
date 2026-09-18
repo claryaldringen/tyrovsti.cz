@@ -33,10 +33,11 @@ export const HeinrichVonEinsiedl = () => (
           Jindřich war ein hervorragender Wirtschafter. In kurzer Zeit erwarb er
           Gutshöfe in Nezabudice und Panošín Újezd, die Dörfer Hřebečníky,
           Skryje, Tytry und Novosedly und ließ den Gutshof Myslice errichten. In
-          Kožlany ließ er die Kirche wieder aufbauen, die seit den
-          Hussitenkriegen verfallen war, und kaufte dort zwei verödete
-          Bauernhöfe mit Einkünften, die viele Jahre lang zu Krakovec gehört
-          hatten, von Jindřich Albrecht von Kolovrat.
+          Kožlany ließ er die Kirche wieder aufbauen, die hundert Jahre lang
+          wüst gelegen hatte, gründete darin eine Familiengruft und kaufte dort
+          zwei verödete Bauernhöfe mit Einkünften, die viele Jahre lang zu
+          Krakovec gehört hatten, von Jindřich Albrecht von Kolovrat. Oberhalb
+          des Städtchens legte er zudem einen Teich mit Rohrleitung an.
           <Qt
             publication={PUBLICATIONS.KOCKA1}
             href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:2aeaba53-5238-4dde-bdff-90260eb8a2d2"
@@ -155,6 +156,17 @@ export const HeinrichVonEinsiedl = () => (
           Anfangssumme weitere 100 Schock Groschen hinzugefügt wurden, und Jan
           der Ältere von Lobkowitz auf Zbiroh erhielt die Erlaubnis, das Dorf
           Mlečice, das er als Pfand hielt, als Erbgut zu erwerben.
+        </p>
+        <p>
+          1550 lieh er sich von Jan Pešík von Komárov 81 Schock und sicherte ihm
+          die Schuld auf dem Teich mit Grund bei Kožlany samt Rändern und
+          Rohrleitung. Gegen Ende seines Lebens hatte er die Dörfer Mlečice,
+          Tytry und Zavidov verpfändet.
+          <Qt
+            publication={PUBLICATIONS.KOCKA1}
+            href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:2aeaba53-5238-4dde-bdff-90260eb8a2d2"
+            note="S. 363"
+          />
         </p>
         <p>
           Jindřich war 1546 Kreishauptmann; 1545 verkaufte er Slabce mit Sadlno

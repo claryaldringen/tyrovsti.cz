@@ -33,10 +33,11 @@ export const HenryOfEinsiedl = () => (
           Jindřich was an excellent manager. In a short time, he purchased
           manors in Nezabudice and Panošín Újezd, the villages of Hřebečníky,
           Skryje, Tytry and Novosedly, and built the Myslice manor. In Kožlany,
-          he restored the church, which had been ruined since the Hussite Wars,
-          and bought two deserted peasant farms with revenues there, which had
-          belonged to Krakovec for many years, from Jindřich Albrecht of
-          Kolovrat.
+          he rebuilt the church, which had lain in ruins for a hundred years,
+          founded a family tomb in it, and bought two deserted peasant farms
+          with revenues there, which had belonged to Krakovec for many years,
+          from Jindřich Albrecht of Kolovrat. Above the town he also founded a
+          pond with piping.
           <Qt
             publication={PUBLICATIONS.KOCKA1}
             href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:2aeaba53-5238-4dde-bdff-90260eb8a2d2"
@@ -155,6 +156,17 @@ export const HenryOfEinsiedl = () => (
           initial sum, and Jan the Elder of Lobkovice on Zbiroh obtained
           permission to purchase the village of Mlečice, which he held in
           pledge, as a hereditary property.
+        </p>
+        <p>
+          In 1550, he borrowed 81 schocks from Jan Pešík of Komárov and secured
+          the debt for him on the pond with its bottom near Kožlany, together
+          with its margins and piping. Towards the end of his life he held the
+          villages of Mlečice, Tytry and Zavidov in pledge.
+          <Qt
+            publication={PUBLICATIONS.KOCKA1}
+            href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:2aeaba53-5238-4dde-bdff-90260eb8a2d2"
+            note="p. 363"
+          />
         </p>
         <p>
           Jindřich was a regional captain in 1546; in 1545 he sold Slabce with

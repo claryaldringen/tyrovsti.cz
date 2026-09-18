@@ -7,6 +7,11 @@ import { JobstOfEinsiedl } from '../../components/Articles/en/houseOfTeyrzow/Job
 import { HenryOfEinsiedl } from '../../components/Articles/en/houseOfTeyrzow/HenryOfEinsiedl'
 import { CoatOfArms } from '../../components/Articles/en/houseOfTeyrzow/CoatOfArms'
 import { FamilyTree } from '../../components/Articles/en/houseOfTeyrzow/FamilyTree'
+import { SonsOfHenry } from '../../components/Articles/en/houseOfTeyrzow/SonsOfHenry'
+import { JohnOfEinsiedl } from '../../components/Articles/en/houseOfTeyrzow/JohnOfEinsiedl'
+import { HenryJacobOfEinsiedl } from '../../components/Articles/en/houseOfTeyrzow/HenryJacobOfEinsiedl'
+import { AdamHenryOfEinsiedl } from '../../components/Articles/en/houseOfTeyrzow/AdamHenryOfEinsiedl'
+import { AdalbertIgnatiusOfEinsiedl } from '../../components/Articles/en/houseOfTeyrzow/AdalbertIgnatiusOfEinsiedl'
 import { Payment } from '../../components/Payment'
 import { TyrovskyOfEinsiedlIntro } from '../../components/Articles/en/houseOfTeyrzow/TyrovskyOfEinsiedlIntro'
 
@@ -23,6 +28,11 @@ const Page = () => (
           <TyrovskyOfEinsiedlIntro />
           <JobstOfEinsiedl />
           <HenryOfEinsiedl />
+          <SonsOfHenry />
+          <JohnOfEinsiedl />
+          <HenryJacobOfEinsiedl />
+          <AdamHenryOfEinsiedl />
+          <AdalbertIgnatiusOfEinsiedl />
           <CoatOfArms />
           <FamilyTree />
           <Sources />

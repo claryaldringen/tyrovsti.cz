@@ -7,6 +7,11 @@ import { Sources } from '../../components/Quote/Sources'
 import { Erb } from '../../components/Articles/cz/tyrovsti/Erb'
 import { LANG_CS } from '../../shared/constants'
 import { Rozrod } from '../../components/Articles/cz/tyrovsti/Rozrod'
+import { SynoveJindrichovi } from '../../components/Articles/cz/tyrovsti/SynoveJindrichovi'
+import { JanTyrovsky } from '../../components/Articles/cz/tyrovsti/JanTyrovsky'
+import { JindrichJakubTyrovsky } from '../../components/Articles/cz/tyrovsti/JindrichJakubTyrovsky'
+import { AdamJindrichTyrovsky } from '../../components/Articles/cz/tyrovsti/AdamJindrichTyrovsky'
+import { VojtechIgnacTyrovsky } from '../../components/Articles/cz/tyrovsti/VojtechIgnacTyrovsky'
 import { Payment } from '../../components/Payment'
 import { TyrovstiUvod } from '../../components/Articles/cz/tyrovsti/TyrovstiUvod'
 
@@ -24,6 +29,11 @@ const Page = () => (
           <Rozrod />
           <JostTyrovsky />
           <JindrichTyrovsky />
+          <SynoveJindrichovi />
+          <JanTyrovsky />
+          <JindrichJakubTyrovsky />
+          <AdamJindrichTyrovsky />
+          <VojtechIgnacTyrovsky />
           <Erb />
           <Sources />
           <Payment />

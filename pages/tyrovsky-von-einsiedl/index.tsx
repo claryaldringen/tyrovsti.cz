@@ -7,6 +7,11 @@ import { JobstVonEinsiedl } from '../../components/Articles/de/hausTyrovsky/Jobs
 import { HeinrichVonEinsiedl } from '../../components/Articles/de/hausTyrovsky/HeinrichVonEinsiedl'
 import { Wappen } from '../../components/Articles/de/hausTyrovsky/Wappen'
 import { Stammbaum } from '../../components/Articles/de/hausTyrovsky/Stammbaum'
+import { SoehneHeinrichs } from '../../components/Articles/de/hausTyrovsky/SoehneHeinrichs'
+import { JohannVonEinsiedl } from '../../components/Articles/de/hausTyrovsky/JohannVonEinsiedl'
+import { HeinrichJakobVonEinsiedl } from '../../components/Articles/de/hausTyrovsky/HeinrichJakobVonEinsiedl'
+import { AdamHeinrichVonEinsiedl } from '../../components/Articles/de/hausTyrovsky/AdamHeinrichVonEinsiedl'
+import { AdalbertIgnazVonEinsiedl } from '../../components/Articles/de/hausTyrovsky/AdalbertIgnazVonEinsiedl'
 import { Payment } from '../../components/Payment'
 import { TyrovskyVonEinsiedlEinfuehrung } from '../../components/Articles/de/hausTyrovsky/TyrovskyVonEinsiedlEinfuehrung'
 
@@ -23,6 +28,11 @@ const Page = () => (
           <TyrovskyVonEinsiedlEinfuehrung />
           <JobstVonEinsiedl />
           <HeinrichVonEinsiedl />
+          <SoehneHeinrichs />
+          <JohannVonEinsiedl />
+          <HeinrichJakobVonEinsiedl />
+          <AdamHeinrichVonEinsiedl />
+          <AdalbertIgnazVonEinsiedl />
           <Wappen />
           <Stammbaum />
           <Sources />

@@ -32,10 +32,12 @@ export const EnricoDiEinsiedl = () => (
         <p>
           Jindřich fu un eccellente amministratore. In breve tempo, acquistò
           poderi a Nezabudice e Panošín Újezd, i villaggi di Hřebečníky, Skryje,
-          Tytry e Novosedly, e costruì il podere di Myslice. A Kožlany, restaurò
-          la chiesa, che era in rovina fin dalle guerre hussite, e comprò due
-          fattorie contadine abbandonate con rendite ivi situate, che per molti
-          anni erano appartenute a Krakovec, da Jindřich Albrecht di Kolovrat.
+          Tytry e Novosedly, e costruì il podere di Myslice. A Kožlany,
+          ricostruì la chiesa, che era rimasta in rovina per cent&apos;anni, vi
+          fondò una tomba di famiglia e comprò due fattorie contadine
+          abbandonate con rendite ivi situate, che per molti anni erano
+          appartenute a Krakovec, da Jindřich Albrecht di Kolovrat. Sopra la
+          cittadina fece inoltre costruire uno stagno con una conduttura.
           <Qt
             publication={PUBLICATIONS.KOCKA1}
             href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:2aeaba53-5238-4dde-bdff-90260eb8a2d2"
@@ -157,6 +159,17 @@ export const EnricoDiEinsiedl = () => (
           il Vecchio di Lobkovice di Zbiroh ottenne il permesso di acquistare il
           villaggio di Mlečice, che deteneva in pegno, come proprietà
           ereditaria.
+        </p>
+        <p>
+          Nel 1550 prese in prestito 81 sexagene da Jan Pešík di Komárov e gli
+          garantì il debito sullo stagno con il fondo presso Kožlany, con i
+          margini e la conduttura. Verso la fine della sua vita teneva in pegno
+          i villaggi di Mlečice, Tytry e Zavidov.
+          <Qt
+            publication={PUBLICATIONS.KOCKA1}
+            href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:2aeaba53-5238-4dde-bdff-90260eb8a2d2"
+            note="p. 363"
+          />
         </p>
         <p>
           Jindřich fu capitano regionale nel 1546; nel 1545 vendette Slabce con
