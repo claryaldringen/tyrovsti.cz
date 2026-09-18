@@ -12,6 +12,7 @@ import { GiovanniDiEinsiedl } from '../../components/Articles/it/casaTyrovsky/Gi
 import { EnricoGiacomoDiEinsiedl } from '../../components/Articles/it/casaTyrovsky/EnricoGiacomoDiEinsiedl'
 import { AdamoEnricoDiEinsiedl } from '../../components/Articles/it/casaTyrovsky/AdamoEnricoDiEinsiedl'
 import { AdalbertoIgnazioDiEinsiedl } from '../../components/Articles/it/casaTyrovsky/AdalbertoIgnazioDiEinsiedl'
+import { GliUltimiTyrovsky } from '../../components/Articles/it/casaTyrovsky/GliUltimiTyrovsky'
 import { Payment } from '../../components/Payment'
 import { IntroduzioneTyrovsky } from '../../components/Articles/it/casaTyrovsky/IntroduzioneTyrovsky'
 
@@ -33,6 +34,7 @@ const Page = () => (
           <EnricoGiacomoDiEinsiedl />
           <AdamoEnricoDiEinsiedl />
           <AdalbertoIgnazioDiEinsiedl />
+          <GliUltimiTyrovsky />
           <Stemma />
           <AlberoGenealogico />
           <Sources />

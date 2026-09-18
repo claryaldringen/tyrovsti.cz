@@ -235,19 +235,28 @@ export const JobstDiEinsiedl = () => (
           1455, che Jobst possedeva insieme a Hynec Dehraw, oppure che fosse
           dietro la nobilitazione dello stemma di Jobst da parte di Federico III
           il <b>23 novembre</b> dello stesso anno.
-          <Qt publication={PUBLICATIONS.BOUKAL} note="page 83" /> Come suo
-          segretario segreto gli era letteralmente indispensabile. Pertanto, se
-          non era assente per qualche missione, era sempre al fianco del
-          governatore del paese, accompagnandolo nelle sue principali campagne
-          in Moravia, Slesia e Austria, spesso dedicandosi al commercio, come a
-          Brno, e informando i suoi amici di Cheb con evidente soddisfazione sui
-          successi del governatore. Sebbene cattolico e incondizionatamente
-          devoto alla Chiesa romana, mantenne una lealtà incrollabile verso il
-          suo signore utraquista in ogni momento — una rarità per l&apos;epoca —
-          essendo capace di separare giustamente le convinzioni religiose dalla
-          fedeltà al servizio. Pertanto, godeva anche della piena fiducia e del
-          favore di Giorgio e gli venivano spesso affidati compiti che
-          richiedevano particolare cura e affidabilità.
+          <Qt publication={PUBLICATIONS.BOUKAL} note="page 83" /> La
+          registrazione relativa a Jeschkendorf è datata al giorno dei santi Re
+          Magi, cioè il <b>6 gennaio 1455</b>, ed è conservata negli estratti
+          dei libri del ducato di Breslavia.
+          <Qt
+            publication={PUBLICATIONS.ZBYTKY}
+            href="https://kramerius5.nkp.cz/view/uuid:4a255040-84f9-11e4-9d8c-005056827e51?page=uuid:36ae89b0-b3dd-11e4-9a04-5ef3fc9bb22f"
+            note="p. 236, n. 1689"
+          />
+          Come suo segretario segreto gli era letteralmente indispensabile.
+          Pertanto, se non era assente per qualche missione, era sempre al
+          fianco del governatore del paese, accompagnandolo nelle sue principali
+          campagne in Moravia, Slesia e Austria, spesso dedicandosi al
+          commercio, come a Brno, e informando i suoi amici di Cheb con evidente
+          soddisfazione sui successi del governatore. Sebbene cattolico e
+          incondizionatamente devoto alla Chiesa romana, mantenne una lealtà
+          incrollabile verso il suo signore utraquista in ogni momento — una
+          rarità per l&apos;epoca — essendo capace di separare giustamente le
+          convinzioni religiose dalla fedeltà al servizio. Pertanto, godeva
+          anche della piena fiducia e del favore di Giorgio e gli venivano
+          spesso affidati compiti che richiedevano particolare cura e
+          affidabilità.
           <Qt
             publication={PUBLICATIONS.KURSCHNER}
             href="https://sources.cms.flu.cas.cz/src/index.php?s=v&cat=50&bookid=488&page=7"
@@ -305,11 +314,20 @@ export const JobstDiEinsiedl = () => (
           />{' '}
           ovvero un transunto della bolla di papa Pio II del marzo 1459, che
           nomina Jobst come <Cit>Jodocus de Eynsedil, milites Pragensis</Cit>.
-          <Qt publication={PUBLICATIONS.BOUKAL1} /> Gli abitanti di Cheb furono
-          informati dell&apos;elezione in via non ufficiale già da una lettera
-          di Jobst; ufficialmente vennero avvisati da un grande documento con
-          numerosi sigilli, il cui autore potrebbe essere stato anch&apos;esso
-          Jobst.
+          <Qt publication={PUBLICATIONS.BOUKAL1} /> Il vidimus fu redatto il{' '}
+          <b>12 marzo 1459</b> a Kladsko dall&apos;abate di Kamenec Mikuláš e
+          dal prevosto di Kladsko Michael su richiesta del capitano di Kladsko
+          Jan di Warnsdorf e di Jobst, che presentarono la bolla a nome del re
+          Giorgio.
+          <Qt
+            publication={PUBLICATIONS.AC15}
+            href="https://kramerius5.nkp.cz/view/uuid:c2007dd0-8dd6-11e8-9588-5ef3fc9bb22f?page=uuid:41335510-9b8c-11e8-b814-5ef3fc9bb22f"
+            note="p. 221, n. 113"
+          />
+          Gli abitanti di Cheb furono informati dell&apos;elezione in via non
+          ufficiale già da una lettera di Jobst; ufficialmente vennero avvisati
+          da un grande documento con numerosi sigilli, il cui autore potrebbe
+          essere stato anch&apos;esso Jobst.
           <Qt publication={PUBLICATIONS.BOUKAL} note="page 84" />
         </p>
         <p>
@@ -332,22 +350,29 @@ export const JobstDiEinsiedl = () => (
           quali il re gli registrò il <b>2 luglio 1460</b> il castello di Týřov
           con la città di Kožlany, i villaggi di Mlečice, Chmelištná, Zavidov,
           Týřovice, Broumy, Kouřimec, Újezdec, Hudlice con tutti i benefici e le
-          tasse di Novosedly. Fu stabilito che Jobst non dovesse essere
-          rimborsato fino alla sua morte, e dopo la sua morte solo il re stesso
-          poteva riacquistare le proprietà per 600 sexagene di grossi. Secondo
-          la disposizione, il castello di Týřov doveva rimanere aperto in ogni
-          momento e se il re avesse dovuto spendervi a causa di guerre, ciò non
-          sarebbe stato a danno di Jobst. Con le foreste, né Jobst né i suoi
-          eredi avevano nulla a che fare né potevano vendere legname, ma solo
-          prenderlo senza impedimento per il combustibile e le riparazioni del
-          castello. Nella caccia di piccola selvaggina e uccelli, Jobst era
-          libero, mentre gli era consentito cacciare 3 cervi e 10 caprioli
-          all&apos;anno con la conoscenza del burgravio di Křivoklát, che era
-          obbligato a prestargli cani e cuccioli. Poiché il castello necessitava
-          di riparazioni alle mura, ai sottofondi e agli edifici, il re aggiunse
-          100 sexagene di grossi per le riparazioni a favore di Jobst. Se il
-          castello fosse stato conquistato da altri, i re erano obbligati ad
-          aiutarlo a riconquistarlo o a risarcirlo entro due anni.
+          tasse di Novosedly; secondo l&apos;estratto dei registri regi
+          l&apos;intera somma del pegno era di 1050 sexagene di grossi.
+          <Qt
+            publication={PUBLICATIONS.ZBYTKY}
+            href="https://kramerius5.nkp.cz/view/uuid:4a255040-84f9-11e4-9d8c-005056827e51?page=uuid:379c9330-b3dd-11e4-9a04-5ef3fc9bb22f"
+            note="p. 245, n. 1732"
+          />{' '}
+          Fu stabilito che Jobst non dovesse essere rimborsato fino alla sua
+          morte, e dopo la sua morte solo il re stesso poteva riacquistare le
+          proprietà per 600 sexagene di grossi. Secondo la disposizione, il
+          castello di Týřov doveva rimanere aperto in ogni momento e se il re
+          avesse dovuto spendervi a causa di guerre, ciò non sarebbe stato a
+          danno di Jobst. Con le foreste, né Jobst né i suoi eredi avevano nulla
+          a che fare né potevano vendere legname, ma solo prenderlo senza
+          impedimento per il combustibile e le riparazioni del castello. Nella
+          caccia di piccola selvaggina e uccelli, Jobst era libero, mentre gli
+          era consentito cacciare 3 cervi e 10 caprioli all&apos;anno con la
+          conoscenza del burgravio di Křivoklát, che era obbligato a prestargli
+          cani e cuccioli. Poiché il castello necessitava di riparazioni alle
+          mura, ai sottofondi e agli edifici, il re aggiunse 100 sexagene di
+          grossi per le riparazioni a favore di Jobst. Se il castello fosse
+          stato conquistato da altri, i re erano obbligati ad aiutarlo a
+          riconquistarlo o a risarcirlo entro due anni.
           <Qt publication={PUBLICATIONS.KOCKA} />
         </p>
       </Col>
@@ -654,22 +679,33 @@ export const JobstDiEinsiedl = () => (
           scomunicato, i propri sovrani, dalla cui comunità la chiesa lo aveva
           escluso. I suoi possedimenti furono devastati, i villaggi dei suoi
           sudditi incendiati e distrutti (egli quantificò le sue perdite in 300
-          sexagene di grossi). Il re Giorgio riconobbe il danno e nel 1466 gli
-          accreditò 100 sexagene di grossi per la costruzione di stagni e gli
-          concesse la grazia che suo figlio Jindřich non potesse essere
-          riscattato da Týřov fino alla sua morte. Di fronte a questa
-          devastazione, Jobst combatté una dura battaglia con sé stesso, poiché
-          coscienza e fede, comandamenti ecclesiastici e lealtà giurata erano in
-          costante conflitto: la feroce battaglia che agitava l&apos;intera
-          epoca si riflette nel petto di quest&apos;uomo, che aderì
-          risolutamente a ciò che nella sua anima semplice riconosceva come
-          giusto e buono. Alla fine, scelse l&apos;obbedienza sofferente, perché
-          si trattava della fede, che non voleva indebolire con la resistenza —{' '}
-          <Cit>nicht schwächen helfen</Cit> (contribuire a indebolire). Così,
-          condivise lo stesso destino della città alleata di Cheb, che cercò di
-          consolare e rafforzare nell&apos;obbedienza. Solo quando vide che i
-          suoi avversari si curavano meno della fede che del saccheggio, impugnò
-          la spada per assicurare la pace.
+          sexagene di grossi). Il re Giorgio riconobbe il danno e con privilegio
+          del <b>21 ottobre 1466</b> gli accreditò 100 sexagene di grossi per la
+          costruzione di stagni e gli concesse la grazia che né lui né il suo
+          figlio maggiore potessero essere riscattati da Týřov fino alla loro
+          morte.
+          <Qt
+            publication={PUBLICATIONS.ZBYTKY}
+            href="https://kramerius5.nkp.cz/view/uuid:4a255040-84f9-11e4-9d8c-005056827e51?page=uuid:39f6d6e0-b3dd-11e4-9a04-5ef3fc9bb22f"
+            note="p. 266, n. 1806"
+          />
+          <Qt
+            publication={PUBLICATIONS.TEIGE_LISTAR}
+            href="https://kramerius5.nkp.cz/view/uuid:8e3d4b30-7bb8-11e7-8b50-001018b5eb5c"
+            note="p. 19, n. 24"
+          />
+          Di fronte a questa devastazione, Jobst combatté una dura battaglia con
+          sé stesso, poiché coscienza e fede, comandamenti ecclesiastici e
+          lealtà giurata erano in costante conflitto: la feroce battaglia che
+          agitava l&apos;intera epoca si riflette nel petto di quest&apos;uomo,
+          che aderì risolutamente a ciò che nella sua anima semplice riconosceva
+          come giusto e buono. Alla fine, scelse l&apos;obbedienza sofferente,
+          perché si trattava della fede, che non voleva indebolire con la
+          resistenza — <Cit>nicht schwächen helfen</Cit> (contribuire a
+          indebolire). Così, condivise lo stesso destino della città alleata di
+          Cheb, che cercò di consolare e rafforzare nell&apos;obbedienza. Solo
+          quando vide che i suoi avversari si curavano meno della fede che del
+          saccheggio, impugnò la spada per assicurare la pace.
           <Qt
             publication={PUBLICATIONS.KURSCHNER}
             href="https://sources.cms.flu.cas.cz/src/index.php?s=v&cat=50&bookid=488&page=12"
@@ -702,7 +738,15 @@ export const JobstDiEinsiedl = () => (
           <Cit>na jeho páně Šumburkuov zámek</Cit> (nel castello del suo signore
           Šumburk). Se Šumburk non si fosse presentato in tribunale contro
           Jobst, avrebbe dovuto risarcirlo per le mucche rubate.
-          <Qt publication={PUBLICATIONS.KOCKA} />
+          <Qt publication={PUBLICATIONS.KOCKA} /> I registri del tribunale
+          camerale riportano entrambe le sentenze – del 20 giugno e del 3
+          ottobre 1472 – e vi titolano Jobst coerentemente come segretario
+          regio.
+          <Qt
+            publication={PUBLICATIONS.AC7}
+            href="https://kramerius5.nkp.cz/view/uuid:597c2280-8dd8-11e8-9588-5ef3fc9bb22f?page=uuid:668ce0c0-9bb3-11e8-9b22-5ef3fc9ae867"
+            note="p. 453 e 457–458, n. 114 e 125"
+          />
         </p>
         <p>
           Continuò a servire gli abitanti di Cheb come loro informatore sugli
@@ -730,9 +774,42 @@ export const JobstDiEinsiedl = () => (
           privilegi concessigli dal re Giorgio, e in aggiunta gli permise di
           uccidere fino a quattro cervi o cerve nelle foreste e gli stanziò
           specificamente 50 sexagene di grossi per le riparazioni del castello.
-          Tuttavia, Jobst morì l&apos;anno seguente. L&apos;
-          <b>11 luglio 1474</b>, era ancora presente al tribunale camerale, ma
-          nel 1476 non era più in vita, come annotato in una lettera del{' '}
+          Il documento su Hlince è datato a Praga <b>18 giugno 1473</b>: il re
+          concesse a Jobst, suo segretario, il diritto di manomorta dopo
+          Kateřina di Radkov su un podere contadino sul quale sedeva Matěj detto
+          Žižák. I detentori del podere – Jan di Miletínek e di Újezd, Jan Vrš
+          di Všetaty e Matěj di Hlince – furono invitati a opporsi entro due
+          settimane, e il ciambellano Valentin immise Jobst nel possesso del
+          podere, stimato 20 sexagene di grossi, il <b>4 luglio 1474</b>.
+          <Qt
+            publication={PUBLICATIONS.AC37}
+            href="https://kramerius5.nkp.cz/view/uuid:ecb030a0-9567-11e8-87bd-005056827e52?page=uuid:cfac4800-b5e6-11e8-98a3-5ef3fc9bb22f"
+            note="p. 632–633, n. 60"
+          />{' '}
+          Altre 100 sexagene per i lavori a Týřov il re Vladislao le accreditò a
+          Jobst a Kladsko il <b>21 agosto 1473</b> e gli confermò tutti i
+          privilegi su Týřov il <b>7 marzo 1474</b>.
+          <Qt
+            publication={PUBLICATIONS.ZBYTKY}
+            href="https://kramerius5.nkp.cz/view/uuid:4a255040-84f9-11e4-9d8c-005056827e51?page=uuid:3ca6dbb0-b3dd-11e4-9a04-5ef3fc9bb22f"
+            note="p. 291, n. 25–26"
+          />{' '}
+          Tuttavia, Jobst morì l&apos;anno seguente. Ancora l&apos;
+          <b>11 giugno</b> e il <b>15 luglio 1474</b>{' '}
+          <Cit>Jodocus de Eynzidl</Cit> siede tra i signori del consiglio al
+          tribunale camerale accanto al sommo ciambellano Vilém di Rýzmberk e al
+          sommo burgravio Jan di Janovice,
+          <Qt
+            publication={PUBLICATIONS.AC4}
+            href="https://kramerius5.nkp.cz/view/uuid:d1ba97d0-8dd4-11e8-9588-5ef3fc9bb22f?page=uuid:d8048ad0-9cff-11e8-99aa-005056827e51"
+            note="p. 288–289, n. 44–45"
+          />
+          <Qt
+            publication={PUBLICATIONS.AC7}
+            href="https://kramerius5.nkp.cz/view/uuid:597c2280-8dd8-11e8-9588-5ef3fc9bb22f?page=uuid:6b4ade00-9bb3-11e8-9b22-5ef3fc9ae867"
+            note="p. 484, n. 197"
+          />{' '}
+          ma nel 1476 non era più in vita, come annotato in una lettera del{' '}
           <b>17 aprile 1476</b>:{' '}
           <Cit>Wie etwen herre Jobst vom Eynsidel, demegot gnade</Cit> (Che Dio
           abbia pietà del signore Jobst von Einsiedl).
@@ -744,7 +821,23 @@ export const JobstDiEinsiedl = () => (
           fu iscritto nelle tavole del paese. La sua formulazione purtroppo non
           ci è pervenuta; sappiamo tuttavia che fu invalidato, in quanto era
           stato redatto <Cit>po smrti pečetín</Cit> (sigillato dopo la morte).
-          <Qt publication={PUBLICATIONS.BOUKAL} note="page 90" />
+          <Qt publication={PUBLICATIONS.BOUKAL} note="page 90" /> I libri delle
+          sentenze del tribunale del paese ne trassero una regola generale:{' '}
+          <Cit>
+            Kšaft podle práva na list mocný královský učiněný, ve dsky vložený,
+            král zase s pány vyzdvihli a odvolali, protože jest byl po smrti
+            pečetín. O tom nález Septimo Plana D. XXX, kdež Jošt z Eynsydle
+            kšaft dělá.
+          </Cit>{' '}
+          (Un testamento fatto legittimamente in forza di una lettera di facoltà
+          regia e iscritto nelle tavole, il re con i signori lo annullarono e
+          revocarono, perché era stato sigillato dopo la morte. Su ciò la
+          sentenza Septimo Plana D. XXX, dove Jošt di Einsiedl fa testamento.)
+          <Qt
+            publication={PUBLICATIONS.AC19}
+            href="https://kramerius5.nkp.cz/view/uuid:4d1a50b0-8dd9-11e8-9588-5ef3fc9bb22f?page=uuid:e8041af0-9b8c-11e8-8b19-005056825209"
+            note="p. 510, sentenza 46"
+          />
         </p>
       </Col>
     </Row>

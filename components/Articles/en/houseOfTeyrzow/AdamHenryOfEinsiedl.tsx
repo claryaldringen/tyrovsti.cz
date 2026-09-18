@@ -2,6 +2,7 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { PUBLICATIONS } from '../../../../shared/constants'
 import { Qt } from '../../../Quote/Qt'
+import { Cit } from '../../../Citation'
 
 export const AdamHenryOfEinsiedl = () => (
   <>
@@ -51,7 +52,14 @@ export const AdamHenryOfEinsiedl = () => (
           he could not pay, the creditor took possession of the Chříč estate.
           Týřovský rid himself of the debt by taking Vilém&apos;s daughter Eva
           Eurosina of Klenové as his wife; she bought from her father the town
-          of Zvíkovec and the village of Chlum.
+          of Zvíkovec and the village of Chlum. According to Sedláček, Vilém of
+          Klenové bought Zvíkovec in 1633 from Václav Heraklius of Blizivo in
+          fact already for his married daughter.
+          <Qt
+            publication={PUBLICATIONS.SEDLACEK13}
+            href="https://kramerius5.nkp.cz/view/uuid:12f8f660-3001-11de-b49a-000d606f5dc6?page=uuid:930c0ec0-7b5f-11e7-89ee-5ef3fc9ae867"
+            note="p. 249"
+          />
           <Qt
             publication={PUBLICATIONS.KOCKA1}
             href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:7c883e9c-c039-4e28-8217-2e3df2340137"
@@ -77,6 +85,60 @@ export const AdamHenryOfEinsiedl = () => (
             publication={PUBLICATIONS.KOCKA1}
             href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:7c883e9c-c039-4e28-8217-2e3df2340137"
             note="p. 315"
+          />{' '}
+          Bílek dates the whole procedure: the royal procurator accused him
+          before the Friedland confiscation commission on 15 November 1632, the
+          revision commission proposed a pardon on 12 August 1638, and the
+          imperial resolution confirmed it on 14 December 1638 on condition that
+          he{' '}
+          <Cit>
+            místo pokuty, za provinění své zasloužilé, 3000 zl. rýn. na hotově
+            složil
+          </Cit>{' '}
+          (paid down 3,000 Rhenish guilders in cash in place of the fine
+          deserved for his offence); 2,000 guilders were allotted to the
+          building of Prague Castle by a resolution of 30 December 1638 and the
+          remaining 1,000 were given to the Jesuits on 10 January 1639.
+          <Qt
+            publication={PUBLICATIONS.BILEK}
+            href="https://kramerius5.nkp.cz/view/uuid:ca6e5cc0-e117-11dc-9e25-000d606f5dc6?page=uuid:e8fba37e-cf71-4acd-8727-f1a0a3d6f8e3"
+            note="p. 674, 821"
+          />
+        </p>
+        <p>
+          In the meantime Chříč bore the burden of supplying the army. From the
+          end of January 1638 his petition for a reduction of the contribution
+          for the estates of Chříč and Zvíkovec has survived: he had already
+          handed over to the soldiers 3,131 guilders 14 kreuzers, 44,929 pounds
+          of meat, 740 strychs of rye, 451 strychs of wheat and 1,661 strychs of
+          oats, while he owed 394 guilders 45 kreuzers on the Budějovice
+          contribution. The district commissioner Skuhrovský recommended
+          remitting four fifths of the arrears, and so it was decided on 4 May
+          1638.
+          <Qt
+            publication={PUBLICATIONS.MILITARE5}
+            href="https://kramerius5.nkp.cz/view/uuid:ce02ccf0-c3af-11e3-bb44-5ef3fc9bb22f?page=uuid:ee70b330-7262-40d2-ac5e-7c68d922cf02"
+            note="p. 153, 167"
+          />
+        </p>
+        <p>
+          From 1640 to 1644 he was himself captain of the Rakovník district,
+          together with Jan Ferdinand Renšperger of Renšperk. On 26 December
+          1640 the two of them wrote from Rakovník{' '}
+          <Cit>cito, cito, citissime</Cit> to the vice-regents that the
+          commissioner Rossi de Dateli had brought four infantry regiments into
+          the war-ravaged district without their knowledge; in June 1642 they
+          reported nine of Suys&apos;s regiments with artillery and three
+          regiments of Croats in Rakovník.
+          <Qt
+            publication={PUBLICATIONS.MILITARE6}
+            href="https://kramerius5.nkp.cz/view/uuid:ce02ccf0-c3af-11e3-bb44-5ef3fc9bb22f"
+            note="p. 137, 187, 249, 306–313"
+          />
+          <Qt
+            publication={PUBLICATIONS.MILITARE7}
+            href="https://kramerius5.nkp.cz/view/uuid:ce02ccf0-c3af-11e3-bb44-5ef3fc9bb22f"
+            note="p. 179, 186"
           />
         </p>
         <p>
@@ -111,18 +173,26 @@ export const AdamHenryOfEinsiedl = () => (
           />
         </p>
         <p>
-          He died in May 1652. In his last will he directed that his body be
-          clothed in unmangled white linen and buried without any pomp in the
-          church at Kožlany, to which he bequeathed 500 schocks so that a sung
-          mass might be celebrated every month for the salvation of his soul. At
-          the funeral all the poor subjects were to receive alms of six kreuzers
-          each and a piece of meat for dinner, ten poor men a suit of cloth and
-          another ten a suit of black linen. The greatly ruined Chříč estate
-          went to his son Vojtěch Ignác, the widow Eva Eurosina received 20,000
-          schocks, and should she not be paid out, she was meanwhile to take
-          over the manor of Ptíč, the Lejskov mill and the villages of Hlince
-          and Studená; his daughter Kateřina Dorota was allotted a dowry of
-          6,000 guilders and a trousseau. The debts amounted to 11,500 guilders.
+          He died towards the end of May 1652; he had drawn up his last will on
+          29 April 1652, calling the estate in it{' '}
+          <Cit>na nejvýš zruinirovaný</Cit> (ruined to the utmost).
+          <Qt
+            publication={PUBLICATIONS.SEDLACEK8}
+            href="https://kramerius5.nkp.cz/view/uuid:1ed20270-2ffb-11de-8f63-000d606f5dc6?page=uuid:5af72310-7b52-11e7-89ee-5ef3fc9ae867"
+            note="p. 111–112"
+          />{' '}
+          In it he directed that his body be clothed in unmangled white linen
+          and buried without any pomp in the church at Kožlany, to which he
+          bequeathed 500 schocks so that a sung mass might be celebrated every
+          month for the salvation of his soul. At the funeral all the poor
+          subjects were to receive alms of six kreuzers each and a piece of meat
+          for dinner, ten poor men a suit of cloth and another ten a suit of
+          black linen. The greatly ruined Chříč estate went to his son Vojtěch
+          Ignác, the widow Eva Eurosina received 20,000 schocks, and should she
+          not be paid out, she was meanwhile to take over the manor of Ptíč, the
+          Lejskov mill and the villages of Hlince and Studená; his daughter
+          Kateřina Dorota was allotted a dowry of 6,000 guilders and a
+          trousseau. The debts amounted to 11,500 guilders.
           <Qt
             publication={PUBLICATIONS.KOCKA1}
             href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:982a126d-a074-4939-802f-22a8843d76ad"

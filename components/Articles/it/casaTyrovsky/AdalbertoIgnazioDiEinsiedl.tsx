@@ -2,6 +2,7 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { PUBLICATIONS } from '../../../../shared/constants'
 import { Qt } from '../../../Quote/Qt'
+import { Cit } from '../../../Citation'
 
 export const AdalbertoIgnazioDiEinsiedl = () => (
   <>
@@ -52,13 +53,36 @@ export const AdalbertoIgnazioDiEinsiedl = () => (
           dell&apos;eredità paterna. Oto Jiří di Helversen, signore di Krakovec,
           si assicurò subito sulla sua tenuta 3000 fiorini che il giovane
           Týřovský gli era rimasto debitore per oggetti d&apos;oro, diamanti e
-          rubini. Nel 1676 acquistò il villaggio di Třímaný e nello stesso anno
+          rubini. Nel 1676 acquistò il villaggio di Třímaný – da Norbert
+          Miseroni, che lo staccò dalla tenuta di Krašov – e nello stesso anno
           licenziò dal servizio il burgravio Daniel Vlašimský, in precedenza
           borghese praghese, al quale rimase debitore di 500 fiorini.
           <Qt
             publication={PUBLICATIONS.KOCKA1}
             href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:982a126d-a074-4939-802f-22a8843d76ad"
             note="p. 316, 378"
+          />
+          <Qt
+            publication={PUBLICATIONS.SEDLACEK13}
+            href="https://kramerius5.nkp.cz/view/uuid:12f8f660-3001-11de-b49a-000d606f5dc6?page=uuid:6b070060-7b5f-11e7-89ee-5ef3fc9ae867"
+            note="p. 121"
+          />
+        </p>
+        <p>
+          Come il padre ricoprì la carica di capitano della regione di Rakovník.
+          La cronaca del monastero di Plasy lo registra in questa dignità il 13
+          novembre 1681, quando fu, insieme al conte Štampach, capitano della
+          regione di Plzeň, commissario regio all&apos;elezione dell&apos;abate
+          Ondřej Trojer. La stessa cronaca riferisce che il religioso di Plasy
+          Leopold Miškovský fu assegnato nel marzo del 1688 come prefetto ai{' '}
+          <Cit>mladým pánům baronům Týřovským</Cit> (giovani signori baroni
+          Týřovský) a Praga, dove egli stesso studiava diritto; un altro
+          sacerdote di Plasy, Kandid Ungar, trascorse diciassette anni presso
+          Vojtěch Ignác a Chříč come cappellano di casa.
+          <Qt
+            publication={PUBLICATIONS.TILIA}
+            href="https://kramerius5.nkp.cz/view/uuid:46c7f19b-ec76-11f0-897f-72b499cdd859"
+            note="p. 81, 149, 151"
           />
         </p>
         <p>
@@ -89,9 +113,15 @@ export const AdalbertoIgnazioDiEinsiedl = () => (
           />
         </p>
         <p>
-          Morì nel 1695. Gli sopravvissero la vedova Kateřina Magdalena, nata
-          contessa di Brandenburk, i figli Jan Vilém, Michal Antonín e František
-          Pavel e le figlie Anna e Polyxena. Chříč fu ereditata da Michal
+          Morì nel 1695 e fu sepolto nella chiesa di Milíčov.
+          <Qt
+            publication={PUBLICATIONS.SEDLACEK8}
+            href="https://kramerius5.nkp.cz/view/uuid:1ed20270-2ffb-11de-8f63-000d606f5dc6?page=uuid:5b1ad7b0-7b52-11e7-89ee-5ef3fc9ae867"
+            note="p. 112"
+          />{' '}
+          Gli sopravvissero la vedova Kateřina Magdalena, nata contessa di
+          Brandenburk, i figli Jan Vilém, Michal Antonín e František Pavel e le
+          figlie Anna Barbora e Polyxena Lidmila. Chříč fu ereditata da Michal
           Antonín, che non aveva ancora la maggiore età e rimase perciò sotto la
           tutela del fratello maggiore Jan Vilém. La vedova licenziò subito Jan
           Kautský, che era stato per tredici anni burgravio; quando Kautský si
@@ -115,13 +145,34 @@ export const AdalbertoIgnazioDiEinsiedl = () => (
           Březsko e Dubjany e il mulino con la polveriera e la vigna presso la
           città di Louny. Ciascuno dei fratelli si riservò cinque persone e
           tutti si impegnarono a pagare alla madre Kateřina Magdalena 300
-          fiorini all&apos;anno. Michal Antonín, ultimo detentore
-          dell&apos;eredità di Chříč, morì nel 1705; sua moglie fu Konstancie di
-          Špork.
+          fiorini all&apos;anno.
           <Qt
             publication={PUBLICATIONS.KOCKA1}
             href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:cad91700-163b-46b7-9616-472c3b1b10de"
-            note="p. 317, 361"
+            note="p. 317"
+          />{' '}
+          Sedláček aggiunge che sulla tenuta gravavano allora 69 450 fiorini
+          renani di debiti ed elenca ciò che essa comprendeva: il castello e il
+          villaggio di Chříč con il podere, i villaggi di Slatina, Lhota,
+          Holovousy, Hlince e Studená, il podere e il villaggio di Březsko, un
+          podere a Ptíč, il podere di Dubjany, Milíčov con il diritto di
+          patronato, Hedčany, Třímany, Bělbožice, la città di Kožlany con il
+          diritto di patronato e il villaggio abbandonato di Dolany.{' '}
+          <Cit>Tak Týřovští po stu letech Chříč opustili.</Cit> (Così i Týřovský
+          dopo cento anni lasciarono Chříč.) Che la nuova signoria risiedesse a
+          Chříč già alla fine del 1701 lo attesta la cronaca di Plasy: dal 19
+          novembre 1701 vi operava un cappellano{' '}
+          <Cit>u hraběnky Lažanské na Chříči</Cit> (presso la contessa Lažanská
+          a Chříč).
+          <Qt
+            publication={PUBLICATIONS.SEDLACEK8}
+            href="https://kramerius5.nkp.cz/view/uuid:1ed20270-2ffb-11de-8f63-000d606f5dc6?page=uuid:5b1ad7b0-7b52-11e7-89ee-5ef3fc9ae867"
+            note="p. 112"
+          />
+          <Qt
+            publication={PUBLICATIONS.TILIA}
+            href="https://kramerius5.nkp.cz/view/uuid:46c7f19b-ec76-11f0-897f-72b499cdd859"
+            note="p. 155"
           />
         </p>
       </Col>

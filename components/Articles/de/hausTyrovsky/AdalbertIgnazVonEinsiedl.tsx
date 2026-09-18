@@ -2,6 +2,7 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { PUBLICATIONS } from '../../../../shared/constants'
 import { Qt } from '../../../Quote/Qt'
+import { Cit } from '../../../Citation'
 
 export const AdalbertIgnazVonEinsiedl = () => (
   <>
@@ -52,13 +53,36 @@ export const AdalbertIgnazVonEinsiedl = () => (
           väterlichen Erbe. Oto Jiří von Helversen, Herr auf Krakovec, ließ sich
           auf seiner Herrschaft sogleich 3000 Gulden versichern, die ihm der
           junge Týřovský für goldene Sachen, Diamanten und Rubine schuldig
-          geblieben war. 1676 kaufte er das Dorf Třímaný hinzu und entließ im
-          selben Jahr den Burggrafen Daniel Vlašimský, einen früheren Prager
+          geblieben war. 1676 kaufte er das Dorf Třímaný hinzu – von Norbert
+          Miseroni, der es von der Herrschaft Krašov abverkaufte – und entließ
+          im selben Jahr den Burggrafen Daniel Vlašimský, einen früheren Prager
           Bürger, aus seinen Diensten, dem er 500 Gulden schuldig blieb.
           <Qt
             publication={PUBLICATIONS.KOCKA1}
             href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:982a126d-a074-4939-802f-22a8843d76ad"
             note="S. 316, 378"
+          />
+          <Qt
+            publication={PUBLICATIONS.SEDLACEK13}
+            href="https://kramerius5.nkp.cz/view/uuid:12f8f660-3001-11de-b49a-000d606f5dc6?page=uuid:6b070060-7b5f-11e7-89ee-5ef3fc9ae867"
+            note="S. 121"
+          />
+        </p>
+        <p>
+          Wie sein Vater bekleidete er das Amt des Hauptmanns des Rakonitzer
+          Kreises. Die Chronik des Klosters Plasy verzeichnet ihn in dieser
+          Würde am 13. November 1681, als er zusammen mit Graf Štampach, dem
+          Hauptmann des Pilsner Kreises, königlicher Kommissar bei der Wahl des
+          Abtes Ondřej Trojer war. Dieselbe Chronik berichtet, dass der Plasser
+          Ordensmann Leopold Miškovský im März 1688{' '}
+          <Cit>mladým pánům baronům Týřovským</Cit> (den jungen Herren Baronen
+          Týřovský) als Präfekt nach Prag mitgegeben wurde, wo er selbst die
+          Rechte studierte; ein anderer Plasser Priester, Kandid Ungar,
+          verbrachte siebzehn Jahre bei Vojtěch Ignác auf Chříč als Hauskaplan.
+          <Qt
+            publication={PUBLICATIONS.TILIA}
+            href="https://kramerius5.nkp.cz/view/uuid:46c7f19b-ec76-11f0-897f-72b499cdd859"
+            note="S. 81, 149, 151"
           />
         </p>
         <p>
@@ -89,9 +113,15 @@ export const AdalbertIgnazVonEinsiedl = () => (
           />
         </p>
         <p>
-          Er starb 1695. Er hinterließ die Witwe Kateřina Magdalena, geborene
-          Gräfin von Brandenburg, die Söhne Jan Vilém, Michal Antonín und
-          František Pavel sowie die Töchter Anna und Polyxena. Chříč erbte
+          Er starb 1695 und wurde in der Kirche in Milíčov bestattet.
+          <Qt
+            publication={PUBLICATIONS.SEDLACEK8}
+            href="https://kramerius5.nkp.cz/view/uuid:1ed20270-2ffb-11de-8f63-000d606f5dc6?page=uuid:5b1ad7b0-7b52-11e7-89ee-5ef3fc9ae867"
+            note="S. 112"
+          />{' '}
+          Er hinterließ die Witwe Kateřina Magdalena, geborene Gräfin von
+          Brandenburg, die Söhne Jan Vilém, Michal Antonín und František Pavel
+          sowie die Töchter Anna Barbora und Polyxena Lidmila. Chříč erbte
           Michal Antonín, der noch nicht volljährig war und daher unter der
           Vormundschaft seines älteren Bruders Jan Vilém blieb. Die Witwe
           kündigte sogleich Jan Kautský, der hier dreizehn Jahre Burggraf
@@ -115,13 +145,34 @@ export const AdalbertIgnazVonEinsiedl = () => (
           Schäfereien Ptíč, Březsko und Dubjany sowie eine Mühle mit
           Pulverstampfe und Weingarten bei der Stadt Louny. Jeder der Brüder
           behielt sich fünf Personen vor, und alle verpflichteten sich, der
-          Mutter Kateřina Magdalena jährlich je 300 Gulden zu zahlen. Michal
-          Antonín, der letzte Inhaber des Erbes von Chříč, starb 1705; seine
-          Gemahlin war Konstancie von Sporck.
+          Mutter Kateřina Magdalena jährlich je 300 Gulden zu zahlen.
           <Qt
             publication={PUBLICATIONS.KOCKA1}
             href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:cad91700-163b-46b7-9616-472c3b1b10de"
-            note="S. 317, 361"
+            note="S. 317"
+          />{' '}
+          Sedláček fügt hinzu, dass auf der Herrschaft zu jener Zeit 69 450
+          rheinische Gulden Schulden lasteten, und zählt auf, was sie damals
+          umfasste: das Schloss und Dorf Chříč mit dem Hof, die Dörfer Slatina,
+          Lhota, Holovousy, Hlince und Studená, Hof und Dorf Březsko, den Hof in
+          Ptíč, den Hof Dubjany, Milíčov mit dem Kirchenpatronat, Hedčany,
+          Třímany, Bělbožice, das Städtchen Kožlany mit dem Kirchenpatronat und
+          das wüste Dorf Dolany.{' '}
+          <Cit>Tak Týřovští po stu letech Chříč opustili.</Cit> (So verließen
+          die Týřovský nach hundert Jahren Chříč.) Dass die neue Herrschaft
+          schon Ende 1701 auf Chříč saß, belegt die Plasser Chronik: Seit dem
+          19. November 1701 wirkte dort ein Kaplan{' '}
+          <Cit>u hraběnky Lažanské na Chříči</Cit> (bei der Gräfin Lažanská auf
+          Chříč).
+          <Qt
+            publication={PUBLICATIONS.SEDLACEK8}
+            href="https://kramerius5.nkp.cz/view/uuid:1ed20270-2ffb-11de-8f63-000d606f5dc6?page=uuid:5b1ad7b0-7b52-11e7-89ee-5ef3fc9ae867"
+            note="S. 112"
+          />
+          <Qt
+            publication={PUBLICATIONS.TILIA}
+            href="https://kramerius5.nkp.cz/view/uuid:46c7f19b-ec76-11f0-897f-72b499cdd859"
+            note="S. 155"
           />
         </p>
       </Col>

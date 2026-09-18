@@ -20,6 +20,31 @@ export const Stemma = () => (
           Poskočilová per il loro aiuto nella ricerca.
         </p>
         <p>
+          Lo stemma Jobst di Einsiedl lo ricevette, secondo Sedláček,{' '}
+          <Cit>bezpochyby za krále Ladislava</Cit> (senza dubbio sotto il re
+          Ladislao); il suo miglioramento da parte del re Federico III del 23
+          novembre 1455 è registrato nei regesti di Chmel (n. 3452) e Sedláček
+          lo inserì nell&apos;elenco delle lettere di concessione di stemmi
+          degli anni 1439–1456.
+          <Qt
+            publication={PUBLICATIONS.SEDLACEK_HERALDIKA1}
+            href="https://kramerius5.nkp.cz/view/uuid:d6b3bfb0-3f08-11e4-bc3a-005056827e51?page=uuid:b6070390-f000-11e9-9a61-005056827e52"
+            note="p. 90"
+          />
+          <Qt
+            publication={PUBLICATIONS.OTTO25}
+            href="https://kramerius5.nkp.cz/view/uuid:7e11fe20-043e-11e5-95ff-5ef3fc9bb22f?page=uuid:c0908a40-1452-11e5-ac49-005056825209"
+            note="p. 154"
+          />{' '}
+          Vojtěch Král di Dobrá Voda cita lo stemma dei Týřovský tra gli esempi
+          in cui l&apos;aquila fu concessa{' '}
+          <Cit>jakožto znamení zvláštní císařské milosti</Cit> (quale segno di
+          speciale grazia imperiale) – nel 1° e 4° campo dello{' '}
+          <Cit>štípeného a dvakráte děleného štítu</Cit> (scudo partito e due
+          volte troncato).
+          <Qt publication={PUBLICATIONS.KRAL_HERALDIKA} note="p. 136" />
+        </p>
+        <p>
           La descrizione dello stemma dei Týřovský varia considerevolmente tra i
           singoli autori. August Sedláček nella Českomoravská heraldika scrive
           che{' '}
@@ -40,6 +65,11 @@ export const Stemma = () => (
           bianchi con il busto di un uomo in veste azzurra con bordatura dorata,
           a sinistra con lambrecchini rossi e bianchi con un alto cappello rosso
           con tesa bianca ricurva e un (nero) pennacchio.)
+          <Qt
+            publication={PUBLICATIONS.SEDLACEK_HERALDIKA2}
+            href="https://kramerius5.nkp.cz/view/uuid:b5251ae0-2457-11e4-8e0d-005056827e51?page=uuid:31c098d0-418c-11e4-bdb5-005056825209"
+            note="p. 120"
+          />
         </p>
         <p>Rudolf Jan Meraviglia-Crivelli nel Der Böhmische Adel afferma:</p>
       </Col>
@@ -58,6 +88,7 @@ export const Stemma = () => (
             oben mit sieben schwarzen Hahnenfedern besteckt; Decken:
             Roth-silbern.
           </Cit>
+          <Qt publication={PUBLICATIONS.MERAVIGLIA} note="p. 39–40, tav. 31" />
         </p>
       </Col>
       <Col>
@@ -136,11 +167,28 @@ export const Stemma = () => (
             href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:85055638-c5cd-4b57-bd54-93a437e6ce73&fulltext=1472"
           />
           , e che a quanto si dice adottò le sue bande dallo stemma del suo
-          signore. <Qt publication={PUBLICATIONS.PELANT} /> Più corretta,
-          tuttavia, sarebbe la variante di Milíčov, dove la fanciulla, i
-          corrispondenti lambrecchini e le bande sono tutti di nero. È
-          interessante notare che questa è anche l&apos;unica raffigurazione
-          contemporanea in cui la fanciulla si pone una corona sul capo.
+          signore. <Qt publication={PUBLICATIONS.PELANT} /> Anche Sedláček,
+          nella voce su Kožlany, scrive che Vladislao II nel 1472 accrebbe lo
+          stemma della cittadina <Cit>o rodinný znak Týřovských z Ensidle</Cit>{' '}
+          (con lo stemma familiare dei Týřovský di Einsiedl) e lo descrive:{' '}
+          <Cit>
+            štít na příč rozpůlený; v dolní polovici 2 pruhy stříbrné a 2
+            červené pošikem položené, v hor. polovici barvy modré vystupuje
+            polovina kozla barvy stříbrné, držící sekeru
+          </Cit>{' '}
+          (scudo troncato; nella metà inferiore 2 bande d&apos;argento e 2 di
+          rosso poste in diagonale, nella metà superiore d&apos;azzurro esce la
+          metà di un caprone d&apos;argento che tiene una scure).
+          <Qt
+            publication={PUBLICATIONS.OTTO14}
+            href="https://kramerius5.nkp.cz/view/uuid:7e11fe20-043e-11e5-95ff-5ef3fc9bb22f?page=uuid:00846670-05b3-11e5-95ff-5ef3fc9bb22f"
+            note="p. 1060"
+          />{' '}
+          Più corretta, tuttavia, sarebbe la variante di Milíčov, dove la
+          fanciulla, i corrispondenti lambrecchini e le bande sono tutti di
+          nero. È interessante notare che questa è anche l&apos;unica
+          raffigurazione contemporanea in cui la fanciulla si pone una corona
+          sul capo.
         </p>
         <p>
           Il corretto blasonamento quindi molto probabilmente recita:

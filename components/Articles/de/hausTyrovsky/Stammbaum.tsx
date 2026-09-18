@@ -1,6 +1,131 @@
 import { Col, Row } from 'reactstrap'
-import React from 'react'
+import React, { ReactNode } from 'react'
 import Link from 'next/link'
+import styles from '../../cz/tyrovsti/Rozrod.module.scss'
+
+interface Person {
+  name: ReactNode
+  dates?: string
+  href?: string
+  children?: Person[]
+}
+
+const tree: Person = {
+  name: 'Jobst von Einsiedl',
+  dates: 'um 1420 – 1474',
+  href: '#jobst-of-einsiedl',
+  children: [
+    {
+      name: 'Jindřich',
+      dates: 'um 1466 – 1556',
+      href: '#henry-of-einsiedl',
+      children: [
+        {
+          name: 'Jošt auf Skryje',
+          dates: '†1574',
+          children: [
+            {
+              name: 'Jan auf Skryje und Chříč',
+              dates: '†1609',
+              href: '#johann-von-einsiedl',
+            },
+            {
+              name: 'Kateřina',
+              dates: '⚭ Kryštof Jindřich Krakovský von Kolovrat',
+            },
+          ],
+        },
+        { name: 'Albrecht auf Týřov', dates: '†1571' },
+        { name: 'Jan auf Broumy', dates: '†1574' },
+        {
+          name: 'Jiřík auf Hřebečníky',
+          dates: '†1578–1583',
+          children: [
+            { name: 'Dorota' },
+            {
+              name: 'Jindřich Jakub',
+              dates: '†1618',
+              href: '#heinrich-jakob-von-einsiedl',
+              children: [
+                {
+                  name: 'Adam Jindřich',
+                  dates: '†1652',
+                  href: '#adam-heinrich-von-einsiedl',
+                  children: [
+                    {
+                      name: 'Kateřina Dorota',
+                      dates: '⚭ Václav Mikuláš Broum von Miřetice',
+                    },
+                    {
+                      name: 'Vojtěch Ignác',
+                      dates: '†1695',
+                      href: '#adalbert-ignaz-von-einsiedl',
+                      children: [
+                        {
+                          name: 'Jan Vilém',
+                          children: [{ name: 'Josefa Anna' }],
+                        },
+                        {
+                          name: 'Michal Antonín',
+                          dates: '1677 – 1705',
+                          href: '#die-letzten-tyrovsky',
+                          children: [
+                            { name: 'Marie Konstancie', dates: '1701 – 1722' },
+                            { name: 'Marie Anna', dates: '*1704' },
+                            {
+                              name: 'Jan Michal',
+                              dates:
+                                'der Letzte im Mannesstamm, *1705, lebte noch 1768',
+                              href: '#die-letzten-tyrovsky',
+                            },
+                          ],
+                        },
+                        { name: 'František Pavel', dates: '†um 1717' },
+                        { name: 'Anna Barbora' },
+                        { name: 'Polyxena Lidmila' },
+                      ],
+                    },
+                  ],
+                },
+                {
+                  name: 'Dorota Polyxena',
+                  dates: '⚭ Petr Jiří Kokořovec von Kokořov, †1640',
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+  ],
+}
+
+const Node = ({ person }: { person: Person }) => {
+  const label = person.href ? (
+    <Link href={person.href}>{person.name}</Link>
+  ) : (
+    person.name
+  )
+  return (
+    <span className={styles.node}>
+      {label}
+      {person.dates && <span className={styles.dates}>{person.dates}</span>}
+    </span>
+  )
+}
+
+const TreeNode = ({ person }: { person: Person }) => (
+  <li>
+    <Node person={person} />
+    {person.children && person.children.length > 0 && (
+      <ul>
+        {person.children.map((child, i) => (
+          <TreeNode key={i} person={child} />
+        ))}
+      </ul>
+    )}
+  </li>
+)
 
 export const Stammbaum = () => (
   <>
@@ -12,58 +137,11 @@ export const Stammbaum = () => (
     </Row>
     <Row>
       <Col>
-        <table
-          border={1}
-          style={{
-            borderCollapse: 'collapse',
-            textAlign: 'center',
-            width: '100%',
-          }}
-        >
-          <tbody>
-            <tr>
-              <td colSpan={18}>
-                <Link href="#jobst-of-einsiedl">Jobst von Einsiedl</Link> (um
-                1420–1474)
-              </td>
-            </tr>
-            <tr>
-              <td colSpan={18}>
-                <Link href="#henry-of-einsiedl">Jindřich (Heinrich)</Link> (um
-                1466–1556)
-              </td>
-            </tr>
-            <tr>
-              <td colSpan={4}>Jobst von Skryje (&dagger;1574)</td>
-              <td colSpan={4}>Albrecht von Týřov (&dagger;1571)</td>
-              <td colSpan={4}>Jan von Broumy (&dagger;1574)</td>
-              <td colSpan={6}>Jiřík von Hřebečníky (&dagger;1583)</td>
-            </tr>
-            <tr>
-              <td colSpan={2}>Jan von Skryje (&dagger;1609)</td>
-              <td colSpan={2}>Kateřina</td>
-              <td colSpan={8}></td>
-              <td colSpan={2}>Dorota</td>
-              <td colSpan={4}>Jindřich Jakub (&dagger;1618)</td>
-            </tr>
-            <tr>
-              <td colSpan={14}></td>
-              <td colSpan={4}>Adam Jindřich (&dagger;1652)</td>
-            </tr>
-            <tr>
-              <td colSpan={14}></td>
-              <td>Dorota</td>
-              <td colSpan={3}>Vojtěch Ignác (&dagger;1695)</td>
-            </tr>
-            <tr>
-              <td colSpan={15}></td>
-              <td>Jan Vilém</td>
-              <td>Michal Antonín (&dagger;1705)</td>
-              <td>František Pavel</td>
-            </tr>
-          </tbody>
-        </table>
-        <br />
+        <div className={styles.tree}>
+          <ul>
+            <TreeNode person={tree} />
+          </ul>
+        </div>
       </Col>
     </Row>
   </>

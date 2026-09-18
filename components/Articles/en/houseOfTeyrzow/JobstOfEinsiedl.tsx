@@ -223,19 +223,27 @@ export const JobstOfEinsiedl = () => (
           held jointly with Hynec Dehraw, or that he was behind the elevation of
           Jobst&apos;s coat of arms by Frederick III on <b>23 November</b> of
           the same year.
-          <Qt publication={PUBLICATIONS.BOUKAL} note="page 83" /> As his
-          confidential scribe he was literally indispensable to him. Therefore,
-          if he was not absent on some mission, he was always by the side of the
-          land administrator, accompanying him on his major campaigns in
-          Moravia, Silesia, and Austria, often engaging in trade, as in Brno,
-          and informing his friends in Cheb with apparent satisfaction about the
-          successful achievements of the governor. Although a Catholic and
-          unconditionally devoted to the Roman Church, he maintained unwavering
-          loyalty to his Utraquist lord at all times by — a rarity at the time —
-          being able to rightly separate religious beliefs from loyalty to
-          service. Therefore, he also enjoyed the full trust and favor of George
-          and was often entrusted with tasks that required special care and
-          reliability.
+          <Qt publication={PUBLICATIONS.BOUKAL} note="page 83" /> The entry
+          concerning Jeschkendorf is dated on the feast of the Epiphany, that is{' '}
+          <b>January 6, 1455</b>, and is preserved in the extracts from the
+          registers of the Duchy of Wrocław.
+          <Qt
+            publication={PUBLICATIONS.ZBYTKY}
+            href="https://kramerius5.nkp.cz/view/uuid:4a255040-84f9-11e4-9d8c-005056827e51?page=uuid:36ae89b0-b3dd-11e4-9a04-5ef3fc9bb22f"
+            note="p. 236, no. 1689"
+          />
+          As his confidential scribe he was literally indispensable to him.
+          Therefore, if he was not absent on some mission, he was always by the
+          side of the land administrator, accompanying him on his major
+          campaigns in Moravia, Silesia, and Austria, often engaging in trade,
+          as in Brno, and informing his friends in Cheb with apparent
+          satisfaction about the successful achievements of the governor.
+          Although a Catholic and unconditionally devoted to the Roman Church,
+          he maintained unwavering loyalty to his Utraquist lord at all times by
+          — a rarity at the time — being able to rightly separate religious
+          beliefs from loyalty to service. Therefore, he also enjoyed the full
+          trust and favor of George and was often entrusted with tasks that
+          required special care and reliability.
           <Qt
             publication={PUBLICATIONS.KURSCHNER}
             href="https://sources.cms.flu.cas.cz/src/index.php?s=v&cat=50&bookid=488&page=7"
@@ -290,10 +298,19 @@ export const JobstOfEinsiedl = () => (
           />{' '}
           or a transumpt of Pope Pius II&apos;s bull from March 1459, which
           names Jobst as <Cit>Jodocus de Eynsedil, milites Pragensis</Cit>.
-          <Qt publication={PUBLICATIONS.BOUKAL1} /> The people of Cheb were
-          unofficially informed of the election by a letter from Jobst;
-          officially they were notified by a great letter with many seals, whose
-          author may also have been Jobst.
+          <Qt publication={PUBLICATIONS.BOUKAL1} /> The vidimus was drawn up on{' '}
+          <b>March 12, 1459</b> at Kłodzko by Nicholas, abbot of Kamieniec, and
+          Michael, provost of Kłodzko, at the request of Jan of Warnsdorf,
+          captain of Kłodzko, and of Jobst, who presented the bull in the name
+          of King George.
+          <Qt
+            publication={PUBLICATIONS.AC15}
+            href="https://kramerius5.nkp.cz/view/uuid:c2007dd0-8dd6-11e8-9588-5ef3fc9bb22f?page=uuid:41335510-9b8c-11e8-b814-5ef3fc9bb22f"
+            note="p. 221, no. 113"
+          />
+          The people of Cheb were unofficially informed of the election by a
+          letter from Jobst; officially they were notified by a great letter
+          with many seals, whose author may also have been Jobst.
           <Qt publication={PUBLICATIONS.BOUKAL} note="page 84" />
         </p>
         <p>
@@ -315,20 +332,27 @@ export const JobstOfEinsiedl = () => (
           registered him on <b>July 2, 1460</b> the castle of Týřov with the
           town of Kožlany, the villages of Mlečice, Chmelištná, Zavidov,
           Týřovice, Broumy, Kouřimec, Újezdec, Hudlice with all benefits and
-          taxes in Novosedly. It was stipulated that Jobst must not be repaid
-          until his death, and after his death, only the king himself may
-          repurchase the estates for 600 schocks of groschen. According to the
-          resolution, Týřov Castle must remain open at all times and if the king
-          were to spend on it due to wars, it would be at no loss to Jobst. With
-          the forests, neither Jobst nor his heirs have anything to do nor sell
-          timber, only to take it unimpeded for fuel and repairs to the castle.
-          In hunting small game and birds, Jobst was free, whereas he was
-          allowed to hunt 3 deer and 10 roes a year with the knowledge of the
-          Křivoklát burgrave, who was obliged to lend him dogs and puppies.
-          Since the castle needed repairs to its walls, underpinning, and
-          buildings, the king added 100 schocks of groschen for repairs to
-          Jobst. If the castle were to be captured by Jobst, the kings are
-          obliged to help him recapture it or pay him within two years.
+          taxes in Novosedly; according to the extract from the royal registers
+          the whole pledge sum amounted to 1,050 schocks of groschen.
+          <Qt
+            publication={PUBLICATIONS.ZBYTKY}
+            href="https://kramerius5.nkp.cz/view/uuid:4a255040-84f9-11e4-9d8c-005056827e51?page=uuid:379c9330-b3dd-11e4-9a04-5ef3fc9bb22f"
+            note="p. 245, no. 1732"
+          />{' '}
+          It was stipulated that Jobst must not be repaid until his death, and
+          after his death, only the king himself may repurchase the estates for
+          600 schocks of groschen. According to the resolution, Týřov Castle
+          must remain open at all times and if the king were to spend on it due
+          to wars, it would be at no loss to Jobst. With the forests, neither
+          Jobst nor his heirs have anything to do nor sell timber, only to take
+          it unimpeded for fuel and repairs to the castle. In hunting small game
+          and birds, Jobst was free, whereas he was allowed to hunt 3 deer and
+          10 roes a year with the knowledge of the Křivoklát burgrave, who was
+          obliged to lend him dogs and puppies. Since the castle needed repairs
+          to its walls, underpinning, and buildings, the king added 100 schocks
+          of groschen for repairs to Jobst. If the castle were to be captured by
+          Jobst, the kings are obliged to help him recapture it or pay him
+          within two years.
           <Qt publication={PUBLICATIONS.KOCKA} />
         </p>
       </Col>
@@ -624,20 +648,32 @@ export const JobstOfEinsiedl = () => (
           community the church had excluded him. His estates were devastated,
           his subjects&apos; villages burned and destroyed (he quantified his
           losses at 300 schocks of groschen). King George recognized the damage
-          and in 1466 credited him with 100 schocks of groschen for the
-          construction of ponds and granted him mercy that his son Henry would
-          not be able to be paid out from Týřov until his death. Faced with this
-          devastation, Jobst fought a hard battle with himself; for conscience
-          and faith, church commandments and sworn loyalty were in constant
-          conflict: the fierce battle that stirred the whole era is reflected in
-          the breast of this man, who resolutely adhered to what he recognized
-          in his simple soul as right and good. Eventually, he decided on
-          suffering obedience, because it was about the faith, which he did not
-          want to weaken by resistance <Cit>nicht schwächen helfen</Cit> (help
-          to weaken). Thus, he shared the same fate as the allied city of Cheb,
-          which he tried to comfort and strengthen in obedience. Only when he
-          saw that his opponents cared less about faith than about plunder, did
-          he take up the sword to secure peace.
+          and by a charter of <b>October 21, 1466</b> credited him with 100
+          schocks of groschen for the construction of ponds and granted him the
+          favour that neither he nor his eldest son could be paid out from Týřov
+          until their deaths.
+          <Qt
+            publication={PUBLICATIONS.ZBYTKY}
+            href="https://kramerius5.nkp.cz/view/uuid:4a255040-84f9-11e4-9d8c-005056827e51?page=uuid:39f6d6e0-b3dd-11e4-9a04-5ef3fc9bb22f"
+            note="p. 266, no. 1806"
+          />
+          <Qt
+            publication={PUBLICATIONS.TEIGE_LISTAR}
+            href="https://kramerius5.nkp.cz/view/uuid:8e3d4b30-7bb8-11e7-8b50-001018b5eb5c"
+            note="p. 19, no. 24"
+          />
+          Faced with this devastation, Jobst fought a hard battle with himself;
+          for conscience and faith, church commandments and sworn loyalty were
+          in constant conflict: the fierce battle that stirred the whole era is
+          reflected in the breast of this man, who resolutely adhered to what he
+          recognized in his simple soul as right and good. Eventually, he
+          decided on suffering obedience, because it was about the faith, which
+          he did not want to weaken by resistance{' '}
+          <Cit>nicht schwächen helfen</Cit> (help to weaken). Thus, he shared
+          the same fate as the allied city of Cheb, which he tried to comfort
+          and strengthen in obedience. Only when he saw that his opponents cared
+          less about faith than about plunder, did he take up the sword to
+          secure peace.
           <Qt
             publication={PUBLICATIONS.KURSCHNER}
             href="https://sources.cms.flu.cas.cz/src/index.php?s=v&cat=50&bookid=488&page=12"
@@ -668,7 +704,14 @@ export const JobstOfEinsiedl = () => (
           on <Cit>na jeho páně Šumburkuov zámek</Cit> (his lord Šumburk&apos;s
           castle). If Šumburk failed to appear in court against Jobst, he was to
           compensate Jobst for the stolen cows.
-          <Qt publication={PUBLICATIONS.KOCKA} />
+          <Qt publication={PUBLICATIONS.KOCKA} /> The registers of the chamber
+          court record both findings – of June 20 and of October 3, 1472 – and
+          consistently style Jobst in them as the royal secretary.
+          <Qt
+            publication={PUBLICATIONS.AC7}
+            href="https://kramerius5.nkp.cz/view/uuid:597c2280-8dd8-11e8-9588-5ef3fc9bb22f?page=uuid:668ce0c0-9bb3-11e8-9b22-5ef3fc9ae867"
+            note="p. 453 and 457–458, no. 114 and 125"
+          />
         </p>
         <p>
           He also continued to serve the people of Cheb as their informant about
@@ -695,8 +738,43 @@ export const JobstOfEinsiedl = () => (
           estate at Hlince, and that same year confirmed all privileges granted
           to him by King George, and additionally allowed him to kill up to four
           deer or does in the forests and especially allocated 50 schocks of
-          groschen for castle repairs. However, Jobst died the following year.
-          On <b>July 11, 1474</b>, he was still present at the chamber court,
+          groschen for castle repairs. The charter concerning Hlince is dated at
+          Prague on <b>June 18, 1473</b>: the king granted Jobst, his secretary,
+          the right of escheat after Kateřina of Radkov to a peasant farmstead
+          on which sat Matěj called Žižák. The holders of the farmstead – Jan of
+          Miletínek and Újezd, Jan Vrš of Všetaty and Matěj of Hlince – were
+          called upon to lodge their objections within two weeks, and on{' '}
+          <b>July 4, 1474</b> the chamberlain Valentin put Jobst in possession
+          of the farmstead, appraised at 20 schocks of groschen.
+          <Qt
+            publication={PUBLICATIONS.AC37}
+            href="https://kramerius5.nkp.cz/view/uuid:ecb030a0-9567-11e8-87bd-005056827e52?page=uuid:cfac4800-b5e6-11e8-98a3-5ef3fc9bb22f"
+            note="p. 632–633, no. 60"
+          />{' '}
+          A further 100 schocks for the building work at Týřov were credited to
+          Jobst by King Vladislaus at Kłodzko on <b>August 21, 1473</b>, and all
+          the charters concerning Týřov were confirmed to him on{' '}
+          <b>March 7, 1474</b>.
+          <Qt
+            publication={PUBLICATIONS.ZBYTKY}
+            href="https://kramerius5.nkp.cz/view/uuid:4a255040-84f9-11e4-9d8c-005056827e51?page=uuid:3ca6dbb0-b3dd-11e4-9a04-5ef3fc9bb22f"
+            note="p. 291, no. 25–26"
+          />{' '}
+          However, Jobst died the following year. As late as <b>June 11</b> and{' '}
+          <b>July 15, 1474</b>, <Cit>Jodocus de Eynzidl</Cit> sat among the
+          lords of the council at the chamber court beside the supreme
+          chamberlain Vilém of Rýzmberk and the supreme burgrave Jan of
+          Janovice,
+          <Qt
+            publication={PUBLICATIONS.AC4}
+            href="https://kramerius5.nkp.cz/view/uuid:d1ba97d0-8dd4-11e8-9588-5ef3fc9bb22f?page=uuid:d8048ad0-9cff-11e8-99aa-005056827e51"
+            note="p. 288–289, no. 44–45"
+          />
+          <Qt
+            publication={PUBLICATIONS.AC7}
+            href="https://kramerius5.nkp.cz/view/uuid:597c2280-8dd8-11e8-9588-5ef3fc9bb22f?page=uuid:6b4ade00-9bb3-11e8-9b22-5ef3fc9ae867"
+            note="p. 484, no. 197"
+          />{' '}
           but by 1476 he was no longer alive, as noted in a letter from{' '}
           <b>April 17, 1476</b>:{' '}
           <Cit>Wie etwen herre Jobst vom Eynsidel, demegot gnade</Cit> (May God
@@ -709,7 +787,23 @@ export const JobstOfEinsiedl = () => (
           was entered into the land registers. Its wording has unfortunately not
           been preserved; we know, however, that it was invalidated, having been
           made <Cit>po smrti pečetín</Cit> (sealed after death).
-          <Qt publication={PUBLICATIONS.BOUKAL} note="page 90" />
+          <Qt publication={PUBLICATIONS.BOUKAL} note="page 90" /> The books of
+          findings of the land court made a general rule of it:{' '}
+          <Cit>
+            Kšaft podle práva na list mocný královský učiněný, ve dsky vložený,
+            král zase s pány vyzdvihli a odvolali, protože jest byl po smrti
+            pečetín. O tom nález Septimo Plana D. XXX, kdež Jošt z Eynsydle
+            kšaft dělá.
+          </Cit>{' '}
+          (A will lawfully made under a royal letter of authority and entered
+          into the land tables was annulled and revoked by the king and the
+          lords, because it had been sealed after death. On this see the finding
+          Septimo Plana D. XXX, where Jobst of Einsiedl makes his will.)
+          <Qt
+            publication={PUBLICATIONS.AC19}
+            href="https://kramerius5.nkp.cz/view/uuid:4d1a50b0-8dd9-11e8-9588-5ef3fc9bb22f?page=uuid:e8041af0-9b8c-11e8-8b19-005056825209"
+            note="p. 510, finding 46"
+          />
         </p>
       </Col>
     </Row>

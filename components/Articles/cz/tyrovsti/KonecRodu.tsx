@@ -67,8 +67,8 @@ export const KonecRodu = () => (
             href="https://kramerius5.nkp.cz/view/uuid:7e11fe20-043e-11e5-95ff-5ef3fc9bb22f?page=uuid:c0908a40-1452-11e5-ac49-005056825209"
             note="Str. 154"
           />
-          <Qt publication={PUBLICATIONS.MERAVIGLIA} note="Str. 39–40" />
-          Kolem roku 1759{' '}
+          <Qt publication={PUBLICATIONS.MERAVIGLIA} note="Str. 39–40" /> Kolem
+          roku 1759{' '}
           <Cit>
             upadl v hypochondrickou nemoc, pro kterou byl pod poručenstvím
           </Cit>

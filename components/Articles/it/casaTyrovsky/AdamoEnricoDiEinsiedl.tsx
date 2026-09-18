@@ -2,6 +2,7 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { PUBLICATIONS } from '../../../../shared/constants'
 import { Qt } from '../../../Quote/Qt'
+import { Cit } from '../../../Citation'
 
 export const AdamoEnricoDiEinsiedl = () => (
   <>
@@ -54,7 +55,14 @@ export const AdamoEnricoDiEinsiedl = () => (
           termine scadde senza che potesse pagare, il creditore prese possesso
           della tenuta di Chříč. Il Týřovský si liberò del debito prendendo in
           moglie la figlia di Vilém, Eva Eurosina di Klenové, che dal padre
-          comprò la città di Zvíkovec e il villaggio di Chlum.
+          comprò la città di Zvíkovec e il villaggio di Chlum. Secondo Sedláček,
+          Vilém di Klenové comprò Zvíkovec nel 1633 da Václav Heraklius di
+          Bliživo in realtà già per la figlia sposata.
+          <Qt
+            publication={PUBLICATIONS.SEDLACEK13}
+            href="https://kramerius5.nkp.cz/view/uuid:12f8f660-3001-11de-b49a-000d606f5dc6?page=uuid:930c0ec0-7b5f-11e7-89ee-5ef3fc9ae867"
+            note="p. 249"
+          />
           <Qt
             publication={PUBLICATIONS.KOCKA1}
             href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:7c883e9c-c039-4e28-8217-2e3df2340137"
@@ -79,6 +87,60 @@ export const AdamoEnricoDiEinsiedl = () => (
             publication={PUBLICATIONS.KOCKA1}
             href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:7c883e9c-c039-4e28-8217-2e3df2340137"
             note="p. 315"
+          />{' '}
+          Bílek data l&apos;intero procedimento: il procuratore regio lo accusò
+          davanti alla commissione delle confische di Frýdlant il 15 novembre
+          1632, la commissione di revisione propose la grazia il 12 agosto 1638,
+          la risoluzione imperiale la confermò il 14 dicembre 1638 a condizione
+          che{' '}
+          <Cit>
+            místo pokuty, za provinění své zasloužilé, 3000 zl. rýn. na hotově
+            složil
+          </Cit>{' '}
+          (in luogo della pena meritata per la sua colpa versasse in contanti
+          3000 fiorini renani); 2000 fiorini furono destinati alla costruzione
+          del castello di Praga con risoluzione del 30 dicembre 1638 e i
+          restanti 1000 donati ai gesuiti il 10 gennaio 1639.
+          <Qt
+            publication={PUBLICATIONS.BILEK}
+            href="https://kramerius5.nkp.cz/view/uuid:ca6e5cc0-e117-11dc-9e25-000d606f5dc6?page=uuid:e8fba37e-cf71-4acd-8727-f1a0a3d6f8e3"
+            note="p. 674, 821"
+          />
+        </p>
+        <p>
+          Chříč intanto portava il peso del vettovagliamento dell&apos;esercito.
+          Della fine di gennaio del 1638 si è conservata la sua richiesta di
+          sconto sulla contribuzione per le tenute di Chříč e Zvíkovec: ai
+          soldati aveva già consegnato 3131 fiorini e 14 carantani, 44 929
+          libbre di carne, 740 strych di segale, 451 strych di frumento e 1661
+          strych di avena, mentre per la contribuzione di Budějovice doveva
+          ancora 394 fiorini e 45 carantani. Il commissario regionale Skuhrovský
+          raccomandò di condonare quattro quinti dell&apos;arretrato e il 4
+          maggio 1638 fu deciso in tal senso.
+          <Qt
+            publication={PUBLICATIONS.MILITARE5}
+            href="https://kramerius5.nkp.cz/view/uuid:ce02ccf0-c3af-11e3-bb44-5ef3fc9bb22f?page=uuid:ee70b330-7262-40d2-ac5e-7c68d922cf02"
+            note="p. 153, 167"
+          />
+        </p>
+        <p>
+          Negli anni dal 1640 al 1644 fu egli stesso capitano della regione di
+          Rakovník insieme a Jan Ferdinand Renšperger di Renšperk. Il 26
+          dicembre 1640 entrambi scrissero da Rakovník{' '}
+          <Cit>cito, cito, citissime</Cit> ai luogotenenti che il commissario
+          Rossi de Dateli aveva condotto nella regione, rovinata dalla guerra,
+          quattro reggimenti di fanteria a loro insaputa; nel giugno del 1642
+          segnalarono nove reggimenti di Suys con l&apos;artiglieria e tre
+          reggimenti di croati a Rakovník.
+          <Qt
+            publication={PUBLICATIONS.MILITARE6}
+            href="https://kramerius5.nkp.cz/view/uuid:ce02ccf0-c3af-11e3-bb44-5ef3fc9bb22f"
+            note="p. 137, 187, 249, 306–313"
+          />
+          <Qt
+            publication={PUBLICATIONS.MILITARE7}
+            href="https://kramerius5.nkp.cz/view/uuid:ce02ccf0-c3af-11e3-bb44-5ef3fc9bb22f"
+            note="p. 179, 186"
           />
         </p>
         <p>
@@ -114,19 +176,27 @@ export const AdamoEnricoDiEinsiedl = () => (
           />
         </p>
         <p>
-          Morì nel maggio del 1652. Nelle sue ultime volontà dispose che il suo
-          corpo fosse vestito di biancheria bianca non passata al mangano e
-          sepolto senza alcuno sfarzo nella chiesa di Kožlany, alla quale lasciò
-          500 sexagene affinché ogni mese fosse celebrata una messa cantata per
-          la salvezza della sua anima. Al funerale tutti i sudditi poveri
-          dovevano ricevere un&apos;elemosina di sei carantani ciascuno e per
-          pranzo un pezzo di carne, dieci poveri un vestito di panno e altri
-          dieci uno di tela nera. La tenuta di Chříč, molto rovinata, andò al
-          figlio Vojtěch Ignác, alla vedova Eva Eurosina 20 000 sexagene e,
-          qualora non le fossero state pagate, doveva nel frattempo prendere il
-          podere di Ptíč, il mulino Lejskovský e i villaggi di Hlince e Studená;
-          alla figlia Kateřina Dorota furono destinati 6000 fiorini di dote e il
-          corredo. I debiti ammontavano a 11 500 fiorini.
+          Morì verso la fine di maggio del 1652; il testamento lo redasse il 29
+          aprile 1652 e vi definì la tenuta <Cit>na nejvýš zruinirovaný</Cit>{' '}
+          (rovinata all&apos;estremo).
+          <Qt
+            publication={PUBLICATIONS.SEDLACEK8}
+            href="https://kramerius5.nkp.cz/view/uuid:1ed20270-2ffb-11de-8f63-000d606f5dc6?page=uuid:5af72310-7b52-11e7-89ee-5ef3fc9ae867"
+            note="p. 111–112"
+          />{' '}
+          Vi dispose che il suo corpo fosse vestito di biancheria bianca non
+          passata al mangano e sepolto senza alcuno sfarzo nella chiesa di
+          Kožlany, alla quale lasciò 500 sexagene affinché ogni mese fosse
+          celebrata una messa cantata per la salvezza della sua anima. Al
+          funerale tutti i sudditi poveri dovevano ricevere un&apos;elemosina di
+          sei carantani ciascuno e per pranzo un pezzo di carne, dieci poveri un
+          vestito di panno e altri dieci uno di tela nera. La tenuta di Chříč,
+          molto rovinata, andò al figlio Vojtěch Ignác, alla vedova Eva Eurosina
+          20 000 sexagene e, qualora non le fossero state pagate, doveva nel
+          frattempo prendere il podere di Ptíč, il mulino Lejskovský e i
+          villaggi di Hlince e Studená; alla figlia Kateřina Dorota furono
+          destinati 6000 fiorini di dote e il corredo. I debiti ammontavano a 11
+          500 fiorini.
           <Qt
             publication={PUBLICATIONS.KOCKA1}
             href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:982a126d-a074-4939-802f-22a8843d76ad"

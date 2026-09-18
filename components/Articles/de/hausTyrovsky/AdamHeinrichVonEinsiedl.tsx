@@ -2,6 +2,7 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { PUBLICATIONS } from '../../../../shared/constants'
 import { Qt } from '../../../Quote/Qt'
+import { Cit } from '../../../Citation'
 
 export const AdamHeinrichVonEinsiedl = () => (
   <>
@@ -53,7 +54,14 @@ export const AdamHeinrichVonEinsiedl = () => (
           1631 verstrichen war und er nicht zahlen konnte, ergriff der Gläubiger
           Besitz vom Gut Chříč. Der Schuld entledigte sich Týřovský dadurch,
           dass er Viléms Tochter Eva Eurosina von Klenové zur Frau nahm, die von
-          ihrem Vater das Städtchen Zvíkovec und das Dorf Chlum kaufte.
+          ihrem Vater das Städtchen Zvíkovec und das Dorf Chlum kaufte. Nach
+          Sedláček kaufte Vilém von Klenové Zvíkovec 1633 von Václav Heraklius
+          von Bliživo eigentlich schon für seine verheiratete Tochter.
+          <Qt
+            publication={PUBLICATIONS.SEDLACEK13}
+            href="https://kramerius5.nkp.cz/view/uuid:12f8f660-3001-11de-b49a-000d606f5dc6?page=uuid:930c0ec0-7b5f-11e7-89ee-5ef3fc9ae867"
+            note="S. 249"
+          />
           <Qt
             publication={PUBLICATIONS.KOCKA1}
             href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:7c883e9c-c039-4e28-8217-2e3df2340137"
@@ -78,6 +86,59 @@ export const AdamHeinrichVonEinsiedl = () => (
             publication={PUBLICATIONS.KOCKA1}
             href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:7c883e9c-c039-4e28-8217-2e3df2340137"
             note="S. 315"
+          />{' '}
+          Bílek datiert den ganzen Vorgang: Der königliche Prokurator klagte ihn
+          am 15. November 1632 vor der Friedländer Konfiskationskommission an,
+          die Revisionskommission schlug am 12. August 1638 die Begnadigung vor,
+          und die kaiserliche Resolution bestätigte sie am 14. Dezember 1638
+          unter der Bedingung, dass er{' '}
+          <Cit>
+            místo pokuty, za provinění své zasloužilé, 3000 zl. rýn. na hotově
+            složil
+          </Cit>{' '}
+          (anstelle der für sein Vergehen verdienten Strafe 3000 rheinische
+          Gulden in bar erlege); 2000 Gulden wurden durch Resolution vom 30.
+          Dezember 1638 für den Bau der Prager Burg bestimmt und die übrigen
+          1000 am 10. Januar 1639 den Jesuiten geschenkt.
+          <Qt
+            publication={PUBLICATIONS.BILEK}
+            href="https://kramerius5.nkp.cz/view/uuid:ca6e5cc0-e117-11dc-9e25-000d606f5dc6?page=uuid:e8fba37e-cf71-4acd-8727-f1a0a3d6f8e3"
+            note="S. 674, 821"
+          />
+        </p>
+        <p>
+          Chříč trug unterdessen die Last der Heeresversorgung. Von Ende Januar
+          1638 ist sein Gesuch um Nachlass der Kontribution für die Güter Chříč
+          und Zvíkovec erhalten: Den Soldaten hatte er bereits 3131 Gulden 14
+          Kreuzer, 44 929 Pfund Fleisch, 740 Strich Roggen, 451 Strich Weizen
+          und 1661 Strich Hafer geliefert, während er auf die Budweiser
+          Kontribution 394 Gulden 45 Kreuzer schuldig war. Der Kreiskommissar
+          Skuhrovský empfahl, vier Fünftel des Rückstands zu erlassen, und am 4.
+          Mai 1638 wurde so entschieden.
+          <Qt
+            publication={PUBLICATIONS.MILITARE5}
+            href="https://kramerius5.nkp.cz/view/uuid:ce02ccf0-c3af-11e3-bb44-5ef3fc9bb22f?page=uuid:ee70b330-7262-40d2-ac5e-7c68d922cf02"
+            note="S. 153, 167"
+          />
+        </p>
+        <p>
+          In den Jahren 1640 bis 1644 war er selbst Hauptmann des Rakonitzer
+          Kreises, zusammen mit Jan Ferdinand Renšperger von Renšperk. Am 26.
+          Dezember 1640 schrieben beide aus Rakovník{' '}
+          <Cit>cito, cito, citissime</Cit> an die Statthalter, der Kommissar
+          Rossi de Dateli habe ohne ihr Wissen vier Fußregimenter in den vom
+          Krieg ausgezehrten Kreis geführt; im Juni 1642 meldeten sie neun
+          Regimenter des Generals Suys mit Artillerie und drei Regimenter
+          Kroaten in Rakovník.
+          <Qt
+            publication={PUBLICATIONS.MILITARE6}
+            href="https://kramerius5.nkp.cz/view/uuid:ce02ccf0-c3af-11e3-bb44-5ef3fc9bb22f"
+            note="S. 137, 187, 249, 306–313"
+          />
+          <Qt
+            publication={PUBLICATIONS.MILITARE7}
+            href="https://kramerius5.nkp.cz/view/uuid:ce02ccf0-c3af-11e3-bb44-5ef3fc9bb22f"
+            note="S. 179, 186"
           />
         </p>
         <p>
@@ -111,19 +172,27 @@ export const AdamHeinrichVonEinsiedl = () => (
           />
         </p>
         <p>
-          Er starb im Mai 1652. In seinem letzten Willen verfügte er, sein Leib
-          solle in ungemangelte weiße Wäsche gekleidet und ohne allen Prunk in
-          der Kirche zu Kožlany bestattet werden, der er 500 Schock vermachte,
-          damit für das Heil seiner Seele jeden Monat eine gesungene Messe
-          gehalten werde. Beim Begräbnis sollten alle armen Untertanen ein
-          Almosen von je sechs Kreuzern und zum Mittagsmahl ein Stück Fleisch
-          erhalten, zehn Arme ein Gewand aus Tuch und weitere zehn eines aus
-          schwarzem Leinen. Das arg heruntergewirtschaftete Gut Chříč erhielt
-          der Sohn Vojtěch Ignác, die Witwe Eva Eurosina 20 000 Schock, und
-          würde sie nicht ausgezahlt, sollte sie einstweilen den Hof Ptíč, die
-          Mühle Lejskovský und die Dörfer Hlince und Studená übernehmen; der
-          Tochter Kateřina Dorota wurden 6000 Gulden Mitgift und die Aussteuer
-          zugewiesen. An Schulden waren es 11 500 Gulden.
+          Er starb gegen Ende Mai 1652; seinen letzten Willen setzte er am 29.
+          April 1652 auf und nannte darin das Gut{' '}
+          <Cit>na nejvýš zruinirovaný</Cit> (aufs Äußerste ruiniert).
+          <Qt
+            publication={PUBLICATIONS.SEDLACEK8}
+            href="https://kramerius5.nkp.cz/view/uuid:1ed20270-2ffb-11de-8f63-000d606f5dc6?page=uuid:5af72310-7b52-11e7-89ee-5ef3fc9ae867"
+            note="S. 111–112"
+          />{' '}
+          Darin verfügte er, sein Leib solle in ungemangelte weiße Wäsche
+          gekleidet und ohne allen Prunk in der Kirche zu Kožlany bestattet
+          werden, der er 500 Schock vermachte, damit für das Heil seiner Seele
+          jeden Monat eine gesungene Messe gehalten werde. Beim Begräbnis
+          sollten alle armen Untertanen ein Almosen von je sechs Kreuzern und
+          zum Mittagsmahl ein Stück Fleisch erhalten, zehn Arme ein Gewand aus
+          Tuch und weitere zehn eines aus schwarzem Leinen. Das arg
+          heruntergewirtschaftete Gut Chříč erhielt der Sohn Vojtěch Ignác, die
+          Witwe Eva Eurosina 20 000 Schock, und würde sie nicht ausgezahlt,
+          sollte sie einstweilen den Hof Ptíč, die Mühle Lejskovský und die
+          Dörfer Hlince und Studená übernehmen; der Tochter Kateřina Dorota
+          wurden 6000 Gulden Mitgift und die Aussteuer zugewiesen. An Schulden
+          waren es 11 500 Gulden.
           <Qt
             publication={PUBLICATIONS.KOCKA1}
             href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:982a126d-a074-4939-802f-22a8843d76ad"

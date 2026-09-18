@@ -2,6 +2,7 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { PUBLICATIONS } from '../../../../shared/constants'
 import { Qt } from '../../../Quote/Qt'
+import { Cit } from '../../../Citation'
 
 export const JohnOfEinsiedl = () => (
   <>
@@ -27,12 +28,99 @@ export const JohnOfEinsiedl = () => (
           village of Chříč, the mill opposite the brewery, a sheepfold, the
           village of Lhota with the miller Kuba, a share in Holovousy, the
           demesne manor of Dubjany, a deserted mill on the river, a fishery with
-          a privileged tavern and the village of Studená for 17,000 schocks. At
-          that time he still wrote his name with Hřebečníky and Skryje.
+          a privileged tavern and the village of Studená for{' '}
+          <abbr title="I.e. 8,500 schocks of Bohemian groschen; one schock of Bohemian groschen was worth two schocks of Meissen groschen.">
+            17,000 schocks of Meissen groschen
+          </abbr>
+          . At that time he still wrote his name with Hřebečníky and Skryje.
           <Qt
             publication={PUBLICATIONS.KOCKA1}
             href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:dab901de-288a-4ad7-9ecc-ad96381e5e5a"
             note="p. 313, 409"
+          />
+          <Qt
+            publication={PUBLICATIONS.SEDLACEK8}
+            href="https://kramerius5.nkp.cz/view/uuid:1ed20270-2ffb-11de-8f63-000d606f5dc6?page=uuid:5af72310-7b52-11e7-89ee-5ef3fc9ae867"
+            note="p. 111"
+          />{' '}
+          In 1582 Jan had Skryje, together with other property, entered in the
+          renewed land tables. Hřebečníky, which he held from 1585 after his
+          uncle Jiřík, he administered according to Sedláček only as guardian of
+          Jiřík&apos;s son Jindřich Jakub, who in 1600, on coming of age,
+          thanked him,{' '}
+          <Cit>jenž statek nejináče nežli jako vlastní otec spravoval</Cit> (who
+          had managed the estate no differently than a father of his own would).
+          <Qt
+            publication={PUBLICATIONS.SEDLACEK8}
+            href="https://kramerius5.nkp.cz/view/uuid:1ed20270-2ffb-11de-8f63-000d606f5dc6?page=uuid:57ac8bf0-7b52-11e7-89ee-5ef3fc9ae867"
+            note="p. 94, 96"
+          />
+        </p>
+        <p>
+          In 1594 Jan sent to the campaign against the Turks three horsemen, led
+          by <Cit>strejc jeho</Cit> (his kinsman), and eight foot soldiers under
+          the ninth banner of the regiment of Bohuchval Rut; at the muster near
+          Znojmo in September 1594 he is recorded among the lordly estate of the
+          Rakovník district.
+          <Qt
+            publication={PUBLICATIONS.SNEMY8}
+            note="p. 704 and 717, no. 360 and 371"
+          />{' '}
+          In 1597 the general diet elected him, in place of the deceased Kryštof
+          Jindřich Krakovský of Kolovrat, to the commission for reconciling the
+          municipal law with the land ordinance, on which Daniel Adam of
+          Veleslavín also sat.
+          <Qt publication={PUBLICATIONS.SNEMY9} note="p. 422, no. 308" /> In
+          1600 he was, together with Kryštof Šlovský of Šlovice, captain of the
+          Rakovník district – in a report to the emperor of 3 June 1600 on the
+          collection of the diet&apos;s levy from shops, crafts and trades he
+          signed himself <Cit>Jan Tejřovský z Ensidle na Křičí a Dubjanech</Cit>{' '}
+          – and from 1602 to 1605 he sat for the lordly estate of his district
+          on the committee that was to decide, in the event of sudden danger, on
+          calling out the general levy; at that time he wrote his name{' '}
+          <Cit>na Hřebečnicích</Cit> (at Hřebečníky).
+          <Qt
+            publication={PUBLICATIONS.SNEMY10}
+            note="p. 74–91, 278, 414, 562"
+          />
+          <Qt publication={PUBLICATIONS.SNEMY11} note="p. 190–191, no. 40" />{' '}
+          According to the list of regional captains he also held the office in
+          1602, 1604 and 1609.
+          <Qt
+            publication={PUBLICATIONS.PA1876}
+            href="https://kramerius5.nkp.cz/view/uuid:be359a80-ce5a-11e4-9c07-5ef3fc9bb22f?page=uuid:8cab6340-d8b5-11e4-ae4e-5ef3fc9ae867"
+            note="p. 607–610"
+          />
+          <Qt publication={PUBLICATIONS.PA1875} note="p. 375–376" /> In 1605 he
+          lent the Bohemian chamber 1,334 schocks 58 Meissen groschen.
+          <Qt publication={PUBLICATIONS.SNEMY11} note="vol. XI/2, no. 325" />
+        </p>
+        <p>
+          Zikmund Winter ranks him among the harsh overlords: villagers are said
+          to have{' '}
+          <Cit>
+            běhali světem, majíce železné obojky na krku z trestu, jak jim je
+            věšíval a rukama svýma na petličný zámek zavíral urozený Jan
+            Tejřovský z Ejnsidle a na Skrejích
+          </Cit>{' '}
+          (roamed the world with iron collars round their necks as a punishment,
+          as the noble Jan Týřovský of Einsiedl and at Skryje used to hang them
+          on them and lock them with a padlock with his own hands).
+          <Qt
+            publication={PUBLICATIONS.WINTER_KULT2}
+            href="https://kramerius5.nkp.cz/view/uuid:f72f4b00-98d5-11dc-8990-000d606f5dc6"
+            note="p. 540"
+          />{' '}
+          In 1602 he conducted before the land court a suit against Šebestián
+          Lažanský over a fine of twenty schocks{' '}
+          <Cit>pro vystavení a zaražení nový krčmy</Cit> (for building and
+          setting up a new tavern); Vilém Slavata noted in his memoranda how
+          Lažanský&apos;s friend, the procurator Jan Peldřimovský, tried in vain
+          to excuse himself from testifying.
+          <Qt
+            publication={PUBLICATIONS.KOCKA1}
+            href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:0132fcc1-2009-403e-9c75-02a78988d5e8"
+            note="p. 343"
           />
         </p>
         <p>

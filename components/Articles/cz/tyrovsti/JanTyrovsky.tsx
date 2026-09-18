@@ -87,7 +87,7 @@ export const JanTyrovsky = () => (
           />
           <Qt publication={PUBLICATIONS.PA1875} note="Str. 375–376" /> Roku 1605
           půjčil České komoře 1334 kop 58 grošů míšeňských.
-          <Qt publication={PUBLICATIONS.SNEMY11} note="Str. díl XI/2, č. 325" />
+          <Qt publication={PUBLICATIONS.SNEMY11} note="Díl XI/2, č. 325" />
         </p>
         <p>
           Zikmund Winter ho řadí mezi tvrdé vrchnosti: vesničané prý{' '}

@@ -20,6 +20,31 @@ export const Wappen = () => (
           Poskočilová für ihre Hilfe bei der Recherche danken.
         </p>
         <p>
+          Das Wappen erhielt Jobst von Einsiedl nach Sedláček{' '}
+          <Cit>bezpochyby za krále Ladislava</Cit> (zweifellos unter König
+          Ladislaus); seine Besserung durch König Friedrich III. vom 23.
+          November 1455 ist in Chmels Regesten (Nr. 3452) verzeichnet, und
+          Sedláček nahm sie in sein Verzeichnis der Wappenbriefe aus den Jahren
+          1439–1456 auf.
+          <Qt
+            publication={PUBLICATIONS.SEDLACEK_HERALDIKA1}
+            href="https://kramerius5.nkp.cz/view/uuid:d6b3bfb0-3f08-11e4-bc3a-005056827e51?page=uuid:b6070390-f000-11e9-9a61-005056827e52"
+            note="S. 90"
+          />
+          <Qt
+            publication={PUBLICATIONS.OTTO25}
+            href="https://kramerius5.nkp.cz/view/uuid:7e11fe20-043e-11e5-95ff-5ef3fc9bb22f?page=uuid:c0908a40-1452-11e5-ac49-005056825209"
+            note="S. 154"
+          />{' '}
+          Vojtěch Král von Dobrá Voda führt das Wappen der Týřovský unter den
+          Beispielen an, in denen der Adler{' '}
+          <Cit>jakožto znamení zvláštní císařské milosti</Cit> (als Zeichen
+          besonderer kaiserlicher Gnade) verliehen wurde – im 1. und 4. Feld des{' '}
+          <Cit>štípeného a dvakráte děleného štítu</Cit> (gespaltenen und
+          zweimal geteilten Schildes).
+          <Qt publication={PUBLICATIONS.KRAL_HERALDIKA} note="S. 136" />
+        </p>
+        <p>
           Die Beschreibung des Wappens der Týřovský weicht bei den einzelnen
           Autoren erheblich voneinander ab. August Sedláček schreibt in der
           Českomoravská heraldika, dass{' '}
@@ -41,6 +66,11 @@ export const Wappen = () => (
           mit goldener Einfassung, links mit rot-weißen Helmdecken und einem
           hohen roten Hut mit weißer gebogener Krempe und einem (schwarzen)
           Federbusch.)
+          <Qt
+            publication={PUBLICATIONS.SEDLACEK_HERALDIKA2}
+            href="https://kramerius5.nkp.cz/view/uuid:b5251ae0-2457-11e4-8e0d-005056827e51?page=uuid:31c098d0-418c-11e4-bdb5-005056825209"
+            note="S. 120"
+          />
         </p>
         <p>Rudolf Jan Meraviglia-Crivelli schreibt in Der Böhmische Adel:</p>
       </Col>
@@ -59,6 +89,7 @@ export const Wappen = () => (
             oben mit sieben schwarzen Hahnenfedern besteckt; Decken:
             Roth-silbern.
           </Cit>
+          <Qt publication={PUBLICATIONS.MERAVIGLIA} note="S. 39–40, Taf. 31" />
         </p>
       </Col>
       <Col>
@@ -135,11 +166,27 @@ export const Wappen = () => (
             href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:85055638-c5cd-4b57-bd54-93a437e6ce73&fulltext=1472"
           />
           , und das seine Balken angeblich vom Wappen seines Lehnsherrn
-          übernahm. <Qt publication={PUBLICATIONS.PELANT} /> Korrekter wäre
-          jedoch die Variante aus Milíčov, wo die Jungfrau, die entsprechende
-          Helmdecke und die Balken allesamt schwarz sind. Es ist bemerkenswert,
-          dass dies auch die einzige zeitgenössische Darstellung ist, auf der
-          sich die Jungfrau eine Krone aufs Haupt setzt.
+          übernahm. <Qt publication={PUBLICATIONS.PELANT} /> Auch Sedláček
+          schreibt im Artikel über Kožlany, Vladislav II. habe 1472 das Wappen
+          des Städtchens <Cit>o rodinný znak Týřovských z Ensidle</Cit> (um das
+          Familienwappen der Týřovský von Einsiedl) vermehrt, und beschreibt es:{' '}
+          <Cit>
+            štít na příč rozpůlený; v dolní polovici 2 pruhy stříbrné a 2
+            červené pošikem položené, v hor. polovici barvy modré vystupuje
+            polovina kozla barvy stříbrné, držící sekeru
+          </Cit>{' '}
+          (ein quergeteilter Schild; in der unteren Hälfte 2 silberne und 2 rote
+          Schrägbalken, aus der oberen, blauen Hälfte wächst ein halber
+          silberner Bock hervor, der eine Axt hält).
+          <Qt
+            publication={PUBLICATIONS.OTTO14}
+            href="https://kramerius5.nkp.cz/view/uuid:7e11fe20-043e-11e5-95ff-5ef3fc9bb22f?page=uuid:00846670-05b3-11e5-95ff-5ef3fc9bb22f"
+            note="S. 1060"
+          />
+          Korrekter wäre jedoch die Variante aus Milíčov, wo die Jungfrau, die
+          entsprechende Helmdecke und die Balken allesamt schwarz sind. Es ist
+          bemerkenswert, dass dies auch die einzige zeitgenössische Darstellung
+          ist, auf der sich die Jungfrau eine Krone aufs Haupt setzt.
         </p>
         <p>
           Die korrekte Blasonierung lautet daher höchstwahrscheinlich:

@@ -2,6 +2,7 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { PUBLICATIONS } from '../../../../shared/constants'
 import { Qt } from '../../../Quote/Qt'
+import { Cit } from '../../../Citation'
 
 export const GiovanniDiEinsiedl = () => (
   <>
@@ -28,12 +29,102 @@ export const GiovanniDiEinsiedl = () => (
           birrificio, l&apos;ovile, il villaggio di Lhota con il mugnaio Kuba,
           la quota di Holovousy, il podere di Dubjany, il mulino abbandonato sul
           fiume, la peschiera con l&apos;osteria privilegiata e il villaggio di
-          Studená per 17 000 sexagene. All&apos;epoca si firmava ancora come
-          signore di Hřebečníky e Skryje.
+          Studená per{' '}
+          <abbr title="Cioè 8500 sexagene di grossi boemi; una sexagena di grossi boemi valeva due sexagene di grossi di Meissen.">
+            17 000 sexagene di grossi di Meissen
+          </abbr>
+          . All&apos;epoca si firmava ancora come signore di Hřebečníky e
+          Skryje.
           <Qt
             publication={PUBLICATIONS.KOCKA1}
             href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:dab901de-288a-4ad7-9ecc-ad96381e5e5a"
             note="p. 313, 409"
+          />
+          <Qt
+            publication={PUBLICATIONS.SEDLACEK8}
+            href="https://kramerius5.nkp.cz/view/uuid:1ed20270-2ffb-11de-8f63-000d606f5dc6?page=uuid:5af72310-7b52-11e7-89ee-5ef3fc9ae867"
+            note="p. 111"
+          />{' '}
+          Skryje, insieme ad altri beni, Jan le fece iscrivere nel 1582 nelle
+          rinnovate tavole del paese. Hřebečníky, che teneva dal 1585 dopo lo
+          zio Jiřík, le amministrava secondo Sedláček soltanto come tutore del
+          figlio di Jiřík, Jindřich Jakub, il quale nel 1600, raggiunta la
+          maggiore età, lo ringraziò,{' '}
+          <Cit>jenž statek nejináče nežli jako vlastní otec spravoval</Cit>{' '}
+          (avendo egli amministrato la tenuta non altrimenti che come un vero
+          padre).
+          <Qt
+            publication={PUBLICATIONS.SEDLACEK8}
+            href="https://kramerius5.nkp.cz/view/uuid:1ed20270-2ffb-11de-8f63-000d606f5dc6?page=uuid:57ac8bf0-7b52-11e7-89ee-5ef3fc9ae867"
+            note="p. 94, 96"
+          />
+        </p>
+        <p>
+          Nel 1594 Jan inviò alla campagna contro i turchi tre cavalieri,
+          guidati da <Cit>strejc jeho</Cit> (suo zio), e otto fanti sotto la
+          nona insegna del reggimento di Bohuchval Rut; alla rassegna presso
+          Znojmo nel settembre del 1594 è registrato tra lo stato signorile
+          della regione di Rakovník.
+          <Qt
+            publication={PUBLICATIONS.SNEMY8}
+            note="p. 704 e 717, n. 360 e 371"
+          />{' '}
+          Nel 1597 la dieta generale lo elesse, al posto del defunto Kryštof
+          Jindřich Krakovský di Kolovrat, nella commissione per
+          l&apos;armonizzazione dei diritti municipali con l&apos;ordinamento
+          del paese, nella quale sedeva anche Daniel Adam di Veleslavín.
+          <Qt publication={PUBLICATIONS.SNEMY9} note="p. 422, n. 308" /> Nel
+          1600 fu, insieme a Kryštof Šlovský di Šlovice, capitano della regione
+          di Rakovník – nella relazione all&apos;imperatore del 3 giugno 1600
+          sulla riscossione dell&apos;imposta votata dalla dieta su botteghe,
+          mestieri e commerci si firmò come{' '}
+          <Cit>Jan Tejřovský z Ensidle na Křičí a Dubjanech</Cit> – e negli anni
+          dal 1602 al 1605 sedette per lo stato signorile della sua regione nel
+          comitato che in caso di pericolo improvviso doveva decidere sulla
+          chiamata alle armi della leva generale; si firmava allora{' '}
+          <Cit>na Hřebečnicích</Cit>.
+          <Qt
+            publication={PUBLICATIONS.SNEMY10}
+            note="p. 74–91, 278, 414, 562"
+          />
+          <Qt publication={PUBLICATIONS.SNEMY11} note="p. 190–191, n. 40" />{' '}
+          Secondo l&apos;elenco dei capitani regionali ricoprì la carica anche
+          negli anni 1602, 1604 e 1609.
+          <Qt
+            publication={PUBLICATIONS.PA1876}
+            href="https://kramerius5.nkp.cz/view/uuid:be359a80-ce5a-11e4-9c07-5ef3fc9bb22f?page=uuid:8cab6340-d8b5-11e4-ae4e-5ef3fc9ae867"
+            note="p. 607–610"
+          />
+          <Qt publication={PUBLICATIONS.PA1875} note="p. 375–376" /> Nel 1605
+          prestò alla camera boema 1334 sexagene e 58 grossi di Meissen.
+          <Qt publication={PUBLICATIONS.SNEMY11} note="vol. XI/2, n. 325" />
+        </p>
+        <p>
+          Zikmund Winter lo annovera tra i signori duri: i contadini, a quanto
+          pare,{' '}
+          <Cit>
+            běhali světem, majíce železné obojky na krku z trestu, jak jim je
+            věšíval a rukama svýma na petličný zámek zavíral urozený Jan
+            Tejřovský z Ejnsidle a na Skrejích
+          </Cit>{' '}
+          (vagavano per il mondo con collari di ferro al collo per punizione,
+          come glieli metteva e con le proprie mani chiudeva a lucchetto il
+          nobile Jan Tejřovský di Einsiedl e di Skryje).
+          <Qt
+            publication={PUBLICATIONS.WINTER_KULT2}
+            href="https://kramerius5.nkp.cz/view/uuid:f72f4b00-98d5-11dc-8990-000d606f5dc6"
+            note="p. 540"
+          />{' '}
+          Nel 1602 sostenne davanti al tribunale del paese una causa con
+          Šebestián Lažanský per una multa di venti sexagene{' '}
+          <Cit>pro vystavení a zaražení nový krčmy</Cit> (per la costruzione e
+          l&apos;apertura di una nuova osteria); Vilém Slavata annotò nei suoi
+          appunti come l&apos;amico di Lažanský, il procuratore Jan
+          Peldřimovský, cercasse invano di sottrarsi alla testimonianza.
+          <Qt
+            publication={PUBLICATIONS.KOCKA1}
+            href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:0132fcc1-2009-403e-9c75-02a78988d5e8"
+            note="p. 343"
           />
         </p>
         <p>

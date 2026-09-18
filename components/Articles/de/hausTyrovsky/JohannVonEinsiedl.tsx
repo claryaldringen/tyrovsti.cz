@@ -2,6 +2,7 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { PUBLICATIONS } from '../../../../shared/constants'
 import { Qt } from '../../../Quote/Qt'
+import { Cit } from '../../../Citation'
 
 export const JohannVonEinsiedl = () => (
   <>
@@ -27,12 +28,99 @@ export const JohannVonEinsiedl = () => (
           Chříč, die Mühle gegenüber der Brauerei, die Schäferei, das Dorf Lhota
           mit dem Müller Kuba, den Anteil in Holovousy, den Meierhof Dubjany,
           eine wüste Mühle am Fluss, ein Fischhaus mit privilegierter Schenke
-          und das Dorf Studená für 17 000 Schock. Er schrieb sich damals noch
-          auf Hřebečníky und Skryje.
+          und das Dorf Studená für{' '}
+          <abbr title="D. h. 8500 Schock böhmische Groschen; ein Schock böhmischer Groschen galt zwei Schock Meißner Groschen.">
+            17 000 Schock Meißner Groschen
+          </abbr>
+          . Er schrieb sich damals noch auf Hřebečníky und Skryje.
           <Qt
             publication={PUBLICATIONS.KOCKA1}
             href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:dab901de-288a-4ad7-9ecc-ad96381e5e5a"
             note="S. 313, 409"
+          />
+          <Qt
+            publication={PUBLICATIONS.SEDLACEK8}
+            href="https://kramerius5.nkp.cz/view/uuid:1ed20270-2ffb-11de-8f63-000d606f5dc6?page=uuid:5af72310-7b52-11e7-89ee-5ef3fc9ae867"
+            note="S. 111"
+          />{' '}
+          Skryje ließ Jan 1582 samt anderen Gütern in die erneuerten Landtafeln
+          eintragen. Hřebečníky, das er nach seinem Oheim Jiřík seit 1585
+          innehatte, verwaltete er nach Sedláček nur als Vormund von Jiříks Sohn
+          Jindřich Jakub, der ihm 1600 nach Erreichen der Volljährigkeit dankte,{' '}
+          <Cit>jenž statek nejináče nežli jako vlastní otec spravoval</Cit> (der
+          das Gut nicht anders als ein leiblicher Vater verwaltet hatte).
+          <Qt
+            publication={PUBLICATIONS.SEDLACEK8}
+            href="https://kramerius5.nkp.cz/view/uuid:1ed20270-2ffb-11de-8f63-000d606f5dc6?page=uuid:57ac8bf0-7b52-11e7-89ee-5ef3fc9ae867"
+            note="S. 94, 96"
+          />
+        </p>
+        <p>
+          1594 stellte Jan für den Feldzug gegen die Türken drei Reiter, die{' '}
+          <Cit>strejc jeho</Cit> (sein Oheim) führte, und acht Fußknechte unter
+          der neunten Fahne des Regiments Bohuchval Rut; bei der Musterung bei
+          Znaim im September 1594 ist er unter dem Herrenstand des Rakonitzer
+          Kreises verzeichnet.
+          <Qt
+            publication={PUBLICATIONS.SNEMY8}
+            note="S. 704 und 717, Nr. 360 und 371"
+          />{' '}
+          1597 wählte ihn der Generallandtag anstelle des verstorbenen Kryštof
+          Jindřich Krakovský von Kolovrat in die Kommission zur Angleichung der
+          Stadtrechte an die Landesordnung, in der auch Daniel Adam von
+          Veleslavín saß.
+          <Qt publication={PUBLICATIONS.SNEMY9} note="S. 422, Nr. 308" /> 1600
+          war er zusammen mit Kryštof Šlovský von Šlovice Hauptmann des
+          Rakonitzer Kreises – in der Relation an den Kaiser vom 3. Juni 1600
+          über die Erhebung der Landtagssteuer von Läden, Handwerken und
+          Geschäften unterzeichnete er als{' '}
+          <Cit>Jan Tejřovský z Ensidle na Křičí a Dubjanech</Cit> – und in den
+          Jahren 1602 bis 1605 saß er für den Herrenstand seines Kreises in dem
+          Ausschuss, der bei unversehener Gefahr über das Aufbieten des
+          Landesaufgebots entscheiden sollte; er schrieb sich damals{' '}
+          <Cit>na Hřebečnicích</Cit> (auf Hřebečníky).
+          <Qt
+            publication={PUBLICATIONS.SNEMY10}
+            note="S. 74–91, 278, 414, 562"
+          />
+          <Qt publication={PUBLICATIONS.SNEMY11} note="S. 190–191, Nr. 40" />{' '}
+          Nach dem Verzeichnis der Kreishauptleute bekleidete er das Amt auch in
+          den Jahren 1602, 1604 und 1609.
+          <Qt
+            publication={PUBLICATIONS.PA1876}
+            href="https://kramerius5.nkp.cz/view/uuid:be359a80-ce5a-11e4-9c07-5ef3fc9bb22f?page=uuid:8cab6340-d8b5-11e4-ae4e-5ef3fc9ae867"
+            note="S. 607–610"
+          />
+          <Qt publication={PUBLICATIONS.PA1875} note="S. 375–376" /> 1605 lieh
+          er der Böhmischen Kammer 1334 Schock 58 Meißner Groschen.
+          <Qt publication={PUBLICATIONS.SNEMY11} note="Bd. XI/2, Nr. 325" />
+        </p>
+        <p>
+          Zikmund Winter zählt ihn zu den harten Grundherren: Die Dorfleute
+          seien{' '}
+          <Cit>
+            běhali světem, majíce železné obojky na krku z trestu, jak jim je
+            věšíval a rukama svýma na petličný zámek zavíral urozený Jan
+            Tejřovský z Ejnsidle a na Skrejích
+          </Cit>{' '}
+          (mit eisernen Halsringen zur Strafe durch die Welt gelaufen, wie sie
+          ihnen der edle Jan Týřovský von Einsiedl und auf Skryje umzuhängen und
+          mit eigenen Händen mit einem Vorhängeschloss zu verschließen pflegte).
+          <Qt
+            publication={PUBLICATIONS.WINTER_KULT2}
+            href="https://kramerius5.nkp.cz/view/uuid:f72f4b00-98d5-11dc-8990-000d606f5dc6"
+            note="S. 540"
+          />{' '}
+          1602 führte er vor dem Landrecht einen Prozess gegen Šebestián
+          Lažanský um eine Strafe von zwanzig Schock{' '}
+          <Cit>pro vystavení a zaražení nový krčmy</Cit> (wegen Errichtung und
+          Einführung einer neuen Schenke); Vilém Slavata notierte in seinen
+          Aufzeichnungen, wie sich Lažanskýs Freund, der Prokurator Jan
+          Peldřimovský, vergeblich vom Zeugnis zu drücken versuchte.
+          <Qt
+            publication={PUBLICATIONS.KOCKA1}
+            href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:0132fcc1-2009-403e-9c75-02a78988d5e8"
+            note="S. 343"
           />
         </p>
         <p>

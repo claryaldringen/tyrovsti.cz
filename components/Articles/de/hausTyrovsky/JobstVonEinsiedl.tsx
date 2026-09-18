@@ -235,19 +235,27 @@ export const JobstVonEinsiedl = () => (
           gemeinsam mit Hynec Dehraw hielt, oder dass er hinter der
           Wappenbesserung Jobsts durch Friedrich III. am <b>23. November</b>{' '}
           desselben Jahres stand.
-          <Qt publication={PUBLICATIONS.BOUKAL} note="page 83" /> Als sein
-          Geheimsekretär war er ihm schlechthin unentbehrlich. Wenn er nicht
-          gerade auf irgendeiner Mission abwesend war, befand er sich stets an
-          der Seite des Landesverwesers und begleitete ihn auf seinen großen
-          Feldzügen in Mähren, Schlesien und Österreich, wobei er oft Handel
-          trieb, wie in Brünn, und seine Freunde in Eger mit offensichtlicher
-          Zufriedenheit über die erfolgreichen Errungenschaften des Statthalters
-          informierte. Obwohl er Katholik war und der römischen Kirche
-          bedingungslos ergeben, bewahrte er seinem utraquistischen Herrn stets
-          unerschütterliche Treue, indem er – eine Seltenheit zu jener Zeit –
-          religiöse Überzeugungen von der Treue zum Dienst zu trennen wusste.
-          Deshalb genoss er auch das volle Vertrauen und die Gunst Georgs und
-          wurde oft mit Aufgaben betraut, die besondere Sorgfalt und
+          <Qt publication={PUBLICATIONS.BOUKAL} note="page 83" /> Der Eintrag
+          über Jeschkendorf ist auf den Tag der Heiligen Drei Könige, also den{' '}
+          <b>6. Januar 1455</b>, datiert und in den Auszügen aus den Büchern des
+          Fürstentums Breslau erhalten.
+          <Qt
+            publication={PUBLICATIONS.ZBYTKY}
+            href="https://kramerius5.nkp.cz/view/uuid:4a255040-84f9-11e4-9d8c-005056827e51?page=uuid:36ae89b0-b3dd-11e4-9a04-5ef3fc9bb22f"
+            note="S. 236, Nr. 1689"
+          />{' '}
+          Als sein Geheimsekretär war er ihm schlechthin unentbehrlich. Wenn er
+          nicht gerade auf irgendeiner Mission abwesend war, befand er sich
+          stets an der Seite des Landesverwesers und begleitete ihn auf seinen
+          großen Feldzügen in Mähren, Schlesien und Österreich, wobei er oft
+          Handel trieb, wie in Brünn, und seine Freunde in Eger mit
+          offensichtlicher Zufriedenheit über die erfolgreichen Errungenschaften
+          des Statthalters informierte. Obwohl er Katholik war und der römischen
+          Kirche bedingungslos ergeben, bewahrte er seinem utraquistischen Herrn
+          stets unerschütterliche Treue, indem er – eine Seltenheit zu jener
+          Zeit – religiöse Überzeugungen von der Treue zum Dienst zu trennen
+          wusste. Deshalb genoss er auch das volle Vertrauen und die Gunst
+          Georgs und wurde oft mit Aufgaben betraut, die besondere Sorgfalt und
           Zuverlässigkeit erforderten.
           <Qt
             publication={PUBLICATIONS.KURSCHNER}
@@ -307,10 +315,20 @@ export const JobstVonEinsiedl = () => (
           />{' '}
           oder ein Transsumpt der Bulle Papst Pius&apos; II. vom März 1459, das
           Jobst als <Cit>Jodocus de Eynsedil, milites Pragensis</Cit> nennt.
-          <Qt publication={PUBLICATIONS.BOUKAL1} /> Die Egerer wurden über die
-          Wahl bereits durch einen Brief Jobsts inoffiziell unterrichtet,
-          offiziell dann durch ein großes, mit vielen Siegeln versehenes
-          Schreiben, dessen Verfasser ebenfalls Jobst gewesen sein könnte.
+          <Qt publication={PUBLICATIONS.BOUKAL1} /> Das Vidimus fertigten am{' '}
+          <b>12. März 1459</b> in Glatz der Abt von Kamenz Nikolaus und der
+          Glatzer Propst Michael auf Ersuchen des Glatzer Hauptmanns Jan von
+          Warnsdorf und Jobsts aus, die die Bulle im Namen König Georgs
+          vorgelegt hatten.
+          <Qt
+            publication={PUBLICATIONS.AC15}
+            href="https://kramerius5.nkp.cz/view/uuid:c2007dd0-8dd6-11e8-9588-5ef3fc9bb22f?page=uuid:41335510-9b8c-11e8-b814-5ef3fc9bb22f"
+            note="S. 221, Nr. 113"
+          />{' '}
+          Die Egerer wurden über die Wahl bereits durch einen Brief Jobsts
+          inoffiziell unterrichtet, offiziell dann durch ein großes, mit vielen
+          Siegeln versehenes Schreiben, dessen Verfasser ebenfalls Jobst gewesen
+          sein könnte.
           <Qt publication={PUBLICATIONS.BOUKAL} note="page 84" />
         </p>
         <p>
@@ -331,8 +349,15 @@ export const JobstVonEinsiedl = () => (
           zusätzlich 500 Schock Groschen in bar, wofür ihm der König am{' '}
           <b>2. Juli 1460</b> die Burg Týřov mit der Stadt Kožlany, den Dörfern
           Mlečice, Chmelištná, Zavidov, Týřovice, Broumy, Kouřimec, Újezdec,
-          Hudlice mit allen Einkünften und Steuern in Novosedly verschrieb. Es
-          wurde festgelegt, dass Jobst zu seinen Lebzeiten nicht ausgezahlt
+          Hudlice mit allen Einkünften und Steuern in Novosedly verschrieb; nach
+          dem Auszug aus den königlichen Registern betrug die gesamte Pfandsumme
+          1050 Schock Groschen.
+          <Qt
+            publication={PUBLICATIONS.ZBYTKY}
+            href="https://kramerius5.nkp.cz/view/uuid:4a255040-84f9-11e4-9d8c-005056827e51?page=uuid:379c9330-b3dd-11e4-9a04-5ef3fc9bb22f"
+            note="S. 245, Nr. 1732"
+          />{' '}
+          Es wurde festgelegt, dass Jobst zu seinen Lebzeiten nicht ausgezahlt
           werden dürfe, und nach seinem Tod dürfe nur der König selbst die Güter
           für 600 Schock Groschen zurückkaufen. Gemäß der Bestimmung muss die
           Burg Týřov jederzeit offen bleiben, und wenn der König wegen Kriegen
@@ -654,9 +679,20 @@ export const JobstVonEinsiedl = () => (
           Gemeinschaft ihn die Kirche ausgeschlossen hatte. Seine Güter wurden
           verwüstet, die Dörfer seiner Untertanen niedergebrannt und zerstört
           (er bezifferte seine Verluste auf 300 Schock Groschen). König Georg
-          erkannte den Schaden an und schrieb ihm 1466 100 Schock Groschen für
-          den Bau von Teichen gut und gewährte ihm die Gnade, dass sein Sohn
-          Heinrich zu dessen Lebzeiten nicht von Týřov ausgezahlt werden könne.
+          erkannte den Schaden an und schrieb ihm mit Majestätsbrief vom{' '}
+          <b>21. Oktober 1466</b> 100 Schock Groschen für den Bau von Teichen
+          gut und gewährte ihm die Gnade, dass weder er noch sein ältester Sohn
+          zu ihren Lebzeiten von Týřov ausgezahlt werden dürften.
+          <Qt
+            publication={PUBLICATIONS.ZBYTKY}
+            href="https://kramerius5.nkp.cz/view/uuid:4a255040-84f9-11e4-9d8c-005056827e51?page=uuid:39f6d6e0-b3dd-11e4-9a04-5ef3fc9bb22f"
+            note="S. 266, Nr. 1806"
+          />
+          <Qt
+            publication={PUBLICATIONS.TEIGE_LISTAR}
+            href="https://kramerius5.nkp.cz/view/uuid:8e3d4b30-7bb8-11e7-8b50-001018b5eb5c"
+            note="S. 19, Nr. 24"
+          />{' '}
           Angesichts dieser Verwüstung kämpfte Jobst einen harten Kampf mit sich
           selbst; denn Gewissen und Glaube, kirchliche Gebote und geschworene
           Treue standen in ständigem Widerstreit: der erbitterte Kampf, der die
@@ -701,7 +737,15 @@ export const JobstVonEinsiedl = () => (
           Šumburks Burg) gefunden wurden. Sollte Šumburk nicht vor Gericht gegen
           Jobst erscheinen, musste er Jobst für die gestohlenen Kühe
           entschädigen.
-          <Qt publication={PUBLICATIONS.KOCKA} />
+          <Qt publication={PUBLICATIONS.KOCKA} /> Die Register des
+          Kammergerichts halten beide Urteile – vom 20. Juni und vom 3. Oktober
+          1472 – fest und titulieren Jobst darin durchweg als königlichen
+          Sekretär.
+          <Qt
+            publication={PUBLICATIONS.AC7}
+            href="https://kramerius5.nkp.cz/view/uuid:597c2280-8dd8-11e8-9588-5ef3fc9bb22f?page=uuid:668ce0c0-9bb3-11e8-9b22-5ef3fc9ae867"
+            note="S. 453 und 457–458, Nr. 114 und 125"
+          />
         </p>
         <p>
           Den Egerern diente er weiterhin als ihr Informant über das Geschehen
@@ -729,10 +773,44 @@ export const JobstVonEinsiedl = () => (
           Gut in Hlince, und im selben Jahr bestätigte er alle von König Georg
           verliehenen Privilegien und erlaubte ihm zusätzlich, bis zu vier
           Hirsche oder Hirschkühe in den Wäldern zu erlegen, und stellte
-          insbesondere 50 Schock Groschen für Burgreparaturen bereit. Jobst
-          starb jedoch im folgenden Jahr. Am <b>11. Juli 1474</b> war er noch am
-          Kammergericht anwesend, doch 1476 lebte er nicht mehr, wie aus einem
-          Brief vom <b>17. April 1476</b> hervorgeht:{' '}
+          insbesondere 50 Schock Groschen für Burgreparaturen bereit. Die
+          Urkunde über Hlince ist in Prag am <b>18. Juni 1473</b> datiert: Der
+          König gab Jobst, seinem Sekretär, das Heimfallrecht nach Kateřina von
+          Radkov auf den Bauernhof, auf dem Matěj genannt Žižák saß. Die Inhaber
+          des Hofes – Jan von Miletínek und von Újezd, Jan Vrš von Všetaty und
+          Matěj von Hlince – wurden aufgefordert, binnen zwei Wochen Einspruch
+          zu erheben, und der Kämmerer Valentin führte Jobst am{' '}
+          <b>4. Juli 1474</b> in den Besitz des auf 20 Schock Groschen
+          geschätzten Hofes ein.
+          <Qt
+            publication={PUBLICATIONS.AC37}
+            href="https://kramerius5.nkp.cz/view/uuid:ecb030a0-9567-11e8-87bd-005056827e52?page=uuid:cfac4800-b5e6-11e8-98a3-5ef3fc9bb22f"
+            note="S. 632–633, Nr. 60"
+          />{' '}
+          Weitere 100 Schock für den Ausbau von Týřov schrieb König Vladislav
+          Jobst in Glatz am <b>21. August 1473</b> gut, und alle Majestätsbriefe
+          auf Týřov bestätigte er ihm am <b>7. März 1474</b>.
+          <Qt
+            publication={PUBLICATIONS.ZBYTKY}
+            href="https://kramerius5.nkp.cz/view/uuid:4a255040-84f9-11e4-9d8c-005056827e51?page=uuid:3ca6dbb0-b3dd-11e4-9a04-5ef3fc9bb22f"
+            note="S. 291, Nr. 25–26"
+          />{' '}
+          Jobst starb jedoch im folgenden Jahr. Noch am <b>11. Juni</b> und am{' '}
+          <b>15. Juli 1474</b> sitzt <Cit>Jodocus de Eynzidl</Cit> unter den
+          Herren des Rates beim Kammergericht neben dem Oberstkämmerer Vilém von
+          Rýzmberk und dem Oberstburggrafen Jan von Janovice,
+          <Qt
+            publication={PUBLICATIONS.AC4}
+            href="https://kramerius5.nkp.cz/view/uuid:d1ba97d0-8dd4-11e8-9588-5ef3fc9bb22f?page=uuid:d8048ad0-9cff-11e8-99aa-005056827e51"
+            note="S. 288–289, Nr. 44–45"
+          />
+          <Qt
+            publication={PUBLICATIONS.AC7}
+            href="https://kramerius5.nkp.cz/view/uuid:597c2280-8dd8-11e8-9588-5ef3fc9bb22f?page=uuid:6b4ade00-9bb3-11e8-9b22-5ef3fc9ae867"
+            note="S. 484, Nr. 197"
+          />{' '}
+          doch 1476 lebte er nicht mehr, wie aus einem Brief vom{' '}
+          <b>17. April 1476</b> hervorgeht:{' '}
           <Cit>Wie etwen herre Jobst vom Eynsidel, demegot gnade</Cit> (Gott hab
           Erbarmen mit Herrn Jobst von Einsiedl).
           <Qt
@@ -744,7 +822,24 @@ export const JobstVonEinsiedl = () => (
           uns leider nicht erhalten geblieben; wir wissen jedoch, dass es für
           ungültig erklärt wurde, da es <Cit>po smrti pečetín</Cit> (nach dem
           Tode gesiegelt) ausgefertigt worden war.
-          <Qt publication={PUBLICATIONS.BOUKAL} note="page 90" />
+          <Qt publication={PUBLICATIONS.BOUKAL} note="page 90" /> Die
+          Urteilsbücher des Landrechts machten daraus eine allgemeine Regel:{' '}
+          <Cit>
+            Kšaft podle práva na list mocný královský učiněný, ve dsky vložený,
+            král zase s pány vyzdvihli a odvolali, protože jest byl po smrti
+            pečetín. O tom nález Septimo Plana D. XXX, kdež Jošt z Eynsydle
+            kšaft dělá.
+          </Cit>{' '}
+          (Ein Testament, das nach dem Recht auf einen königlichen Machtbrief
+          errichtet und in die Landtafeln eingetragen worden war, haben der
+          König und die Herren wieder aufgehoben und widerrufen, weil es nach
+          dem Tode gesiegelt worden war. Darüber das Urteil Septimo Plana D.
+          XXX, wo Jobst von Einsiedl sein Testament macht.)
+          <Qt
+            publication={PUBLICATIONS.AC19}
+            href="https://kramerius5.nkp.cz/view/uuid:4d1a50b0-8dd9-11e8-9588-5ef3fc9bb22f?page=uuid:e8041af0-9b8c-11e8-8b19-005056825209"
+            note="S. 510, Urteil 46"
+          />
         </p>
       </Col>
     </Row>

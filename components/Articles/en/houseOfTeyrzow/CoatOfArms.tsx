@@ -20,6 +20,30 @@ export const CoatOfArms = () => (
           Poskočilová for their help with the research.
         </p>
         <p>
+          According to Sedláček, Jobst of Einsiedl received his coat of arms{' '}
+          <Cit>bezpochyby za krále Ladislava</Cit> (undoubtedly under King
+          Ladislaus); its augmentation by King Frederick III of 23 November 1455
+          is recorded in Chmel&apos;s regesta (no. 3452), and Sedláček included
+          it in his list of grants of arms from the years 1439–1456.
+          <Qt
+            publication={PUBLICATIONS.SEDLACEK_HERALDIKA1}
+            href="https://kramerius5.nkp.cz/view/uuid:d6b3bfb0-3f08-11e4-bc3a-005056827e51?page=uuid:b6070390-f000-11e9-9a61-005056827e52"
+            note="p. 90"
+          />
+          <Qt
+            publication={PUBLICATIONS.OTTO25}
+            href="https://kramerius5.nkp.cz/view/uuid:7e11fe20-043e-11e5-95ff-5ef3fc9bb22f?page=uuid:c0908a40-1452-11e5-ac49-005056825209"
+            note="p. 154"
+          />{' '}
+          Vojtěch Král of Dobrá Voda cites the Týřovský arms among the examples
+          in which the eagle was granted{' '}
+          <Cit>jakožto znamení zvláštní císařské milosti</Cit> (as a token of
+          special imperial favour) – in the 1st and 4th fields of a{' '}
+          <Cit>štípeného a dvakráte děleného štítu</Cit> (shield party per pale
+          and twice per fess).
+          <Qt publication={PUBLICATIONS.KRAL_HERALDIKA} note="p. 136" />
+        </p>
+        <p>
           The description of the Týřovský coat of arms varies considerably among
           individual authors. August Sedláček in Českomoravská heraldika writes
           that{' '}
@@ -40,6 +64,11 @@ export const CoatOfArms = () => (
           with the bust of a man in blue dress with gold edging, on the left
           with red and white mantling with a tall red hat with a white curved
           brim and a (black) plume.)
+          <Qt
+            publication={PUBLICATIONS.SEDLACEK_HERALDIKA2}
+            href="https://kramerius5.nkp.cz/view/uuid:b5251ae0-2457-11e4-8e0d-005056827e51?page=uuid:31c098d0-418c-11e4-bdb5-005056825209"
+            note="p. 120"
+          />
         </p>
         <p>Rudolf Jan Meraviglia-Crivelli in Der Böhmische Adel states:</p>
       </Col>
@@ -58,6 +87,7 @@ export const CoatOfArms = () => (
             oben mit sieben schwarzen Hahnenfedern besteckt; Decken:
             Roth-silbern.
           </Cit>
+          <Qt publication={PUBLICATIONS.MERAVIGLIA} note="p. 39–40, pl. 31" />
         </p>
       </Col>
       <Col>
@@ -131,11 +161,27 @@ export const CoatOfArms = () => (
             href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:85055638-c5cd-4b57-bd54-93a437e6ce73&fulltext=1472"
           />
           , and which reportedly adopted its bends from the arms of its
-          overlord. <Qt publication={PUBLICATIONS.PELANT} /> More correct,
-          however, would be the variant from Milíčov, where the maiden, the
-          corresponding mantling and the bends are all sable. It is interesting
-          that this is also the only contemporary depiction where the maiden
-          places a crown on her head.
+          overlord. <Qt publication={PUBLICATIONS.PELANT} /> Sedláček too, in
+          his entry on Kožlany, writes that in 1472 Vladislaus II augmented the
+          arms of the town <Cit>o rodinný znak Týřovských z Ensidle</Cit> (with
+          the family arms of the Týřovskýs of Einsiedl), and describes them:{' '}
+          <Cit>
+            štít na příč rozpůlený; v dolní polovici 2 pruhy stříbrné a 2
+            červené pošikem položené, v hor. polovici barvy modré vystupuje
+            polovina kozla barvy stříbrné, držící sekeru
+          </Cit>{' '}
+          (a shield parted per fess; in the lower half 2 argent and 2 gules
+          bends, in the upper azure half issues a demi-goat argent holding an
+          axe).
+          <Qt
+            publication={PUBLICATIONS.OTTO14}
+            href="https://kramerius5.nkp.cz/view/uuid:7e11fe20-043e-11e5-95ff-5ef3fc9bb22f?page=uuid:00846670-05b3-11e5-95ff-5ef3fc9bb22f"
+            note="p. 1060"
+          />
+          More correct, however, would be the variant from Milíčov, where the
+          maiden, the corresponding mantling and the bends are all sable. It is
+          interesting that this is also the only contemporary depiction where
+          the maiden places a crown on her head.
         </p>
         <p>
           The correct blazon therefore most likely reads:

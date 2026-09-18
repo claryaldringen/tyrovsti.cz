@@ -13,12 +13,27 @@ export const HeinrichJakobVonEinsiedl = () => (
           Jindřich Jakub (Heinrich Jakob) Týřovský von Einsiedl (gestorben 1618)
         </h4>
         <p>
-          Jindřich Jakub, der Sohn des auf Hřebečníky sitzenden Jiřík, ergriff
-          1609 gleich nach dem Tod seines Oheims Besitz vom Gut Chříč. Um aus
-          den Schulden zu kommen, verkaufte er die Feste Hřebečníky und das Dorf
-          Novosedly, verpfändete Milíčov und verkaufte den Wald mit der Wiese
-          namens Chrustina. Das Gut ließ er jedoch nicht beschreiben, und die
-          Verfügung seines Oheims trug er nicht in die Landtafeln ein.
+          Jindřich Jakub, der Sohn des auf Hřebečníky sitzenden Jiřík, wuchs
+          nach dem Tod des Vaters bei seinem Oheim Jan auf, der Hřebečníky für
+          ihn verwaltete, und dankte ihm 1600, als er volljährig wurde, für die
+          Verwaltung. 1602 ereignete sich auf der Feste Hřebečníky eine{' '}
+          <Cit>zlá příhoda</Cit> (böse Begebenheit): Zdislav Hrobčický von
+          Hrobčice erstach hier mit zwei Dolchstichen Jindřich Sekerka von
+          Sedčice und floh nach der Tat.
+          <Qt
+            publication={PUBLICATIONS.SEDLACEK8}
+            href="https://kramerius5.nkp.cz/view/uuid:1ed20270-2ffb-11de-8f63-000d606f5dc6?page=uuid:58049700-7b52-11e7-89ee-5ef3fc9ae867"
+            note="S. 96"
+          />
+        </p>
+        <p>
+          1609 ergriff er gleich nach dem Tod seines Oheims Besitz vom Gut
+          Chříč. Um aus den Schulden zu kommen, verkaufte er die Feste
+          Hřebečníky und das Dorf Novosedly – nach Sedláček zusammen mit dem
+          Lehnsdorf Šlovice an Jiřík Děpolt Černín von Chudenice –, verpfändete
+          Milíčov und verkaufte den Wald mit der Wiese namens Chrustina. Das Gut
+          ließ er jedoch nicht beschreiben, und die Verfügung seines Oheims trug
+          er nicht in die Landtafeln ein.
           <Qt
             publication={PUBLICATIONS.KOCKA1}
             href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:dab901de-288a-4ad7-9ecc-ad96381e5e5a"
@@ -84,6 +99,21 @@ export const HeinrichJakobVonEinsiedl = () => (
           />
         </p>
         <p>
+          1612 erbat er sich von der Prager Universität einen Präzeptor{' '}
+          <Cit>pro syna svého a některé poddané, k liternímu umění oddané</Cit>{' '}
+          (für seinen Sohn und einige den Wissenschaften ergebene Untertanen);
+          die Universität schickte ihm Jaroš Rychter Jaroměřický. Neben dem
+          kleinen Adam Jindřich lernten so auf Chříč auch Kinder von Untertanen.
+          Winter schließt daraus, dass mit der Ankunft eines Privatlehrers auf
+          einem Herrensitz mitunter eine ganze <Cit>improvisovaná školka</Cit>{' '}
+          (improvisierte kleine Schule) entstand.
+          <Qt
+            publication={PUBLICATIONS.WINTER_SKOLY}
+            href="https://kramerius5.nkp.cz/view/uuid:4c490d60-e6c2-11e8-8d10-5ef3fc9ae867"
+            note="S. 161–162"
+          />
+        </p>
+        <p>
           Wirtschaftlich war er unternehmungslustig – 1614 eröffnete er bei
           Chříč eine Alaun- und Schwefelhütte. Er war Hauptmann des Rakovníker
           Kreises und stellte beim Aufstand der böhmischen Stände gegen König
@@ -109,6 +139,18 @@ export const HeinrichJakobVonEinsiedl = () => (
             publication={PUBLICATIONS.KOCKA30}
             href="https://kramerius5.nkp.cz/view/uuid:9bfe6dc0-47ef-11ea-81b3-005056827e52?page=uuid:79c45bd3-298d-4b7f-b098-b0ecbf1c8a1d"
             note="S. 14"
+          />{' '}
+          Bílek fügt aus den Konfiskationsakten hinzu, dass er{' '}
+          <Cit>zemřel v čas zpoury dne 20. července 1618, jíž se zúčastnil</Cit>{' '}
+          (zur Zeit des Aufstands, an dem er teilgenommen hatte, am 20. Juli
+          1618 starb) und dass er unter die <Cit>v trvalé zpouře zemřelé</Cit>{' '}
+          (im fortdauernden Aufstand verstorbenen) Personen eingereiht wurde,
+          gegen die ein postumer Prozess geführt wurde; ihre Erben lud Fürst
+          Liechtenstein mit Edikt vom 14. Juli 1622 vor.
+          <Qt
+            publication={PUBLICATIONS.BILEK}
+            href="https://kramerius5.nkp.cz/view/uuid:ca6e5cc0-e117-11dc-9e25-000d606f5dc6?page=uuid:e8fba37e-cf71-4acd-8727-f1a0a3d6f8e3"
+            note="S. XLI, LXVII, 674"
           />
         </p>
         <p>
@@ -123,7 +165,28 @@ export const HeinrichJakobVonEinsiedl = () => (
             publication={PUBLICATIONS.KOCKA1}
             href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:7e24d610-e020-4b49-94be-10a7485249aa"
             note="S. 314"
+          />{' '}
+          Dieselbe <Cit>Dorota šlechtična Tejřovská</Cit> (Dorota, Edelfrau
+          Týřovská) steht in Bíleks Verzeichnis der Witwen und Frauen, die auf
+          Befehl der Direktoren ihre Leute zum Ständeheer schickten und den
+          aufständischen Ständen Steuern abführten.
+          <Qt
+            publication={PUBLICATIONS.BILEK}
+            href="https://kramerius5.nkp.cz/view/uuid:ca6e5cc0-e117-11dc-9e25-000d606f5dc6?page=uuid:fa885748-6fba-4dc4-a9ec-6d2d565e9a70"
+            note="S. LXXXIII"
+          />{' '}
+          Die Tochter Dorota Polyxena heiratete Petr Jiří Kokořovec von Kokořov
+          auf Šťáhlavy; 1628 gehörte sie zu den Personen des Ritterstands des
+          Pilsner Kreises, die der Reformationskommission versprachen, binnen
+          Jahresfrist den katholischen Glauben anzunehmen, 1637 kaufte sie das
+          Gut Nečtiny, und 1638 errichtete sie mit ihrem Mann bei der Feste
+          Šťáhlavy die Kapelle des heiligen Adalbert. Sie starb 1640.
+          <Qt
+            publication={PUBLICATIONS.SEDLACEK13}
+            href="https://kramerius5.nkp.cz/view/uuid:12f8f660-3001-11de-b49a-000d606f5dc6?page=uuid:5cab9df0-7b5f-11e7-89ee-5ef3fc9ae867"
+            note="S. 79, 205, 209"
           />
+          <Qt publication={PUBLICATIONS.PODLAHA_REF} note="S. 28" />
         </p>
       </Col>
     </Row>

@@ -27,7 +27,22 @@ export const EnricoDiEinsiedl = () => (
         <p>
           Nel 1500, il tribunale camerale esaminò una disputa tra Jindřich e Jan
           di Gutštejn riguardo all&apos;estrazione mineraria, alla quale il
-          fonditore di Gutštejn, Ota, avrebbe avuto diritto.
+          fonditore di Gutštejn, Ota, avrebbe avuto diritto. Jindřich obiettò
+          che{' '}
+          <Cit>
+            mu odpoviedati povinovat nenie, poněvadž se majestátuov královských
+            dotýče
+          </Cit>{' '}
+          (non era tenuto a rispondergli, poiché la cosa toccava i privilegi
+          regi), e il tribunale il 2 maggio 1500 annullò la citazione stabilendo
+          che dovessero rivolgersi al diritto del paese,{' '}
+          <Cit>poněvadž krále JMti v zemi nenie</Cit> (poiché Sua Maestà il re
+          non è nel paese).
+          <Qt
+            publication={PUBLICATIONS.AC10}
+            href="https://kramerius5.nkp.cz/view/uuid:9f1e2c80-8dd7-11e8-9588-5ef3fc9bb22f?page=uuid:a826ec50-9b8c-11e8-a1e1-005056827e51"
+            note="p. 528, n. 952"
+          />
         </p>
         <p>
           Jindřich fu un eccellente amministratore. In breve tempo, acquistò
@@ -53,24 +68,94 @@ export const EnricoDiEinsiedl = () => (
           Durante la guerra del 1505 condotta contro i signori Šlik, schierò 4
           uomini e 1 carro. Quell&apos;anno, Ambrož Chodaur di Loket citò anche
           Jindřich in giudizio, avendo pagato Jindřich per del grano che non era
-          stato successivamente consegnato. Nel 1509, fu tra i nobili boemi in
-          attesa a Brno dell&apos;arrivo del re Vladislao da Trnava, ma presto
-          se ne andarono di nuovo perché il re continuava a non arrivare.
+          stato successivamente consegnato – si trattava di quattro sessantine
+          di strych di avena a 13 grossi di Meissen ciascuno e di due sessantine
+          di orzo a 11 grossi; il tribunale camerale il 14 novembre 1505 diede
+          ragione a Jindřich, perché Chodaur non provò che Jindřich dovesse
+          fargli sapere se manteneva l&apos;accordo.
+          <Qt
+            publication={PUBLICATIONS.AC13}
+            href="https://kramerius5.nkp.cz/view/uuid:76149be0-8dd6-11e8-9588-5ef3fc9bb22f?page=uuid:1ff867a0-9b8c-11e8-8b19-005056825209"
+            note="p. 92–93, n. 1358"
+          />{' '}
+          Nel 1509, fu tra i nobili boemi in attesa a Brno dell&apos;arrivo del
+          re Vladislao da Trnava, ma presto se ne andarono di nuovo perché il re
+          continuava a non arrivare. Albrecht Rendl di Oušava lo descrisse senza
+          mezzi termini a Petr di Rožmberk il 5 febbraio 1509:{' '}
+          <Cit>
+            Nayprv jeli pryč Pražané, potom Burjan Trčka, potom pan Novohradský,
+            pan Maštovský, pan Tayrovský a někteří jiní s nimi; tu pan kancléř
+            mluvil, že jich král žádá, aby s králem do Čech jeli, a oni jebíc
+            jedou předse.
+          </Cit>{' '}
+          (Per primi partirono i Praghesi, poi Burjan Trčka, poi il signor
+          Novohradský, il signor Maštovský, il signor Tayrovský e alcuni altri
+          con loro; il signor cancelliere disse allora che il re chiedeva loro
+          di andare con lui in Boemia, ma quelli, infischiandosene, partono lo
+          stesso.)
+          <Qt
+            publication={PUBLICATIONS.AC11}
+            href="https://kramerius5.nkp.cz/view/uuid:fb8d8100-8dd7-11e8-9588-5ef3fc9bb22f?page=uuid:f47b4980-9b8b-11e8-8b19-005056825209"
+            note="p. 139, n. 1197"
+          />
+        </p>
+        <p>
           Jindřich poi nel 1513 risolse davanti al tribunale camerale una
           disputa del suo servitore Rovný di Zavidov con Jindřich Tuchorský di
-          Tuchořice.
+          Tuchořice, servitore del signore di Krakovec. I testimoni dichiararono
+          che, mentre tornavano da Jesenice, Rovný si era infilato tra loro con
+          la sua giumenta, il cavallo di Tuchorský si era imbizzarrito e, quando
+          questi lo pregò di andare avanti o dietro, Rovný ribatté:{' '}
+          <Cit>
+            Co ty mi chceš rozkazovati, ano mi jest tak svobodno jeti královskou
+            silnicí jako tobě?
+          </Cit>{' '}
+          (Cosa vuoi comandarmi tu, se sono libero di percorrere la strada regia
+          quanto te?) Tuchorský sguainò la spada e lo colpì sulla testa.
+          Jindřich, che nei registri è scritto{' '}
+          <Cit>Heyndrych Eynsygl z Eynsydle a na Tayřově</Cit>, citò Tuchorský
+          per violenza arbitraria, ma il tribunale rovesciò la sentenza contro
+          di lui: chi aveva picchiato un servo che aveva egli stesso sguainato
+          il coltellaccio e <Cit>jinú svévolnost provozoval</Cit> (commesso
+          altra prepotenza) non si era reso colpevole di violenza arbitraria.
+          <Qt
+            publication={PUBLICATIONS.AC19}
+            href="https://kramerius5.nkp.cz/view/uuid:4d1a50b0-8dd9-11e8-9588-5ef3fc9bb22f?page=uuid:b5aef930-9b8c-11e8-8b19-005056825209"
+            note="p. 213–215, n. 2417–2418; 622, sentenza 45"
+          />
+        </p>
+        <p>
+          Nel 1514 Jindřich ricoprì la carica di capitano delle regioni di
+          Rakovník e di Podbrdy – il 22 agosto 1514 Zdeněk Lev di Rožmitál si
+          rivolse a lui e a Jan Vamberský di Rohatce affinché giudicassero la
+          lite di Wolf di Gutštejn per un suddito imprigionato. Lo apostrofa in
+          quell&apos;occasione <Cit>urozený pane</Cit> (nobile signore), cioè
+          come membro dello stato signorile, e allo stesso modo lo titola anche
+          nelle sue circolari degli anni 1526 e 1527.
+          <Qt
+            publication={PUBLICATIONS.AC7}
+            href="https://kramerius5.nkp.cz/view/uuid:597c2280-8dd8-11e8-9588-5ef3fc9bb22f?page=uuid:1f1792d1-9bb3-11e8-9b22-5ef3fc9ae867"
+            note="p. 79–80, n. 75 e 78"
+          />
         </p>
         <p>
           Il Gran Cancelliere del Regno di Boemia, Adam di Hradec, ottenne dal
           re Luigi nel 1524 il permesso di riscattare Týřov con tutte le sue
-          pertinenze. Ogni volta che Adam avesse depositato la somma di
-          riscatto, Jindřich era tenuto a consegnare immediatamente la tenuta.
-          Jindřich, che produsse un documento del re Giorgio attestante che non
-          poteva essere riscattato da nessuno durante la sua vita, non cedette
-          il castello, e poiché Adam morì nel 1531 e Jindřich gli sopravvisse,
-          la registrazione decadde. Nel 1525, Jindřich Týřovský fu convocato al
-          tribunale camerale da Jan Pečkovský di Pečkovice per non aver
-          testimoniato presso un altro tribunale.
+          pertinenze; il documento è dato a Buda il giorno di san Venceslao, 28
+          settembre 1524.
+          <Qt
+            publication={PUBLICATIONS.AC11}
+            href="https://kramerius5.nkp.cz/view/uuid:fb8d8100-8dd7-11e8-9588-5ef3fc9bb22f?page=uuid:1b7131d0-9b8c-11e8-8b19-005056825209"
+            note="p. 464, n. 285"
+          />{' '}
+          Ogni volta che Adam avesse depositato la somma di riscatto, Jindřich
+          era tenuto a consegnare immediatamente la tenuta. Jindřich, che
+          produsse un documento del re Giorgio attestante che non poteva essere
+          riscattato da nessuno durante la sua vita, non cedette il castello, e
+          poiché Adam morì nel 1531 e Jindřich gli sopravvisse, la registrazione
+          decadde. Nel 1525, Jindřich Týřovský fu convocato al tribunale
+          camerale da Jan Pečkovský di Pečkovice per non aver testimoniato
+          presso un altro tribunale.
         </p>
         <p>
           Nel frattempo, una grave calamità colpì Jindřich. Con la moglie
@@ -123,13 +208,24 @@ export const EnricoDiEinsiedl = () => (
         </p>
         <p>
           Albrecht, Jiřík e Jobst uccisero senza motivo nel 1542 a Plzeň Petr
-          Chlumčanský; Jiřík nel 1544 ferì Václav di Martinice sulla strada; lo
-          stesso Jiřík nel 1548 parlò dal barbiere di Bořivoj Pešík di Komárov,
-          chiamandolo arcibugiardo, e a un banchetto a Liblín nel 1555 insultò
-          Bohuslav Zvíkovský, chiamandolo arcibugiardo. Durante il litigio,
-          Jiřík si scagliò contro Bohuslav con una spada e voleva combatterlo.
-          Albrecht nel 1554 si scontrò a Hřebečníky con Jan di Lobkovice, che
-          per legittima difesa sparò ad Albrecht attraverso entrambe le gambe.
+          Chlumčanský. Jobst fu condannato per questo omicidio nello stesso anno
+          dal tribunale d&apos;appello – Zikmund Winter lo cita come uno dei
+          pochi casi in cui una simile sentenza fu davvero pronunciata contro un
+          nobile, mentre le altre cause furono composte o{' '}
+          <Cit>pro všelikteraké chyby z práva zdviženy</Cit> (annullate per vizi
+          procedurali d&apos;ogni sorta).
+          <Qt
+            publication={PUBLICATIONS.WINTER_KULT2}
+            href="https://kramerius5.nkp.cz/view/uuid:f72f4b00-98d5-11dc-8990-000d606f5dc6"
+            note="p. 787"
+          />{' '}
+          Jiřík nel 1544 ferì Václav di Martinice sulla strada; lo stesso Jiřík
+          nel 1548 parlò dal barbiere di Bořivoj Pešík di Komárov, chiamandolo
+          arcibugiardo, e a un banchetto a Liblín nel 1555 insultò Bohuslav
+          Zvíkovský, chiamandolo arcibugiardo. Durante il litigio, Jiřík si
+          scagliò contro Bohuslav con una spada e voleva combatterlo. Albrecht
+          nel 1554 si scontrò a Hřebečníky con Jan di Lobkovice, che per
+          legittima difesa sparò ad Albrecht attraverso entrambe le gambe.
         </p>
         <p>
           Anche il padre Jindřich ebbe a che fare con i tribunali. Nel 1536,
@@ -171,6 +267,34 @@ export const EnricoDiEinsiedl = () => (
             href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:2aeaba53-5238-4dde-bdff-90260eb8a2d2"
             note="p. 363"
           />
+        </p>
+        <p>
+          Alle diete del paese Jindřich compariva tra i signori: il 4 maggio
+          1542 è indicato come <Cit>Jindřich Tajřovský z Einsidlu</Cit> tra i
+          relatori della deliberazione della dieta per lo stato signorile e il 4
+          gennaio 1552 di nuovo come <Cit>Hendrych z Einzidle na Tajřově</Cit>.
+          <Qt publication={PUBLICATIONS.SNEMY1} note="p. 542, n. 301" />
+          <Qt publication={PUBLICATIONS.SNEMY2} note="p. 637, n. 226" /> Nel
+          1543 gli stati presentarono al re, tra l&apos;altro,{' '}
+          <Cit>
+            o Viléma Švihovského, Tejřovského a jiných mnohých osob dluhy
+          </Cit>{' '}
+          (i debiti verso Vilém Švihovský, il Týřovský e molte altre persone) –
+          cioè crediti verso la corona – e Ferdinando I rispose che{' '}
+          <Cit>
+            chce na jejich spravedlnosti vyptati rozkázati, to v radě uvážiti a
+            v tom se spravedlivě zachovati ráčí
+          </Cit>{' '}
+          (avrebbe ordinato di informarsi sulle loro ragioni, esaminato la cosa
+          in consiglio e agito in ciò con giustizia).
+          <Qt publication={PUBLICATIONS.SNEMY1} note="p. 571, n. 310" /> Nel
+          1554 Václav Mašťovský di Kolovrat chiese poi alla dieta il consenso
+          affinché il re gli accreditasse alle sue somme su Týřov altre cento
+          sexagene,{' '}
+          <Cit>kdyžby toho čas přišel a žeby tajž zámek Tajřov vyplatil</Cit>{' '}
+          (quando ne fosse venuto il tempo ed egli avesse riscattato il detto
+          castello di Týřov).
+          <Qt publication={PUBLICATIONS.SNEMY2} note="p. 670, n. 240" />
         </p>
         <p>
           Jindřich fu capitano regionale nel 1546; nel 1545 vendette Slabce con

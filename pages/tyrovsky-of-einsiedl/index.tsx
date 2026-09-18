@@ -12,6 +12,7 @@ import { JohnOfEinsiedl } from '../../components/Articles/en/houseOfTeyrzow/John
 import { HenryJacobOfEinsiedl } from '../../components/Articles/en/houseOfTeyrzow/HenryJacobOfEinsiedl'
 import { AdamHenryOfEinsiedl } from '../../components/Articles/en/houseOfTeyrzow/AdamHenryOfEinsiedl'
 import { AdalbertIgnatiusOfEinsiedl } from '../../components/Articles/en/houseOfTeyrzow/AdalbertIgnatiusOfEinsiedl'
+import { TheLastTyrovsky } from '../../components/Articles/en/houseOfTeyrzow/TheLastTyrovsky'
 import { Payment } from '../../components/Payment'
 import { TyrovskyOfEinsiedlIntro } from '../../components/Articles/en/houseOfTeyrzow/TyrovskyOfEinsiedlIntro'
 
@@ -33,6 +34,7 @@ const Page = () => (
           <HenryJacobOfEinsiedl />
           <AdamHenryOfEinsiedl />
           <AdalbertIgnatiusOfEinsiedl />
+          <TheLastTyrovsky />
           <CoatOfArms />
           <FamilyTree />
           <Sources />

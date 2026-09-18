@@ -29,7 +29,10 @@ const tree: Person = {
               dates: '†1609',
               href: '#jan-tyrovsky-z-einsiedlu',
             },
-            { name: 'Kateřina, manžel Kryštof Jindřich Krakovský z Kolovrat' },
+            {
+              name: 'Kateřina',
+              dates: '⚭ Kryštof Jindřich Krakovský z Kolovrat',
+            },
           ],
         },
         { name: 'Albrecht na Týřově', dates: '†1571' },
@@ -50,7 +53,8 @@ const tree: Person = {
                   href: '#adam-jindrich-tyrovsky-z-einsiedlu',
                   children: [
                     {
-                      name: 'Kateřina Dorota, manžel Václav Mikuláš Broum z Miřetic',
+                      name: 'Kateřina Dorota',
+                      dates: '⚭ Václav Mikuláš Broum z Miřetic',
                     },
                     {
                       name: 'Vojtěch Ignác',
@@ -69,8 +73,8 @@ const tree: Person = {
                             { name: 'Marie Konstancie', dates: '1701 – 1722' },
                             { name: 'Marie Anna', dates: '*1704' },
                             {
-                              name: 'Jan Michal, poslední po meči',
-                              dates: '*1705, žil ještě 1768',
+                              name: 'Jan Michal',
+                              dates: 'poslední po meči, *1705, žil ještě 1768',
                               href: '#konec-rodu',
                             },
                           ],
@@ -83,8 +87,8 @@ const tree: Person = {
                   ],
                 },
                 {
-                  name: 'Dorota Polyxena, manžel Petr Jiří Kokořovec z Kokořova',
-                  dates: '†1640',
+                  name: 'Dorota Polyxena',
+                  dates: '⚭ Petr Jiří Kokořovec z Kokořova, †1640',
                 },
               ],
             },

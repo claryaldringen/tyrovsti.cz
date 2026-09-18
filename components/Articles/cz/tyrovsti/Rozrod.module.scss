@@ -92,14 +92,28 @@ $node-border: #c8bfb0;
     position: relative;
   }
 
+  /* the root list may be wider than the page – keep it scrollable
+     from the left edge instead of clipping both sides of a centred flexbox */
   .tree > ul {
     padding-top: 0;
+    width: max-content;
+    min-width: 100%;
+    margin: 0 auto;
   }
 
   .tree li {
-    flex: 1 1 auto;
+    flex: 1 0 auto;
     padding: 1.25rem 0.4rem 0;
     text-align: center;
+  }
+
+  .node {
+    white-space: nowrap;
+  }
+
+  .dates {
+    white-space: normal;
+    max-width: 9rem;
   }
 
   .tree > ul > li {
