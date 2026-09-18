@@ -28,10 +28,11 @@ export const PUBLICATIONS: Record<string, Publication> = {
     year: 2009,
   },
   KOCKA1: {
-    name: 'Dějiny politického okresu kralovického',
+    name: 'Dějiny politického okresu kralovického. Díl 1. Soudní okres kralovický',
     author: 'Václav Kočka',
     city: 'Kralovice',
     year: 1930,
+    href: 'https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52',
   },
   TRESP: {
     name: 'Söldner aus Böhmen: im Dienst deutscher Fürsten: Kriegsgeschäft und Heeresorganisation im 15. Jahrhundert',
