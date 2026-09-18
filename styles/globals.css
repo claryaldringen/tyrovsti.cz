@@ -60,6 +60,12 @@ h6 {
   text-decoration: underline;
 }
 
+abbr[title] {
+  text-decoration: underline dotted;
+  text-underline-offset: 0.15em;
+  cursor: help;
+}
+
 @media only screen and (max-width: 576px) {
   .absolute {
     position: absolute;

@@ -2,6 +2,7 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { PUBLICATIONS } from '../../../../shared/constants'
 import { Qt } from '../../../Quote/Qt'
+import { Cit } from '../../../Citation'
 
 export const JanTyrovsky = () => (
   <>
@@ -26,11 +27,89 @@ export const JanTyrovsky = () => (
           dluhy, mu roku 1585 prodal tvrz a ves Chříč, mlýn proti pivovaru,
           ovčín, ves Lhotu s mlynářem Kubou, podíl v Holovousech, poplužní dvůr
           Dubjany, pustý mlýn na řece, rybárnu s výsadní krčmou a ves Studenou
-          za 17 000 kop. Psal se tehdy ještě na Hřebečníkách a Skryjích.
+          za{' '}
+          <abbr title="Tj. 8500 kop grošů českých; jedna kopa grošů českých platila za dvě kopy míšeňské.">
+            17 000 kop míšeňských
+          </abbr>
+          . Psal se tehdy ještě na Hřebečníkách a Skryjích.
           <Qt
             publication={PUBLICATIONS.KOCKA1}
             href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:dab901de-288a-4ad7-9ecc-ad96381e5e5a"
             note="Str. 313, 409"
+          />
+          <Qt
+            publication={PUBLICATIONS.SEDLACEK8}
+            href="https://kramerius5.nkp.cz/view/uuid:1ed20270-2ffb-11de-8f63-000d606f5dc6?page=uuid:5af72310-7b52-11e7-89ee-5ef3fc9ae867"
+            note="Str. 111"
+          />{' '}
+          Skryje si Jan roku 1582 vložil i s jiným zbožím do obnovených desk
+          zemských. Hřebečníky, které po strýci Jiříkovi držel od roku 1585,
+          spravoval podle Sedláčka jen jako poručník Jiříkova syna Jindřicha
+          Jakuba, který mu roku 1600 po dosažení plných let poděkoval,{' '}
+          <Cit>jenž statek nejináče nežli jako vlastní otec spravoval</Cit>.
+          <Qt
+            publication={PUBLICATIONS.SEDLACEK8}
+            href="https://kramerius5.nkp.cz/view/uuid:1ed20270-2ffb-11de-8f63-000d606f5dc6?page=uuid:57ac8bf0-7b52-11e7-89ee-5ef3fc9ae867"
+            note="Str. 94, 96"
+          />
+        </p>
+        <p>
+          Roku 1594 vypravil Jan k tažení proti Turkům tři jezdce, které vedl{' '}
+          <Cit>strejc jeho</Cit>, a osm pěších pod devátým praporcem pluku
+          Bohuchvala Ruta; při přehlídce u Znojma v září 1594 je zapsán mezi
+          panským stavem Rakovnického kraje.
+          <Qt
+            publication={PUBLICATIONS.SNEMY8}
+            note="Str. 704 a 717, č. 360 a 371"
+          />{' '}
+          Roku 1597 ho generální sněm zvolil na místo zemřelého Kryštofa
+          Jindřicha Krakovského z Kolovrat do komise pro srovnání městských práv
+          se zřízením zemským, v níž zasedal i Daniel Adam z Veleslavína.
+          <Qt publication={PUBLICATIONS.SNEMY9} note="Str. 422, č. 308" /> Roku
+          1600 byl spolu s Kryštofem Šlovským ze Šlovic hejtmanem Rakovnického
+          kraje – v relaci císaři z 3. června 1600 o vybírání sněmovní sbírky z
+          krámů, řemesel a obchodů se podepsal jako{' '}
+          <Cit>Jan Tejřovský z Ensidle na Křičí a Dubjanech</Cit> – a v letech
+          1602 až 1605 seděl za panský stav svého kraje ve výboru, který měl v
+          nenadálém nebezpečí rozhodnout o vyzdvižení veřejné hotovosti; psal se
+          tehdy <Cit>na Hřebečnicích</Cit>.
+          <Qt
+            publication={PUBLICATIONS.SNEMY10}
+            note="Str. 74–91, 278, 414, 562"
+          />
+          <Qt publication={PUBLICATIONS.SNEMY11} note="Str. 190–191, č. 40" />{' '}
+          Podle seznamu krajských hejtmanů úřad zastával i v letech 1602, 1604 a
+          1609.
+          <Qt
+            publication={PUBLICATIONS.PA1876}
+            href="https://kramerius5.nkp.cz/view/uuid:be359a80-ce5a-11e4-9c07-5ef3fc9bb22f?page=uuid:8cab6340-d8b5-11e4-ae4e-5ef3fc9ae867"
+            note="Str. 607–610"
+          />
+          <Qt publication={PUBLICATIONS.PA1875} note="Str. 375–376" /> Roku 1605
+          půjčil České komoře 1334 kop 58 grošů míšeňských.
+          <Qt publication={PUBLICATIONS.SNEMY11} note="Str. díl XI/2, č. 325" />
+        </p>
+        <p>
+          Zikmund Winter ho řadí mezi tvrdé vrchnosti: vesničané prý{' '}
+          <Cit>
+            běhali světem, majíce železné obojky na krku z trestu, jak jim je
+            věšíval a rukama svýma na petličný zámek zavíral urozený Jan
+            Tejřovský z Ejnsidle a na Skrejích
+          </Cit>
+          .
+          <Qt
+            publication={PUBLICATIONS.WINTER_KULT2}
+            href="https://kramerius5.nkp.cz/view/uuid:f72f4b00-98d5-11dc-8990-000d606f5dc6"
+            note="Str. 540"
+          />{' '}
+          Roku 1602 vedl před zemským soudem při se Šebestiánem Lažanským o
+          pokutu dvaceti kop <Cit>pro vystavení a zaražení nový krčmy</Cit>;
+          Vilém Slavata si do svých zápisků poznamenal, jak se Lažanského
+          přítel, prokurátor Jan Peldřimovský, marně vymlouval ze svědectví.
+          <Qt
+            publication={PUBLICATIONS.KOCKA1}
+            href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:0132fcc1-2009-403e-9c75-02a78988d5e8"
+            note="Str. 343"
           />
         </p>
         <p>

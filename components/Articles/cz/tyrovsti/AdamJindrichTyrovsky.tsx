@@ -2,6 +2,7 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { PUBLICATIONS } from '../../../../shared/constants'
 import { Qt } from '../../../Quote/Qt'
+import { Cit } from '../../../Citation'
 
 export const AdamJindrichTyrovsky = () => (
   <>
@@ -48,7 +49,14 @@ export const AdamJindrichTyrovsky = () => (
           Zvíkovci 2800 kop. Když lhůta roku 1631 prošla a platit nemohl, uvázal
           se věřitel ve statek Chříč. Dluhu se Týřovský zhostil tak, že pojal za
           manželku Vilémovu dceru Evu Eurosinu z Klenového, která od svého otce
-          koupila městečko Zvíkovec a ves Chlum.
+          koupila městečko Zvíkovec a ves Chlum. Podle Sedláčka koupil Zvíkovec
+          roku 1633 Vilém z Klenového od Václava Heraklia z Bliživa vlastně už
+          pro svou provdanou dceru.
+          <Qt
+            publication={PUBLICATIONS.SEDLACEK13}
+            href="https://kramerius5.nkp.cz/view/uuid:12f8f660-3001-11de-b49a-000d606f5dc6?page=uuid:930c0ec0-7b5f-11e7-89ee-5ef3fc9ae867"
+            note="Str. 249"
+          />
           <Qt
             publication={PUBLICATIONS.KOCKA1}
             href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:7c883e9c-c039-4e28-8217-2e3df2340137"
@@ -70,6 +78,53 @@ export const AdamJindrichTyrovsky = () => (
             publication={PUBLICATIONS.KOCKA1}
             href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:7c883e9c-c039-4e28-8217-2e3df2340137"
             note="Str. 315"
+          />{' '}
+          Bílek celý postup datuje: královský prokurátor ho obvinil před
+          frýdlantskou konfiskační komisí 15. listopadu 1632, revizní komise
+          navrhla milost 12. srpna 1638, císařská resoluce ji potvrdila 14.
+          prosince 1638 s podmínkou, že{' '}
+          <Cit>
+            místo pokuty, za provinění své zasloužilé, 3000 zl. rýn. na hotově
+            složil
+          </Cit>
+          ; 2000 zlatých bylo určeno na stavbu Pražského hradu resolucí z 30.
+          prosince 1638 a zbylých 1000 darováno jezuitům 10. ledna 1639.
+          <Qt
+            publication={PUBLICATIONS.BILEK}
+            href="https://kramerius5.nkp.cz/view/uuid:ca6e5cc0-e117-11dc-9e25-000d606f5dc6?page=uuid:e8fba37e-cf71-4acd-8727-f1a0a3d6f8e3"
+            note="Str. 674, 821"
+          />
+        </p>
+        <p>
+          Chříč mezitím nesla tíhu zásobování vojska. Z konce ledna 1638 se
+          dochovala jeho žádost o slevu na kontribuci za statky Chříč a
+          Zvíkovec: vojákům už předal 3131 zlatých 14 krejcarů, 44 929 liber
+          masa, 740 strychů žita, 451 strychů pšenice a 1661 strychů ovsa,
+          zatímco na budějovickou kontribuci dlužil 394 zlatých 45 krejcarů.
+          Krajský komisař Skuhrovský doporučil prominout čtyři pětiny restu a 4.
+          května 1638 tak bylo rozhodnuto.
+          <Qt
+            publication={PUBLICATIONS.MILITARE5}
+            href="https://kramerius5.nkp.cz/view/uuid:ce02ccf0-c3af-11e3-bb44-5ef3fc9bb22f?page=uuid:ee70b330-7262-40d2-ac5e-7c68d922cf02"
+            note="Str. 153, 167"
+          />
+        </p>
+        <p>
+          V letech 1640 až 1644 byl sám hejtmanem Rakovnického kraje spolu s
+          Janem Ferdinandem Renšpergerem z Renšperku. Dne 26. prosince 1640
+          psali oba z Rakovníka <Cit>cito, cito, citissime</Cit> místodržícím,
+          že komisař Rossi de Dateli přivedl do kraje zhubeného válkou bez
+          jejich vědomí čtyři pěší pluky; v červnu 1642 hlásili devět Suysových
+          regimentů s dělostřelectvem a tři pluky Charvátů v Rakovníku.
+          <Qt
+            publication={PUBLICATIONS.MILITARE6}
+            href="https://kramerius5.nkp.cz/view/uuid:ce02ccf0-c3af-11e3-bb44-5ef3fc9bb22f"
+            note="Str. 137, 187, 249, 306–313"
+          />
+          <Qt
+            publication={PUBLICATIONS.MILITARE7}
+            href="https://kramerius5.nkp.cz/view/uuid:ce02ccf0-c3af-11e3-bb44-5ef3fc9bb22f"
+            note="Str. 179, 186"
           />
         </p>
         <p>
@@ -101,16 +156,23 @@ export const AdamJindrichTyrovsky = () => (
           />
         </p>
         <p>
-          Zemřel v květnu 1652. V poslední vůli ustanovil, aby jeho tělo bylo
-          oblečeno v bílé prádlo nemandlované a beze vší nádhery pohřbeno v
-          kostele kožlanském, jemuž odkázal 500 kop, aby za spásu jeho duše byla
-          každý měsíc sloužena zpívaná mše. Při pohřbu měli všichni chudí
-          poddaní dostat almužnu po šesti krejcarech a k obědu kus masa, deset
-          chudých oblek soukenný a dalších deset z černého plátna. Velice
-          pokažený statek chříčský dostal syn Vojtěch Ignác, vdova Eva Eurosina
-          20 000 kop, a nebyla-li by vyplacena, měla zatím ujmout dvůr Ptíč,
-          mlýn Lejskovský a vsi Hlince a Studenou; dceři Kateřině Dorotě bylo
-          určeno 6000 zlatých věna a výprava. Dluhů bylo 11 500 zlatých.
+          Zemřel ke konci května 1652; poslední vůli sepsal 29. dubna 1652 a
+          statek v ní nazval <Cit>na nejvýš zruinirovaný</Cit>.
+          <Qt
+            publication={PUBLICATIONS.SEDLACEK8}
+            href="https://kramerius5.nkp.cz/view/uuid:1ed20270-2ffb-11de-8f63-000d606f5dc6?page=uuid:5af72310-7b52-11e7-89ee-5ef3fc9ae867"
+            note="Str. 111–112"
+          />{' '}
+          Ustanovil v ní, aby jeho tělo bylo oblečeno v bílé prádlo nemandlované
+          a beze vší nádhery pohřbeno v kostele kožlanském, jemuž odkázal 500
+          kop, aby za spásu jeho duše byla každý měsíc sloužena zpívaná mše. Při
+          pohřbu měli všichni chudí poddaní dostat almužnu po šesti krejcarech a
+          k obědu kus masa, deset chudých oblek soukenný a dalších deset z
+          černého plátna. Velice pokažený statek chříčský dostal syn Vojtěch
+          Ignác, vdova Eva Eurosina 20 000 kop, a nebyla-li by vyplacena, měla
+          zatím ujmout dvůr Ptíč, mlýn Lejskovský a vsi Hlince a Studenou; dceři
+          Kateřině Dorotě bylo určeno 6000 zlatých věna a výprava. Dluhů bylo 11
+          500 zlatých.
           <Qt
             publication={PUBLICATIONS.KOCKA1}
             href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:982a126d-a074-4939-802f-22a8843d76ad"

@@ -220,15 +220,23 @@ export const JostTyrovsky = () => (
           Legnickie, v lednu 1455, které Jošt držel spolu s Hyncem Dehrawem,
           nebo stál v pozadí polepšení Joštova erbu Fridrichem III. dne{' '}
           <b>23. listopadu</b> téhož roku.
-          <Qt publication={PUBLICATIONS.BOUKAL} note="str. 83" /> Jako tajný
-          písař byl pro něho doslova nepostradatelný. Proto ho najdeme, pokud
-          nebyl nepřítomen z důvodu vykonávání nějakého poslání, stále na straně
-          zemského správce, kterého doprovází na jeho velkých taženích na
-          Moravě, ve Slezsku a Rakousku, přičemž nezřídka, jako např. v Brně,
-          vystupuje obchodně, a informuje své přátelé v Chebu se zřejmou
-          spokojeností o šťastných úspěších místodržícího. Jakkoli katolík a
-          bezvýhradně oddán římské církvi zachovával v každé době svému
-          utrakvistickému pánu nezlomnou věrnost tím, že - což se tehdy
+          <Qt publication={PUBLICATIONS.BOUKAL} note="str. 83" /> Zápis o
+          Jeschkendorfu je datován na den svatých Tří králů, tedy{' '}
+          <b>6. ledna 1455</b>, a je zachován ve výpisech z knih Vratislavského
+          knížectví.
+          <Qt
+            publication={PUBLICATIONS.ZBYTKY}
+            href="https://kramerius5.nkp.cz/view/uuid:4a255040-84f9-11e4-9d8c-005056827e51?page=uuid:36ae89b0-b3dd-11e4-9a04-5ef3fc9bb22f"
+            note="Str. 236, č. 1689"
+          />
+          Jako tajný písař byl pro něho doslova nepostradatelný. Proto ho
+          najdeme, pokud nebyl nepřítomen z důvodu vykonávání nějakého poslání,
+          stále na straně zemského správce, kterého doprovází na jeho velkých
+          taženích na Moravě, ve Slezsku a Rakousku, přičemž nezřídka, jako
+          např. v Brně, vystupuje obchodně, a informuje své přátelé v Chebu se
+          zřejmou spokojeností o šťastných úspěších místodržícího. Jakkoli
+          katolík a bezvýhradně oddán římské církvi zachovával v každé době
+          svému utrakvistickému pánu nezlomnou věrnost tím, že - což se tehdy
           vyskytovalo jen zřídka - dokázal správnou úvahou přesně oddělit
           náboženské přesvědčení od věrnosti službě. Proto také požíval plnou
           měrou důvěru a přízeň Jiřího a byl často pověřován příkazy, které
@@ -285,10 +293,18 @@ export const JostTyrovsky = () => (
           />{' '}
           nebo transumpt buly papeže Pia II. z března 1459, v němž je Jošt
           jmenován jako <Cit>Jodocus de Eynsedil, milites Pragensis</Cit>.
-          <Qt publication={PUBLICATIONS.BOUKAL1} /> Chebští byli o volbě
-          neoficiálně zpraveni již listem od Jošta, oficiálně pak byli
-          informováni velkým listem s mnoha pečetěmi, jehož tvůrcem mohl být
-          rovněž Jošt.
+          <Qt publication={PUBLICATIONS.BOUKAL1} /> Vidimus pořídili{' '}
+          <b>12. března 1459</b> v Kladsku opat kamenecký Mikuláš a probošt
+          kladský Michael na žádost kladského hejtmana Jana z Warnsdorfu a
+          Jošta, kteří bulu předložili jménem krále Jiřího.
+          <Qt
+            publication={PUBLICATIONS.AC15}
+            href="https://kramerius5.nkp.cz/view/uuid:c2007dd0-8dd6-11e8-9588-5ef3fc9bb22f?page=uuid:41335510-9b8c-11e8-b814-5ef3fc9bb22f"
+            note="Str. 221, č. 113"
+          />
+          Chebští byli o volbě neoficiálně zpraveni již listem od Jošta,
+          oficiálně pak byli informováni velkým listem s mnoha pečetěmi, jehož
+          tvůrcem mohl být rovněž Jošt.
           <Qt publication={PUBLICATIONS.BOUKAL} note="str. 84" />
         </p>
         <p>
@@ -306,20 +322,26 @@ export const JostTyrovsky = () => (
           purkrabímu Zdeňkovi ze Šternberka, vrátil mu Jošt výše zmíněné
           dědictví a k tomu půjčil ještě hotově 500 kop grošů, za které zapsal
           mu král <b>2. července 1460</b> hrad Týřov s městečkem Kožlany, vsi
-          Mlečice Chmelištnou, Zavidov, Týřovice, Broumy, Kouřimec, Újezdec,
-          Hudlice se všemi požitky a berni v Novosedlech. Při tom bylo
-          stanoveno, že Jošt nesmí býti do své smrti vyplacen a po jeho smrti
-          může statky odkoupit zpět pouze sám král a to za 600 kop grošů. Podle
-          usnesení musí hrad Týřov zůstat po všechny časy otevřen a kdyby král
-          na něj kvůli válkám dal náklad, stane se tak Joštovi beze škody. S
-          lesy nemá Jošt ani jeho dědici co činiti ani dříví prodávati, než
-          toliko bez překážky bráti k palivu a na opravy hradu. V lovu drobné
-          zvěře a ptáků měl Jošt svobodu, kdežto z vysoké zvěře směl štvát 3
-          jeleny a 10 srn do roka s vědomím křivoklátského purkrabího, který mu
-          byl povinen půjčit psy a tenata. Poněvadž hrad potřeboval opravy
-          hradeb, podsebití i budov, připsal král Joštovi na opravu 100 kop
-          grošů. Kdyby byl hrad Joštovi dobyt, jsou králové povinni mu pomoci
-          dobýt hrad zpět nebo jej do dvou let vyplatit.
+          Mlečice, Chmelištnou, Zavidov, Týřovice, Broumy, Kouřimec, Újezdec,
+          Hudlice se všemi požitky a berni v Novosedlech; podle výtahu z
+          královských register byla celá zástavní suma 1050 kop grošů.
+          <Qt
+            publication={PUBLICATIONS.ZBYTKY}
+            href="https://kramerius5.nkp.cz/view/uuid:4a255040-84f9-11e4-9d8c-005056827e51?page=uuid:379c9330-b3dd-11e4-9a04-5ef3fc9bb22f"
+            note="Str. 245, č. 1732"
+          />{' '}
+          Při tom bylo stanoveno, že Jošt nesmí býti do své smrti vyplacen a po
+          jeho smrti může statky odkoupit zpět pouze sám král a to za 600 kop
+          grošů. Podle usnesení musí hrad Týřov zůstat po všechny časy otevřen a
+          kdyby král na něj kvůli válkám dal náklad, stane se tak Joštovi beze
+          škody. S lesy nemá Jošt ani jeho dědici co činiti ani dříví prodávati,
+          než toliko bez překážky bráti k palivu a na opravy hradu. V lovu
+          drobné zvěře a ptáků měl Jošt svobodu, kdežto z vysoké zvěře směl
+          štvát 3 jeleny a 10 srn do roka s vědomím křivoklátského purkrabího,
+          který mu byl povinen půjčit psy a tenata. Poněvadž hrad potřeboval
+          opravy hradeb, podsebití i budov, připsal král Joštovi na opravu 100
+          kop grošů. Kdyby byl hrad Joštovi dobyt, jsou králové povinni mu
+          pomoci dobýt hrad zpět nebo jej do dvou let vyplatit.
           <Qt publication={PUBLICATIONS.KOCKA} />
         </p>
       </Col>
@@ -619,19 +641,29 @@ export const JostTyrovsky = () => (
           přívrženec exkomunikovaného krále vlastní souvěrce, z jejichž
           společenství ho přece církev vyloučila. Jeho statky jsou pustošeny,
           jeho poddané vesnice páleny a ničeny (svou škodu vyčísluje na 300 kop
-          grošů). Král Jiří škodu uznává a roku 1466 mu připisuje 100 kop grošů
-          na stavbu rybníků a uděluje milost, že jeho syn Jindřich nebude moci
-          být do své smrti z Týřova vyplacen. Tváří v tvář této devastaci svádí
-          Jošt těžký boj sám se sebou; neboť svědomí a víra, církevní přikázání
-          a přísahaná věrnost jsou bez přestání v konfliktu: ostrý boj, který
-          hýbal celou dobou, se odráží v prsou tohoto muže, který se s
-          rozhodností přidržuje toho, co ve své prosté duši považuje za správné
-          a dobré. Nakonec se rozhodne pro trpící poslušnost, protože mu jde o
-          víru, kterou nechce vzdorovitostí <Cit>nicht schwächen helfen</Cit>{' '}
-          (pomoci oslabit). Takto sdílí stejný osud se spřáteleným městem Cheb,
-          které se snaží utěšovat a posilovat v poslušnosti. Teprve když vidí,
-          že jeho protivníkům nejde ani tolik o víru jako spíše o kořist, chopí
-          se meče a sjedná si klid.
+          grošů). Král Jiří škodu uznává a majestátem z <b>21. října 1466</b> mu
+          připisuje 100 kop grošů na stavbu rybníků a uděluje milost, že ani on,
+          ani jeho nejstarší syn nesmějí být do své smrti z Týřova vyplaceni.
+          <Qt
+            publication={PUBLICATIONS.ZBYTKY}
+            href="https://kramerius5.nkp.cz/view/uuid:4a255040-84f9-11e4-9d8c-005056827e51?page=uuid:39f6d6e0-b3dd-11e4-9a04-5ef3fc9bb22f"
+            note="Str. 266, č. 1806"
+          />
+          <Qt
+            publication={PUBLICATIONS.TEIGE_LISTAR}
+            href="https://kramerius5.nkp.cz/view/uuid:8e3d4b30-7bb8-11e7-8b50-001018b5eb5c"
+            note="Str. 19, č. 24"
+          />
+          Tváří v tvář této devastaci svádí Jošt těžký boj sám se sebou; neboť
+          svědomí a víra, církevní přikázání a přísahaná věrnost jsou bez
+          přestání v konfliktu: ostrý boj, který hýbal celou dobou, se odráží v
+          prsou tohoto muže, který se s rozhodností přidržuje toho, co ve své
+          prosté duši považuje za správné a dobré. Nakonec se rozhodne pro
+          trpící poslušnost, protože mu jde o víru, kterou nechce vzdorovitostí{' '}
+          <Cit>nicht schwächen helfen</Cit> (pomoci oslabit). Takto sdílí stejný
+          osud se spřáteleným městem Cheb, které se snaží utěšovat a posilovat v
+          poslušnosti. Teprve když vidí, že jeho protivníkům nejde ani tolik o
+          víru jako spíše o kořist, chopí se meče a sjedná si klid.
           <Qt
             publication={PUBLICATIONS.KURSCHNER}
             href="https://sources.cms.flu.cas.cz/src/index.php?s=v&cat=50&bookid=488&page=12"
@@ -659,7 +691,14 @@ export const JostTyrovsky = () => (
           z pobrání jeho krav, posléze nahnaných{' '}
           <Cit>na jeho páně Šumburkuov zámek</Cit>. V případě, že by se Šumburk
           k soudu s Joštem nedostavil, měl za pobrané krávy Joštovi zaplatit.
-          <Qt publication={PUBLICATIONS.KOCKA} />
+          <Qt publication={PUBLICATIONS.KOCKA} /> Registra komorního soudu
+          zachycují oba nálezy – z 20. června a z 3. října 1472 – a Jošta v nich
+          důsledně titulují jako královského sekretáře.
+          <Qt
+            publication={PUBLICATIONS.AC7}
+            href="https://kramerius5.nkp.cz/view/uuid:597c2280-8dd8-11e8-9588-5ef3fc9bb22f?page=uuid:668ce0c0-9bb3-11e8-9b22-5ef3fc9ae867"
+            note="Str. 453 a 457–458, č. 114 a 125"
+          />
         </p>
         <p>
           Chebským nadále sloužil jako jejich informátor o dění v království. Od
@@ -683,11 +722,42 @@ export const JostTyrovsky = () => (
           Roku 1473 postoupil mu král Vladislav právem odúmrtním dvůr v Hlincích
           a téhož roku mu potvrdil všechny výsady udělené mu králem Jiřím a mimo
           to mu dovolil ještě navíc 4 jeleny nebo laně v lesích zabíti a na
-          opravu hradu připsal ještě zvlášť 50 kop grošů. Následující rok však
-          Jošt umírá. &nbsp;
-          <b>11. července 1474</b> se ještě objevuje mezi přítomnými komorního
-          soudu, ale rok 1476 ho již nezastihnul mezi živými, jak stojí v dopise
-          ze &nbsp;<b>17. dubna 1476</b>:
+          opravu hradu připsal ještě zvlášť 50 kop grošů. Listina o Hlincích je
+          datována v Praze <b>18. června 1473</b>: král dal Joštovi, svému
+          sekretáři, právo odúmrti po Kateřině z Radkova na kmetcí dvůr, na němž
+          seděl Matěj řečený Žižák. Držitelé dvora – Jan z Miletínka a z Újezda,
+          Jan Vrš ze Všetat a Matěj z Hlinců – byli vyzváni, aby se do dvou
+          neděl ohradili, a komorník Valentin uvedl Jošta v držení dvora
+          odhadnutého na 20 kop grošů <b>4. července 1474</b>.
+          <Qt
+            publication={PUBLICATIONS.AC37}
+            href="https://kramerius5.nkp.cz/view/uuid:ecb030a0-9567-11e8-87bd-005056827e52?page=uuid:cfac4800-b5e6-11e8-98a3-5ef3fc9bb22f"
+            note="Str. 632–633, č. 60"
+          />{' '}
+          Dalších 100 kop na prostavění Týřova připsal král Vladislav Joštovi v
+          Kladsku <b>21. srpna 1473</b> a všechny majestáty na Týřov mu potvrdil{' '}
+          <b>7. března 1474</b>.
+          <Qt
+            publication={PUBLICATIONS.ZBYTKY}
+            href="https://kramerius5.nkp.cz/view/uuid:4a255040-84f9-11e4-9d8c-005056827e51?page=uuid:3ca6dbb0-b3dd-11e4-9a04-5ef3fc9bb22f"
+            note="Str. 291, č. 25–26"
+          />{' '}
+          Následující rok však Jošt umírá. Ještě <b>11. června</b> a{' '}
+          <b>15. července 1474</b> sedí <Cit>Jodocus de Eynzidl</Cit> mezi pány
+          rady u komorního soudu vedle nejvyššího komorníka Viléma z Rýzmberka a
+          nejvyššího purkrabího Jana z Janovic,
+          <Qt
+            publication={PUBLICATIONS.AC4}
+            href="https://kramerius5.nkp.cz/view/uuid:d1ba97d0-8dd4-11e8-9588-5ef3fc9bb22f?page=uuid:d8048ad0-9cff-11e8-99aa-005056827e51"
+            note="Str. 288–289, č. 44–45"
+          />
+          <Qt
+            publication={PUBLICATIONS.AC7}
+            href="https://kramerius5.nkp.cz/view/uuid:597c2280-8dd8-11e8-9588-5ef3fc9bb22f?page=uuid:6b4ade00-9bb3-11e8-9b22-5ef3fc9ae867"
+            note="Str. 484, č. 197"
+          />{' '}
+          ale rok 1476 ho již nezastihnul mezi živými, jak stojí v dopise ze
+          &nbsp;<b>17. dubna 1476</b>:
           <Cit>Wie etwen herre Jobst vom Eynsidel, demegot gnade</Cit> (Jako
           pánu Joštu z Einsiedlu buď mu bůh milostiv).
           <Qt
@@ -698,7 +768,19 @@ export const JostTyrovsky = () => (
           který byl vložen do zemských desk. Jeho znění se nám bohužel
           nedochovalo, víme však, že byl zneplatněn, neboť byl učiněn{' '}
           <Cit>po smrti pečetín</Cit>.
-          <Qt publication={PUBLICATIONS.BOUKAL} note="str. 90" />
+          <Qt publication={PUBLICATIONS.BOUKAL} note="str. 90" /> Knížky nálezů
+          zemského soudu z toho učinily obecné pravidlo:{' '}
+          <Cit>
+            Kšaft podle práva na list mocný královský učiněný, ve dsky vložený,
+            král zase s pány vyzdvihli a odvolali, protože jest byl po smrti
+            pečetín. O tom nález Septimo Plana D. XXX, kdež Jošt z Eynsydle
+            kšaft dělá.
+          </Cit>
+          <Qt
+            publication={PUBLICATIONS.AC19}
+            href="https://kramerius5.nkp.cz/view/uuid:4d1a50b0-8dd9-11e8-9588-5ef3fc9bb22f?page=uuid:e8041af0-9b8c-11e8-8b19-005056825209"
+            note="Str. 510, nález 46"
+          />
         </p>
       </Col>
     </Row>

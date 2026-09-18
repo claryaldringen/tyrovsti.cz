@@ -12,6 +12,7 @@ import { JanTyrovsky } from '../../components/Articles/cz/tyrovsti/JanTyrovsky'
 import { JindrichJakubTyrovsky } from '../../components/Articles/cz/tyrovsti/JindrichJakubTyrovsky'
 import { AdamJindrichTyrovsky } from '../../components/Articles/cz/tyrovsti/AdamJindrichTyrovsky'
 import { VojtechIgnacTyrovsky } from '../../components/Articles/cz/tyrovsti/VojtechIgnacTyrovsky'
+import { KonecRodu } from '../../components/Articles/cz/tyrovsti/KonecRodu'
 import { Payment } from '../../components/Payment'
 import { TyrovstiUvod } from '../../components/Articles/cz/tyrovsti/TyrovstiUvod'
 
@@ -34,6 +35,7 @@ const Page = () => (
           <JindrichJakubTyrovsky />
           <AdamJindrichTyrovsky />
           <VojtechIgnacTyrovsky />
+          <KonecRodu />
           <Erb />
           <Sources />
           <Payment />

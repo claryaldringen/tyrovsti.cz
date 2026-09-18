@@ -2,6 +2,7 @@ import { Col, Row } from 'reactstrap'
 import React from 'react'
 import { PUBLICATIONS } from '../../../../shared/constants'
 import { Qt } from '../../../Quote/Qt'
+import { Cit } from '../../../Citation'
 
 export const VojtechIgnacTyrovsky = () => (
   <>
@@ -48,13 +49,34 @@ export const VojtechIgnacTyrovsky = () => (
           Plných let nabyl roku 1662 a sám se uvázal v otcovské dědictví. Oto
           Jiří z Helversenu, pán na Krakovci, si na jeho panství hned pojistil
           3000 zlatých, které mu mladý Týřovský zůstal dlužen za zlaté věci,
-          diamanty a rubíny. Roku 1676 přikoupil ves Třímaný a téhož roku
+          diamanty a rubíny. Roku 1676 přikoupil ves Třímaný – od Norberta
+          Miseroniho, který ji odprodal od panství Krašov – a téhož roku
           propustil ze služeb purkrabího Daniela Vlašimského, dříve pražského
           měšťana, jemuž zůstal dlužen 500 zlatých.
           <Qt
             publication={PUBLICATIONS.KOCKA1}
             href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:982a126d-a074-4939-802f-22a8843d76ad"
             note="Str. 316, 378"
+          />
+          <Qt
+            publication={PUBLICATIONS.SEDLACEK13}
+            href="https://kramerius5.nkp.cz/view/uuid:12f8f660-3001-11de-b49a-000d606f5dc6?page=uuid:6b070060-7b5f-11e7-89ee-5ef3fc9ae867"
+            note="Str. 121"
+          />
+        </p>
+        <p>
+          Stejně jako otec zastával úřad hejtmana Rakovnického kraje. Plaská
+          klášterní kronika ho v této hodnosti zaznamenává 13. listopadu 1681,
+          kdy byl spolu s hrabětem Štampachem, hejtmanem kraje Plzeňského,
+          královským komisařem při volbě opata Ondřeje Trojera. Táž kronika
+          uvádí, že plaský řeholník Leopold Miškovský byl v březnu 1688 dán{' '}
+          <Cit>mladým pánům baronům Týřovským</Cit> za praefekta v Praze, kde
+          sám studoval práva; jiný plaský kněz, Kandid Ungar, strávil sedmnáct
+          let u Vojtěcha Ignáce na Chříči jako domácí kaplan.
+          <Qt
+            publication={PUBLICATIONS.TILIA}
+            href="https://kramerius5.nkp.cz/view/uuid:46c7f19b-ec76-11f0-897f-72b499cdd859"
+            note="Str. 81, 149, 151"
           />
         </p>
         <p>
@@ -83,14 +105,20 @@ export const VojtechIgnacTyrovsky = () => (
           />
         </p>
         <p>
-          Zemřel roku 1695. Zůstala po něm vdova Kateřina Magdalena, rozená
-          hraběnka z Brandenburka, synové Jan Vilém, Michal Antonín a František
-          Pavel a dcery Anna a Polyxena. Chříč dědil Michal Antonín, který neměl
-          plných let, a zůstal proto pod poručnictvím staršího bratra Jana
-          Viléma. Vdova hned vypověděla Jana Kautského, který tu byl třináct let
-          purkrabím; když si Kautský opatřil místo u pana Diviše z Helversenu na
-          Krakovci, Jan Vilém nechtěl propustit jeho nemocnou ženu Barboru se
-          dvěma dětmi a opatřil je vězením.
+          Zemřel roku 1695 a byl pohřben v kostele v Milíčově.
+          <Qt
+            publication={PUBLICATIONS.SEDLACEK8}
+            href="https://kramerius5.nkp.cz/view/uuid:1ed20270-2ffb-11de-8f63-000d606f5dc6?page=uuid:5b1ad7b0-7b52-11e7-89ee-5ef3fc9ae867"
+            note="Str. 112"
+          />{' '}
+          Zůstala po něm vdova Kateřina Magdalena, rozená hraběnka z
+          Brandenburka, synové Jan Vilém, Michal Antonín a František Pavel a
+          dcery Anna Barbora a Polyxena Lidmila. Chříč dědil Michal Antonín,
+          který neměl plných let, a zůstal proto pod poručnictvím staršího
+          bratra Jana Viléma. Vdova hned vypověděla Jana Kautského, který tu byl
+          třináct let purkrabím; když si Kautský opatřil místo u pana Diviše z
+          Helversenu na Krakovci, Jan Vilém nechtěl propustit jeho nemocnou ženu
+          Barboru se dvěma dětmi a opatřil je vězením.
           <Qt
             publication={PUBLICATIONS.KOCKA1}
             href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:982a126d-a074-4939-802f-22a8843d76ad"
@@ -105,13 +133,30 @@ export const VojtechIgnacTyrovsky = () => (
           Studenou, Hlince, Třímaný, Holovousy, Hedčany, Milíčov, Slatinu a
           Lhotu, dvory s ovčíny Ptíč, Březsko a Dubjany a mlýn s práchárnou a
           vinicí u města Loun. Každý z bratří si vymínil pět osob a všichni se
-          uvolili platit matce Kateřině Magdaleně ročně po 300 zlatých. Michal
-          Antonín, poslední držitel chříčského dědictví, zemřel roku 1705; jeho
-          manželkou byla Konstancie ze Šporku.
+          uvolili platit matce Kateřině Magdaleně ročně po 300 zlatých.
           <Qt
             publication={PUBLICATIONS.KOCKA1}
             href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:cad91700-163b-46b7-9616-472c3b1b10de"
-            note="Str. 317, 361"
+            note="Str. 317"
+          />{' '}
+          Sedláček k tomu dodává, že na panství tou dobou vázlo 69 450 zlatých
+          rýnských dluhů, a vypočítává, co tehdy obsahovalo: zámek a ves Chříč
+          se dvorem, vsi Slatinu, Lhotu, Holovousy, Hlince a Studenou, dvůr a
+          ves Březsko, dvůr ve Ptíči, dvůr Dubjany, Milíčov s podacím, Hedčany,
+          Třímany, Bělbožice, městečko Kožlany s podacím a pustou ves Dolany.{' '}
+          <Cit>Tak Týřovští po stu letech Chříč opustili.</Cit> Že nová vrchnost
+          seděla na Chříči už koncem roku 1701, dokládá plaská kronika: od 19.
+          listopadu 1701 tam působil kaplan{' '}
+          <Cit>u hraběnky Lažanské na Chříči</Cit>.
+          <Qt
+            publication={PUBLICATIONS.SEDLACEK8}
+            href="https://kramerius5.nkp.cz/view/uuid:1ed20270-2ffb-11de-8f63-000d606f5dc6?page=uuid:5b1ad7b0-7b52-11e7-89ee-5ef3fc9ae867"
+            note="Str. 112"
+          />
+          <Qt
+            publication={PUBLICATIONS.TILIA}
+            href="https://kramerius5.nkp.cz/view/uuid:46c7f19b-ec76-11f0-897f-72b499cdd859"
+            note="Str. 155"
           />
         </p>
       </Col>

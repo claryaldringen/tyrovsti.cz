@@ -20,6 +20,27 @@ export const Erb = () => (
           a Markétě Poskočilové za pomoc při výzkumu.
         </p>
         <p>
+          Erb Jošt z Einsiedlu podle Sedláčka dostal{' '}
+          <Cit>bezpochyby za krále Ladislava</Cit>; jeho polepšení králem
+          Fridrichem III. z 23. listopadu 1455 je zachyceno v Chmelových
+          regestech (č. 3452) a Sedláček je zařadil do soupisu erbovních listů z
+          let 1439–1456.
+          <Qt
+            publication={PUBLICATIONS.SEDLACEK_HERALDIKA1}
+            href="https://kramerius5.nkp.cz/view/uuid:d6b3bfb0-3f08-11e4-bc3a-005056827e51?page=uuid:b6070390-f000-11e9-9a61-005056827e52"
+            note="Str. 90"
+          />
+          <Qt
+            publication={PUBLICATIONS.OTTO25}
+            href="https://kramerius5.nkp.cz/view/uuid:7e11fe20-043e-11e5-95ff-5ef3fc9bb22f?page=uuid:c0908a40-1452-11e5-ac49-005056825209"
+            note="Str. 154"
+          />{' '}
+          Vojtěch Král z Dobré Vody uvádí erb Týřovských mezi příklady, kde byl
+          orel udělen <Cit>jakožto znamení zvláštní císařské milosti</Cit> – v
+          1. a 4. poli <Cit>štípeného a dvakráte děleného štítu</Cit>.
+          <Qt publication={PUBLICATIONS.KRAL_HERALDIKA} note="Str. 136" />
+        </p>
+        <p>
           Popis erbu Týřovských se u jednotlivých autorů značně liší. August
           Sedláček v Českomoravské heraldice píše, že{' '}
           <Cit>
@@ -31,6 +52,11 @@ export const Erb = () => (
             levou s přikr. červenými a bílými s vysokým červeným kloboukem s
             bílou ohnutou střechou a (černou) kytou.
           </Cit>
+          <Qt
+            publication={PUBLICATIONS.SEDLACEK_HERALDIKA2}
+            href="https://kramerius5.nkp.cz/view/uuid:b5251ae0-2457-11e4-8e0d-005056827e51?page=uuid:31c098d0-418c-11e4-bdb5-005056825209"
+            note="Str. 120"
+          />
         </p>
         <p>Rudolf Jan Meraviglia-Crivelli zase v Der Böhmische Adel uvádí:</p>
       </Col>
@@ -49,6 +75,10 @@ export const Erb = () => (
             oben mit sieben schwarzen Hahnenfedern besteckt; Decken:
             Roth-silbern.
           </Cit>
+          <Qt
+            publication={PUBLICATIONS.MERAVIGLIA}
+            note="Str. 39–40, tab. 31"
+          />
         </p>
       </Col>
       <Col>
@@ -115,10 +145,23 @@ export const Erb = () => (
             href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:85055638-c5cd-4b57-bd54-93a437e6ce73&fulltext=1472"
           />
           , a které svá břevna údajně převzalo právě z erbu své vrchnosti.{' '}
-          <Qt publication={PUBLICATIONS.PELANT} /> Správnější však bude varianta
-          z Milíčova, kdy jsou panna, příslušná přikryvadla i břevna černé
-          barvy. Zajímavé je, že to je rovněž jediné soudobé vyobrazení, kde si
-          panna klade na hlavu korunu.
+          <Qt publication={PUBLICATIONS.PELANT} /> Také Sedláček v hesle o
+          Kožlanech píše, že Vladislav II. roku 1472 rozmnožil znak městečka{' '}
+          <Cit>o rodinný znak Týřovských z Ensidle</Cit>, a popisuje ho:{' '}
+          <Cit>
+            štít na příč rozpůlený; v dolní polovici 2 pruhy stříbrné a 2
+            červené pošikem položené, v hor. polovici barvy modré vystupuje
+            polovina kozla barvy stříbrné, držící sekeru
+          </Cit>
+          .
+          <Qt
+            publication={PUBLICATIONS.OTTO14}
+            href="https://kramerius5.nkp.cz/view/uuid:7e11fe20-043e-11e5-95ff-5ef3fc9bb22f?page=uuid:00846670-05b3-11e5-95ff-5ef3fc9bb22f"
+            note="Str. 1060"
+          />
+          Správnější však bude varianta z Milíčova, kdy jsou panna, příslušná
+          přikryvadla i břevna černé barvy. Zajímavé je, že to je rovněž jediné
+          soudobé vyobrazení, kde si panna klade na hlavu korunu.
         </p>
         <p>
           Správný blason tedy nejspíše zní:
