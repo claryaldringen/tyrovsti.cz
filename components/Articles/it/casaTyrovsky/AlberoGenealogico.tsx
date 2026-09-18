@@ -22,6 +22,7 @@ const tree: Person = {
       children: [
         {
           name: 'Jobst di Skryje',
+          href: '#figli-di-enrico',
           dates: '†1574',
           children: [
             {
@@ -31,17 +32,19 @@ const tree: Person = {
             },
             {
               name: 'Kateřina',
+              href: '#gli-ultimi-tyrovsky',
               dates: '⚭ Kryštof Jindřich Krakovský di Kolovrat',
             },
           ],
         },
-        { name: 'Albrecht di Týřov', dates: '†1571' },
-        { name: 'Jan di Broumy', dates: '†1574' },
+        { name: 'Albrecht di Týřov', dates: '†1571', href: '#figli-di-enrico' },
+        { name: 'Jan di Broumy', dates: '†1574', href: '#figli-di-enrico' },
         {
           name: 'Jiřík di Hřebečníky',
+          href: '#figli-di-enrico',
           dates: '†1578–1583',
           children: [
-            { name: 'Dorota' },
+            { name: 'Dorota', href: '#enrico-giacomo-di-einsiedl' },
             {
               name: 'Jindřich Jakub',
               dates: '†1618',
@@ -54,6 +57,7 @@ const tree: Person = {
                   children: [
                     {
                       name: 'Kateřina Dorota',
+                      href: '#adamo-enrico-di-einsiedl',
                       dates: '⚭ Václav Mikuláš Broum di Miřetice',
                     },
                     {
@@ -63,32 +67,55 @@ const tree: Person = {
                       children: [
                         {
                           name: 'Jan Vilém',
-                          children: [{ name: 'Josefa Anna' }],
+                          href: '#gli-ultimi-tyrovsky',
+                          children: [
+                            {
+                              name: 'Josefa Anna',
+                              href: '#gli-ultimi-tyrovsky',
+                            },
+                          ],
                         },
                         {
                           name: 'Michal Antonín',
                           dates: '1677 – 1705',
                           href: '#gli-ultimi-tyrovsky',
                           children: [
-                            { name: 'Marie Konstancie', dates: '1701 – 1722' },
-                            { name: 'Marie Anna', dates: '*1704' },
+                            {
+                              name: 'Marie Konstancie',
+                              dates: '1701 – 1722',
+                              href: '#gli-ultimi-tyrovsky',
+                            },
+                            {
+                              name: 'Marie Anna',
+                              dates: '*1704',
+                              href: '#gli-ultimi-tyrovsky',
+                            },
                             {
                               name: 'Jan Michal',
+                              href: '#figli-di-enrico',
                               dates:
                                 "l'ultimo della linea maschile, *1705, ancora in vita nel 1768",
                               href: '#gli-ultimi-tyrovsky',
                             },
                           ],
                         },
-                        { name: 'František Pavel', dates: '†c. 1717' },
-                        { name: 'Anna Barbora' },
-                        { name: 'Polyxena Lidmila' },
+                        {
+                          name: 'František Pavel',
+                          dates: '†c. 1717',
+                          href: '#gli-ultimi-tyrovsky',
+                        },
+                        { name: 'Anna Barbora', href: '#gli-ultimi-tyrovsky' },
+                        {
+                          name: 'Polyxena Lidmila',
+                          href: '#gli-ultimi-tyrovsky',
+                        },
                       ],
                     },
                   ],
                 },
                 {
                   name: 'Dorota Polyxena',
+                  href: '#enrico-giacomo-di-einsiedl',
                   dates: '⚭ Petr Jiří Kokořovec di Kokořov, †1640',
                 },
               ],
@@ -102,7 +129,7 @@ const tree: Person = {
 
 const Node = ({ person }: { person: Person }) => {
   const label = person.href ? (
-    <Link href={person.href}>{person.name}</Link>
+    <Link href={`/tyrovsky-di-einsiedl${person.href}`}>{person.name}</Link>
   ) : (
     person.name
   )

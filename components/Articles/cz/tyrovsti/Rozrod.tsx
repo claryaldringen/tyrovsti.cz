@@ -22,6 +22,7 @@ const tree: Person = {
       children: [
         {
           name: 'Jošt na Skryjích',
+          href: '#synove-jindrichovi',
           dates: '†1574',
           children: [
             {
@@ -31,17 +32,27 @@ const tree: Person = {
             },
             {
               name: 'Kateřina',
+              href: '#konec-rodu',
               dates: '⚭ Kryštof Jindřich Krakovský z Kolovrat',
             },
           ],
         },
-        { name: 'Albrecht na Týřově', dates: '†1571' },
-        { name: 'Jan na Broumech', dates: '†1574' },
+        {
+          name: 'Albrecht na Týřově',
+          dates: '†1571',
+          href: '#synove-jindrichovi',
+        },
+        {
+          name: 'Jan na Broumech',
+          dates: '†1574',
+          href: '#synove-jindrichovi',
+        },
         {
           name: 'Jiřík na Hřebečnících',
+          href: '#synove-jindrichovi',
           dates: '†1578–1583',
           children: [
-            { name: 'Dorota' },
+            { name: 'Dorota', href: '#jindrich-jakub-tyrovsky-z-einsiedlu' },
             {
               name: 'Jindřich Jakub',
               dates: '†1618',
@@ -54,6 +65,7 @@ const tree: Person = {
                   children: [
                     {
                       name: 'Kateřina Dorota',
+                      href: '#adam-jindrich-tyrovsky-z-einsiedlu',
                       dates: '⚭ Václav Mikuláš Broum z Miřetic',
                     },
                     {
@@ -63,15 +75,26 @@ const tree: Person = {
                       children: [
                         {
                           name: 'Jan Vilém',
-                          children: [{ name: 'Josefa Anna' }],
+                          href: '#konec-rodu',
+                          children: [
+                            { name: 'Josefa Anna', href: '#konec-rodu' },
+                          ],
                         },
                         {
                           name: 'Michal Antonín',
                           dates: '1677 – 1705',
                           href: '#konec-rodu',
                           children: [
-                            { name: 'Marie Konstancie', dates: '1701 – 1722' },
-                            { name: 'Marie Anna', dates: '*1704' },
+                            {
+                              name: 'Marie Konstancie',
+                              dates: '1701 – 1722',
+                              href: '#konec-rodu',
+                            },
+                            {
+                              name: 'Marie Anna',
+                              dates: '*1704',
+                              href: '#konec-rodu',
+                            },
                             {
                               name: 'Jan Michal',
                               dates: 'poslední po meči, *1705, žil ještě 1768',
@@ -79,15 +102,20 @@ const tree: Person = {
                             },
                           ],
                         },
-                        { name: 'František Pavel', dates: '†asi 1717' },
-                        { name: 'Anna Barbora' },
-                        { name: 'Polyxena Lidmila' },
+                        {
+                          name: 'František Pavel',
+                          dates: '†asi 1717',
+                          href: '#konec-rodu',
+                        },
+                        { name: 'Anna Barbora', href: '#konec-rodu' },
+                        { name: 'Polyxena Lidmila', href: '#konec-rodu' },
                       ],
                     },
                   ],
                 },
                 {
                   name: 'Dorota Polyxena',
+                  href: '#jindrich-jakub-tyrovsky-z-einsiedlu',
                   dates: '⚭ Petr Jiří Kokořovec z Kokořova, †1640',
                 },
               ],
@@ -101,7 +129,7 @@ const tree: Person = {
 
 const Node = ({ person }: { person: Person }) => {
   const label = person.href ? (
-    <Link href={person.href}>{person.name}</Link>
+    <Link href={`/tyrovsti-z-einsiedlu${person.href}`}>{person.name}</Link>
   ) : (
     person.name
   )
