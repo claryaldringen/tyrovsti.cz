@@ -20,6 +20,15 @@ export const AdamJindrichTyrovsky = () => (
             publication={PUBLICATIONS.KOCKA1}
             href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:7e24d610-e020-4b49-94be-10a7485249aa"
             note="Str. 314"
+          />{' '}
+          Komise přitom uznala vinným jeho otce, statky ale ponechala
+          nezletilému synovi. Ke chříčskému zboží tehdy náležely vsi Chříč,
+          Slatina, Lhotka, dva poddaní v Holovousech, Hlince, Studená, Milíčov a
+          Hedčany, dvory Březsko a Dubjany a pusté vsi Dolany a Bělbožice.
+          <Qt
+            publication={PUBLICATIONS.KOCKA30}
+            href="https://kramerius5.nkp.cz/view/uuid:9bfe6dc0-47ef-11ea-81b3-005056827e52?page=uuid:79c45bd3-298d-4b7f-b098-b0ecbf1c8a1d"
+            note="Str. 14–15"
           />
         </p>
         <p>
@@ -53,10 +62,10 @@ export const AdamJindrichTyrovsky = () => (
           se s lidmi císařskými a vyhrožoval katolické Plzni. Rakovničtí měšťané
           naopak dosvědčili, že v městě nebyl a že tam jeho poddaní jen přivezli
           věci z Chříče a schovali je před nepřítelem. Pro nejistotu důkazů byl
-          roku 1638 přijat na milost a odsouzen jen k pokutě 3000 zlatých, z
-          nichž 2000 byly dány na stavbu hradu Pražského a 1000 na stavbu
-          jezuitské koleje v Klatovech. Peníze mu půjčil pražský měšťan Martin
-          Leibinger, jemuž na úhradu postoupil dvůr v Holovousech.
+          roku 1638 přijat na milost a odsouzen jen k pokutě 3000 zlatých
+          rýnských, z nichž 2000 byly dány na stavbu hradu Pražského a 1000 na
+          stavbu jezuitské koleje v Klatovech. Peníze mu půjčil pražský měšťan
+          Martin Leibinger, jemuž na úhradu postoupil dvůr v Holovousech.
           <Qt
             publication={PUBLICATIONS.KOCKA1}
             href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:7c883e9c-c039-4e28-8217-2e3df2340137"
@@ -77,20 +86,40 @@ export const AdamJindrichTyrovsky = () => (
           />
         </p>
         <p>
-          Umíraje roku 1652 ustanovil, aby jeho tělo bylo oblečeno v bílé prádlo
-          nemandlované a beze vší nádhery pohřbeno v kostele kožlanském, jemuž
-          odkázal 500 kop, aby za spásu jeho duše byla každý měsíc sloužena
-          zpívaná mše. Při pohřbu měli všichni chudí poddaní dostat almužnu po
-          šesti krejcarech a k obědu kus masa, deset chudých oblek soukenný a
-          dalších deset z černého plátna. Velice pokažený statek chříčský dostal
-          syn Vojtěch Ignác, vdova Eva Eurosina 20 000 kop, a nebyla-li by
-          vyplacena, měla zatím ujmout dvůr Ptíč, mlýn Lejskovský a vsi Hlince a
-          Studenou; dceři Kateřině Dorotě bylo určeno 6000 zlatých věna a
-          výprava. Dluhů bylo 11 500 zlatých.
+          Válečné břemeno tím nekončilo. Roku 1641 se v Rakovnicku soustředilo
+          šestnáct císařských regimentů a Chříč na jejich výživu dodávala spolu
+          s Libyní, Šípy a Podmokly po 512 librách chleba, tolikéž pinet piva a
+          256 librách masa, Kožlany po 320 librách chleba, tolikéž piva a 160
+          librách masa. Následujícího roku hlásil zbirožský hejtman české
+          komoře, že se někteří sedláci z hladu přidávali k vojákům položeným v
+          Kožlanech – vodili je do panských tvrzí a mlátili jim obilí, aby se
+          hladu ubránili.
+          <Qt
+            publication={PUBLICATIONS.KOCKA30}
+            href="https://kramerius5.nkp.cz/view/uuid:9bfe6dc0-47ef-11ea-81b3-005056827e52?page=uuid:ca529629-5caa-4dc2-aace-243fea42d091"
+            note="Str. 25"
+          />
+        </p>
+        <p>
+          Zemřel v květnu 1652. V poslední vůli ustanovil, aby jeho tělo bylo
+          oblečeno v bílé prádlo nemandlované a beze vší nádhery pohřbeno v
+          kostele kožlanském, jemuž odkázal 500 kop, aby za spásu jeho duše byla
+          každý měsíc sloužena zpívaná mše. Při pohřbu měli všichni chudí
+          poddaní dostat almužnu po šesti krejcarech a k obědu kus masa, deset
+          chudých oblek soukenný a dalších deset z černého plátna. Velice
+          pokažený statek chříčský dostal syn Vojtěch Ignác, vdova Eva Eurosina
+          20 000 kop, a nebyla-li by vyplacena, měla zatím ujmout dvůr Ptíč,
+          mlýn Lejskovský a vsi Hlince a Studenou; dceři Kateřině Dorotě bylo
+          určeno 6000 zlatých věna a výprava. Dluhů bylo 11 500 zlatých.
           <Qt
             publication={PUBLICATIONS.KOCKA1}
             href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:982a126d-a074-4939-802f-22a8843d76ad"
             note="Str. 316, 377"
+          />
+          <Qt
+            publication={PUBLICATIONS.KOCKA30}
+            href="https://kramerius5.nkp.cz/view/uuid:9bfe6dc0-47ef-11ea-81b3-005056827e52?page=uuid:11c74e7f-ef98-48bc-a87b-1ff6e8ad8a36"
+            note="Str. 43"
           />
         </p>
       </Col>

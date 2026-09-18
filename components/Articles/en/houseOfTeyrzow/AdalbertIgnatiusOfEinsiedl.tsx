@@ -15,12 +15,32 @@ export const AdalbertIgnatiusOfEinsiedl = () => (
         <p>
           Vojtěch Ignác inherited the Chříč estate with the town of Kožlany,
           burdened with considerable debts, while still a minor; his mother Eva
-          Eurosina, née of Klenové, remained his guardian. In 1655 she sent the
-          archbishop a certificate that her entire family and all the subjects
-          in Kožlany were of the Catholic religion and that on Easter Monday
-          they had attended divine service and the sermon delivered by the
-          parish priest of Čistá, Jan Procerius, who also administered the
-          parish of Kožlany.
+          Eurosina, née of Klenové, remained his guardian. As early as December
+          1652 she asked the archbishop that the parish priest of Kralovice,
+          Alanus Folkner, might also administer the parish of Kožlany, which was
+          then without a priest, reminding him of her husband&apos;s bequest of
+          500 schocks for a monthly sung mass.
+          <Qt
+            publication={PUBLICATIONS.KOCKA30}
+            href="https://kramerius5.nkp.cz/view/uuid:9bfe6dc0-47ef-11ea-81b3-005056827e52?page=uuid:11c74e7f-ef98-48bc-a87b-1ff6e8ad8a36"
+            note="p. 43"
+          />{' '}
+          How devastated the estate she was taking over was is shown by the
+          official survey of 1653–1655: in Kožlany there were forty occupied and
+          sixteen deserted holdings, 441 strychs of deserted fields, buildings
+          in a wretched state and a deserted parsonage; in Hedčany not a single
+          farmer was in residence and eleven holdings lay deserted, and in
+          Holovousy two occupied holdings stood against six deserted ones.
+          <Qt
+            publication={PUBLICATIONS.KOCKA30}
+            href="https://kramerius5.nkp.cz/view/uuid:9bfe6dc0-47ef-11ea-81b3-005056827e52?page=uuid:b1afd171-c032-4bca-9982-d0ccdec15e75"
+            note="p. 30"
+          />{' '}
+          In 1655 she sent the archbishop a certificate that her entire family
+          and all the subjects in Kožlany were of the Catholic religion and that
+          on Easter Monday they had attended divine service and the sermon
+          delivered by the parish priest of Čistá, Jan Procerius, who also
+          administered the parish of Kožlany.
           <Qt
             publication={PUBLICATIONS.KOCKA1}
             href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:b80db396-2bc6-4d88-ae38-d19072b4ef54"

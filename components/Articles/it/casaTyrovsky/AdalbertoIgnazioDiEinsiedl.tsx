@@ -15,12 +15,32 @@ export const AdalbertoIgnazioDiEinsiedl = () => (
         <p>
           Vojtěch Ignác ereditò da minorenne la tenuta di Chříč con la città di
           Kožlany, gravata da considerevoli debiti; gli rimase tutrice la madre
-          Eva Eurosina, nata di Klenové. Questa nel 1655 inviò
-          all&apos;arcivescovo un attestato secondo cui tutta la sua famiglia e
-          tutti i sudditi di Kožlany erano di religione cattolica e che il
-          lunedì di Pasqua avevano assistito alla funzione divina e alla predica
-          tenuta dal parroco di Čistá Jan Procerius, che amministrava anche la
-          parrocchia di Kožlany.
+          Eva Eurosina, nata di Klenové. Già nel dicembre del 1652 ella chiese
+          all&apos;arcivescovo che il parroco di Kralovice, Alanus Folkner,
+          amministrasse anche la parrocchia di Kožlany, allora priva di
+          sacerdote, ricordando il lascito del marito di 500 sexagene per una
+          messa cantata mensile.
+          <Qt
+            publication={PUBLICATIONS.KOCKA30}
+            href="https://kramerius5.nkp.cz/view/uuid:9bfe6dc0-47ef-11ea-81b3-005056827e52?page=uuid:11c74e7f-ef98-48bc-a87b-1ff6e8ad8a36"
+            note="p. 43"
+          />{' '}
+          Quanto fosse devastata la tenuta che prendeva in consegna lo mostra la
+          descrizione ufficiale degli anni 1653–1655: a Kožlany vi erano
+          quaranta poderi occupati e sedici abbandonati, 441 strych di campi
+          incolti, edifici molto rovinati e la canonica abbandonata; a Hedčany
+          non risiedeva un solo contadino e undici poderi giacevano abbandonati,
+          e a Holovousy due poderi occupati stavano contro sei abbandonati.
+          <Qt
+            publication={PUBLICATIONS.KOCKA30}
+            href="https://kramerius5.nkp.cz/view/uuid:9bfe6dc0-47ef-11ea-81b3-005056827e52?page=uuid:b1afd171-c032-4bca-9982-d0ccdec15e75"
+            note="p. 30"
+          />{' '}
+          Nel 1655 inviò all&apos;arcivescovo un attestato secondo cui tutta la
+          sua famiglia e tutti i sudditi di Kožlany erano di religione cattolica
+          e che il lunedì di Pasqua avevano assistito alla funzione divina e
+          alla predica tenuta dal parroco di Čistá Jan Procerius, che
+          amministrava anche la parrocchia di Kožlany.
           <Qt
             publication={PUBLICATIONS.KOCKA1}
             href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:b80db396-2bc6-4d88-ae38-d19072b4ef54"

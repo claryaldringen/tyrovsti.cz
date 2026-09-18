@@ -15,11 +15,29 @@ export const VojtechIgnacTyrovsky = () => (
         <p>
           Vojtěch Ignác zdědil značnými dluhy zatížené panství chříčské s
           městečkem Kožlany jako nezletilý; poručnicí mu zůstala matka Eva
-          Eurosina, rozená z Klenového. Ta roku 1655 zaslala arcibiskupovi
-          osvědčení, že celá její rodina i všichni poddaní v Kožlanech jsou
-          náboženství katolického a že o velikonočním pondělí byli přítomni
-          službě boží i kázání, které vykonal čistecký farář Jan Procerius,
-          spravující i faru kožlanskou.
+          Eurosina, rozená z Klenového. Už v prosinci 1652 prosila arcibiskupa,
+          aby kralovický farář Alanus Folkner spravoval i kožlanskou faru, kde
+          tehdy kněz nebyl, a připomněla přitom manželův odkaz 500 kop na
+          měsíční zpívanou mši.
+          <Qt
+            publication={PUBLICATIONS.KOCKA30}
+            href="https://kramerius5.nkp.cz/view/uuid:9bfe6dc0-47ef-11ea-81b3-005056827e52?page=uuid:11c74e7f-ef98-48bc-a87b-1ff6e8ad8a36"
+            note="Str. 43"
+          />{' '}
+          Jak zpustlé panství přebírala, ukazuje úřední soupis z let 1653–1655:
+          v Kožlanech bylo čtyřicet osedlých a šestnáct pustých gruntů, 441
+          strychů pustých polí, stavení velice zpustlá a fara pustá, v Hedčanech
+          neseděl jediný hospodář a jedenáct gruntů leželo pustých, v
+          Holovousech byli dva osedlí proti šesti pustým gruntům.
+          <Qt
+            publication={PUBLICATIONS.KOCKA30}
+            href="https://kramerius5.nkp.cz/view/uuid:9bfe6dc0-47ef-11ea-81b3-005056827e52?page=uuid:b1afd171-c032-4bca-9982-d0ccdec15e75"
+            note="Str. 30"
+          />{' '}
+          Roku 1655 zaslala arcibiskupovi osvědčení, že celá její rodina i
+          všichni poddaní v Kožlanech jsou náboženství katolického a že o
+          velikonočním pondělí byli přítomni službě boží i kázání, které vykonal
+          čistecký farář Jan Procerius, spravující i faru kožlanskou.
           <Qt
             publication={PUBLICATIONS.KOCKA1}
             href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:b80db396-2bc6-4d88-ae38-d19072b4ef54"

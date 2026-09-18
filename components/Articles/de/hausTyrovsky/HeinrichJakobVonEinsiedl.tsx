@@ -102,6 +102,16 @@ export const HeinrichJakobVonEinsiedl = () => (
           />
         </p>
         <p>
+          Nach seinem Tod befand ihn die Konfiskationskommission der Teilnahme
+          am Aufstand für schuldig, die Güter Chříč, Kožlany und Hřebečníky
+          beließ sie jedoch seinem minderjährigen Sohn Adam Jindřich.
+          <Qt
+            publication={PUBLICATIONS.KOCKA30}
+            href="https://kramerius5.nkp.cz/view/uuid:9bfe6dc0-47ef-11ea-81b3-005056827e52?page=uuid:79c45bd3-298d-4b7f-b098-b0ecbf1c8a1d"
+            note="S. 14"
+          />
+        </p>
+        <p>
           Mit seiner Frau Dorota Újezdecká hatte er den Sohn Adam Jindřich und
           die Tochter Dorota Polyxena. Beide waren beim Tod des Vaters
           minderjährig, und zur Vormünderin wurde ihnen die Jungfrau Dorota

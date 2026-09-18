@@ -34,6 +34,13 @@ export const PUBLICATIONS: Record<string, Publication> = {
     year: 1930,
     href: 'https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52',
   },
+  KOCKA30: {
+    name: 'Kralovicko za války třicetileté',
+    author: 'Václav Kočka',
+    city: 'Kralovice u Plzně',
+    year: 1922,
+    href: 'https://kramerius5.nkp.cz/view/uuid:9bfe6dc0-47ef-11ea-81b3-005056827e52',
+  },
   TRESP: {
     name: 'Söldner aus Böhmen: im Dienst deutscher Fürsten: Kriegsgeschäft und Heeresorganisation im 15. Jahrhundert',
     author: 'Uwe Tresp',

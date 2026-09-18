@@ -15,12 +15,32 @@ export const AdalbertIgnazVonEinsiedl = () => (
         <p>
           Vojtěch Ignác erbte die mit erheblichen Schulden belastete Herrschaft
           Chříč samt dem Städtchen Kožlany als Minderjähriger; Vormünderin blieb
-          ihm seine Mutter Eva Eurosina, geborene von Klenové. Diese sandte 1655
-          dem Erzbischof eine Bescheinigung, dass ihre ganze Familie sowie alle
-          Untertanen in Kožlany katholischen Glaubens seien und dass sie am
-          Ostermontag dem Gottesdienst und der Predigt beigewohnt hätten, die
-          der Pfarrer von Čistá, Jan Procerius, hielt, der auch die Pfarrei
-          Kožlany verwaltete.
+          ihm seine Mutter Eva Eurosina, geborene von Klenové. Schon im Dezember
+          1652 bat sie den Erzbischof, der Kralowitzer Pfarrer Alanus Folkner
+          möge auch die Pfarrei Kožlany verwalten, die damals ohne Priester war,
+          und erinnerte dabei an das Vermächtnis ihres Mannes von 500 Schock für
+          eine monatliche gesungene Messe.
+          <Qt
+            publication={PUBLICATIONS.KOCKA30}
+            href="https://kramerius5.nkp.cz/view/uuid:9bfe6dc0-47ef-11ea-81b3-005056827e52?page=uuid:11c74e7f-ef98-48bc-a87b-1ff6e8ad8a36"
+            note="S. 43"
+          />{' '}
+          Wie verwüstet die Herrschaft war, die sie übernahm, zeigt die amtliche
+          Beschreibung der Jahre 1653–1655: in Kožlany gab es vierzig besetzte
+          und sechzehn wüste Gründe, 441 Strich wüster Felder, sehr verfallene
+          Gebäude und eine wüste Pfarrei, in Hedčany saß kein einziger Wirt und
+          elf Gründe lagen wüst, und in Holovousy standen zwei besetzte Gründe
+          sechs wüsten gegenüber.
+          <Qt
+            publication={PUBLICATIONS.KOCKA30}
+            href="https://kramerius5.nkp.cz/view/uuid:9bfe6dc0-47ef-11ea-81b3-005056827e52?page=uuid:b1afd171-c032-4bca-9982-d0ccdec15e75"
+            note="S. 30"
+          />{' '}
+          1655 sandte sie dem Erzbischof eine Bescheinigung, dass ihre ganze
+          Familie sowie alle Untertanen in Kožlany katholischen Glaubens seien
+          und dass sie am Ostermontag dem Gottesdienst und der Predigt
+          beigewohnt hätten, die der Pfarrer von Čistá, Jan Procerius, hielt,
+          der auch die Pfarrei Kožlany verwaltete.
           <Qt
             publication={PUBLICATIONS.KOCKA1}
             href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:b80db396-2bc6-4d88-ae38-d19072b4ef54"

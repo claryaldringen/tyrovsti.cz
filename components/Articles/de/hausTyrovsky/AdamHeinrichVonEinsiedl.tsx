@@ -23,6 +23,16 @@ export const AdamHeinrichVonEinsiedl = () => (
             publication={PUBLICATIONS.KOCKA1}
             href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:7e24d610-e020-4b49-94be-10a7485249aa"
             note="S. 314"
+          />{' '}
+          Seinen Vater befand die Kommission zwar für schuldig, die Güter beließ
+          sie jedoch dem minderjährigen Sohn. Zum Chříčer Gut gehörten damals
+          die Dörfer Chříč, Slatina, Lhotka, zwei Untertanen in Holovousy,
+          Hlince, Studená, Milíčov und Hedčany, die Höfe Březsko und Dubjany
+          sowie die wüsten Dörfer Dolany und Bělbožice.
+          <Qt
+            publication={PUBLICATIONS.KOCKA30}
+            href="https://kramerius5.nkp.cz/view/uuid:9bfe6dc0-47ef-11ea-81b3-005056827e52?page=uuid:79c45bd3-298d-4b7f-b098-b0ecbf1c8a1d"
+            note="S. 14–15"
           />
         </p>
         <p>
@@ -60,10 +70,10 @@ export const AdamHeinrichVonEinsiedl = () => (
           nicht in der Stadt gewesen sei und dass seine Untertanen dort nur
           Sachen aus Chříč hergebracht und vor dem Feind versteckt hätten. Wegen
           der Unsicherheit der Beweise wurde er 1638 begnadigt und nur zu einer
-          Geldstrafe von 3000 Gulden verurteilt, von denen 2000 für den Bau der
-          Prager Burg und 1000 für den Bau des Jesuitenkollegs in Klatovy
-          bestimmt wurden. Das Geld lieh ihm der Prager Bürger Martin Leibinger,
-          dem er zur Deckung den Hof in Holovousy abtrat.
+          Geldstrafe von 3000 rheinischen Gulden verurteilt, von denen 2000 für
+          den Bau der Prager Burg und 1000 für den Bau des Jesuitenkollegs in
+          Klatovy bestimmt wurden. Das Geld lieh ihm der Prager Bürger Martin
+          Leibinger, dem er zur Deckung den Hof in Holovousy abtrat.
           <Qt
             publication={PUBLICATIONS.KOCKA1}
             href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:7c883e9c-c039-4e28-8217-2e3df2340137"
@@ -85,23 +95,44 @@ export const AdamHeinrichVonEinsiedl = () => (
           />
         </p>
         <p>
-          Sterbend verfügte er 1652, sein Leib solle in ungemangelte weiße
-          Wäsche gekleidet und ohne allen Prunk in der Kirche zu Kožlany
-          bestattet werden, der er 500 Schock vermachte, damit für das Heil
-          seiner Seele jeden Monat eine gesungene Messe gehalten werde. Beim
-          Begräbnis sollten alle armen Untertanen ein Almosen von je sechs
-          Kreuzern und zum Mittagsmahl ein Stück Fleisch erhalten, zehn Arme ein
-          Gewand aus Tuch und weitere zehn eines aus schwarzem Leinen. Das arg
-          heruntergewirtschaftete Gut Chříč erhielt der Sohn Vojtěch Ignác, die
-          Witwe Eva Eurosina 20 000 Schock, und würde sie nicht ausgezahlt,
-          sollte sie einstweilen den Hof Ptíč, die Mühle Lejskovský und die
-          Dörfer Hlince und Studená übernehmen; der Tochter Kateřina Dorota
-          wurden 6000 Gulden Mitgift und die Aussteuer zugewiesen. An Schulden
-          waren es 11 500 Gulden.
+          Die Kriegslast endete damit nicht. 1641 wurden im Rakonitzer Kreis
+          sechzehn kaiserliche Regimenter zusammengezogen, und Chříč lieferte zu
+          ihrer Verpflegung zusammen mit Libyně, Šípy und Podmokly je 512 Pfund
+          Brot, ebenso viele Pinten Bier und 256 Pfund Fleisch, Kožlany 320
+          Pfund Brot, ebenso viel Bier und 160 Pfund Fleisch. Im folgenden Jahr
+          meldete der Hauptmann von Zbiroh der böhmischen Kammer, dass sich
+          einige Bauern aus Hunger den in Kožlany einquartierten Soldaten
+          anschlossen – sie führten sie zu den herrschaftlichen Festen und
+          droschen ihnen Getreide, um sich so des Hungers zu erwehren.
+          <Qt
+            publication={PUBLICATIONS.KOCKA30}
+            href="https://kramerius5.nkp.cz/view/uuid:9bfe6dc0-47ef-11ea-81b3-005056827e52?page=uuid:ca529629-5caa-4dc2-aace-243fea42d091"
+            note="S. 25"
+          />
+        </p>
+        <p>
+          Er starb im Mai 1652. In seinem letzten Willen verfügte er, sein Leib
+          solle in ungemangelte weiße Wäsche gekleidet und ohne allen Prunk in
+          der Kirche zu Kožlany bestattet werden, der er 500 Schock vermachte,
+          damit für das Heil seiner Seele jeden Monat eine gesungene Messe
+          gehalten werde. Beim Begräbnis sollten alle armen Untertanen ein
+          Almosen von je sechs Kreuzern und zum Mittagsmahl ein Stück Fleisch
+          erhalten, zehn Arme ein Gewand aus Tuch und weitere zehn eines aus
+          schwarzem Leinen. Das arg heruntergewirtschaftete Gut Chříč erhielt
+          der Sohn Vojtěch Ignác, die Witwe Eva Eurosina 20 000 Schock, und
+          würde sie nicht ausgezahlt, sollte sie einstweilen den Hof Ptíč, die
+          Mühle Lejskovský und die Dörfer Hlince und Studená übernehmen; der
+          Tochter Kateřina Dorota wurden 6000 Gulden Mitgift und die Aussteuer
+          zugewiesen. An Schulden waren es 11 500 Gulden.
           <Qt
             publication={PUBLICATIONS.KOCKA1}
             href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:982a126d-a074-4939-802f-22a8843d76ad"
             note="S. 316, 377"
+          />
+          <Qt
+            publication={PUBLICATIONS.KOCKA30}
+            href="https://kramerius5.nkp.cz/view/uuid:9bfe6dc0-47ef-11ea-81b3-005056827e52?page=uuid:11c74e7f-ef98-48bc-a87b-1ff6e8ad8a36"
+            note="S. 43"
           />
         </p>
       </Col>

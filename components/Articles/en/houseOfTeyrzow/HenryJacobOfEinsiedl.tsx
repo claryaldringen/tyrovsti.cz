@@ -101,6 +101,16 @@ export const HenryJacobOfEinsiedl = () => (
           />
         </p>
         <p>
+          After his death the confiscation commission found him guilty of taking
+          part in the revolt, yet left the estates of Chříč, Kožlany and
+          Hřebečníky to his under-age son Adam Jindřich.
+          <Qt
+            publication={PUBLICATIONS.KOCKA30}
+            href="https://kramerius5.nkp.cz/view/uuid:9bfe6dc0-47ef-11ea-81b3-005056827e52?page=uuid:79c45bd3-298d-4b7f-b098-b0ecbf1c8a1d"
+            note="p. 14"
+          />
+        </p>
+        <p>
           With his wife Dorota Újezdecká he had a son, Adam Jindřich, and a
           daughter, Dorota Polyxena. Both were minors at their father&apos;s
           death, and the maiden Dorota Týřovská, the unprovided-for sister of

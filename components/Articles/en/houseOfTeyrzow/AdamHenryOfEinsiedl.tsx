@@ -21,6 +21,16 @@ export const AdamHenryOfEinsiedl = () => (
             publication={PUBLICATIONS.KOCKA1}
             href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:7e24d610-e020-4b49-94be-10a7485249aa"
             note="p. 314"
+          />{' '}
+          The commission did find his father guilty, but left the estates to the
+          under-age son. The Chříč property then comprised the villages of
+          Chříč, Slatina, Lhotka, two subjects in Holovousy, Hlince, Studená,
+          Milíčov and Hedčany, the manors of Březsko and Dubjany and the
+          deserted villages of Dolany and Bělbožice.
+          <Qt
+            publication={PUBLICATIONS.KOCKA30}
+            href="https://kramerius5.nkp.cz/view/uuid:9bfe6dc0-47ef-11ea-81b3-005056827e52?page=uuid:79c45bd3-298d-4b7f-b098-b0ecbf1c8a1d"
+            note="p. 14–15"
           />
         </p>
         <p>
@@ -58,7 +68,7 @@ export const AdamHenryOfEinsiedl = () => (
           had not been in the town and that his subjects had merely brought
           things there from Chříč and hidden them from the enemy. Because of the
           uncertainty of the evidence he was pardoned in 1638 and sentenced only
-          to a fine of 3,000 guilders, of which 2,000 were given for the
+          to a fine of 3,000 Rhenish guilders, of which 2,000 were given for the
           building of Prague Castle and 1,000 for the building of the Jesuit
           college in Klatovy. The money was lent to him by the Prague burgher
           Martin Leibinger, to whom he ceded the manor in Holovousy in
@@ -84,11 +94,28 @@ export const AdamHenryOfEinsiedl = () => (
           />
         </p>
         <p>
-          As he lay dying in 1652 he directed that his body be clothed in
-          unmangled white linen and buried without any pomp in the church at
-          Kožlany, to which he bequeathed 500 schocks so that a sung mass might
-          be celebrated every month for the salvation of his soul. At the
-          funeral all the poor subjects were to receive alms of six kreuzers
+          The burden of war did not end there. In 1641 sixteen imperial
+          regiments were concentrated in the Rakovník district, and Chříč, along
+          with Libyně, Šípy and Podmokly, had to supply 512 pounds of bread each
+          for their subsistence, as many pints of beer and 256 pounds of meat,
+          while Kožlany supplied 320 pounds of bread, as much beer and 160
+          pounds of meat. The following year the captain of Zbiroh reported to
+          the Bohemian chamber that some peasants, driven by hunger, were
+          attaching themselves to the soldiers quartered in Kožlany – leading
+          them to the manorial strongholds and threshing grain for them to keep
+          starvation at bay.
+          <Qt
+            publication={PUBLICATIONS.KOCKA30}
+            href="https://kramerius5.nkp.cz/view/uuid:9bfe6dc0-47ef-11ea-81b3-005056827e52?page=uuid:ca529629-5caa-4dc2-aace-243fea42d091"
+            note="p. 25"
+          />
+        </p>
+        <p>
+          He died in May 1652. In his last will he directed that his body be
+          clothed in unmangled white linen and buried without any pomp in the
+          church at Kožlany, to which he bequeathed 500 schocks so that a sung
+          mass might be celebrated every month for the salvation of his soul. At
+          the funeral all the poor subjects were to receive alms of six kreuzers
           each and a piece of meat for dinner, ten poor men a suit of cloth and
           another ten a suit of black linen. The greatly ruined Chříč estate
           went to his son Vojtěch Ignác, the widow Eva Eurosina received 20,000
@@ -100,6 +127,11 @@ export const AdamHenryOfEinsiedl = () => (
             publication={PUBLICATIONS.KOCKA1}
             href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:982a126d-a074-4939-802f-22a8843d76ad"
             note="p. 316, 377"
+          />
+          <Qt
+            publication={PUBLICATIONS.KOCKA30}
+            href="https://kramerius5.nkp.cz/view/uuid:9bfe6dc0-47ef-11ea-81b3-005056827e52?page=uuid:11c74e7f-ef98-48bc-a87b-1ff6e8ad8a36"
+            note="p. 43"
           />
         </p>
       </Col>

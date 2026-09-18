@@ -23,6 +23,16 @@ export const AdamoEnricoDiEinsiedl = () => (
             publication={PUBLICATIONS.KOCKA1}
             href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:7e24d610-e020-4b49-94be-10a7485249aa"
             note="p. 314"
+          />{' '}
+          La commissione dichiarò invece colpevole suo padre, ma lasciò i beni
+          al figlio minorenne. Alla tenuta di Chříč appartenevano allora i
+          villaggi di Chříč, Slatina, Lhotka, due sudditi a Holovousy, Hlince,
+          Studená, Milíčov e Hedčany, i poderi di Březsko e Dubjany e i villaggi
+          abbandonati di Dolany e Bělbožice.
+          <Qt
+            publication={PUBLICATIONS.KOCKA30}
+            href="https://kramerius5.nkp.cz/view/uuid:9bfe6dc0-47ef-11ea-81b3-005056827e52?page=uuid:79c45bd3-298d-4b7f-b098-b0ecbf1c8a1d"
+            note="p. 14–15"
           />
         </p>
         <p>
@@ -61,7 +71,7 @@ export const AdamoEnricoDiEinsiedl = () => (
           in città e che vi erano soltanto giunti i suoi sudditi con le cose
           portate da Chříč per nasconderle al nemico. Per l&apos;incertezza
           delle prove fu accolto in grazia nel 1638 e condannato solo a una
-          multa di 3000 fiorini, dei quali 2000 furono destinati alla
+          multa di 3000 fiorini renani, dei quali 2000 furono destinati alla
           costruzione del castello di Praga e 1000 alla costruzione del collegio
           gesuita di Klatovy. Il denaro glielo prestò il borghese praghese
           Martin Leibinger, al quale cedette a saldo il podere di Holovousy.
@@ -87,23 +97,45 @@ export const AdamoEnricoDiEinsiedl = () => (
           />
         </p>
         <p>
-          Morendo nel 1652 dispose che il suo corpo fosse vestito di biancheria
-          bianca non passata al mangano e sepolto senza alcuno sfarzo nella
-          chiesa di Kožlany, alla quale lasciò 500 sexagene affinché ogni mese
-          fosse celebrata una messa cantata per la salvezza della sua anima. Al
-          funerale tutti i sudditi poveri dovevano ricevere un&apos;elemosina di
-          sei carantani ciascuno e per pranzo un pezzo di carne, dieci poveri un
-          vestito di panno e altri dieci uno di tela nera. La tenuta di Chříč,
-          molto rovinata, andò al figlio Vojtěch Ignác, alla vedova Eva Eurosina
-          20 000 sexagene e, qualora non le fossero state pagate, doveva nel
-          frattempo prendere il podere di Ptíč, il mulino Lejskovský e i
-          villaggi di Hlince e Studená; alla figlia Kateřina Dorota furono
-          destinati 6000 fiorini di dote e il corredo. I debiti ammontavano a 11
-          500 fiorini.
+          Il peso della guerra non finì lì. Nel 1641 nel distretto di Rakovník
+          furono concentrati sedici reggimenti imperiali e Chříč, insieme a
+          Libyně, Šípy e Podmokly, dovette fornire per il loro mantenimento 512
+          libbre di pane ciascuno, altrettante pinte di birra e 256 libbre di
+          carne, mentre Kožlany fornì 320 libbre di pane, altrettanta birra e
+          160 libbre di carne. L&apos;anno seguente il capitano di Zbiroh riferì
+          alla camera boema che alcuni contadini, spinti dalla fame, si univano
+          ai soldati acquartierati a Kožlany – li conducevano alle fortezze
+          signorili e trebbiavano per loro il grano, difendendosi così dalla
+          fame.
+          <Qt
+            publication={PUBLICATIONS.KOCKA30}
+            href="https://kramerius5.nkp.cz/view/uuid:9bfe6dc0-47ef-11ea-81b3-005056827e52?page=uuid:ca529629-5caa-4dc2-aace-243fea42d091"
+            note="p. 25"
+          />
+        </p>
+        <p>
+          Morì nel maggio del 1652. Nelle sue ultime volontà dispose che il suo
+          corpo fosse vestito di biancheria bianca non passata al mangano e
+          sepolto senza alcuno sfarzo nella chiesa di Kožlany, alla quale lasciò
+          500 sexagene affinché ogni mese fosse celebrata una messa cantata per
+          la salvezza della sua anima. Al funerale tutti i sudditi poveri
+          dovevano ricevere un&apos;elemosina di sei carantani ciascuno e per
+          pranzo un pezzo di carne, dieci poveri un vestito di panno e altri
+          dieci uno di tela nera. La tenuta di Chříč, molto rovinata, andò al
+          figlio Vojtěch Ignác, alla vedova Eva Eurosina 20 000 sexagene e,
+          qualora non le fossero state pagate, doveva nel frattempo prendere il
+          podere di Ptíč, il mulino Lejskovský e i villaggi di Hlince e Studená;
+          alla figlia Kateřina Dorota furono destinati 6000 fiorini di dote e il
+          corredo. I debiti ammontavano a 11 500 fiorini.
           <Qt
             publication={PUBLICATIONS.KOCKA1}
             href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:982a126d-a074-4939-802f-22a8843d76ad"
             note="p. 316, 377"
+          />
+          <Qt
+            publication={PUBLICATIONS.KOCKA30}
+            href="https://kramerius5.nkp.cz/view/uuid:9bfe6dc0-47ef-11ea-81b3-005056827e52?page=uuid:11c74e7f-ef98-48bc-a87b-1ff6e8ad8a36"
+            note="p. 43"
           />
         </p>
       </Col>

@@ -88,6 +88,16 @@ export const JindrichJakubTyrovsky = () => (
           />
         </p>
         <p>
+          Konfiskační komise ho po smrti uznala vinným z účasti na odboji,
+          statky Chříč, Kožlany a Hřebečníky však ponechala jeho nezletilému
+          synovi Adamu Jindřichovi.
+          <Qt
+            publication={PUBLICATIONS.KOCKA30}
+            href="https://kramerius5.nkp.cz/view/uuid:9bfe6dc0-47ef-11ea-81b3-005056827e52?page=uuid:79c45bd3-298d-4b7f-b098-b0ecbf1c8a1d"
+            note="Str. 14"
+          />
+        </p>
+        <p>
           S manželkou Dorotou Újezdeckou měl syna Adama Jindřicha a dceru Dorotu
           Polyxenu. Oba byli při otcově smrti nezletilí a poručnicí jim byla
           ustanovena panna Dorota Týřovská, nevybytá sestra zemřelého, která se

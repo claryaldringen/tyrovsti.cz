@@ -103,6 +103,16 @@ export const EnricoGiacomoDiEinsiedl = () => (
           />
         </p>
         <p>
+          Dopo la sua morte la commissione di confisca lo dichiarò colpevole di
+          aver preso parte alla rivolta, ma lasciò le tenute di Chříč, Kožlany e
+          Hřebečníky al figlio minorenne Adam Jindřich.
+          <Qt
+            publication={PUBLICATIONS.KOCKA30}
+            href="https://kramerius5.nkp.cz/view/uuid:9bfe6dc0-47ef-11ea-81b3-005056827e52?page=uuid:79c45bd3-298d-4b7f-b098-b0ecbf1c8a1d"
+            note="p. 14"
+          />
+        </p>
+        <p>
           Con la moglie Dorota Újezdecká ebbe il figlio Adam Jindřich e la
           figlia Dorota Polyxena. Entrambi erano minorenni alla morte del padre
           e fu nominata loro tutrice la signorina Dorota Týřovská, sorella
