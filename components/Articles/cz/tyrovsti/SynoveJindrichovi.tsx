@@ -83,11 +83,18 @@ export const SynoveJindrichovi = () => (
           />
         </p>
         <p>
-          Jošt ještě stihl kolem roku 1571 opravit kožlanský kostel, který od
-          husitských válek ležel asi sto čtyřicet let pustý. Opravu za svého
-          života nedokončil – ve svorníku nad oltářem zůstal znakový štít bez
-          erbu patrona – a byl v kostele roku 1574 pohřben. Kožlanský kostel se
-          tak stal pohřebním místem rodu.
+          Kožlanský kostel lehl popelem v srpnu 1430, kdy Táborité obléhali
+          Libštejn a městečko zpola vypálili.
+          <Qt
+            publication={PUBLICATIONS.KOCKA1}
+            href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:2017e185-f1ca-4ef1-8e25-468873aa415e"
+            note="Str. 362"
+          />{' '}
+          Pustý pak zůstal asi sto čtyřicet let – teprve Jošt jej kolem roku
+          1571 opravil, z gotické stavby přitom zůstaly jen presbytář a zdi v
+          základech. Opravu za svého života nedokončil, ve svorníku nad oltářem
+          zůstal znakový štít bez erbu patrona, a byl v kostele roku 1574
+          pohřben. Kožlanský kostel se tak stal pohřebním místem rodu.
           <Qt
             publication={PUBLICATIONS.KOCKA1}
             href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:4abd878f-4c66-4a1e-9215-ebcea9acdcec"

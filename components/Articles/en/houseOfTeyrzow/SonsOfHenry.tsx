@@ -90,12 +90,19 @@ export const SonsOfHenry = () => (
           />
         </p>
         <p>
-          Around 1571, Jobst still managed to repair the church in Kožlany,
-          which had lain in ruins for some hundred and forty years since the
-          Hussite Wars. He did not complete the work in his lifetime – the
-          keystone above the altar kept a shield without the patron&apos;s coat
-          of arms – and he was buried in the church in 1574, which thus became
-          the burial place of the family.
+          The church in Kožlany burned down in August 1430, when the Taborites
+          were besieging Libštejn and half the town went up in flames.
+          <Qt
+            publication={PUBLICATIONS.KOCKA1}
+            href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:2017e185-f1ca-4ef1-8e25-468873aa415e"
+            note="p. 362"
+          />{' '}
+          It then lay in ruins for some hundred and forty years – only around
+          1571 did Jobst have it repaired, and of the Gothic building only the
+          presbytery and the walls in the foundations remained. He did not
+          complete the work in his lifetime, the keystone above the altar kept a
+          shield without the patron&apos;s coat of arms, and he was buried in
+          the church in 1574, which thus became the burial place of the family.
           <Qt
             publication={PUBLICATIONS.KOCKA1}
             href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:4abd878f-4c66-4a1e-9215-ebcea9acdcec"

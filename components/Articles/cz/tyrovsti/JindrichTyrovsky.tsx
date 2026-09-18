@@ -30,22 +30,12 @@ export const JindrichTyrovsky = () => (
         <p>
           Jindřich byl znamenitým hospodářem. V krátké době přikoupil dvory v
           Nezabudicích a Panoším Újezdě, vesnice Hřebečníky, Skryje, Tytry,
-          Novosedly a stavěl dvůr Myslice. V Kožlanech obnovil kostel, jenž byl
-          pobořen od husitských válek, koupil zde dva pusté kmetcí dvory s
-          platem, které již mnoho let náležely ke Krakovci, od Jindřicha
+          Novosedly a stavěl dvůr Myslice. V Kožlanech koupil dva pusté kmetcí
+          dvory s platem, které již mnoho let náležely ke Krakovci, od Jindřicha
           Albrechta z Kolovrat, a nad městečkem založil rybník s potrubím.
           <Qt
             publication={PUBLICATIONS.KOCKA1}
             href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:2aeaba53-5238-4dde-bdff-90260eb8a2d2"
-          />{' '}
-          V kapitole o kožlanském kostele ovšem týž autor klade jeho obnovu až
-          kolem roku 1571 a připisuje ji Jindřichovu synovi Joštovi, který v něm
-          byl roku 1574 pohřben; protože stavba nebyla za Joštova života
-          dokončena, spočinul prý Jindřich v Jincích.
-          <Qt
-            publication={PUBLICATIONS.KOCKA1}
-            href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:4abd878f-4c66-4a1e-9215-ebcea9acdcec"
-            note="Str. 392–393"
           />
         </p>
         <p>

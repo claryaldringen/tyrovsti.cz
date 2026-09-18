@@ -91,12 +91,20 @@ export const SoehneHeinrichs = () => (
           />
         </p>
         <p>
-          Um 1571 gelang es Jobst noch, die Kirche in Kožlany instandzusetzen,
-          die seit den Hussitenkriegen etwa hundertvierzig Jahre wüst gelegen
-          hatte. Zu seinen Lebzeiten wurde der Bau nicht vollendet – im
-          Schlussstein über dem Altar blieb ein Wappenschild ohne das Wappen des
-          Patrons – und 1574 wurde er in der Kirche bestattet, die damit zur
-          Grablege des Geschlechts wurde.
+          Die Kirche in Kožlany brannte im August 1430 nieder, als die Taboriten
+          Libštejn belagerten und das Städtchen zur Hälfte in Flammen aufging.
+          <Qt
+            publication={PUBLICATIONS.KOCKA1}
+            href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:2017e185-f1ca-4ef1-8e25-468873aa415e"
+            note="S. 362"
+          />{' '}
+          Danach lag sie etwa hundertvierzig Jahre wüst – erst um 1571 ließ
+          Jobst sie instand setzen, wobei von dem gotischen Bau nur das
+          Presbyterium und die Mauern in den Fundamenten erhalten blieben. Zu
+          seinen Lebzeiten wurde der Bau nicht vollendet, im Schlussstein über
+          dem Altar blieb ein Wappenschild ohne das Wappen des Patrons, und 1574
+          wurde er in der Kirche bestattet, die damit zur Grablege des
+          Geschlechts wurde.
           <Qt
             publication={PUBLICATIONS.KOCKA1}
             href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:4abd878f-4c66-4a1e-9215-ebcea9acdcec"

@@ -93,12 +93,20 @@ export const FigliDiEnrico = () => (
           />
         </p>
         <p>
-          Verso il 1571 Jobst riuscì ancora a restaurare la chiesa di Kožlany,
-          rimasta in rovina per circa centoquaranta anni dalle guerre hussite. I
-          lavori non furono terminati in vita sua – nella chiave di volta sopra
-          l&apos;altare rimase uno scudo senza lo stemma del patrono – e nel
-          1574 vi fu sepolto, sicché la chiesa divenne il luogo di sepoltura
-          della famiglia.
+          La chiesa di Kožlany andò a fuoco nell&apos;agosto del 1430, quando i
+          taboriti assediavano Libštejn e metà della cittadina fu incendiata.
+          <Qt
+            publication={PUBLICATIONS.KOCKA1}
+            href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:2017e185-f1ca-4ef1-8e25-468873aa415e"
+            note="p. 362"
+          />{' '}
+          Rimase poi in rovina per circa centoquaranta anni: solo verso il 1571
+          Jobst la fece restaurare e dell&apos;edificio gotico rimasero soltanto
+          il presbiterio e i muri nelle fondamenta. I lavori non furono
+          terminati in vita sua, nella chiave di volta sopra l&apos;altare
+          rimase uno scudo senza lo stemma del patrono, e nel 1574 vi fu
+          sepolto, sicché la chiesa divenne il luogo di sepoltura della
+          famiglia.
           <Qt
             publication={PUBLICATIONS.KOCKA1}
             href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:4abd878f-4c66-4a1e-9215-ebcea9acdcec"

@@ -32,24 +32,14 @@ export const EnricoDiEinsiedl = () => (
         <p>
           Jindřich fu un eccellente amministratore. In breve tempo, acquistò
           poderi a Nezabudice e Panošín Újezd, i villaggi di Hřebečníky, Skryje,
-          Tytry e Novosedly, e costruì il podere di Myslice. A Kožlany, restaurò
-          la chiesa, che era in rovina fin dalle guerre hussite, comprò due
-          fattorie contadine abbandonate con rendite ivi situate, che per molti
-          anni erano appartenute a Krakovec, da Jindřich Albrecht di Kolovrat, e
-          sopra la cittadina fece costruire uno stagno con una conduttura.
+          Tytry e Novosedly, e costruì il podere di Myslice. A Kožlany, comprò
+          due fattorie contadine abbandonate con rendite ivi situate, che per
+          molti anni erano appartenute a Krakovec, da Jindřich Albrecht di
+          Kolovrat, e sopra la cittadina fece costruire uno stagno con una
+          conduttura.
           <Qt
             publication={PUBLICATIONS.KOCKA1}
             href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:2aeaba53-5238-4dde-bdff-90260eb8a2d2"
-          />{' '}
-          Nel capitolo dedicato alla chiesa di Kožlany, tuttavia, lo stesso
-          autore colloca il restauro solo verso il 1571 e lo attribuisce a
-          Jobst, figlio di Jindřich, che vi fu sepolto nel 1574; poiché i lavori
-          non furono terminati in vita di Jobst, Jindřich sarebbe stato sepolto
-          a Jince.
-          <Qt
-            publication={PUBLICATIONS.KOCKA1}
-            href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:4abd878f-4c66-4a1e-9215-ebcea9acdcec"
-            note="p. 392–393"
           />
         </p>
         <p>

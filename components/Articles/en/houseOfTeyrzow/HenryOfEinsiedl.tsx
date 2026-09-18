@@ -33,23 +33,12 @@ export const HenryOfEinsiedl = () => (
           Jindřich was an excellent manager. In a short time, he purchased
           manors in Nezabudice and Panošín Újezd, the villages of Hřebečníky,
           Skryje, Tytry and Novosedly, and built the Myslice manor. In Kožlany,
-          he restored the church, which had been ruined since the Hussite Wars,
-          bought two deserted peasant farms with revenues there, which had
+          he bought two deserted peasant farms with revenues there, which had
           belonged to Krakovec for many years, from Jindřich Albrecht of
           Kolovrat, and founded a pond with piping above the town.
           <Qt
             publication={PUBLICATIONS.KOCKA1}
             href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:2aeaba53-5238-4dde-bdff-90260eb8a2d2"
-          />{' '}
-          In his chapter on the Kožlany church, however, the same author dates
-          its restoration only to about 1571 and attributes it to
-          Jindřich&apos;s son Jobst, who was buried there in 1574; because the
-          work was not completed in Jobst&apos;s lifetime, Jindřich is said to
-          have been laid to rest in Jince.
-          <Qt
-            publication={PUBLICATIONS.KOCKA1}
-            href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:4abd878f-4c66-4a1e-9215-ebcea9acdcec"
-            note="p. 392–393"
           />
         </p>
         <p>
