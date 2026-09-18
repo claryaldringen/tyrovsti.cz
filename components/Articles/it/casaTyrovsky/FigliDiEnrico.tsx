@@ -133,6 +133,19 @@ export const FigliDiEnrico = () => (
           />
         </p>
         <p>
+          Kožlany rimase in mano alla famiglia anche dopo la divisione: Jiřík la
+          teneva unita a Hřebečníky. Morì tra il 1578 e il 1583, poiché nel 1583
+          a Kožlany compare già come collatore della chiesa il nipote Jan, al
+          quale erano passate sia Hřebečníky sia Kožlany. La famiglia perse la
+          cittadina solo nel 1588, quando il re Rodolfo la cedette in eredità a
+          Jan il Vecchio di Lobkovice in cambio del castello in rovina di Týřov.
+          <Qt
+            publication={PUBLICATIONS.KOCKA1}
+            href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:68ec6251-3cf2-4d77-87ec-120f1d18e084"
+            note="p. 365–366, 393"
+          />
+        </p>
+        <p>
           Di quel riscatto però la famiglia non vide nulla. Il re Massimiliano
           registrò nel 1575 la tenuta di Týřov a Jan il Vecchio di Lobkovice,
           signore di Točník, per ottomila talleri, a condizione che si

@@ -71,6 +71,39 @@ export const JohannVonEinsiedl = () => (
           />
         </p>
         <p>
+          Die Kirche in Kožlany stand im Patronat des Geschlechts – schon 1571
+          war dort auf Präsentation von Jans Vater Jobst und seines Onkels Jiřík
+          der katholische Pfarrer Vít Kandidus eingesetzt worden. Mit seinen
+          eigenen Pfarrern kam Jan jedoch schlecht aus. Nach Víts Tod betrat
+          sein Beamter den Pfarrhof, nahm alles Getreide aus dem Speicher,
+          Pferde, Kühe und Schafe aus dem Stall und führte alle Kleider samt
+          einem ganzen Bräu Bier fort, während die Pfarrkinder Felder und Wiesen
+          unter sich aufteilten. Víts Nachfolger Maťheol, über den sich die
+          Kožlaner beklagten, er trinke und habe die Sonntagsmesse verschlafen,
+          obwohl an die dreihundert Menschen zur Kommunion gehen wollten,
+          beklagte sich beim Erzbischof, sein Patron habe ihn ins Stadtgefängnis
+          werfen lassen, wo er elf Tage hungernd zubrachte und Kälte und Gestank
+          ertrug. Jan wiederum schrieb dem Erzbischof, er werde Maťheol in
+          Kožlany nicht dulden, weil er die Untertanen schröpfe.
+          <Qt
+            publication={PUBLICATIONS.KOCKA1}
+            href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:641c5574-d36e-4623-a84d-20c436f12c9f"
+            note="S. 393–394"
+          />
+        </p>
+        <p>
+          Die Streitigkeiten hielten an: 1603 bat er den Erzbischof, Václav
+          Rakovnický nach Kožlany einzusetzen, denn die Gemeinde und er selbst
+          seien wie Schafe ohne Hirten, und der neu eingesetzte Petr Hostinius
+          beklagte sich 1609 umgekehrt, sein Patron Týřovský vertreibe ihn aus
+          dem Pfarrhof und führe ihm die Zehnten nicht ab.
+          <Qt
+            publication={PUBLICATIONS.KOCKA1}
+            href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:85992030-b6fb-4f74-b827-f62ed2b44fcf"
+            note="S. 395"
+          />
+        </p>
+        <p>
           Jan blieb Katholik und lebte dennoch in Eintracht mit den Lutheranern
           von Kožlany. Auf Bitten der Kožlaner bemühte er sich 1604 beim König
           darum, ihnen vier Jahrmärkte und die Erhebung eines Zolls auf der

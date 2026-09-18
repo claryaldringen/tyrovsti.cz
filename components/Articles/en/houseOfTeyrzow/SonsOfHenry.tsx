@@ -129,6 +129,20 @@ export const SonsOfHenry = () => (
           />
         </p>
         <p>
+          Kožlany remained in the family&apos;s hands even after the division:
+          Jiřík held the town together with Hřebečníky. He died some time
+          between 1578 and 1583, for in 1583 his nephew Jan already appears as
+          the collator of the church at Kožlany, Hřebečníky and Kožlany having
+          passed to him. The family lost the town only in 1588, when King Rudolf
+          granted it hereditarily to Jan the Elder of Lobkovice in exchange for
+          the ruined Týřov.
+          <Qt
+            publication={PUBLICATIONS.KOCKA1}
+            href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:68ec6251-3cf2-4d77-87ec-120f1d18e084"
+            note="p. 365–366, 393"
+          />
+        </p>
+        <p>
           The family, however, never lived to see that redemption. In 1575 King
           Maximilian registered the Týřov estate to Jan the Elder of Lobkovice
           at Točník for eight thousand thalers, on condition that he came to

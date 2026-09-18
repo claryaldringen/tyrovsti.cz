@@ -74,6 +74,40 @@ export const GiovanniDiEinsiedl = () => (
           />
         </p>
         <p>
+          La chiesa di Kožlany era sotto il patronato della famiglia: già nel
+          1571 vi era stato insediato, su presentazione del padre di Jan, Jobst,
+          e dello zio Jiřík, il parroco cattolico Vít Kandidus. Con i propri
+          parroci, però, Jan andava d&apos;accordo assai male. Dopo la morte di
+          Vít il suo ufficiale entrò nella canonica, prese dal granaio tutto il
+          grano, dalla stalla cavalli, vacche e pecore e portò via tutti gli
+          abiti e un&apos;intera cotta di birra, mentre i parrocchiani si
+          spartirono campi e prati. Il successore di Vít, Maťheol – del quale i
+          Kožlanští si lamentavano che beveva e che aveva dormito durante la
+          messa domenicale benché circa trecento persone volessero accostarsi
+          alla comunione – si lamentò con l&apos;arcivescovo che il patrono lo
+          aveva fatto gettare nella prigione cittadina, dove rimase undici
+          giorni affamato, patendo freddo e fetore. Jan scrisse invece
+          all&apos;arcivescovo che non avrebbe tollerato Maťheol a Kožlany,
+          perché angariava i sudditi.
+          <Qt
+            publication={PUBLICATIONS.KOCKA1}
+            href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:641c5574-d36e-4623-a84d-20c436f12c9f"
+            note="p. 393–394"
+          />
+        </p>
+        <p>
+          Le liti continuarono: nel 1603 chiese all&apos;arcivescovo di
+          insediare a Kožlany Václav Rakovnický, poiché la comunità e lui stesso
+          erano come pecore senza pastore, e il nuovo parroco Petr Hostinius si
+          lamentò nel 1609, al contrario, che il patrono Týřovský lo cacciava
+          dalla canonica e non gli versava le decime.
+          <Qt
+            publication={PUBLICATIONS.KOCKA1}
+            href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:85992030-b6fb-4f74-b827-f62ed2b44fcf"
+            note="p. 395"
+          />
+        </p>
+        <p>
           Jan rimase cattolico, eppure visse in armonia con i luterani di
           Kožlany. Su richiesta degli abitanti di Kožlany, nel 1604 sollecitò il
           re affinché concedesse loro quattro fiere annuali e la riscossione del

@@ -119,6 +119,19 @@ export const SynoveJindrichovi = () => (
           />
         </p>
         <p>
+          Kožlany zůstaly i po dělení v rukou rodu: Jiřík je držel k
+          Hřebečníkům. Zemřel někdy mezi lety 1578 a 1583, protože roku 1583 už
+          v Kožlanech vystupuje jako kolátor kostela jeho synovec Jan, na něhož
+          Hřebečníky i Kožlany přešly. Městečko rod ztratil až roku 1588, kdy je
+          král Rudolf dědičně postoupil Janovi staršímu z Lobkovic výměnou za
+          pustý Týřov.
+          <Qt
+            publication={PUBLICATIONS.KOCKA1}
+            href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:68ec6251-3cf2-4d77-87ec-120f1d18e084"
+            note="Str. 365–366, 393"
+          />
+        </p>
+        <p>
           Té výplaty se ale rod nedočkal. Král Maxmilián zapsal roku 1575
           týřovské panství Janovi staršímu z Lobkovic na Točníku v osmi tisících
           tolarů s podmínkou, že se s Týřovským porovná a že k zástavě svolí

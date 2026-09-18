@@ -66,6 +66,35 @@ export const JanTyrovsky = () => (
           />
         </p>
         <p>
+          Kožlanský kostel byl v podací rodu – už roku 1571 byl na presentaci
+          Janova otce Jošta a strýce Jiříka dosazen katolický farář Vít
+          Kandidus. S vlastními faráři ale Jan vycházel špatně. Po Vítově smrti
+          vešel jeho úředník do fary, pobral ze sýpky všechno obilí, ze stáje
+          koně, krávy a ovce a odvezl všechny šaty i celý var piva, zatímco
+          osadníci rozebrali pole a louky. Vítův nástupce Maťheol, na kterého si
+          Kožlanští stěžovali, že se opíjí a že zaspal nedělní mši, ačkoli k
+          přijímání chtělo přistoupit na tři sta lidí, si u arcibiskupa
+          postěžoval, že ho patron dal vsadit do šatlavy, kde jedenáct dní o
+          hladu pobyl a trpěl zimu a smrad. Jan naopak arcibiskupovi psal, že
+          Maťheola v Kožlanech trpět nebude, protože přetahuje poddané.
+          <Qt
+            publication={PUBLICATIONS.KOCKA1}
+            href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:641c5574-d36e-4623-a84d-20c436f12c9f"
+            note="Str. 393–394"
+          />
+        </p>
+        <p>
+          Spory ho provázely dál: roku 1603 prosil arcibiskupa, aby do Kožlan
+          dosadil Václava Rakovnického, neboť obec i on jsou jako ovce bez
+          pastýře, a nově dosazený Petr Hostinius si roku 1609 naopak stěžoval,
+          že ho patron Týřovský z fary vyhání a neodvádí mu desátky.
+          <Qt
+            publication={PUBLICATIONS.KOCKA1}
+            href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:85992030-b6fb-4f74-b827-f62ed2b44fcf"
+            note="Str. 395"
+          />
+        </p>
+        <p>
           Jan zůstal katolíkem, přesto žil ve shodě s kožlanskými luterány. Na
           prosbu Kožlanských se roku 1604 domáhal u krále, aby jim povolil čtyři
           výroční trhy a vybírání cla na Břežanské hoře u Vožehova mlýna.

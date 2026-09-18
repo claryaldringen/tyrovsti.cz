@@ -132,6 +132,20 @@ export const SoehneHeinrichs = () => (
           />
         </p>
         <p>
+          Kožlany blieb auch nach der Teilung in den Händen des Geschlechts:
+          Jiřík hielt das Städtchen zu Hřebečníky. Er starb irgendwann zwischen
+          1578 und 1583, denn 1583 tritt in Kožlany bereits sein Neffe Jan als
+          Kollator der Kirche auf, auf den Hřebečníky und Kožlany übergegangen
+          waren. Das Städtchen verlor das Geschlecht erst 1588, als es König
+          Rudolf Jan dem Älteren von Lobkowitz im Tausch gegen die wüste Burg
+          Týřov erblich überließ.
+          <Qt
+            publication={PUBLICATIONS.KOCKA1}
+            href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:68ec6251-3cf2-4d77-87ec-120f1d18e084"
+            note="S. 365–366, 393"
+          />
+        </p>
+        <p>
           Diese Auslösung erlebte das Geschlecht jedoch nicht mehr. König
           Maximilian verschrieb 1575 die Herrschaft Týřov Jan dem Älteren von
           Lobkowitz auf Točník für achttausend Taler unter der Bedingung, dass
