@@ -88,9 +88,9 @@ const tree: Person = {
                               href: '#the-last-tyrovsky',
                             },
                             {
-                              name: 'Jan Michal, the last of the male line',
-                              href: '#sons-of-henry',
-                              dates: '*1705, still alive in 1768',
+                              name: 'Jan Michal',
+                              dates:
+                                'the last of the male line, *1705, still alive in 1768',
                               href: '#the-last-tyrovsky',
                             },
                           ],

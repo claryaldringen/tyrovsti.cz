@@ -92,7 +92,6 @@ const tree: Person = {
                             },
                             {
                               name: 'Jan Michal',
-                              href: '#figli-di-enrico',
                               dates:
                                 "l'ultimo della linea maschile, *1705, ancora in vita nel 1768",
                               href: '#gli-ultimi-tyrovsky',

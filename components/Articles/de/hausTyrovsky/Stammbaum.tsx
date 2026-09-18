@@ -96,7 +96,6 @@ const tree: Person = {
                             },
                             {
                               name: 'Jan Michal',
-                              href: '#soehne-heinrichs',
                               dates:
                                 'der Letzte im Mannesstamm, *1705, lebte noch 1768',
                               href: '#die-letzten-tyrovsky',
