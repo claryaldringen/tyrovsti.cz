@@ -93,6 +93,19 @@ export const FigliDiEnrico = () => (
           />
         </p>
         <p>
+          Verso il 1571 Jobst riuscì ancora a restaurare la chiesa di Kožlany,
+          rimasta in rovina per circa centoquaranta anni dalle guerre hussite. I
+          lavori non furono terminati in vita sua – nella chiave di volta sopra
+          l&apos;altare rimase uno scudo senza lo stemma del patrono – e nel
+          1574 vi fu sepolto, sicché la chiesa divenne il luogo di sepoltura
+          della famiglia.
+          <Qt
+            publication={PUBLICATIONS.KOCKA1}
+            href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:4abd878f-4c66-4a1e-9215-ebcea9acdcec"
+            note="p. 392–393"
+          />
+        </p>
+        <p>
           Jan e Jobst morirono nel 1574. Rimasero in vita solo il quarto
           fratello Jiřík, signore di Hřebečníky, e suo nipote Jan, figlio di
           Jobst, che risiedeva a Skryje. Jan citò in giudizio lo zio affinché

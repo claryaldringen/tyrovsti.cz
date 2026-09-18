@@ -83,6 +83,18 @@ export const SynoveJindrichovi = () => (
           />
         </p>
         <p>
+          Jošt ještě stihl kolem roku 1571 opravit kožlanský kostel, který od
+          husitských válek ležel asi sto čtyřicet let pustý. Opravu za svého
+          života nedokončil – ve svorníku nad oltářem zůstal znakový štít bez
+          erbu patrona – a byl v kostele roku 1574 pohřben. Kožlanský kostel se
+          tak stal pohřebním místem rodu.
+          <Qt
+            publication={PUBLICATIONS.KOCKA1}
+            href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:4abd878f-4c66-4a1e-9215-ebcea9acdcec"
+            note="Str. 392–393"
+          />
+        </p>
+        <p>
           Jan a Jošt zemřeli roku 1574. Naživu zůstal jen čtvrtý bratr Jiřík na
           Hřebečníkách a jeho synovec Jan, syn Joštův, sedící na Skryjích. Jan
           strýce pohnal, aby mu připsal díl po zemřelých strýcích, a Jiřík mu

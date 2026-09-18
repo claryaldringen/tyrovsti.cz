@@ -33,15 +33,27 @@ export const HeinrichVonEinsiedl = () => (
           Jindřich war ein hervorragender Wirtschafter. In kurzer Zeit erwarb er
           Gutshöfe in Nezabudice und Panošín Újezd, die Dörfer Hřebečníky,
           Skryje, Tytry und Novosedly und ließ den Gutshof Myslice errichten. In
-          Kožlany ließ er die Kirche wieder aufbauen, die hundert Jahre lang
-          wüst gelegen hatte, gründete darin eine Familiengruft und kaufte dort
-          zwei verödete Bauernhöfe mit Einkünften, die viele Jahre lang zu
-          Krakovec gehört hatten, von Jindřich Albrecht von Kolovrat. Oberhalb
-          des Städtchens legte er zudem einen Teich mit Rohrleitung an.
+          Kožlany ließ er die Kirche wieder aufbauen, die seit den
+          Hussitenkriegen verfallen war, kaufte dort zwei verödete Bauernhöfe
+          mit Einkünften, die viele Jahre lang zu Krakovec gehört hatten, von
+          Jindřich Albrecht von Kolovrat, und legte oberhalb des Städtchens
+          einen Teich mit Rohrleitung an.
           <Qt
             publication={PUBLICATIONS.KOCKA1}
             href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:2aeaba53-5238-4dde-bdff-90260eb8a2d2"
           />{' '}
+          In seinem Kapitel über die Kirche von Kožlany datiert derselbe Autor
+          deren Wiederherstellung allerdings erst auf etwa 1571 und schreibt sie
+          Jindřichs Sohn Jobst zu, der dort 1574 bestattet wurde; da der Bau zu
+          Jobsts Lebzeiten nicht vollendet wurde, sei Jindřich in Jince
+          beigesetzt worden.
+          <Qt
+            publication={PUBLICATIONS.KOCKA1}
+            href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:4abd878f-4c66-4a1e-9215-ebcea9acdcec"
+            note="S. 392–393"
+          />
+        </p>
+        <p>
           1503 kaufte er die Wüstung Sadlno und das Gut Slabce, mit dem
           ebenfalls eine Lehnspflicht gegenüber Křivoklát verbunden war, und
           Jindřich musste daher bei Bedarf{' '}

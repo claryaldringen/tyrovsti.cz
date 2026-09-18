@@ -90,6 +90,19 @@ export const SonsOfHenry = () => (
           />
         </p>
         <p>
+          Around 1571, Jobst still managed to repair the church in Kožlany,
+          which had lain in ruins for some hundred and forty years since the
+          Hussite Wars. He did not complete the work in his lifetime – the
+          keystone above the altar kept a shield without the patron&apos;s coat
+          of arms – and he was buried in the church in 1574, which thus became
+          the burial place of the family.
+          <Qt
+            publication={PUBLICATIONS.KOCKA1}
+            href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:4abd878f-4c66-4a1e-9215-ebcea9acdcec"
+            note="p. 392–393"
+          />
+        </p>
+        <p>
           Jan and Jobst died in 1574. Only the fourth brother, Jiřík at
           Hřebečníky, remained alive, together with his nephew Jan, Jobst&apos;s
           son, who resided at Skryje. Jan summoned his uncle to court to have
