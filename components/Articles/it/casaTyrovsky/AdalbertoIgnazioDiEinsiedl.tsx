@@ -88,20 +88,20 @@ export const AdalbertoIgnazioDiEinsiedl = () => (
           A causa dei grandi debiti i fratelli Týřovský vendettero nel 1701 la
           tenuta di Chříč a Václav Josef conte Lažanský di Buková, signore di
           Manětín, per 211 000 fiorini e 300 fiorini per la consegna delle
-          chiavi; in un altro punto Kočka indica il prezzo di 211 500 fiorini.
-          Il contratto di vendita nomina il villaggio di Chříč con la residenza
-          signorile e due poderi, il birrificio, il granaio, la città di
-          Kožlany, i villaggi di Studená, Hlince, Třímaný, Holovousy, Hedčany,
-          Milíčov, Slatina e Lhota, i poderi con gli ovili Ptíč, Březsko e
-          Dubjany e il mulino con la polveriera e la vigna presso la città di
-          Louny. Ciascuno dei fratelli si riservò cinque persone e tutti si
-          impegnarono a pagare alla madre Kateřina Magdalena 300 fiorini
-          all&apos;anno. Michal Antonín, ultimo detentore dell&apos;eredità di
-          Chříč, morì nel 1705; sua moglie fu Konstancie di Špork.
+          chiavi. Il contratto di vendita nomina il villaggio di Chříč con la
+          residenza signorile e due poderi, il birrificio, il granaio, la città
+          di Kožlany, i villaggi di Studená, Hlince, Třímaný, Holovousy,
+          Hedčany, Milíčov, Slatina e Lhota, i poderi con gli ovili Ptíč,
+          Březsko e Dubjany e il mulino con la polveriera e la vigna presso la
+          città di Louny. Ciascuno dei fratelli si riservò cinque persone e
+          tutti si impegnarono a pagare alla madre Kateřina Magdalena 300
+          fiorini all&apos;anno. Michal Antonín, ultimo detentore
+          dell&apos;eredità di Chříč, morì nel 1705; sua moglie fu Konstancie di
+          Špork.
           <Qt
             publication={PUBLICATIONS.KOCKA1}
             href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:cad91700-163b-46b7-9616-472c3b1b10de"
-            note="p. 317, 361, 378"
+            note="p. 317, 361"
           />
         </p>
       </Col>

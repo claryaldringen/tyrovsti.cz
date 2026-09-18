@@ -82,19 +82,18 @@ export const VojtechIgnacTyrovsky = () => (
         <p>
           Pro veliké dluhy prodali bratří Týřovští roku 1701 statek chříčský
           Václavu Josefovi hraběti Lažanskému z Bukové na Manětíně za 211 000
-          zlatých a 300 zlatých klíčného; na jiném místě uvádí Kočka cenu 211
-          500 zlatých. Trhová smlouva jmenuje ves Chříč s panským sídlem a dvěma
-          dvory, pivovar, sýpku, městečko Kožlany, vsi Studenou, Hlince,
-          Třímaný, Holovousy, Hedčany, Milíčov, Slatinu a Lhotu, dvory s ovčíny
-          Ptíč, Březsko a Dubjany a mlýn s práchárnou a vinicí u města Loun.
-          Každý z bratří si vymínil pět osob a všichni se uvolili platit matce
-          Kateřině Magdaleně ročně po 300 zlatých. Michal Antonín, poslední
-          držitel chříčského dědictví, zemřel roku 1705; jeho manželkou byla
-          Konstancie ze Šporku.
+          zlatých a 300 zlatých klíčného. Trhová smlouva jmenuje ves Chříč s
+          panským sídlem a dvěma dvory, pivovar, sýpku, městečko Kožlany, vsi
+          Studenou, Hlince, Třímaný, Holovousy, Hedčany, Milíčov, Slatinu a
+          Lhotu, dvory s ovčíny Ptíč, Březsko a Dubjany a mlýn s práchárnou a
+          vinicí u města Loun. Každý z bratří si vymínil pět osob a všichni se
+          uvolili platit matce Kateřině Magdaleně ročně po 300 zlatých. Michal
+          Antonín, poslední držitel chříčského dědictví, zemřel roku 1705; jeho
+          manželkou byla Konstancie ze Šporku.
           <Qt
             publication={PUBLICATIONS.KOCKA1}
             href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:cad91700-163b-46b7-9616-472c3b1b10de"
-            note="Str. 317, 361, 378"
+            note="Str. 317, 361"
           />
         </p>
       </Col>

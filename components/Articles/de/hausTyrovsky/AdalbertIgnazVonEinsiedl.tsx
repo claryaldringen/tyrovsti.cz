@@ -88,20 +88,20 @@ export const AdalbertIgnazVonEinsiedl = () => (
         <p>
           Wegen der großen Schulden verkauften die Brüder Týřovský 1701 das Gut
           Chříč an Václav Josef Graf Lažanský von Buková auf Manětín für 211 000
-          Gulden und 300 Gulden Schlüsselgeld; an anderer Stelle nennt Kočka den
-          Preis von 211 500 Gulden. Der Kaufvertrag nennt das Dorf Chříč mit dem
-          Herrensitz und zwei Höfen, die Brauerei, den Getreidespeicher, das
-          Städtchen Kožlany, die Dörfer Studená, Hlince, Třímaný, Holovousy,
-          Hedčany, Milíčov, Slatina und Lhota, die Höfe mit Schäfereien Ptíč,
-          Březsko und Dubjany sowie eine Mühle mit Pulverstampfe und Weingarten
-          bei der Stadt Louny. Jeder der Brüder behielt sich fünf Personen vor,
-          und alle verpflichteten sich, der Mutter Kateřina Magdalena jährlich
-          je 300 Gulden zu zahlen. Michal Antonín, der letzte Inhaber des Erbes
-          von Chříč, starb 1705; seine Gemahlin war Konstancie von Sporck.
+          Gulden und 300 Gulden Schlüsselgeld. Der Kaufvertrag nennt das Dorf
+          Chříč mit dem Herrensitz und zwei Höfen, die Brauerei, den
+          Getreidespeicher, das Städtchen Kožlany, die Dörfer Studená, Hlince,
+          Třímaný, Holovousy, Hedčany, Milíčov, Slatina und Lhota, die Höfe mit
+          Schäfereien Ptíč, Březsko und Dubjany sowie eine Mühle mit
+          Pulverstampfe und Weingarten bei der Stadt Louny. Jeder der Brüder
+          behielt sich fünf Personen vor, und alle verpflichteten sich, der
+          Mutter Kateřina Magdalena jährlich je 300 Gulden zu zahlen. Michal
+          Antonín, der letzte Inhaber des Erbes von Chříč, starb 1705; seine
+          Gemahlin war Konstancie von Sporck.
           <Qt
             publication={PUBLICATIONS.KOCKA1}
             href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:cad91700-163b-46b7-9616-472c3b1b10de"
-            note="S. 317, 361, 378"
+            note="S. 317, 361"
           />
         </p>
       </Col>

@@ -87,21 +87,20 @@ export const AdalbertIgnatiusOfEinsiedl = () => (
         <p>
           Because of their great debts the Týřovský brothers sold the Chříč
           estate in 1701 to Count Václav Josef Lažanský of Buková at Manětín for
-          211,000 guilders and 300 guilders of key money; elsewhere Kočka gives
-          the price as 211,500 guilders. The deed of sale names the village of
-          Chříč with the manor house and two farmsteads, a brewery, a granary,
-          the town of Kožlany, the villages of Studená, Hlince, Třímaný,
-          Holovousy, Hedčany, Milíčov, Slatina and Lhota, the manors with
-          sheepfolds of Ptíč, Březsko and Dubjany, and a mill with a powder
-          house and a vineyard near the town of Louny. Each of the brothers
-          reserved five persons for himself, and all of them agreed to pay their
-          mother Kateřina Magdalena 300 guilders a year. Michal Antonín, the
-          last holder of the Chříč inheritance, died in 1705; his wife was
-          Konstancie of Šporek.
+          211,000 guilders and 300 guilders of key money. The deed of sale names
+          the village of Chříč with the manor house and two farmsteads, a
+          brewery, a granary, the town of Kožlany, the villages of Studená,
+          Hlince, Třímaný, Holovousy, Hedčany, Milíčov, Slatina and Lhota, the
+          manors with sheepfolds of Ptíč, Březsko and Dubjany, and a mill with a
+          powder house and a vineyard near the town of Louny. Each of the
+          brothers reserved five persons for himself, and all of them agreed to
+          pay their mother Kateřina Magdalena 300 guilders a year. Michal
+          Antonín, the last holder of the Chříč inheritance, died in 1705; his
+          wife was Konstancie of Šporek.
           <Qt
             publication={PUBLICATIONS.KOCKA1}
             href="https://kramerius5.nkp.cz/view/uuid:cbd24070-4608-11ed-b64c-005056827e52?page=uuid:cad91700-163b-46b7-9616-472c3b1b10de"
-            note="p. 317, 361, 378"
+            note="p. 317, 361"
           />
         </p>
       </Col>
