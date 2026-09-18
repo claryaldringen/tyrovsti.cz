@@ -305,6 +305,20 @@ export const PUBLICATIONS: Record<string, Publication> = {
     year: 1875,
     href: 'https://kramerius5.nkp.cz/view/uuid:be359a80-ce5a-11e4-9c07-5ef3fc9bb22f?page=uuid:cc9a3a90-d8b4-11e4-a19f-001018b5eb5c',
   },
+  POPE2018: {
+    name: 'The Empress, the Elector and the Painter: The Armorial of Bianca Maria Sforza, Copied for August of Saxony by Lucas Cranach the Younger (Manchester, John Rylands Library, German MS. 2). Bulletin of the John Rylands Library 94/2, s. 1–49',
+    author: 'Ben Pope',
+    city: 'Manchester',
+    year: 2018,
+    href: 'https://doi.org/10.7227/BJRL.94.2.1',
+  },
+  RYLANDS_MS2: {
+    name: 'German MS 2 (erbovník z dílny Lucase Cranacha ml., Wittenberg 1565), digitalizát',
+    author: 'The University of Manchester Library, John Rylands Library',
+    city: 'Manchester',
+    year: 1565,
+    href: 'https://luna.manchester.ac.uk/luna/servlet/detail/Manchester~91~1~433848~225786',
+  },
   WINTER_RAKOBR2: {
     name: 'Rakovnické obrázky. Ze života XVI. stol. Řada druhá',
     author: 'Zikmund Winter',

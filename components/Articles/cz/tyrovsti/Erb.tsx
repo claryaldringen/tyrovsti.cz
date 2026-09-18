@@ -164,6 +164,42 @@ export const Erb = () => (
           soudobé vyobrazení, kde si panna klade na hlavu korunu.
         </p>
         <p>
+          K samotnému erbovníku: jde o rukopis German MS 2 v John Rylands
+          Library v Manchesteru, který roku 1565 objednal saský kurfiřt August u
+          Lucase Cranacha mladšího ve Wittenbergu. Cranachova dílna při něm ale
+          netvořila nově – opsala starší habsburský erbovník z doby kolem roku
+          1500, věnovaný Biance Marii Sforze. Vyobrazení erbu Týřovských tak
+          ikonograficky pochází z doby jen asi čtvrt století po Joštově smrti, a
+          to z dvora, který erb roku 1455 polepšil; je to zřejmě jeho nejstarší
+          barevné vyobrazení. Erb je zařazen mezi české a rakouské pány hned za
+          knížata z Poděbrad.
+          <Qt publication={PUBLICATIONS.POPE2018} />
+          <Qt publication={PUBLICATIONS.RYLANDS_MS2} note="Fol. 173" />
+        </p>
+        <p>
+          Dvě věci je třeba vyjasnit. Za prvé, převrácení polí není systémovým
+          rysem rukopisu: saský kurfiřtský štít, Poděbradové i Lambergové na
+          téže stránce jsou orientováni správně, převráceni jsou naopak i
+          Švamberkové (labuť hledí heraldicky vlevo) a Hasištejnští z Lobkovic
+          (prohozená pole stejně jako u Týřovských). Chyba tedy nejspíš vězela
+          už v předloze, kterou Cranachova dílna věrně opsala. Za druhé, popisek{' '}
+          <i>Einsiedell</i> bez jakéhokoli bližšího určení svádí k záměně se
+          saskými pány z Einsiedelu (Gnandstein, Scharfenstein), o nichž
+          Meraviglia-Crivelli píše, že rod byl{' '}
+          <Cit>auch im Meissnischen ansässig</Cit>. Sedláček to v Ottově
+          slovníku výslovně odmítá – rod je{' '}
+          <Cit>
+            rozdílný od hrabat z Einsiedlu v Německu žijících i krví i erbem
+          </Cit>{' '}
+          – a erbovník mu dává za pravdu: saští Einsiedelové jsou v něm uvedeni
+          zvlášť, na fol. 158 mezi míšeňským rytířstvem, se svým mluvícím erbem
+          poustevníka v kutně s holí, motykou a růžencem ve zlatém štítě, který
+          nemá s erbem Týřovských společnou jedinou figuru.
+          <Qt publication={PUBLICATIONS.RYLANDS_MS2} note="Fol. 158" />
+          <Qt publication={PUBLICATIONS.MERAVIGLIA} note="Str. 39" />
+          <Qt publication={PUBLICATIONS.OTTO25} note="Str. 154" />
+        </p>
+        <p>
           Správný blason tedy nejspíše zní:
           <br />
           Čtvrcený štít kde je 1. a 4. pole dělené a v něm je nahoře vyrůstající
@@ -192,7 +228,15 @@ export const Erb = () => (
         src="erb-cranach.jpg"
         width={852}
         height={1057}
-        title="Erb Týřovských v erbovníku Lucase Cranacha mladšího z roku 1565. Zdá se, že Cranach namaloval erb z pohledu pozorovatele místo nositele, tj. prohodil strany."
+        title={
+          <>
+            Erb Týřovských (nadepsaný jen <i>Einsiedell</i>) v erbovníku z dílny
+            Lucase Cranacha mladšího, Wittenberg 1565 (Manchester, John Rylands
+            Library, German MS 2, fol. 173), opsaném ze staršího habsburského
+            erbovníku z doby kolem roku 1500. Pole jsou oproti ostatním
+            vyobrazením stranově převrácená, zřejmě už v předloze.
+          </>
+        }
       />
       <ImageWithTitle
         md={4}

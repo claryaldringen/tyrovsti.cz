@@ -184,6 +184,48 @@ export const CoatOfArms = () => (
           the maiden places a crown on her head.
         </p>
         <p>
+          A word on the armorial itself: it is the manuscript German MS 2 in the
+          John Rylands Library in Manchester, commissioned in 1565 by Elector
+          August of Saxony from Lucas Cranach the Younger in Wittenberg.
+          Cranach&apos;s workshop did not compose it afresh, however – it copied
+          an older Habsburg armorial of about 1500 dedicated to Bianca Maria
+          Sforza. The depiction of the Týřovský arms thus goes back
+          iconographically to a time only a quarter of a century after
+          Jobst&apos;s death, and to the very court that had augmented the arms
+          in 1455; it is probably their earliest coloured depiction. The arms
+          are placed among the Bohemian and Austrian lords, immediately after
+          the dukes of Poděbrady.
+          <Qt publication={PUBLICATIONS.POPE2018} />
+          <Qt publication={PUBLICATIONS.RYLANDS_MS2} note="Fol. 173" />
+        </p>
+        <p>
+          Two points need clarifying. First, the reversal of the quarters is not
+          a systematic feature of the manuscript: the Saxon electoral shield,
+          the Poděbrady arms and the Lamberg arms on the same page are all
+          correctly oriented, whereas the Švamberk arms (the swan facing
+          heraldic sinister) and those of the Hasištejn Lobkovices (quarters
+          swapped just as with the Týřovský) are reversed too. The error thus
+          most likely lay in the exemplar, which Cranach&apos;s workshop copied
+          faithfully. Second, the bare label <i>Einsiedell</i> invites confusion
+          with the Saxon lords of Einsiedel (Gnandstein, Scharfenstein), of whom
+          Meraviglia-Crivelli writes that the family was{' '}
+          <Cit>auch im Meissnischen ansässig</Cit> (also settled in the Meissen
+          lands). Sedláček explicitly rejects this in Otto&apos;s Encyclopaedia
+          – the family is{' '}
+          <Cit>
+            rozdílný od hrabat z Einsiedlu v Německu žijících i krví i erbem
+          </Cit>{' '}
+          (distinct from the counts of Einsiedel living in Germany both in blood
+          and in arms) – and the armorial proves him right: the Saxon Einsiedels
+          appear in it separately, on fol. 158 among the knights of Meissen,
+          with their canting arms of a hermit in a habit with staff, hoe and
+          rosary on a golden shield, which share not a single charge with the
+          Týřovský arms.
+          <Qt publication={PUBLICATIONS.RYLANDS_MS2} note="Fol. 158" />
+          <Qt publication={PUBLICATIONS.MERAVIGLIA} note="p. 39" />
+          <Qt publication={PUBLICATIONS.OTTO25} note="p. 154" />
+        </p>
+        <p>
           The correct blazon therefore most likely reads:
           <br />A quartered shield where the 1st and 4th fields are per fess,
           with a sable eagle issuant or salient on an or background in chief and
@@ -212,7 +254,16 @@ export const CoatOfArms = () => (
         src="erb-cranach.jpg"
         width={852}
         height={1057}
-        title="The Týřovský coat of arms in the armorial of Lucas Cranach the Younger from 1565. It seems that Cranach painted the arms from the viewer's perspective rather than the bearer's, i.e. he swapped the sides."
+        title={
+          <>
+            The Týřovský arms (labelled merely <i>Einsiedell</i>) in the
+            armorial from the workshop of Lucas Cranach the Younger, Wittenberg
+            1565 (Manchester, John Rylands Library, German MS 2, fol. 173),
+            copied from an older Habsburg armorial of about 1500. The quarters
+            are reversed compared with all other depictions, probably already in
+            the exemplar.
+          </>
+        }
       />
       <ImageWithTitle
         md={4}

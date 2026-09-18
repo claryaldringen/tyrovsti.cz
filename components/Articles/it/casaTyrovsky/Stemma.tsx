@@ -191,6 +191,48 @@ export const Stemma = () => (
           sul capo.
         </p>
         <p>
+          Una parola sull&apos;armoriale stesso: si tratta del manoscritto
+          German MS 2 della John Rylands Library di Manchester, commissionato
+          nel 1565 dal principe elettore Augusto di Sassonia a Lucas Cranach il
+          Giovane a Wittenberg. La bottega di Cranach non lo compose però ex
+          novo: copiò un più antico armoriale asburgico del 1500 circa, dedicato
+          a Bianca Maria Sforza. La raffigurazione dello stemma dei Týřovský
+          risale quindi, dal punto di vista iconografico, a un&apos;epoca di
+          appena un quarto di secolo dopo la morte di Jobst, e proprio alla
+          corte che nel 1455 aveva accresciuto lo stemma; è probabilmente la sua
+          più antica raffigurazione a colori. Lo stemma è collocato tra i
+          signori boemi e austriaci, subito dopo i duchi di Poděbrady.
+          <Qt publication={PUBLICATIONS.POPE2018} />
+          <Qt publication={PUBLICATIONS.RYLANDS_MS2} note="Fol. 173" />
+        </p>
+        <p>
+          Due cose vanno chiarite. In primo luogo, l&apos;inversione dei quarti
+          non è un tratto sistematico del manoscritto: lo scudo elettorale
+          sassone, i Poděbrady e i Lamberg sulla stessa pagina sono orientati
+          correttamente, mentre sono invertiti anche gli Švamberk (il cigno
+          guarda a sinistra araldica) e gli Hasištejn di Lobkovice (quarti
+          scambiati come per i Týřovský). L&apos;errore stava dunque
+          probabilmente già nel modello, che la bottega di Cranach copiò
+          fedelmente. In secondo luogo, la semplice dicitura <i>Einsiedell</i>{' '}
+          induce a confondere la famiglia con i signori sassoni di Einsiedel
+          (Gnandstein, Scharfenstein), dei quali Meraviglia-Crivelli scrive che
+          la famiglia era <Cit>auch im Meissnischen ansässig</Cit> (stanziata
+          anche nel Meissen). Sedláček lo respinge esplicitamente
+          nell&apos;enciclopedia di Otto – la famiglia è{' '}
+          <Cit>
+            rozdílný od hrabat z Einsiedlu v Německu žijících i krví i erbem
+          </Cit>{' '}
+          (distinta dai conti di Einsiedel viventi in Germania sia per sangue
+          sia per stemma) – e l&apos;armoriale gli dà ragione: gli Einsiedel
+          sassoni vi compaiono separatamente, al fol. 158 tra la cavalleria del
+          Meissen, con il loro stemma parlante, un eremita in saio con bastone,
+          zappa e rosario in campo d&apos;oro, che non ha in comune con lo
+          stemma dei Týřovský nemmeno una figura.
+          <Qt publication={PUBLICATIONS.RYLANDS_MS2} note="Fol. 158" />
+          <Qt publication={PUBLICATIONS.MERAVIGLIA} note="p. 39" />
+          <Qt publication={PUBLICATIONS.OTTO25} note="p. 154" />
+        </p>
+        <p>
           Il corretto blasonamento quindi molto probabilmente recita:
           <br />
           Uno scudo inquartato dove il 1° e il 4° campo sono divisi in fascia,
@@ -222,7 +264,16 @@ export const Stemma = () => (
         src="erb-cranach.jpg"
         width={852}
         height={1057}
-        title="Lo stemma dei Týřovský nell'armorial di Lucas Cranach il Giovane del 1565. Sembra che Cranach abbia dipinto lo stemma dalla prospettiva dell'osservatore anziché del portatore, ovvero abbia invertito i lati."
+        title={
+          <>
+            Lo stemma dei Týřovský (indicato solo come <i>Einsiedell</i>)
+            nell&apos;armoriale della bottega di Lucas Cranach il Giovane,
+            Wittenberg 1565 (Manchester, John Rylands Library, German MS 2, fol.
+            173), copiato da un più antico armoriale asburgico del 1500 circa. I
+            quarti sono invertiti rispetto a tutte le altre raffigurazioni,
+            probabilmente già nel modello.
+          </>
+        }
       />
       <ImageWithTitle
         md={4}

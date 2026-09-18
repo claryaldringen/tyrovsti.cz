@@ -189,6 +189,49 @@ export const Wappen = () => (
           ist, auf der sich die Jungfrau eine Krone aufs Haupt setzt.
         </p>
         <p>
+          Zum Wappenbuch selbst: Es handelt sich um die Handschrift German MS 2
+          der John Rylands Library in Manchester, die Kurfürst August von
+          Sachsen 1565 bei Lucas Cranach dem Jüngeren in Wittenberg bestellte.
+          Cranachs Werkstatt schuf sie jedoch nicht neu, sondern kopierte ein
+          älteres habsburgisches Wappenbuch aus der Zeit um 1500, das Bianca
+          Maria Sforza gewidmet war. Die Darstellung des Týřovský-Wappens geht
+          damit ikonographisch auf eine Zeit nur ein Vierteljahrhundert nach
+          Jobsts Tod zurück, und zwar an jenem Hof, der das Wappen 1455
+          gebessert hatte; es ist wohl seine älteste farbige Darstellung. Das
+          Wappen steht unter den böhmischen und österreichischen Herren
+          unmittelbar nach den Herzögen von Podiebrad.
+          <Qt publication={PUBLICATIONS.POPE2018} />
+          <Qt publication={PUBLICATIONS.RYLANDS_MS2} note="Fol. 173" />
+        </p>
+        <p>
+          Zwei Dinge sind klarzustellen. Erstens ist die Seitenverkehrung der
+          Felder kein systematisches Merkmal der Handschrift: Der sächsische
+          Kurschild, die Podiebrader und die Lamberger auf derselben Seite sind
+          richtig orientiert, seitenverkehrt sind dagegen auch die Schwanberger
+          (der Schwan blickt heraldisch links) und die Hassensteiner von
+          Lobkowitz (vertauschte Felder wie bei den Týřovský). Der Fehler lag
+          also wohl schon in der Vorlage, die Cranachs Werkstatt getreu
+          abschrieb. Zweitens verleitet die bloße Beschriftung <i>Einsiedell</i>{' '}
+          zur Verwechslung mit den sächsischen Herren von Einsiedel (Gnandstein,
+          Scharfenstein), von denen Meraviglia-Crivelli schreibt, das Geschlecht
+          sei <Cit>auch im Meissnischen ansässig</Cit> gewesen. Sedláček weist
+          das in Ottos Konversationslexikon ausdrücklich zurück – das Geschlecht
+          sei{' '}
+          <Cit>
+            rozdílný od hrabat z Einsiedlu v Německu žijících i krví i erbem
+          </Cit>{' '}
+          (von den in Deutschland lebenden Grafen von Einsiedel nach Blut wie
+          Wappen verschieden) –, und das Wappenbuch gibt ihm recht: Die
+          sächsischen Einsiedel erscheinen darin gesondert, auf fol. 158 unter
+          der meißnischen Ritterschaft, mit ihrem redenden Wappen, einem
+          Einsiedler in der Kutte mit Stab, Hacke und Rosenkranz im goldenen
+          Schild, das mit dem Wappen der Týřovský keine einzige Figur gemein
+          hat.
+          <Qt publication={PUBLICATIONS.RYLANDS_MS2} note="Fol. 158" />
+          <Qt publication={PUBLICATIONS.MERAVIGLIA} note="S. 39" />
+          <Qt publication={PUBLICATIONS.OTTO25} note="S. 154" />
+        </p>
+        <p>
           Die korrekte Blasonierung lautet daher höchstwahrscheinlich:
           <br />
           Ein gevierter Schild, wobei das 1. und 4. Feld querweise geteilt ist,
@@ -219,7 +262,16 @@ export const Wappen = () => (
         src="erb-cranach.jpg"
         width={852}
         height={1057}
-        title="Das Týřovský-Wappen im Wappenbuch des Lucas Cranach des Jüngeren von 1565. Es scheint, dass Cranach das Wappen aus der Perspektive des Betrachters und nicht des Trägers gemalt hat, d. h. er hat die Seiten vertauscht."
+        title={
+          <>
+            Das Wappen der Týřovský (nur mit <i>Einsiedell</i> beschriftet) im
+            Wappenbuch aus der Werkstatt Lucas Cranachs des Jüngeren, Wittenberg
+            1565 (Manchester, John Rylands Library, German MS 2, fol. 173),
+            abgeschrieben von einem älteren habsburgischen Wappenbuch aus der
+            Zeit um 1500. Die Felder sind gegenüber allen anderen Darstellungen
+            seitenverkehrt, wohl schon in der Vorlage.
+          </>
+        }
       />
       <ImageWithTitle
         md={4}
