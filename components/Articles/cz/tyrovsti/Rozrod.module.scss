@@ -79,6 +79,14 @@ $node-border: #c8bfb0;
   height: 1.1rem;
 }
 
+/* childless siblings stacked in one column */
+.leaves {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.4rem;
+}
+
 /* Desktop: horizontal centred family tree */
 @include mixin.breakpoint(md) {
   .tree {
@@ -102,9 +110,14 @@ $node-border: #c8bfb0;
   }
 
   .tree li {
-    flex: 1 0 auto;
-    padding: 1.25rem 0.4rem 0;
+    flex: 0 0 auto;
+    padding: 1.25rem 0.25rem 0;
     text-align: center;
+  }
+
+  .node {
+    padding: 0.3rem 0.5rem;
+    font-size: 0.85rem;
   }
 
   .node {
@@ -113,7 +126,36 @@ $node-border: #c8bfb0;
 
   .dates {
     white-space: normal;
-    max-width: 9rem;
+    max-width: 8rem;
+  }
+
+  .leaves {
+    align-items: center;
+    gap: 0;
+    flex: 0 0 auto;
+    order: 1; /* on desktop the leaf column sits to the right of the branches */
+
+    /* leaves may wrap their names – they never need to span children */
+    .node {
+      white-space: normal;
+      max-width: 7.5rem;
+      font-size: 0.8rem;
+    }
+
+    /* short vertical connector between stacked leaves */
+    .node + .node {
+      position: relative;
+      margin-top: 1rem;
+
+      &::before {
+        content: '';
+        position: absolute;
+        top: -1rem;
+        left: 50%;
+        height: 1rem;
+        border-left: 1px solid $line-color;
+      }
+    }
   }
 
   .tree > ul > li {

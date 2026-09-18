@@ -141,18 +141,39 @@ const Node = ({ person }: { person: Person }) => {
   )
 }
 
-const TreeNode = ({ person }: { person: Person }) => (
-  <li>
-    <Node person={person} />
-    {person.children && person.children.length > 0 && (
+const hasChildren = (person: Person) =>
+  !!person.children && person.children.length > 0
+
+/* Children without descendants are stacked vertically under their parent
+   so that the tree grows in width only along the lines that continue. */
+const TreeNode = ({ person }: { person: Person }) => {
+  if (!hasChildren(person)) {
+    return (
+      <li>
+        <Node person={person} />
+      </li>
+    )
+  }
+  const branches = person.children!.filter(hasChildren)
+  const leaves = person.children!.filter((child) => !hasChildren(child))
+  return (
+    <li>
+      <Node person={person} />
       <ul>
-        {person.children.map((child, i) => (
+        {leaves.length > 0 && (
+          <li className={styles.leaves}>
+            {leaves.map((leaf, i) => (
+              <Node key={i} person={leaf} />
+            ))}
+          </li>
+        )}
+        {branches.map((child, i) => (
           <TreeNode key={i} person={child} />
         ))}
       </ul>
-    )}
-  </li>
-)
+    </li>
+  )
+}
 
 export const Rozrod = () => (
   <>
