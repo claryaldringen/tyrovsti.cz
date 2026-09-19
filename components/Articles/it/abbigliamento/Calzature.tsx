@@ -1,6 +1,9 @@
 import { Col, Row } from 'reactstrap'
 import { ImageWithTitle } from '../../../ImageWithTitle/ImageWithTitle'
 import React from 'react'
+import { Qt } from '../../../Quote/Qt'
+import { Cit } from '../../../Citation'
+import { PUBLICATIONS } from '../../../../shared/constants'
 
 export const Calzature = () => (
   <>
@@ -22,6 +25,46 @@ export const Calzature = () => (
           &quot;bocca di mucca&quot; — in Boemia si manteneva ancora una punta
           conservativa moderatamente appuntita all&apos;inizio del XVI secolo.
         </p>
+        <p>
+          Accanto a questa punta moderata, negli anni Sessanta ricomparvero a
+          Praga anche i lunghi becchi che un secolo prima si portavano sulle
+          scarpe di tipo <i>poulaine</i>. Il 2 settembre 1464 Giorgio di
+          Poděbrady ordinò ai borgomastri e ai consigli di tutte e tre le città
+          di Praga:{' '}
+          <Cit>
+            Přikazujem vám, abyste všem ševcuom přikázali, aby špicuov u třevíc
+            i u škoren nedělali, a také žádnému svému nedopúštějte v špici
+            choditi; v tom naši vuoli naplníte.
+          </Cit>
+          (Vi comandiamo di ordinare a tutti i calzolai di non fare punte alle
+          scarpe e agli stivali, e di non permettere a nessuno dei vostri di
+          andare in giro con le punte; in ciò adempirete la nostra volontà.)
+          <Qt
+            publication={PUBLICATIONS.ARCHIV14}
+            href="https://kramerius5.nkp.cz/view/uuid:a286ef70-8dd6-11e8-9588-5ef3fc9bb22f?page=uuid:fc3acae9-d484-4432-a28d-24c18c153d79"
+            note="p. 477"
+          />{' '}
+          Tomek aggiunge dai libri cittadini di Praga che{' '}
+          <Cit>
+            za času krále Jiřího smyslili si ševci Pražští dělati zase střevíce
+            a škorně špičaté jako kdysi o sto let předtím
+          </Cit>{' '}
+          (al tempo di re Giorgio i calzolai di Praga si misero in testa di fare
+          di nuovo scarpe e stivali appuntiti come un secolo prima), e giudica
+          che il divieto <Cit>nejspíš mělo svůj účinek</Cit> (ebbe probabilmente
+          il suo effetto). I lunghi becchi tornarono dunque in Boemia solo per
+          breve tempo; tredici anni dopo, nel 1477, i consiglieri della Città
+          Vecchia, dirimendo una lite tra calzolai, descrivono già un&apos;altra
+          tendenza:{' '}
+          <Cit>obuv dělala nižší a škorně jezdecké ostřejší než jindy</Cit> (le
+          calzature si facevano più basse e gli stivali da cavallerizzo più
+          appuntiti di prima).
+          <Qt
+            publication={PUBLICATIONS.TOMEK8}
+            href="https://kramerius5.nkp.cz/view/uuid:38c064d0-106f-11dd-b330-000d606f5dc6?page=uuid:5e2a2492-3eef-4067-a1b7-4c6e1f5056e6"
+            note="p. 367, 497"
+          />
+        </p>
       </Col>
     </Row>
     <Row>
@@ -38,6 +81,62 @@ export const Calzature = () => (
           Oltre al tomaio, alla suola e al guardolo, una scarpa conteneva
           generalmente diversi altri componenti: un rinforzo del tallone, una
           bordatura e qualche variante di chiusura o allacciatura.
+        </p>
+        <p>
+          Nelle città di Praga il mestiere del calzolaio era diviso in due: i{' '}
+          <i>novinníci</i>, che facevano calzature nuove, e i <i>vetešníci</i>,
+          che le riparavano. Dove passasse esattamente il confine lo stabilirono
+          il 12 luglio 1441 i consiglieri di tutte e tre le città: i ciabattini{' '}
+          <Cit>
+            nové nártie a podešvy nové k starým ochozeným holenom budú moci
+            přišívati a dvoje škorně dobře ochozené do krámu na prodaj každý trh
+            vykládati, jakož jich práva svědčie, ale červených ani bielých šáróv
+            k vetché obuvi nemají okládati
+          </Cit>
+          (potranno cucire tomaie nuove e suole nuove a vecchi gambali consumati
+          ed esporre in bottega per la vendita, ogni giorno di mercato, due paia
+          di stivali ben consumati, come attestano i loro diritti, ma non devono
+          applicare a calzature vecchie <i>šáry</i> rossi o bianchi). Se ne
+          ricava che cosa si consumava per primo in uno stivale – la tomaia e la
+          suola – e che cosa il cliente faceva fare solo nuovo: gli <i>šáry</i>{' '}
+          colorati, cioè i gambali. I consiglieri della Città Nuova rinnovarono
+          la sentenza nel 1456 e aggiunsero la condizione che chi volesse
+          stabilirsi come maestro in uno dei due mestieri dovesse concordare con
+          la comunità{' '}
+          <Cit>
+            ve věcech slavné svátosti těla a krve pána našeho Jhesu Crista pod
+            obojím způsobem
+          </Cit>{' '}
+          (nelle cose del glorioso sacramento del corpo e del sangue di nostro
+          Signore Gesù Cristo sotto le due specie).
+          <Qt
+            publication={PUBLICATIONS.ARCHIV14}
+            href="https://kramerius5.nkp.cz/view/uuid:a286ef70-8dd6-11e8-9588-5ef3fc9bb22f?page=uuid:002e8c18-a4ee-489d-b0d0-aec88c18c1b5"
+            note="p. 440–441, 470–471"
+          />
+        </p>
+        <p>
+          I calzolai ingrassavano e annerivano il cuoio da sé. Quando nel 1453
+          litigarono con i conciatori di Podskalí e Vyšehrad, il conciatore
+          Jakub Kavka testimoniò che{' '}
+          <Cit>
+            obojí koželuzi nemazali … ale byli štumfaři; potom se srotili ševci,
+            a tak počali mazati, a tak štumfařské řemeslo sešlo
+          </Cit>{' '}
+          (nessuno dei due gruppi di conciatori ingrassava … erano{' '}
+          <i>štumfaři</i>; poi i calzolai si coalizzarono e cominciarono a
+          ingrassare, e così il mestiere degli <i>štumfaři</i> scomparve), e i
+          calzolai Beneš e Mařík Lichva confermarono che i conciatori avevano{' '}
+          <Cit>
+            naučili mazati od tovařišuov ševcovských zlehka od čtyřidceti let
+          </Cit>{' '}
+          (imparato a ingrassare dai garzoni calzolai circa quarant&apos;anni
+          prima).
+          <Qt
+            publication={PUBLICATIONS.ARCHIV14}
+            href="https://kramerius5.nkp.cz/view/uuid:a286ef70-8dd6-11e8-9588-5ef3fc9bb22f?page=uuid:8c5aded7-667e-4c4f-8b87-966f49281f28"
+            note="p. 465–466"
+          />
         </p>
         <h4>Chiusura a sovrapposizione</h4>
         <p>
@@ -333,6 +432,29 @@ export const Calzature = () => (
           in su sarebbe stata coperta dallo schiniere a piastre) e al contempo
           sostenere lunghe marce. Questo tipo di stivale è ampiamente
           rappresentato nelle raffigurazioni ceche d&apos;epoca, vedi sotto.
+        </p>
+        <p>
+          Che cosa dovesse saper fare un comune calzolaio boemo lo dice la più
+          antica descrizione conservata di un capolavoro, lo statuto della
+          corporazione dei calzolai di Pardubice del 17 dicembre 1515: il
+          candidato{' '}
+          <Cit>
+            aby vokázal nejprv škorni příční, druhú škorni telecí, od té škorně
+            střevíc zadní, a k tomu také punčoch veliký
+          </Cit>{' '}
+          (deve mostrare prima uno stivale <i>příčná</i>, poi uno stivale di
+          vitello, da quello stivale una scarpa posteriore e inoltre un grande{' '}
+          <i>punčoch</i>) – cioè due tipi di stivali alti, una scarpa bassa e
+          una ghetta di cuoio. Per questo pagava{' '}
+          <Cit>čtyři groše bílé a libru vosku</Cit> (quattro grossi bianchi e
+          una libbra di cera) e offriva alla corporazione una merenda{' '}
+          <Cit>každý podle svěj možnosti</Cit> (ciascuno secondo le proprie
+          possibilità).
+          <Qt
+            publication={PUBLICATIONS.AC17}
+            href="https://kramerius5.nkp.cz/view/uuid:2cf61550-8dd7-11e8-9588-5ef3fc9bb22f?page=uuid:c2b13f00-9bb2-11e8-8b19-005056825209"
+            note="p. 226, n. 1011"
+          />
         </p>
       </Col>
     </Row>

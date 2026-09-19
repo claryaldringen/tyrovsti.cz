@@ -464,6 +464,21 @@ export const PUBLICATIONS: Record<string, Publication> = {
       'Josef Kalousek, František Dvorský, Vácslav Vladivoj Tomek, Josef Emler',
     city: { cs: 'Praha', en: 'Prague', de: 'Prag', it: 'Praga' },
     year: 1895,
+    href: 'https://kramerius5.nkp.cz/view/uuid:a286ef70-8dd6-11e8-9588-5ef3fc9bb22f',
+  },
+  AC17: {
+    name: 'Archiv český čili staré písemné památky české i moravské. Díl XVII',
+    author: 'Josef Kalousek (ed.)',
+    city: { cs: 'Praha', en: 'Prague', de: 'Prag', it: 'Praga' },
+    year: 1899,
+    href: 'https://kramerius5.nkp.cz/view/uuid:2cf61550-8dd7-11e8-9588-5ef3fc9bb22f',
+  },
+  TOMEK8: {
+    name: 'Dějepis města Prahy. Díl VIII',
+    author: 'Vácslav Vladivoj Tomek',
+    city: { cs: 'Praha', en: 'Prague', de: 'Prag', it: 'Praga' },
+    year: 1891,
+    href: 'https://kramerius5.nkp.cz/view/uuid:38c064d0-106f-11dd-b330-000d606f5dc6',
   },
   WEDGWOOD: {
     name: 'On False Etymologies',

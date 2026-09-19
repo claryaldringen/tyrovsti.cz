@@ -1,6 +1,9 @@
 import { Col, Row } from 'reactstrap'
 import { ImageWithTitle } from '../../../ImageWithTitle/ImageWithTitle'
 import React from 'react'
+import { Qt } from '../../../Quote/Qt'
+import { Cit } from '../../../Citation'
+import { PUBLICATIONS } from '../../../../shared/constants'
 
 export const Footwear = () => (
   <>
@@ -21,6 +24,44 @@ export const Footwear = () => (
           conservative moderate pointed toe was still maintained at the
           beginning of the 16th century.
         </p>
+        <p>
+          Alongside this moderate point, the long beaks once worn a century
+          earlier on shoes of the <i>poulaine</i> type reappeared in Prague in
+          the 1460s. On 2 September 1464 George of Poděbrady ordered the
+          burgomasters and councils of all three Prague towns:{' '}
+          <Cit>
+            Přikazujem vám, abyste všem ševcuom přikázali, aby špicuov u třevíc
+            i u škoren nedělali, a také žádnému svému nedopúštějte v špici
+            choditi; v tom naši vuoli naplníte.
+          </Cit>
+          (We command you to order all shoemakers not to make points on shoes or
+          boots, and not to allow any of your people to walk about in points; in
+          this you will fulfil our will.)
+          <Qt
+            publication={PUBLICATIONS.ARCHIV14}
+            href="https://kramerius5.nkp.cz/view/uuid:a286ef70-8dd6-11e8-9588-5ef3fc9bb22f?page=uuid:fc3acae9-d484-4432-a28d-24c18c153d79"
+            note="p. 477"
+          />{' '}
+          Tomek adds from the Prague town books that{' '}
+          <Cit>
+            za času krále Jiřího smyslili si ševci Pražští dělati zase střevíce
+            a škorně špičaté jako kdysi o sto let předtím
+          </Cit>{' '}
+          (in the time of King George the Prague shoemakers took it into their
+          heads to make pointed shoes and boots again, as a hundred years
+          before), and judges that the ban <Cit>nejspíš mělo svůj účinek</Cit>{' '}
+          (most likely had its effect) . The long beaks thus returned to Bohemia
+          only briefly; thirteen years later, in 1477, the Old Town councillors,
+          settling a dispute among the shoemakers, already describe a different
+          trend –{' '}
+          <Cit>obuv dělala nižší a škorně jezdecké ostřejší než jindy</Cit>{' '}
+          (footwear was being made lower and riding boots sharper than before).
+          <Qt
+            publication={PUBLICATIONS.TOMEK8}
+            href="https://kramerius5.nkp.cz/view/uuid:38c064d0-106f-11dd-b330-000d606f5dc6?page=uuid:5e2a2492-3eef-4067-a1b7-4c6e1f5056e6"
+            note="p. 367, 497"
+          />
+        </p>
       </Col>
     </Row>
     <Row>
@@ -37,6 +78,61 @@ export const Footwear = () => (
           In addition to the upper, the sole and the welt, a shoe generally
           contained several more parts — a heel stiffener, a binding, and some
           variant of fastening or lacing.
+        </p>
+        <p>
+          In the Prague towns the shoemaker&apos;s trade was divided in two: the{' '}
+          <i>novinníci</i>, who made new footwear, and the <i>vetešníci</i>, who
+          repaired it. Where exactly the line ran was pronounced on 12 July 1441
+          by the councillors of all three towns: the repairers{' '}
+          <Cit>
+            nové nártie a podešvy nové k starým ochozeným holenom budú moci
+            přišívati a dvoje škorně dobře ochozené do krámu na prodaj každý trh
+            vykládati, jakož jich práva svědčie, ale červených ani bielých šáróv
+            k vetché obuvi nemají okládati
+          </Cit>
+          (may sew new vamps and new soles onto old worn-down boot legs and put
+          out two pairs of well-worn boots for sale in the shop every market
+          day, as their rights attest, but they must not fit red or white{' '}
+          <i>šáry</i> onto old footwear). This shows what wore out first on a
+          boot – the vamp and the sole – and what a customer had made only new:
+          the coloured <i>šáry</i>, that is the boot legs. The New Town
+          councillors renewed the ruling in 1456 and added the condition that
+          whoever wished to settle as a master in either trade must agree with
+          the community{' '}
+          <Cit>
+            ve věcech slavné svátosti těla a krve pána našeho Jhesu Crista pod
+            obojím způsobem
+          </Cit>{' '}
+          (in matters of the glorious sacrament of the body and blood of our
+          Lord Jesus Christ under both kinds).
+          <Qt
+            publication={PUBLICATIONS.ARCHIV14}
+            href="https://kramerius5.nkp.cz/view/uuid:a286ef70-8dd6-11e8-9588-5ef3fc9bb22f?page=uuid:002e8c18-a4ee-489d-b0d0-aec88c18c1b5"
+            note="p. 440–441, 470–471"
+          />
+        </p>
+        <p>
+          The shoemakers greased and blackened the leather themselves. When they
+          quarrelled in 1453 with the tanners of Podskalí and Vyšehrad, the
+          tanner Jakub Kavka testified that{' '}
+          <Cit>
+            obojí koželuzi nemazali … ale byli štumfaři; potom se srotili ševci,
+            a tak počali mazati, a tak štumfařské řemeslo sešlo
+          </Cit>{' '}
+          (neither group of tanners greased … they were <i>štumfaři</i>; then
+          the shoemakers banded together and began to grease, and so the trade
+          of the <i>štumfaři</i> died out), and the shoemakers Beneš and Mařík
+          Lichva confirmed that the tanners had{' '}
+          <Cit>
+            naučili mazati od tovařišuov ševcovských zlehka od čtyřidceti let
+          </Cit>{' '}
+          (learned to grease from shoemakers&apos; journeymen some forty years
+          ago).
+          <Qt
+            publication={PUBLICATIONS.ARCHIV14}
+            href="https://kramerius5.nkp.cz/view/uuid:a286ef70-8dd6-11e8-9588-5ef3fc9bb22f?page=uuid:8c5aded7-667e-4c4f-8b87-966f49281f28"
+            note="p. 465–466"
+          />
         </p>
         <h4>Overlap Fastening</h4>
         <p>
@@ -324,6 +420,27 @@ export const Footwear = () => (
           part from the ankle upward would be covered by the plate greave) and
           at the same time undertake long marches in. This type of boot is
           widely represented in Czech period depictions, see below.
+        </p>
+        <p>
+          What an ordinary Bohemian shoemaker had to be able to do is stated by
+          the earliest surviving description of a masterpiece, the guild
+          ordinance of the Pardubice shoemakers of 17 December 1515: the
+          candidate{' '}
+          <Cit>
+            aby vokázal nejprv škorni příční, druhú škorni telecí, od té škorně
+            střevíc zadní, a k tomu také punčoch veliký
+          </Cit>{' '}
+          (is to show first a <i>příčná</i> boot, secondly a calfskin boot, from
+          that boot a rear shoe, and also a large <i>punčoch</i>) – that is, two
+          kinds of high boots, a low shoe and a leather legging. For that he
+          paid <Cit>čtyři groše bílé a libru vosku</Cit> (four white groschen
+          and a pound of wax) and laid on a meal for the guild{' '}
+          <Cit>každý podle svěj možnosti</Cit> (each according to his means).
+          <Qt
+            publication={PUBLICATIONS.AC17}
+            href="https://kramerius5.nkp.cz/view/uuid:2cf61550-8dd7-11e8-9588-5ef3fc9bb22f?page=uuid:c2b13f00-9bb2-11e8-8b19-005056825209"
+            note="p. 226, no. 1011"
+          />
         </p>
       </Col>
     </Row>

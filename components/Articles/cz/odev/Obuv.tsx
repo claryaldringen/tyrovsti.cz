@@ -1,6 +1,9 @@
 import { Col, Row } from 'reactstrap'
 import { ImageWithTitle } from '../../../ImageWithTitle/ImageWithTitle'
 import React from 'react'
+import { Qt } from '../../../Quote/Qt'
+import { Cit } from '../../../Citation'
+import { PUBLICATIONS } from '../../../../shared/constants'
 
 export const Obuv = () => (
   <>
@@ -19,6 +22,37 @@ export const Obuv = () => (
           &quot;kravská tlama&quot;, v Čechách se ještě na počátku 16. století
           drží na obuvi konzervativní mírná špička.
         </p>
+        <p>
+          Vedle této umírněné špičky se v Praze v 60. letech znovu objevily i
+          dlouhé zobáky, jaké se nosily o sto let dříve na střevících typu{' '}
+          <i>poulaine</i>. Dne 2. září 1464 nařídil Jiří z Poděbrad purkmistrům
+          a radám všech tří pražských měst:{' '}
+          <Cit>
+            Přikazujem vám, abyste všem ševcuom přikázali, aby špicuov u třevíc
+            i u škoren nedělali, a také žádnému svému nedopúštějte v špici
+            choditi; v tom naši vuoli naplníte.
+          </Cit>
+          <Qt
+            publication={PUBLICATIONS.ARCHIV14}
+            href="https://kramerius5.nkp.cz/view/uuid:a286ef70-8dd6-11e8-9588-5ef3fc9bb22f?page=uuid:fc3acae9-d484-4432-a28d-24c18c153d79"
+            note="Str. 477"
+          />{' '}
+          Tomek k tomu z pražských knih dodává, že{' '}
+          <Cit>
+            za času krále Jiřího smyslili si ševci Pražští dělati zase střevíce
+            a škorně špičaté jako kdysi o sto let předtím
+          </Cit>
+          , a soudí, že zákaz <Cit>nejspíš měl svůj účinek</Cit>. Dlouhé zobáky
+          se tedy v Čechách vrátily jen nakrátko; o třináct let později, roku
+          1477, popisují staroměstští konšelé při sporu ševců už zase jiný trend
+          – <Cit>obuv dělala nižší a škorně jezdecké ostřejší než jindy</Cit>
+          .
+          <Qt
+            publication={PUBLICATIONS.TOMEK8}
+            href="https://kramerius5.nkp.cz/view/uuid:38c064d0-106f-11dd-b330-000d606f5dc6?page=uuid:5e2a2492-3eef-4067-a1b7-4c6e1f5056e6"
+            note="Str. 367, 497"
+          />
+        </p>
       </Col>
     </Row>
     <Row>
@@ -34,6 +68,52 @@ export const Obuv = () => (
         <p>
           Kromě svršku, podešve a okolku obsahovala bota zpravidla ještě několik
           částí - opatek, obrubu a nějakou variantu zapínání či šněrování.
+        </p>
+        <p>
+          Ševcovské řemeslo se v pražských městech dělilo na dvě: ševce{' '}
+          <i>novinníky</i>, kteří šili obuv novou, a ševce <i>vetešníky</i>,
+          kteří ji opravovali. Kde přesně vedla hranice, vyřkli 12. července
+          1441 konšelé všech tří měst: vetešníci{' '}
+          <Cit>
+            nové nártie a podešvy nové k starým ochozeným holenom budú moci
+            přišívati a dvoje škorně dobře ochozené do krámu na prodaj každý trh
+            vykládati, jakož jich práva svědčie, ale červených ani bielých šáróv
+            k vetché obuvi nemají okládati
+          </Cit>
+          . Z toho je vidět, co se na botě nejdřív ochodilo – nárt a podešev – a
+          co si naopak zákazník nechával dělat jen nové: barevné šáry, tedy
+          holeně. Novoměstští konšelé výrok roku 1456 obnovili a připojili
+          podmínku, že kdo se chce v kterémkoli z obou řemesel usadit za mistra,
+          má se{' '}
+          <Cit>
+            ve věcech slavné svátosti těla a krve pána našeho Jhesu Crista pod
+            obojím způsobem
+          </Cit>{' '}
+          srovnávat s obcí.
+          <Qt
+            publication={PUBLICATIONS.ARCHIV14}
+            href="https://kramerius5.nkp.cz/view/uuid:a286ef70-8dd6-11e8-9588-5ef3fc9bb22f?page=uuid:002e8c18-a4ee-489d-b0d0-aec88c18c1b5"
+            note="Str. 440–441, 470–471"
+          />
+        </p>
+        <p>
+          Kůži si ševci sami mazali a černili. Když se roku 1453 přeli s
+          podskalskými a vyšehradskými koželuhy, vypověděl koželuh Jakub Kavka,
+          že{' '}
+          <Cit>
+            obojí koželuzi nemazali … ale byli štumfaři; potom se srotili ševci,
+            a tak počali mazati, a tak štumfařské řemeslo sešlo
+          </Cit>
+          , a ševci Beneš a Mařík Lichva dosvědčili, že se koželuzi{' '}
+          <Cit>
+            naučili mazati od tovařišuov ševcovských zlehka od čtyřidceti let
+          </Cit>
+          .
+          <Qt
+            publication={PUBLICATIONS.ARCHIV14}
+            href="https://kramerius5.nkp.cz/view/uuid:a286ef70-8dd6-11e8-9588-5ef3fc9bb22f?page=uuid:8c5aded7-667e-4c4f-8b87-966f49281f28"
+            note="Str. 465–466"
+          />
         </p>
         <h4>Zapínání s přesahem</h4>
         <p>
@@ -336,6 +416,23 @@ export const Obuv = () => (
           (tzn. část od kotníku nahoru bude překryta plátovým lýtkem) a zároveň
           v ní absolvovat dlouhé pochody. Tento typ bot se široce uplatňuje na
           českých dobových vyobrazeních, viz níže.
+        </p>
+        <p>
+          Co musel běžný český švec umět, říká nejstarší dochovaný popis
+          mistrovského kusu, cechovní řád pardubických ševců z 17. prosince
+          1515: uchazeč{' '}
+          <Cit>
+            aby vokázal nejprv škorni příční, druhú škorni telecí, od té škorně
+            střevíc zadní, a k tomu také punčoch veliký
+          </Cit>{' '}
+          – tedy dva druhy vysokých škorní, nízký střevíc a koženou nohavici. Za
+          to platil <Cit>čtyři groše bílé a libru vosku</Cit> a strojil cechu
+          svačinu <Cit>každý podle svěj možnosti</Cit>.
+          <Qt
+            publication={PUBLICATIONS.AC17}
+            href="https://kramerius5.nkp.cz/view/uuid:2cf61550-8dd7-11e8-9588-5ef3fc9bb22f?page=uuid:c2b13f00-9bb2-11e8-8b19-005056825209"
+            note="Str. 226, č. 1011"
+          />
         </p>
       </Col>
     </Row>

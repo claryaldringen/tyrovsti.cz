@@ -1,6 +1,9 @@
 import { Col, Row } from 'reactstrap'
 import { ImageWithTitle } from '../../../ImageWithTitle/ImageWithTitle'
 import React from 'react'
+import { Qt } from '../../../Quote/Qt'
+import { Cit } from '../../../Citation'
+import { PUBLICATIONS } from '../../../../shared/constants'
 
 export const Schuhwerk = () => (
   <>
@@ -23,6 +26,46 @@ export const Schuhwerk = () => (
           in Böhmen zu Beginn des 16. Jahrhunderts noch eine konservative, mäßig
           zugespitzte Form beibehalten.
         </p>
+        <p>
+          Neben dieser mäßigen Spitze tauchten in Prag in den 1460er Jahren auch
+          wieder die langen Schnäbel auf, wie man sie hundert Jahre zuvor an
+          Schuhen vom Typ <i>Poulaine</i> getragen hatte. Am 2. September 1464
+          befahl Georg von Podiebrad den Bürgermeistern und Räten aller drei
+          Prager Städte:{' '}
+          <Cit>
+            Přikazujem vám, abyste všem ševcuom přikázali, aby špicuov u třevíc
+            i u škoren nedělali, a také žádnému svému nedopúštějte v špici
+            choditi; v tom naši vuoli naplníte.
+          </Cit>
+          (Wir befehlen euch, allen Schustern zu gebieten, dass sie keine
+          Spitzen an Schuhen und Stiefeln machen, und lasst auch keinen der
+          Euren in Spitzen gehen; damit erfüllt ihr unseren Willen.)
+          <Qt
+            publication={PUBLICATIONS.ARCHIV14}
+            href="https://kramerius5.nkp.cz/view/uuid:a286ef70-8dd6-11e8-9588-5ef3fc9bb22f?page=uuid:fc3acae9-d484-4432-a28d-24c18c153d79"
+            note="S. 477"
+          />{' '}
+          Tomek fügt aus den Prager Stadtbüchern hinzu, dass{' '}
+          <Cit>
+            za času krále Jiřího smyslili si ševci Pražští dělati zase střevíce
+            a škorně špičaté jako kdysi o sto let předtím
+          </Cit>{' '}
+          (zur Zeit König Georgs die Prager Schuster sich einfallen ließen,
+          wieder spitze Schuhe und Stiefel zu machen wie einst vor hundert
+          Jahren), und meint, das Verbot habe{' '}
+          <Cit>nejspíš mělo svůj účinek</Cit> (wohl seine Wirkung gehabt). Die
+          langen Schnäbel kehrten also nur kurz nach Böhmen zurück; dreizehn
+          Jahre später, 1477, beschreiben die Altstädter Ratsherren bei einem
+          Streit der Schuster bereits einen anderen Trend –{' '}
+          <Cit>obuv dělala nižší a škorně jezdecké ostřejší než jindy</Cit> (das
+          Schuhwerk werde niedriger und die Reitstiefel schärfer gemacht als
+          zuvor).
+          <Qt
+            publication={PUBLICATIONS.TOMEK8}
+            href="https://kramerius5.nkp.cz/view/uuid:38c064d0-106f-11dd-b330-000d606f5dc6?page=uuid:5e2a2492-3eef-4067-a1b7-4c6e1f5056e6"
+            note="S. 367, 497"
+          />
+        </p>
       </Col>
     </Row>
     <Row>
@@ -39,6 +82,62 @@ export const Schuhwerk = () => (
           Neben dem Schaft, der Sohle und dem Rahmen enthielt ein Schuh im
           Allgemeinen noch mehrere weitere Teile — eine Fersenversteifung, eine
           Einfassung und eine Variante des Verschlusses oder der Schnürung.
+        </p>
+        <p>
+          In den Prager Städten war das Schusterhandwerk zweigeteilt: in die{' '}
+          <i>novinníci</i>, die neues Schuhwerk fertigten, und die{' '}
+          <i>vetešníci</i>, die es ausbesserten. Wo genau die Grenze verlief,
+          sprachen am 12. Juli 1441 die Ratsherren aller drei Städte aus: Die
+          Flickschuster{' '}
+          <Cit>
+            nové nártie a podešvy nové k starým ochozeným holenom budú moci
+            přišívati a dvoje škorně dobře ochozené do krámu na prodaj každý trh
+            vykládati, jakož jich práva svědčie, ale červených ani bielých šáróv
+            k vetché obuvi nemají okládati
+          </Cit>
+          (dürfen neue Blätter und neue Sohlen an alte abgetragene Schäfte nähen
+          und an jedem Markttag zwei Paar gut abgetragene Stiefel im Laden zum
+          Verkauf auslegen, wie ihre Rechte bezeugen, aber rote oder weiße{' '}
+          <i>šáry</i> dürfen sie an altes Schuhwerk nicht ansetzen). Daran ist
+          abzulesen, was sich an einem Stiefel zuerst abtrug – Blatt und Sohle –
+          und was sich der Kunde nur neu machen ließ: die farbigen <i>šáry</i>,
+          also die Schäfte. Die Neustädter Ratsherren erneuerten den Spruch 1456
+          und fügten die Bedingung hinzu, dass, wer sich in einem der beiden
+          Handwerke als Meister niederlassen wolle,{' '}
+          <Cit>
+            ve věcech slavné svátosti těla a krve pána našeho Jhesu Crista pod
+            obojím způsobem
+          </Cit>{' '}
+          (in Sachen des hochwürdigen Sakraments des Leibes und Blutes unseres
+          Herrn Jesu Christi unter beiderlei Gestalt) mit der Gemeinde
+          übereinstimmen müsse.
+          <Qt
+            publication={PUBLICATIONS.ARCHIV14}
+            href="https://kramerius5.nkp.cz/view/uuid:a286ef70-8dd6-11e8-9588-5ef3fc9bb22f?page=uuid:002e8c18-a4ee-489d-b0d0-aec88c18c1b5"
+            note="S. 440–441, 470–471"
+          />
+        </p>
+        <p>
+          Das Leder fetteten und schwärzten die Schuster selbst. Als sie sich
+          1453 mit den Gerbern von Podskalí und Vyšehrad stritten, sagte der
+          Gerber Jakub Kavka aus, dass{' '}
+          <Cit>
+            obojí koželuzi nemazali … ale byli štumfaři; potom se srotili ševci,
+            a tak počali mazati, a tak štumfařské řemeslo sešlo
+          </Cit>{' '}
+          (beide Gerbergruppen nicht fetteten … sondern <i>štumfaři</i> waren;
+          dann rotteten sich die Schuster zusammen und begannen zu fetten, und
+          so ging das Handwerk der <i>štumfaři</i> ein), und die Schuster Beneš
+          und Mařík Lichva bezeugten, die Gerber hätten{' '}
+          <Cit>
+            naučili mazati od tovařišuov ševcovských zlehka od čtyřidceti let
+          </Cit>{' '}
+          (das Fetten vor etwa vierzig Jahren von den Schustergesellen gelernt).
+          <Qt
+            publication={PUBLICATIONS.ARCHIV14}
+            href="https://kramerius5.nkp.cz/view/uuid:a286ef70-8dd6-11e8-9588-5ef3fc9bb22f?page=uuid:8c5aded7-667e-4c4f-8b87-966f49281f28"
+            note="S. 465–466"
+          />
         </p>
         <h4>Überlappungsverschluss</h4>
         <p>
@@ -332,6 +431,27 @@ export const Schuhwerk = () => (
           würde von der Plattenbeinschiene verdeckt) und gleichzeitig lange
           Märsche darin unternehmen konnte. Dieser Stiefeltyp ist in böhmischen
           zeitgenössischen Darstellungen weit verbreitet, siehe unten.
+        </p>
+        <p>
+          Was ein gewöhnlicher böhmischer Schuster können musste, sagt die
+          älteste erhaltene Beschreibung eines Meisterstücks, die Zunftordnung
+          der Pardubitzer Schuster vom 17. Dezember 1515: Der Bewerber{' '}
+          <Cit>
+            aby vokázal nejprv škorni příční, druhú škorni telecí, od té škorně
+            střevíc zadní, a k tomu také punčoch veliký
+          </Cit>{' '}
+          (soll zuerst einen <i>příčná</i>-Stiefel vorweisen, zweitens einen
+          Kalbslederstiefel, von diesem Stiefel einen hinteren Schuh und dazu
+          auch einen großen <i>punčoch</i>) – also zwei Arten hoher Stiefel,
+          einen niedrigen Schuh und eine lederne Gamasche. Dafür zahlte er{' '}
+          <Cit>čtyři groše bílé a libru vosku</Cit> (vier weiße Groschen und ein
+          Pfund Wachs) und richtete der Zunft eine Mahlzeit aus,{' '}
+          <Cit>každý podle svěj možnosti</Cit> (jeder nach seinem Vermögen).
+          <Qt
+            publication={PUBLICATIONS.AC17}
+            href="https://kramerius5.nkp.cz/view/uuid:2cf61550-8dd7-11e8-9588-5ef3fc9bb22f?page=uuid:c2b13f00-9bb2-11e8-8b19-005056825209"
+            note="S. 226, Nr. 1011"
+          />
         </p>
       </Col>
     </Row>
