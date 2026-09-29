@@ -945,4 +945,11 @@ export const PUBLICATIONS: Record<string, Publication> = {
     year: undefined,
     href: 'https://digital.blb-karlsruhe.de/id/1609781',
   },
+  FRAKNOI1895: {
+    name: 'Mátyás király levelei. Külügyi osztály. II. kötet (1480–1490)',
+    author: 'Vilmos Fraknói (ed.)',
+    city: { cs: 'Budapešť', en: 'Budapest', de: 'Budapest', it: 'Budapest' },
+    year: 1895,
+    href: 'https://archive.org/details/mtyskirlyl02mattuoft',
+  },
 }

@@ -5,6 +5,7 @@ import { Sources } from '../../components/Quote/Sources'
 import { Payment } from '../../components/Payment'
 import { BavarianWar } from '../../components/Articles/en/campaigns/BavarianWar'
 import { WaldshutWar } from '../../components/Articles/en/campaigns/WaldshutWar'
+import { BlackArmy } from '../../components/Articles/en/campaigns/BlackArmy'
 import { LANG_EN } from '../../shared/constants'
 
 const Page = () => {
@@ -20,6 +21,7 @@ const Page = () => {
           <Col className="text">
             <h1>Overview of Military Campaigns 1434–1525</h1>
             <BavarianWar />
+            <BlackArmy />
             <WaldshutWar />
             <Sources />
             <Payment />

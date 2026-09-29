@@ -3,19 +3,19 @@ import React from 'react'
 import { Col, Container, Row } from 'reactstrap'
 import { Sources } from '../../components/Quote/Sources'
 import { Payment } from '../../components/Payment'
-import { CernaArmada } from '../../components/Articles/cz/akce/CernaArmada'
-import { LANG_CS } from '../../shared/constants'
+import { BlackArmy } from '../../components/Articles/en/campaigns/BlackArmy'
+import { LANG_EN } from '../../shared/constants'
 
 const Page = () => (
   <>
     <HeadExtended
-      title="Černá armáda Matyáše Korvína"
-      description="Černá armáda (Fekete sereg) – stálé žoldnéřské vojsko Matyáše Korvína s velkou českou účastí"
+      title="The Black Army of Matthias Corvinus"
+      description="The Black Army (Fekete sereg) – the standing mercenary army of Matthias Corvinus with a strong Czech contingent"
     />
     <Container>
       <Row>
         <Col className="text">
-          <CernaArmada />
+          <BlackArmy />
           <Sources />
           <Payment />
         </Col>
@@ -26,9 +26,9 @@ const Page = () => (
 
 export const getStaticProps = () => ({
   props: {
-    lang: LANG_CS,
+    lang: LANG_EN,
     dest: {
-      en: '/military-campaigns/black-army',
+      cs: '/prehled-vojenskych-akci/cerne-vojsko',
       de: '/feldzuege',
       it: '/campagne-militari',
     },

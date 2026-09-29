@@ -81,7 +81,7 @@ export const CernaArmada = () => (
           význam těžké jízdy klesal, ale velké bitvy &ndash; ačkoli k nim během
           tažení docházelo stále méně často &ndash; byly i nadále rozhodovány
           tímto typem zbraně (Bitva na říčce Valové 1470, Bitva na Chlebovém
-          poli 1479, Leitzensdorf 1484, Thomaswalde 1488).
+          poli 1479, Leitzersdorf 1484, Thomaswalde 1488).
         </p>
         <p>
           <b>Lehká jízda.</b> Role lehké jízdy v této době v armádě výrazně
@@ -109,68 +109,77 @@ export const CernaArmada = () => (
           <b>Pěchota.</b> Zpráva benátského vyslance z roku 1479 odhadovala
           celkový počet uherských pěšáků na 16&nbsp;000. Z nich 6&nbsp;000
           pocházelo z Uher a Transylvánie a 10&nbsp;000 z Čech. Matyáš popsal
-          organizaci a bojový styl této pěchoty v jednom ze svých četných
-          dopisů:
+          organizaci a bojový styl této pěchoty v březnu 1481, když posílal
+          pomocný sbor pod velením Blažeje Maďara svému tchánovi, neapolskému
+          králi Ferdinandovi I., proti Turkům, kteří se zmocnili Otranta.
+          Kardinála Gabriela Rangoniho, biskupa jágerského, který tehdy pobýval
+          v&nbsp;Neapoli, požádal, aby králi vylíčil, jak jsou jeho vojska
+          uspořádána:
           <br />
           <Cit>
-            In tertio ordine pedites sünt, et hi quidem diversis ordinibus
-            distincti, horum enim alii gregarii sünt, alii armigeri, nonnulli
+            In tertio ordine pedites sunt, et hi quidem diversis ordinibus
+            distincti, horum enim alii gregarii sunt, alii armigeri, nonnulli
             clipeati. Gregarii milites seu pedites pro qualibet angaria ad unam
-            personam habere volunt VIII aureos. Armati vero seu clipeati, cum
-            sine pueris et servitoribus arma et clipeos ferre nequeant, et quia
-            hos pueros opus est illis in hunc usum pro necessitate conservare,
+            personam habere volunt 8 aureos. Armati vero seu clipeati, cum sine
+            pueris et servitoribus arma et clipeos ferre nequeant, et quia hos
+            pueros opus est illis in hunc usum pro necessitate conservare,
             volunt eos unusquisque ad arma singula et ad clipeos habere simul
-            cum duorum hominum stipendio. Sunt praeterea magistri pixidum, qui
+            cum duorum hominum stipendio. Sunt preterea magistri pixidum, qui
             sciunt trahere ex sclopetis et huiusmodi minoribus instrumentis,
             verum non ita strenui et utiles sunt, uti pedites ad trahendum ex
-            pixidibus; sed post clipeatos in initio conflictum, antequam
+            pixidibus; sed post clipeatos in initio conflictuum, antequam
             scilicet manus conferant, item ad expugnationes castrorum et
             defensiones maxime utiles sunt; itaque volunt et isti habere tantum,
-            quantum pedites gregarii. Apud nos vero ista consuetudo observatur,
+            quantum pedites gregarii. Apud nos vero ista consvetudo observatur,
             quod quantacumque peditum summa sit, quinta pars ex pixidariis
-            constituatur...armigeri apud nos muri loco habentnr, qui nunquam se
-            loco movent, etiamsi ad unum in sua statione trucidentur. Geutes ver
-            levis armature scciindum opportunitatein exciirniiit. et postquam
-            fessi suiit vei graviora pericula sentiuut, post armatos se
-            recipiimt, atfjue ibi restauratis viribus et resumpto spiritu
+            constituatur. [&hellip;] Armigeri apud nos muri loco habentur, qui
+            nunquam se loco movent, etiamsi ad unum in sua statione trucidentur.
+            Gentes vero levis armature secundum opportunitatem excurrunt, et
+            postquam fessi sunt vel graviora pericula sentiunt, post armatos se
+            recipiunt, atque ibi restauratis viribus et resumpto spiritu
             consistunt, donec captata commoditate sursum ad pugnas excurrant;
             peditatumque denique omnem et pixidarios armati clipeatique milites
-            circumsistuut, non aliter, quam si in munitioue consistant; clipei
+            circumsistunt, non aliter, quam si in munitione consistant; clipei
             namque maiores ad invicem positi per circuitum formant effigiem
             castelli, et parietes representant, quibus protecti gregarii pedites
             et omnes qui in medio sunt, velut ex propugnaculis et munitionibus
-            pugnant, et data opportunitate eruinpunt;
+            pugnant, et data opportunitate erumpunt [&hellip;]
             <br />
             <br />
-            (Ve třetím sledu jsou pěšáci, a ti se dělí do různých tříd: někteří
-            jsou řadoví pěšáci, jiní obrnění, někteří štítonoši. Řadoví vojáci
-            čili pěšáci chtějí za každou angarii (vojenskou povinnost za jednoho
-            muže) dostat 8 zlatých. Obrnění a štítonoši, protože nemohou nosit
-            zbroj a štíty bez chlapců a sluhů, a jelikož je nutné tyto chlapce
-            pro tento účel vydržovat, chtějí za každou zbraň a štít zároveň plat
-            jako za dva muže. Jsou také mistři střelných zbraní, kteří umějí
-            střílet z ručnic a podobných menších zbraní; nejsou však tak udatní
-            a užiteční jako pěšáci při střelbě z ručnic, ale za štítonoši na
-            začátku střetnutí, než dojde k boji zblízka, a také při dobývání
-            hradů a jejich obraně, jsou velmi užiteční. Proto chtějí i oni
-            dostat tolik, co řadoví pěšáci. U nás se navíc dodržuje zvyklost, že
-            ať je počet pěchoty jakýkoli, pětina z nich se sestavuje ze střelců
-            z ručnic...těžce ozbrojení bojovníci jsou u nás považováni za zeď,
+            (Třetí druh tvoří pěšáci, a ti se dělí do různých tříd: někteří jsou
+            řadoví pěšáci, jiní obrnění, někteří štítonoši. Řadoví vojáci čili
+            pěšáci chtějí za každé čtvrtletí (<i>angaria</i>) dostat na osobu 8
+            zlatých. Obrnění a štítonoši, protože nemohou nosit zbroj a štíty
+            bez chlapců a sluhů, a jelikož je nutné tyto chlapce pro tento účel
+            vydržovat, chtějí za každou zbraň a štít zároveň plat jako za dva
+            muže. Jsou také mistři střelných zbraní, kteří umějí střílet z
+            ručnic a podobných menších zbraní; nejsou však tak udatní a užiteční
+            jako pěšáci při střelbě z ručnic, ale za štítonoši na začátku
+            střetnutí, než dojde k boji zblízka, a také při dobývání hradů a
+            jejich obraně, jsou velmi užiteční. Proto chtějí i oni dostat tolik,
+            co řadoví pěšáci. U nás se navíc dodržuje zvyklost, že ať je počet
+            pěchoty jakýkoli, pětina z nich se sestavuje ze střelců z ručnic.
+            [&hellip;] Těžce ozbrojení bojovníci jsou u nás považováni za zeď,
             která se nikdy z místa nepohne, i kdyby byli do jednoho na své
-            pozici pobiti. Lehká pěchota vyběhne podle příležitosti a když se
+            pozici pobiti. Lehkooděnci vybíhají podle příležitosti, a když se
             unaví nebo pocítí větší nebezpečí, uchýlí se zpět za obrněné, a tam
-            po obnovení sil a po nadechnutí zůstane, dokud nevyužije vhodného
+            po obnovení sil a po nadechnutí setrvají, dokud nevyužijí vhodného
             okamžiku k dalšímu výpadu do boje. A nakonec všichni pěšáci i
             střelci z ručnic jsou obklopeni obrněnými a štítonoši, jako by stáli
             v opevnění; neboť větší štíty, postavené vedle sebe do kruhu, tvoří
             podobu tvrze a představují zdi, za nimiž obyčejní pěšáci a všichni,
             kteří jsou uvnitř, bojují jako z bašt a opevnění a při vhodné
-            příležitosti vyrazí ven;)
+            příležitosti vyrazí ven [&hellip;])
           </Cit>
         </p>
         <p className="text-end">
-          <br />- Matyáš Korvín v dopise svému tchánovi Ferdinandu I.
-          Neapolskému, 10. března 1481, Záhřeb
+          <br />- Matyáš Korvín v dopise kardinálu Gabrielu Rangonimu, Záhřeb,
+          10. března 1481
+          <Qt
+            publication={PUBLICATIONS.FRAKNOI1895}
+            href="https://archive.org/details/mtyskirlyl02mattuoft/page/107/mode/1up"
+            note="Str. 107–108, dopis č. 61"
+          />
         </p>
       </Col>
     </Row>
