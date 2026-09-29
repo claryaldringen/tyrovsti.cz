@@ -44,20 +44,29 @@ export const BlackArmy = () => (
           Firearms played only a supporting role: in his letter of 1481 (see
           below) Matthias himself writes that handgunners made up a fifth of the
           infantry, and he considered them less capable than the other foot
-          soldiers. There were initially 6,000 to 8,000 mercenaries; in the
-          1480s their number may have reached 15,000 to 20,000, but the king
-          hired most of them only for limited periods, and the permanent
-          mercenaries may have numbered around 10,000 to 12,000. The famous
-          review of 20,000 horsemen and 8,000 foot soldiers with at least 9,000
-          wagons, described by the eyewitness Antonio Bonfini, was held by
-          Matthias on <b>17 August 1487</b> on the plain before the captured
-          town of Wiener Neustadt. Besides the mercenaries, however, it included
-          the banderia of Hungarian prelates and barons and town mercenaries
-          hired for a few months, so it does not show the strength of the Black
-          Army alone. The mercenaries were chiefly Czechs and Poles, later also
-          Germans and, in the 1480s, more and more Hungarians; Swiss soldiers
-          served as well, such as the captain Hans von Hallwyl. The hussars were
-          largely Rascians (Serbs).
+          soldiers.
+          <Qt
+            publication={PUBLICATIONS.FRAKNOI1895}
+            href="https://archive.org/details/mtyskirlyl02mattuoft/page/107/mode/1up"
+            note="p. 107, letter no. 61"
+          />{' '}
+          By comparison, even at the turn of the 15th and 16th centuries only
+          about 10% of the infantry in Western European armies used firearms.
+          <Qt publication={PUBLICATIONS.KOMJATHY1982} note="p. 35" /> There were
+          initially 6,000 to 8,000 mercenaries; in the 1480s their number may
+          have reached 15,000 to 20,000, but the king hired most of them only
+          for limited periods, and the permanent mercenaries may have numbered
+          around 10,000 to 12,000. The famous review of 20,000 horsemen and
+          8,000 foot soldiers with at least 9,000 wagons, described by the
+          eyewitness Antonio Bonfini, was held by Matthias on{' '}
+          <b>17 August 1487</b> on the plain before the captured town of Wiener
+          Neustadt. Besides the mercenaries, however, it included the banderia
+          of Hungarian prelates and barons and town mercenaries hired for a few
+          months, so it does not show the strength of the Black Army alone. The
+          mercenaries were chiefly Czechs and Poles, later also Germans and, in
+          the 1480s, more and more Hungarians; Swiss soldiers served as well,
+          such as the captain Hans von Hallwyl. The hussars were largely
+          Rascians (Serbs).
           <Qt publication={PUBLICATIONS.KOVACS2008} note="pp. 87–92" />
           <Qt
             publication={PUBLICATIONS.MKL}

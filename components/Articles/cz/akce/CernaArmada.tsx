@@ -42,20 +42,28 @@ export const CernaArmada = () => (
           třetině vojska. Palné zbraně hrály jen doplňkovou roli: sám Matyáš
           v&nbsp;dopise z&nbsp;roku 1481 (viz níže) píše, že střelci
           z&nbsp;ručnic tvoří pětinu pěchoty, a považuje je za méně zdatné než
-          ostatní pěšáky. Žoldnéřů bylo zpočátku 6&nbsp;000 až 8&nbsp;000,
-          v&nbsp;80.&nbsp;letech jejich počet mohl dosáhnout 15&nbsp;000 až
-          20&nbsp;000; většinu z&nbsp;nich však král najímal jen na omezenou
-          dobu a stálých žoldnéřů mohlo být kolem 10&nbsp;000 až 12&nbsp;000.
-          Proslulou přehlídku 20&nbsp;000 jezdců a 8&nbsp;000 pěšáků
-          s&nbsp;nejméně 9&nbsp;000 vozy, kterou jako očitý svědek popsal
-          Antonio Bonfini, uspořádal Matyáš <b>17.&nbsp;srpna 1487</b> na pláni
-          před dobytým Vídeňským Novým Městem. Vedle žoldnéřů se jí však
-          účastnila i banderia uherských prelátů a baronů a na několik měsíců
-          najatí městští žoldnéři, takže nejde o početní stav samotné Černé
-          armády. Žoldnéři byli především Češi a Poláci, později i Němci a
-          v&nbsp;80.&nbsp;letech stále více Maďarů; sloužili zde i Švýcaři,
-          například hejtman Hans von Hallwyl. Husaři byli z&nbsp;velké části
-          Rácové (Srbové).
+          ostatní pěšáky.
+          <Qt
+            publication={PUBLICATIONS.FRAKNOI1895}
+            href="https://archive.org/details/mtyskirlyl02mattuoft/page/107/mode/1up"
+            note="Str. 107, dopis č. 61"
+          />{' '}
+          Pro srovnání: ještě na přelomu 15. a&nbsp;16.&nbsp;století používalo
+          palné zbraně jen asi 10&nbsp;% pěchoty západoevropských armád.
+          <Qt publication={PUBLICATIONS.KOMJATHY1982} note="Str. 35" /> Žoldnéřů
+          bylo zpočátku 6&nbsp;000 až 8&nbsp;000, v&nbsp;80.&nbsp;letech jejich
+          počet mohl dosáhnout 15&nbsp;000 až 20&nbsp;000; většinu z&nbsp;nich
+          však král najímal jen na omezenou dobu a stálých žoldnéřů mohlo být
+          kolem 10&nbsp;000 až 12&nbsp;000. Proslulou přehlídku 20&nbsp;000
+          jezdců a 8&nbsp;000 pěšáků s&nbsp;nejméně 9&nbsp;000 vozy, kterou jako
+          očitý svědek popsal Antonio Bonfini, uspořádal Matyáš{' '}
+          <b>17.&nbsp;srpna 1487</b> na pláni před dobytým Vídeňským Novým
+          Městem. Vedle žoldnéřů se jí však účastnila i banderia uherských
+          prelátů a baronů a na několik měsíců najatí městští žoldnéři, takže
+          nejde o početní stav samotné Černé armády. Žoldnéři byli především
+          Češi a Poláci, později i Němci a v&nbsp;80.&nbsp;letech stále více
+          Maďarů; sloužili zde i Švýcaři, například hejtman Hans von Hallwyl.
+          Husaři byli z&nbsp;velké části Rácové (Srbové).
           <Qt publication={PUBLICATIONS.KOVACS2008} note="Str. 87–92" />
           <Qt
             publication={PUBLICATIONS.MKL}

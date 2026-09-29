@@ -952,6 +952,13 @@ export const PUBLICATIONS: Record<string, Publication> = {
     year: 1895,
     href: 'https://archive.org/details/mtyskirlyl02mattuoft',
   },
+  KOMJATHY1982: {
+    name: 'A Thousand Years of the Hungarian Art of War',
+    author: 'Anthony Tihamer Komjathy',
+    city: 'Toronto',
+    year: 1982,
+    href: 'https://web.archive.org/web/20110126232820/http://hungarian-history.hu/lib/thou/thou05.htm',
+  },
   KOVACS2008: {
     name: 'Mátyás, a reneszánsz király',
     author: 'Péter E. Kovács',
