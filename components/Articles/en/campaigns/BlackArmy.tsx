@@ -16,57 +16,66 @@ export const BlackArmy = () => (
       <Col>
         <p>
           The Black Army (Hungarian <i>Fekete sereg</i>), also called the Black
-          Band or the Black Legion, was a late medieval Hungarian mercenary army
-          in the service of King Matthias Corvinus. The origins of this
-          professional force go back to the rule of his father, János Hunyadi,
-          around 1440, but it was Matthias himself who came up with the idea of
-          a standing professional mercenary army. He was probably inspired by
-          his youthful reading about the life of the Roman general Julius
-          Caesar. The mercenary army existed from 1458 to 1494. Unlike other
-          armies of the time, the Black Band was a standing professional
-          mercenary army with which Matthias achieved many victories and
-          political successes.
+          Band, is the name posterity gave to the mercenary army of King
+          Matthias Corvinus of Hungary. The name was not used in Matthias&apos;s
+          lifetime; it appears only after his death in 1490, and its origin is
+          unclear &ndash; perhaps it came from the army&apos;s last commander,
+          the &quot;black&quot; John Haugwitz, or from the black sashes the
+          mercenaries wore in mourning for the king. At the beginning of his
+          reign (1458) Matthias had to rely on the banderia of the prelates and
+          barons and on an ineffective noble levy. He hired mercenaries
+          gradually, as his finances allowed, began to incorporate them
+          systematically into the royal army in the mid-1460s, and their numbers
+          rose sharply during the Bohemian–Hungarian wars (1468–1478). The army
+          broke up after Matthias&apos;s death, and its last remnants perished
+          in 1492–1493.
+          <Qt publication={PUBLICATIONS.KOVACS2008} note="pp. 89–91" />
           <Qt
-            publication={PUBLICATIONS.WIKI}
-            href="https://en.wikipedia.org/wiki/Black_Army_of_Hungary"
+            publication={PUBLICATIONS.MKL}
+            href="https://lexikon.katolikus.hu/F/fekete%20sereg.html"
           />
         </p>
         <p>
-          Matthias recognised the importance and key role of infantry firearms,
-          which went on to contribute significantly to the effectiveness and
-          success of his army. Roughly every fourth member of the Black Army was
-          equipped with an arquebus, an unusual ratio at the time. Only the high
-          cost of gunpowder in the Middle Ages prevented this share from being
-          even higher. Even decades after the Black Army was dissolved, at the
-          turn of the 16th century, only about 10% of soldiers in Western
-          European armies used firearms. The main components of the Black Army
-          were infantry, artillery, and light and heavy cavalry. The heavy
-          cavalry protected the lightly armoured infantry and the artillery,
-          while the other corps delivered sporadic surprise attacks on the
-          enemy. In its early days the core of the army consisted of 6,000 to
-          8,000 mercenaries. By 1480 their number had risen to between 15,000
-          and 20,000, and at the great military review in Vienna in 1485 the
-          Black Army numbered up to 28,000 men (20,000 horsemen and 8,000 foot
-          soldiers). The soldiers came from various countries and nations; they
-          were chiefly Czechs, Bavarians, Serbs, Poles, Croats and, from 1480,
-          Hungarians as well. The Black Army was thus a far larger mercenary
-          army than that of King Louis XI of France, the only other standing
-          professional army in Europe at the time.
+          The main strength of the army remained its cavalry, above all the
+          heavy cavalry, which decided great battles; the light cavalry
+          (hussars) and the infantry complemented it, and Matthias also had
+          plenty of artillery. According to Péter E. Kovács, heavy cavalry,
+          light cavalry and infantry each made up roughly a third of the army.
+          Firearms played only a supporting role: in his letter of 1481 (see
+          below) Matthias himself writes that handgunners made up a fifth of the
+          infantry, and he considered them less capable than the other foot
+          soldiers. There were initially 6,000 to 8,000 mercenaries; in the
+          1480s their number may have reached 15,000 to 20,000, but the king
+          hired most of them only for limited periods, and the permanent
+          mercenaries may have numbered around 10,000 to 12,000. The famous
+          review of 20,000 horsemen and 8,000 foot soldiers with at least 9,000
+          wagons, described by the eyewitness Antonio Bonfini, was held by
+          Matthias on <b>17 August 1487</b> on the plain before the captured
+          town of Wiener Neustadt. Besides the mercenaries, however, it included
+          the banderia of Hungarian prelates and barons and town mercenaries
+          hired for a few months, so it does not show the strength of the Black
+          Army alone. The mercenaries were chiefly Czechs and Poles, later also
+          Germans and, in the 1480s, more and more Hungarians; Swiss soldiers
+          served as well, such as the captain Hans von Hallwyl. The hussars were
+          largely Rascians (Serbs).
+          <Qt publication={PUBLICATIONS.KOVACS2008} note="pp. 87–92" />
           <Qt
-            publication={PUBLICATIONS.WIKI}
-            href="https://en.wikipedia.org/wiki/Black_Army_of_Hungary"
+            publication={PUBLICATIONS.MKL}
+            href="https://lexikon.katolikus.hu/F/fekete%20sereg.html"
           />
         </p>
         <p>
-          The original nucleus of the Black Army was formed by 500 heavily
-          armoured horsemen lent to Matthias in 1458 by the Bohemian king George
-          of Poděbrady. He gradually attached to them the remnants of the{' '}
-          <i>Bratříci</i> (&quot;Brethren&quot;) and other Czech mercenaries who
-          were in Upper Hungary at the time, and under the peace treaty of
-          Wiener Neustadt of <b>19 July 1463</b> he also took John Jiskra of
-          Brandýs and his Czech mercenaries into his service. The Czech share of
-          the army remained high throughout its existence, and in some periods,
-          especially in the infantry, it even predominated.
+          In 1458 Matthias asked his future father-in-law, George of Poděbrady,
+          for 500 heavy horsemen whom he would have had to pay &ndash; itself a
+          sign of how little he could rely on the noble levy. The real core of
+          the mercenary army, however, came from the Czech mercenaries who
+          controlled northern Hungary: John Jiskra of Brandýs entered
+          Matthias&apos;s service in the spring of 1462, and after the defeat of
+          the <i>Bratříci</i> (&quot;Brethren&quot;) at Veľké Kostoľany in 1467
+          many of them also entered royal service. The Czech share of the army
+          remained high throughout its existence, and in the infantry it even
+          predominated.
+          <Qt publication={PUBLICATIONS.KOVACS2008} note="pp. 89–90" />
         </p>
       </Col>
     </Row>
@@ -75,46 +84,49 @@ export const BlackArmy = () => (
         <h5>Arms of Service and Organisation</h5>
         <p>
           <b>Heavy cavalry.</b> The most important arm, the one that decided
-          great battles, was still the heavy cavalry, and its numerical share in
-          the army actually increased compared with the previous period. It was
-          mostly divided into sub-units called <i>legions</i>, which
-          corresponded to a knightly banner or later to cavalry companies (about
-          100 men) and were split into detachments of 25 men, called{' '}
+          great battles, was still the heavy cavalry. It was divided into
+          sub-units called <i>legions</i>, which corresponded to the later
+          cavalry companies and consisted of 25-man detachments, called{' '}
           <i>turmae</i> in the Latin of the day. With the advent of artillery
           and the growing role of light cavalry, the strategic importance of
           heavy cavalry declined, but the great battles &ndash; although they
-          occurred less and less often during campaigns &ndash; continued to be
-          decided by this arm (the Battle of the Valová River 1470, the Battle
-          of Breadfield 1479, Leitzersdorf 1484, Thomaswaldau 1488).
+          became less and less frequent &ndash; were still decided by this arm
+          (the Battle of the Valová River 1470, the Battle of Breadfield 1479,
+          Leitzersdorf 1484, Thomaswaldau 1488).
+          <Qt publication={PUBLICATIONS.KOVACS2008} note="p. 91" />
         </p>
         <p>
-          <b>Light cavalry.</b> The role of light cavalry in the army grew
-          markedly in this period. At the end of the 14th century the hussars,
-          who had appeared on the South Slavic frontiers, became an important
-          part of the Hungarian cavalry. They excelled above all in irregular
-          warfare, raids, ambushes, screening and reconnaissance, but on the
-          whole they proved themselves in open battle as well. In
+          <b>Light cavalry.</b> The hussars appeared on the South Slavic
+          frontier at the end of the 14th century, but they became an important
+          part of the Hungarian cavalry only under Matthias. They excelled above
+          all in irregular warfare, raids, ambushes, screening and
+          reconnaissance, but they also proved themselves in open battle. In
           Matthias&apos;s reign an older type of light cavalry still existed.
           Bonfini writes of the camp at Győr in 1477 that the king had three
           kinds of cavalry &ndash; Czech, Rascian (Serbian) and Hungarian. The
           distinction here does not mean only nationality but above all the type
           of horseman: the Czech horsemen were heavy cavalry, the Rascian
           horsemen were hussars, and the Hungarian horsemen were a transitional
-          light cavalry close to the earlier type. By the end of the 15th
-          century, however, the term hussars clearly meant the Hungarian light
-          cavalry, which had by then become predominantly ethnically Hungarian.
+          light cavalry close to the older type. By the end of the 15th century,
+          however, the term hussars clearly meant the Hungarian light cavalry.
+          <Qt
+            publication={PUBLICATIONS.WIKI}
+            href="https://hu.wikipedia.org/wiki/Fekete_sereg"
+          />
         </p>
         <p>
           The light cavalry was organised in the same way as the heavy cavalry,
-          that is, divided into legions and <i>turmae</i>. Its importance also
-          grew because, in line with Matthias&apos;s strategy and tactics,
-          larger clashes with the Turks were rare, whereas raids into the border
-          regions became the norm, and in these the hussars were indispensable.
+          in legions and <i>turmae</i>. Its importance also grew because, in
+          line with Matthias&apos;s strategy, larger clashes with the Turks were
+          rare, whereas small-scale fighting and raids multiplied on the
+          frontiers, and in these the hussars were indispensable.
+          <Qt publication={PUBLICATIONS.KOVACS2008} note="p. 91" />
         </p>
         <p>
-          <b>Infantry.</b> A report by the Venetian envoy from 1479 estimated
-          the total number of Hungarian foot soldiers at 16,000, of whom 6,000
-          came from Hungary and Transylvania and 10,000 from Bohemia. Matthias
+          <b>Infantry.</b> According to the report of the Venetian envoy of
+          1479, Matthias&apos;s infantry consisted of 6,000 Hungarians and
+          10,000 Czechs.
+          <Qt publication={PUBLICATIONS.KOVACS2008} note="p. 92" /> Matthias
           described the organisation and fighting style of this infantry in
           March 1481, when he was sending an auxiliary force under Blaise Magyar
           to his father-in-law, King Ferdinand I of Naples, against the Turks
@@ -161,27 +173,27 @@ export const BlackArmy = () => (
             since they have to keep these boys for this purpose out of
             necessity, each want to have them for every armour and every shield,
             together with the pay of two men. There are also gun masters who
-            know how to shoot with handguns and similar smaller weapons; as
-            gunners they are not as hardy and useful as the foot soldiers, but
-            behind the shield-bearers at the beginning of an engagement, before
-            it comes to hand-to-hand fighting, and likewise in storming and
-            defending castles they are most useful; therefore they too want as
-            much as the common foot soldiers. With us this custom is observed:
-            however large the number of foot soldiers, a fifth of them are
-            gunners. [&hellip;] With us the armoured men are regarded as a wall
-            that never moves from its place, even if they are cut down to the
-            last man where they stand. The light-armed troops sally out as
-            opportunity offers, and when they grow tired or sense greater
-            danger, they withdraw behind the armoured men and stay there,
-            recovering their strength and catching their breath, until they
-            seize a favourable moment and run out to fight again. And finally
-            the armoured men and the shield-bearers surround all the foot
-            soldiers and the gunners, just as if they stood in a fortification;
-            for the larger shields, set side by side in a circle, form the
-            likeness of a castle and represent walls, and protected by them the
-            common foot soldiers and all who are in the middle fight as if from
-            bulwarks and fortifications, and when the opportunity arises they
-            break out [&hellip;])
+            know how to shoot with handguns and similar smaller weapons; with
+            their guns they are not as hardy and useful as the other foot
+            soldiers, but behind the shield-bearers at the beginning of an
+            engagement, before it comes to hand-to-hand fighting, and likewise
+            in storming and defending castles they are most useful; therefore
+            they too want as much as the common foot soldiers. With us this
+            custom is observed: however large the number of foot soldiers, a
+            fifth of them are gunners. [&hellip;] With us the armoured men are
+            regarded as a wall that never moves from its place, even if they are
+            cut down to the last man where they stand. The light-armed troops
+            sally out as opportunity offers, and when they grow tired or sense
+            greater danger, they withdraw behind the armoured men and stay
+            there, recovering their strength and catching their breath, until
+            they seize a favourable moment and run out to fight again. And
+            finally the armoured men and the shield-bearers surround all the
+            foot soldiers and the gunners, just as if they stood in a
+            fortification; for the larger shields, set side by side in a circle,
+            form the likeness of a castle and represent walls, and protected by
+            them the common foot soldiers and all who are in the middle fight as
+            if from bulwarks and fortifications, and when the opportunity arises
+            they break out [&hellip;])
           </Cit>
         </p>
         <p className="text-end">
@@ -200,123 +212,136 @@ export const BlackArmy = () => (
         <h5>Major Battles and Campaigns</h5>
         <div className="anchor" id="jiskra" />
         <p>
-          <b>Fighting John Jiskra of Brandýs (1458–1462).</b> Shortly after
-          Matthias Corvinus was elected King of Hungary in January 1458, the new
-          ruler faced the question of how to break the power of the Czech
-          mercenary captains who, since the end of the reign of Ladislaus the
-          Posthumous, had controlled much of Upper Hungary (today&apos;s
-          Slovakia) and held its castles in the name of Emperor Frederick III
-          and his claimed inheritance. The <i>Bratříci</i> and other bands of
-          former Hussite warriors formed a firmly rooted mercenary organisation
-          there, whose castles, fortified camps and raiding strongholds
-          threatened the mining of precious metals and the collection of land
-          taxes. Matthias sent several campaigns against them, the main results
-          of which were sieges of castles in Spiš, in the Váh valley and in
-          Šariš. With John Jiskra of Brandýs, the ablest of these commanders,
-          the fighting dragged on intermittently until 1462. Jiskra then gave up
-          and, under a secret clause of the peace treaty of Wiener Neustadt of{' '}
-          <b>19 July 1463</b>, entered Matthias&apos;s service with his men.
-          Jiskra himself received the castles of <b>Şoimuş</b> and <b>Lipova</b>{' '}
-          in Transylvania, and his soldiers were paid <b>25,000 ducats</b>. This
-          union laid the foundation of the Czech infantry component, which was
-          to remain the strongest pillar of the Black Army throughout its
-          existence. This phase ended with the capture of the Hussite fortress
-          of <b>Kosztolány</b> (Veľké Kostoľany) on <b>31 January 1467</b>,
-          after which its Czech captain František Hág also entered
-          Matthias&apos;s service.
+          <b>Fighting John Jiskra of Brandýs and the Bratříci (1458–1467).</b>{' '}
+          When Matthias came to the throne in January 1458, much of Upper
+          Hungary (today&apos;s Slovakia) was controlled by Czech mercenary
+          captains. John Jiskra of Brandýs had held the mining towns, Košice and
+          Zvolen there since 1440, first in the name of Queen Elizabeth and her
+          son Ladislaus the Posthumous, and in 1459–1461 on the side of Emperor
+          Frederick III, who laid claim to the Hungarian crown. Besides him
+          there were more or less independent bands of <i>Bratříci</i>, whose
+          castles and fortified camps threatened the mining towns and the
+          collection of taxes. Matthias led several campaigns against them.
+          After a preliminary agreement between Matthias and Frederick III,
+          Jiskra submitted in April 1462, handed over his castles and entered
+          royal service; in compensation he received <b>25,000 florins</b> and
+          the castles of <b>Şoimuş</b> (Solymos) and <b>Lipova</b> in
+          Transylvania. The peace treaty concluded at Wiener Neustadt on{' '}
+          <b>19 July 1463</b> also granted him an amnesty. Matthias finally
+          defeated the <i>Bratříci</i> at the end of January 1467 at{' '}
+          <b>Veľké Kostoľany</b> (Kosztolány), where he took the fortified camp
+          of Jan Švehla; Švehla was hanged, but many of the survivors entered
+          royal service.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://en.wikipedia.org/wiki/Black_Army_of_Hungary"
+            href="https://cs.wikipedia.org/wiki/Jan_Jiskra_z_Brand%C3%BDsa"
           />
+          <Qt
+            publication={PUBLICATIONS.WIKI}
+            href="https://cs.wikipedia.org/wiki/Bitva_u_Ve%C4%BEk%C3%BDch_Kosto%C4%BEan"
+          />
+          <Qt publication={PUBLICATIONS.KOVACS2008} note="pp. 89–90" />
         </p>
         <div className="anchor" id="bosnia" />
         <p>
-          <b>The Bosnian campaign (1463).</b> As soon as Matthias had his hands
-          largely free in Upper Hungary, he took advantage of the Ottoman
-          campaign of Sultan Mehmed II, which in the summer of 1463 swept away
-          the Kingdom of Bosnia and ended with the execution of the last Bosnian
-          king, <b>Stephen Tomašević</b>. Although the sultan&apos;s army
-          withdrew after conquering the country, it left Turkish garrisons in
-          the key fortresses. In the autumn of 1463 Matthias marched south with
-          the Hungarian army, conducted a siege lasting several weeks and in{' '}
-          <b>December 1463</b> retook <b>Jajce</b>, the key Bosnian fortress
-          controlling the middle course of the Vrbas. Together with some seventy
-          other castles occupied during the campaign, Jajce formed the core of
-          the newly established <i>Banate of Jajce</i>, which was to block the
-          Ottoman advance towards the Hungarian borders for another
-          half-century. The Bosnian campaign was among the young king&apos;s
-          first great military successes and showed that the newly built army
-          was capable of both field and siege operations in a distant theatre of
-          war.
+          <b>The Bosnian campaign (1463–1464).</b> In the summer of 1463 Sultan
+          Mehmed II conquered the Kingdom of Bosnia, and the last Bosnian king,{' '}
+          <b>Stephen Tomašević</b>, was executed. Although the sultan&apos;s
+          army withdrew, it left Ottoman garrisons in the key fortresses. In the
+          autumn of 1463 Matthias marched south with the Hungarian army and in{' '}
+          <b>December 1463</b>, after a siege of several weeks, took{' '}
+          <b>Jajce</b>, the key fortress on the middle course of the Vrbas.
+          Together with dozens of other places occupied during the campaign,
+          Jajce formed the core of the new <i>Banate of Jajce</i>, which held
+          out until 1527; in 1464 the Banate of Srebrenik was added, but the
+          siege of Zvornik that year failed. At that time the Hungarian army
+          still consisted mainly of the nobles&apos; banderia &ndash; Janus
+          Pannonius, who was present at the siege of Jajce, does not mention
+          mercenaries.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://en.wikipedia.org/wiki/Bosnian_Royal_War"
+            href="https://en.wikipedia.org/wiki/Siege_of_Jajce_(1463)"
           />
+          <Qt publication={PUBLICATIONS.KOVACS2008} note="p. 90" />
         </p>
         <div className="anchor" id="moldavia" />
         <p>
-          <b>The Moldavian campaign and the defence of Transylvania (1467).</b>{' '}
-          After the revolt of the Transylvanian estates in the autumn of 1467,
-          which Matthias bloodily suppressed in Kolozsvár (Cluj), he marched
-          with his army across the Carpathians into Moldavia against Prince{' '}
-          <b>Stephen III the Great</b>, who had earlier rejected Hungarian
-          suzerainty and occupied the border fortress of Chilia. The campaign
-          ended on 15 December 1467 with a night attack on the Hungarian army at
-          the <b>Battle of Baia</b>: Stephen&apos;s men set fire to the wooden
-          town in which Matthias was quartered and inflicted heavy losses on the
-          Hungarians. The king himself was wounded three times and had to
-          withdraw with his army to Transylvania. Although the campaign failed
-          to achieve its political goal, in practice it secured Transylvania
-          against Moldavian intervention for many years to come.
+          <b>The Moldavian campaign (1467).</b> In August 1467 the Transylvanian
+          estates formed a league against Matthias, but the revolt collapsed
+          without a fight in September, and the king punished its leaders with
+          executions and confiscations. Suspecting Prince{' '}
+          <b>Stephen III the Great</b> of Moldavia of supporting the rebels
+          (Stephen had also taken the border fortress of Chilia from him in
+          1465), he crossed the Carpathians into Moldavia in the autumn,
+          accompanied by the Moldavian pretender Peter Aron. The campaign ended
+          on the night of 14–15 December 1467 with a surprise attack on the
+          Hungarian army at the <b>Battle of Baia</b>: Stephen&apos;s men set
+          fire to the small town in which Matthias was quartered and inflicted
+          heavy losses on the Hungarians. The king himself was badly wounded and
+          had to withdraw with his army to Transylvania. The campaign was a
+          failure: in 1468–1471 Stephen raided Transylvania (in 1469 he caught
+          and executed Peter Aron), and he was reconciled with Matthias only in
+          1475.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://en.wikipedia.org/wiki/Matthias_Corvinus"
+            href="https://en.wikipedia.org/wiki/Battle_of_Baia"
+          />
+          <Qt
+            publication={PUBLICATIONS.WIKI}
+            href="https://en.wikipedia.org/wiki/Stephen_the_Great"
           />
         </p>
         <div className="anchor" id="bohemian-war" />
         <p>
-          <b>The Bohemian–Hungarian War (1468–1478).</b> In March 1468, at the
-          instigation of Pope Paul II, Matthias declared war on the Bohemian
-          king George of Poděbrady as a heretic. The pretext was the support
-          that the Utraquist Bohemian king had given the Austrian estates
-          against Emperor Frederick III, Matthias&apos;s ally. The campaign
-          began with an invasion of Moravia: the Black Army took Třebíč, Brno,
-          Olomouc, Jihlava and Špilberk and gradually occupied the whole land.
-          At the Diet of Olomouc on <b>3 May 1469</b> Matthias was elected King
-          of Bohemia by the Catholic party, which led to two parallel royal
-          courts. Military operations continued in Silesia and in both Lusatias.
-          After George of Poděbrady&apos;s death on <b>22 March 1471</b> the war
-          went on against his successor, the Polish prince{' '}
-          <b>Vladislaus II Jagiellon</b>, whom the Bohemian diet had elected as
-          the new king. The fighting went on with varying success, especially on
-          the borders of Moravia, in Silesia and in Hungary (the invasion of
-          Casimir Jagiellon). The war ended only with the{' '}
-          <b>Peace of Olomouc</b> in 1478, under which Matthias kept Moravia,
-          Silesia and both Lusatias, while Vladislaus received Bohemia proper;
-          both rulers were to use the title of King of Bohemia concurrently. For
-          the Black Army the war was a ten-year school of combined warfare,
-          field sieges and manoeuvres in mountainous country.
+          <b>The Bohemian–Hungarian War (1468–1478).</b> In December 1466 Pope
+          Paul II declared George of Poděbrady a deposed heretic. When
+          George&apos;s son Victor invaded Austria in early 1468, Emperor
+          Frederick III asked Matthias for help, and on 31 March 1468 Matthias
+          declared war on George. After driving Victor out of Austria he invaded
+          Moravia. The Catholic towns of Brno, Olomouc, Jihlava and Znojmo were
+          on his side; he had to take Třebíč (May 1468), the fortified monastery
+          of Hradisko near Olomouc and, after a six-month siege, Špilberk Castle
+          (February 1469). Uherské Hradiště, however, held out until 1474, and
+          Matthias controlled only part of Moravia. In Olomouc on{' '}
+          <b>3 May 1469</b> the Catholic nobility elected him King of Bohemia.
+          The fighting spread to Silesia and both Lusatias, which mostly sided
+          with Matthias. After George of Poděbrady&apos;s death on{' '}
+          <b>22 March 1471</b> the war continued against his successor,{' '}
+          <b>Vladislaus II Jagiellon</b>, with varying success in Moravia,
+          Silesia and Hungary (the invasion of Casimir Jagiellon). It was ended
+          only by the peace treaties negotiated at the end of 1478 and confirmed
+          in Olomouc on <b>21 July 1479</b>: Matthias kept Moravia, Silesia and
+          both Lusatias, which could be redeemed for 400,000 florins after his
+          death, Vladislaus kept Bohemia, and both rulers used the title of King
+          of Bohemia. For the mercenary army the war was a period of rapid
+          growth &ndash; it was then that its relatively permanent core formed
+          around the Czech captain Franc of Háj.
           <Qt
             publication={PUBLICATIONS.WIKI}
             href="https://cs.wikipedia.org/wiki/%C4%8Cesko-uhersk%C3%A9_v%C3%A1lky"
           />
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://en.wikipedia.org/wiki/Bohemian_War_(1468%E2%80%931478)"
+            href="https://cs.wikipedia.org/wiki/Olomouck%C3%A1_smlouva"
           />
+          <Qt publication={PUBLICATIONS.KOVACS2008} note="p. 90" />
         </p>
         <div className="anchor" id="valova" />
         <p>
-          <b>The Battle of the Valová River (12 July 1470).</b> A minor but
-          well-documented episode of the Bohemian–Hungarian War. A cavalry
-          detachment of Matthias&apos;s army ambushed on the march the
-          Silesian-Bohemian field army of captain <b>Václav Vlček of Čenov</b>,
-          sent by George of Poděbrady to relieve the besieged town of Uherské
-          Hradiště. Vlček&apos;s force, which according to the sources numbered
-          some 2,000 horsemen and a wagon fort, was caught on the march; part of
-          the wagon fort could not be closed in time and the Czechs were
-          scattered, the captain himself escaping with a small group. It was,
-          however, a field engagement, not a great decisive battle of the war.
+          <b>The Battle of the Valová River (12 July 1470).</b> When George of
+          Poděbrady marched with his main army from Bohemia into Moravia in the
+          summer of 1470, the field army of captain <b>Václav Vlček of Čenov</b>
+          , advancing from Hodonín, was to join him near Prostějov. Matthias,
+          informed of its movements, personally attacked it on 12 July with some
+          6,000 horsemen along the Valová River near Kralice in Haná. Taken by
+          surprise, the Czechs could not deploy their wagon fort, yet they put
+          up at least partial resistance, and Vlček withdrew with the rest of
+          his force towards Tovačov. Reports of the losses differ: Hungarian
+          chronicles give hundreds of dead and 1,500 captured wagons, Czech
+          sources 150 dead, 13 prisoners and 10 wagons. Matthias did not pursue
+          the Czechs and, with George approaching, withdrew to Brno. The battle
+          prevented Vlček from joining George, but it was not a decisive
+          engagement of the war.
           <Qt
             publication={PUBLICATIONS.WIKI}
             href="https://cs.wikipedia.org/wiki/Bitva_na_%C5%99%C3%AD%C4%8Dce_Valov%C3%A9"
@@ -324,12 +349,14 @@ export const BlackArmy = () => (
         </p>
         <div className="anchor" id="casimir" />
         <p>
-          <b>Casimir Jagiellon&apos;s invasion of Hungary (autumn 1471).</b> The
-          younger son of the Polish king Casimir IV, backed by the conspirators
+          <b>Casimir Jagiellon&apos;s invasion of Hungary (1471).</b> The
+          younger son of the Polish king Casimir IV, invited by the conspirators
           around John Vitéz, Archbishop of Esztergom, entered Upper Hungary with
-          a Polish army. Faced with the prepared Black Army, however, he
-          withdrew to Poland without a battle, and Matthias suppressed the
-          conspiracy of the domestic magnates without any major armed clash.
+          a Polish army in October 1471 and occupied Nitra. The conspiracy,
+          however, had collapsed before he arrived &ndash; at the diet in
+          September most of the prelates and barons renewed their oath of
+          loyalty to Matthias &ndash; and Casimir eventually withdrew to Poland
+          without a battle.
           <Qt
             publication={PUBLICATIONS.WIKI}
             href="https://en.wikipedia.org/wiki/Matthias_Corvinus"
@@ -337,118 +364,112 @@ export const BlackArmy = () => (
         </p>
         <div className="anchor" id="habsburgs" />
         <p>
-          <b>Campaigns against the Habsburgs (1474–1488).</b> The dispute with
-          Emperor Frederick III over the Hungarian royal crown and the
-          Austro-Hungarian borderlands grew into a long war, whose open phase
-          began in 1477 and lasted until 1488. The Black Army gradually occupied
-          a large part of Lower Austria and took many castles and towns in
-          Carinthia and Styria, and Matthias personally commanded the sieges of
-          the Austrian capitals. In 1482–1483 Hainburg, Bruck an der Leitha and
-          Kőszeg fell into Matthias&apos;s hands, followed by Korneuburg in
-          1484. A field battle was fought at <b>Leitzersdorf</b> (1484), where
-          the Hungarian heavy cavalry defeated the imperial army and opened the
-          road to Vienna. After a siege of several months, Vienna itself,
-          abandoned by the emperor, capitulated on <b>1 June 1485</b>, and
-          Matthias made a ceremonial entry at the head of his army. On this
-          occasion a military review was held at which up to{' '}
-          <b>28,000 men of the Black Army</b> were assembled; for the next five
-          years the city became Matthias&apos;s residence. After a long siege of
-          eighteen months, <b>Wiener Neustadt fell as well (17 August 1487)</b>.
-          The whole of Lower Austria and a considerable part of Styria thus came
-          under Hungarian control. A Hungarian administration was established in
-          the occupied lands under the governor Stephen Zápolya.
+          <b>Wars with the Habsburgs (1477–1488).</b> Disputes with Emperor
+          Frederick III led to two wars. The first, in 1477, ended with a peace
+          treaty on 1 December 1477. The second broke out in 1482: the
+          Hungarians took Hainburg and Kőszeg (1482), Bruck an der Leitha in the
+          spring of 1484, and then besieged Korneuburg. The imperial army
+          marching to relieve the town met them at{' '}
+          <b>Leitzersdorf on 11 May 1484</b>: the imperial cavalry first routed
+          the Hungarian heavy cavalry of István Dávidházy, but when the victors
+          began plundering the Hungarian camp,{' '}
+          <b>Dobeš Černohorský of Boskovice</b> rallied the Hungarian troops and
+          defeated them with a counter-attack. Korneuburg surrendered in
+          December 1484. Vienna, abandoned by the emperor, capitulated after a
+          siege of several months at the end of May 1485, and on{' '}
+          <b>1 June 1485</b> Matthias made his ceremonial entry; he resided
+          there until his death. After an eighteen-month siege,{' '}
+          <b>Wiener Neustadt</b> also fell on <b>17 August 1487</b>, and on the
+          plain before it Matthias held the great military review mentioned
+          above. The truce concluded in December 1487 left the whole of Lower
+          Austria and parts of Styria and Carinthia under Hungarian control.
           <Qt
             publication={PUBLICATIONS.WIKI}
             href="https://en.wikipedia.org/wiki/Austrian%E2%80%93Hungarian_War_(1477%E2%80%931488)"
           />
+          <Qt
+            publication={PUBLICATIONS.WIKI}
+            href="https://de.wikipedia.org/wiki/Schlacht_bei_Leitzersdorf"
+          />
         </p>
         <div className="anchor" id="breadfield" />
         <p>
-          <b>The Battle of Breadfield (13 October 1479).</b> Probably the most
-          famous victory of the Black Army. It was fought in Transylvania near
-          present-day Șibot (Hungarian Alkenyér) in the Mureș valley. The
-          Voivode of Transylvania <b>Stephen V Báthory</b>, together with the
-          Serbian despot Vuk Branković and the Wallachian voivode Basarab
-          Laiotă, faced an Ottoman invasion led by Ali Bey (Koca Ali), whose
-          army numbered up to 30,000 men according to Hungarian sources. Báthory
-          opened the battle from an unfavourable position and was badly wounded
-          in its course. The decisive turn came with the arrival of{' '}
-          <b>Pál Kinizsi</b> at the head of his cavalry: his crushing charge
-          scattered the Ottoman army. The victory stopped Ottoman raids into
-          Transylvania for many years and became one of the myth-making moments
-          of Hungarian military history.
-          <Qt
-            publication={PUBLICATIONS.WIKI}
-            href="https://en.wikipedia.org/wiki/Battle_of_Breadfield"
-          />
+          <b>The Battle of Breadfield (13 October 1479).</b> The most famous
+          Hungarian victory over the Ottomans in Matthias&apos;s reign was won
+          in Transylvania near present-day Șibot (Hungarian Alkenyér) in the
+          Mureș valley. The Ottoman raid was commanded by Isa Bey, son of Hasan
+          Bey; Ali Bey Mihaloğlu and the Wallachian voivode Basarab Ţepeluş also
+          took part. According to a modern estimate it numbered at most about
+          15,000 men (contemporary sources give 35,000 to 100,000). They faced
+          the army of the Voivode of Transylvania <b>Stephen Báthory</b>, the
+          ispán of Temes <b>Pál Kinizsi</b> and the Serbian despot Vuk
+          Branković. Báthory&apos;s troops came under heavy pressure and the
+          voivode himself was wounded several times (Bonfini says six). When Ali
+          Bey withdrew from the field with his men, Kinizsi struck the Ottoman
+          flank from the right wing; once Isa Bey was badly wounded, the Ottoman
+          army collapsed. Stories in which Kinizsi arrives on the battlefield
+          only at the decisive moment are a later dramatisation. The victory
+          strengthened the defence of Transylvania, but it did not deter the
+          Ottomans from further raids.
+          <Qt publication={PUBLICATIONS.SZAKALY_FODOR1998} />
         </p>
         <div className="anchor" id="thomaswaldau" />
         <p>
-          <b>The Silesian campaigns and the Battle of Thomaswaldau (1488).</b>{' '}
-          In Silesia, which Matthias retained after the Peace of Olomouc, the
-          Black Army waged a long series of smaller campaigns against the
-          rebellious nobility and against the attempts of the Jagiellonian party
-          to claim the local duchies. The territorial administration was run
-          from Wrocław (Breslau) by a Hungarian governor, who had a field army
-          of several thousand men at his disposal. In 1488 a clash took place at{' '}
-          <b>Thomaswaldau</b> (today Tomaszów Bolesławiecki), in which the
-          Hungarian troops defeated the Silesian army raised by the rebellious
-          dukes, thus confirming Matthias&apos;s control over the land. Silesia
-          remained in his hands until his death; from 1474 to 1479 its
-          administration was entrusted to <b>Stephen Zápolya</b> as{' '}
-          <i>Oberlandeshauptmann</i>, and he was later succeeded by other
-          Hungarian magnates. Alongside the Austrian theatre, the Silesian
-          campaigns were the Black Army&apos;s second school of field warfare;
-          Czech and Moravian condottieri in Matthias&apos;s service played an
-          important role here (Dobeš Černohorský of Boskovice, the Haugwitz
-          family of Biskupice, Vilém Tetour).
+          <b>Silesia and the Battle of Thomaswaldau (1488).</b> Silesia, which
+          Matthias retained after the Peace of Olomouc, was governed in his name
+          by supreme captains (<i>Oberlandeshauptmann</i>) &ndash; from 1474
+          Stephen Zápolya, later John Filipec, Georg von Stein and Duke
+          Frederick of Legnica, among others. In 1488 the Black Army waged war
+          on Duke John II of Głogów and Żagań, who wanted to secure Głogów for
+          his sons-in-law of the Poděbrady family, although the estates had
+          already done homage to Matthias as their future lord. The army was
+          commanded by Wilhelm Tettauer (Vilém Tetour of Tetov) and Georg von
+          Stein, while a second royal force was led by John Haugwitz. On{' '}
+          <b>28 June 1488</b> at <b>Thomaswaldau</b> (today Tomaszów
+          Bolesławiecki) it ran into Czech mercenaries marching to relieve
+          Głogów. The hard fight, in which according to Péter E. Kovács
+          Haugwitz&apos;s horsemen broke the Czech wagon fort, was inconclusive;
+          the Czechs, however, fell back to Szprotawa and left the road to
+          Głogów open. Głogów surrendered in November 1488.
+          <Qt publication={PUBLICATIONS.ADB_JOHANN2_SAGAN} note="pp. 407–408" />
+          <Qt publication={PUBLICATIONS.KOVACS2008} note="p. 91" />
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://en.wikipedia.org/wiki/Black_Army_of_Hungary"
+            href="https://de.wikipedia.org/wiki/Oberlandeshauptmann"
           />
         </p>
         <div className="anchor" id="ottoman-frontier" />
         <p>
-          <b>Small war on the Ottoman frontier.</b> Apart from the high point of
-          the Battle of Breadfield, for most of its existence the Black Army was
-          engaged in small war on Hungary&apos;s southern frontier, defending
-          the so-called <i>banates</i> (<b>Jajce</b>, <b>Srebrenik</b>,{' '}
-          <b>Zvornik</b>) acquired in the 1460s and 1470s and striking back at
-          the Ottoman <i>akıncı</i> raiders. Great field battles with the Turks
-          were the exception; the usual practice consisted of raids, ambushes,
-          the taking of captives on both sides and securing the passes through
-          the border mountains. In this role the hussars of the light cavalry
-          and the Serbian units in Matthias&apos;s service under the command of
-          the <b>Jakšić</b> family, <b>Vuk Branković</b> and other exiled
-          families particularly excelled. On the Hungarian side of the border
-          the fighting was directed by the Ban of Croatia <b>Blaise Magyar</b>{' '}
-          and the ispán of Temes <b>Pál Kinizsi</b>; their troops undertook
-          extensive expeditions into Ottoman territory, the best known of which
-          was the campaign into Serbia in 1480–1481, during which some 50,000
-          Serbian refugees were resettled in Hungary.
-          <Qt
-            publication={PUBLICATIONS.WIKI}
-            href="https://en.wikipedia.org/wiki/Black_Army_of_Hungary"
-          />
+          <b>Small war on the Ottoman frontier.</b> Apart from the great
+          campaigns, for most of Matthias&apos;s reign his army was engaged in
+          small war on the southern frontier: it defended the banates of Jajce
+          and Srebrenik, Šabac (taken in 1476 after a long siege) and other
+          border fortresses, and retaliated against the raids of the Ottoman{' '}
+          <i>akıncı</i>. Great field battles were the exception; raids, ambushes
+          and the carrying off of captives were the rule. The hussars, largely
+          of Serbian origin, excelled in this under commanders such as Vuk
+          Branković or the Jakšić brothers. In the autumn of 1480 Hungarian
+          forces raided Bosnia and Serbia, where they penetrated as far as
+          Kruševac; the expedition was repeated in 1481, and according to
+          contemporary, probably exaggerated, reports tens of thousands of Serbs
+          were resettled in Hungary.
+          <Qt publication={PUBLICATIONS.VESZPREMY2009} note="pp. 36–42" />
+          <Qt publication={PUBLICATIONS.SZAKALY_FODOR1998} />
+          <Qt publication={PUBLICATIONS.KOVACS2008} note="pp. 91–92" />
         </p>
         <div className="anchor" id="death-of-matthias" />
         <p>
           <b>The death of Matthias Corvinus (6 April 1490).</b> The king died
-          suddenly in Vienna, the city he had subdued five years earlier.
-          According to contemporary reports the immediate cause was a stroke;
-          Matthias was not yet fifty, and his state stood and fell with him
-          personally. His death marks a turning point for the Black Army: an
-          army built solely on Matthias&apos;s personal will and on the revenue
-          of his extraordinary taxes lost its only real patron. His illegitimate
-          son <b>John Corvinus</b> inherited his father&apos;s wealth and
-          commanded a considerable part of the army, but he was rejected by the
-          Hungarian diet. The crown finally went to{' '}
-          <b>Vladislaus II Jagiellon</b>, who promised the estates to abolish
-          Matthias&apos;s extraordinary taxes; the resulting fall in revenue of
-          70 to 80% made regular payment of wages impossible. The fate of the
-          army was decided over the following two years, when the unpaid
-          mercenaries turned to plunder and were finally scattered by Pál
-          Kinizsi in August 1492 at Szegednic-Halászfalu near Kiskunhalas.
+          suddenly in Vienna at the age of 47; judging by contemporary
+          descriptions of his symptoms it was probably a stroke, although there
+          were also rumours of poisoning. With his death the mercenary army lost
+          its only real patron &ndash; it rested on the king&apos;s personal
+          will and on the revenue of his extraordinary tax. Matthias&apos;s
+          illegitimate son <b>John Corvinus</b> sought the throne without
+          success, and the crown went to <b>Vladislaus II Jagiellon</b>, who
+          promised the estates to abolish the extraordinary tax. Royal revenue
+          fell to a fraction of its former level, and regular payment of wages
+          became impossible.
           <Qt
             publication={PUBLICATIONS.WIKI}
             href="https://en.wikipedia.org/wiki/Matthias_Corvinus"
@@ -460,205 +481,234 @@ export const BlackArmy = () => (
       <Col>
         <h5>Commanders and Captains</h5>
         <p>
-          <b>John Jiskra of Brandýs.</b> The peace treaty of Wiener Neustadt of{' '}
-          <b>19 July 1463</b> contained, among other things, a secret clause
-          that deprived Emperor Frederick III of control over John Jiskra and
-          his mercenaries. Jiskra, who with short breaks had fought against
-          Matthias Corvinus ever since the death of Ladislaus the Posthumous,
-          was granted a royal pardon and two castles (Şoimuş and Lipova), and
-          his soldiers received a payment of 25,000 ducats. Matthias then took
-          him and his men into his service, completing the formation of the core
-          of the Black Army. After the capture of the Hussite fortress of{' '}
-          <b>Kosztolány</b> (Veľké Kostoľany in western Slovakia) on{' '}
-          <b>31 January 1467</b>, its Czech captain <b>František Hág</b> also
-          entered Matthias&apos;s service.
+          <b>John Jiskra of Brandýs.</b> A Czech soldier who from 1440
+          controlled Upper Hungary in the name of Ladislaus the Posthumous and
+          in 1459–1461 sided with Emperor Frederick III. In April 1462 he
+          submitted to Matthias, handed over his castles and received in
+          compensation 25,000 florins and the castles of Şoimuş and Lipova in
+          Transylvania. He then fought in Matthias&apos;s service, in Bosnia in
+          1463, and in 1468 he led a Hungarian embassy to the sultan.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://en.wikipedia.org/wiki/Black_Army_of_Hungary"
+            href="https://cs.wikipedia.org/wiki/Jan_Jiskra_z_Brand%C3%BDsa"
           />
+          <Qt publication={PUBLICATIONS.KOVACS2008} note="p. 90" />
         </p>
         <p>
           <b>Pál Kinizsi (c. 1432 &ndash; 1494).</b> A Hungarian nobleman and
-          mercenary commander of humble origin, according to legend the son of a
-          miller from the Banat. His superhuman strength and fearlessness made
-          him a legend in his own lifetime. Matthias appointed him ispán of
-          Temes and captain-general of Lower Hungary (
-          <i>capitaneus generalis partium inferiorum</i>). Kinizsi won fame for
-          his decisive intervention at the Battle of Breadfield in 1479, when
-          his charge saved Báthory&apos;s endangered army. Contemporaries wrote
-          of him that he{' '}
-          <i>
-            took a sword in each hand and waded through blood like a roaring
-            lion
-          </i>
-          . According to tradition he was never defeated in battle. After
-          Matthias&apos;s death he remained loyal to the new king Vladislaus II
-          and himself suppressed the mutiny of the Black Army in 1492. He died
-          in November 1494 during a campaign against Smederevo and was buried in
-          the monastery he had founded at Nagyvázsony.
+          commander, according to legend the son of a miller, but according to
+          more recent research probably of petty noble origin. His strength and
+          fearlessness made him a legend in his own lifetime; Bonfini writes
+          that he fought with a sword in each hand, and tradition has it that he
+          never lost a battle. From 1479 he was ispán of Temes and
+          captain-general of Lower Hungary (
+          <i>capitaneus generalis partium inferiorum</i>). He decided the Battle
+          of Breadfield in 1479. After Matthias&apos;s death he remained loyal
+          to Vladislaus II and in 1492 scattered the remnants of the Black Army.
+          He died on 24 November 1494 during a campaign against Smederevo and
+          was buried in the Pauline monastery he had founded at Nagyvázsony.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://en.wikipedia.org/wiki/P%C3%A1l_Kinizsi"
+            href="https://hu.wikipedia.org/wiki/Kinizsi_P%C3%A1l"
+          />
+          <Qt
+            publication={PUBLICATIONS.MKL}
+            href="https://lexikon.katolikus.hu/K/Kinizsi.html"
           />
         </p>
         <p>
-          <b>Imre Zápolya (c. 1430 &ndash; 1487).</b> A member of the powerful
-          Hungarian Zápolya family and a close confidant of Matthias. In
-          1486–1487 he held the office of Palatine of Hungary.
+          <b>Imre Zápolya (died 1487).</b> A member of the powerful Hungarian
+          Zápolya family and a close confidant of Matthias. In 1486–1487 he held
+          the office of Palatine of Hungary.
           <Qt
             publication={PUBLICATIONS.WIKI}
             href="https://en.wikipedia.org/wiki/Imre_Sz%C3%A1polyai"
           />
         </p>
         <p>
-          <b>Stephen Zápolya (c. 1430 &ndash; 1499).</b> Imre&apos;s younger
-          brother. In 1474–1479 he was governor of Silesia (
-          <i>Oberlandeshauptmann</i>); in 1485 he took Vienna for Matthias and
-          became governor of Austria. In 1492–1499 he was Palatine of Hungary
-          under Vladislaus II.
+          <b>Stephen Zápolya (died 1499).</b> Imre&apos;s younger brother. From
+          1474 he was supreme captain (<i>Oberlandeshauptmann</i>) of Silesia,
+          in 1489–1490 governor of the Austrian lands conquered by Matthias, and
+          in 1492–1499 Palatine of Hungary.
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://en.wikipedia.org/wiki/Stephen_Z%C3%A1polya"
+            href="https://hu.wikipedia.org/wiki/Szapolyai_Istv%C3%A1n"
           />
         </p>
         <p>
-          <b>Stephen V Báthory (c. 1430 &ndash; 1493).</b> A Hungarian magnate,
+          <b>Stephen Báthory of Ecsed (died 1493).</b> A Hungarian magnate,
           Judge Royal (<i>iudex curiae regiae</i>) and from 1479 Voivode of
-          Transylvania. He commanded the Hungarian field army at the Battle of
-          Breadfield, where he was badly wounded but held his position until
-          Kinizsi&apos;s reinforcements arrived. After Matthias&apos;s death he
-          continued in the service of Vladislaus II, but in 1493 he was
-          eventually removed from the office of voivode for his harsh rule over
-          the Székelys and died shortly afterwards. His family was among the
-          most important Hungarian dynasties and later produced the Polish king
-          Stephen Báthory.
+          Transylvania. He commanded the Hungarian army at the Battle of
+          Breadfield, where he was badly wounded. After Matthias&apos;s death he
+          served Vladislaus II, but in 1493 he was removed from the office of
+          voivode for his harsh rule over the Székelys and died shortly
+          afterwards. The Polish king Stephen Báthory came from a different
+          branch of the family, that of Somlyó.
           <Qt
             publication={PUBLICATIONS.WIKI}
             href="https://en.wikipedia.org/wiki/Stephen_V_B%C3%A1thory"
           />
         </p>
         <p>
-          <b>František Hág (Franek z Hájku, ze Sedlu).</b> A Czech condottiere
-          and former captain of the Hussite fortress of <b>Kosztolány</b> (Veľké
-          Kostoľany in western Slovakia). After its capture on{' '}
-          <b>31 January 1467</b> he entered the service of Matthias Corvinus
-          with his entire company. He was one of the most important Czech
-          infantry commanders of the Black Army and took part in the campaigns
-          in Austria and Silesia. His name appears in Hungarian sources in
-          various spellings (Franko Hag, Frank z Háje), reflecting the
-          international make-up of the Black Army. In 1492 he led the mutinous
-          remnants of the Black Army that were scattered by Pál Kinizsi.
+          <b>Franc (František) of Háj (died 1475 or 1476).</b> A Czech mercenary
+          captain, also called &quot;the terrible Franc&quot;, known in
+          Hungarian sources as Hag. He probably took his name from the manor of
+          Háj near Radonice in the Žatec region (Veszprémy considers him a
+          native of Silesia). In 1466 he was captured as one of the leaders of
+          the <i>Bratříci</i> in Upper Hungary and entered Matthias&apos;s
+          service. In the Bohemian–Hungarian War he was one of Matthias&apos;s
+          leading captains: in 1468 he won at Zvole, in 1469 he occupied
+          Broumov, from 1470 he was captain of the duchies of Świdnica and
+          Jawor, and later he held Trenčín in pledge. In these years the
+          permanent core of Matthias&apos;s mercenary army formed around him. He
+          fell at the siege of Šabac, and Matthias had him buried with honours
+          at Székesfehérvár. His widow married Vilém Tetour of Tetov.
+          <Qt
+            publication={PUBLICATIONS.WIKI}
+            href="https://cs.wikipedia.org/wiki/Franc_z_H%C3%A1je"
+          />
+          <Qt publication={PUBLICATIONS.VESZPREMY2009} note="p. 42" />
+          <Qt publication={PUBLICATIONS.KOVACS2008} note="p. 90" />
+        </p>
+        <p>
+          <b>John (Hanuš) Haugwitz of Biskupice, called the Black.</b> A
+          mercenary captain probably of Silesian origin. He got the nickname
+          &quot;black&quot; from his liege lord, Duke Konrad the Black, and the
+          whole army may have been named after him. From an insignificant
+          captain he rose during the Głogów war of 1488 to supreme commander of
+          Matthias&apos;s mercenary army. After Matthias&apos;s death John
+          Filipec won him over to Vladislaus II for 100,000 florins. At the end
+          of 1492 he was defeated by Kinizsi at Halászfalva and went with the
+          rest of the army to Austria, where his troops were destroyed in 1493.
+          <Qt
+            publication={PUBLICATIONS.MEL}
+            href="https://mek.oszk.hu/00300/00355/html/ABC05727/06061.htm"
+          />
+        </p>
+        <p>
+          <b>Dobeš Černohorský of Boskovice (died 1493).</b> A Moravian magnate
+          and one of Matthias&apos;s most important commanders. In 1469 he took
+          Špilberk; in the Austrian campaigns he occupied Mautern and St. Pölten
+          (1481) and Klosterneuburg (1483), and his counter-attack decided the
+          Battle of Leitzersdorf (1484). Matthias granted him Nový hrad near
+          Brno in pledge. After the execution of his kinsman Jaroslav of
+          Boskovice in December 1485 he went over to Frederick III and, as an
+          imperial field captain, retook St. Pölten in 1490. He died in Vienna
+          on 20 December 1493.
+          <Qt
+            publication={PUBLICATIONS.WIKI}
+            href="https://cs.wikipedia.org/wiki/Dobe%C5%A1_%C4%8Cernohorsk%C3%BD_z_Boskovic"
+          />
+        </p>
+        <p>
+          <b>Vilém Tetour of Tetov (Wilhelm Tettauer, died 1498).</b> A Moravian
+          nobleman, lord of Zlín and Malenovice, who fought in Matthias&apos;s
+          service against George of Poděbrady and against the Habsburgs. In the
+          1480s he was one of the supreme commanders of the Black Army; in 1488
+          he commanded in the Głogów war, and in 1490 he built a fortified line
+          on the River Enns. His wife was the widow of Franc of Háj. After
+          Matthias&apos;s death he served Vladislaus II.
+          <Qt
+            publication={PUBLICATIONS.WIKI}
+            href="https://cs.wikipedia.org/wiki/Vil%C3%A9m_Tetour_z_Tetova"
+          />
+          <Qt publication={PUBLICATIONS.ADB_JOHANN2_SAGAN} note="pp. 407–408" />
+        </p>
+        <p>
+          <b>Blaise Magyar (Magyar Balázs, died after 1490).</b> A Hungarian
+          captain, several times Ban of Croatia (1470–1472, 1473–1474,
+          1482–1483) and in 1472–1475 Voivode of Transylvania. In 1481 he led
+          the auxiliary force that Matthias sent to King Ferdinand of Naples
+          against the Turks at Otranto. After Matthias&apos;s death he supported
+          the candidacy of the Polish prince John Albert.
+          <Qt
+            publication={PUBLICATIONS.WIKI}
+            href="https://hu.wikipedia.org/wiki/Magyar_Bal%C3%A1zs_(hadvez%C3%A9r)"
+          />
+          <Qt
+            publication={PUBLICATIONS.FRAKNOI1895}
+            href="https://archive.org/details/mtyskirlyl02mattuoft/page/105/mode/1up"
+            note="p. 105, letter no. 61"
+          />
+        </p>
+        <p>
+          <b>Nicholas Csupor of Monoszló (died 1474).</b> A Hungarian baron,
+          Voivode of Transylvania in 1468–1472. In 1470 he commanded the royal
+          army in the campaign against George of Poděbrady. He died of his
+          wounds in early 1474.
+          <Qt
+            publication={PUBLICATIONS.WIKI}
+            href="https://hu.wikipedia.org/wiki/Monoszl%C3%B3i_Csupor_Mikl%C3%B3s"
+          />
+        </p>
+        <p>
+          <b>Demeter Jakšić (died 1487).</b> A member of the exiled Serbian
+          Jakšić family in Hungarian service. He fought with his hussars at
+          Breadfield in 1479 and was killed near Smederevo in June 1487. The
+          Serbian light horse of the Jakšićs belonged to the southern border
+          defence rather than to the mercenary army proper.
+          <Qt
+            publication={PUBLICATIONS.WIKI}
+            href="https://hu.wikipedia.org/wiki/Jaksics_Demeter"
+          />
+        </p>
+        <p>
+          <b>Nicholas of Ilok (c. 1410 &ndash; 1477).</b> A powerful Hungarian
+          magnate and from 1471 titular King of Bosnia. His offices and private
+          troops formed an important part of Matthias&apos;s southern defence
+          system against the Ottomans.
+          <Qt
+            publication={PUBLICATIONS.WIKI}
+            href="https://en.wikipedia.org/wiki/Nicholas_of_Ilok"
+          />
+        </p>
+        <p>
+          <b>Melchior Löbel (Loebel).</b> A mercenary captain mentioned in the
+          sources at the defence of Wrocław in 1474 and at the siege of Šabac in
+          1475–1476. He may be identical with Melchior von Loeben (died 1479),
+          commander of the Silesian estates&apos; troops against the Poles and
+          from 1476 administrator of Lower Lusatia.
+          <Qt publication={PUBLICATIONS.VESZPREMY2009} note="p. 42, n. 31" />
           <Qt
             publication={PUBLICATIONS.WIKI}
             href="https://en.wikipedia.org/wiki/Black_Army_of_Hungary"
           />
-        </p>
-        <p>
-          <b>Jan Hanuš Haugvic of Biskupice.</b> A member of the Moravian noble
-          family of Haugwitz, which played an exceptionally important role in
-          the Black Army. Together with his relatives <b>Jindřich Hynek</b>,{' '}
-          <b>Petr</b> and <b>Mikuláš Haugvic of Biskupice</b> he formed a family
-          clan of commanders whose troops fought in the Austrian campaigns and
-          in Silesia. After Matthias&apos;s death the Haugwitzes brought their
-          experience back to the Moravian provincial army.
-        </p>
-        <p>
-          <b>Dobeš Černohorský of Boskovice (died 1493).</b> A Moravian magnate
-          and one of the most important Czech commanders of the Black Army. He
-          led large contingents of Czech heavy cavalry and infantry and took
-          part in the Silesian and Austrian campaigns. Matthias valued him so
-          highly that he granted him extensive estates in Lower Hungary in
-          pledge. After 1490 the Boskovice family took part in the Hungarian
-          negotiations on the succession of Vladislaus II.
-        </p>
-        <p>
-          <b>Vilém Tetour of Tetov.</b> A Moravian squire and condottiere who
-          commanded a large company of Czech cavalry in Matthias&apos;s service.
-          He distinguished himself in the Austrian campaigns and after 1485 held
-          garrisons in several Lower Austrian castles. The Tetours were one of
-          many families of the lesser nobility for whom service in the Black
-          Army brought a marked rise in social standing.
-        </p>
-        <p>
-          <b>Blaise Magyar (Blasius Magyar, died 1490).</b> Ban of Croatia and
-          one of Matthias&apos;s longest-serving commanders. He led the Black
-          Army in the fighting against the Ottomans in Bosnia and Slavonia and
-          briefly held the office of Voivode of Transylvania. He belonged to the
-          generation of professional soldiers who rose from the frontier school
-          of fighting the Turks to command positions in the standing mercenary
-          army.
-        </p>
-        <p>
-          <b>Nicholas Csupor of Monoszló.</b> Voivode of Transylvania
-          (1468–1472) and one of the army&apos;s commanders in its formative
-          years. He served in the Moravian and Silesian campaigns against George
-          of Poděbrady.
-        </p>
-        <p>
-          <b>Demeter Jakšić.</b> A member of the exiled Serbian Jakšić family,
-          which took refuge in Hungarian service after the fall of the Serbian
-          Despotate. The Jakšićs commanded important units of the Black
-          Army&apos;s Serbian light cavalry (hussars) and held offices on the
-          southern frontier.
-        </p>
-        <p>
-          <b>Nicholas of Ilok (c. 1410 &ndash; 1477).</b> A powerful Hungarian
-          magnate and from 1471 titular King of Bosnia. His border banates and
-          private troops formed an important part of Matthias&apos;s southern
-          defence system against the Ottomans.
-        </p>
-        <p>
-          <b>Melchior Löbel.</b> Commander of the German mercenary units of the
-          Black Army, documented especially in the Austrian campaigns.
-          Commanders of his kind provided the professional German component of
-          the army alongside the dominant Czechs and Hungarians.
         </p>
       </Col>
     </Row>
     <Row>
       <Col>
         <div className="anchor" id="mutiny" />
-        <h5>Mutiny and Dissolution of the Army (1490–1492)</h5>
+        <h5>The Break-up of the Army (1490–1493)</h5>
         <p>
-          Matthias Corvinus died suddenly in Vienna on <b>6 April 1490</b>, and
-          with him the Black Army lost its only real patron. His illegitimate
-          son John Corvinus failed to push through his candidacy, and the
-          Bohemian king Vladislaus II Jagiellon was elected King of Hungary; the
-          Hungarian estates found him acceptable above all because he promised
-          to abolish Matthias&apos;s extraordinary taxes. Cutting taxes by 70 to
-          80%, however, meant that the new ruler was unable to pay regular wages
-          to the army on which Matthias&apos;s power had rested.
+          After Matthias&apos;s death John Filipec won the army&apos;s commander
+          John Haugwitz over to the new king, Vladislaus II, for 100,000
+          florins. The mercenaries then helped Vladislaus keep his throne: they
+          drove the troops of Maximilian of Habsburg out of Hungary and defeated
+          the Polish prince John Albert, who also claimed the Hungarian crown.
+          Because of his promise to abolish the extraordinary tax, however,
+          Vladislaus had no money to pay them, and the barons did not want a
+          standing army.
           <Qt
-            publication={PUBLICATIONS.WIKI}
-            href="https://en.wikipedia.org/wiki/Black_Army_of_Hungary"
+            publication={PUBLICATIONS.MEL}
+            href="https://mek.oszk.hu/00300/00355/html/ABC05727/06061.htm"
           />
         </p>
         <p>
-          The mercenaries, whose pay began to fall months into arrears, resorted
-          to the traditional expedient of late medieval armies &ndash;
-          plundering the population. The complaints of the estates grew louder,
-          and the royal council had to deal with the army as an urgent political
-          threat. In the course of 1491 and 1492 part of the Black Army rose in
-          open mutiny in Transylvania and southern Hungary, where the largest
-          regiments were left without supplies. The mutineers set off along the
-          Tisza valley and began to ravage the countryside.
-        </p>
-        <p>
-          Vladislaus II entrusted the suppression of the mutiny to{' '}
-          <b>Pál Kinizsi</b>, ispán of Temes and captain-general of Lower
-          Hungary. The mutineers were led by <b>František Hág</b>, the former
-          captain of the Hussite fortress of Kosztolány. With his army and the
-          troops of the Serbian Jakšićs, Kinizsi caught up with the mutineers in
-          August 1492 at <b>Szegednic-Halászfalu</b> near Kiskunhalas in
-          southern Hungary. Matthias&apos;s former soldiers, a large proportion
-          of them Czech foot soldiers, were scattered in a short but bloody
-          battle. Some of the prisoners were executed, others were drafted into
-          the southern garrisons on the Turkish frontier. The remnants of the
-          army gradually disintegrated or hired themselves out to neighbouring
-          countries.
+          In 1492 the army was sent south against the Ottomans. The unpaid
+          mercenaries lived by plundering the countryside, and so, on the
+          barons&apos; orders, <b>Pál Kinizsi</b> attacked them at the end of
+          1492 at <b>Halászfalva</b> on the Sava near the town of Szegedinc
+          (today in Serbia) and scattered them in a bloody two-day battle. Of
+          some 8,000 men, Haugwitz escaped with about 2,000 to Austria, where
+          the remnants of the army were destroyed in the course of 1493.
+          <Qt
+            publication={PUBLICATIONS.MEL}
+            href="https://mek.oszk.hu/00300/00355/html/ABC05727/06061.htm"
+          />
           <Qt
             publication={PUBLICATIONS.WIKI}
-            href="https://en.wikipedia.org/wiki/Black_Army_of_Hungary"
+            href="https://hu.wikipedia.org/wiki/Hal%C3%A1szfalva"
           />
         </p>
       </Col>
