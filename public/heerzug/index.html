@@ -1,0 +1,551 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<base href="/heerzug/">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Heerzug v pohybu</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=UnifrakturMaguntia&display=swap">
+<style>
+  /* Celoobrazovková scéna, nahoře vlevo plovoucí list pergamenu s ovládáním. Jeden záměrný vzhled (pergamen a
+     inkoust Hausbuchu) – bez tmavé varianty, všechny barvy nastavené výslovně. */
+  :root {
+    --papir: #ece4d0;          /* pozadí scény */
+    --pergamen: rgba(247, 241, 227, 0.9);
+    --inkoust: #33291b;
+    --sepie: #6f5a3a;          /* popisky, nápověda */
+    --okraj: #c4b18a;
+    --tlacitko: #fbf7ec;
+    --tlacitko-aktivni: #e3d3a9;
+    --zvyrazneni: #7d2e1f;     /* rumělka iniciál */
+    --pismo-nadpis: "UnifrakturMaguntia", "Old English Text MT", Georgia, serif;
+    --pismo: "EB Garamond", Garamond, Georgia, "Times New Roman", serif;
+    --pismo-data: ui-monospace, Menlo, Consolas, monospace;
+    color-scheme: light;
+  }
+  html, body { margin: 0; height: 100%; background: var(--papir); overflow: hidden; font-family: var(--pismo); color: var(--inkoust); }
+  canvas { display: block; }
+  /* plátno má CSS filtr (úprava obrazu z 0 A.D.) – tím je samostatná vrstva a bez z-indexu by překrylo panely */
+  #panel, #predloha, #nacitani { z-index: 1; }
+  #panel { position: fixed; left: calc(16px + env(safe-area-inset-left, 0px)); top: calc(14px + env(safe-area-inset-top, 0px));
+           background: var(--pergamen); border: 1px solid var(--okraj); border-radius: 6px;
+           padding: 10px 14px 12px; max-width: min(430px, calc(100vw - 32px - env(safe-area-inset-left, 0px) - env(safe-area-inset-right, 0px)));
+           display: flex; flex-direction: column; gap: 6px; box-sizing: border-box; }
+  #panel h1 { font-family: var(--pismo-nadpis); font-weight: normal; font-size: 26px; line-height: 1.05; margin: 0; text-wrap: balance; }
+  #panel h1 b { color: var(--zvyrazneni); font-weight: normal; }
+  #panel .hlava { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
+  #panel #b_sbalit { font-size: 13px; padding: 0 8px; }
+  #panel.sbaleny .podtitul, #panel.sbaleny .radek, #panel.sbaleny #autori { display: none; }
+  /* nápisy vždy na jeden řádek (Martin) – menší písmo; na úzkém displeji se zkrátí výpustkou */
+  #panel .podtitul, #autori, #stav { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  #panel .podtitul { font-size: 12px; font-style: italic; color: var(--sepie); }
+  #panel .radek { display: flex; flex-wrap: wrap; gap: 4px; }
+  #panel .radek button { font-size: 14px; padding: 1px 8px; }
+  #panel button { font: inherit; font-size: 15px; background: var(--tlacitko); border: 1px solid var(--okraj); border-radius: 4px;
+                  padding: 2px 10px; cursor: pointer; color: var(--inkoust); }
+  #panel button:hover { border-color: var(--sepie); }
+  #panel button:focus-visible { outline: 2px solid var(--zvyrazneni); outline-offset: 1px; }
+  #panel button.aktivni { background: var(--tlacitko-aktivni); }
+  #autori { font-size: 10.5px; color: var(--sepie); }
+  #autori a { color: inherit; }
+  #stav { font-size: 10.5px; color: var(--sepie); font-family: var(--pismo-data); font-variant-numeric: tabular-nums; }
+  #nacitani { position: fixed; inset: 0; display: flex; align-items: center; justify-content: center; font-size: 20px; font-style: italic;
+              color: var(--sepie); pointer-events: none; }
+  #predloha { position: fixed; left: 0; right: 0; bottom: 0; background: var(--pergamen); border-top: 1px solid var(--okraj);
+              padding: 6px max(16px, env(safe-area-inset-right, 0px)) calc(10px + env(safe-area-inset-bottom, 0px)) max(16px, env(safe-area-inset-left, 0px)); }
+  #predloha img { width: 100%; max-height: 34vh; object-fit: contain; display: block; }
+  #predloha .popis { font-size: 13px; font-style: italic; color: var(--sepie); margin-bottom: 4px; }
+</style>
+<script type="importmap">
+{ "imports": {
+  "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js",
+  "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"
+} }
+</script>
+</head>
+<body>
+<div id="panel">
+  <div class="hlava"><h1><b>H</b>eerzug</h1><button id="b_sbalit" aria-expanded="true">Skrýt ovládání</button></div>
+  <div class="podtitul">Vozová hradba na pochodu · Mittelalterliches Hausbuch, fol. 51v–52r (kolem 1480)</div>
+  <div class="radek">
+    <button data-pohled="hausbuch" class="aktivni">Celek</button>
+    <button data-pohled="celo">Čelo</button>
+    <button data-pohled="blizko">Vozy</button>
+    <button data-pohled="zadni">Zadní voj</button>
+    <button data-pohled="shora">Shora</button>
+    <button data-pohled="krajina">Krajina</button>
+  </div>
+  <div class="radek">
+    <button id="b_pauza">Pauza</button>
+    <button id="b_styl">Styl: kresba</button>
+    <button id="b_predloha">Předloha</button>
+  </div>
+  <div id="autori">Krajina: keře, tráva, kameny, textury, obloha a osvětlení z <a href="https://play0ad.com/" target="_blank" rel="noopener">0 A.D.</a> © Wildfire Games, <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener">CC BY-SA 3.0</a></div>
+  <div id="stav"></div>
+</div>
+<div id="predloha" hidden>
+  <div class="popis">Předloha: Mittelalterliches Hausbuch (Wolfegg), fol. 51v–52r – Heerzug. Pochod jde doleva jako na kresbě.</div>
+  <img src="predloha.jpg" alt="Kresba vozové hradby na pochodu z Hausbuchu">
+</div>
+<div id="nacitani">Načítám pochod…</div>
+<script type="module">
+import * as THREE from "three";
+import { GLTFLoader } from "three/addons/loaders/GLTFLoader.js";
+import { MeshoptDecoder } from "three/addons/libs/meshopt_decoder.module.js";
+import { OrbitControls } from "three/addons/controls/OrbitControls.js";
+import * as SkeletonUtils from "three/addons/utils/SkeletonUtils.js";
+import { OutlineEffect } from "three/addons/effects/OutlineEffect.js";
+import { obarvitKone, konskyMaterial, nahodnaSrst, otezeZPopisu, pripravitDrevo } from "./heerzug.js?v=2";
+import { Krajina, PROSTREDI_0AD as P0 } from "./krajina.js?v=15";
+
+const RYCHLOST = 0.9;            // m/s – pochod v kroku (koně přirozeně 0,66, lidé 1,36 → oba klipy se přizpůsobí)
+const KROK_KONE = 1.09;          // m za cyklus chůze koně (horse.walk: kopyto v opoře 0,68 m za 25 ze 40 snímků)
+const CYKLUS_KONE = 40 / 24;
+const params = new URLSearchParams(location.search);
+const kotva = location.hash.slice(1);              // v Artifactu se dostane jen #kotva (kresba, celo, vozy, zadni, shora, krajina)
+const stav = document.getElementById("stav");
+
+// --- renderer, scéna -------------------------------------------------------------------------------
+const renderer = new THREE.WebGLRenderer({ antialias: true });
+renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
+renderer.setSize(innerWidth, innerHeight);
+renderer.shadowMap.enabled = !params.has("bezstinu");
+renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+renderer.domElement.style.filter = `contrast(${P0.postproc.kontrast}) saturate(${P0.postproc.sytost})`;   // úprava obrazu z 0 A.D.
+document.body.appendChild(renderer.domElement);
+
+const scene = new THREE.Scene();
+scene.background = new THREE.Color(...P0.mlha);
+// mlha z 0 A.D. (barva, exponenciála na druhou); hustota 0,0024 je pro herní mapu ~1 km – tady by schovala hory
+scene.fog = new THREE.FogExp2(new THREE.Color(...P0.mlha), 0.0001);
+const camera = new THREE.PerspectiveCamera(30, innerWidth / innerHeight, 0.5, 16000);
+const controls = new OrbitControls(camera, renderer.domElement);
+controls.enableDamping = true;
+controls.maxPolarAngle = Math.PI * 0.497;              // až k obzoru (krajina s horami)
+controls.minDistance = 4;
+controls.maxDistance = 400;
+window.LADENI = { camera, controls, get pochod() { return pochod; }, get mixery() { return mixery; }, get gesta() { return gesta; } };                  // pro ladění z konzole
+
+// osvětlení z 0 A.D. (mírné pásmo): slunce a jedno okolní světlo; intenzita π = jednotková difúzní odezva jako ve hře
+scene.add(new THREE.AmbientLight(new THREE.Color(...P0.okoli), Math.PI));
+const slunce = new THREE.DirectionalLight(new THREE.Color(...P0.slunce), Math.PI);
+const SMER_SLUNCE = new THREE.Vector3(-0.555 * Math.cos(P0.vyskaSlunce), Math.sin(P0.vyskaSlunce),
+  -0.832 * Math.cos(P0.vyskaSlunce)).normalize();          // výška z 0 A.D., zepředu zleva jako v renderech
+slunce.castShadow = true;
+slunce.shadow.mapSize.set(4096, 4096);
+Object.assign(slunce.shadow.camera, { left: -55, right: 55, top: 30, bottom: -30, near: 1, far: 200 });
+slunce.shadow.bias = -0.0004;
+scene.add(slunce, slunce.target);
+
+// krajina z 0 A.D. (krajina.js): opakující se díl s poli, kopci a lesy, hory v dálce – nekonečná smyčka
+const krajina = new Krajina(scene, (soubor) => nacti(soubor));
+krajina.nastavSlunce(SMER_SLUNCE);
+
+// --- styl kresby: obrysy perem (OutlineEffect), ploché akvarelové barvy (toon), papír bez stínů ----------
+const obrysy = new OutlineEffect(renderer, { defaultThickness: 0.0035, defaultColor: [0.17, 0.13, 0.08], defaultAlpha: 0.9 });
+const stupne = new THREE.DataTexture(new Uint8Array([150, 215, 255]), 3, 1, THREE.RedFormat);
+stupne.needsUpdate = true;
+const toon = new Map();                            // původní materiál → toon se stejnou barvou vrcholů
+const obrysParam = { thickness: 0.0035, color: [0.17, 0.13, 0.08], alpha: 0.9, visible: true };
+function toonPro(m) {
+  if (!toon.has(m)) {
+    const z = m.userData.puvodni || m;
+    // dřevo v kresbě bez letokruhů – ploché akvarelové barvy (barva vrcholů = průměrný odstín dílu)
+    let t = new THREE.MeshToonMaterial({ vertexColors: z.vertexColors, color: z.userData.drevo ? 0xffffff : z.color, gradientMap: stupne, side: THREE.DoubleSide });
+    t = m.userData.prebarveni ? prebarvenyMaterial(t, ...m.userData.prebarveni)
+      : m.userData.srst ? konskyMaterial(t, ...m.userData.srst) : bezAlfy(t);
+    t.userData.puvodni = m;
+    t.userData.outlineParameters = obrysParam;     // sdílený objekt – tloušťka podle vzdálenosti kamery
+    toon.set(m, t);
+  }
+  return toon.get(m);
+}
+let kresba = params.get("styl") === "kresba" || kotva === "kresba";
+function nastavStyl() {
+  pochod.traverse((o) => {
+    if (!o.isMesh) return;
+    const real = o.material.isMeshToonMaterial ? o.material.userData.puvodni : o.material;   // materiál realistického stylu
+    o.material = kresba ? toonPro(real) : real;
+    o.castShadow = !kresba;
+  });
+  renderer.shadowMap.enabled = !kresba && !params.has("bezstinu");
+  krajina.nastavStyl(kresba, scene);                // kresba: papír, terén do světlých akvarelových tónů
+  document.getElementById("b_styl").textContent = kresba ? "Styl: realita" : "Styl: kresba";
+}
+document.getElementById("b_styl").addEventListener("click", () => { kresba = !kresba; nastavStyl(); });
+document.getElementById("b_sbalit").addEventListener("click", (e) => {
+  const p = document.getElementById("panel");
+  const sbaleny = p.classList.toggle("sbaleny");
+  e.target.textContent = sbaleny ? "Ovládání" : "Skrýt ovládání";
+  e.target.setAttribute("aria-expanded", String(!sbaleny));
+});
+document.getElementById("b_predloha").addEventListener("click", (e) => {
+  const p = document.getElementById("predloha");
+  p.hidden = !p.hidden;
+  e.target.classList.toggle("aktivni", !p.hidden);
+});
+
+// --- načtení ----------------------------------------------------------------------------------------
+const loader = new GLTFLoader();
+loader.setMeshoptDecoder(MeshoptDecoder);
+loader.setRequestHeader({ "Cache-Control": "no-cache" });   // modely se při vývoji mění – vždy ověřit novou verzi
+const cache = new Map();
+function nacti(soubor) {
+  if (!cache.has(soubor)) {
+    cache.set(soubor, new Promise((ok) => loader.load(`modely/${soubor}.glb`, (g) => { pripravitDrevo(g.scene); ok(g); }, undefined, () => ok(null))));
+  }
+  return cache.get(soubor);
+}
+async function meta(soubor) {
+  try { return await (await fetch(`modely/${soubor}.json`, { cache: "no-cache" })).json(); } catch { return null; }
+}
+function souborTypu(typ, i) {
+  if (typ.startsWith("jizda_")) {
+    const z = typ.slice(6);                       // jezdec_ZA, jezdec_ZA_korouhev …
+    return z;                                       // jen jezdec; kůň je sdílený (web_jezdec.py)
+  }
+  if (typ.startsWith("pes_")) return typ;
+  return "pechota_" + typ;
+}
+function hash(n) { let x = Math.sin(n * 127.1 + 311.7) * 43758.5453; return x - Math.floor(x); }
+
+// pestré barvy houfů jako v renderech (pechota_houf.PALETA_*): kabátce a nohavice z palety kresby, asi třetina
+// kopií si nechá barvy vzoru; zvláštní postavy podle kresby se nepřebarvují (NEPREBARVOVAT)
+const PALETA_KABAT = [[0.18, 0.32, 0.62], [0.5, 0.64, 0.82], [0.3, 0.45, 0.3], [0.2, 0.36, 0.24], [0.7, 0.45, 0.45], [0.5, 0.18, 0.15], [0.55, 0.52, 0.46]];
+const PALETA_NOHAVICE = [[0.6, 0.58, 0.52], [0.62, 0.6, 0.55], [0.55, 0.52, 0.46], [0.4, 0.48, 0.6], [0.3, 0.42, 0.28], [0.62, 0.42, 0.4], [0.4, 0.08, 0.07]];
+const NEPREBARVOVAT = /jezdec_(Z1|Z4|J\d|Z1b|Z6|Z7)|sekernik|pistec|bubenik|muz_O5|zena_O5/;
+// druh látky je v průhlednosti barvy vrcholů (web_export.web_materialy): 1 ostatní, 0,75 svrchník, 0,5 nohavice
+const druhLatky = (a) => (a > 0.62 && a < 0.88 ? 1 : a > 0.37 && a <= 0.62 ? 2 : 0);
+function maDruhy(g) {
+  const c = g.attributes.color;
+  if (!c || c.itemSize < 4) return false;
+  for (let i = 0; i < c.count; i += 7) if (druhLatky(c.getW(i))) return true;
+  return false;
+}
+const SHADER_ALFA = "diffuseColor.a = opacity;";   // průhlednost barvy vrcholů nese druh látky, ne krytí
+function bezAlfy(m) {                              // materiál, který průhlednost barvy vrcholů ignoruje
+  if (m.userData.bezAlfy) return m;
+  m.onBeforeCompile = (sh) => {
+    sh.fragmentShader = sh.fragmentShader.replace("#include <color_fragment>", "#include <color_fragment>\n" + SHADER_ALFA);
+  };
+  m.customProgramCacheKey = () => "bezalfy_" + m.type;
+  m.userData.bezAlfy = true;
+  return m;
+}
+const prumerne = new WeakMap();                    // geometrie → průměrná barva vrcholů kabátce / nohavic
+function prumerBarvy(g) {
+  if (prumerne.has(g)) return prumerne.get(g);
+  const c = g.attributes.color, s = [[0, 0, 0, 0], [0, 0, 0, 0]];
+  if (c && c.itemSize === 4) for (let i = 0; i < c.count; i++) {
+    const d = druhLatky(c.getW(i)) - 1;
+    if (d === 0 || d === 1) { s[d][0] += c.getX(i); s[d][1] += c.getY(i); s[d][2] += c.getZ(i); s[d][3]++; }
+  }
+  const r = s.map((a) => a[3] ? [a[0] / a[3], a[1] / a[3], a[2] / a[3]] : [1, 1, 1]);
+  prumerne.set(g, r);
+  return r;
+}
+function prebarvenyMaterial(m, nasobKabat, nasobNohavice) {
+  const n = m.clone();
+  n.userData.puvodni = m.userData.puvodni || m;
+  n.userData.prebarveni = [nasobKabat, nasobNohavice];
+  n.onBeforeCompile = (sh) => {
+    sh.uniforms.uKabat = { value: new THREE.Vector3(...nasobKabat) };
+    sh.uniforms.uNohavice = { value: new THREE.Vector3(...nasobNohavice) };
+    sh.fragmentShader = "uniform vec3 uKabat;\nuniform vec3 uNohavice;\n" + sh.fragmentShader.replace("#include <color_fragment>",
+      "#include <color_fragment>\n#ifdef USE_COLOR_ALPHA\nif (vColor.a > 0.62 && vColor.a < 0.88) diffuseColor.rgb *= uKabat;\n" +
+      "else if (vColor.a > 0.37 && vColor.a <= 0.62) diffuseColor.rgb *= uNohavice;\n#endif\n" + SHADER_ALFA);
+  };
+  n.customProgramCacheKey = () => "prebarveni_" + m.type;
+  return n;
+}
+
+const pochod = new THREE.Group();                  // celý pochod – posouvá se k +x
+scene.add(pochod);
+const mixery = [];
+const oteze = [];                                  // otěže stálé délky, napínají se a prověšují s hlavou koně
+const kola = [];                                   // {uzel, r}
+let trojuhelniku = 0, objektu = 0;
+
+// Blender ukládá snímek 1 do času 1/fps: klip by začínal držením první pózy a smyčka by byla o snímek delší (chodidla
+// by klouzala) → časy posunout na nulu a délku nastavit na skutečnou periodu (pěšák, pes: .json; kůň: 40 snímků).
+const upraveneKlipy = new WeakSet();
+function smycka(klip, perioda) {
+  if (!upraveneKlipy.has(klip)) {
+    upraveneKlipy.add(klip);
+    const t0 = Math.min(...klip.tracks.map((t) => t.times[0]));
+    // pole časů sdílí víc stop (GLTFLoader – jeden vstup sampleru) → každé pole posunout jen jednou
+    if (t0 > 0 && t0 < 0.2) for (const p of new Set(klip.tracks.map((t) => t.times))) for (let i = 0; i < p.length; i++) p[i] -= t0;
+    if (perioda) {
+      klip.duration = perioda;
+      // poslední klíč leží před koncem smyčky (gltfpack převzorkuje na 30 Hz, některé klipy nemají závěrečný snímek)
+      // → doplnit klíč rovný prvnímu v čase periody, jinak postava na konci smyčky na okamžik ztuhne
+      klip.tracks = klip.tracks.map((t) => {
+        const n = t.times.length, k = t.getValueSize();
+        if (n < 2 || t.times[n - 1] >= perioda - 1e-4) return t;
+        const casy = new Float32Array(n + 1), hodnoty = new Float32Array(t.values.length + k);
+        casy.set(t.times); casy[n] = perioda;
+        hodnoty.set(t.values); hodnoty.set(t.values.subarray(0, k), t.values.length);
+        return new t.constructor(t.name, casy, hodnoty, t.getInterpolation());
+      });
+    }
+  }
+  return klip;
+}
+
+// Gesto (vozkové: švih bičem, web_vuz.gesto_bice): v souboru za smyčkou kroku (snímky gesto.od–gesto.do, 24 fps).
+// Krok se rozdělí na tělo a kosti gesta (paže, trup), aby gesto paži přebilo – míchání dvou akcí se stejnou
+// vahou by dalo průměr obou póz.
+const rozdeleneKlipy = new WeakMap();
+function vyrez(t, t0, t1, krok = 1 / 30) {         // stopa převzorkovaná na <t0, t1> a posunutá na nulu
+  const n = Math.round((t1 - t0) / krok) + 1, k = t.getValueSize(), ip = t.createInterpolant();
+  const casy = new Float32Array(n), hodnoty = new Float32Array(n * k);
+  for (let i = 0; i < n; i++) {
+    const c = Math.min(t0 + i * krok, t1);
+    casy[i] = c - t0;
+    hodnoty.set(ip.evaluate(c), i * k);
+  }
+  return new t.constructor(t.name, casy, hodnoty, t.getInterpolation());
+}
+function rozdelit(klip, gesto) {
+  if (!rozdeleneKlipy.has(klip)) {
+    const kosti = new Set(gesto.kosti.map((k) => THREE.PropertyBinding.sanitizeNodeName(k)));
+    const jeGesto = (t) => kosti.has(THREE.PropertyBinding.parseTrackName(t.name).nodeName);
+    const t0 = (gesto.od - 1) / 24, t1 = (gesto.do - 1) / 24;   // snímek 1 je po smycka() v čase 0
+    rozdeleneKlipy.set(klip, {
+      telo: new THREE.AnimationClip("krok_telo", klip.duration, klip.tracks.filter((t) => !jeGesto(t))),
+      ruka: new THREE.AnimationClip("krok_ruka", klip.duration, klip.tracks.filter(jeGesto)),
+      gesto: new THREE.AnimationClip("gesto", t1 - t0, klip.tracks.filter(jeGesto).map((t) => vyrez(t, t0, t1))),
+    });
+  }
+  return rozdeleneKlipy.get(klip);
+}
+const gesta = [];
+const PROLNUTI = 0.15;                             // s – gesto vozky začíná i končí v klidové póze, prolnutí jen pro jistotu
+function gestaKrok(dt) {                           // každý švihne / mávne jednou za 4–12 s, každý jindy
+  for (const g of gesta) {
+    if (g.t < 0) {
+      if ((g.za -= dt) > 0) continue;
+      g.t = 0;
+      g.gesto.reset().play();
+    } else g.t += dt;
+    const d = g.gesto.getClip().duration;
+    if (g.t >= d) {
+      g.gesto.stop();
+      g.ruka.setEffectiveWeight(1);
+      g.t = -1;
+      g.za = 4 + 8 * Math.random();
+      continue;
+    }
+    const w = THREE.MathUtils.clamp(Math.min(g.t, d - g.t) / g.prolnuti, 0, 1);
+    g.gesto.setEffectiveWeight(w);
+    g.ruka.setEffectiveWeight(1 - w);
+  }
+}
+
+function pridat(gltf, poloha, rot, meritko, faze, rychlostAnimace, pestre = null, perioda = null, gesto = null) {
+  const kopie = SkeletonUtils.clone(gltf.scene);
+  kopie.position.copy(poloha);
+  kopie.rotation.y = rot;
+  kopie.scale.setScalar(meritko);
+  kopie.traverse((o) => {
+    if (o.isMesh) {
+      o.castShadow = true;
+      o.receiveShadow = false;
+      o.frustumCulled = false;                       // kostra hýbe sítí mimo původní obal
+      const g = o.geometry;
+      trojuhelniku += (g.index ? g.index.count : g.attributes.position.count) / 3;
+      if (o.material.vertexColors) o.material = bezAlfy(o.material);
+      if (pestre && maDruhy(g)) {                    // kabátec a nohavice v barvě z palety (násobek k průměru vzoru)
+        const [pk, pn] = prumerBarvy(g);
+        const nk = pestre.kabat ? pestre.kabat.map((v, j) => v / Math.max(pk[j], 0.02)) : [1, 1, 1];
+        const nn = pestre.nohavice ? pestre.nohavice.map((v, j) => v / Math.max(pn[j], 0.02)) : [1, 1, 1];
+        o.material = prebarvenyMaterial(o.material, nk, nn);
+      }
+    }
+  });
+  pochod.add(kopie);
+  objektu++;
+  if (gltf.animations.length) {
+    const m = new THREE.AnimationMixer(kopie);
+    const klip = smycka(gltf.animations[0], perioda);
+    const casti = gesto ? rozdelit(klip, gesto) : null;
+    const akce = (casti ? [casti.telo, casti.ruka] : [klip]).map((k) => {
+      const a = m.clipAction(k);
+      a.play();
+      a.timeScale = rychlostAnimace;
+      return a;
+    });
+    m.setTime(faze * klip.duration / rychlostAnimace);
+    mixery.push(m);
+    if (casti) {
+      const g = m.clipAction(casti.gesto);
+      g.setLoop(THREE.LoopOnce, 1);
+      g.clampWhenFinished = true;
+      // pěšák mávne z kmitající ruky (smyčka kroku je v jiné fázi než začátek gesta) → delší prolnutí
+      gesta.push({ ruka: akce[1], gesto: g, t: -1, za: 1 + 8 * Math.random(), prolnuti: gesto.prolnuti || PROLNUTI });
+    }
+  }
+  return kopie;
+}
+
+const blender = (x, y, z) => new THREE.Vector3(x, z, -y);   // Blender (x, y, z) → three.js (x, z, −y)
+
+const nacitani = document.getElementById("nacitani");
+let hotovo = 0, celkem = 0;
+const postup = () => { hotovo++; nacitani.textContent = `Načítám pochod… ${hotovo} / ${celkem}`; };
+async function postavit() {
+  const rozvrh = await (await fetch("rozvrh.json", { cache: "no-cache" })).json();
+  celkem = rozvrh.vozy.length + rozvrh.postavy.length;
+  const ulohy = [];
+  // vozy se zápřahy
+  for (const v of rozvrh.vozy) {
+    ulohy.push((async () => {
+      const m = (await meta(`vuz_${v.i}`)) || {};
+      // vůz podle druhu je sdílený (vuz_delovy, vuz_proutenny), vozka a zápřah zvlášť; starší vuz_<i> nese vůz i vozku
+      const [g, gv, md, gt, mt] = await Promise.all([nacti(m.vuz || `vuz_${v.i}`), m.vozka_soubor ? nacti(m.vozka_soubor) : null,
+        m.vuz ? meta(m.vuz) : null, m.tym ? nacti(m.tym) : null, m.tym ? meta(m.tym) : null]);
+      if (!g) return;
+      const rych = RYCHLOST * CYKLUS_KONE / KROK_KONE, faze = hash(v.i), kde = blender(v.x, v.y, v.z);
+      const k = pridat(g, kde, 0, 1, faze, rych, null, CYKLUS_KONE);
+      const vozka = gv ? pridat(gv, kde, 0, 1, faze, rych, null, CYKLUS_KONE, m.gesto) : k;
+      if (gt) {                                     // sdílený zápřah: stejná smyčka i čas, srst koní podle vozu
+        const tym = pridat(gt, kde, 0, 1, faze, rych, null, CYKLUS_KONE);
+        for (const [kun, [srst, jas]] of Object.entries(m.srsti || {})) {
+          const uzel = tym.getObjectByName(kun + "_sit");
+          if (uzel) obarvitKone(uzel, srst, jas);
+        }
+        oteze.push(...otezeZPopisu(m.oteze, { tym, vuz: k, vozka }), ...otezeZPopisu(mt?.oteze, { tym, vuz: k, vozka }));
+      }
+      postup();
+      for (const [jmeno, r] of Object.entries(md?.kola || m.kola || {})) {
+        const uzel = k.getObjectByName(jmeno);
+        if (uzel) kola.push({ uzel, r });
+      }
+    })());
+  }
+  // pěchota, jezdci, psi
+  rozvrh.postavy.forEach((p, i) => {
+    ulohy.push((async () => {
+      const soubor = souborTypu(p.typ, i);
+      const g = await nacti(soubor);
+      if (!g) return;
+      let rychlost = 1, perioda = null, mj = null, gk = null, gesto = null;
+      if (soubor.startsWith("pechota_") || soubor.startsWith("pes_")) {   // klus psa jako krok pěšáka
+        const m = await meta(soubor);
+        if (m) { rychlost = RYCHLOST * m.cyklus_s / m.cyklus_m; perioda = m.cyklus_s; gesto = m.gesto; }
+      } else if (soubor.startsWith("jezdec_")) {
+        rychlost = RYCHLOST * CYKLUS_KONE / KROK_KONE;
+        perioda = CYKLUS_KONE;
+        mj = await meta(soubor);
+        gk = mj ? await nacti(mj.kun) : null;        // sdílený kůň (sedlo, uzda, řemení)
+      }
+      const faze = (p.faze / Math.max(1, p.n_fazi) + 0.13 * hash(i)) % 1;
+      let pestre = null;
+      if (!NEPREBARVOVAT.test(soubor) && !soubor.startsWith("pes_")) {
+        pestre = {
+          kabat: hash(i + 0.5) < 0.35 ? null : PALETA_KABAT[Math.floor(hash(i + 1.7) * PALETA_KABAT.length)],
+          nohavice: hash(i + 2.3) < 0.35 ? null : PALETA_NOHAVICE[Math.floor(hash(i + 3.1) * PALETA_NOHAVICE.length)],
+        };
+      }
+      const kopie = pridat(g, blender(p.x, p.y, p.z), p.rot, p.s, faze, rychlost, pestre, perioda, gesto);
+      if (gk) {                                     // kůň pod jezdcem: stejné místo, smyčka i čas
+        const kun = pridat(gk, blender(p.x, p.y, p.z), p.rot, p.s, faze, rychlost, null, perioda);
+        if (!mj.pevna_srst) {                       // zadní voj: srst podle běžnosti, čelo podle kresby
+          const dav = /jezdec_Z[AB]/.test(soubor);
+          obarvitKone(kun, dav ? nahodnaSrst(hash(i + 5.5)) : mj.srst, dav ? 0.4 * hash(i + 7.7) - 0.2 : 0);
+        }
+        oteze.push(...otezeZPopisu(mj.oteze, { kun, jezdec: kopie }));
+      }
+      postup();
+    })());
+  });
+  await Promise.all(ulohy);
+  for (const o of oteze) scene.add(o.mesh);
+  nacitani.remove();
+  stav.textContent = `${objektu} objektů · ${(trojuhelniku / 1e6).toFixed(2)} mil. trojúhelníků`;
+}
+
+// --- pohledy ----------------------------------------------------------------------------------------
+const POHLEDY = {   // poloha kamery vůči středu pochodu (three.js souřadnice; divák na straně −z = +y Blenderu)
+  hausbuch: { kde: new THREE.Vector3(0, 41, -93), cil: new THREE.Vector3(0, 1.2, -1.5) },
+  // tři výřezy jako tři strany kresby (pechota_houf.PANELY): ~18° shora, ~40 m daleko
+  celo: { kde: new THREE.Vector3(28, 14.4, -44), cil: new THREE.Vector3(28, 1, -4.5) },
+  blizko: { kde: new THREE.Vector3(4, 14.4, -44), cil: new THREE.Vector3(4, 1, -4.5) },
+  zadni: { kde: new THREE.Vector3(-23, 14.4, -44), cil: new THREE.Vector3(-23, 1, -4.5) },
+  shora: { kde: new THREE.Vector3(0, 120, -10), cil: new THREE.Vector3(0, 0, 0) },
+  krajina: { kde: new THREE.Vector3(24, 17, -82), cil: new THREE.Vector3(4, 13, 190) },    // nízko, obzor s horami
+};
+const STRED = new THREE.Vector3(-19, 0, 0);        // střed pochodu v rozvrhu (x): čelo ~17, konec zadního voje ~−55
+const SIRKA_POCHODU = 98;                         // m – čelo až zadní voj s okrajem
+function celekNaSirku() {                          // jako vlys: ~24° shora, vzdálenost tak, aby se pochod vešel na šířku
+  const hfov = 2 * Math.atan(Math.tan(THREE.MathUtils.degToRad(camera.fov) / 2) * camera.aspect);
+  const d = Math.max(60, (SIRKA_POCHODU / 2) / Math.tan(hfov / 2));
+  const uhel = THREE.MathUtils.degToRad(24);
+  return { kde: new THREE.Vector3(0, 1.2 + d * Math.sin(uhel), -1.5 - d * Math.cos(uhel)), cil: new THREE.Vector3(0, 1.2, -1.5) };
+}
+function nastavPohled(jm) {
+  const p = jm === "hausbuch" ? celekNaSirku() : POHLEDY[jm];
+  const s = STRED.clone().add(pochod.position);
+  camera.position.copy(s).add(p.kde);
+  controls.target.copy(s).add(p.cil);
+  controls.update();
+  document.querySelectorAll("[data-pohled]").forEach((b) => b.classList.toggle("aktivni", b.dataset.pohled === jm));
+}
+document.querySelectorAll("[data-pohled]").forEach((b) => b.addEventListener("click", () => nastavPohled(b.dataset.pohled)));
+let pauza = false;
+document.getElementById("b_pauza").addEventListener("click", (e) => {
+  pauza = !pauza;
+  e.target.textContent = pauza ? "Pokračovat" : "Pauza";
+});
+
+// --- smyčka -----------------------------------------------------------------------------------------
+const clock = new THREE.Clock();
+let fpsCas = 0, fpsSnimku = 0, fps = 0, casAnimaci = 0;
+function snimek() {
+  const dt = Math.min(clock.getDelta(), 0.1);
+  if (!pauza) {
+    const dx = RYCHLOST * dt;
+    pochod.position.x += dx;
+    camera.position.x += dx;                         // kamera jede s pochodem
+    controls.target.x += dx;
+    const t0 = performance.now();
+    gestaKrok(dt);
+    for (const m of mixery) m.update(dt);
+    casAnimaci = 0.95 * casAnimaci + 0.05 * (performance.now() - t0);
+    for (const k of kola) k.uzel.rotation.z -= dx / k.r;
+  }
+  if (oteze.length) {                               // otěže podle aktuální polohy kroužků udidel a pěstí
+    pochod.updateMatrixWorld(true);
+    for (const o of oteze) o.update();
+  }
+  // krajina se přeskládá kolem kamery (díly po L, tráva po záplatách), stín sleduje kameru
+  krajina.update(controls.target);
+  slunce.position.copy(controls.target).addScaledVector(SMER_SLUNCE, 80);
+  slunce.target.position.set(controls.target.x, 0, controls.target.z);
+  controls.update();
+  if (kresba) {                                      // obrys perem tenčí s odstupem, ať malé postavy v celku nesplynou
+    obrysParam.thickness = THREE.MathUtils.clamp(0.1 / camera.position.distanceTo(controls.target), 0.0005, 0.0035);
+    obrysy.render(scene, camera);
+  } else renderer.render(scene, camera);
+  fpsSnimku++;
+  fpsCas += dt;
+  if (fpsCas > 1) {
+    fps = fpsSnimku / fpsCas; fpsCas = 0; fpsSnimku = 0;
+    window.FPS = fps; window.CAS_ANIMACI = casAnimaci;
+    if (window.HOTOVO) stav.textContent = `${objektu} objektů · ${(trojuhelniku / 1e6).toFixed(2)} mil. trojúhelníků · ${fps.toFixed(0)} fps · animace ${casAnimaci.toFixed(1)} ms`;
+  }
+}
+nastavPohled(params.get("pohled") || ({ celo: "celo", vozy: "blizko", zadni: "zadni", shora: "shora", krajina: "krajina" })[kotva] ||
+             (innerWidth < 700 ? "blizko" : "hausbuch"));   // na úzkém displeji by celek byl drobný
+renderer.setAnimationLoop(snimek);
+Promise.all([postavit(), krajina.postavit()]).then(() => { nastavStyl(); window.HOTOVO = true; window.KRAJINA = krajina; });
+addEventListener("resize", () => {
+  camera.aspect = innerWidth / innerHeight;
+  camera.updateProjectionMatrix();
+  renderer.setSize(innerWidth, innerHeight);
+});
+</script>
+</body>
+</html>

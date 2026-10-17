@@ -36,6 +36,10 @@ module.exports = {
         source: '/prezentace/cesti-zoldneri-v-risi/:lang(cs|en|de|it)',
         destination: '/prezentace/cesti-zoldneri-v-risi/:lang/index.html',
       },
+      {
+        source: '/heerzug',
+        destination: '/heerzug/index.html',
+      },
     ]
   },
 
