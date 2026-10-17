@@ -51,8 +51,13 @@
   #autori { font-size: 10.5px; color: var(--sepie); }
   #autori a { color: inherit; }
   #stav { font-size: 10.5px; color: var(--sepie); font-family: var(--pismo-data); font-variant-numeric: tabular-nums; }
-  #nacitani { position: fixed; inset: 0; display: flex; align-items: center; justify-content: center; font-size: 20px; font-style: italic;
-              color: var(--sepie); pointer-events: none; }
+  /* načítání v okénku (pergamen jako panel) – průhledný nápis přes celou obrazovku překrývaly přibývající vozy */
+  #nacitani { position: fixed; left: 50%; top: 50%; transform: translate(-50%, -50%); background: var(--pergamen);
+              border: 1px solid var(--okraj); border-radius: 6px; padding: 12px 20px 14px; min-width: 220px;
+              box-shadow: 0 2px 14px rgba(51, 41, 27, 0.18); pointer-events: none; text-align: center; }
+  #nacitani .text { font-size: 18px; font-style: italic; color: var(--sepie); white-space: nowrap; }
+  #nacitani .lista { margin-top: 8px; height: 4px; background: var(--okraj); border-radius: 2px; overflow: hidden; }
+  #nacitani .lista div { height: 100%; width: 0; background: var(--zvyrazneni); transition: width 0.2s; }
   #predloha { position: fixed; left: 0; right: 0; bottom: 0; background: var(--pergamen); border-top: 1px solid var(--okraj);
               padding: 6px max(16px, env(safe-area-inset-right, 0px)) calc(10px + env(safe-area-inset-bottom, 0px)) max(16px, env(safe-area-inset-left, 0px)); }
   #predloha img { width: 100%; max-height: 34vh; object-fit: contain; display: block; }
@@ -89,7 +94,7 @@
   <div class="popis">Předloha: Mittelalterliches Hausbuch (Wolfegg), fol. 51v–52r – Heerzug. Pochod jde doleva jako na kresbě.</div>
   <img src="predloha.jpg" alt="Kresba vozové hradby na pochodu z Hausbuchu">
 </div>
-<div id="nacitani">Načítám pochod…</div>
+<div id="nacitani" role="status"><div class="text">Načítám pochod…</div><div class="lista"><div></div></div></div>
 <script type="module">
 import * as THREE from "three";
 import { GLTFLoader } from "three/addons/loaders/GLTFLoader.js";
@@ -394,7 +399,11 @@ const blender = (x, y, z) => new THREE.Vector3(x, z, -y);   // Blender (x, y, z)
 
 const nacitani = document.getElementById("nacitani");
 let hotovo = 0, celkem = 0;
-const postup = () => { hotovo++; nacitani.textContent = `Načítám pochod… ${hotovo} / ${celkem}`; };
+const postup = () => {
+  hotovo++;
+  nacitani.querySelector(".text").textContent = `Načítám pochod… ${hotovo} / ${celkem}`;
+  nacitani.querySelector(".lista div").style.width = `${(100 * hotovo) / celkem}%`;
+};
 async function postavit() {
   const rozvrh = await (await fetch("rozvrh.json", { cache: "no-cache" })).json();
   celkem = rozvrh.vozy.length + rozvrh.postavy.length;
